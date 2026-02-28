@@ -11,7 +11,7 @@
 [![贡献指南](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 ## 📖 目录
-- [基础知识](docs/00-basics.md) – 入门书籍、课程、术语表
+- [基础知识](00-basics.md) – 入门书籍、课程、术语表
 - [具身智能公司](docs/01-companies.md) – 国内外代表公司及产品简介
 - [招聘信息](docs/02-jobs.md) – 全职/实习/校招岗位（持续更新）
 - [论文&代码库](docs/03-papers-code.md) – 顶会论文、开源实现、数据集
