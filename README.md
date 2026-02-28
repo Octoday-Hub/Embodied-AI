@@ -1,3 +1,6 @@
+<img width="1280" height="400" alt="Head Banner2" src="https://github.com/user-attachments/assets/37c4adab-2313-442b-9d9a-a978df1895a4" />
+
+<div align="center">
 # 🤖 Embodied-AI · 具身智能
 
 > 一份持续更新的具身智能（Embodied AI）领域结构化资源索引，涵盖公司、招聘、论文、代码库、数据集、学习路径等。旨在降低中文开发者的信息检索门槛，共建行业知识地图。
