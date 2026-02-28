@@ -1,1 +1,37 @@
-# Embodied-AI
+# 🤖 Embodied-AI · 具身智能
+
+> 一份持续更新的具身智能（Embodied AI）领域结构化资源索引，涵盖公司、招聘、论文、代码库、数据集、学习路径等。旨在降低中文开发者的信息检索门槛，共建行业知识地图。
+
+[![GitHub stars](https://img.shields.io/github/stars/LILAN-00/Octoday-Robotics?style=social)](https://github.com/LILAN-00/Octoday-Robotics/stargazers)
+[![更新状态](https://img.shields.io/badge/更新频率-每周-blue)](https://github.com/LILAN-00/Octoday-Robotics)
+[![贡献指南](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
+
+## 📖 目录
+- [基础知识](docs/00-basics.md) – 入门书籍、课程、术语表
+- [具身智能公司](docs/01-companies.md) – 国内外代表公司及产品简介
+- [招聘信息](docs/02-jobs.md) – 全职/实习/校招岗位（持续更新）
+- [论文&代码库](docs/03-papers-code.md) – 顶会论文、开源实现、数据集
+- [开源项目](docs/04-open-source.md) – 仿真环境、机器人中间件、硬件方案
+- [学习社区](docs/05-community.md) – 博客、自媒体、高校实验室
+- [行业报告](docs/06-reports.md) – 白皮书、政策文件、市场分析
+- [贡献指南](CONTRIBUTING.md) – 如何参与共建
+
+## 🚀 快速开始
+直接浏览目录，找到你感兴趣的板块即可。  
+如果你是初学者，建议从 [基础知识](docs/00-basics.md) 入手。
+
+## 📅 更新日志
+- **2025-02-26**：项目初始化，搭建框架，收录首批10家公司和5篇顶会论文。
+- 更多历史更新详见 [CHANGELOG.md](CHANGELOG.md)
+
+## 🤝 如何贡献
+我们欢迎任何形式的贡献，包括但不限于：
+- 提交新的资源链接（公司、论文、数据集等）
+- 修正错误或失效链接
+- 翻译英文资料
+- 提出改进建议
+
+请阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 了解详情。
+
+## 📄 许可证
+本项目采用 MIT 许可证。详细信息请查看 [LICENSE](LICENSE) 文件。
