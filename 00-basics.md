@@ -19,7 +19,7 @@
 顶尖大学的公开课是快速入门的最佳途径：
 
 *   **CS223A：Introduction to Robotics（斯坦福大学）**
-    *   **讲师**：Oussama Khatib
+    *   **讲师**：Oussama Khatib 
     *   **内容**：涵盖机器人运动学、动力学、控制等核心基础。
     *   **链接**：[斯坦福官网课程主页](https://see.stanford.edu/Course/CS223A) (含视频和讲义)
 
