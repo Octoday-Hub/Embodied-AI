@@ -16,7 +16,7 @@
 - [招聘信息](02-jobs.md) – 全职/实习/校招岗位（持续更新）
 - [论文&代码库](docs/03-papers-code.md) – 顶会论文、开源实现、数据集
 - [开源项目](docs/04-open-source.md) – 仿真环境、机器人中间件、硬件方案
-- [学习社区](docs/05-community.md) – 博客、自媒体、高校实验室
+- [学习社区](docs/05-community.md) – 博客、自媒体、高校实验室 
 - [贡献指南](CONTRIBUTING.md) – 如何参与共建
 
 ## 🚀 快速开始
