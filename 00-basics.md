@@ -46,13 +46,13 @@
 ## 📖 核心术语表
 理解这些关键词，能帮你更快地阅读论文和交流：
 
-*   **具身智能 (Embodied AI / Embodied Intelligence)**
+*   **Embodied AI/ Embodied Intelligence(具身智能)**
     *   强调智能不仅存在于算法中，更通过物理身体与环境的实时交互来产生和体现。核心是“身体-环境-大脑”的闭环。
 
 *   **Sim2Real (Simulation to Reality)**
     *   将在仿真环境（如MuJoCo、Isaac Sim）中训练得到的策略（Policy），迁移应用到真实物理世界的过程。核心挑战是“仿真到现实的鸿沟”。
 
-*   **VLA模型 (Vision-Language-Action Model)**
+*   **Vision-Language-Action Model**
     *   一种多模态大模型，能够直接接收视觉和语言指令，并输出机器人的底层动作指令。是当前具身智能的研究热点，如Google的RT-2、清华的Chip等。
 
 *   **Imitation Learning (IL， 模仿学习)**
@@ -61,7 +61,7 @@
 *   **Reinforcement Learning (RL， 强化学习)**
     *   智能体通过与环境交互，根据获得的奖励信号来学习最大化累积奖励的最优策略。
 
-*   **感知-规划-控制 (Perception-Planning-Control)**
+*   **Perception-Planning-Control(感知-规划-控制)**
     *   机器人系统的经典三层架构。**感知**理解环境，**规划**决策运动路径，**控制**执行具体动作。
 
 *   **Scene Representation (场景表示)**
