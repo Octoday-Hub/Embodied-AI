@@ -15,7 +15,7 @@
 | **穹彻智能 (Noematrix)** | [noematrix.ai](https://www.noematrix.ai) | 专注于具身智能大脑研发，2026年2月宣布完成数亿元A轮融资。致力于提供"以力为中心"的具身智能大模型及相关工具链。 | 穹彻具身大脑Noematrix Brain 2.0（搭载实体世界大模型）；伴随式数采套件CoMiner |  |
 | **乐聚机器人 (Leju Robotics)** | [lejurobot.com](https://www.lejurobot.com) | 哈工大背景，主打高动态双足机器人，在教育、科研及工业巡检领域占据一席之地。 | KUAVO高动态双足机器人 |  |
 | **小雨智造 (Xiaoyu Robotics)** | [xiaoyurobot.com](https://www.xiaoyurobot.com) | 成立于2023年，是一家"一脑多形"的具身机器人平台公司，近期获茅台基金入股。 | 一脑多形具身机器人平台 |  |
-| **Epoch Robotics** | [jrauto.com](http://www.jrauto.com) | 专注于人形机器人与具身智能系统的软硬件垂直整合开发，在CES 2026展示了商业部署能力。 | Epoch L7机器人（适用于仓储物流分拣、条码扫描等任务） |  |
+| **Epoch Robotics** | [jrauto.com](http://www.jrauto.com) | 专注于人形机器人与具身智能系统的软硬件垂直整合开发，在CES 2026展示了商业部署能力。 | Epoch L7机器人（适用于仓储物流分拣、条码扫描等任务） |  | 
 | **舍弗勒具身智能机器人（太仓）有限公司** | [schaeffler.cn](https://www.schaeffler.cn) | 舍弗勒集团在中国成立的具身智能机器人子公司，专注人形机器人核心零部件与关键子系统研发生产。 | 滚动轴承、滚柱丝杠、精密减速器、电机、传感器等核心零部件 |  |
 | **Figure AI** | [figure.ai](https://www.figure.ai) | 美国通用人形机器人头部初创公司，2022年创立，核心团队来自波士顿动力、苹果、谷歌DeepMind等顶尖机构。 | Figure 01/02系列人形机器人（近期演示端到端强化学习自学拧螺丝） |  |
 | **Physical Intelligence (π)** | [physicalintelligence.company](https://www.physicalintelligence.company) | 2024年2月成立于美国旧金山，2026年2月获4亿美元融资，贝佐斯、OpenAI参投，致力于为机器人提供通用智能控制能力。 | 机器人基础模型和通用智能控制系统 |  |
