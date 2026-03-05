@@ -1,24 +1,27 @@
+## 🤖 具身智能公司列表
 
-公司名称	官网	公司介绍	主要产品	备注
-智元机器人 (Agibot)	agibot.com	由"稚晖君"彭志辉创立，走"技术研发+供应链整合"双轨路径，依托比亚迪等资源降低硬件成本。早期估值达150亿元，是"百亿俱乐部"早期成员。	"远征"系列工业人形机器人（已实现汽车产线、物流搬运规模化落地）	
-宇树科技 (Unitree)	unitree.com	从四足机器狗起家的机器人公司，核心部件自研率超90%。连续两年登上春晚舞台，最新融资后估值达120亿元，预计2026年底提交IPO申请。运动控制技术全球领先。	四足机器人Go2系列；人形机器人G1、H1系列（能完成后空翻等高难度动作）	
-银河通用 (Galaxy AI)	galaxy-ai.com	由字节跳动投资，专注轮式机器人"手眼脑"协同，当前估值约210亿元。侧重通过合成仿真数据（占比超99%）进行大规模训练。	Galbot G1机器人（"双臂+单腿+轮式底盘"，已在北京多家无人药店24小时作业）	
-逐际动力 (LimX Dynamics)	limxdynamics.com	孵化于南方科技大学产学研项目，2026年初完成2亿美元B轮融资，强调具身Agentic OS系统。	全尺寸通用人形机器人LimXOmni；多形态基座TRON	
-优必选 (UBTECH)	ubtrobot.com	港股上市机器人龙头，2018年完成C轮融资时已达百亿估值。Walker系列主打工业与商用服务，工程化能力成熟。	Walker S2工业人形机器人（落地比亚迪、一汽等汽车制造场景）	
-傅利叶智能 (Fourier Intelligence)	fftai.com	以康复外骨骼起家，延伸至通用人形机器人领域，在医疗与特种服务领域有深厚积累。	通用人形机器人GR-1；康复外骨骼系列产品	
-开普勒机器人 (Kepler)	kepler-ai.com	定位"蓝领机器人"，聚焦工业场景技术研发，已进入小批量量产阶段。	"先行者K2"全尺寸通用人形机器人（已在上汽通用开展实景训练）	
-星动纪元 (Robotera)	robotera.com	清华系全栈硬核企业，2025年获吉利、北汽近10亿元融资，技术壁垒极高。	双足人形机器人L7；轮式机器人；灵巧手XHAND 1	
-穹彻智能 (Noematrix)	noematrix.ai	专注于具身智能大脑研发，2026年2月宣布完成数亿元A轮融资。致力于提供"以力为中心"的具身智能大模型及相关工具链。	穹彻具身大脑Noematrix Brain 2.0（搭载实体世界大模型）；伴随式数采套件CoMiner	
-乐聚机器人 (Leju Robotics)	lejurobot.com	哈工大背景，主打高动态双足机器人，在教育、科研及工业巡检领域占据一席之地。	KUAVO高动态双足机器人	
-小雨智造 (Xiaoyu Robotics)	xiaoyurobot.com	成立于2023年，是一家"一脑多形"的具身机器人平台公司，近期获茅台基金入股。	一脑多形具身机器人平台	
-Epoch Robotics	jrauto.com	专注于人形机器人与具身智能系统的软硬件垂直整合开发，在CES 2026展示了商业部署能力。	Epoch L7机器人（适用于仓储物流分拣、条码扫描等任务）	
-舍弗勒具身智能机器人（太仓）有限公司	schaeffler.cn	舍弗勒集团在中国成立的具身智能机器人子公司，专注人形机器人核心零部件与关键子系统研发生产。	滚动轴承、滚柱丝杠、精密减速器、电机、传感器等核心零部件	
-Figure AI	figure.ai	美国通用人形机器人头部初创公司，2022年创立，核心团队来自波士顿动力、苹果、谷歌DeepMind等顶尖机构。	Figure 01/02系列人形机器人（近期演示端到端强化学习自学拧螺丝）	
-Physical Intelligence (π)	physicalintelligence.company	2024年2月成立于美国旧金山，2026年2月获4亿美元融资，贝佐斯、OpenAI参投，致力于为机器人提供通用智能控制能力。	机器人基础模型和通用智能控制系统	
-Skild AI	skild.ai	2023年5月由卡内基梅隆大学前教授在匹兹堡创立，专注于开发通用机器人大脑系统。	"Skild Brain"AI模型（可适配多种机器人硬件实现跨场景任务执行）	
-波士顿动力 (Boston Dynamics)	bostondynamics.com	全球机器人行业标杆企业，2026年推出Atlas人形机器人产品版，与Hyundai Motor Group深度合作，计划建设年产能数千台的机器人工厂。以卓越的运动控制技术和工程化能力闻名。	Atlas人形机器人（企业级）；Spot四足机器人；Stretch仓库机器人	
-Syntiant	syntiant.com	2017年成立于美国加州尔湾，全栈式低功耗边缘AI解决方案提供商。累计出货超1亿颗专用神经决策处理器，数十亿颗MEMS麦克风和传感器，技术应用于从耳机到汽车的广泛场景。	神经决策处理器；边缘AI传感器；语音/音频/视觉处理软件方案	
-乐聚机器人 (Leju Robotics)	lejurobot.com	2016年成立的人形机器人研发商，哈工大背景，已完成Pre-IPO轮15亿元融资，估值20.8亿元。公司已研发AELOS系列、微型机器人、塔洛斯机器人等不同种类产品。	KUAVO高动态双足机器人；AELOS系列教育机器人；塔洛斯机器人	
-智平方 (AI² Robotics)	ai2robotics.com	国内领先的具身智能机器人企业，由国家创新领军人才郭彦东博士创立，核心团队汇聚AI、机器人和规模量产领域的顶尖专家，致力于研发生产通用智能具身终端。	AlphaBot系列机器人；全域全身VLA大模型GOVLA	
-LimX Dynamics (逐际动力)	limxdynamics.com	2022年成立，专注于全尺寸人形机器人和具身AI系统开发，结合硬件设计、强化学习运动控制和可训练AI，服务于研究、制造、商业和家庭服务等场景。2026年2月完成2亿美元B轮融资。	LimXOmni全尺寸人形机器人；TRON多形态基座	
-说明：本列表持续更新，欢迎通过 Issues 或 Pull Request 补充新公司或修正信息。
+持续收录国内外具身智能领域代表公司，包含官网、简介、核心产品及动态。**欢迎补充**（可通过 Issues 或 PR 提交）。
+
+| 公司名称 | 官网 | 公司介绍 | 主要产品 | 备注 |
+| :--- | :--- | :--- | :--- | :--- |
+| **智元机器人 (Agibot)** | [agibot.com](https://www.agibot.com) | 由"稚晖君"彭志辉创立，走"技术研发+供应链整合"双轨路径，依托比亚迪等资源降低硬件成本。早期估值达150亿元，是"百亿俱乐部"早期成员。 | "远征"系列工业人形机器人（已实现汽车产线、物流搬运规模化落地） |  |
+| **宇树科技 (Unitree)** | [unitree.com](https://www.unitree.com) | 从四足机器狗起家的机器人公司，核心部件自研率超90%。连续两年登上春晚舞台，最新融资后估值达120亿元，预计2026年底提交IPO申请。运动控制技术全球领先。 | 四足机器人Go2系列；人形机器人G1、H1系列（能完成后空翻等高难度动作） |  |
+| **银河通用 (Galaxy AI)** | [galaxy-ai.com](https://www.galaxy-ai.com) | 由字节跳动投资，专注轮式机器人"手眼脑"协同，当前估值约210亿元。侧重通过合成仿真数据（占比超99%）进行大规模训练。 | Galbot G1机器人（"双臂+单腿+轮式底盘"，已在北京多家无人药店24小时作业） |  |
+| **逐际动力 (LimX Dynamics)** | [limxdynamics.com](https://www.limxdynamics.com) | 孵化于南方科技大学产学研项目，2026年初完成2亿美元B轮融资，强调具身Agentic OS系统。 | 全尺寸通用人形机器人LimXOmni；多形态基座TRON |  |
+| **优必选 (UBTECH)** | [ubtrobot.com](https://www.ubtrobot.com) | 港股上市机器人龙头，2018年完成C轮融资时已达百亿估值。Walker系列主打工业与商用服务，工程化能力成熟。 | Walker S2工业人形机器人（落地比亚迪、一汽等汽车制造场景） |  |
+| **傅利叶智能 (Fourier Intelligence)** | [fftai.com](https://www.fftai.com) | 以康复外骨骼起家，延伸至通用人形机器人领域，在医疗与特种服务领域有深厚积累。 | 通用人形机器人GR-1；康复外骨骼系列产品 |  |
+| **开普勒机器人 (Kepler)** | [kepler-ai.com](https://www.kepler-ai.com) | 定位"蓝领机器人"，聚焦工业场景技术研发，已进入小批量量产阶段。 | "先行者K2"全尺寸通用人形机器人（已在上汽通用开展实景训练） |  |
+| **星动纪元 (Robotera)** | [robotera.com](https://www.robotera.com) | 清华系全栈硬核企业，2025年获吉利、北汽近10亿元融资，技术壁垒极高。 | 双足人形机器人L7；轮式机器人；灵巧手XHAND 1 |  |
+| **穹彻智能 (Noematrix)** | [noematrix.ai](https://www.noematrix.ai) | 专注于具身智能大脑研发，2026年2月宣布完成数亿元A轮融资。致力于提供"以力为中心"的具身智能大模型及相关工具链。 | 穹彻具身大脑Noematrix Brain 2.0（搭载实体世界大模型）；伴随式数采套件CoMiner |  |
+| **乐聚机器人 (Leju Robotics)** | [lejurobot.com](https://www.lejurobot.com) | 哈工大背景，主打高动态双足机器人，在教育、科研及工业巡检领域占据一席之地。 | KUAVO高动态双足机器人 |  |
+| **小雨智造 (Xiaoyu Robotics)** | [xiaoyurobot.com](https://www.xiaoyurobot.com) | 成立于2023年，是一家"一脑多形"的具身机器人平台公司，近期获茅台基金入股。 | 一脑多形具身机器人平台 |  |
+| **Epoch Robotics** | [jrauto.com](http://www.jrauto.com) | 专注于人形机器人与具身智能系统的软硬件垂直整合开发，在CES 2026展示了商业部署能力。 | Epoch L7机器人（适用于仓储物流分拣、条码扫描等任务） |  |
+| **舍弗勒具身智能机器人（太仓）有限公司** | [schaeffler.cn](https://www.schaeffler.cn) | 舍弗勒集团在中国成立的具身智能机器人子公司，专注人形机器人核心零部件与关键子系统研发生产。 | 滚动轴承、滚柱丝杠、精密减速器、电机、传感器等核心零部件 |  |
+| **Figure AI** | [figure.ai](https://www.figure.ai) | 美国通用人形机器人头部初创公司，2022年创立，核心团队来自波士顿动力、苹果、谷歌DeepMind等顶尖机构。 | Figure 01/02系列人形机器人（近期演示端到端强化学习自学拧螺丝） |  |
+| **Physical Intelligence (π)** | [physicalintelligence.company](https://www.physicalintelligence.company) | 2024年2月成立于美国旧金山，2026年2月获4亿美元融资，贝佐斯、OpenAI参投，致力于为机器人提供通用智能控制能力。 | 机器人基础模型和通用智能控制系统 |  |
+| **Skild AI** | [skild.ai](https://www.skild.ai) | 2023年5月由卡内基梅隆大学前教授在匹兹堡创立，专注于开发通用机器人大脑系统。 | "Skild Brain"AI模型（可适配多种机器人硬件实现跨场景任务执行） |  |
+| **波士顿动力 (Boston Dynamics)** | [bostondynamics.com](https://bostondynamics.com) | 全球机器人行业标杆企业，2026年推出Atlas人形机器人产品版，与Hyundai Motor Group深度合作，计划建设年产能数千台的机器人工厂。以卓越的运动控制技术和工程化能力闻名。 | Atlas人形机器人（企业级）；Spot四足机器人；Stretch仓库机器人 |  |
+| **Syntiant** | [syntiant.com](https://www.syntiant.com) | 2017年成立于美国加州尔湾，全栈式低功耗边缘AI解决方案提供商。累计出货超1亿颗专用神经决策处理器，数十亿颗MEMS麦克风和传感器，技术应用于从耳机到汽车的广泛场景。 | 神经决策处理器；边缘AI传感器；语音/音频/视觉处理软件方案 |  |
+| **智平方 (AI² Robotics)** | [ai2robotics.com](https://www.ai2robotics.com) | 国内领先的具身智能机器人企业，由国家创新领军人才郭彦东博士创立，核心团队汇聚AI、机器人和规模量产领域的顶尖专家，致力于研发生产通用智能具身终端。 | AlphaBot系列机器人；全域全身VLA大模型GOVLA |  |
+
+> **说明**：本列表持续更新，欢迎通过 [Issues](https://github.com/LILAN-00/Octoday-Robotics/issues) 或 Pull Request 补充新公司或修正信息。
