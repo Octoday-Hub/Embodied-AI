@@ -12,7 +12,7 @@
 | **傅利叶智能 (Fourier Intelligence)** | [fftai.com](https://www.fftai.com) | 以康复外骨骼起家，延伸至通用人形机器人领域，在医疗与特种服务领域有深厚积累。 | 通用人形机器人GR-1；康复外骨骼系列产品 |  |
 | **开普勒机器人 (Kepler)** | [kepler-ai.com](https://www.kepler-ai.com) | 定位"蓝领机器人"，聚焦工业场景技术研发，已进入小批量量产阶段。 | "先行者K2"全尺寸通用人形机器人（已在上汽通用开展实景训练） |  |
 | **星动纪元 (Robotera)** | [robotera.com](https://www.robotera.com) | 清华系全栈硬核企业，2025年获吉利、北汽近10亿元融资，技术壁垒极高。 | 双足人形机器人L7；轮式机器人；灵巧手XHAND 1 |  |
-| **穹彻智能 (Noematrix)** | [noematrix.ai](https://www.noematrix.ai) | 专注于具身智能大脑研发，2026年2月宣布完成数亿元A轮融资。致力于提供"以力为中心"的具身智能大模型及相关工具链。 | 穹彻具身大脑Noematrix Brain 2.0（搭载实体世界大模型）；伴随式数采套件CoMiner |  |
+| **穹彻智能 (Noematrix)** | [noematrix.ai](https://www.noematrix.ai) | 专注于具身智能大脑研发，2026年2月宣布完成数亿元A轮融资。致力于提供"以力为中心"的具身智能大模型及相关工具链。 | 穹彻具身大脑Noematrix Brain 2.0（搭载实体世界大模型）；伴随式数采套件CoMiner |  | 
 | **乐聚机器人 (Leju Robotics)** | [lejurobot.com](https://www.lejurobot.com) | 哈工大背景，主打高动态双足机器人，在教育、科研及工业巡检领域占据一席之地。 | KUAVO高动态双足机器人 |  |
 | **小雨智造 (Xiaoyu Robotics)** | [xiaoyurobot.com](https://www.xiaoyurobot.com) | 成立于2023年，是一家"一脑多形"的具身机器人平台公司，近期获茅台基金入股。 | 一脑多形具身机器人平台 |  |
 | **Epoch Robotics** | [jrauto.com](http://www.jrauto.com) | 专注于人形机器人与具身智能系统的软硬件垂直整合开发，在CES 2026展示了商业部署能力。 | Epoch L7机器人（适用于仓储物流分拣、条码扫描等任务） |  | 
