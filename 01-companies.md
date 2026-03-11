@@ -96,7 +96,7 @@
 | 海柔创新 (Hai Robotics) | 箱式仓储机器人首创者，在物流自动化领域解决核心痛点 | 箱式仓储机器人、自动化仓储系统 | [官网](https://www.hairobotics.com) |
 | 快仓智能 (Quicktron) | 全球AMR领域巨头之一，提供覆盖仓储、制造场景的智能物流机器人解决方案 | AMR移动机器人、智能仓储解决方案 | [官网](https://www.quicktron.com) |
 | 极智嘉 (Geek+) | 物流机器人全球标杆企业，产品线丰富，全球化布局成功 | AMR移动机器人、智能仓储系统 | [官网](https://www.geekplus.com) |
-| 未来机器人 (VisionNav) | 无人工业车辆领军者，专注于将叉车等传统工业车辆无人化 | 无人叉车、工业无人车辆 | [官网](https://www.visionnav.cn) |
+| 未来机器人 (VisionNav) | 无人工业车辆领军者，专注于将叉车等传统工业车辆无人化 | 无人叉车、工业无人车辆 | [官网](https://www.visionnav.com/) |
 | 灵动科技 (ForwardX) | 视觉导航AMR领跑者，第四代移动机器人视觉感知能力强 | 视觉导航AMR、移动机器人 | [官网](https://www.forwardx.com) |
 | 仙工智能 (Seer) | 以软件定义控制器的创新者，标准化控制器大幅降低移动机器人开发门槛 | 移动机器人控制器、调度系统 | [官网](https://www.seer-group.com) |
 | 梅卡曼德 (Mech-Mind) | 3D视觉与AI工业机器人解决方案领导者 | 3D视觉系统、AI工业机器人 | [官网](https://www.mech-mind.com) |
