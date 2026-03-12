@@ -5,8 +5,8 @@
   # 🤖 Embodied-AI · 具身智能
 </div>
 > 一份持续更新的具身智能（Embodied AI）领域结构化资源索引，涵盖公司、招聘、论文、代码库、数据集、学习路径等。旨在降低中文开发者的信息检索门槛，共建行业知识地图。
-> [English Version](README_EN.md)
-[English Version](README_EN.md)
+
+🌐[English Version](README_EN.md)
 
 [![GitHub stars](https://img.shields.io/github/stars/LILAN-00/Octoday-Robotics?style=social)](https://github.com/LILAN-00/Octoday-Robotics/stargazers)
 [![更新状态](https://img.shields.io/badge/更新频率-每周-blue)](https://github.com/LILAN-00/Octoday-Robotics)
@@ -43,6 +43,3 @@
 
 ## 📄 许可证
 本项目采用 MIT 许可证。详细信息请查看 [LICENSE](LICENSE) 文件。
-[English Version](README_EN.md)
-
-- [基础知识](00-basics.md)
