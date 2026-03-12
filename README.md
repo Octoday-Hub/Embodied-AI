@@ -42,3 +42,6 @@
 
 ## 📄 许可证
 本项目采用 MIT 许可证。详细信息请查看 [LICENSE](LICENSE) 文件。
+[English Version](README_EN.md)
+
+- [基础知识](00-basics.md)
