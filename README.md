@@ -12,6 +12,15 @@
 [![更新状态](https://img.shields.io/badge/更新频率-每周-blue)](https://github.com/LILAN-00/Octoday-Robotics)
 [![贡献指南](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
+## 📖 目录
+- [基础知识](00-basics.md) – 入门书籍、课程、术语表、学习路径建议
+- [具身智能公司](01-companies.md) – 国内外代表公司及产品简介
+- [招聘信息](02-jobs.md) – 全职/实习/校招岗位（持续更新）
+- [论文&代码库](03-papers-code.md) – 顶会论文、开源实现、数据集
+- [开源项目](docs/04-open-source.md) – 仿真环境、机器人中间件、硬件方案
+- [学习社区](docs/05-community.md) – 博客、自媒体、高校实验室 
+- [贡献指南](CONTRIBUTING.md) – 如何参与共建
+
 ## 🚀 快速开始
 直接浏览目录，找到你感兴趣的板块即可。  
 如果你是初学者，建议从 [基础知识](docs/00-basics.md) 入手。
