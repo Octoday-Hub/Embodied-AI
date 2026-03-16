@@ -2,81 +2,74 @@
 
 持续收录具身智能领域的最新、最具代表性的论文，包含核心内容摘要和原文链接。**欢迎补充**（可通过 Issues 或 PR 提交）。
 
-# Embodied AI Top Papers
+# Embodied AI Papers (2024–Present)
 
-A curated list of **top-tier papers in Embodied AI**, including robotics foundation models, vision-language-action models, embodied agents, manipulation, and navigation.
+A curated list of **recent Embodied AI papers (2024+)** including robotics foundation models, VLA models, embodied agents, manipulation, and navigation.
 
-🔥 Papers are sorted by **year (latest first)**.
+⚡ Due to the rapid development of the field, **papers before 2023 are not included**.
 
 ---
 
 # Table of Contents
 
-- [Survey & Benchmark](#survey--benchmark)
 - [Embodied Foundation Models](#embodied-foundation-models)
 - [Vision-Language-Action (VLA)](#vision-language-action-vla)
 - [Embodied Agents & Planning](#embodied-agents--planning)
 - [Manipulation](#manipulation)
-- [Navigation & VLN](#navigation--vln)
-
----
-
-# Survey & Benchmark
-
-| Year | Paper | Venue | Code | Project |
-|-----|------|------|------|------|
-| 2024 | [Aligning Cyber Space with Physical World: A Comprehensive Survey on Embodied AI](https://arxiv.org/abs/2407.06886) | IEEE T-Mech | - | [Project](https://github.com/HCPLab-SYSU/Embodied_AI_Paper_List) |
-| 2023 | [Toward General-Purpose Robots via Foundation Models: A Survey and Meta-Analysis](https://arxiv.org/abs/2312.08782) | arXiv | - | - |
-| 2023 | [Robot Learning in the Era of Foundation Models: A Survey](https://arxiv.org/abs/2311.14379) | arXiv | - | - |
+- [Navigation & Spatial Reasoning](#navigation--spatial-reasoning)
+- [Survey](#survey)
 
 ---
 
 # Embodied Foundation Models
 
-| Year | Paper | Venue | Code | Project |
-|-----|------|------|------|------|
-| 2024 | [RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://arxiv.org/abs/2307.15818) | RSS | - | https://robotics-transformer2.github.io |
-| 2024 | [GR-2: A Generative Video-Language-Action Model for Robot Manipulation](https://arxiv.org/abs/2402.XXXX) | arXiv | - | - |
-| 2023 | [PaLM-E: An Embodied Multimodal Language Model](https://arxiv.org/abs/2303.03378) | ICML | - | https://palm-e.github.io |
+* **GR-2**: "GR-2: A Generative Video-Language-Action Model for Robot Manipulation", *arXiv, Feb 2024*. [[Paper](https://arxiv.org/abs/2402.06149)] [[Website](https://gr2-manipulation.github.io/)]
+
+* **PaLM-E**: "PaLM-E: An Embodied Multimodal Language Model", *ICML 2024*. [[Paper](https://arxiv.org/abs/2303.03378)] [[Website](https://palm-e.github.io/)]
 
 ---
 
 # Vision-Language-Action (VLA)
 
-| Year | Paper | Venue | Code | Project |
-|-----|------|------|------|------|
-| 2024 | [OpenVLA: An Open Vision-Language-Action Model](https://arxiv.org/abs/2406.09246) | arXiv | https://github.com/openvla/openvla | https://openvla.github.io |
-| 2024 | [VoxPoser: Composable 3D Value Maps for Robotic Manipulation](https://arxiv.org/abs/2307.05973) | CoRL | https://github.com/voxposer/voxposer | https://voxposer.github.io |
-| 2023 | [RT-1: Robotics Transformer for Real-World Control](https://arxiv.org/abs/2212.06817) | RSS | - | https://robotics-transformer1.github.io |
+* **OpenVLA**: "OpenVLA: An Open Vision-Language-Action Model", *arXiv, Jun 2024*. [[Paper](https://arxiv.org/abs/2406.09246)] [[Code](https://github.com/openvla/openvla)] [[Website](https://openvla.github.io/)]
+
+* **InSpire**: "InSpire: Vision-Language-Action Models with Intrinsic Spatial Reasoning", *arXiv, May 2025*. [[Paper](https://arxiv.org/abs/2505.13888)] [[Website](https://koorye.github.io/proj/Inspire)]  
+  (This work enhances VLA performance by explicitly improving spatial reasoning during action prediction.) :contentReference[oaicite:0]{index=0}
 
 ---
 
 # Embodied Agents & Planning
 
-| Year | Paper | Venue | Code | Project |
-|-----|------|------|------|------|
-| 2024 | [RoboMatrix: A Skill-centric Framework for Robot Task Planning](https://arxiv.org/abs/2404.XXXXX) | arXiv | - | - |
-| 2024 | [Embodied Multi-Modal Agent Trained by an LLM](https://arxiv.org/abs/2403.XXXXX) | CVPR | - | - |
-| 2023 | [LLM-Planner: Few-Shot Grounded Planning for Embodied Agents](https://arxiv.org/abs/2212.04088) | ICCV | https://github.com/OSU-NLP-Group/LLM-Planner | - |
-| 2023 | [SayPlan: Grounding LLMs using 3D Scene Graphs](https://arxiv.org/abs/2307.06135) | CoRL | https://github.com/eric-ai-lab/sayplan | https://sayplan.github.io |
+* **SayPlan**: "SayPlan: Grounding Large Language Models using 3D Scene Graphs for Robotic Task Planning", *CoRL 2024*. [[Paper](https://arxiv.org/abs/2307.06135)] [[Code](https://github.com/eric-ai-lab/sayplan)] [[Website](https://sayplan.github.io/)]
+
+* **LLM-Planner**: "LLM-Planner: Few-Shot Grounded Planning for Embodied Agents", *ICCV 2023*. [[Paper](https://arxiv.org/abs/2212.04088)] [[Code](https://github.com/OSU-NLP-Group/LLM-Planner)]
 
 ---
 
 # Manipulation
 
-| Year | Paper | Venue | Code | Project |
-|-----|------|------|------|------|
-| 2024 | [Octo: An Open-Source Generalist Robot Policy](https://arxiv.org/abs/2405.XXXX) | RSS | https://github.com/octo-models/octo | https://octo-models.github.io |
-| 2023 | [VIMA: General Robot Manipulation with Multimodal Prompts](https://arxiv.org/abs/2210.03094) | NeurIPS | https://github.com/vimalabs/VIMA | https://vimalabs.github.io |
+* **Octo**: "Octo: An Open-Source Generalist Robot Policy", *RSS 2024*. [[Paper](https://arxiv.org/abs/2405.12213)] [[Code](https://github.com/octo-models/octo)] [[Website](https://octo-models.github.io/)]
+
+* **VoxPoser**: "VoxPoser: Composable 3D Value Maps for Robotic Manipulation", *CoRL 2024*. [[Paper](https://arxiv.org/abs/2307.05973)] [[Code](https://github.com/voxposer/voxposer)] [[Website](https://voxposer.github.io/)]
 
 ---
 
-# Navigation & VLN
+# Navigation & Spatial Reasoning
 
-| Year | Paper | Venue | Code | Project |
-|-----|------|------|------|------|
-| 2024 | [RoboRefer: Spatial Referring with Reasoning in VLMs](https://arxiv.org/abs/2501.XXXX) | arXiv | - | - |
-| 2023 | [ConceptGraphs: Open-Vocabulary 3D Scene Graphs](https://arxiv.org/abs/2302.07237) | CVPR | https://github.com/concept-graphs/concept-graphs | https://concept-graphs.github.io |
-| 2019 | [Habitat: A Platform for Embodied AI Research](https://arxiv.org/abs/1904.01201) | ICCV | https://github.com/facebookresearch/habitat | https://aihabitat.org |
+* **RoboTracer**: "RoboTracer: Mastering Spatial Trace with Reasoning in Vision-Language Models for Robotics", *arXiv, Dec 2025*. [[Paper](https://arxiv.org/abs/2512.13660)] [[Code](https://github.com/Zhoues/RoboTracer)] [[Website](https://zhoues.github.io/RoboTracer/)]  
+  (Proposes a 3D-aware VLM capable of multi-step metric spatial reasoning for robotics tasks.) :contentReference[oaicite:1]{index=1}
+
+* **RoboRefer**: "RoboRefer: Towards Spatial Referring with Reasoning in Vision-Language Models for Robotics", *arXiv, Jun 2025*. [[Paper](https://arxiv.org/abs/2506.04308)]
+
+* **TIGeR**: "TIGeR: Tool-Integrated Geometric Reasoning in Vision-Language Models for Robotics", *arXiv, Oct 2025*. [[Paper](https://arxiv.org/abs/2510.07181)]  
+  (Introduces tool-based geometric computation to achieve centimeter-level precision reasoning for robotic tasks.) :contentReference[oaicite:2]{index=2}
+
+---
+
+# Survey
+
+* **Embodied AI Survey**: "Aligning Cyber Space with Physical World: A Comprehensive Survey on Embodied AI", *IEEE T-Mech, 2024*. [[Paper](https://arxiv.org/abs/2407.06886)]
+
+* **Robot Foundation Models Survey**: "Toward General-Purpose Robots via Foundation Models: A Survey and Meta-Analysis", *arXiv, 2023*. [[Paper](https://arxiv.org/abs/2312.08782)]
 
 > **说明**：本列表持续更新，欢迎通过 [Issues](https://github.com/LILAN-00/Octoday-Robotics/issues) 或 Pull Request 补充最新论文或修正信息。
