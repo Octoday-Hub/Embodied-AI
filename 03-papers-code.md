@@ -2,11 +2,10 @@
 
 持续收录具身智能领域的最新、最具代表性的论文，包含核心内容摘要和原文链接。**欢迎补充**（可通过 Issues 或 PR 提交）。
 
-# Embodied AI Papers (2024–Present)
+# Embodied AI Papers 
 
-A curated list of **recent Embodied AI papers (2024+)** including robotics foundation models, VLA models, embodied agents, manipulation, and navigation.
+A curated list of **recent Embodied AI papers ** including robotics foundation models, VLA models, embodied agents, manipulation, and navigation.
 
-⚡ Due to the rapid development of the field, **papers before 2023 are not included**.
 
 ---
 
