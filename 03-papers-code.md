@@ -52,12 +52,12 @@ A curated list of **recent Embodied AI papers** including robotics foundation mo
 # Navigation & Spatial Reasoning
 
 * **RoboTracer**: "RoboTracer: Mastering Spatial Trace with Reasoning in Vision-Language Models for Robotics", *arXiv, Dec 2025*. [[Paper](https://arxiv.org/abs/2512.13660)] [[Code](https://github.com/Zhoues/RoboTracer)] [[Website](https://zhoues.github.io/RoboTracer/)]  
-  (Proposes a 3D-aware VLM capable of multi-step metric spatial reasoning for robotics tasks.) :contentReference[oaicite:1]{index=1}
+
 
 * **RoboRefer**: "RoboRefer: Towards Spatial Referring with Reasoning in Vision-Language Models for Robotics", *arXiv, Jun 2025*. [[Paper](https://arxiv.org/abs/2506.04308)]
 
 * **TIGeR**: "TIGeR: Tool-Integrated Geometric Reasoning in Vision-Language Models for Robotics", *arXiv, Oct 2025*. [[Paper](https://arxiv.org/abs/2510.07181)]  
-  (Introduces tool-based geometric computation to achieve centimeter-level precision reasoning for robotic tasks.) :contentReference[oaicite:2]{index=2}
+  
 
 ---
 
