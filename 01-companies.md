@@ -117,6 +117,6 @@
 | **Zipline** | 运营全球最大的自主无人机配送网络，专注医疗用品和商业包裹配送。 | 自主配送无人机、即时物流平台。 | `整机` `无人机` `仓储物流` `独角兽` | [官网](https://www.flyzipline.com) |
 | **Skydio** | 先进自主飞行系统供应商，无人机广泛应用于公共安全、工业巡检。 | 自主无人机、飞行控制系统。 | `整机` `无人机` `工业巡检` `独角兽` | [官网](https://www.skydio.com) |
 | **Anduril Industries** | 自主防御系统供应商，开发无人机、潜水器等自主硬件和指控系统。 | 自主防御系统、Lattice OS、无人机、潜水器。 | `整机` `无人机` `特种机器人` `独角兽` | [官网](https://www.anduril.com) |
-| **Carbon Robotics** | 激光除草机器人，利用AI和高功率激光实现精准农业物理除草。 | 激光除草机器人（Autonomous Weeder）。 | `整机` `农业机器人` `特种机器人` `A-B轮` | [官网](https://www.carbonrobotics.com)（注：链接无法解析） |
+| **Carbon Robotics** | 激光除草机器人，利用AI和高功率激光实现精准农业物理除草。 | 激光除草机器人（Autonomous Weeder）。 | `整机` `农业机器人` `特种机器人` `A-B轮` | [官网](https://www.carbonrobotics.com) |
 | **General Intuition** | 基于游戏视频数据开发具身智能体，专注空间和时间推理能力。 | 具身智能体相关技术（具体未披露）。 | `大脑/模型` `VLA` `A-B轮` | [官网](https://jobs.khoslaventures.com/companies/general-intuition-2) |
 | **Persona AI** | 美国初创公司，开发用于造船和工业制造的挑战性人形机器人平台。 | 工业级人形机器人。 | `整机` `人形` `工业制造` `天使轮` | [官网](https://persona.ai) |
