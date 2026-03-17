@@ -16,7 +16,17 @@ A curated list of **recent Embodied AI papers** including robotics foundation mo
 - Datasets
 - Benchmarks & Evaluation
 - Survey
+# Table of Contents
 
+- [Embodied Foundation Models](#embodied-foundation-models)
+- [Vision-Language-Action (VLA)](#vision-language-action-vla)
+- [Embodied Agents & Reasoning](#embodied-agents-reasoning)
+- [Manipulation](#manipulation)
+- [Navigation & Spatial Intelligence](#navigation-spatial-intelligence)
+- [Simulation & Sim2Real](#simulation-sim2real)
+- [Datasets](#datasets)
+- [Benchmarks & Evaluation](#benchmarks-evaluation)
+- [Survey](#survey)
 ---
 
 # Embodied Foundation Models
