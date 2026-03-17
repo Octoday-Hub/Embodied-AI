@@ -17,6 +17,14 @@
 - [具身智能公司](01-companies.md) – 国内外代表公司及产品简介
 - [招聘信息](02-jobs.md) – 全职/实习/校招岗位（持续更新）
 - [论文&代码库](03-papers-code.md) – 顶会论文、开源实现、数据集
+  ### 📚 论文&代码库
+|   | 分类 | 说明 |
+| :-: | :--- | :--- |
+| 🤖 | [基础模型](03-papers-code.md#embodied-foundation-models) | 机器人 foundation models，涵盖多任务通用策略 |
+| 🧠 | [VLA 模型](03-papers-code.md#vision-language-action-vla) | 视觉-语言-动作模型，端到端学习 |
+| 🔍 | [具身智能体与推理](03-papers-code.md#embodied-agents-reasoning) | 结合大语言模型的规划、推理与决策 |
+| 👐 | [操作](03-papers-code.md#manipulation) | 抓取、灵巧操作、任务级操作 |
+
 - [学习社区](docs/05-community.md) – 博客、自媒体、高校实验室 
 - [贡献指南](CONTRIBUTING.md) – 如何参与共建
 
