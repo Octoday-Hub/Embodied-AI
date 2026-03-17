@@ -4,18 +4,6 @@ A curated list of **recent Embodied AI papers** including robotics foundation mo
 持续收录具身智能领域的最新、最具代表性的论文，包含核心内容摘要和原文链接。**欢迎补充**（可通过 Issues 或 PR 提交）。
 
 
-
-# Table of Contents
-
-- Embodied Foundation Models
-- Vision-Language-Action (VLA)
-- Embodied Agents & Reasoning
-- Manipulation
-- Navigation & Spatial Intelligence
-- Simulation & Sim2Real
-- Datasets
-- Benchmarks & Evaluation
-- Survey
 # Table of Contents
 
 - [Embodied Foundation Models](#embodied-foundation-models)
