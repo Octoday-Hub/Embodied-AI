@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  # 🤖 Embodied-AI · 具身智能
+  # 🤖 Octoday-Embodied-Hub · 星期八-具身智能资源库
 </div>
 > 一份持续更新的具身智能（Embodied AI）领域结构化资源索引，涵盖公司、招聘、论文、代码库、数据集、学习路径等。旨在降低中文开发者的信息检索门槛，共建行业知识地图。
 
