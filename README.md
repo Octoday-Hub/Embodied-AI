@@ -21,7 +21,26 @@
 本仓库致力于做**结构化资源索引 + 行业知识地图**，而非重复造轮子的教程库。我们的设计理念是：**按图索骥，各取所需**。
 
 无论你是初学者、研究者、工程师还是投资人，都可以通过以下方式高效利用本库：
+## 📖 目录
+- [基础知识](00-basics.md) – 入门书籍、课程、术语表、学习路径建议
+- [具身智能公司](01-companies.md) – 国内外代表公司及产品简介
+- [招聘信息](02-jobs.md) – 全职/实习/校招岗位（持续更新）
+- [论文&代码库](03-papers-code.md)
+ 
+|   | 分类 | 说明 |
+| :-: | :--- | :--- |
+| 🤖 | [基础模型](03-papers-code.md#embodied-foundation-models) | 机器人 foundation models，涵盖多任务通用策略 |
+| 🧠 | [VLA 模型](03-papers-code.md#vision-language-action-vla) | 视觉-语言-动作模型，端到端学习 |
+| 🔍 | [具身智能体与推理](03-papers-code.md#embodied-agents-reasoning) | 结合大语言模型的规划、推理与决策 |
+| 👐 | [操作](03-papers-code.md#manipulation) | 抓取、灵巧操作、任务级操作 |
+| 🧭 | [导航与空间智能](03-papers-code.md#navigation-spatial-intelligence) | 视觉导航、空间感知与场景理解 |
+| 🎮 | [仿真与 Sim2Real](03-papers-code.md#simulation-sim2real) | 仿真环境、迁移学习、真实世界部署 |
+| 📊 | [数据集](03-papers-code.md#datasets) | 大规模机器人数据集、跨形态数据 |
+| 📈 | [评测基准](03-papers-code.md#benchmarks-evaluation) | 任务评测标准、性能对比平台 |
+| 📚 | [综述](03-papers-code.md#survey) | 领域综述、前沿趋势分析 |
 
+- [学习社区](docs/05-community.md) – 博客、自媒体、高校实验室 
+- [贡献指南](CONTRIBUTING.md) – 如何参与共建
 - **按板块浏览**：从目录出发，选择你感兴趣的领域：
   - **基础知识**：快速建立认知框架，了解核心概念与学习路径。
   - **公司列表**：掌握国内外具身智能产业生态，发现潜在合作伙伴或目标企业。
@@ -78,26 +97,7 @@
 
 > 记住：**资源的价值在于使用，更在于分享**。如果你通过这份资源库有所收获，不妨也贡献一份力量，帮助后来者走得更顺。
 
-## 📖 目录
-- [基础知识](00-basics.md) – 入门书籍、课程、术语表、学习路径建议
-- [具身智能公司](01-companies.md) – 国内外代表公司及产品简介
-- [招聘信息](02-jobs.md) – 全职/实习/校招岗位（持续更新）
-- [论文&代码库](03-papers-code.md)
- 
-|   | 分类 | 说明 |
-| :-: | :--- | :--- |
-| 🤖 | [基础模型](03-papers-code.md#embodied-foundation-models) | 机器人 foundation models，涵盖多任务通用策略 |
-| 🧠 | [VLA 模型](03-papers-code.md#vision-language-action-vla) | 视觉-语言-动作模型，端到端学习 |
-| 🔍 | [具身智能体与推理](03-papers-code.md#embodied-agents-reasoning) | 结合大语言模型的规划、推理与决策 |
-| 👐 | [操作](03-papers-code.md#manipulation) | 抓取、灵巧操作、任务级操作 |
-| 🧭 | [导航与空间智能](03-papers-code.md#navigation-spatial-intelligence) | 视觉导航、空间感知与场景理解 |
-| 🎮 | [仿真与 Sim2Real](03-papers-code.md#simulation-sim2real) | 仿真环境、迁移学习、真实世界部署 |
-| 📊 | [数据集](03-papers-code.md#datasets) | 大规模机器人数据集、跨形态数据 |
-| 📈 | [评测基准](03-papers-code.md#benchmarks-evaluation) | 任务评测标准、性能对比平台 |
-| 📚 | [综述](03-papers-code.md#survey) | 领域综述、前沿趋势分析 |
 
-- [学习社区](docs/05-community.md) – 博客、自媒体、高校实验室 
-- [贡献指南](CONTRIBUTING.md) – 如何参与共建
 
 ## 🚀 快速开始
 直接浏览目录，找到你感兴趣的板块即可。  
