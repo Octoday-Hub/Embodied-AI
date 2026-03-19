@@ -48,7 +48,7 @@
 
 项目完全开源，欢迎任何形式的贡献、建议与合作。如果你有任何问题、想法或资源推荐，欢迎通过以下方式联系我们：
 
-- **邮箱**：
+- **邮箱**：octoday@yeah.net
 - **GitHub Issues**：直接在本仓库提交 [Issue](https://github.com/LILAN-00/Octoday-Embodied-Hub/issues)
 
 特别感谢所有为项目添砖加瓦的贡献者（排名不分先后）：
