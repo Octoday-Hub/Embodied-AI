@@ -60,11 +60,9 @@
 项目完全开源，欢迎任何形式的贡献、建议与合作。如果你有任何问题、想法或资源推荐，欢迎通过以下方式联系我们：
 
 - **邮箱**：octoday@yeah.net
-- 📱 **微信公众号**：扫描下方二维码，获取最新动态与资源更新
-- <img width="1280" height="560" alt="Tail Banner2" src="https://github.com/user-attachments/assets/8d7c00f6-3c91-478e-8d17-d08394954720" />
-
 - **GitHub Issues**：直接在本仓库提交 [Issue](https://github.com/LILAN-00/Octoday-Embodied-Hub/issues)
-
+- 📱 **微信公众号**：扫描下方二维码，获取最新动态与资源更新
+<img width="1280" height="560" alt="Tail Banner2" src="https://github.com/user-attachments/assets/8d7c00f6-3c91-478e-8d17-d08394954720" />
 特别感谢所有为项目添砖加瓦的贡献者（排名不分先后）：
 
 <a href="https://github.com/LILAN-00/Octoday-Embodied-Hub/graphs/contributors">
