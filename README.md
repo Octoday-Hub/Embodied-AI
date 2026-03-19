@@ -12,7 +12,7 @@
 [![更新状态](https://img.shields.io/badge/更新频率-每周-blue)](https://github.com/LILAN-00/Octoday-Robotics)
 [![贡献指南](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
-## 🐣 (1) Start From Here - 从这里开始
+##  (1) Start From Here - 从这里开始
 
 > **具身智能**（Embodied AI）是指智能体通过物理身体与环境进行实时交互，从而感知、理解、决策并执行动作的智能系统。它融合了计算机视觉、机器人学、强化学习、自然语言处理等多个领域，是迈向通用人工智能的重要路径之一。
 
