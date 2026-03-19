@@ -11,14 +11,14 @@
 
 这里不是又一个论文列表，而是一个**连接产业、人才与知识**的信息枢纽。无论你是刚踏入具身智能领域的学生，还是寻找落地场景的工程师，或是关注行业动态的投资人，都能在这里找到自己需要的那块拼图。
 
-> 一份持续更新的具身智能（Embodied AI）领域结构化资源索引，涵盖公司、招聘、论文、代码库、数据集、学习路径等。旨在降低中文开发者的信息检索门槛，共建行业知识地图。
+
 
 🌐 [English Version](README_EN.md)
 
 [![GitHub stars](https://img.shields.io/github/stars/LILAN-00/Octoday-Robotics?style=social)](https://github.com/LILAN-00/Octoday-Robotics/stargazers)
 [![更新状态](https://img.shields.io/badge/更新频率-每周-blue)](https://github.com/LILAN-00/Octoday-Robotics)
 [![贡献指南](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
-
+> 一份持续更新的具身智能（Embodied AI）领域结构化资源索引，涵盖公司、招聘、论文、代码库、数据集、学习路径等。旨在降低中文开发者的信息检索门槛，共建行业知识地图。
 ---
 
 ## 🔰 1. 新手启程 · 从这里开始
