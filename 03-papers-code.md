@@ -131,3 +131,10 @@ A curated list of **recent Embodied AI papers** including robotics foundation mo
 
 
 > **说明**：本列表持续更新，欢迎通过 [Issues](https://github.com/LILAN-00/Octoday-Robotics/issues) 或 Pull Request 补充最新论文或修正信息。
+## 如何添加新内容
+
+- **添加论文**：在“论文”列表末尾新起一行，格式为：
+```markdown
+- **[论文标题](论文链接)**  
+  *作者* | [论文链接] | [代码链接]  
+  简介：一句话说明核心贡献
