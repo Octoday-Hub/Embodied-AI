@@ -90,7 +90,13 @@
 ---
 
 > 记住：**资源的价值在于使用，更在于分享**。如果你通过这份资源库有所收获，不妨也贡献一份力量，帮助后来者走得更顺。
+## 🤝 如何贡献
 
+我们欢迎所有形式的贡献！无论是添加新的公司、论文，还是修正错误，都能帮助社区。
+
+- 📖 阅读 [贡献指南](CONTRIBUTING.md) 了解详细流程。
+- ✨ 提交 [Pull Request](https://github.com/Octoday-Robotics/Embodied-AI/compare) 直接贡献内容。
+- 🐛 发现错误或有建议？请提交 [Issue](https://github.com/Octoday-Robotics/Embodied-AI/issues/new/choose)。
 ## 📄 许可证
 
 本项目采用 MIT 许可证。详细信息请查看 [LICENSE](LICENSE) 文件。
