@@ -2,7 +2,6 @@
 
 > 具身智能与机器人开发工具集锦，涵盖仿真环境、开发框架、数据集、硬件平台等。本列表持续更新，**欢迎补充**（可通过 Issues 或 PR 提交）。
 
-
 ### 📌 分类导航
 - [🖥️ 仿真平台与物理引擎](#simulation)
 - [🧠 具身智能平台与开发框架](#framework)
@@ -12,6 +11,7 @@
 
 ---
 
+<a id="simulation"></a>
 ## 🖥️ 仿真平台与物理引擎
 
 | 工具名称 | 简介 | 链接 |
@@ -31,6 +31,7 @@
 
 ---
 
+<a id="framework"></a>
 ## 🧠 具身智能平台与开发框架
 
 | 工具名称 | 简介 | 链接 |
@@ -51,7 +52,9 @@
 | **Drake** | 规划与控制工具包，由丰田研究所开发，用于机器人系统建模与分析[citation:6] | [GitHub](https://github.com/RobotLocomotion/drake) |
 | **OMPL** | 开源运动规划库，包含多种经典运动规划算法[citation:6] | [官网](https://ompl.kavrakilab.org) |
 
+---
 
+<a id="hardware"></a>
 ## 🤖 机器人硬件与开发平台
 
 | 工具名称 | 简介 | 链接 |
@@ -70,9 +73,9 @@
 | **1X (Kind Humanoid)** | 挪威公司，NEO家用机器人主打家庭场景[citation:9] | [官网](https://www.1x.tech) |
 | **Sanctuary AI·Phoenix** | 加拿大公司的人形机器人，第八代触觉传感器领先[citation:9] | [官网](https://sanctuary.ai) |
 
-
 ---
 
+<a id="devtools"></a>
 ## ⚙️ 机器人开发工具与SDK
 
 | 工具名称 | 简介 | 链接 |
@@ -90,6 +93,7 @@
 
 ---
 
+<a id="opensource"></a>
 ## 🏢 机器人公司开源项目
 
 | 工具名称 | 简介 | 链接 |
@@ -102,7 +106,6 @@
 | **特斯拉 (Tesla Optimus)** | Optimus Gen 3人形机器人，FSD自动驾驶AI迁移[citation:9] | [官网](https://www.tesla.com/optimus) |
 | **Agility Robotics·Digit** | 专注物流场景的双足机器人[citation:6] | [官网](https://agilityrobotics.com) |
 | **Apptronik·Apollo** | NASA衍生公司的人形机器人，与Jabil合作大规模生产[citation:用户提供] | [官网](https://apptronik.com) |
-
 
 ---
 
