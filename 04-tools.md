@@ -45,7 +45,6 @@
 | **ROS / ROS2** | 机器人操作系统，提供丰富的工具和库，支持模块化开发和分布式计算，是机器人软件开发的行业标准 | [官网](https://www.ros.org) |
 | **OpenVLA** | 开源通用机器人操作策略模型，支持多机器人即插即用和参数高效微调 | [GitHub](https://github.com/openvla/openvla) |
 | **GR-1 (ByteDance)** | 字节跳动开源的大规模视频生成预训练模型，用于视觉机器人操作 | [GitHub](https://github.com/bytedance/GR-1) |
-| **Meta Motivo** | 首个行为基础模型，用于控制虚拟物理人形智能体，支持广泛的全身任务 | [GitHub](https://github.com/facebookresearch/meta-motivo) |
 | **Universal Manipulation Interface (UMI)** | 斯坦福开源的通用操作接口，支持多种机器人学习任务 | [GitHub](https://github.com/real-stanford/universal_manipulation_interface) |
 | **Diffusion Policy** | 斯坦福开源的扩散策略框架，用于模仿学习和机器人控制 | [GitHub](https://github.com/real-stanford/diffusion_policy) |
 | **Drake** | 规划与控制工具包，由丰田研究所开发，用于机器人系统建模与分析 | [GitHub](https://github.com/RobotLocomotion/drake) |
