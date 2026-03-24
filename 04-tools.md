@@ -83,7 +83,6 @@
 | **Microsoft Robotics Developer Studio** | Windows平台机器人开发工具，包含可视化编程和仿真环境 | [官网](https://www.microsoft.com/en-us/download/details.aspx?id=29081) |
 | **VEX Robotics Software** | 专为VEX机器人平台设计，支持拖放式编程，适合教育领域 | [官网](https://www.vexrobotics.com) |
 | **TagUI** | RPA命令行接口工具，强调语言的简单自然 | [GitHub](https://github.com/kelaberetiv/TagUI) |
-| **AnyTeleop** | 基于视觉的灵巧机器人臂手遥操作系统 | [GitHub](https://github.com/OpenRobotLab/AnyTeleop) |
 | **ChatTTS** | 生成式语音模型，用于日常对话 | [GitHub](https://github.com/2noise/ChatTTS) |
 | **Hallo2** | 长时程、高分辨率音频驱动人像动画生成 | [GitHub](https://github.com/fudan-generative-vision/hallo2) |
 | **Real3D-Portrait** | 单图逼真3D说话人像合成 | [GitHub](https://github.com/yerfor/Real3DPortrait) |
