@@ -99,13 +99,13 @@
 | 工具名称 | 简介 | 链接 |
 |:---|:---|:---|
 | **智元机器人** | 远征系列工业人形机器人、灵犀系列协作机器人，灵创平台零代码内容创作 | [官网](https://www.agibot.com) |
-| **银河通用 (Galbot)** | GALBOT G1轮式双臂机器人，采用“双臂+单腿+轮式底盘”设计[citation:用户提供] | [官网](https://www.galbot.com) |
-| **逐际动力 (LimX Dynamics)** | LimXOmni全尺寸人形机器人、TRON多形态基座[citation:用户提供] | [官网](https://www.limxdynamics.com) |
-| **星动纪元 (Robotera)** | 双足人形机器人L7、灵巧手XHAND 1[citation:用户提供] | [官网](https://www.robotera.com) |
-| **波士顿动力 (Boston Dynamics)** | Electric Atlas人形机器人、Spot四足机器人、Stretch仓库机器人[citation:用户提供] | [官网](https://bostondynamics.com) |
+| **银河通用 (Galbot)** | GALBOT G1轮式双臂机器人，采用“双臂+单腿+轮式底盘”设计 | [官网](https://www.galbot.com) |
+| **逐际动力 (LimX Dynamics)** | LimXOmni全尺寸人形机器人、TRON多形态基座 | [官网](https://www.limxdynamics.com) |
+| **星动纪元 (Robotera)** | 双足人形机器人L7、灵巧手XHAND 1 | [官网](https://www.robotera.com) |
+| **波士顿动力 (Boston Dynamics)** | Electric Atlas人形机器人、Spot四足机器人、Stretch仓库机器人 | [官网](https://bostondynamics.com) |
 | **特斯拉 (Tesla Optimus)** | Optimus Gen 3人形机器人，FSD自动驾驶AI迁移 | [官网](https://www.tesla.com/optimus) |
 | **Agility Robotics·Digit** | 专注物流场景的双足机器人 | [官网](https://agilityrobotics.com) |
-| **Apptronik·Apollo** | NASA衍生公司的人形机器人，与Jabil合作大规模生产[citation:用户提供] | [官网](https://apptronik.com) |
+| **Apptronik·Apollo** | NASA衍生公司的人形机器人，与Jabil合作大规模生产 | [官网](https://apptronik.com) |
 
 ---
 
