@@ -5,12 +5,9 @@
 ### 📌 分类导航
 - [🖥️ 仿真平台与物理引擎](#仿真平台与物理引擎)
 - [🧠 具身智能平台与开发框架](#具身智能平台与开发框架)
-- [📊 数据集与评测基准](#数据集与评测基准)
 - [🤖 机器人硬件与开发平台](#机器人硬件与开发平台)
-- [🖐️ 灵巧手与触觉传感](#灵巧手与触觉传感)
 - [⚙️ 机器人开发工具与SDK](#机器人开发工具与sdk)
 - [🏢 机器人公司开源项目](#机器人公司开源项目)
-- [🎓 科研与教育平台](#科研与教育平台)
 
 ---
 
@@ -54,22 +51,6 @@
 | **Drake** | 规划与控制工具包，由丰田研究所开发，用于机器人系统建模与分析[citation:6] | [GitHub](https://github.com/RobotLocomotion/drake) |
 | **OMPL** | 开源运动规划库，包含多种经典运动规划算法[citation:6] | [官网](https://ompl.kavrakilab.org) |
 
----
-
-## 📊 数据集与评测基准
-
-| 工具名称 | 简介 | 链接 |
-|:---|:---|:---|
-| **Open X-Embodiment Dataset** | Google DeepMind开源的大规模多机器人数据集，涵盖22种机器人、超100万条轨迹[citation:6] | [GitHub](https://github.com/google-deepmind/open_x_embodiment) |
-| **BEHAVIOR-1K** | 人类家庭活动数据集，包含1000种日常任务[citation:6] | [官网](https://behavior.stanford.edu) |
-| **RoboNet** | 大规模机器人操作数据集，支持跨领域泛化学习[citation:6] | [GitHub](https://github.com/robopianist/robonet) |
-| **CALVIN** | 语言条件策略学习基准，用于长时程机器人操作任务[citation:6] | [GitHub](https://github.com/mees/calvin) |
-| **DexYCB** | 手部抓取物体评测基准，包含多视角RGB-D数据[citation:6] | [GitHub](https://dex-ycb.github.io) |
-| **AMASS** | 大型人体运动数据集，用于人体姿态估计和运动合成[citation:6] | [官网](https://amass.is.tue.mpg.de) |
-| **CMU Graphics Lab Motion Capture Database** | 卡内基梅隆大学开源的大规模人体运动捕捉数据[citation:6] | [官网](http://mocap.cs.cmu.edu) |
-| **Human3.6M** | 大型人体3D姿态数据集，用于人体感知研究[citation:6] | [官网](http://vision.imar.ro/human3.6m) |
-
----
 
 ## 🤖 机器人硬件与开发平台
 
@@ -89,17 +70,6 @@
 | **1X (Kind Humanoid)** | 挪威公司，NEO家用机器人主打家庭场景[citation:9] | [官网](https://www.1x.tech) |
 | **Sanctuary AI·Phoenix** | 加拿大公司的人形机器人，第八代触觉传感器领先[citation:9] | [官网](https://sanctuary.ai) |
 
----
-
-## 🖐️ 灵巧手与触觉传感
-
-| 工具名称 | 简介 | 链接 |
-|:---|:---|:---|
-| **灵心巧手 (Lingxin Hand)** | 国内灵巧手头部企业，高精度灵巧手产品[citation:用户提供] | 官网暂未开放 |
-| **帕西尼感知科技 (PaXini)** | 触觉传感器、多维度触觉感知解决方案[citation:用户提供] | [官网](https://www.paxini.com) |
-| **Proception·ProHand** | 先进仿人灵巧手，具备类人精度、自适应抓力和触觉传感[citation:9] | [官网](https://www.proception.ai) |
-| **Clone Robotics** | 肌骨类人机器人，采用“肌纤维”人工肌肉技术[citation:9] | [官网](https://www.clonerobotics.com) |
-| **非夕科技·Rizon** | 自适应机器人，力控技术全球领先[citation:用户提供] | [官网](https://www.flexiv.com) |
 
 ---
 
@@ -133,18 +103,7 @@
 | **Agility Robotics·Digit** | 专注物流场景的双足机器人[citation:6] | [官网](https://agilityrobotics.com) |
 | **Apptronik·Apollo** | NASA衍生公司的人形机器人，与Jabil合作大规模生产[citation:用户提供] | [官网](https://apptronik.com) |
 
----
-
-## 🎓 科研与教育平台
-
-| 工具名称 | 简介 | 链接 |
-|:---|:---|:---|
-| **Furhat Robotics** | 先进的社交机器人平台，配备表情丰富的背投面部[citation:9] | [官网](https://furhatrobotics.com) |
-| **VPL (Visual Programming Language)** | 可视化编程语言，适合初学者和儿童学习机器人编程[citation:8] | [官网](https://www.microsoft.com/en-us/download/details.aspx?id=30187) |
-| **乐聚机器人 (LEJU)** | KUAVO高动态双足机器人、编程教育系列机器人[citation:用户提供] | [官网](https://www.lejurobot.cn) |
-| **众擎机器人 (ENGINEAI)** | 人形机器人及相关核心部件，主打拟人自然步态技术[citation:用户提供] | [官网](https://www.engineai.com.cn) |
-| **云深处科技 (DEEP Robotics)** | “绝影”系列四足机器人，已在600+行业项目中落地[citation:用户提供] | [官网](https://www.deeprobotics.cn) |
 
 ---
 
-> **说明**：本列表持续更新，已收录 **60+** 工具。欢迎通过 [Issues](https://github.com/LILAN-00/Octoday-Embodied-Hub/issues) 或 Pull Request 补充新工具或修正信息。
+> **说明**：本列表持续更新。欢迎通过 [Issues](https://github.com/LILAN-00/Octoday-Embodied-Hub/issues) 或 Pull Request 补充新工具或修正信息。
