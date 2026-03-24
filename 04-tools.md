@@ -36,7 +36,6 @@
 | 工具名称 | 简介 | 链接 |
 |:---|:---|:---|
 | **智元灵创平台 (LinkCraft)** | 智元机器人推出的全球首个零代码机器人内容创作平台，支持动作模仿、语音驱动、群控演绎，用户可通过自然语言描述生成机器人任务脚本[citation:7] | [官网](https://www.agibot.com.cn/filepage/295.html) |
-| **智元 GenieEnvisioner** | 面向真实世界双臂机器人的世界模型开源平台，支持仿真数据生成和策略训练[citation:2] | [官网](https://www.agibot.com) |
 | **腾讯 Tairos (钛螺丝)** | 具身智能开放平台，首创模块化方式提供大模型、开发工具和数据服务，即插即用赋能机器人行业[citation:2][citation:4] | [官网](https://ai.tencent.com) |
 | **商汤悟能** | 具身智能平台，以具身世界模型为核心引擎，提供感知、视觉导航及多模态交互能力[citation:2][citation:10] | [官网](https://www.sensetime.com) |
 | **京东 JoyInside** | 附身智能平台，将角色大模型驱动对话智能体植入机器人、AI玩具等智能硬件[citation:4][citation:10] | [官网](https://www.jd.com) |
