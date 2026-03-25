@@ -5,15 +5,26 @@
 ## 📚 推荐书籍
 从经典理论到前沿实践，以下书籍是构建知识体系的基石：
 
+
 | 书名 | 作者 | 简介 | 推荐理由 |
 | :--- | :--- | :--- | :--- |
 | **《机器人学导论》** | John J. Craig | 机器人学经典教材，涵盖空间描述、运动学、动力学、轨迹规划等。 | 理解机器人底层几何与运动关系的必读书。 |
+| **《现代机器人学》** | Kevin M. Lynch, Frank C. Park | 从旋量理论出发，系统阐述机器人运动学、动力学与控制。 | 比传统教材更现代，适合对数学推导感兴趣的读者。 |
 | **《强化学习（第2版）》** | Richard S. Sutton | 强化学习领域的圣经，包含基础算法到深度强化学习的完整理论。 | 掌握智能体通过交互学习决策的核心范式。 |
+| **《深度学习》** | Ian Goodfellow 等 | 深度学习领域奠基性著作，涵盖基础理论和主流模型。 | 构建视觉、语言等感知模块的必备知识。 |
 | **《计算机视觉：模型、学习和推理》** | Simon J.D. Prince | 系统介绍计算机视觉的概率模型与机器学习方法。 | 为具身智能处理视觉输入提供扎实的数学基础。 |
 | **《Probabilistic Robotics》** | Sebastian Thrun 等 | 详细阐述机器人定位、地图构建（SLAM）等核心问题的概率方法。 | 处理真实世界不确定性的关键技术参考。 |
-| **《Deep Learning》** | Ian Goodfellow 等 | 深度学习领域奠基性著作，涵盖基础理论和主流模型。 | 构建视觉、语言等感知模块的必备知识。 |
+| **《Robot Learning》** | Serdar Kocak | 聚焦机器人学习领域，涵盖模仿学习、强化学习、元学习等。 | 专为机器人学习设计，与具身智能高度相关。 |
+| **《Embodied AI: How to Train Your Robot》** | 多位作者（OpenMind） | 开源社区编写的具身智能实践指南，从环境搭建到策略部署。 | 理论+代码结合，适合动手实践。 |
+| **《The Robot Operating System (ROS) for Absolute Beginners》** | Lentin Joseph | ROS1/ROS2入门教程，涵盖机器人软件开发基础。 | 如果你计划使用机器人物理平台，这本书是必读。 |
+| **《Human-Robot Interaction: An Introduction》** | Christoph Bartneck 等 | 人机交互领域的系统导论，涵盖伦理、认知和社会维度。 | 理解机器人如何与人协作，是应用落地的关键。 |
+| **《Manipulation: The Mechanics of Robotic Grasping and Manipulation》** | Matthew T. Mason | 深入探讨机器人操作力学的经典著作。 | 聚焦“操作”这一核心技能，适合深入研究者。 |
+| **《Robotics, Vision and Control》** | Peter Corke | 以MATLAB/Simulink为工具，融合机器人学、计算机视觉与控制。 | 附有大量代码示例，适合快速原型验证。 |
 
-> **建议阅读顺序**：初学者可先读《机器人学导论》建立空间概念，再结合《强化学习》和《Deep Learning》理解智能体的学习机制。
+> **建议阅读顺序**：
+> - 初学者：先读《机器人学导论》或《现代机器人学》建立空间概念，再结合《强化学习》和《深度学习》理解智能体学习机制。
+> - 实践者：优先阅读《Embodied AI: How to Train Your Robot》和《ROS for Absolute Beginners》，快速上手搭建系统。
+> - 研究者：深入《Probabilistic Robotics》《Manipulation》等专著，夯实某一方向的理论基础。
 
 ## 🎓 在线课程
 顶尖大学的公开课是快速入门的最佳途径：
