@@ -152,7 +152,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 * **VIMA**: "VIMA: General Robot Manipulation with Multimodal Prompts", *NeurIPS 2022*. [[Paper](https://arxiv.org/abs/2210.03094)]  
   *Stanford、NVIDIA* | 多模态提示的通用机器人操纵模型。
 
-* **PALM-E (已收录于Foundation Models)**
 * **EmbodiedGPT**: "EmbodiedGPT: Vision-Language Pre-training for Embodied AI", *ICLR 2024*. [[Paper](https://arxiv.org/abs/2405.11827)]  
   *清华、智谱AI* | 专为具身AI设计的视觉语言预训练模型。
 
@@ -328,7 +327,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 * **SAPIEN**: "SAPIEN: A SimulAted Part-based Interactive ENvironment", *CVPR 2020*. [[Paper](https://arxiv.org/abs/2003.08515)]  
   *Stanford* | 基于部件的交互式仿真环境。
 
-* **Habitat (已收录于Navigation)**
 * **iGibson**: "iGibson 1.0: A Simulation Environment for Interactive Tasks in Large Realistic Scenes", *IROS 2020*. [[Paper](https://arxiv.org/abs/2012.02924)]  
   *Stanford* | 大型真实场景交互任务仿真环境。
 
@@ -430,9 +428,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 
 # Benchmarks & Evaluation
 
-* **RoboTwin (已收录于Datasets)**
-* **ManiSkill2 (已收录于Datasets)**
-* **CALVIN (已收录于Datasets)**
 * **Habitat Challenge**: "Habitat Challenge: Embodied AI in 3D Scenes", *CVPR 2019*. [[Paper](https://arxiv.org/abs/1904.01201)]  
   *Facebook* | 具身AI挑战赛。
 
@@ -442,8 +437,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 * **RoboSuite Benchmark**: "RoboSuite: A Modular Simulation Framework and Benchmark", *CoRL 2020*. [[Paper](https://arxiv.org/abs/2009.09081)]  
   *Stanford* | 模块化仿真基准。
 
-* **Meta-World (已收录于Simulation)**
-* **DMControl (已收录于Simulation)**
 * **Franka Kitchen**: "Franka Kitchen: A Benchmark for Long-Horizon Manipulation", *NeurIPS 2021*. [[Paper](https://arxiv.org/abs/2106.09876)]  
   *UC Berkeley* | 长时程操纵基准。
 
