@@ -16,7 +16,40 @@ A curated list of **recent Embodied AI papers** including robotics foundation mo
 - [Benchmarks & Evaluation](#benchmarks-evaluation)
 - [Survey](#survey)
 ---
+# Embodied Foundation Models
 
+## 📜 经典论文 (2022–2024)
+
+* **RT-1**: "RT-1: Robotics Transformer for Real-World Control at Scale", *arXiv, Dec 2022*. [[Paper](https://arxiv.org/abs/2212.06817)]  
+  *Google* | 首个大规模机器人Transformer模型，在13个任务、13万条演示上训练，实现零样本泛化。
+
+* **RT-2**: "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control", *arXiv, Jul 2023*. [[Paper](https://arxiv.org/abs/2307.15818)]  
+  *Google* | 将视觉-语言模型微调为VLA，使机器人能够理解视觉-语言指令并执行动作。
+
+* **PaLM-E**: "PaLM-E: An Embodied Multimodal Language Model", *arXiv, Mar 2023*. [[Paper](https://arxiv.org/abs/2303.03378)]  
+  *Google* | 将真实世界传感器数据与语言模型融合，实现具身推理与规划。
+
+* **GATO**: "A Generalist Agent", *arXiv, May 2022*. [[Paper](https://arxiv.org/abs/2205.06175)]  
+  *DeepMind* | 单一Transformer模型同时处理600+任务，涵盖机器人控制、游戏、对话等。
+
+* **RoboCat**: "RoboCat: A Self-Improving Foundation Agent for Robotic Manipulation", *arXiv, Jun 2023*. [[Paper](https://arxiv.org/abs/2306.11706)]  
+  *DeepMind* | 能够自我改进的机器人基础模型，通过自我生成数据持续提升能力。
+
+* **BC-Z**: "BC-Z: Zero-Shot Task Generalization with Robotic Imitation Learning", *CoRL 2021*. [[Paper](https://arxiv.org/abs/2202.02005)]  
+  *Google* | 零样本任务泛化的模仿学习方法，通过语言指令实现新任务。
+
+* **Perceiver-Actor**: "Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation", *CoRL 2022*. [[Paper](https://arxiv.org/abs/2209.05433)]  
+  *DeepMind* | 多任务机器人操纵的Transformer架构，支持跨任务迁移。
+
+* **RoboFlamingo**: "RoboFlamingo: A Vision-Language Model for Open-Vocabulary Robot Control", *arXiv, Nov 2023*. [[Paper](https://arxiv.org/abs/2311.01355)]  
+  *清华、上海AI Lab* | 基于Flamingo的开源VLA模型，支持开放词汇的机器人控制。
+
+* **CLIPort**: "CLIPort: What and Where Pathways for Robotic Manipulation", *CoRL 2021*. [[Paper](https://arxiv.org/abs/2109.12098)]  
+  *MIT、Google* | 结合CLIP视觉理解与端到端策略的机器人操纵方法。
+
+* **R3M**: "R3M: A Universal Visual Representation for Robot Manipulation", *CoRL 2022*. [[Paper](https://arxiv.org/abs/2203.12601)]  
+  *Stanford、UC Berkeley* | 通用机器人视觉表示，通过大规模人类视频预训练。
+  
 # Embodied Foundation Models
 
 * **LingBot-VLA**: "LingBot-VLA: Scaling Robot Manipulation with Multi-Embodiment Data", *arXiv, Jan 2026*. [[Paper](https://arxiv.org/abs/2601.18692)]
