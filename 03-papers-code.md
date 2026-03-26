@@ -84,11 +84,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 
 # Vision-Language-Action (VLA)
 
-
-* **RT-2 (已收录于Foundation Models)** 
-* **PaLM-E (已收录于Foundation Models)**
-* **OpenVLA (已收录于Foundation Models)**
-* **RoboFlamingo (已收录于Foundation Models)**
 * **MC-Skill**: "MC-Skill: Multi-Context Skill Learning for Vision-Language-Action", *CoRL 2024*. [[Paper](https://arxiv.org/abs/2405.16789)]  
   *CMU* | 多上下文技能学习的VLA框架，支持复杂场景泛化。
 
