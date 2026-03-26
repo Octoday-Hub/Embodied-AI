@@ -1,7 +1,7 @@
 ## 📄 Embodied AI Papers 具身智能论文精选
 
 A curated list of **classic and recent Embodied AI papers** including robotics foundation models, VLA models, embodied agents, manipulation, and navigation.
-持续收录具身智能领域最具代表性的论文（50篇经典奠基工作 + 50篇最新前沿成果），包含核心内容摘要和原文链接。**欢迎补充**（可通过 Issues 或 PR 提交）。
+持续收录具身智能领域最具代表性的论文，包含核心内容摘要和原文链接。**欢迎补充**（可通过 Issues 或 PR 提交）。
 
 
 # Table of Contents
@@ -19,8 +19,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 ---
 
 # Embodied Foundation Models
-
-## 📜 经典论文 (2022–2024)
 
 * **RT-1**: "RT-1: Robotics Transformer for Real-World Control at Scale", *arXiv, Dec 2022*. [[Paper](https://arxiv.org/abs/2212.06817)]  
   *Google* | 首个大规模机器人Transformer模型，在13个任务、13万条演示上训练，实现零样本泛化。
@@ -51,8 +49,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 
 * **R3M**: "R3M: A Universal Visual Representation for Robot Manipulation", *CoRL 2022*. [[Paper](https://arxiv.org/abs/2203.12601)]  
   *Stanford、UC Berkeley* | 通用机器人视觉表示，通过大规模人类视频预训练。
-
-## 🚀 最新论文 (2025–2026)
 
 * **LingBot-VLA**: "LingBot-VLA: Scaling Robot Manipulation with Multi-Embodiment Data", *arXiv, Jan 2026*. [[Paper](https://arxiv.org/abs/2601.18692)]  
   *阿里、上交* | 多形态机器人数据规模化扩展的VLA模型。
@@ -88,7 +84,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 
 # Vision-Language-Action (VLA)
 
-## 📜 经典论文 (2023–2024)
 
 * **RT-2 (已收录于Foundation Models)** 
 * **PaLM-E (已收录于Foundation Models)**
@@ -112,7 +107,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 * **Q-Former**: "Q-Former: Query-based Transformer for Vision-Language Understanding", *CVPR 2023*. [[Paper](https://arxiv.org/abs/2305.16504)]  
   *Meta* | 基于查询的视觉语言融合架构。
 
-## 🚀 最新论文 (2025–2026)
 
 * **DexVLA**: "DexVLA: Plug-in Diffusion Experts for Vision-Language-Action Models", *arXiv, 2025*. [[Paper](https://arxiv.org/abs/2505.16413)]  
   *港中文、腾讯* | 扩散专家即插即用的VLA增强框架。
@@ -151,8 +145,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 
 # Embodied Agents & Reasoning
 
-## 📜 经典论文 (2023–2024)
-
 * **SayCan**: "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances", *CoRL 2022*. [[Paper](https://arxiv.org/abs/2204.01691)]  
   *Google* | 将语言模型与机器人能力结合，实现自然语言指令执行。
 
@@ -177,8 +169,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 
 * **PromptCraft**: "PromptCraft: Zero-Shot Task Planning with Large Language Models", *ICRA 2023*. [[Paper](https://arxiv.org/abs/2303.08734)]  
   *UC Berkeley* | 零样本任务规划的提示工程框架。
-
-## 🚀 最新论文 (2025–2026)
 
 * **DualVLA**: "DualVLA: Decoupling Reasoning and Action for Embodied Agents", *arXiv, 2025*. [[Paper](https://arxiv.org/abs/2506.08755)]  
   *上交、商汤* | 解耦推理与行动的具身智能体框架。
@@ -211,8 +201,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 
 # Manipulation
 
-## 📜 经典论文 (2021–2024)
-
 * **Diffusion Policy**: "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion", *RSS 2023*. [[Paper](https://arxiv.org/abs/2303.04137)]  
   *Stanford* | 基于扩散模型的机器人策略学习，在灵巧操作上表现优异。
 
@@ -239,8 +227,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 
 * **MimicPlay**: "MimicPlay: Long-Horizon Imitation Learning by Watching Human Play", *ICLR 2023*. [[Paper](https://arxiv.org/abs/2302.12422)]  
   *Stanford* | 通过观看人类玩游戏的长时间模仿学习。
-
-## 🚀 最新论文 (2025–2026)
 
 * **ReBot**: "ReBot: Scaling Robot Learning with Real-to-Sim-to-Real Video Synthesis", *arXiv, Mar 2025*. [[Paper](https://arxiv.org/abs/2503.14526)]  
   *字节跳动、北大* | 真实-仿真-真实视频合成的机器人学习扩展方法。
@@ -273,7 +259,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 
 # Navigation & Spatial Intelligence
 
-## 📜 经典论文 (2018–2024)
 
 * **Habitat**: "Habitat: A Platform for Embodied AI Research", *ICCV 2019*. [[Paper](https://arxiv.org/abs/1904.01201)]  
   *Facebook* | 具身AI研究平台，包含仿真器和数据集。
@@ -301,8 +286,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 
 * **ViNG**: "ViNG: Learning Open-World Navigation with Visual Goal Representations", *ICRA 2021*. [[Paper](https://arxiv.org/abs/2103.07086)]  
   *Google* | 视觉目标表示的开放世界导航。
-
-## 🚀 最新论文 (2025–2026)
 
 * **RoboTracer**: "RoboTracer: Spatial Trace Reasoning in Vision-Language Models for Robotics", *arXiv, Dec 2025*. [[Paper](https://arxiv.org/abs/2512.13660)]  
   *清华、港中文* | 视觉语言模型中的空间轨迹推理。
@@ -335,8 +318,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 
 # Simulation & Sim2Real
 
-## 📜 经典论文 (2020–2024)
-
 * **Genesis**: "Genesis: A Generative and Universal Physics Engine for Robotics and Beyond", *arXiv, Dec 2024*. [[Paper](https://arxiv.org/abs/2412.12345)]  
   *MIT、Stanford* | 生成式通用物理引擎。
 
@@ -365,8 +346,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 * **Meta-World**: "Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning", *CoRL 2019*. [[Paper](https://arxiv.org/abs/1910.10897)]  
   *UC Berkeley* | 多任务元强化学习基准。
 
-## 🚀 最新论文 (2025–2026)
-
 * **RealMirror**: "RealMirror: Vision-Language-Action Platform for Embodied AI", *arXiv, Sep 2025*. [[Paper](https://arxiv.org/abs/2509.14687)]  
   *字节跳动、北大* | 具身AI的视觉-语言-动作平台。
 
@@ -394,8 +373,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 ---
 
 # Datasets
-
-## 📜 经典数据集 (2018–2024)
 
 * **Open X-Embodiment Dataset**: "Open X-Embodiment: Robotic Learning Datasets and RT-X Models", *arXiv, 2024*. [[Paper](https://arxiv.org/abs/2310.08864)]  
   *Google、UC Berkeley等* | 最大规模多机器人数据集，22种机器人、100万+轨迹。
@@ -426,8 +403,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 
 * **COCO**: "Microsoft COCO: Common Objects in Context", *ECCV 2014*. [[Paper](https://arxiv.org/abs/1405.0312)]  
   *Microsoft* | 通用物体检测数据集。
-
-## 🚀 最新数据集 (2025–2026)
 
 * **RoboTwin Dataset**: "RoboTwin: A Dual-Arm Robot Dataset for Bimanual Manipulation", *CVPR 2025*. [[Paper](https://arxiv.org/abs/2503.17324)]  
   *清华、字节跳动* | 双臂机器人操作数据集。
@@ -460,8 +435,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 
 # Benchmarks & Evaluation
 
-## 📜 经典基准 (2020–2024)
-
 * **RoboTwin (已收录于Datasets)**
 * **ManiSkill2 (已收录于Datasets)**
 * **CALVIN (已收录于Datasets)**
@@ -481,8 +454,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 
 * **RLBench**: "RLBench: The Robot Learning Benchmark & Learning Environment", *ICRA 2020*. [[Paper](https://arxiv.org/abs/1909.12271)]  
   *Oxford* | 机器人学习基准。
-
-## 🚀 最新基准 (2025–2026)
 
 * **EmbSpatial-Bench**: "EmbSpatial-Bench: Benchmarking Spatial Reasoning for Embodied AI", *arXiv, 2024*. [[Paper](https://arxiv.org/abs/2403.10510)]  
   *清华、上海AI Lab* | 具身空间推理基准。
@@ -509,8 +480,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 
 # Survey
 
-## 📜 经典综述 (2019–2024)
-
 * **Embodied AI Survey**: "Embodied AI: A Survey", *arXiv, 2024*. [[Paper](https://arxiv.org/abs/2407.06886)]  
   *北大、字节跳动* | 具身AI全面综述。
 
@@ -534,8 +503,6 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
 
 * **Navigation Survey**: "A Survey of Embodied Navigation", *arXiv, 2022*. [[Paper](https://arxiv.org/abs/2205.09876)]  
   *Facebook* | 具身导航综述。
-
-## 🚀 最新综述 (2025–2026)
 
 * **Embodied Foundation Models Survey**: "Embodied Foundation Models: A Survey", *arXiv, Jan 2026*. [[Paper](https://arxiv.org/abs/2601.03456)]  
   *清华、字节跳动* | 具身基础模型综述。
@@ -562,4 +529,4 @@ A curated list of **classic and recent Embodied AI papers** including robotics f
   *MIT* | 开源机器人综述。
 
 
-> **说明**：本列表已收录 **100篇** 具身智能领域论文（50篇经典 + 50篇最新），覆盖9大核心方向，持续更新中。欢迎通过 [Issues](https://github.com/LILAN-00/Octoday-Embodied-Hub/issues) 或 Pull Request 补充最新论文或修正信息。
+> **说明**：持续更新中。欢迎通过 [Issues](https://github.com/LILAN-00/Octoday-Embodied-Hub/issues) 或 Pull Request 补充最新论文或修正信息。
