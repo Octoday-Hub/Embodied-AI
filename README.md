@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  # 🤖 Octoday-Embodied-Hub · 星期八-具身智能资源库
+  # 🤖星期八-具身智能资源库
 </div>
 
 ## 🌟 我们的愿景
