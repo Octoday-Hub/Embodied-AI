@@ -9,13 +9,12 @@
 |:---|:---|:---|:---|:---|:---|
 | **盟立自动化** | AI软件工程师（具身智能机器人开发） | 新竹（台湾） | 全职 | 2026.03.31发布 | [104人力银行](https://www.104.com.tw/job/8zqwi) |
 | **北京航空航天大学具身智能研究院** | 研发工程师（嵌入式/电力电子方向） | 北京 | 全职 | 2026.04.03截止 | [邮箱投递](mailto:lizeyubuaa@buaa.edu.cn) |
-| **厦门福龙马** | 感知算法助理工程师（SLAM方向） | 厦门 | 全职 | 2026.04.24截止 | [厦门人才(https://app.xmrc.com.cn/Recruit/RecruitInfo/2a2e59c3afa2483ead80daa33419ff74)|
+| **厦门福龙马** | 感知算法助理工程师（SLAM方向） | 厦门 | 全职 | 2026.04.24截止 | [厦门人才](https://app.xmrc.com.cn/Recruit/RecruitInfo/2a2e59c3afa2483ead80daa33419ff74) |
 | **云深处科技** | SLAM算法工程师、导航算法工程师、运动控制算法工程师 | 杭州 | 全职 | 2026.03发布 | [云深处招聘官网](https://www.deeprobotics.cn/careers) |
 | **银河通用** | 具身大模型算法、灵巧手操作算法、机器人控制算法 | 北京 | 全职 | 2026.03发布 | [银河通用招聘](https://www.galaxea.ai/careers) |
 | **智平方** | 具身智能算法工程师、嵌入式开发工程师、机器人产品经理 | 深圳 | 全职 | 2026.03发布 | [智平方招聘](https://www.zhipingfang.com/careers) |
 | **拓斯达** | 具身智能算法工程师、机器人控制算法、视觉算法工程师 | 东莞 | 全职 | 2026.03发布 | [拓斯达招聘官网](https://www.topstarltd.com/careers) |
 | **诺亦腾机器人** | 算法工程师（VLM/VLA/RL/仿真/部署） | 深圳 | 全职 | 2026.03发布 | [邮箱投递](mailto:hr@noitomrobotics.com) |
-| **上海怀信智能** | 数字化、智能制造工艺流程方向人才 | 上海 | 全职 | 2026.03.31发布 | 现场投递/公司官网 |
 | **中建材凯盛机器人** | 算法工程师、控制工程师、视觉工程师 | 上海 | 校招 | 2026.03.31发布 | [公司官网](https://www.ctiec.net) |
 | **飞科电器** | 城市经理、国际区域经理（语言类/小语种/经贸类） | 上海/全国 | 校招 | 2026.03.31发布 | [公司官网](https://www.flyco.com) |
 | **普渡机器人** | 端到端模型算法、机器人感知算法、软件/硬件工程师、海外销售 | 深圳/成都 | 校招 | 2026.03发布 | [普渡招聘官网](https://pudutech.zhiye.com/campus) |
@@ -23,11 +22,11 @@
 | **华为** | 具身智能算法、机器人控制算法、AI算法工程师 | 深圳/北京/上海/杭州 | 校招/社招 | 2026.03发布 | [华为招聘官网](https://career.huawei.com) |
 | **地平线** | 多模态大模型算法、强化学习、运动控制、世界模型、AI infra | 北京/上海/南京/杭州/深圳/香港 | 校招/实习 | 2026.03发布 | [地平线招聘公众号](https://mp.weixin.qq.com/s/horizon_campus) |
 | **智元机器人** | 算法/软件/硬件等研发岗位 | 上海/北京/深圳 | 春招/暑期实习 | 2026.04.16截止 | [智元机器人招聘公众号](https://www.zhiyuanrobot.com) |
-| **荣耀** | 机器人软件系统开发工程师 | 北京 | 实习 | 2026.03.26发布 | [荣耀招聘官网](https://www.honor.com/cn/career/) |
-| **宇树科技** | 算法/机械/嵌入式实习岗位 | 杭州 | 实习 | 在校本硕博 | 2026.03发布 | [宇树科技招聘](https://www.unitree.com/careers) |
-| **建信信托** | 股权投资助理（AI/具身方向） | 北京 | 实习 | 金融/经济/理工背景 | 2026.04启动 | [邮箱投递](mailto:dzz_zp@163.com) |
-| **米哈游** | 大规模实习生计划（900人，不限专业） | 上海/全国 | 实习 | 全体在校生 | 2026.03发布 | [米哈游招聘官网](https://www.mihoyo.com/campus) |
-| **香港中文大学-智元联合平台** | 具身智能实习/课题研究 | 香港/深圳 | 实习 | 香港中文大学学生 | 2026.03发布 | 通过校内渠道申请 |
+| **荣耀** | 机器人软件系统开发工程师 | 北京 | 实习  | [荣耀招聘官网](https://www.honor.com/cn/career/) |
+| **宇树科技** | 算法/机械/嵌入式实习岗位 | 杭州 | 实习 | 在校本硕博  | [宇树科技招聘](https://www.unitree.com/careers) |
+| **建信信托** | 股权投资助理（AI/具身方向） | 北京 | 实习 | 金融/经济/理工背景 | [邮箱投递](mailto:dzz_zp@163.com) |
+| **米哈游** | 大规模实习生计划（900人，不限专业） | 上海/全国 | 实习 | 全体在校生  | [米哈游招聘官网](https://www.mihoyo.com/campus) |
+| **香港中文大学-智元联合平台** | 具身智能实习/课题研究 | 香港/深圳 | 实习 | 香港中文大学学生  | 通过校内渠道申请 |
 
 ### 🌏 海外机会 · International
 
@@ -39,11 +38,9 @@
 | **AIM Intelligent Machines** | Perception and SLAM Machine Learning Engineer | Seattle, WA | Full-time | 2026.03发布 | [Apply Here](https://jobs.khoslaventures.com/companies/aim-intelligent-machines-2/jobs/70106681-perception-and-slam-machine-learning-engineer) |
 | **Formic** | Embodied AI / Simulation Engineer | San Francisco/Oakland, CA | Full-time | 2026.02发布 | [Apply Here](https://jobs.luxcapital.com/companies/formic/jobs/67900487-embodied-ai-simulation-engineer) |
 | **Apptronik** | Senior Autonomy Software Engineer | Austin, TX | Full-time | 2026.01发布 | [Apptronik Careers](https://www.apptronik.com/careers) |
-(https://jobs.gritventures.com/companies/apptronik/jobs/71302488-motion-control-and-planning-intern) |
 | **Meta (Reality Labs)** | Research Scientist - World Models & Embodied AI | London, UK | Full-time | 2026.03发布 | [Meta Careers](https://www.metacareers.com/jobs) |
 | **Iconic.AI** | AI Research Scientist (Expressive Embodiment) | London, UK | Full-time | 2026.02发布 | [Iconic.AI Careers](https://www.iconic.ai/jobs) |
 | **HTX (Singapore)** | Engineer / Lead Engineer - Embodied AI R&D | Singapore | Full-time | 2026.03发布 | [Careers@Gov](https://jobs.careers.gov.sg/jobs/hrp/15352269) |
-| **Apptronik** | Motion Control and Planning Intern | Austin, TX | Internship | 2026.03发布 | [Apply Here]
 
 ### 🎓 专项计划 · Internships & Programs
 
