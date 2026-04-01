@@ -9,7 +9,7 @@
 |:---|:---|:---|:---|:---|:---|
 | **盟立自动化** | AI软件工程师（具身智能机器人开发） | 新竹（台湾） | 全职 | 2026.03.31发布 | [104人力银行](https://www.104.com.tw/job/8zqwi) |
 | **北京航空航天大学具身智能研究院** | 研发工程师（嵌入式/电力电子方向） | 北京 | 全职 | 2026.04.03截止 | [邮箱投递](mailto:lizeyubuaa@buaa.edu.cn) |
-| **厦门福龙马** | 感知算法助理工程师（SLAM方向） | 厦门 | 全职 | 2026.04.24截止 | [厦门人才网](https://app.xmrc.com.cn/Recruit/RecruitInfo/2a2e59c3afa2483ead80daa33419ff74) |
+| **厦门福龙马** | 感知算法助理工程师（SLAM方向） | 厦门 | 全职 | 2026.04.24截止 | [厦门人才(https://app.xmrc.com.cn/Recruit/RecruitInfo/2a2e59c3afa2483ead80daa33419ff74)|
 | **云深处科技** | SLAM算法工程师、导航算法工程师、运动控制算法工程师 | 杭州 | 全职 | 2026.03发布 | [云深处招聘官网](https://www.deeprobotics.cn/careers) |
 | **银河通用** | 具身大模型算法、灵巧手操作算法、机器人控制算法 | 北京 | 全职 | 2026.03发布 | [银河通用招聘](https://www.galaxea.ai/careers) |
 | **智平方** | 具身智能算法工程师、嵌入式开发工程师、机器人产品经理 | 深圳 | 全职 | 2026.03发布 | [智平方招聘](https://www.zhipingfang.com/careers) |
