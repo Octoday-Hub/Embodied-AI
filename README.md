@@ -41,25 +41,6 @@
 - [工具与平台](04-tools.md) – 机器人内容创作、运动控制、仿真调试等实用工具集锦。
 - [学习社区](docs/05-community.md) – 链接优质博客、自媒体与高校实验室，拓展交流圈层。
 - [贡献指南](CONTRIBUTING.md) – 如果你发现优质资源未被收录，或现有内容有误，欢迎通过 Issues 或 Pull Request 贡献，一起完善这份知识地图。 
-
-### 👥 1.2 关于星期八团队
-
-**星期八 Robotics（Octoday-Robotics）** 是一个由具身智能爱好者、开发者和行业观察者组成的开放社区。我们希望通过系统化的资源整理，降低中文开发者进入具身智能领域的门槛，加速知识传播与产业融合。
-
-项目完全开源，欢迎任何形式的贡献、建议与合作。如果你有任何问题、想法或资源推荐，欢迎通过以下方式联系我们：
-
-- **邮箱**：octoday@yeah.net
-- **GitHub Issues**：直接在本仓库提交 [Issue](https://github.com/LILAN-00/Octoday-Embodied-Hub/issues)
-- 📱 **微信公众号**：扫描下方二维码，获取最新动态与资源更新
-<img width="1280" height="560" alt="Tail Banner2" src="https://github.com/user-attachments/assets/8d7c00f6-3c91-478e-8d17-d08394954720" />
-特别感谢所有为项目添砖加瓦的贡献者（排名不分先后）：
-
-<a href="https://github.com/LILAN-00/Octoday-Embodied-Hub/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=LILAN-00/Octoday-Embodied-Hub" />
-</a>
-
----
-
 ## 🧭 2. 学习路径图 – 从入门到精通
 
 > **如果你是初学者，我们建议按以下路径逐步深入**
@@ -98,6 +79,24 @@
 - 📖 阅读 [贡献指南](CONTRIBUTING.md) 了解详细流程。
 - ✨ 提交 [Pull Request](https://github.com/Octoday-Robotics/Embodied-AI/compare) 直接贡献内容。
 - 🐛 发现错误或有建议？请提交 [Issue](https://github.com/Octoday-Robotics/Embodied-AI/issues/new/choose)。
+## 👥  关于星期八团队
+
+**星期八 Robotics（Octoday-Robotics）** 是一个由具身智能爱好者、开发者和行业观察者组成的开放社区。我们希望通过系统化的资源整理，降低中文开发者进入具身智能领域的门槛，加速知识传播与产业融合。
+
+项目完全开源，欢迎任何形式的贡献、建议与合作。如果你有任何问题、想法或资源推荐，欢迎通过以下方式联系我们：
+
+- **邮箱**：octoday@yeah.net
+- **GitHub Issues**：直接在本仓库提交 [Issue](https://github.com/LILAN-00/Octoday-Embodied-Hub/issues)
+- 📱 **微信公众号**：扫描下方二维码，获取最新动态与资源更新
+<img width="1280" height="560" alt="Tail Banner2" src="https://github.com/user-attachments/assets/8d7c00f6-3c91-478e-8d17-d08394954720" />
+特别感谢所有为项目添砖加瓦的贡献者（排名不分先后）：
+
+<a href="https://github.com/LILAN-00/Octoday-Embodied-Hub/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=LILAN-00/Octoday-Embodied-Hub" />
+</a>
+
+---
 ## 📄 许可证
 
 本项目采用 MIT 许可证。详细信息请查看 [LICENSE](LICENSE) 文件。
+
