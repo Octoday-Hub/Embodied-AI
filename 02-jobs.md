@@ -6,33 +6,33 @@
 ### 📌 国内机会 · Domestic
 | 公 司 | 岗 位 | 地 点 | 类&nbsp;型 | 有 效 期 | 投&nbsp;递&nbsp;链&nbsp;接 |
 |:---|:---|:---|:---|:---|:---|
-| 北京航空航天大学具身智能研究院 | 研发工程师（嵌入式/电力电子） | 北京 | 全职 | 2026.04.03截止 | 邮箱投递: `lizeyubuaa@buaa.edu.cn` |
-| 大疆创新 | 机器人算法工程师（规控方向） | 深圳 | 全职 | 长期有效 | [大疆招聘官网](https://we.dji.com/zh-CN/campus) |
-| 地平线 | 日常实习生（算法/软件/测试等） | 多城市 | 实习 | 长期有效 | [地平线招聘官网](https://horizon.hire-soft.com/) |
-| 飞科电器 | 城市经理/国际区域经理 | 上海/全国 | 校招 | 2026.03.31发布 | [飞科电器官网](https://www.flyco.com) |
-| 高仙机器人 | SLAM算法工程师 | 上海/北京 | 全职 | 长期有效 | [高仙机器人招聘官网](https://www.gs-robot.com/join) |
-| 华为 | 具身智能/机器人控制/AI算法工程师 | 深圳/北京/上海/杭州 | 校招 | 长期有效 | [华为校园招聘](https://career.huawei.com/reccampportal/portal5/index.html) |
-| 华为2012实验室 | 具身智能算法工程师 | 深圳/上海/杭州 | 全职 | 长期有效 | [华为招聘官网](https://career.huawei.com/reccampportal/portal5/index.html) |
-| 建信信托 | 股权投资助理（AI/具身方向） | 北京 | 实习 | 2026.04启动 | 邮箱投递: `dzz_zp@163.com` |
-| 盟立自动化 | AI软件工程师（具身智能机器人开发） | 新竹（台湾） | 全职 | 有效期至 2026.03.31 | [104人力銀行官网](https://www.104.com.tw/job/8zqwi) |
-| 米哈游 | 大规模实习生计划 | 上海/全国 | 实习 | 长期开放 | [米哈游招聘官网](https://campus.mihoyo.com) |
-| 诺亦腾机器人 | 算法工程师（VLM/VLA/RL/仿真/部署） | 深圳 | 全职 | 长期有效 | 邮箱投递: `hr@noitomrobotics.com` |
-| 普渡机器人 | 端到端模型/机器人感知/软件/硬件/海外销售 | 深圳/成都 | 校招 | 2026.03发布 | [普渡科技校招官网](https://pudutech.zhiye.com/campus) |
-| 荣耀 | 机器人软件系统开发工程师 | 北京 | 实习 | 2026.03.26发布 | [荣耀招聘官网](https://www.hihonor.com/cn/career/) |
-| 深圳市智拓欣扬科技 | 具身智能数据工程师 | 深圳 | 全职 | 2026.03发布 | [就业桥平台](https://job.jiuyeqiao.cn/zhiwei/107075.html) |
-| 思灵机器人 | 力控算法工程师 | 北京/深圳 | 全职 | 长期有效 | [思灵机器人招聘官网](https://www.agile-robots.com/careers/) |
-| 腾讯Robotics X | 机器人软件研发工程师 | 深圳 | 全职 | 长期有效 | [腾讯招聘官网](https://careers.tencent.com/search.html) |
-| 拓斯达 | 具身智能算法/机器人控制/视觉算法工程师 | 东莞 | 全职 | 长期有效 | [拓斯达招聘官网](https://www.topstarltd.com/careers) |
-| 小米机器人实验室 | 机器人感知算法工程师 | 北京 | 全职 | 长期有效 | [小米集团招聘官网](https://hr.xiaomi.com/) |
-| 福龙马 | 感知算法助理工程师（SLAM方向） | 厦门 | 全职 | 有效期至 2026.04.24 | [厦门人才网](https://app.xmrc.com.cn/Recruit/RecruitInfo/2a2e59c3afa2483ead80daa33419ff74) |
-| 银河通用 | 具身大模型/灵巧手操作/机器人控制算法工程师 | 北京 | 全职 | 长期有效 | [银河通用招聘官网](https://www.galaxea.ai/careers) |
-| 云深处科技 | SLAM/导航/运动控制算法工程师 | 杭州 | 全职 | 长期有效 | [云深处招聘官网](https://www.deeprobotics.cn/careers) |
-| 宇树科技 | 具身智能算法/机器人控制算法工程师 | 杭州 | 全职 | 长期有效 | [宇树科技招聘官网](https://www.unitree.com/career) |
-| 智平方 | 具身智能算法/嵌入式开发/机器人产品经理 | 深圳 | 全职 | 长期有效 | [智平方招聘官网](https://www.zhipingfang.com/careers) |
-| 智元机器人 | 算法/软件/硬件等研发岗位 | 上海/北京/深圳 | 校招 | 有效期至 2026.04.16 | [智元机器人招聘](https://www.zhiyuanrobot.com) |
-| 智元机器人 | 算法/软件/硬件等研发岗位 | 上海/北京/深圳 | 实习 | 有效期至 2026.04.16 | [智元机器人招聘](https://www.zhiyuanrobot.com) |
-| 智元机器人 | 运动控制算法工程师 | 上海 | 全职 | 长期有效 | [智元机器人招聘官网](https://www.zhiyuanrobot.com/careers) |
-| 中建材凯盛机器人 | 算法/控制/视觉工程师 | 上海 | 校招 | 2026.03.31发布 | [中建材凯盛官网](https://www.ctiec.net) |
+| 北京航空航天大学具身智能研究院 | 研发工程师（嵌入式/电力电子） | 北京 | 全 职 | 2026.04.03截止 | 邮箱投递: `lizeyubuaa@buaa.edu.cn` |
+| 大疆创新 | 机器人算法工程师（规控方向） | 深圳 | 全 职 | 长期有效 | [大疆招聘官网](https://we.dji.com/zh-CN/campus) |
+| 地平线 | 日常实习生（算法/软件/测试等） | 多城市 | 实 习 | 长期有效 | [地平线招聘官网](https://horizon.hire-soft.com/) |
+| 飞科电器 | 城市经理/国际区域经理 | 上海/全国 | 校 招 | 2026.03.31发布 | [飞科电器官网](https://www.flyco.com) |
+| 高仙机器人 | SLAM算法工程师 | 上海/北京 | 全 职 | 长期有效 | [高仙机器人招聘官网](https://www.gs-robot.com/join) |
+| 华为 | 具身智能/机器人控制/AI算法工程师 | 深圳/北京/上海/杭州 | 校 招 | 长期有效 | [华为校园招聘](https://career.huawei.com/reccampportal/portal5/index.html) |
+| 华为2012实验室 | 具身智能算法工程师 | 深圳/上海/杭州 | 全 职 | 长期有效 | [华为招聘官网](https://career.huawei.com/reccampportal/portal5/index.html) |
+| 建信信托 | 股权投资助理（AI/具身方向） | 北京 | 实 习 | 2026.04启动 | 邮箱投递: `dzz_zp@163.com` |
+| 盟立自动化 | AI软件工程师（具身智能机器人开发） | 新竹（台湾） | 全 职 | 有效期至 2026.03.31 | [104人力銀行官网](https://www.104.com.tw/job/8zqwi) |
+| 米哈游 | 大规模实习生计划 | 上海/全国 | 实 习 | 长期开放 | [米哈游招聘官网](https://campus.mihoyo.com) |
+| 诺亦腾机器人 | 算法工程师（VLM/VLA/RL/仿真/部署） | 深圳 | 全 职 | 长期有效 | 邮箱投递: `hr@noitomrobotics.com` |
+| 普渡机器人 | 端到端模型/机器人感知/软件/硬件/海外销售 | 深圳/成都 | 校 招 | 2026.03发布 | [普渡科技校招官网](https://pudutech.zhiye.com/campus) |
+| 荣耀 | 机器人软件系统开发工程师 | 北京 | 实 习 | 2026.03.26发布 | [荣耀招聘官网](https://www.hihonor.com/cn/career/) |
+| 深圳市智拓欣扬科技 | 具身智能数据工程师 | 深圳 | 全 职 | 2026.03发布 | [就业桥平台](https://job.jiuyeqiao.cn/zhiwei/107075.html) |
+| 思灵机器人 | 力控算法工程师 | 北京/深圳 | 全 职 | 长期有效 | [思灵机器人招聘官网](https://www.agile-robots.com/careers/) |
+| 腾讯Robotics X | 机器人软件研发工程师 | 深圳 | 全 职 | 长期有效 | [腾讯招聘官网](https://careers.tencent.com/search.html) |
+| 拓斯达 | 具身智能算法/机器人控制/视觉算法工程师 | 东莞 | 全 职 | 长期有效 | [拓斯达招聘官网](https://www.topstarltd.com/careers) |
+| 小米机器人实验室 | 机器人感知算法工程师 | 北京 | 全 职 | 长期有效 | [小米集团招聘官网](https://hr.xiaomi.com/) |
+| 福龙马 | 感知算法助理工程师（SLAM方向） | 厦门 | 全 职 | 有效期至 2026.04.24 | [厦门人才网](https://app.xmrc.com.cn/Recruit/RecruitInfo/2a2e59c3afa2483ead80daa33419ff74) |
+| 银河通用 | 具身大模型/灵巧手操作/机器人控制算法工程师 | 北京 | 全 职 | 长期有效 | [银河通用招聘官网](https://www.galaxea.ai/careers) |
+| 云深处科技 | SLAM/导航/运动控制算法工程师 | 杭州 | 全 职 | 长期有效 | [云深处招聘官网](https://www.deeprobotics.cn/careers) |
+| 宇树科技 | 具身智能算法/机器人控制算法工程师 | 杭州 | 全 职 | 长期有效 | [宇树科技招聘官网](https://www.unitree.com/career) |
+| 智平方 | 具身智能算法/嵌入式开发/机器人产品经理 | 深圳 | 全 职 | 长期有效 | [智平方招聘官网](https://www.zhipingfang.com/careers) |
+| 智元机器人 | 算法/软件/硬件等研发岗位 | 上海/北京/深圳 | 校 招 | 有效期至 2026.04.16 | [智元机器人招聘](https://www.zhiyuanrobot.com) |
+| 智元机器人 | 算法/软件/硬件等研发岗位 | 上海/北京/深圳 | 实 习 | 有效期至 2026.04.16 | [智元机器人招聘](https://www.zhiyuanrobot.com) |
+| 智元机器人 | 运动控制算法工程师 | 上海 | 全 职 | 长期有效 | [智元机器人招聘官网](https://www.zhiyuanrobot.com/careers) |
+| 中建材凯盛机器人 | 算法/控制/视觉工程师 | 上海 | 校 招 | 2026.03.31发布 | [中建材凯盛官网](https://www.ctiec.net) |
 
 ### 🌏 海外机会 · International
 | Company | Position | Location | Type | Deadline/Date | Application Link |
