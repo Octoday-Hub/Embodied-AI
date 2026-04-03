@@ -4,50 +4,61 @@
 > **📢 岗位发布与审核**：如需发布新岗位，请将岗位详情（公司、职位、地点、类型、链接）发送至邮箱 `octoday@yeah.net` 或添加小助手微信（扫描首页二维码），我们将在审核后统一收录。欢迎企业 HR、项目负责人直接联系。
 
 ### 📌 国内机会 · Domestic
-
-| 公司 | 岗位 | 地点 | 类型 | 有效期/发布日期 | 投递链接 |
+| 公司 | 岗位 | 地点 | 类型 | 有效期 | 投递链接 |
 |:---|:---|:---|:---|:---|:---|
-| **北京航空航天大学具身智能研究院** | 研发工程师（嵌入式/电力电子方向） | 北京 | 全职 | 2026.04.03截止 | [邮箱投递](mailto:lizeyubuaa@buaa.edu.cn) |
-| **厦门福龙马** | 感知算法助理工程师（SLAM方向） | 厦门 | 全职 | 2026.04.24截止 | [厦门人才](https://app.xmrc.com.cn/Recruit/RecruitInfo/2a2e59c3afa2483ead80daa33419ff74) |
-| **云深处科技** | SLAM算法工程师、导航算法工程师、运动控制算法工程师 | 杭州 | 全职 | 2026.03发布 | [云深处招聘官网](https://www.deeprobotics.cn/careers) |
-| **银河通用** | 具身大模型算法、灵巧手操作算法、机器人控制算法 | 北京 | 全职 | 2026.03发布 | [银河通用招聘](https://www.galaxea.ai/careers) |
-| **智平方** | 具身智能算法工程师、嵌入式开发工程师、机器人产品经理 | 深圳 | 全职 | 2026.03发布 | [智平方招聘](https://www.zhipingfang.com/careers) |
-| **拓斯达** | 具身智能算法工程师、机器人控制算法、视觉算法工程师 | 东莞 | 全职 | 2026.03发布 | [拓斯达招聘官网](https://www.topstarltd.com/careers) |
-| **诺亦腾机器人** | 算法工程师（VLM/VLA/RL/仿真/部署） | 深圳 | 全职 | 2026.03发布 | [邮箱投递](mailto:hr@noitomrobotics.com) |
-| **盟立自动化** | AI软件工程师（具身智能机器人开发） | 新竹（台湾） | 全职 | 2026.03.31发布 | [104人力银行](https://www.104.com.tw/job/8zqwi) |
-| **中建材凯盛机器人** | 算法工程师、控制工程师、视觉工程师 | 上海 | 校招 | 2026.03.31发布 | [公司官网](https://www.ctiec.net) |
-| **飞科电器** | 城市经理、国际区域经理（语言类/小语种/经贸类） | 上海/全国 | 校招 | 2026.03.31发布 | [公司官网](https://www.flyco.com) |
-| **普渡机器人** | 端到端模型算法、机器人感知算法、软件/硬件工程师、海外销售 | 深圳/成都 | 校招 | 2026.03发布 | [普渡招聘官网](https://pudutech.zhiye.com/campus) |
-| **宇树科技** | 具身智能算法、深度强化学习、SLAM开发、机器人控制算法 | 杭州 | 校招/社招 | 2026.03发布 | [宇树科技招聘](https://www.unitree.com/careers) |
-| **华为** | 具身智能算法、机器人控制算法、AI算法工程师 | 深圳/北京/上海/杭州 | 校招/社招 | 2026.03发布 | [华为招聘官网](https://career.huawei.com) |
-| **地平线** | 多模态大模型算法、强化学习、运动控制、世界模型、AI infra | 北京/上海/南京/杭州/深圳/香港 | 校招/实习 | 2026.03发布 | [地平线招聘公众号](https://mp.weixin.qq.com/s/horizon_campus) |
-| **智元机器人** | 算法/软件/硬件等研发岗位 | 上海/北京/深圳 | 春招/暑期实习 | 2026.04.16截止 | [智元机器人招聘公众号](https://www.zhiyuanrobot.com) |
-| **荣耀** | 机器人软件系统开发工程师 | 北京 | 实习  | [荣耀招聘官网](https://www.honor.com/cn/career/) |
-| **宇树科技** | 算法/机械/嵌入式实习岗位 | 杭州 | 实习 | 在校本硕博  | [宇树科技招聘](https://www.unitree.com/careers) |
-| **建信信托** | 股权投资助理（AI/具身方向） | 北京 | 实习 | 金融/经济/理工背景 | [邮箱投递](mailto:dzz_zp@163.com) |
-| **米哈游** | 大规模实习生计划（900人，不限专业） | 上海/全国 | 实习 | 全体在校生  | [米哈游招聘官网](https://www.mihoyo.com/campus) |
-| **香港中文大学-智元联合平台** | 具身智能实习/课题研究 | 香港/深圳 | 实习 | 香港中文大学学生  | 通过校内渠道申请 |
+| 北京航空航天大学具身智能研究院 | 研发工程师（嵌入式/电力电子方向） | 北京 | 全职 | 2026.04.03截止 | 邮箱投递: `lizeyubuaa@buaa.edu.cn` |
+| 大疆创新 | 机器人算法工程师（规控方向） | 深圳 | 全职 | 长期有效 | [大疆招聘官网](https://we.dji.com/zh-CN/campus) |
+| 地平线 | 日常实习生（算法/软件/测试等） | 多城市 | 实习 | 长期有效 | [地平线招聘官网](https://horizon.hire-soft.com/) |
+| 飞科电器 | 城市经理/国际区域经理 | 上海/全国 | 校招 | 2026.03.31发布 | [公司官网](https://www.flyco.com) |
+| 高仙机器人 | SLAM算法工程师 | 上海/北京 | 全职 | 长期有效 | [高仙机器人招聘官网](https://www.gs-robot.com/join) |
+| 华为 | 具身智能/机器人控制/AI算法工程师（校招） | 深圳/北京/上海/杭州 | 校招 | 长期有效 | [华为校园招聘](https://career.huawei.com/reccampportal/portal5/index.html) |
+| 华为2012实验室 | 具身智能算法工程师 | 深圳/上海/杭州 | 全职 | 长期有效 | [华为招聘官网](https://career.huawei.com/reccampportal/portal5/index.html) |
+| 建信信托 | 股权投资助理（AI/具身方向） | 北京 | 实习 | 2026.04启动 | 邮箱投递: `dzz_zp@163.com` |
+| 盟立自动化 | AI软件工程师（具身智能机器人开发） | 新竹（台湾） | 全职 | 有效期至 2026.03.31 | [104人力銀行](https://www.104.com.tw/job/8zqwi) |
+| 米哈游 | 大规模实习生计划 | 上海/全国 | 实习 | 长期开放 | [米哈游招聘官网](https://campus.mihoyo.com) |
+| 诺亦腾机器人 | 算法工程师（VLM/VLA/RL/仿真/部署） | 深圳 | 全职 | 长期有效 | 邮箱投递: `hr@noitomrobotics.com` |
+| 普渡机器人 | 端到端模型/机器人感知/软件/硬件/海外销售 | 深圳/成都 | 校招 | 2026.03发布 | [普渡科技校招官网](https://pudutech.zhiye.com/campus) |
+| 荣耀 | 机器人软件系统开发工程师 | 北京 | 实习 | 2026.03.26发布 | [荣耀招聘官网](https://www.hihonor.com/cn/career/) |
+| 深圳市智拓欣扬科技 | 具身智能数据工程师 | 深圳 | 全职 | 2026.03发布 | [就业桥平台](https://job.jiuyeqiao.cn/zhiwei/107075.html) |
+| 思灵机器人 | 力控算法工程师 | 北京/深圳 | 全职 | 长期有效 | [思灵机器人招聘官网](https://www.agile-robots.com/careers/) |
+| 腾讯Robotics X | 机器人软件研发工程师 | 深圳 | 全职 | 长期有效 | [腾讯招聘官网](https://careers.tencent.com/search.html) |
+| 拓斯达 | 具身智能算法/机器人控制/视觉算法工程师 | 东莞 | 全职 | 长期有效 | [拓斯达招聘官网](https://www.topstarltd.com/careers) |
+| 小米机器人实验室 | 机器人感知算法工程师 | 北京 | 全职 | 长期有效 | [小米集团招聘官网](https://hr.xiaomi.com/) |
+| 厦门福龙马 | 感知算法助理工程师（SLAM方向） | 厦门 | 全职 | 有效期至 2026.04.24 | [厦门人才网](https://app.xmrc.com.cn/Recruit/RecruitInfo/2a2e59c3afa2483ead80daa33419ff74) |
+| 银河通用 | 具身大模型/灵巧手操作/机器人控制算法工程师 | 北京 | 全职 | 长期有效 | [银河通用招聘官网](https://www.galaxea.ai/careers) |
+| 云深处科技 | SLAM/导航/运动控制算法工程师 | 杭州 | 全职 | 长期有效 | [云深处招聘官网](https://www.deeprobotics.cn/careers) |
+| 宇树科技 | 具身智能算法/机器人控制算法工程师 | 杭州 | 全职 | 长期有效 | [宇树科技招聘官网](https://www.unitree.com/career) |
+| 智平方 | 具身智能算法/嵌入式开发/机器人产品经理 | 深圳 | 全职 | 长期有效 | [智平方招聘官网](https://www.zhipingfang.com/careers) |
+| 智元机器人 | 算法/软件/硬件等研发岗位（春招） | 上海/北京/深圳 | 校招 | 有效期至 2026.04.16 | [智元机器人招聘](https://www.zhiyuanrobot.com) |
+| 智元机器人 | 算法/软件/硬件等研发岗位（暑期实习） | 上海/北京/深圳 | 实习 | 有效期至 2026.04.16 | [智元机器人招聘](https://www.zhiyuanrobot.com) |
+| 智元机器人 | 运动控制算法工程师 | 上海 | 全职 | 长期有效 | [智元机器人招聘官网](https://www.zhiyuanrobot.com/careers) |
+| 中建材凯盛机器人 | 算法/控制/视觉工程师 | 上海 | 校招 | 2026.03.31发布 | [公司官网](https://www.ctiec.net) |
 
 ### 🌏 海外机会 · International
-
 | Company | Position | Location | Type | Deadline/Date | Application Link |
 |:---|:---|:---|:---|:---|:---|
-| **NYU Abu Dhabi (AIR Lab)** | Research Engineer - Embodied AI & Robotics | Abu Dhabi, UAE | Full-time | 2026.04.15截止 | [NYUAD Careers](http://nyuad.nyu.edu/en/about/careers/faculty-positions.html) |
-| **Singapore Institute of Technology** | Robotics Engineer (Embodied AI Applications) | Singapore | Full-time | 2026.04.04截止 | [Times Higher Education](https://www.timeshighereducation.com/unijobs/listing/408186/robotics-engineer-embodied-ai-applications-lyb3/) |
-| **AIM Intelligent Machines** | Embodied AI Engineer - Controls | Seattle, WA | Full-time | 2026.03发布 | [Apply Here](https://jobs.khoslaventures.com/companies/aim-intelligent-machines-2/jobs/70106674-embodied-ai-engineer-controls) |
-| **AIM Intelligent Machines** | Perception and SLAM Machine Learning Engineer | Seattle, WA | Full-time | 2026.03发布 | [Apply Here](https://jobs.khoslaventures.com/companies/aim-intelligent-machines-2/jobs/70106681-perception-and-slam-machine-learning-engineer) |
-| **Formic** | Embodied AI / Simulation Engineer | San Francisco/Oakland, CA | Full-time | 2026.02发布 | [Apply Here](https://jobs.luxcapital.com/companies/formic/jobs/67900487-embodied-ai-simulation-engineer) |
-| **Apptronik** | Senior Autonomy Software Engineer | Austin, TX | Full-time | 2026.01发布 | [Apptronik Careers](https://www.apptronik.com/careers) |
-| **Meta (Reality Labs)** | Research Scientist - World Models & Embodied AI | London, UK | Full-time | 2026.03发布 | [Meta Careers](https://www.metacareers.com/jobs) |
-| **Iconic.AI** | AI Research Scientist (Expressive Embodiment) | London, UK | Full-time | 2026.02发布 | [Iconic.AI Careers](https://www.iconic.ai/jobs) |
-| **HTX (Singapore)** | Engineer / Lead Engineer - Embodied AI R&D | Singapore | Full-time | 2026.03发布 | [Careers@Gov](https://jobs.careers.gov.sg/jobs/hrp/15352269) |
+| AIM Intelligent Machines | Embodied AI Engineer - Controls | Seattle, WA, USA | Full-time | Open until filled | [Khosla Ventures Jobs](https://jobs.khoslaventures.com/companies/aim-intelligent-machines-2/jobs/70106674-embodied-ai-engineer-controls) |
+| AIM Intelligent Machines | Perception and SLAM Machine Learning Engineer | Seattle, WA, USA | Full-time | Open until filled | [Khosla Ventures Jobs](https://jobs.khoslaventures.com/companies/aim-intelligent-machines-2/jobs/70106681-perception-and-slam-machine-learning-engineer) |
+| Apptronik | Motion Control and Planning Intern | Austin, TX, USA | Internship | Summer 2026 Cycle | [Grit Ventures Jobs](https://jobs.gritventures.com/companies/apptronik/jobs/71302488-motion-control-and-planning-intern) |
+| Apptronik | Senior Autonomy Software Engineer | Austin, TX, USA | Full-time | Open until filled | [Apptronik Careers](https://www.apptronik.com/careers) |
+| Boston Dynamics | Controls Engineer | Waltham, MA, USA | Full-time | Open until filled | [Boston Dynamics Careers](https://www.bostondynamics.com/careers) |
+| Formic | Embodied AI / Simulation Engineer | San Francisco/Oakland, CA, USA | Full-time | Open until filled | [Lux Capital Jobs](https://jobs.luxcapital.com/companies/formic/jobs/67900487-embodied-ai-simulation-engineer) |
+| Google DeepMind (Robotics) | Research Scientist, Embodied AI | London, UK | Full-time | Open until filled | [Google Careers](https://careers.google.com/) |
+| HTX (Singapore) | Engineer / Lead Engineer - Embodied AI R&D | Singapore | Full-time | Open until filled | [Careers@Gov](https://www.careers.gov.sg/) |
+| Iconic.AI | AI Research Scientist (Expressive Embodiment) | London, UK | Full-time | Open until filled | [Iconic.AI Careers](https://www.iconic.ai/jobs) |
+| Meta (Reality Labs) | Research Scientist - World Models & Embodied AI | London, UK | Full-time | Open until filled | [Meta Careers](https://www.metacareers.com/jobs/) |
+| NYU Abu Dhabi (AIR Lab) | Research Engineer - Embodied AI & Robotics | Abu Dhabi, UAE | Full-time | 2026.04.15截止 | [NYUAD Careers](http://nyuad.nyu.edu/en/about/careers.html) |
+| Singapore Institute of Technology | Robotics Engineer (Embodied AI Applications) | Singapore | Full-time | 2026.04.04截止 | [SIT Careers](https://www.singaporetech.edu.sg/careers) |
+| Tesla (Tesla Bot) | Software Engineer, Robotics AI | Palo Alto, CA, USA | Full-time | Open until filled | [Tesla Careers](https://www.tesla.com/careers/search/) |
 
-### 🎓 专项计划 · Internships & Programs
-
-| 公司 | 岗位 | 地点 | 类型 | 面向人群 | 有效期/发布日期 | 投递链接 |
-|:---|:---|:---|:---|:---|:---|:---|
-| **地平线专项人才计划** | 多模态大模型、强化学习、世界模型、运动控制 | 北京/上海/南京/杭州/深圳/香港 | 校招/实习 | 博士（应届/在读） | 2026.03发布 | [地平线招聘公众号](https://mp.weixin.qq.com/s/horizon_campus) |
-| **华为天才少年计划** | 具身智能/机器人/AI方向 | 全球 | 校招 | 博士/卓越本硕 | 2026.03发布 | [华为天才少年计划](https://career.huawei.com/reccampportal/portal5/huawei-talent-plan.html) |
+### 🌟 专项人才与顶尖计划
+| 公司/机构 | 计划名称 | 地点 | 面向人群 | 有效期/批次 | 申请链接 |
+|:---|:---|:---|:---|:---|:---|
+| 阿里巴巴 | 阿里星人才计划 | 杭州/北京/上海 | 顶尖博士应届生 | 2026年度 | [阿里巴巴校园招聘](https://talent.alibaba.com/campus/) |
+| 地平线 | 专项人才计划（多模态大模型/强化学习/世界模型/运动控制） | 北京/上海/南京/杭州/深圳/香港 | 博士（应届/在读） | 2026年度 | [地平线招聘官网](https://horizon.hire-soft.com/) |
+| 华为 | 天才少年计划（具身智能/机器人/AI方向） | 全球 | 博士/卓越本硕 | 2026年度 | [华为天才少年计划](https://career.huawei.com/reccampportal/portal5/huawei-talent-plan.html) |
+| 荣耀 | 全球百万雄鹰计划（技术领军） | 全球 | 10+技术领军人才 | 长期计划 | [荣耀招聘官网](https://www.hihonor.com/cn/career/) |
+| 腾讯 | 腾讯技术大咖 | 深圳/北京/上海 | 顶尖博士/资深专家 | 长期计划 | [腾讯招聘官网](https://careers.tencent.com/search.html) | - 腾讯技术大咖 - 深圳/北京/上海 - 面向顶尖博士/资深专家 - 长期计划 - [腾讯招聘](https://careers.tencent.com/search.html)
 
 ## ⚠️ 特别提醒
 
