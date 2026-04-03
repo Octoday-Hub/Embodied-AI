@@ -13,10 +13,9 @@
 | 高仙机器人 | SLAM算法工程师 | 上海/北京 | 全 职 | 长期有效 | [高仙机器人招聘官网](https://www.gs-robot.com/join) |
 | 华为 | 具身智能/机器人控制/AI算法工程师 | 深圳/北京/上海/杭州 | 校 招 | 长期有效 | [华为校园招聘](https://career.huawei.com/reccampportal/portal5/index.html) |
 | 华为2012实验室 | 具身智能算法工程师 | 深圳/上海/杭州 | 全 职 | 长期有效 | [华为招聘官网](https://career.huawei.com/reccampportal/portal5/index.html) |
-| 建信信托 | 股权投资助理（AI/具身方向） | 北京 | 实 习 | 2026.04启动 | 邮箱投递: `dzz_zp@163.com` |
 | 盟立自动化 | AI软件工程师（具身智能机器人开发） | 新竹（台湾） | 全 职 | 有效期至 2026.03.31 | [104人力銀行官网](https://www.104.com.tw/job/8zqwi) |
 | 米哈游 | 大规模实习生计划 | 上海/全国 | 实 习 | 长期开放 | [米哈游招聘官网](https://campus.mihoyo.com) |
-| 诺亦腾机器人 | 算法工程师（VLM/VLA/RL/仿真/部署） | 深圳 | 全 职 | 长期有效 | 邮箱投递: `hr@noitomrobotics.com` |
+| 诺亦腾机器人 | 算法工程师（VLM/VLA/RL/仿真/部署） | 深圳 | 全 职 | 长期有效 | [诺亦腾机器人官网 ](https://www.noitom.com.cn/join-us.html)|
 | 普渡机器人 | 端到端模型/机器人感知/软件/硬件/海外销售 | 深圳/成都 | 校 招 | 2026.03发布 | [普渡科技校招官网](https://pudutech.zhiye.com/campus) |
 | 荣耀 | 机器人软件系统开发工程师 | 北京 | 实 习 | 2026.03.26发布 | [荣耀招聘官网](https://www.hihonor.com/cn/career/) |
 | 深圳市智拓欣扬科技 | 具身智能数据工程师 | 深圳 | 全 职 | 2026.03发布 | [就业桥平台](https://job.jiuyeqiao.cn/zhiwei/107075.html) |
