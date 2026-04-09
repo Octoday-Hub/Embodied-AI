@@ -6,7 +6,7 @@
 
 ## 一、国内公司
 
-| 公 司 名 称 | 公 司 简 介 | 标 签 | 链&nbsp;接 |
+| 名称 | 公司简介 | 标签 | 链&nbsp;接 |
 | :--- | :--- | :--- | :--- |
 | **埃斯顿** | 埃斯顿自动化成立于1993年，是“A+H”上市企业（002747.SZ / 02715.HK），连续七年居中国工业机器人国产品牌出货量首位。坚持“ALL Made By Estun”全产业链战略，为汽车、电子、新能源等行业提供工业自动化系列产品、工业机器人及智能制造解决方案。 | `工业机器人` `整机` `运动控制` `工业制造` `上市公司` | [官网](https://www.estun.com) |
 | **埃斯顿医疗** | 埃斯顿医疗是埃斯顿自动化与Barrett Technology的合资企业，融合运动控制、绳驱传动、遥操作技术。专注“手术+临床康复一体化”数智解决方案，产品包括康复机器人、手术机器人等，立志成为全球医疗机器人领军者。 | `整机` `医疗康复` `上市公司` | [官网](https://www.estunmedical.com) |
@@ -195,43 +195,128 @@
 
 ## 二、国外公司
 
-| 公司名称 | 公司简介 | 标签 | 官网链接 |
+| 名称 | 公司简介 | 标签 | 链接 |
 | :--- | :--- | :--- | :--- |
+| **1X Technologies** | 1X（前称Halodi Robotics）总部位于加州，致力于通过通用机器人建设富足社会。旗舰产品NEO是一款友好的家庭机器人，以轻量化、柔顺控制和AI自主性为特点，2025年底开放预订，2026年开始向美国交付。 | `整机` `人形` `家庭服务` `A-B轮` | [官网](https://www.1x.tech) |
+| **ABB Robotics** | ABB是电气化和自动化领域的全球技术领导者。ABB Robotics提供工业机器人、自主移动机器人（AMR）及配套软件和解决方案，服务于汽车、电子、物流、食品等行业，是世界领先的工业自动化先驱。 | `工业机器人` `整机` `协作机器人` `跨国公司` | [官网](https://www.abb.com/robotics) |
+| **Agility Robotics** | Agility Robotics专注于双足机器人研发，代表产品Digit是全球首款商业化双足人形机器人，专为物流和仓储场景设计。Digit已在仓库完成超10万次搬运，2026年与Mercado Libre合作进入南美仓库。 | `整机` `人形` `仓储物流` `A-B轮` | [官网](https://agilityrobotics.com) |
+| **Algorized** | 提供机器人运动规划和控制算法，优化机器人在复杂环境中的操作效率，其算法被用于仓储拣选、装配等场景，提升路径规划能力。 | `运动规划` `控制算法` `软件` | [官网](https://www.algorized.com/) |
+| **Amazon Robotics** | 亚马逊旗下机器人部门，提供仓储自动化解决方案，代表产品Kiva机器人（现为Amazon Robotics Drive Unit），大幅提升订单履行效率。 | `仓储机器人` `物流自动化` `整机` | [官网](https://www.amazon.jobs/en/teams/amazon-robotics) |
+| **AMD Inc.** | 提供高性能计算芯片，为机器人与AI应用提供计算解决方案，其Ryzen和EPYC处理器被用于机器人控制器与边缘服务器。 | `AI芯片` `高性能计算` `半导体` | [官网](https://www.amd.com/en.html) |
+| **AMP Robotics** | AMP Robotics利用人工智能和自动化技术革新回收行业。其AMP Cortex系统可识别和分拣可回收物，提高回收纯度和效率，已在三大洲部署数百套系统。 | `工业机器人` `移动机器人` `特种机器人` `A-B轮` | [官网](https://www.amprobotics.com) |
+| **Analog Devices** | 提供高精度传感器与信号处理方案，为机器人提供感知支持，其惯性测量单元（IMU）和磁编码器用于机器人姿态与位置检测。 | `传感器` `信号处理` `模拟芯片` | [官网](https://www.analog.com/en/applications/robotics.html) |
+| **Anduril Industries** | Anduril Industries是一家国防科技公司，通过先进自主性、人工智能、传感器融合和网络技术，为军事和国家安全领域提供解决方案。其核心产品Lattice是一个自主意义构建平台，连接数千个系统并提供实时态势感知。 | `整机` `无人机` `特种机器人` `独角兽` | [官网](https://www.anduril.com) |
+| **Apple Inc.** | 尚未发布人形机器人，但在AI、传感器与芯片技术（如A系列、M系列芯片、LiDAR）方面的积累为人形机器人研发奠定基础。 | `消费电子` `AI` `传感器` | [官网](https://www.apple.com/) |
+| **Apptronik** | Apptronik是德克萨斯大学奥斯汀分校以人为本机器人实验室的衍生项目，成立于2016年。公司专注于开发下一代人形机器人，产品包括Apollo——世界上最先进的类人机器人之一，应用于物流、制造等领域，计划2026年大规模生产。 | `整机` `人形` `工业制造` `A-B轮` | [官网](https://apptronik.com) |
+| **Arduino** | 提供开源电子平台，为机器人开发与教育提供支持，Arduino开发板与生态是创客和教育机器人领域最常用的工具之一。 | `开发板` `教育` `开源硬件` | [官网](https://www.arduino.cc/) |
+| **Arm** | 提供低功耗芯片设计架构，全球出货超3500亿颗，为机器人提供核心计算基础，其Cortex-M系列广泛用于机器人控制器。 | `芯片架构` `嵌入式` `低功耗` | [官网](https://www.arm.com/technologies/robotics) |
+| **Bear Robotics** | Bear Robotics专注于商用服务机器人，旗舰产品Servi系列被广泛应用于餐饮、酒店、医疗等领域，负责托盘运送、引导等任务，致力于通过机器人技术提升服务行业效率。 | `服务机器人` `移动机器人` `商业服务` `A-B轮` | [官网](https://www.bearrobotics.ai) |
+| **BMW Group** | 宝马在汽车制造中广泛应用工业机器人，同时研发人形机器人技术，例如与Figure AI合作测试人形机器人在生产线的应用。 | `汽车制造` `工业机器人` `人形机器人` | [官网](https://www.bmwgroup.com/en.html) |
 | **Boston Dynamics** | 波士顿动力是全球领先的高机动性机器人开发和部署公司，现代汽车集团旗下。其机器人具备先进的机动性、灵巧性和智能能力，可实现工业厂房、建筑工地、配送中心和仓库等非结构化空间的自动化。2026年推出电动版Atlas人形机器人，与现代工厂和Google DeepMind合作部署。 | `整机` `人形` `四足` `运动控制` `工业制造` `跨国公司` | [官网](https://bostondynamics.com) |
-| **Tesla (Optimus)** | 特斯拉在车辆、机器人等领域大规模开发和部署自动驾驶技术。Optimus（擎天柱）是特斯拉开发的通用双足自主人形机器人，将FSD自动驾驶AI迁移至机器人，Optimus Gen 3于2026年初发布，手部自由度22+，目标百万级量产。 | `整机` `大脑/模型` `人形` `VLA` `家庭服务` `上市公司` | [官网](https://www.tesla.com/optimus) |
-| **Figure AI** | Figure AI 是一家将通用类人机器人带入现实的人工智能机器人公司。公司致力于开发具备高度自主能力的人形机器人，核心团队来自波士顿动力、苹果、谷歌DeepMind。2026年估值达390亿美元，Figure 03与宝马合作探索物流自动化。 | `整机` `大脑/模型` `人形` `VLA` `仓储物流` `独角兽` | [官网](https://www.figure.ai) |
-| **1X (Kind Humanoid)** | 1X（前称Halodi Robotics）是一家总部位于加州的人工智能和机器人公司，使命是通过能够自主完成各种工作的通用机器人建设富足的社会。旗舰产品NEO是一款友好的家庭机器人，以安全性（轻量化、柔顺控制）和AI自主性为特点，2025年底开放预订，2026年开始向美国交付。 | `整机` `人形` `家庭服务` `A-B轮` | [官网](https://www.1x.tech) |
-| **Agility Robotics** | Agility Robotics 是一家专注于双足机器人研发的公司，其代表性产品 Digit 是全球首款商业化双足人形机器人，专为物流和仓储场景设计，能够搬运货物、操作包裹等。Digit已在仓库完成超10万次搬运，2026年与Mercado Libre合作进入南美仓库。 | `整机` `人形` `仓储物流` `A-B轮` | [官网](https://agilityrobotics.com) |
-| **Apptronik** | Apptronik 是德克萨斯大学奥斯汀分校以人为本机器人实验室的衍生项目，成立于2016年。公司专注于开发下一代人形机器人，产品包括 Apollo——世界上最先进的类人机器人之一，应用于物流、制造等领域，计划2026年大规模生产。 | `整机` `人形` `工业制造` `A-B轮` | [官网](https://apptronik.com) |
-| **Sanctuary AI** | Sanctuary AI 致力于打造并部署数百万工业级人形机器人，以应对日益增长的劳动力挑战。公司汇聚人工智能、认知和机器人领域的顶尖人才，其开发的通用人形机器人 Phoenix 具备人类水平的灵巧性和智能，以触觉传感器领先，手部操作精密。 | `整机` `人形` `灵巧手` `触觉感知` `A-B轮` | [官网](https://sanctuary.ai) |
-| **Physical Intelligence (π)** | Physical Intelligence（π）是一家致力于开发物理世界基础模型的AI研究公司。公司旨在构建能够在真实环境中执行复杂任务的通用机器人智能，通过将大型语言模型、多模态感知与机器人控制相结合。2026年2月获4亿美元融资，贝佐斯、OpenAI等参投。 | `大脑/模型` `VLA` `独角兽` | [官网](https://www.physicalintelligence.company) |
-| **Skild AI** | Skild AI 是一家专注于物理人工智能的科技公司，旨在构建一个统一的、全能的机器人“大脑”，能够控制任何机器人执行任何任务。公司由卡内基梅隆大学教授创立，开发的 Skild Brain 使机器人能够在非结构化、危险的环境中导航，执行抓取、操作等技能。 | `大脑/模型` `VLA` `A-B轮` | [官网](https://www.skild.ai) |
-| **Standard Bots** | Standard Bots 的使命是通过世界上最易接近的机器人提升人类生产力。公司设计易用的机器人平台，首先面向制造业，帮助中小企业实现自动化。RO1机械臂面向中小企业，AI驱动，几分钟内即可部署。 | `工业机器人` `整机` `机械臂` `协作机器人` `A-B轮` | [官网](https://standardbots.com) |
-| **Dexterity** | Dexterity 是一家专注于机器人灵活操作的人工智能公司。公司通过感知、推理和行动闭环，使机器人能够在非结构化物理环境中完成精细操作任务，如仓库拣选、物流处理等，解决复杂码垛和非结构化物料搬运挑战。 | `工业机器人` `移动机器人` `仓储物流` `A-B轮` | [官网](https://www.dexterity.ai) |
-| **GrayMatter Robotics** | GrayMatter Robotics 总部位于洛杉矶，是一家人工智能机器人公司，为繁琐且符合人体工学要求的任务提供智能机器人助手。公司通过机器人即服务（RaaS）模式，自动化复杂、高变异性的表面处理任务（打磨、抛光），解决熟练劳动力短缺。 | `工业机器人` `整机` `机械臂` `工业制造` `A-B轮` | [官网](https://www.graymatter-robotics.com) |
-| **Path Robotics** | Path Robotics 专注于物理人工智能，通过能够看见、思考并适应的机器人系统解决制造业劳动力短缺问题。公司开发的自主焊接机器人可实时感知并规划路径，实现高精度、高柔性的焊接作业，利用AI和3D视觉实现自动化焊接。 | `工业机器人` `整机` `机械臂` `工业制造` `A-B轮` | [官网](https://www.path-robotics.com) |
-| **Intrinsic** | Intrinsic 是 Alphabet 旗下的一家机器人软件公司，致力于为工业机器人提供强大的软件平台和 AI 能力，使机器人更易于编程、部署和使用。公司构建软件定义的机器人平台，简化工业自动化开发。 | `大脑/模型` `工具链` `跨国公司` | [官网](https://www.intrinsic.ai) |
-| **Shield AI** | Shield AI 是一家由前海豹突击队员创立的国防科技公司，致力于为军事领域提供智能自主系统。公司的核心产品是 Hivemind——一种AI飞行员，可让无人机、飞机、舰船等装备在无 GPS 和通信的条件下实现自主导航和协同作战。 | `大脑/模型` `无人机` `特种机器人` `A-B轮` | [官网](https://shield.ai) |
-| **Syntiant** | Syntiant 是边缘人工智能部署的领导者，利用行业领先的神经决策处理器和硬件无关的机器学习模型，将深度学习带入任何设备。2017年成立于加州，累计出货超1亿颗神经决策处理器，应用于音频、视频、语音和传感器场景。 | `核心部件` `大脑/模型` `边缘AI` `芯片` `A-B轮` | [官网](https://www.syntiant.com) |
-| **ABB Robotics** | ABB 是电气化和自动化领域的全球技术领导者。ABB Robotics 提供工业机器人、自主移动机器人（AMR）及配套软件和解决方案，服务于汽车、电子、物流、食品等行业，是世界领先的工业自动化先驱。 | `工业机器人` `整机` `协作机器人` `跨国公司` | [官网](https://www.abb.com/robotics) |
+| **Built Robotics** | Built Robotics专注于建筑自动化，开发用于土方工程和基础设施建设的无人驾驶工程机械。Exosystem将重型施工设备转化为完全自主的施工机器人，提升施工效率和安全性。 | `整机` `特种机器人` `工业制造` `A-B轮` | [官网](https://www.builtrobotics.com) |
+| **Cadence** | 提供集成电路设计软件，在AI与数字孪生领域领先，其Palladium仿真平台被用于机器人芯片的前期验证，提升开发效率。 | `EDA` `芯片设计` `AI` | [官网](https://www.cadence.com/) |
+| **Carbon Robotics** | Carbon Robotics设计AI驱动的农业机器人，其产品包括自动化除草机器人，利用高精度视觉识别和激光技术，在田间精准清除杂草，减少化学品使用，提升农业生产力和可持续性。 | `整机` `农业机器人` `特种机器人` `A-B轮` | [官网](https://www.carbonrobotics.com) |
+| **Clearpath Robotics** | 开发用于研发与工业的自主移动机器人，旗下Husky、Jackal等平台被全球大学和企业用于算法验证，提供开源机器人操作系统支持。 | `AMR` `研发平台` `整机` | [官网](https://clearpathrobotics.com/) |
+| **Cognex Corporation** | 康耐视提供机器视觉系统，为工业机器人与产线提供视觉引导方案，其深度学习视觉工具可检测复杂缺陷，提升自动化质量。 | `机器视觉` `工业自动化` `AI` | [官网](https://www.cognex.com/) |
+| **Dassault Systèmes** | 提供3D设计与仿真软件，支持机器人的设计、仿真与生产管理，其DELMIA软件用于机器人路径规划与生产流程优化。 | `3D设计` `仿真` `工业软件` | [官网](https://www.3ds.com/robotics/) |
+| **Denso Wave** | 电装提供工业机器人及自动化方案，专注汽车电子与智能制造领域，其小型高速机器人被广泛用于电子元件装配。 | `工业机器人` `整机` `汽车电子` | [官网](https://www.denso-wave.com/) |
+| **Dexterity** | Dexterity专注于机器人灵活操作，通过感知、推理和行动闭环，使机器人能够在非结构化物理环境中完成精细操作任务，如仓库拣选、物流处理等，解决复杂码垛和非结构化物料搬运挑战。 | `工业机器人` `移动机器人` `仓储物流` `A-B轮` | [官网](https://www.dexterity.ai) |
+| **Diligent Robotics** | Diligent Robotics开发机器人助手Moxi帮助医护人员完成日常任务。Moxi能够在医院中自主完成运送物资、拿取设备等非面向患者的工作，支持医院内部物流和常规运输任务。 | `服务机器人` `移动机器人` `医疗康复` `A-B轮` | [官网](https://www.diligentrobots.com) |
+| **Doosan Robotics** | 韩国协作机器人龙头，全球市场占有率第四，在20kg以上高有效载荷协作机器人市场中稳居第一，提供AI驱动的机器人解决方案。 | `协作机器人` `整机` `AI` | [官网](https://www.doosanrobotics.com/) |
+| **Epoch Robotics** | Epoch Robotics专注于通用人形机器人研发，致力于开发具备高度自主学习和适应能力的智能机器人，解决制造业、物流业及家庭服务中的复杂任务。强调软硬件一体化设计，推动机器人从专用向通用场景延伸。 | `整机` `人形` `轮式` `仓储物流` `A-B轮` | [官网](http://www.jrauto.com) |
+| **Epic Games** | 提供Unreal Engine游戏引擎，支持机器人的仿真与可视化开发，其高保真渲染能力被用于机器人数字孪生与虚拟训练。 | `仿真平台` `游戏引擎` `可视化` | [官网](https://www.unrealengine.com/en-US/robotics) |
+| **EXOSYSTEMS** | 开发可穿戴机器人和外骨骼技术，专注增强人类体能和医疗康复领域，帮助行动不便者恢复行走能力或辅助工人搬运重物。 | `外骨骼` `医疗康复` `可穿戴` | [官网](https://www.exosystems.io/) |
 | **FANUC** | 发那科是全球领先的工业机器人、CNC控制系统提供商，产品线覆盖从小型到重载各类工业机器人。上海发那科由上海电气集团与发那科集团联合投资，提供创新的机器人、智能机械及自动化成套生产系统的销售、安装和服务。 | `工业机器人` `整机` `协作机器人` `跨国公司` | [官网](https://www.fanuc.com) |
+| **Fetch Robotics** | 提供云端自主移动机器人（AMR）与仓库自动化解决方案，被Zebra收购后产品线整合，其Freight系列机器人用于物料搬运。 | `AMR` `物流自动化` `整机` | [官网](https://fetchrobotics.com/) |
+| **Figure AI** | Figure AI是一家将通用类人机器人带入现实的人工智能机器人公司。公司致力于开发具备高度自主能力的人形机器人，核心团队来自波士顿动力、苹果、谷歌DeepMind。2026年估值达390亿美元，Figure 03与宝马合作探索物流自动化。 | `整机` `大脑/模型` `人形` `VLA` `仓储物流` `独角兽` | [官网](https://www.figure.ai) |
+| **Ford Motor Company** | 福特在汽车制造中应用工业机器人，同时研发自主驾驶与机器人技术，例如与Agility Robotics合作测试Digit人形机器人用于物流。 | `汽车制造` `工业机器人` `自动驾驶` | [官网](https://www.ford.com/technology/robotics) |
+| **Gazebo Simulator** | 开源机器人仿真平台，支持机器人算法的开发与测试，可与ROS无缝集成，提供物理引擎和传感器模拟，用于机器人算法验证。 | `仿真平台` `开源` `测试` | [官网](https://gazebosim.org/) |
+| **Gecko Robotics** | Gecko Robotics致力于诊断全球关键基础设施健康状况。利用先进的壁攀爬机器人技术和无损检测传感器，对能源、制造业、石油天然气等行业的基础设施进行高分辨率数据采集和分析。 | `服务机器人` `整机` `特种机器人` `工业巡检` `A-B轮` | [官网](https://www.geckorobotics.com) |
+| **General Intuition** | General Intuition是一家前沿研究实验室，致力于构建需要深度空间和时间推理的环境基础模型。基于游戏视频数据开发具身智能体，通过从视频数据中学习世界模型，赋予机器人在真实世界中的感知、预判和即兴发挥能力。 | `大脑/模型` `VLA` `A-B轮` | [官网](https://jobs.khoslaventures.com/companies/general-intuition-2) |
+| **General Motors** | 通用汽车布局机器人领域，提供工业自动化与自主驾驶方案，其工厂中部署了数千台工业机器人，并投资于机器人软件公司。 | `汽车制造` `工业自动化` `自动驾驶` | [官网](https://www.gm.com/) |
+| **German Bionic** | 欧洲智能动力服和外骨骼领导者，首创工作场所互联外骨骼，利用AI辅助搬运与预防不良姿势，保护员工健康并优化工作流程。 | `外骨骼` `可穿戴` `工业5.0` | [官网](https://germanbionic.com/) |
+| **Google DeepMind** | 开发先进AI模型和机器人学习算法，在机器人控制与强化学习领域处于领先地位，代表作包括RT-2、RoboCat等具身智能模型。 | `AI大模型` `强化学习` `机器人控制` | [官网](https://deepmind.com/) |
+| **Google LLC** | Google DeepMind在机器人学习与控制领域有重要成果，开发了RT系列具身模型，并开源了机器人数据集Open X-Embodiment。 | `AI大模型` `机器人学习` `研究` | [官网](https://ai.google/research/) |
+| **GrayMatter Robotics** | GrayMatter Robotics总部位于洛杉矶，为繁琐且符合人体工学要求的任务提供智能机器人助手。通过机器人即服务（RaaS）模式，自动化复杂、高变异性的表面处理任务（打磨、抛光），解决熟练劳动力短缺。 | `工业机器人` `整机` `机械臂` `工业制造` `A-B轮` | [官网](https://www.graymatter-robotics.com) |
+| **Honda Robotics** | 开发ASIMO等人形机器人，在双足行走与人机交互领域拥有深厚积累，近年来还推出了新型协作机器人NA-V等产品。 | `人形机器人` `整机` `双足行走` | [官网](https://world.honda.com/robotics/) |
+| **Humatics** | 开发微定位技术，用于机器人与自主系统的精确定位与导航，其毫米级精度定位系统适用于AGV、无人机等。 | `定位技术` `传感器` `导航` | [官网](https://www.humatics.com/) |
+| **Hyundai Motor Group** | 现代汽车集团通过创新推动人类进步，积极投入尖端机器人（如波士顿动力）、空中交通（UAM）等，重新定义出行方式。 | `机器人研发` `汽车制造` `移动出行` | [官网](https://robotics.hyundai.com/) |
+| **Hyundai Robotics** | 现代机器人提供工业自动化方案，专注汽车制造与电子工业领域，其机器人产品线涵盖点焊、搬运、涂胶等工艺。 | `工业机器人` `整机` `汽车制造` | [官网](https://www.hd-hyundairobotics.com/) |
+| **IAM Robotics** | 研发自主移动机器人用于订单拣选与仓库自动化，产品包括Swift（拣选机器人）和Bolt（搬运机器人），可全天候工作。 | `仓储机器人` `拣选机器人` `整机` | [官网](https://www.iamrobotics.com/) |
+| **Infineon Technologies** | 提供机器人芯片与传感器方案，支持机器人的感知与控制，其XENSIV传感器系列包括雷达、MEMS麦克风等，适用于机器人环境感知。 | `机器人芯片` `传感器` `半导体` | [官网](https://www.infineon.com/cms/en/applications/robotics/) |
+| **Intel Corporation** | 提供机器人芯片与计算方案，支持机器人的感知与控制能力，其RealSense深度相机被广泛用于机器人视觉导航。 | `AI芯片` `机器人芯片` `计算` | [官网](https://www.intel.com/content/www/us/en/robotics/overview.html) |
+| **Intrinsic** | Intrinsic是Alphabet旗下的一家机器人软件公司，致力于为工业机器人提供强大的软件平台和AI能力，使机器人更易于编程、部署和使用。公司构建软件定义的机器人平台，简化工业自动化开发。 | `大脑/模型` `工具链` `跨国公司` | [官网](https://www.intrinsic.ai) |
+| **Kawasaki Robotics** | 川崎重工提供工业机器人，专注汽车制造与电子装配等领域，其机器人以高速、高负载能力闻名，是特斯拉工厂的供应商之一。 | `工业机器人` `整机` `汽车制造` | [官网](https://www.kawasaki-robotics.com/) |
+| **Keyence Corporation** | 提供工业自动化传感器与视觉系统，为机器人提供高精度感知能力，其激光位移传感器、视觉系统被广泛用于机器人定位与检测。 | `传感器` `机器视觉` `工业自动化` | [官网](https://www.keyence.com/) |
+| **Kia Motors** | 起亚布局机器人领域，结合汽车制造优势，开发工业与服务机器人，例如工厂内部物流机器人、电动出行辅助机器人等。 | `汽车制造` `工业机器人` `服务机器人` | [官网](https://www.kia.com/) |
+| **Kubota Robo** | 久保田是全球农业机械与水处理设备巨头，机器人产品服务于粮食生产、水资源净化与环境监测，累计拖拉机产量超560万台。 | `农业机器人` `工业机器人` `环境` | [官网](https://www.kubota.com/) |
 | **KUKA** | 库卡集团（KUKA Group）是一家国际知名的自动化集团公司，为各行各业提供工业机器人、自主移动机器人（AMR）及其控制器、软件和云端数字服务以及全网络化生产系统。在汽车制造领域应用广泛。 | `工业机器人` `整机` `移动机器人` `跨国公司` | [官网](https://www.kuka.com) |
-| **Yaskawa (Motoman)** | 安川电机是全球领先的工业机器人及运动控制解决方案提供商，其机器人品牌 Motoman 产品线涵盖焊接、搬运、码垛、喷涂、打磨等各类应用，已交付超55万台，广泛应用于汽车制造、机械加工、电子电气等行业。 | `工业机器人` `整机` `运动控制` `跨国公司` | [官网](https://www.yaskawa-global.com) |
-| **Gecko Robotics** | Gecko Robotics 是一家致力于诊断全球关键基础设施健康状况的科技公司。公司利用先进的壁攀爬机器人技术和无损检测传感器，对能源、制造业、石油天然气等行业的基础设施进行高分辨率数据采集和分析。 | `服务机器人` `整机` `特种机器人` `工业巡检` `A-B轮` | [官网](https://www.geckorobotics.com) |
-| **Built Robotics** | Built Robotics 是一家专注于建筑自动化的科技公司，开发用于土方工程和基础设施建设的无人驾驶工程机械。Exosystem将重型施工设备转化为完全自主的施工机器人，提升施工效率和安全性。 | `整机` `特种机器人` `工业制造` `A-B轮` | [官网](https://www.builtrobotics.com) |
-| **Locus Robotics** | Locus Robotics 是领先的仓库机器人解决方案提供商。公司开发的 Locus 系列自主移动机器人（AMR）与工人协作，优化订单拣选和物流流程，可显著提高履约效率、降低劳动力成本。 | `工业机器人` `移动机器人` `仓储物流` `独角兽` | [官网](https://www.locusrobotics.com) |
-| **Mytra** | Mytra 是一家专注于通过灵活、可扩展且直观的机器人和人工智能自动化物料搬运和存储的科技公司。团队汇聚了硬件、软件和运营领域的专家，用3D托盘自动化实现高密度存储和快速检索。 | `工业机器人` `移动机器人` `仓储物流` `A-B轮` | [官网](https://www.mytra.com) |
-| **Pickle Robot** | Pickle Robot 是一家利用物理人工智能（Physical AI）变革仓库运营的公司。公司结合生成式AI与智能机器人，开发出能够自主完成卡车卸货、货物搬运等任务的产品，自动化处理拖车或集装箱内货物卸载。 | `工业机器人` `移动机器人` `仓储物流` `A-B轮` | [官网](https://www.picklerobot.com) |
-| **Diligent Robotics** | Diligent Robotics 是一家人工智能公司，开发机器人助手 Moxi 帮助医护人员完成日常任务。Moxi 能够在医院中自主完成运送物资、拿取设备等非面向患者的工作，支持医院内部物流和常规运输任务。 | `服务机器人` `移动机器人` `医疗康复` `A-B轮` | [官网](https://www.diligentrobots.com) |
-| **Simbe Robotics** | Simbe Robotics 是一家将计算机视觉、机器人技术、射频识别和固定传感器结合起来的零售科技公司。其机器人 Tally 可在商店中自主穿梭，扫描货架库存，为零售商提供实时的店内智能数据。 | `服务机器人` `移动机器人` `商业服务` `A-B轮` | [官网](https://www.simberobotics.com) |
-| **Bear Robotics** | Bear Robotics 是一家专注于商用服务机器人的科技公司，其旗舰产品 Servi 系列机器人被广泛应用于餐饮、酒店、医疗等领域，负责托盘运送、引导等任务，致力于通过机器人技术提升服务行业效率。 | `服务机器人` `移动机器人` `商业服务` `A-B轮` | [官网](https://www.bearrobotics.ai) |
-| **RightHand Robotics** | RightHand Robotics 是一家专注于机器人抓取技术的公司，其产品 RightPick 系统结合了智能夹爪、视觉系统和软件，能够处理多品类、非结构化场景下的抓取任务，专注高SKU电商环境的件拣选挑战。 | `工业机器人` `移动机器人` `仓储物流` `A-B轮` | [官网](https://www.righthandrobotics.com) |
-| **AMP Robotics** | AMP Robotics 是一家利用人工智能和自动化技术革新回收行业的企业。公司开发的 AMP Cortex 系统可识别和分拣可回收物，提高回收纯度和效率，已在三大洲部署数百套系统。 | `工业机器人` `移动机器人` `特种机器人` `A-B轮` | [官网](https://www.amprobotics.com) |
-| **Zipline** | Zipline 的使命是建设世界上第一个服务所有人平等的物流系统。公司通过固定翼无人机为医疗、消费品、食品等领域提供即时配送服务，已在四大洲八个国家运营，累计商业飞行超过200万次。 | `整机` `无人机` `仓储物流` `独角兽` | [官网](https://www.flyzipline.com) |
-| **Skydio** | Skydio 是全球领先的自主无人机开发商，其产品广泛应用于公共安全、国防、工业巡检等领域。Skydio 在美国设计、组装和支持其产品，利用先进的计算机视觉和人工智能技术，实现无人机的自主飞行、避障和数据采集。 | `整机` `无人机` `工业巡检` `独角兽` | [官网](https://www.skydio.com) |
-| **Anduril Industries** | Anduril Industries 是一家国防科技公司，通过先进自主性、人工智能、传感器融合和网络技术，为军事和国家安全领域提供解决方案。其核心产品 Lattice 是一个自主意义构建平台，连接数千个系统并提供实时态势感知。 | `整机` `无人机` `特种机器人` `独角兽` | [官网](https://www.anduril.com) |
-| **Carbon Robotics** | Carbon Robotics 设计AI驱动的农业机器人，其产品包括自动化除草机器人，利用高精度视觉识别和激光技术，在田间精准清除杂草，减少化学品使用，提升农业生产力和可持续性。 | `整机` `农业机器人` `特种机器人` `A-B轮` | [官网](https://www.carbonrobotics.com) |
-| **General Intuition** | General Intuition 是一家前沿研究实验室，致力于构建需要深度空间和时间推理的环境基础模型。公司基于游戏视频数据开发具身智能体，通过从视频数据中学习世界模型，赋予机器人在真实世界中的感知、预判和即兴发挥能力。 | `大脑/模型` `VLA` `A-B轮` | [官网](https://jobs.khoslaventures.com/companies/general-intuition-2) |
-| **Persona AI** | Persona AI 是一家专注于人机交互和社交机器人的人工智能公司，致力于开发用于造船和工业制造的挑战性人形机器人平台，同时探索能够理解并表达情感、进行自然对话的机器人，应用于服务、陪伴和娱乐场景。 | `整机` `人形` `工业制造` `天使轮` | [官网](https://persona.ai) |
-| **Epoch Robotics** | Epoch Robotics 是一家专注于通用人形机器人研发的科技公司，致力于开发具备高度自主学习和适应能力的智能机器人，解决制造业、物流业及家庭服务中的复杂任务。公司强调软硬件一体化设计，推动机器人从专用向通用场景延伸。 | `整机` `人形` `轮式` `仓储物流` `A-B轮` | [官网](http://www.jrauto.com) |
-| **RoboScience** | RoboScience 是一家以具身智能为核心的技术公司，专注于构建机器人基础模型和世界模型，通过深度学习和交互赋予机器对物理世界的通用理解。公司由多位顶尖AI实验室科学家创立，推动机器人在复杂环境中的自主决策与操作能力。 | `大脑/模型` `VLA` `工具链` `A-B轮` | [官网](https://roboscience.com/c) |
+| **L3Harris Technologies** | 提供国防与工业机器人方案，专注自主系统和无人平台技术，其产品包括无人地面车辆（UGV）和排爆机器人，用于军事与安防。 | `国防机器人` `自主系统` `无人平台` | [官网](https://www.l3harris.com/) |
+| **LG Electronics** | 展示CLOi系列服务机器人，包括引导机器人、送餐机器人等，致力于实现“零劳动之家”愿景，提供家庭与商用自动化解决方案。 | `服务机器人` `整机` `自动化` | [官网](https://solutions.lg.com/robots) |
+| **Lockheed Martin** | 提供国防机器人与自主系统方案，专注先进机器人技术研发，其无人潜航器（UUV）和排爆机器人服务于国防与公共安全。 | `国防机器人` `自主系统` `研发` | [官网](https://www.lockheedmartin.com/) |
+| **Locus Robotics** | Locus Robotics是领先的仓库机器人解决方案提供商。其Locus系列自主移动机器人（AMR）与工人协作，优化订单拣选和物流流程，可显著提高履约效率、降低劳动力成本。 | `工业机器人` `移动机器人` `仓储物流` `独角兽` | [官网](https://www.locusrobotics.com) |
+| **Mammotion** | 专注智能割草机器人，Luba系列采用激光雷达导航技术，实现高精度草坪维护，支持无边界线规划，适用于复杂花园地形。 | `户外机器人` `割草机器人` `整机` | [官网](https://www.mammotion.com/) |
+| **MathWorks** | 提供MATLAB与Simulink，支持机器人的建模、仿真与控制开发，其Robotics System Toolbox支持机器人算法设计与硬件部署。 | `建模与仿真` `控制开发` `软件` | [官网](https://www.mathworks.com/products/robotics.html) |
+| **MediaTek Inc.** | 提供低功耗芯片方案，为机器人和嵌入式设备提供计算支持，其Genio系列物联网平台适用于轻量级机器人控制。 | `AI芯片` `低功耗` `嵌入式` | [官网](https://www.mediatek.com/) |
+| **Mercedes-Benz Group** | 梅赛德斯-奔驰布局机器人领域，提供工业自动化与服务机器人，其工厂采用先进的柔性生产线，大量使用协作机器人。 | `汽车制造` `工业自动化` `服务机器人` | [官网](https://www.mercedes-benz.com/en/) |
+| **Meta** | 专注AI大模型研究，在计算机视觉与自然语言处理领域对具身智能发展有重要贡献，例如开源了SAM、DINOv2等视觉模型。 | `AI大模型` `计算机视觉` `研究` | [官网](https://ai.meta.com/) |
+| **Microsoft** | 投资多家具身智能企业（如OpenAI、Figure AI），同时在机器人操作系统（ROS for Windows）和AI模型（Copilot）领域有深厚积累。 | `AI` `机器人操作系统` `投资` | [官网](https://www.microsoft.com/en-us/research/) |
+| **Microchip Technology** | 提供机器人芯片与方案，支持机器人的感知与控制，其PIC和AVR系列单片机被用于教育及入门级机器人开发。 | `机器人芯片` `半导体` `嵌入式` | [官网](https://www.microchip.com/en-us/applications/robotics) |
+| **Mitsubishi Electric** | 提供工业机器人与自动化方案，专注电子制造与汽车工业领域，其MELFA系列机器人以高精度和高可靠性著称。 | `工业机器人` `整机` `自动化` | [官网](https://www.mitsubishielectric.com/en/robots/) |
+| **Mujin** | 日本公司，提供机器人智能控制平台，实现复杂工业场景下的高精度抓取与搬运，其核心是Mujin Controller，无需编程即可部署。 | `工业机器人` `运动控制` `软件` | [官网](https://www.mujin.co.jp/) |
+| **Mytra** | Mytra专注于通过灵活、可扩展且直观的机器人和人工智能自动化物料搬运和存储。团队汇聚了硬件、软件和运营领域的专家，用3D托盘自动化实现高密度存储和快速检索。 | `工业机器人` `移动机器人` `仓储物流` `A-B轮` | [官网](https://www.mytra.com) |
+| **Nachi-Fujikoshi** | 不二越提供工业机器人及自动化方案，在机器人焊接与装配领域广泛应用，其产品线包括超小型机器人到重型搬运机器人。 | `工业机器人` `焊接` `装配` | [官网](https://www.nachi.com/robotics/) |
+| **Neura Robotics** | 德国企业，4NE-1机器人全身覆盖传感器皮肤，专注于安全协作机器人领域，符合欧洲严格的安全标准，可用于人机紧密协作。 | `协作机器人` `整机` `传感器皮肤` | [官网](https://neura-robotics.com/) |
+| **Northrop Grumman** | 提供国防机器人与自主系统方案，在军事和航天领域有重要应用，例如自主加油无人机、卫星服务机器人等。 | `国防机器人` `自主系统` `航天` | [官网](https://www.northropgrumman.com/) |
+| **NVIDIA Corporation** | 提供AI芯片与仿真平台，为机器人开发提供强大计算能力和工具支持，其Jetson系列边缘AI平台专为机器人设计。 | `AI芯片` `仿真平台` `计算` | [官网](https://www.nvidia.com/en-us/autonomous-machines/robotics/) |
+| **NXP Semiconductors** | 提供机器人芯片与方案，支持机器人的感知与控制能力，其i.MX RT跨界处理器被用于实时机器人控制。 | `机器人芯片` `传感器` `半导体` | [官网](https://www.nxp.com/design/design-center/industries/robotics:ROBOTICS) |
+| **Omron Corporation** | 提供工业自动化与服务机器人，结合传感器与AI技术优势，其LD系列移动机器人用于仓储物流，可实现自主导航与避障。 | `工业自动化` `传感器` `服务机器人` | [官网](https://www.omron.com/global/en/) |
+| **OTTO Motors** | 重型自主移动机器人制造商，用于制造与物流设施的物料运输，其机器人可承载1500kg，适用于汽车、航空等行业。 | `AMR` `工业物流` `整机` | [官网](https://www.ottomotors.com/) |
+| **PaXini Tech** | 专注触觉传感器技术开发，为机器人提供高精度触觉感知能力，是具身智能领域的关键基础设施提供商，让机器人获得“触觉”。 | `触觉传感器` `核心零部件` | [官网](https://www.paxini.com/) |
+| **Path Robotics** | Path Robotics专注于物理人工智能，通过能够看见、思考并适应的机器人系统解决制造业劳动力短缺问题。开发的自主焊接机器人可实时感知并规划路径，实现高精度、高柔性的焊接作业，利用AI和3D视觉实现自动化焊接。 | `工业机器人` `整机` `机械臂` `工业制造` `A-B轮` | [官网](https://www.path-robotics.com) |
+| **Persona AI** | Persona AI专注于人机交互和社交机器人，致力于开发用于造船和工业制造的挑战性人形机器人平台，同时探索能够理解并表达情感、进行自然对话的机器人，应用于服务、陪伴和娱乐场景。 | `整机` `人形` `工业制造` `天使轮` | [官网](https://persona.ai) |
+| **Physical Intelligence** | Physical Intelligence（π）是一家致力于开发物理世界基础模型的AI研究公司。旨在构建能够在真实环境中执行复杂任务的通用机器人智能，通过将大型语言模型、多模态感知与机器人控制相结合。2026年2月获4亿美元融资，贝佐斯、OpenAI等参投。 | `大脑/模型` `VLA` `独角兽` | [官网](https://www.physicalintelligence.company) |
+| **Pickle Robot** | Pickle Robot利用物理人工智能变革仓库运营。结合生成式AI与智能机器人，开发出能够自主完成卡车卸货、货物搬运等任务的产品，自动化处理拖车或集装箱内货物卸载。 | `工业机器人` `移动机器人` `仓储物流` `A-B轮` | [官网](https://www.picklerobot.com) |
+| **Qualcomm Technologies** | 提供低功耗芯片与AI方案，为移动机器人和边缘计算提供支持，其RB5机器人平台集成了AI引擎和5G连接。 | `AI芯片` `低功耗` `边缘计算` | [官网](https://www.qualcomm.com/robotics) |
+| **Raspberry Pi Foundation** | 提供低成本计算平台，为机器人开发与教育提供支持，Raspberry Pi单板计算机被广泛用于机器人原型设计、视觉处理等。 | `开发板` `教育` `开源硬件` | [官网](https://www.raspberrypi.com/) |
+| **Realbotix** | 设计AI驱动的人形机器人，用于有意义的人际互动，以逼真硅胶皮肤和高品质著称，产品在美国制造，涉及社交与陪伴场景。 | `人形机器人` `整机` `社交机器人` | [官网](https://www.realbotix.ai/) |
+| **Renault Group** | 雷诺布局机器人领域，提供工业自动化与服务机器人，例如雷诺工厂内部大量使用机器人进行焊接、总装，并探索人机协作。 | `汽车制造` `工业自动化` `服务机器人` | [官网](https://www.renaultgroup.com/en/) |
+| **Rethink Robotics** | 协作机器人先驱，产品Sawyer和Baxter具备高灵活性与人机协作能力，内置视觉与力控，适用于小批量多品种生产。 | `协作机器人` `整机` `工业` | [官网](https://www.rethinkrobotics.com/) |
+| **RightHand Robotics** | RightHand Robotics专注于机器人抓取技术，其RightPick系统结合了智能夹爪、视觉系统和软件，能够处理多品类、非结构化场景下的抓取任务，专注高SKU电商环境的件拣选挑战。 | `工业机器人` `移动机器人` `仓储物流` `A-B轮` | [官网](https://www.righthandrobotics.com) |
+| **Robotnik** | 西班牙公司，研发模块化移动机器人，应用于服务、工业与教育领域，其RB系列机器人支持室内外自主导航与负载定制。 | `移动机器人` `整机` `模块化` | [官网](https://www.robotnik.eu/) |
+| **RoboScience** | RoboScience以具身智能为核心，专注于构建机器人基础模型和世界模型，通过深度学习和交互赋予机器对物理世界的通用理解。由多位顶尖AI实验室科学家创立，推动机器人在复杂环境中的自主决策与操作能力。 | `大脑/模型` `VLA` `工具链` `A-B轮` | [官网](https://roboscience.com/c) |
+| **ROS (Robot Operating System)** | 机器人操作系统，开源软件框架，为机器人开发提供工具与库支持，包括通信、可视化、仿真等，被全球机器人社区广泛采用。 | `机器人操作系统` `开源` `软件框架` | [官网](https://www.ros.org/) |
+| **Samsung Robotics** | 三星机器人研发部门，结合AI与先进制造技术，探索家用机器人、可穿戴机器人等，推动机器人技术在消费电子领域的应用。 | `机器人研发` `AI` `消费电子` | [官网](https://research.samsung.com/robotics) |
+| **Sanctuary AI** | Sanctuary AI致力于打造并部署数百万工业级人形机器人，以应对日益增长的劳动力挑战。公司汇聚人工智能、认知和机器人领域的顶尖人才，其开发的通用人形机器人Phoenix具备人类水平的灵巧性和智能，以触觉传感器领先，手部操作精密。 | `整机` `人形` `灵巧手` `触觉感知` `A-B轮` | [官网](https://sanctuary.ai) |
+| **Seegrid** | 提供视觉引导自主移动机器人（AMR）与软件方案，专注工厂与仓库自动化，其机器人使用自然导航，无需铺设磁条或反射板。 | `AMR` `视觉导航` `整机` | [官网](https://www.seegrid.com/) |
+| **Sharpa** | 专注计算机视觉和机器人感知技术，为工业自动化提供高精度视觉解决方案，包括缺陷检测、定位引导等，提升产线智能化水平。 | `计算机视觉` `感知技术` `工业自动化` | [官网](https://www.sharpa.com/) |
+| **Shield AI** | Shield AI是一家由前海豹突击队员创立的国防科技公司，致力于为军事领域提供智能自主系统。核心产品Hivemind——一种AI飞行员，可让无人机、飞机、舰船等装备在无GPS和通信的条件下实现自主导航和协同作战。 | `大脑/模型` `无人机` `特种机器人` `A-B轮` | [官网](https://shield.ai) |
+| **Sick AG** | 德国西克提供工业传感器与视觉系统，为机器人与自动化设备提供感知方案，包括2D/3D相机、激光雷达、安全传感器等。 | `传感器` `机器视觉` `工业自动化` | [官网](https://www.sick.com/) |
+| **Siemens Digital Industries** | 提供数字化工业软件，支持机器人的设计、仿真与生产管理，其Tecnomatix软件用于机器人工作单元布局与离线编程。 | `工业软件` `仿真` `数字化` | [官网](https://www.sw.siemens.com/en-US/products/robotics.html) |
+| **Simbe Robotics** | Simbe Robotics将计算机视觉、机器人技术、射频识别和固定传感器结合，其机器人Tally可在商店中自主穿梭，扫描货架库存，为零售商提供实时的店内智能数据。 | `服务机器人` `移动机器人` `商业服务` `A-B轮` | [官网](https://www.simberobotics.com) |
+| **Skild AI** | Skild AI专注于物理人工智能，旨在构建一个统一的、全能的机器人“大脑”，能够控制任何机器人执行任何任务。由卡内基梅隆大学教授创立，Skild Brain使机器人能够在非结构化、危险的环境中导航，执行抓取、操作等技能。 | `大脑/模型` `VLA` `A-B轮` | [官网](https://www.skild.ai) |
+| **Skydio** | Skydio是全球领先的自主无人机开发商，其产品广泛应用于公共安全、国防、工业巡检等领域。Skydio在美国设计、组装和支持其产品，利用先进的计算机视觉和人工智能技术，实现无人机的自主飞行、避障和数据采集。 | `整机` `无人机` `工业巡检` `独角兽` | [官网](https://www.skydio.com) |
+| **Soft Robotics** | 开发软体抓具与3D视觉系统，用于食品、消费品等行业的自动化拣选，其mGrip抓具可轻柔抓取不规则或易损物品。 | `软体机器人` `抓取技术` `机器视觉` | [官网](https://www.softroboticsinc.com/) |
+| **SoftBank Robotics** | 全球领先的服务机器人提供商，产品包括Pepper、NAO等知名人形机器人，广泛应用于零售接待、医疗辅助和教育编程等场景。 | `服务机器人` `整机` `人形` | [官网](https://apac.softbankrobotics.com/) |
+| **Sony Group** | 开发Aibo机器狗陪伴机器人，融合索尼在计算机视觉与音频技术方面的优势，具备情感识别与自主学习能力，是消费级机器人代表。 | `陪伴机器人` `整机` `计算机视觉` | [官网](https://www.sony.com/en/rd/robotics) |
+| **Standard Bots** | Standard Bots的使命是通过世界上最易接近的机器人提升人类生产力。公司设计易用的机器人平台，首先面向制造业，帮助中小企业实现自动化。RO1机械臂面向中小企业，AI驱动，几分钟内即可部署。 | `工业机器人` `整机` `机械臂` `协作机器人` `A-B轮` | [官网](https://standardbots.com) |
+| **Stellantis Group** | 斯泰兰蒂斯布局机器人领域，提供工业自动化与智能制造方案，其工厂融合了机器人、视觉与AI技术，提升生产效率。 | `汽车制造` `工业自动化` `智能制造` | [官网](https://www.stellantis.com/en) |
+| **STMicroelectronics** | 提供机器人芯片与传感器方案，支持机器人的感知与控制能力，其STM32微控制器是机器人开发中最常用的主控之一。 | `机器人芯片` `传感器` `半导体` | [官网](https://www.st.com/en/applications/robotics.html) |
+| **Sunseeker** | 开发太阳能驱动的户外机器人，应用于环境监测和农业领域，可长期部署于农田、森林等场景，实现低功耗自主运行。 | `户外机器人` `太阳能` `农业` | [官网](https://sunseekertech.com/) |
+| **Synopsys** | 提供电子设计自动化（EDA）工具，支持机器人芯片与系统的设计验证，帮助开发者加速从概念到流片的机器人芯片设计。 | `EDA` `芯片设计` `软件` | [官网](https://www.synopsys.com/) |
+| **Syntiant** | Syntiant是边缘人工智能部署的领导者，利用行业领先的神经决策处理器和硬件无关的机器学习模型，将深度学习带入任何设备。2017年成立于加州，累计出货超1亿颗神经决策处理器，应用于音频、视频、语音和传感器场景。 | `核心部件` `大脑/模型` `边缘AI` `芯片` `A-B轮` | [官网](https://www.syntiant.com) |
+| **Tenniix** | 开发网球陪练机器人，结合计算机视觉与运动控制，能自动收集网球并提供个性化训练，适用于俱乐部和个人训练场景。 | `体育机器人` `整机` `计算机视觉` | [官网](https://tenniix.ai/) |
+| **Tesla** | 特斯拉在车辆、机器人等领域大规模开发和部署自动驾驶技术。Optimus（擎天柱）是特斯拉开发的通用双足自主人形机器人，将FSD自动驾驶AI迁移至机器人，Optimus Gen 3于2026年初发布，手部自由度22+，目标百万级量产。 | `整机` `大脑/模型` `人形` `VLA` `家庭服务` `上市公司` | [官网](https://www.tesla.com/optimus) |
+| **Texas Instruments** | 提供机器人芯片与传感器方案，支持机器人的感知与控制能力，其Sitara系列处理器和电机驱动器广泛用于机器人控制板。 | `机器人芯片` `传感器` `半导体` | [官网](https://www.ti.com/robotics.html) |
+| **Tombot** | 开发情感陪伴机器人，以宠物为灵感，与吉姆·汉森生物工坊合作打造逼真的机器狗，专门为认知症老人提供情感支持。 | `陪伴机器人` `整机` `宠物机器人` | [官网](https://tombot.com/) |
+| **Toyota Motor Corp.** | 将机器人技术整合到移动解决方案中，专注老年护理和辅助生活领域，强调安全性与适应性，旨在通过机器人创造繁荣社会。 | `人形机器人` `辅助生活` `移动出行` | [官网](https://global.toyota/en/mobility/partner-robot) |
+| **Toyota Research Institute** | 丰田研究院专注AI与机器人技术，尤其在自动驾驶和人形机器人领域，开发了“Punyo”软体机器人，强调安全人机交互。 | `AI研究` `自动驾驶` `人形机器人` | [官网](https://www.tri.global/) |
+| **Ubiquity Robotics** | 提供开源移动机器人平台（如Magni），支持教育与研发，基于ROS开发，用户可快速搭建自主导航机器人原型。 | `移动机器人` `研发平台` `开源` | [官网](https://ubiquityrobotics.com/) |
+| **Unity Technologies** | 提供游戏引擎与仿真平台，支持机器人的开发与训练，Unity Robotics工具包可实现机器人仿真到真实迁移，用于算法验证。 | `仿真平台` `游戏引擎` `机器人训练` | [官网](https://unity.com/robotics) |
+| **Vecna Robotics** | 提供自主叉车、托盘搬运车等物料搬运机器人，专注仓储与制造物流，其Pivotal软件平台可实现多机器人协同调度。 | `物流机器人` `AMR` `整机` | [官网](https://www.vecnarobotics.com/) |
+| **Vex Robotics** | 专注教育机器人，为学校和教育机构提供机器人编程平台与竞赛方案，拥有VEX IQ、VEX V5等系列产品，全球数百万学生使用。 | `教育机器人` `整机` `竞赛` | [官网](https://www.vexrobotics.com/) |
+| **Volkswagen Group** | 大众布局机器人领域，提供工业自动化与智能制造方案，其工厂已部署数千台工业机器人，并投资于自主移动机器人研发。 | `汽车制造` `工业自动化` `智能制造` | [官网](https://www.volkswagenag.com/en.html) |
+| **WIRobotics** | 提供工业协作机器人解决方案，专注于汽车制造和电子装配领域，其机器人可与人协同工作，提升产线柔性与效率。 | `协作机器人` `整机` `工业` | [官网](https://www.wirobotics.com/) |
+| **Yaskawa** | 安川电机是全球领先的工业机器人及运动控制解决方案提供商，其机器人品牌Motoman产品线涵盖焊接、搬运、码垛、喷涂、打磨等各类应用，已交付超55万台，广泛应用于汽车制造、机械加工、电子电气等行业。 | `工业机器人` `整机` `运动控制` `跨国公司` | [官网](https://www.yaskawa-global.com) |
+| **Yukai Engineering** | 日本企业，专注情感陪伴机器人，产品以可爱外观和情感交互能力著称，例如Qoobo毛茸茸尾巴机器人，提供治愈体验。 | `陪伴机器人` `整机` `情感交互` | [官网](https://www.ux-xu.com/) |
+| **Zipline** | Zipline的使命是建设世界上第一个服务所有人平等的物流系统。通过固定翼无人机为医疗、消费品、食品等领域提供即时配送服务，已在四大洲八个国家运营，累计商业飞行超过200万次。 | `整机` `无人机` `仓储物流` `独角兽` | [官网](https://www.flyzipline.com) |
