@@ -14,7 +14,7 @@
    - 💬 微信：扫描首页二维码（或添加微信号 `xxxxxxxxxx`）  
    - 🐙 GitHub Issues：在本仓库 [Issues](https://github.com/your-repo/issues) 中新建 `job-post` 标签的帖子  
    - 📝 直接提交 PR：修改 `README.md` 中的对应表格
-   - 
+     
 3. **审核通过后**，岗位将在 24 小时内更新至本列表，并同步推送至微信群 / 公众号 / 知乎专栏。
 
 
