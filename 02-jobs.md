@@ -10,8 +10,8 @@
 
 1. **准备岗位信息**（参考下方模板）  
 2. **通过以下任一方式提交**  
-   - 📧 邮箱：`octoday@yeah.net`  
-   - 💬 微信：扫描首页二维码（或添加微信号 `EmbodiedAI_Jobs`）  
+   - 📧 邮箱：`xxxxxxxxxx`  
+   - 💬 微信：扫描首页二维码（或添加微信号 `xxxxxxxxxx`）  
    - 🐙 GitHub Issues：在本仓库 [Issues](https://github.com/your-repo/issues) 中新建 `job-post` 标签的帖子  
    - 📝 直接提交 PR：修改 `README.md` 中的对应表格
    - 
