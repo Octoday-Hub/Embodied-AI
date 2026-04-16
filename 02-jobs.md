@@ -338,77 +338,77 @@
 | 公司 | 计划名称 | 地点 | 面向人群 | 有效期 | 申请链接 |
 |:---|:---|:---|:---|:---|:---|
 | 阿里巴巴 | 阿里星人才计划 | 杭州/北京/上海 | 顶尖博士应届生 | 2026年度 | [投递链接](https://campus-talent.alibaba.com/activity/ali-star?lang=zh) |
-| 阿里巴巴 | 阿里星计划 - 计算机视觉/AI | 杭州/北京 | 顶尖人才 | 长期有效 | [投递链接](https://career.alibaba.com/) |
-| 阿里巴巴 | 阿里星计划 - 机器人方向 | 杭州/北京 | 顶尖人才 | 长期有效 | [投递链接](https://career.alibaba.com/) |
+| | 阿里星计划 - 计算机视觉/AI | 杭州/北京 | 顶尖人才 | 长期有效 | [投递链接](https://career.alibaba.com/) |
+|  | 阿里星计划 - 机器人方向 | 杭州/北京 | 顶尖人才 | 长期有效 | [投递链接](https://career.alibaba.com/) |
 | 百度 | AIDU计划 | 北京/上海 | 2026届博士和硕士 | 2026年度 | [投递链接](https://talent.baidu.com/jobs) |
-| 百度 | AIDU计划 - AI/具身智能 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://career.baidu.com/) |
-| 百度 | AIDU计划 - 深度学习方向 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://career.baidu.com/) |
+|  | AIDU计划 - AI/具身智能 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://career.baidu.com/) |
+|  | AIDU计划 - 深度学习方向 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://career.baidu.com/) |
 | 北京大学 | 博雅博士后 - 智能科学方向 | 北京 | 博士 | 长期有效 | [投递链接](https://postdoctorals.pku.edu.cn/) |
-| 北京大学 | 博雅博士后 - 计算机方向 | 北京 | 博士 | 长期有效 | [投递链接](https://postdoctorals.pku.edu.cn/) |
+|  | 博雅博士后 - 计算机方向 | 北京 | 博士 | 长期有效 | [投递链接](https://postdoctorals.pku.edu.cn/) |
 | 北京智源人工智能研究院 | 联合培养博士项目 | 北京 | 博士研究生 | 2026年度 | [投递链接](https://pgs.ruc.edu.cn) |
 | 大疆创新 | 机器人算法工程师（精英计划） | 深圳/上海 | 顶尖人才 | 长期有效 | [投递链接](https://we.dji.com/zh-CN/campus/position) |
-| 大疆创新 | AI算法工程师（顶尖人才） | 深圳 | 顶尖人才 | 长期有效 | [投递链接](https://we.dji.com/zh-CN/campus/position) |
+|  | AI算法工程师（顶尖人才） | 深圳 | 顶尖人才 | 长期有效 | [投递链接](https://we.dji.com/zh-CN/campus/position) |
 | 滴滴出行 | 橙才计划 - 算法工程师 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://career.didiglobal.com/) |
-| 滴滴出行 | 橙才计划 - 自动驾驶方向 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://career.didiglobal.com/) |
+|  | 橙才计划 - 自动驾驶方向 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://career.didiglobal.com/) |
 | 地平线 | 专项人才计划 | 北京/上海/南京/杭州/深圳/香港 | 博士（应届/在读） | 2026年度 | [投递链接](https://horizon.hire-soft.com/) |
-| 地平线 | 专项人才计划 - 具身智能高级算法工程师 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://horizon-campus.hotjob.cn/) |
-| 地平线 | 专项人才计划 - 世界模型算法工程师 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://horizon-campus.hotjob.cn/) |
+|  | 专项人才计划 - 具身智能高级算法工程师 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://horizon-campus.hotjob.cn/) |
+|  | 专项人才计划 - 世界模型算法工程师 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://horizon-campus.hotjob.cn/) |
 | 华为 | 天才少年计划 | 深圳/北京/上海/全球 | 博士/卓越本硕 | 长期有效 | [投递链接](https://career.huawei.com/reccampportal/portal5/topminds.html) |
-| 华为 | 天才少年计划 - 计算机/AI方向 | 深圳/北京/上海 | 顶尖人才 | 长期有效 | [投递链接](https://career.huawei.com/) |
-| 华为 | 天才少年计划 - 机器人/具身智能 | 深圳/北京 | 顶尖人才 | 长期有效 | [投递链接](https://career.huawei.com/) |
+|  | 天才少年计划 - 计算机/AI方向 | 深圳/北京/上海 | 顶尖人才 | 长期有效 | [投递链接](https://career.huawei.com/) |
+|  | 天才少年计划 - 机器人/具身智能 | 深圳/北京 | 顶尖人才 | 长期有效 | [投递链接](https://career.huawei.com/) |
 | 京东 | 星计划 - AI/机器人方向 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://career.jd.com/) |
-| 京东 | 星计划 - 智能供应链 | 北京/上海 | 顶尖人才 | 长期有效 | [投递链接](https://career.jd.com/) |
+|  | 星计划 - 智能供应链 | 北京/上海 | 顶尖人才 | 长期有效 | [投递链接](https://career.jd.com/) |
 | 快手 | 快Star - 算法/AI方向 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://career.kuaishou.com/) |
-| 快手 | 快Star - 计算机视觉 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://career.kuaishou.com/) |
+|  | 快Star - 计算机视觉 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://career.kuaishou.com/) |
 | 旷视科技 | MegEagle创视者计划 - 具身智能算法系统方向研究员 | 北京/上海 | 顶尖人才 | 长期有效 | [投递链接](https://app.mokahr.com/m/campus_apply/megviihr/38642#/jobs) |
-| 旷视科技 | MegEagle创视者计划 - 具身智能大模型算法研究员 | 北京/上海 | 顶尖人才 | 长期有效 | [投递链接](https://app.mokahr.com/m/campus_apply/megviihr/38642#/jobs) |
+|  | MegEagle创视者计划 - 具身智能大模型算法研究员 | 北京/上海 | 顶尖人才 | 长期有效 | [投递链接](https://app.mokahr.com/m/campus_apply/megviihr/38642#/jobs) |
 | 美团 | 北斗计划 - 算法工程师 | 北京/上海 | 顶尖人才 | 长期有效 | [投递链接](https://careers.meituan.com/) |
-| 美团 | 北斗计划 - AI/机器人方向 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://careers.meituan.com/) |
+|  | 北斗计划 - AI/机器人方向 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://careers.meituan.com/) |
 | 清华大学 | 水木学者 - 计算机系/自动化系 | 北京 | 博士 | 长期有效 | [投递链接](https://postdoctorals.tsinghua.edu.cn/) |
-| 清华大学 | 水木学者 - AI/机器人方向 | 北京 | 博士 | 长期有效 | [投递链接](https://postdoctorals.tsinghua.edu.cn/) |
+|  | 水木学者 - AI/机器人方向 | 北京 | 博士 | 长期有效 | [投递链接](https://postdoctorals.tsinghua.edu.cn/) |
 | 荣耀 | 全球百万雄鹰计划 | 深圳/北京/南京/上海/西安/海外 | 2026届应届毕业生 | 长期有效 | [投递链接](https://actyco.wintalent.cn/actyco/home/receiver/poster/redirect?id=2ce781cb95dcf40301961d9c706c6bd4) |
 | 上海交通大学 | 致远博士后 - AI/机器人方向 | 上海 | 博士 | 长期有效 | [投递链接](https://postdoctorate.sjtu.edu.cn/) |
-| 上海交通大学 | 致远博士后 - 计算机方向 | 上海 | 博士 | 长期有效 | [投递链接](https://postdoctorate.sjtu.edu.cn/) |
+|  | 致远博士后 - 计算机方向 | 上海 | 博士 | 长期有效 | [投递链接](https://postdoctorate.sjtu.edu.cn/) |
 | 商汤科技 | 商汤奖学金 - AI研究方向 | 北京/上海/深圳 | 顶尖人才 | 长期有效 | [投递链接](https://www.sensetime.com/) |
-| 商汤科技 | 具身智能算法研究员 | 北京/上海 | 行业专家 | 长期有效 | [投递链接](https://m.bosszhipin.com/zhaopin/deba958c1fd41f0933d93tW1/) |
+|  | 具身智能算法研究员 | 北京/上海 | 行业专家 | 长期有效 | [投递链接](https://m.bosszhipin.com/zhaopin/deba958c1fd41f0933d93tW1/) |
 | 腾讯 | 青云计划 | 深圳/北京/上海 | 顶尖技术学生（本硕博） | 2026年度 | [投递链接](https://join.qq.com/) |
-| 腾讯 | 腾讯技术大咖 | 深圳/北京/上海 | 顶尖博士/资深专家 | 长期有效 | [投递链接](https://careers.tencent.com/search.html) |
-| 腾讯 | 青云计划 - 机器人方向 | 深圳 | 顶尖人才 | 长期有效 | [投递链接](https://careers.qq.com/) |
-| 腾讯 | 青云计划 - AI研究方向 | 深圳 | 顶尖人才 | 长期有效 | [投递链接](https://careers.qq.com/) |
+|  | 腾讯技术大咖 | 深圳/北京/上海 | 顶尖博士/资深专家 | 长期有效 | [投递链接](https://careers.tencent.com/search.html) |
+|  | 青云计划 - 机器人方向 | 深圳 | 顶尖人才 | 长期有效 | [投递链接](https://careers.qq.com/) |
+|  | 青云计划 - AI研究方向 | 深圳 | 顶尖人才 | 长期有效 | [投递链接](https://careers.qq.com/) |
 | 西湖大学 | 博士后 - 人工智能方向 | 杭州 | 博士 | 长期有效 | [投递链接](https://www.westlake.edu.cn/careers/) |
-| 西湖大学 | 博士后 - 机器人方向 | 杭州 | 博士 | 长期有效 | [投递链接](https://www.westlake.edu.cn/careers/) |
+|  | 博士后 - 机器人方向 | 杭州 | 博士 | 长期有效 | [投递链接](https://www.westlake.edu.cn/careers/) |
 | 小米 | 未来星 / AI人才专项计划 | 北京/南京/上海 | 2024-2027届毕业生/博士后 | 2026年度 | [投递链接](https://hr.xiaomi.com/) |
-| 小米 | 未来星 - 机器人/AI方向 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://xiaomi.jobs.f.mioffice.cn/) |
-| 小米 | 未来星 - 具身智能方向 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://xiaomi.jobs.f.mioffice.cn/) |
+|  | 未来星 - 机器人/AI方向 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://xiaomi.jobs.f.mioffice.cn/) |
+|  | 未来星 - 具身智能方向 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://xiaomi.jobs.f.mioffice.cn/) |
 | 小鹏汽车 | 物理AI人才专项（实习生专场） | 广州/深圳/上海/北京 | 2027-2028届毕业生 | 长期有效 | [投递链接](https://scc.pku.edu.cn) |
-| 小鹏汽车 | 物理AI人才专项 - 具身智能运控算法实习生 | 深圳/上海/北京 | 顶尖人才 | 长期有效 | [投递链接](https://xiaopeng.jobs.feishu.cn/campus/m/position/detail/7619138376453114158) |
-| 小鹏汽车 | 物理AI人才专项 - 具身智能算法实习生(Manipulation) | 深圳/上海 | 顶尖人才 | 长期有效 | [投递链接](https://xiaopeng.jobs.feishu.cn/campus/m/position/detail/7606269238881323315) |
+|  | 物理AI人才专项 - 具身智能运控算法实习生 | 深圳/上海/北京 | 顶尖人才 | 长期有效 | [投递链接](https://xiaopeng.jobs.feishu.cn/campus/m/position/detail/7619138376453114158) |
+|  | 物理AI人才专项 - 具身智能算法实习生(Manipulation) | 深圳/上海 | 顶尖人才 | 长期有效 | [投递链接](https://xiaopeng.jobs.feishu.cn/campus/m/position/detail/7606269238881323315) |
 | 优必选科技 | 具身智能首席科学家 | 深圳 | 顶尖专家 | 长期有效 | [投递链接](https://ubtrobot.zhiye.com/social) |
 | 浙江大学 | 求是博士后 - 控制/计算机方向 | 杭州 | 博士 | 长期有效 | [投递链接](https://hr.zju.edu.cn/postdoctor/) |
-| 浙江大学 | 求是博士后 - AI方向 | 杭州 | 博士 | 长期有效 | [投递链接](https://hr.zju.edu.cn/postdoctor/) |
+|  | 求是博士后 - AI方向 | 杭州 | 博士 | 长期有效 | [投递链接](https://hr.zju.edu.cn/postdoctor/) |
 | 智谱AI | AI机器人技术研究博士后 | 北京 | 博士 | 长期有效 | [投递链接](https://m.zhipin.com/job_detail/18150270fb9dbf1203F909m4FFRX.html) |
-| 智谱AI | Agent算法工程师（智谱星） | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://zhipu-ai.jobs.feishu.cn/zhipucampus/m/position/detail/7530590286038075686) |
+|  | Agent算法工程师（智谱星） | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://zhipu-ai.jobs.feishu.cn/zhipucampus/m/position/detail/7530590286038075686) |
 | 中科院 | 百人计划 - 计算机/机器人方向 | 北京/全国 | 海外优秀青年学者 | 长期有效 | [投递链接](https://www.cas.cn/rcjy/) |
-| 中科院 | 百人计划 - 人工智能方向 | 全国 | 海外优秀青年学者 | 长期有效 | [投递链接](https://www.baitcc.cn/) |
-| 中科院 | 海外优青项目 | 北京 | 海外优秀青年学者 | 2026年度 | [投递链接](https://cnic.cas.cn) |
+|  | 百人计划 - 人工智能方向 | 全国 | 海外优秀青年学者 | 长期有效 | [投递链接](https://www.baitcc.cn/) |
+|  | 海外优青项目 | 北京 | 海外优秀青年学者 | 2026年度 | [投递链接](https://cnic.cas.cn) |
 | 字节跳动 | Top Seed人才计划 | 北京/上海/深圳/杭州/成都等 | 顶尖应届博士（约30人） | 2026年度 | [投递链接](https://jobs.bytedance.com/campus) |
-| 字节跳动 | 筋斗云人才计划 | 北京/上海/深圳/杭州/成都等 | 顶尖技术人才 | 2026年度 | [投递链接](https://jobs.bytedance.com/campus) |
-| 字节跳动 | Top Seed - 研究型工程师 | 北京/上海 | 顶尖人才 | 长期有效 | [投递链接](https://jobs.bytedance.com/) |
-| 字节跳动 | Top Seed - AI/机器人方向 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://jobs.bytedance.com/) |
+|  | 筋斗云人才计划 | 北京/上海/深圳/杭州/成都等 | 顶尖技术人才 | 2026年度 | [投递链接](https://jobs.bytedance.com/campus) |
+|  | Top Seed - 研究型工程师 | 北京/上海 | 顶尖人才 | 长期有效 | [投递链接](https://jobs.bytedance.com/) |
+|  | Top Seed - AI/机器人方向 | 北京 | 顶尖人才 | 长期有效 | [投递链接](https://jobs.bytedance.com/) |
 | Amazon | Amazon Research Awards | 全球 | 研究人员 | 长期有效 | [投递链接](https://www.amazon.science/research-awards) |
-| Amazon | Amazon Robotics - PhD Internship | 北美 | 博士生 | 长期有效 | [投递链接](https://www.amazon.jobs/en/teams/amazon-robotics) |
+|  | Amazon Robotics - PhD Internship | 北美 | 博士生 | 长期有效 | [投递链接](https://www.amazon.jobs/en/teams/amazon-robotics) |
 | Apple | Apple PhD Fellowship - ML/AI | Cupertino, CA | 博士生 | 长期有效 | [投递链接](https://machinelearning.apple.com/) |
-| Apple | Apple Scholar - PhD | 全球 | 博士生 | 长期有效 | [投递链接](https://machinelearning.apple.com/) |
+|  | Apple Scholar - PhD | 全球 | 博士生 | 长期有效 | [投递链接](https://machinelearning.apple.com/) |
 | Google | Google PhD Fellowship - Machine Learning | 全球 | 博士生 | 长期有效 | [投递链接](https://research.google/research-outreach/?category=phd-fellowship) |
-| Google | Google PhD Fellowship - Robotics/Embodied AI | 美国/全球 | 博士生 | 长期有效 | [投递链接](https://research.google/research-outreach/?category=phd-fellowship) |
+|  | Google PhD Fellowship - Robotics/Embodied AI | 美国/全球 | 博士生 | 长期有效 | [投递链接](https://research.google/research-outreach/?category=phd-fellowship) |
 | Meta | Meta Research Fellowship - AI/ML | 美国 | 博士生 | 长期有效 | [投递链接](https://research.facebook.com/fellowship/) |
-| Meta | Meta Fellowship - Embodied AI | 美国 | 博士生 | 长期有效 | [投递链接](https://research.facebook.com/fellowship/) |
+|  | Meta Fellowship - Embodied AI | 美国 | 博士生 | 长期有效 | [投递链接](https://research.facebook.com/fellowship/) |
 | Microsoft | Microsoft Research PhD Fellowship | 美国/全球 | 博士生 | 长期有效 | [投递链接](https://www.microsoft.com/research/academic-programs/phd-fellowship/) |
-| Microsoft | Microsoft Research PhD Scholarship | 英国/欧洲 | 博士生 | 长期有效 | [投递链接](https://www.microsoft.com/research/academic-programs/phd-scholarship/) |
+|  | Microsoft Research PhD Scholarship | 英国/欧洲 | 博士生 | 长期有效 | [投递链接](https://www.microsoft.com/research/academic-programs/phd-scholarship/) |
 | MiniMax | AGI产品研发工程师-应届生(Top Talent) | 北京/上海 | 顶尖人才 | 长期有效 | [投递链接](https://vrfi1sk8a0.jobs.feishu.cn/379481/m/position/detail/7546180826527893810) |
-| MiniMax | AGI产品研发工程师-实习(Top Talent) | 上海 | 顶尖人才 | 长期有效 | [投递链接](https://www.nowcoder.com/jobs/detail/429548) |
+|  | AGI产品研发工程师-实习(Top Talent) | 上海 | 顶尖人才 | 长期有效 | [投递链接](https://www.nowcoder.com/jobs/detail/429548) |
 | NVIDIA | NVIDIA Graduate Fellowship - AI/Robotics | 美国/全球 | 博士生 | 长期有效 | [投递链接](https://research.nvidia.com/graduate-fellowship) |
-| NVIDIA | NVIDIA PhD Fellowship | 美国/全球 | 博士生 | 长期有效 | [投递链接](https://research.nvidia.com/graduate-fellowship) |
+|  | NVIDIA PhD Fellowship | 美国/全球 | 博士生 | 长期有效 | [投递链接](https://research.nvidia.com/graduate-fellowship) |
 | 启元实验室 | 博士联合培养项目 | 北京 | 博士研究生 | 2026年度 | [投递链接](https://yzb.hit.edu.cn) |
 ## ⚠️ 特别提醒
 
