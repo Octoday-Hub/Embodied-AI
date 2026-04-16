@@ -1,4 +1,4 @@
-# 💼 具身智能招聘信息 · Embodied AI Jobs
+# 💼 具身智能招聘信息 · Embodied AI Jobs （按首字母排序）
 
 > 实时追踪具身智能领域的全职/实习/校招岗位。本列表持续更新，旨在连接人才与产业机会。
 
@@ -37,6 +37,10 @@
 | 北京大学计算机学院 | 智能平行技术重点实验室研究人员（具身智能） | 北京 | 全职 | 长期有效 | [投递链接](https://m.fenbi.com) |
 | 北京大学人工智能研究院 | 教学科研岗位（具身智能与机器人方向） | 北京 | 全职 | 长期有效 | [投递链接](https://hr.pku.edu.cn) |
 | 北京大学PrimeBot启元团队 | 核心研发岗位（VLA/深度强化学习/世界模型） | 北京 | 全职 | 长期有效 | [投递链接](https://zhuanlan.zhihu.com) |
+| 比亚迪 | 高级算法工程师（AI运动规划决策方向） | 深圳坪山 | 全职 | 长期有效 | [投递链接](https://www.pingyangrc.com) |
+| | 高级结构工程师 | 深圳 | 全职 | 长期有效 | [投递链接](https://www.yshfssz.com) |
+| | 高级仿真工程师 | 深圳 | 全职 | 长期有效 | [投递链接](https://www.yshfssz.com) |
+| | 高级软件工程师（机器人） | 惠州惠阳 | 全职 | 长期有效 | [投递链接](https://www.sthjrc.com) |
 | 博银合创 | 机器人感知算法工程师 | 上海 | 全职 | 长期有效 | [投递链接](https://m.yingjiesheng.com) |
 | 大疆创新 | 机器人算法工程师（规控方向） | 深圳 | 全职 | 长期有效 | [投递链接](https://we.dji.com/zh-CN/campus) |
 | | 中/高级计算机视觉算法工程师（多模态大模型） | 深圳 | 全职 | 长期有效 | [投递链接](https://we.dji.com/zh-CN/campus) |
@@ -80,6 +84,7 @@
 | | 具身智能算法助理工程师 | 安徽 | 校招 | 长期有效 | [投递链接](https://job.bit.edu.cn) |
 | | 机器学习助理工程师（VLM/VLA/E2E） | 安徽 | 校招 | 长期有效 | [投递链接](https://job.bit.edu.cn) |
 | | 算法助理工程师（感知/规控） | 安徽 | 校招 | 长期有效 | [投递链接](https://job.bit.edu.cn) |
+| 米哈游 | 大规模实习生计划 | 上海/全国 | 实习 | 长期有效 | [投递链接](https://campus.mihoyo.com) |
 | 诺亦腾机器人 | 算法工程师（VLM/VLA/RL/仿真/部署） | 深圳 | 全职 | 长期有效 | [投递链接](https://www.noitom.com.cn/join-us.html) |
 | 普渡机器人 | 端到端模型/机器人感知/软件/硬件/海外销售 | 深圳/成都 | 校招 | 招满即止 | [投递链接](https://pudutech.zhiye.com/campus) |
 | | 端到端模型算法工程师 | 深圳/成都 | 校招 | 招满即止 | [投递链接](https://pudutech.zhiye.com/campus) |
@@ -97,10 +102,10 @@
 | 清华大学智能产业研究院 | 智能机器人方向副研究员 | 北京 | 全职 | 长期有效 | [投递链接](https://www.gaoxiaojob.com) |
 | 清华珠三角研究院 | 具身智能交互研究员 | 广州 | 全职 | 长期有效 | [投递链接](https://www.tsinghua-gd.org) |
 | 清华大学深圳国际研究生院 | 工业具身智能机器人联合研究中心专任助理研究员 | 深圳 | 全职 | 长期有效 | [投递链接](https://www.gaoxiaojob.com) |
+| 荣耀 | 机器人软件系统开发工程师 | 北京 | 实习 | 招满即止 | [投递链接](https://www.hihonor.com/cn/career/) |
 | 日冕机器人 | 具身智能精细操作（灵巧手运控）实习生 | 北京 | 实习 | 长期有效 | [投递链接](https://www.shixiseng.com) |
 | | 具身智能精细操作（真机强化学习）实习生 | 北京 | 实习 | 长期有效 | [投递链接](https://www.shixiseng.com) |
 | | 具身智能精细操作（预训练模型）实习生 | 北京 | 实习 | 长期有效 | [投递链接](https://www.shixiseng.com) |
-| 荣耀 | 机器人软件系统开发工程师 | 北京 | 实习 | 招满即止 | [投递链接](https://www.hihonor.com/cn/career/) |
 | 上海交通大学 | 机械工程人员（智能机器人和机器视觉实验室） | 上海 | 全职 | 长期有效 | [投递链接](https://www.fenbi.com) |
 | 上海人工智能实验室 | 机器人操作算法工程师-具身智能中心 | 上海 | 校招 | 长期有效 | [投递链接](https://mnowpick.nowcoder.com/m/detail/index?jobId=409162) |
 | | 具身智能操作算法工程师 | 上海 | 全职 | 长期有效 | [投递链接](https://www.shlab.org.cn) |
@@ -130,9 +135,19 @@
 | | 机器人方向技术研究 | 深圳 | 校招 | 长期有效 | [投递链接](https://careers.tencent.com/search.html) |
 | 拓斯达 | 具身智能算法/机器人控制/视觉算法工程师 | 东莞 | 全职 | 长期有效 | [投递链接](https://www.topstarltd.com/careers) |
 | 同济大学医疗机器人实验室 | 博士后（具身智能医疗机器人） | 上海 | 全职 | 长期有效 | [投递链接](https://www.gccrcw.com) |
-| 武汉华威科智能 | 具身智能算法工程师（触觉感知/机械臂抓取） | 武汉 | 全职 | 长期有效 | [投递链接](https://m.yingjiesheng.com) |
+| 它石智航 | 2026校招-具身VLA算法工程师 | 上海 | 校招 | 长期有效 | [投递链接](https://tarsrobot.jobs.feishu.cn/021343/position/7533538716535539978/detail) |
+| | 2026校招-具身智能算法专家 | 上海 | 校招 | 长期有效 | [投递链接](https://tarsrobot.jobs.feishu.cn/021343/m/position/7561434305701349670/detail) |
+| | 机器人算法工程师-强化学习 | 上海 | 校招 | 长期有效 | [投递链接](https://tarsrobot.jobs.feishu.cn/021343/) |
+| | 机器人算法工程师-规划控制 | 上海 | 校招 | 长期有效 | [投递链接](https://tarsrobot.jobs.feishu.cn/021343/) |
+| | 机器人算法工程师-运动控制 | 上海 | 校招 | 长期有效 | [投递链接](https://tarsrobot.jobs.feishu.cn/021343/) |
+| | 机器人多模态感知算法工程师 | 上海 | 校招 | 长期有效 | [投递链接](https://tarsrobot.jobs.feishu.cn/021343/) |
+| | 机器人SLAM算法工程师 | 上海 | 校招 | 长期有效 | [投递链接](https://tarsrobot.jobs.feishu.cn/021343/) |
+| 它石智航（TARS） | 机器人算法工程师 | 上海 | 校招 | 招满即止 | [投递链接](https://ex.chinadaily.com.cn) |
+| | 机械设计工程师 | 上海 | 校招 | 招满即止 | [投递链接](https://ex.chinadaily.com.cn) |
+| | 电子硬件工程师 | 上海 | 校招 | 招满即止 | [投递链接](https://ex.chinadaily.com.cn) |
 | 维他动力 | VLA算法实习生 | 北京 | 实习 | 长期有效 | [投递链接](https://www.shixiseng.com) |
 | | 具身智能算法工程师（四足机器人） | 北京 | 实习 | 长期有效 | [投递链接](https://www.shixiseng.com) |
+| 武汉华威科智能 | 具身智能算法工程师（触觉感知/机械臂抓取） | 武汉 | 全职 | 长期有效 | [投递链接](https://m.yingjiesheng.com) |
 | 小米机器人实验室 | 小米汽车-具身算法工程师/专家 | 北京 | 全职 | 长期有效 | [投递链接](https://m.liepin.com/job/1980658991.shtml) |
 | | 自动驾驶与机器人具身智能算法研究员 | 北京 | 全职 | 长期有效 | [投递链接](https://m.zhipin.com/job_detail/5d4d4d618ee2c99403Fz2d27FVFS.html) |
 | | 机器人可靠性仿真工程师 | 北京通州 | 全职 | 长期有效 | [投递链接](https://xiaomi.jobs.f.mioffice.cn/index) |
@@ -192,6 +207,7 @@
 | 浙江大学宁波国际科创中心 | 具身模型工程师（大模型方向） | 宁波 | 全职 | 长期有效 | [投递链接](https://nb.zju.edu.cn) |
 | | 机器人系统工程师（机器人方向） | 宁波 | 全职 | 长期有效 | [投递链接](https://nb.zju.edu.cn) |
 | 浙江大学机器人研究院 | 具身智能算法/深度强化学习/大模型开发工程师 | 杭州 | 校招 | 长期有效 | [投递链接](https://job.hust.edu.cn) |
+| 浙江凯乐士科技 | 具身智能机器人工程师（VLA/物流分拣） | 浙江 | 全职 | 长期有效 | [投递链接](https://www.yingjiesheng.com) |
 | 知象光电 | 机器人控制算法工程师 | 西安 | 全职 | 长期有效 | [投递链接](https://jczx.nwu.edu.cn) |
 | | SLAM算法工程师 | 西安 | 全职 | 长期有效 | [投递链接](https://jczx.nwu.edu.cn) |
 | | AI算法工程师 | 西安 | 全职 | 长期有效 | [投递链接](https://jczx.nwu.edu.cn) |
@@ -217,20 +233,6 @@
 | 中国科学院自动化研究所 | 博弈智能决策助理研究员/博士后 | 北京 | 全职 | 长期有效 | [投递链接](https://www.crise.ia.ac.cn) |
 | | 深度学习与认知机理研发工程师/助理研究员/博士后 | 北京 | 全职 | 长期有效 | [投递链接](https://www.crise.ia.ac.cn) |
 | | 博士后（计算机视觉/NLP/多智能体） | 北京 | 全职 | 长期有效 | [投递链接](https://www.crise.ia.ac.cn) |
-| 它石智航 | 2026校招-具身VLA算法工程师 | 上海 | 校招 | 长期有效 | [投递链接](https://tarsrobot.jobs.feishu.cn/021343/position/7533538716535539978/detail) |
-| | 2026校招-具身智能算法专家 | 上海 | 校招 | 长期有效 | [投递链接](https://tarsrobot.jobs.feishu.cn/021343/m/position/7561434305701349670/detail) |
-| | 机器人算法工程师-强化学习 | 上海 | 校招 | 长期有效 | [投递链接](https://tarsrobot.jobs.feishu.cn/021343/) |
-| | 机器人算法工程师-规划控制 | 上海 | 校招 | 长期有效 | [投递链接](https://tarsrobot.jobs.feishu.cn/021343/) |
-| | 机器人算法工程师-运动控制 | 上海 | 校招 | 长期有效 | [投递链接](https://tarsrobot.jobs.feishu.cn/021343/) |
-| | 机器人多模态感知算法工程师 | 上海 | 校招 | 长期有效 | [投递链接](https://tarsrobot.jobs.feishu.cn/021343/) |
-| | 机器人SLAM算法工程师 | 上海 | 校招 | 长期有效 | [投递链接](https://tarsrobot.jobs.feishu.cn/021343/) |
-| 它石智航（TARS） | 机器人算法工程师 | 上海 | 校招 | 招满即止 | [投递链接](https://ex.chinadaily.com.cn) |
-| | 机械设计工程师 | 上海 | 校招 | 招满即止 | [投递链接](https://ex.chinadaily.com.cn) |
-| | 电子硬件工程师 | 上海 | 校招 | 招满即止 | [投递链接](https://ex.chinadaily.com.cn) |
-| 比亚迪 | 高级算法工程师（AI运动规划决策方向） | 深圳坪山 | 全职 | 长期有效 | [投递链接](https://www.pingyangrc.com) |
-| | 高级结构工程师 | 深圳 | 全职 | 长期有效 | [投递链接](https://www.yshfssz.com) |
-| | 高级仿真工程师 | 深圳 | 全职 | 长期有效 | [投递链接](https://www.yshfssz.com) |
-| | 高级软件工程师（机器人） | 惠州惠阳 | 全职 | 长期有效 | [投递链接](https://www.sthjrc.com) |
 | 字节跳动 | 具身智能研发工程师-火山引擎 | 上海 | 校招 | 长期有效 | [投递链接](https://jobs.bytedance.com/campus) |
 | | 具身智能算法研究员-Seed | 北京/上海/深圳 | 全职 | 长期有效 | [投递链接](https://www.liepin.com) |
 | | 具身智能方向操作算法资深专家 | 北京/上海/深圳 | 全职 | 长期有效 | [投递链接](https://jobs.bytedance.com) |
@@ -238,8 +240,6 @@
 | 字节跳动（火山引擎/Seed团队） | 具身智能研发专家-火山引擎 | 北京 | 全职 | 长期有效 | [投递链接](https://m.liepin.com/job/1981089451.shtml) |
 | | 具身多模态交互算法专家-火山引擎 | 北京 | 全职 | 长期有效 | [投递链接](https://m.liepin.com/job/1981046061.shtml) |
 | | 机器人多模态大模型算法实习生-Seed | 北京 | 实习 | 长期有效 | [投递链接](https://jobs.bytedance.com/campus/m/position/detail/7426651188500252979) |
-| 米哈游 | 大规模实习生计划 | 上海/全国 | 实习 | 长期有效 | [投递链接](https://campus.mihoyo.com) |
-| 浙江凯乐士科技 | 具身智能机器人工程师（VLA/物流分拣） | 浙江 | 全职 | 长期有效 | [投递链接](https://www.yingjiesheng.com) |
 | 逐际动力 | 具身大模型算法工程师 | 北京 | 全职 | 长期有效 | [投递链接](https://career.limxdynamics.com/index/m/position/detail/7480448769344866569) |
 | | 具身智能VLA算法工程师 | 深圳 | 全职 | 长期有效 | [投递链接](https://m.jobui.com/company/17805067/jobs/) |
 | | 人形机器人智能体算法工程师 | 深圳 | 全职 | 长期有效 | [投递链接](https://career.limxdynamics.com/index) |
