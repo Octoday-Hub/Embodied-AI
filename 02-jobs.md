@@ -257,124 +257,107 @@
 | 公司/机构 | 岗位 | 地点 | 类型 | 有效期 | 投递链接 |
 |:---|:---|:---|:---|:---|:---|
 | 1X Technologies | Manufacturing Engineer | Hayward, CA | 社招 | 长期有效 | [投递链接](https://www.1x.tech/open-positions/manufacturing-engineer-us) |
-| | Robotics Engineer (All Levels) | Various | 社招 | 长期有效 | [投递链接](https://www.1x.tech/careers) |
-| | Software Engineer | Various | 社招 | 长期有效 | [投递链接](https://www.1x.tech/careers) |
-| | Hardware Engineer | Hayward, CA | 社招 | 长期有效 | [投递链接](https://www.1x.tech/careers) |
-| Agility Robotics | Robotics Engineer | Pittsburgh, PA | 社招 | 长期有效 | [投递链接](https://www.agilityrobotics.com/careers) |
-| | Software Engineer | Pittsburgh, PA | 社招 | 长期有效 | [投递链接](https://www.agilityrobotics.com/careers) |
-| | Mechanical Engineer | Pittsburgh, PA | 社招 | 长期有效 | [投递链接](https://www.agilityrobotics.com/careers) |
-| | Research Scientist | Pittsburgh, PA | 社招 | 长期有效 | [投递链接](https://www.agilityrobotics.com/careers) |
-| AIM Intelligent Machines | Embodied AI Engineer - Controls | Seattle, WA, USA | Full-time | 长期有效 | [投递链接](https://jobs.khoslaventures.com/companies/aim-intelligent-machines-2/jobs/70106674-embodied-ai-engineer-controls) |
-| | Perception and SLAM ML Engineer | Seattle, WA, USA | Full-time | 长期有效 | [投递链接](https://jobs.khoslaventures.com/companies/aim-intelligent-machines-2/jobs/70106681-perception-and-slam-machine-learning-engineer) |
-| Amazon Frontier AI & Robotics | Applied Scientist, Frontier AI & Robotics | San Francisco, CA | 社招 | 长期有效 | [投递链接](https://www.amazon.science/careers) |
-| Amazon Industrial Robotics | Applied Scientist II Intern / Co-op 2026 | USA | Internship | 2026年夏季 | [投递链接](https://seeker.worksourcewa.com) |
+| | AI Research Engineer - Scaling | San Carlos, CA | 社招 | 长期有效 | [投递链接](https://www.1x.tech/careers) |
+| | AI Research Engineer - World Models | San Carlos, CA | 社招 | 长期有效 | [投递链接](https://www.1x.tech/careers) |
+| | AI Research Engineer - Reinforcement Learning | San Carlos, CA | 社招 | 长期有效 | [投递链接](https://www.1x.tech/careers) |
+| | Hardware Systems Research Engineer | San Carlos, CA | 社招 | 长期有效 | [投递链接](https://www.1x.tech/careers) |
+| | Biomechanics Researcher | San Carlos, CA | 社招 | 长期有效 | [投递链接](https://www.1x.tech/careers) |
+| | Mechanical Engineer - Actuators | San Carlos, CA | 社招 | 长期有效 | [投递链接](https://www.1x.tech/careers) |
+| | Motor Control Engineer - Robotic Actuators | San Carlos, CA | 社招 | 长期有效 | [投递链接](https://www.1x.tech/careers) |
+| | Software Engineer - Simulation | San Carlos, CA | 社招 | 长期有效 | [投递链接](https://www.1x.tech/careers) |
+| | Tactile Sensing Research Engineer | San Carlos, CA | 社招 | 长期有效 | [投递链接](https://www.1x.tech/careers) |
+| | Staff Autonomy Safety Engineer | San Carlos, CA | 社招 | 长期有效 | [投递链接](https://www.1x.tech/careers) |
+| | Senior Mechanical Engineer | San Carlos, CA | 社招 | 长期有效 | [投递链接](https://www.1x.tech/careers) |
+| AIM Intelligent Machines | Embodied AI Engineer - Controls | Seattle, WA, USA | 社招 | 长期有效 | [投递链接](https://jobs.khoslaventures.com/companies/aim-intelligent-machines-2/jobs/70106674-embodied-ai-engineer-controls) |
+| | Perception and SLAM ML Engineer | Seattle, WA, USA | 社招 | 长期有效 | [投递链接](https://jobs.khoslaventures.com/companies/aim-intelligent-machines-2/jobs/70106681-perception-and-slam-machine-learning-engineer) |
+| Amazon Frontier AI & Robotics | Sr. Applied Scientist, FAR | San Francisco, CA | 社招 | 长期有效 | [投递链接](https://seeker.worksourcewa.com) |
+| | Applied Science Internship - PhD Student | Seattle, WA | 实习 | 2026年夏季 | [投递链接](https://www.amazon.jobs) |
+| Amazon Industrial Robotics | Applied Scientist II Intern / Co-op 2026 | USA | 实习 | 2026年夏季 | [投递链接](https://seeker.worksourcewa.com) |
 | Amazon Robotics | Applied Scientist - ML and Robotics | North Reading, MA | 社招 | 长期有效 | [投递链接](https://www.amazon.jobs/en/teams/amazon-robotics) |
 | | Applied Scientist, SLAM | North Reading, MA | 社招 | 长期有效 | [投递链接](https://www.amazon.jobs/en/teams/amazon-robotics) |
 | | Sr. Software Engineer, Mobile Manipulation Robotics | North Reading, MA | 社招 | 长期有效 | [投递链接](https://www.amazon.jobs/en/teams/amazon-robotics) |
 | | 2026 Robotics Systems Engineer Intern | North Reading, MA | 实习 | 长期有效 | [投递链接](https://www.amazon.jobs/en/teams/amazon-robotics) |
 | | Personal Robotics Group Research Intern | Sunnyvale, CA | 实习 | 长期有效 | [投递链接](https://www.amazon.jobs/en/search) |
-| Apptronik | Senior Autonomy Software Engineer | Austin, TX, USA | Full-time | 长期有效 | [投递链接](https://www.apptronik.com/careers) |
-| | Principal Software Engineer - AI and Simulation | Sunnyvale, CA, USA | Full-time | 长期有效 | [投递链接](https://jobs.gritventures.com/companies/apptronik/jobs/73731703-principal-software-engineer-ai-and-simulation) |
-| | Senior Mechanical Engineer, Actuation | Austin, TX | 社招 | 长期有效 | [投递链接](https://jobs.capitalfactory.com/companies/apptronik/jobs/63799025-senior-mechanical-engineer-actuation) |
-| | Integration Engineer - Connect | Austin, TX | 社招 | 长期有效 | [投递链接](https://www.builtinaustin.com/job/integration-engineer-connect/8476881) |
+| Apptronik | Principal Software Engineer - AI and Simulation | Sunnyvale, CA, USA | 社招 | 长期有效 | [投递链接](https://jobs.gritventures.com/companies/apptronik/jobs/73731703-principal-software-engineer-ai-and-simulation) |
+| | Senior Mechanical Engineer, Actuation | Austin, TX, USA | 社招 | 长期有效 | [投递链接](https://jobs.capitalfactory.com/companies/apptronik/jobs/63799025-senior-mechanical-engineer-actuation) |
 | | Reinforcement Learning Engineer | Austin, TX | 社招 | 长期有效 | [投递链接](https://app.otta.com/companies/Apptronik) |
 | | Senior Robotics Software & Integration Engineer | Austin, TX | 社招 | 长期有效 | [投递链接](https://app.otta.com/companies/Apptronik) |
-| | Motion Control and Planning Intern | Austin, TX, USA | Internship | 2026年夏季 | [投递链接](https://jobs.gritventures.com/companies/apptronik/jobs/71302488-motion-control-and-planning-intern) |
-| Aurora | Software Engineer, Functional Architecture | Pittsburgh, PA | 社招 | 长期有效 | [投递链接](https://aurora.tech/careers/8192053002) |
-| | Senior/Staff Software Engineer, Onboard Infrastructure | Mountain View, CA | 社招 | 长期有效 | [投递链接](https://aurora.tech/careers/) |
-| | Machine Learning Research Scientist | Pittsburgh, CA | 社招 | 长期有效 | [投递链接](https://aurora.tech/careers/) |
-| Bell Labs | Robotics Intern | Murray Hill, NJ, USA | Internship | 2026年夏季 | [投递链接](https://careercenter.cpp.edu) |
-| Berkeley AI Research (BAIR) | Postdoctoral Researcher - Robotics/RL | Berkeley, CA | 博后 | 长期有效 | [投递链接](https://bair.berkeley.edu/jobs/) |
-| | PhD Positions in Robotics | Berkeley, CA | 博士 | 长期有效 | [投递链接](https://bair.berkeley.edu/admissions/) |
-| | Research Assistant | Berkeley, CA | 研究岗 | 长期有效 | [投递链接](https://bair.berkeley.edu/jobs/) |
-| Boston Dynamics | Controls Engineer | Waltham, MA, USA | Full-time | 长期有效 | [投递链接](https://www.bostondynamics.com/careers) |
-| | Staff Machine Learning Engineer, Spot Autonomy | Waltham, MA | 社招 | 长期有效 | [投递链接](https://www.bostondynamics.com/careers) |
-| | AI Research Scientist, Large Scale Behavior Cloning | Southampton, UK | 社招 | 长期有效 | [投递链接](https://www.bostondynamics.com/careers) |
-| | Principal AI Engineer - Stretch Grasping Intelligence | Waltham, MA | 社招 | 长期有效 | [投递链接](https://www.bostondynamics.com/careers) |
-| | Simulation Technical Lead | Waltham, MA | 社招 | 长期有效 | [投递链接](https://www.bostondynamics.com/careers) |
-| | Senior Firmware Engineer | Waltham, MA | 社招 | 长期有效 | [投递链接](https://www.bostondynamics.com/careers) |
-| | Robotics Software Engineering Development Program | Waltham, MA | 校招 | 长期有效 | [投递链接](https://www.bostondynamics.com/careers) |
-| | Reinforcement Learning Research Scientist | Waltham, MA | 社招 | 长期有效 | [投递链接](https://www.indeed.com/q-boston-dynamics-l-boston,-ma-jobs.html) |
-| Carnegie Mellon University Robotics Institute | Postdoctoral Associate - Robotics | Pittsburgh, PA | 博后 | 长期有效 | [投递链接](https://www.cmu.edu/jobs/) |
-| | Research Associate I - Robotics Institute | Pittsburgh, PA | 研究岗 | 长期有效 | [投递链接](https://app.joinrise.co/jobs/carnegie-mellon-university-research-associate-i-robotics-institute-rszy) |
-| | Research Assistant - Computer Vision/ML | Pittsburgh, PA | 研究岗 | 长期有效 | [投递链接](https://www.higheredjobs.com/admin/details.cfm?JobCode=179240078) |
-| Cruise | VLM/VLA Research Intern (PhD) | USA | Internship | 2026年夏季 | [投递链接](https://careerhub.sunyempire.edu) |
-| | Senior ML Engineer, Planning | San Francisco, CA | 社招 | 长期有效 | [投递链接](https://getcruise.com/careers/) |
-| | Software Engineer, Motion Planning | San Francisco, CA | 社招 | 长期有效 | [投递链接](https://getcruise.com/careers/) |
-| | Research Scientist, Behavior Prediction | San Francisco, CA | 社招 | 长期有效 | [投递链接](https://getcruise.com/careers/) |
-| | Perception Engineer | San Francisco, CA | 社招 | 长期有效 | [投递链接](https://getcruise.com/careers/) |
-| | Simulation Engineer | San Francisco, CA | 社招 | 长期有效 | [投递链接](https://getcruise.com/careers/) |
-| Diligent Robotics | Software Engineer - Robotic Applications | Austin, TX, USA | Full-time | 长期有效 | [投递链接](https://jobs.capitalfactory.com/companies/diligent-robotics/jobs/71684239-software-engineer-robotic-applications) |
-| ETH Zurich Robotics | PhD Positions in Robotics | Zurich, Switzerland | 博士 | 长期有效 | [投递链接](https://www.ethz.ch/services/en/jobs.html) |
-| | Postdoctoral Researcher | Zurich, Switzerland | 博后 | 长期有效 | [投递链接](https://www.ethz.ch/services/en/jobs.html) |
-| | Research Assistant/PhD | Zurich, Switzerland | 研究岗 | 长期有效 | [投递链接](https://rsl.ethz.ch/) |
-| Field AI | Research Scientist Intern, Embodied AI | Irvine, CA, USA | Internship | 2026年夏季 | [投递链接](https://careercentral.pitt.edu/jobs/fieldai-embodied-ai-intern) |
-| Figure AI | AI Engineer, Post-Training - Helix Team | San Jose, CA | 社招 | 长期有效 | [投递链接](https://boards.greenhouse.io/figureai/jobs/4333395006) |
-| | AI Training Infrastructure Engineer - Helix Team | San Jose, CA | 社招 | 长期有效 | [投递链接](https://boards.greenhouse.io/figureai/jobs/4333395006) |
-| | Perception / Computer Vision Software Engineer | San Jose, CA | 社招 | 长期有效 | [投递链接](https://boards.greenhouse.io/figureai/jobs/4333395006) |
-| | Senior Embedded Software Engineer | San Jose, CA | 社招 | 长期有效 | [投递链接](https://boards.greenhouse.io/figureai/jobs/4333395006) |
-| | Mechanical Engineer - All Levels | San Jose, CA | 社招 | 长期有效 | [投递链接](https://boards.greenhouse.io/figureai/jobs/4333395006) |
-| | Manufacturing Engineer Intern | San Jose, CA | 实习 | 长期有效 | [投递链接](https://boards.greenhouse.io/figureai/jobs/4333395006) |
-| | Embedded Software Intern [Summer 2026] | San Jose, CA | 实习 | 长期有效 | [投递链接](https://boards.greenhouse.io/figureai/jobs/4333395006) |
-| Formic | Embodied AI / Simulation Engineer | San Francisco/Oakland, CA, USA | Full-time | 长期有效 | [投递链接](https://jobs.luxcapital.com/companies/formic/jobs/67900487-embodied-ai-simulation-engineer) |
-| General Motors Cruise | Distinguished Engineer, Trajectory Generation | Los Angeles, CA | 社招 | 长期有效 | [投递链接](https://careers.gm.com/) |
-| | Senior Controls Engineer, Robotics | Warren, MI | 社招 | 长期有效 | [投递链接](https://careers.gm.com/) |
-| | Program Management Engineer - Robotics | Warren, MI | 社招 | 长期有效 | [投递链接](https://careers.gm.com/) |
-| | Robotics Integration Engineer | Warren, MI | 社招 | 长期有效 | [投递链接](https://careers.gm.com/) |
-| Google DeepMind | Systems Integration Architect, Gemini Robotics | Mountain View, CA | 社招 | 长期有效 | [投递链接](https://job-boards.greenhouse.io/deepmind/jobs/7324924) |
-| | Research Engineer, Robotics | London, UK | 社招 | 长期有效 | [投递链接](https://job-boards.greenhouse.io/deepmind/jobs/6864283) |
-| | Research Scientist, Robotics | Mountain View, CA | 社招 | 长期有效 | [投递链接](https://careers.google.com/jobs/results) |
-| | Director of Product Management, Robotics | Mountain View, CA | 社招 | 长期有效 | [投递链接](https://deepmind.google/about/careers/) |
-| | Software Engineer - Data Engineering, Robotics | Mountain View, CA | 社招 | 长期有效 | [投递链接](https://deepmind.google/about/careers/) |
-| Google DeepMind (Robotics) | Research Scientist, Embodied AI | London, UK | Full-time | 长期有效 | [投递链接](https://careers.google.com/) |
-| Grit Ventures | Reinforcement Learning Intern | USA | Internship | 2026年夏季 | [投递链接](https://jobs.gritventures.com) |
-| HTX (Singapore) | Engineer / Lead Engineer - Embodied AI R&D | Singapore | Full-time | 长期有效 | [投递链接](https://www.careers.gov.sg/) |
-| Iconic.AI | AI Research Scientist (Expressive Embodiment) | London, UK | Full-time | 长期有效 | [投递链接](https://www.iconic.ai/jobs) |
-| Meta (Reality Labs) | Research Scientist - World Models & Embodied AI | London, UK | Full-time | 长期有效 | [投递链接](https://www.metacareers.com/jobs/) |
-| Meta FAIR | AI Research Scientist, Embodied AI / Robotics | Menlo Park, CA | 社招 | 长期有效 | [投递链接](https://facebookcareers.com/v2/jobs/1093551845379852/) |
-| | Research Engineer (Robotics) - World Modelling, FAIR | Seattle, NY | 社招 | 长期有效 | [投递链接](https://www.jointaro.com/jobs/meta/research-engineer-robotics-world-modelling-fair/) |
-| | Research Engineer: Meta Robotics Studio | Redmond, WA | 社招 | 长期有效 | [投递链接](https://jobs.accel.com/companies/facebook-2-07d2eb1b-d3ad-4084-93df-74a124ac9233/jobs/60371440-research-engineer-meta-robotics-studio) |
-| Nuro | Machine Learning Research Scientist, Behavior Planning | Mountain View, CA | 社招 | 长期有效 | [投递链接](https://www.nuro.ai/careers) |
-| | Senior/Staff ML Research Scientist | Mountain View, CA | 社招 | 长期有效 | [投递链接](https://www.karkidi.com/Employer-Profile/5294-nuro-jobs) |
-| | Software Engineer, ML Infrastructure | Mountain View, CA | 社招 | 长期有效 | [投递链接](https://www.indeed.com/q-nuro-l-fremont,-ca-jobs.html) |
-| | ML Research Scientist, Generative Modeling | Mountain View, CA | 社招 | 长期有效 | [投递链接](https://www.nuro.ai/careers) |
-| NVIDIA | Software Engineer, Robotics - Isaac Lab | Santa Clara, CA | 社招 | 长期有效 | [投递链接](https://www.uoffer.com/jobs-search/1920707434) |
-| | Senior Software Engineer - Robotics Application | Santa Clara, CA | 社招 | 长期有效 | [投递链接](https://www.jointaro.com/jobs/nvidia/senior-software-engineer-robotics-application/) |
-| | System Software Engineer - AI and Robotics | Santa Clara, CA | 社招 | 长期有效 | [投递链接](https://jobs.anitab.org/companies/nvidia/jobs/63737636-system-software-engineer-ai-and-robotics) |
-| | Robotics Simulation Intern | Santa Clara, CA | 实习 | 长期有效 | [投递链接](https://www.nvidia.com/careers/) |
-| NYU Abu Dhabi (AIR Lab) | Research Engineer - Embodied AI & Robotics | Abu Dhabi, UAE | Full-time | 2026.04.15截止 | [投递链接](http://nyuad.nyu.edu/en/about/careers.html) |
+| | Motion Control and Planning Intern | Austin, TX, USA | 实习 | 2026年夏季 | [投递链接](https://jobs.capitalfactory.com/companies/apptronik/jobs/71302488-motion-control-and-planning-intern) |
+| | Autonomy Software Intern — Humanoid Robotics | Austin, TX | 实习 | 2026年夏季 | [投递链接](https://www.wacorecruiter.com) |
+| Aurora | Software Engineer, Functional Architecture | Pittsburgh, PA | 社招 | 长期有效 | [投递链接](https://www.aurora.tech/careers) |
+| | Senior/Staff Software Engineer, Onboard Infrastructure | Mountain View, CA | 社招 | 长期有效 | [投递链接](https://www.aurora.tech/careers) |
+| | Machine Learning Research Scientist | Pittsburgh, CA | 社招 | 长期有效 | [投递链接](https://www.aurora.tech/careers) |
+| | Software Engineer, Behavior Planning | USA | 社招 | 长期有效 | [投递链接](https://www.postjobfree.com) |
+| | Staff Security Software Engineer | USA | 社招 | 长期有效 | [投递链接](https://simplify.jobs) |
+| Boston Dynamics | Senior Robotics Engineer - Spot Manipulation | Waltham, MA | 社招 | 长期有效 | [投递链接](https://www.adzuna.com) |
+| | Reinforcement Learning Engineer, Spot Behavior | Waltham, MA | 社招 | 长期有效 | [投递链接](https://echojobs.io) |
+| | Senior Staff Robotics Engineer - Localization | Waltham, MA | 社招 | 长期有效 | [投递链接](https://simplify.jobs) |
+| | Research Engineer, Physics Simulation | Waltham, MA | 社招 | 长期有效 | [投递链接](https://echojobs.io) |
+| | Software Engineer in Test - Automation | Waltham, MA | 社招 | 长期有效 | [投递链接](https://www.theladders.com) |
+| | Robotics Software Engineering Development Program | Waltham, MA | 校招 | 2026年夏季 | [投递链接](https://embedded.jobs) |
+| Cruise | VLM/VLA Research Intern (PhD) | USA | 实习 | 2026年夏季 | [投递链接](https://careerhub.sunyempire.edu) |
+| | PhD Intern, AI Research | San Francisco, CA | 实习 | 2026年夏季 | [投递链接](https://www.builtinseattle.com) |
+| Diligent Robotics | Software Engineer - Robotic Applications | Austin, TX, USA | 社招 | 长期有效 | [投递链接](https://jobs.capitalfactory.com/companies/diligent-robotics/jobs/71684239-software-engineer-robotic-applications) |
+| Figure AI | AI Engineer, Post-Training - Helix Team | San Jose, CA | 社招 | 长期有效 | [投递链接](https://job-boards.greenhouse.io/figureai) |
+| | AI Training Infrastructure Engineer - Helix | San Jose, CA | 社招 | 长期有效 | [投递链接](https://job-boards.greenhouse.io/figureai) |
+| | AI Tooling Engineer, Helix | San Jose, CA | 社招 | 长期有效 | [投递链接](https://www.builtinsf.com) |
+| | Embedded Actuation Engineer | San Jose, CA | 社招 | 长期有效 | [投递链接](https://simplify.jobs) |
+| | Firmware Intern [Summer 2026] | San Jose, CA | 实习 | 2026年夏季 | [投递链接](https://www.tealhq.com) |
+| | Manufacturing Data Engineering Intern [Fall 2026] | San Jose, CA | 实习 | 2026年秋季 | [投递链接](https://job-boards.greenhouse.io/figureai) |
+| | Quality Engineering Intern [Summer 2026] | San Jose, CA | 实习 | 2026年夏季 | [投递链接](https://job-boards.greenhouse.io/figureai) |
+| Formic | Embodied AI / Simulation Engineer | San Francisco/Oakland, CA, USA | 社招 | 长期有效 | [投递链接](https://jobs.luxcapital.com/companies/formic/jobs/67900487-embodied-ai-simulation-engineer) |
+| Google DeepMind | Research Scientist, Robotics | Mountain View, CA | 社招 | 长期有效 | [投递链接](https://startup.jobs) |
+| | Research Scientist, Safety and Alignment for Humanoid Robotics | New York, NY | 社招 | 长期有效 | [投递链接](https://startup.jobs) |
+| | Software Engineer, Model Lifecycle Engineering, Robotics | USA | 社招 | 长期有效 | [投递链接](https://jobs.anitab.org) |
+| | Research Engineer, Developer Experience, Gemini Robotics | Mountain View, CA | 社招 | 长期有效 | [投递链接](https://nflpa.nexxt.com) |
+| | Research Scientist, Multisensor Robotics & Dexterity | USA | 社招 | 长期有效 | [投递链接](https://www.moaijobs.com) |
+| | Staff Technical Program Manager, Gemini Robotics | USA | 社招 | 长期有效 | [投递链接](https://www.theladders.com) |
+| Grit Ventures | Reinforcement Learning Intern | USA | 实习 | 2026年夏季 | [投递链接](https://jobs.gritventures.com) |
+| HTX (Singapore) | Engineer / Lead Engineer - Embodied AI R&D | Singapore | 社招 | 长期有效 | [投递链接](https://www.careers.gov.sg) |
+| Iconic.AI | AI Research Scientist (Expressive Embodiment) | London, UK | 社招 | 长期有效 | [投递链接](https://www.iconic.ai) |
+| Meta FAIR | AI Research Scientist, Embodied AI / Robotics | Menlo Park, CA | 社招 | 长期有效 | [投递链接](https://www.metacareers.com) |
+| | Research Scientist, World Models & Embodied AI | London, UK | 社招 | 长期有效 | [投递链接](https://www.glassdoor.co.uk) |
+| | Research Scientist Intern, Efficient World Foundation Models (PhD) | USA | 实习 | 长期有效 | [投递链接](https://www.getclera.com) |
+| Nuro | Senior ML Research Scientist, VLM/VLA | Mountain View, CA | 社招 | 长期有效 | [投递链接](https://ev.careers) |
+| | ML Research Scientist, Prediction & Smart Agents | Mountain View, CA | 社招 | 长期有效 | [投递链接](https://startup.jobs) |
+| | Machine Learning Research Scientist, Behavior Planning | Mountain View, CA | 社招 | 长期有效 | [投递链接](https://www.postjobfree.com) |
+| | Senior Machine Learning Research Scientist | Mountain View, CA | 社招 | 长期有效 | [投递链接](https://echojobs.io) |
+| NVIDIA | Software Engineer, Robotics - Isaac Lab (New College Grad 2026) | Santa Clara, CA | 校招 | 2026年毕业 | [投递链接](https://jobs.anitab.org) |
+| | Software Engineer, Simulation - Robotics | Santa Clara, CA | 社招 | 长期有效 | [投递链接](https://www.tealhq.com) |
+| | Software Engineer, Robotics - Isaac Lab | Santa Clara, CA | 社招 | 长期有效 | [投递链接](https://builtin.com) |
+| | Senior Software Engineer - Robotics | Santa Clara, CA | 社招 | 长期有效 | [投递链接](https://simplify.jobs) |
+| | Software Engineer Intern - Robotics | Santa Clara, CA | 实习 | 2026年夏季 | [投递链接](https://simplify.jobs) |
+| NYU Abu Dhabi (AIR Lab) | Research Engineer - Embodied AI & Robotics | Abu Dhabi, UAE | 社招 | 已截止（原有效期2026.04.15） | [投递链接](http://nyuad.nyu.edu/en/about/careers.html) |
 | OpenAI | Field Engineer (Robotics) | San Francisco, CA | 社招 | 长期有效 | [投递链接](https://startup.jobs/field-engineer-openai-7537303) |
-| | Various Robotics Research Roles | San Francisco, CA | 社招 | 长期有效 | [投递链接](https://openai.com/careers/) |
-| Sanctuary AI | Senior Manager, IT (Robotics/ML Support) | Vancouver, BC | 社招 | 长期有效 | [投递链接](https://www.sanctuary.ai/careers) |
-| | AI/ML Research Engineers | Vancouver, BC | 社招 | 长期有效 | [投递链接](https://www.sanctuary.ai/careers) |
-| | Software Engineers | Vancouver, BC | 社招 | 长期有效 | [投递链接](https://www.sanctuary.ai/careers) |
-| | Junior Roboticist | Vancouver, BC | 社招 | 长期有效 | [投递链接](https://www.sanctuary.ai/careers) |
-| | General Purpose Robot Pilot | Vancouver, BC | 社招 | 长期有效 | [投递链接](https://www.sanctuary.ai/careers) |
+| | Robotics Software Engineer | San Francisco, CA | 社招 | 长期有效 | [投递链接](https://www.resumeandjob.com) |
+| | Simulation Realism Engineer | San Francisco, CA | 社招 | 长期有效 | [投递链接](https://metroatlantajob.com) |
+| | Simulation Environments Engineer | San Francisco, CA | 社招 | 长期有效 | [投递链接](https://bloomingtonjob.com) |
+| | Research Engineer, SLAM & Multi-View Geometry | USA | 社招 | 长期有效 | [投递链接](https://goremotejob.com) |
+| | Mechanical Engineer: Soft Goods Design | San Francisco, CA | 社招 | 长期有效 | [投递链接](https://aijobs.app) |
 | Stanford Robotics Lab | PhD Positions in Robotics | Stanford, CA | 博士 | 长期有效 | [投递链接](https://cs.stanford.edu/admissions/phd) |
-| | Postdoctoral Researcher | Stanford, CA | 博后 | 长期有效 | [投递链接](https://irvl.studio/) |
-| | Research Assistant | Stanford, CA | 研究岗 | 长期有效 | [投递链接](https://irvl.studio/) |
-| Tactus | Embodied AI Intern (Summer 2026) | Irvine, CA, USA | Internship | 2026年夏季 | [投递链接](https://career.calvin.edu) |
-| Tesla (Tesla Bot) | Software Engineer, Robotics AI | Palo Alto, CA, USA | Full-time | 长期有效 | [投递链接](https://www.tesla.com/careers/search/) |
-| Tesla Optimus | Deep Learning Manipulation Engineer, Optimus | Palo Alto, CA | 社招 | 长期有效 | [投递链接](https://www.tesla.com/careers/search/?query=Optimus) |
-| | Reinforcement Learning Engineer, Optimus | Palo Alto, CA | 社招 | 长期有效 | [投递链接](https://www.tesla.com/careers/search/?query=Optimus) |
-| | Electromechanical Product Design Engineer, Optimus | Palo Alto, CA | 社招 | 长期有效 | [投递链接](https://www.tesla.com/careers/search/?query=Optimus) |
-| | Machine Learning Engineer, Reinforcement Learning | Palo Alto, CA | 社招 | 长期有效 | [投递链接](https://www.tesla.com/careers/search/?query=robotics) |
-| Toyota Research Institute | Research Scientist/Engineer, Mobile Manipulation | Los Altos, CA | 社招 | 长期有效 | [投递链接](https://jobs.lever.co/tri) |
-| | Platform Robotics Engineer, Large Behavior Models | Los Altos, CA | 社招 | 长期有效 | [投递链接](https://www.jointaro.com/jobs/toyota-research-institute/platform-robotics-engineer-large-behavior-models/) |
-| | Research Scientist - Robotics, Learning From Videos | Los Altos, CA | 社招 | 长期有效 | [投递链接](https://startup.jobs/research-scientist-robotics-learning-from-videos-lfv-toyotaresearch-7525352) |
-| | Senior Robotics Engineer | Los Altos, CA | 社招 | 长期有效 | [投递链接](https://jobs.lever.co/tri) |
-| | Implementation Engineer - Computer Vision | Los Altos, CA | 社招 | 长期有效 | [投递链接](https://jobs.lever.co/tri) |
-| Waymo | Senior Software Engineer, Robotics | San Francisco/Mountain View, CA | 社招 | 长期有效 | [投递链接](https://careersinrobotics.com/organizations/waymo) |
-| | Machine Learning Engineer, Prediction & Planning | San Francisco/Mountain View, CA | 社招 | 长期有效 | [投递链接](https://careers.withwaymo.com/homepage) |
-| | Research Scientist, Perception Foundation Model | Mountain View, CA | 社招 | 长期有效 | [投递链接](https://careers.withwaymo.com/research) |
-| | 2026 PhD Intern, ML Engineer Simulation | Mountain View, CA | 实习 | 长期有效 | [投递链接](https://careers.withwaymo.com/research) |
-| | Software Engineer, Embedded Systems/Robotics | Mountain View, CA | 社招 | 长期有效 | [投递链接](https://startup.jobs/software-engineer-embedded-systems-robotics-waymo-7535446) |
-| Wayve | Applied Scientist - Embodied AI | London, UK | 社招 | 长期有效 | [投递链接](https://wayve.ai/careers/join-us/) |
-| | Machine Learning Engineer, Simulation | Sunnyvale, CA | 社招 | 长期有效 | [投递链接](https://wayve.ai/careers/join-us/) |
-| | Research Scientist Intern, Embodied Foundation Models | Sunnyvale, CA | 实习 | 长期有效 | [投递链接](https://wayve.ai/careers/join-us/) |
-| | Staff Machine Learning Engineer, AI Evaluation | London, UK | 社招 | 长期有效 | [投递链接](https://wayve.ai/careers/join-us/) |
-| | Senior ML Engineer, Scaling World Models | London, UK | 社招 | 长期有效 | [投递链接](https://wayve.ai/careers/join-us/) |
-| | Research Scientist Intern, World Modelling | London, UK | 实习 | 长期有效 | [投递链接](https://wayve.ai/careers/join-us/) |
+| | Postdoctoral Fellow - SAIL | Stanford, CA | 博后 | 2026年9月 | [投递链接](https://ai.stanford.edu) |
+| | Postdoctoral Researcher - Robotics | Stanford, CA | 博后 | 长期有效 | [投递链接](https://swap.stanford.edu) |
+| Tactus | Embodied AI Intern (Summer 2026) | Irvine, CA, USA | 实习 | 2026年夏季 | [投递链接](https://career.calvin.edu) |
+| Tesla (Tesla Bot) | Software Engineer, Robotics AI | Palo Alto, CA, USA | 社招 | 长期有效 | [投递链接](https://www.tesla.com/careers) |
+| Tesla Optimus | Reinforcement Learning Engineer, Whole Body Controls | Palo Alto, CA | 社招 | 长期有效 | [投递链接](https://media.localjobnetwork.com) |
+| | Internship, Reinforcement Learning Engineer (Summer 2026) | Palo Alto, CA | 实习 | 2026年夏季 | [投递链接](https://www.glassdoor.ca) |
+| | AI Engineer, Manipulation, Optimus | Palo Alto, CA | 社招 | 长期有效 | [投递链接](https://diversityjobs.com) |
+| | ML Infrastructure Simulation Engineer, Optimus | Palo Alto, CA | 社招 | 长期有效 | [投递链接](https://www.glassdoor.co.in) |
+| | Reinforcement Learning Engineer, Policy, Optimus | Palo Alto, CA | 社招 | 长期有效 | [投递链接](https://secure.localjobnetwork.com) |
+| | AI Engineer, Vision & Foundation Models, Optimus | Palo Alto, CA | 社招 | 长期有效 | [投递链接](https://www.postjobfree.com) |
+| Toyota Research Institute | Robotics Intern - Mobile Manipulation, Perception | Los Altos, CA | 实习 | 2026年夏季 | [投递链接](https://jobs.lever.co/tri) |
+| | Senior Research Scientist, Large Behavior Models | Los Altos, CA | 社招 | 长期有效 | [投递链接](https://www.nextgenenergyjobs.com) |
+| | Robotics Intern - Mobile Manipulation, Learned Policies | Los Altos, CA | 实习 | 2026年夏季 | [投递链接](https://startup.jobs) |
+| | Research Scientist - Robotics, Learning From Videos | Los Altos, CA | 社招 | 长期有效 | [投递链接](https://startup.jobs) |
+| Waymo | ML Engineer, Perception Foundation Model | Mountain View, CA | 社招 | 长期有效 | [投递链接](https://rhinoconsultingpartners.com) |
+| | Applied Research Scientist – New Grad | Mountain View, CA | 校招 | 长期有效 | [投递链接](https://simplify.jobs) |
+| | 2026 Summer Intern, PhD, Research, Perception Foundation Models | Mountain View, CA | 实习 | 2026年夏季 | [投递链接](https://careers.withwaymo.com) |
+| | Software Engineer, Embedded Systems / Robotics | Mountain View, CA | 社招 | 长期有效 | [投递链接](https://startup.jobs) |
+| Wayve | Applied Scientist, Controllable GAIA | London, UK | 社招 | 长期有效 | [投递链接](https://ev.careers) |
+| | Staff Applied Scientist | London, UK | 社招 | 长期有效 | [投递链接](https://simplify.jobs) |
+| | Senior Applied Scientist | London, UK | 社招 | 长期有效 | [投递链接](https://simplify.jobs) |
+| | Data Scientist | London, UK | 社招 | 长期有效 | [投递链接](https://www.tealhq.com) |
+| | Research Scientist Intern | London, UK | 实习 | 长期有效 | [投递链接](https://simplify.jobs) |
 
 ### 🌟 专项人才与顶尖计划
 
