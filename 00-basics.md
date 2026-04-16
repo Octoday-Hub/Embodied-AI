@@ -49,32 +49,7 @@
 
 ---
 
-## 📖 核心术语表
 
-理解这些关键词，能帮你更快地阅读论文和交流：
-
-| 术语 | 定义 |
-| :--- | :--- |
-| **具身智能 (Embodied AI / Embodied Intelligence)** | 智能体通过物理身体与环境进行实时交互，从而产生智能行为。核心是“身体-环境-大脑”的闭环。 |
-| **Sim2Real (Simulation to Reality)** | 将在仿真环境（如MuJoCo、Isaac Sim）中训练的策略，迁移应用到真实物理世界的过程。核心挑战是“仿真到现实的鸿沟”。 |
-| **Vision-Language-Action Model (VLA)** | 多模态大模型，能够直接接收视觉和语言指令，并输出机器人的底层动作指令。代表工作：Google RT-2、OpenVLA、π0。 |
-| **World Model (世界模型)** | 智能体对环境的内部模拟，能够预测行动的结果。常用于规划、想象与强化学习（如Dreamer系列）。 |
-| **Diffusion Policy (扩散策略)** | 基于扩散模型的机器人动作生成方法，将策略学习建模为条件去噪过程，在灵巧操作等领域表现出色。 |
-| **模仿学习 (Imitation Learning, IL)** | 通过模仿专家示教数据（如人类遥操作）来学习策略。常用方法包括行为克隆（Behavioral Cloning）和逆强化学习（IRL）。 |
-| **强化学习 (Reinforcement Learning, RL)** | 智能体通过与环境交互，根据奖励信号学习最大化累积奖励的最优策略。 |
-| **感知-规划-控制 (Perception-Planning-Control, PPC)** | 机器人系统的经典三层架构：感知理解环境，规划决策路径，控制执行动作。 |
-| **场景表示 (Scene Representation)** | 机器人内部对环境的结构化描述，如语义地图、占据栅格（Occupancy Grid）、隐式神经表示（NeRF）、3D高斯泼溅（3DGS）等。 |
-| **操作 (Manipulation)** | 机器人（尤其是机械臂）对物体进行的精细操作，如抓取、放置、组装、拧螺丝等。 |
-| **移动 (Locomotion)** | 机器人在环境中移动自身的方式，如双足行走、四足奔跑、轮式移动、飞行等。 |
-| **仿真环境 (Simulation Environment)** | 用于训练和测试算法的虚拟物理世界。常见平台：MuJoCo、Isaac Sim、PyBullet、SAPIEN、Habitat、Genesis。 |
-| **遥操作 (Teleoperation)** | 人类远程控制机器人完成任务的系统，常用于收集高质量演示数据或执行高风险操作。 |
-| **跨形态迁移 (Cross-Embodiment Transfer)** | 将一个机器人平台（如单臂）上学习的策略迁移到另一个不同形态的机器人（如双臂、人形）上。 |
-| **点云 (Point Cloud)** | 由三维空间中的一组点组成的数据，常来自深度相机或激光雷达，用于环境感知。 |
-| **任务规划 (Task Planning)** | 高层次的任务分解与顺序安排，通常基于符号逻辑或大语言模型推理。 |
-| **技能学习 (Skill Learning)** | 学习可复用的原子动作或技能（如“抓取”、“推动”），以便组合完成复杂任务。 |
-| **数据集与基准 (Dataset & Benchmark)** | 大规模机器人数据（如Open X-Embodiment）和标准化评测任务（如CALVIN、RoboTwin），用于对比算法性能。 |
-
----
 
 ## 🧭 学习路径建议
 
