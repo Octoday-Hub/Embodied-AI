@@ -51,58 +51,6 @@
 
 
 
-## 🧭 学习路径建议
-
-本路径旨在帮助零基础学习者**一步步从理论走向实践**，每阶段都给出了具体可执行的资源。
-
-### 阶段 1：夯实基础（约 4–6 周）
-| 目标 | 具体行动 | 推荐资源 |
-| :--- | :--- | :--- |
-| 建立机器人学常识 | 阅读《机器人学导论》第1–5章，理解运动学与动力学 | 书籍 + [MIT 6.4210 前3节](https://manipulation.mit.edu/) |
-| 掌握深度学习基础 | 完成 MIT 6.S191 的前5节，了解 CNN、RNN、Transformer | [课程链接](http://introtodeeplearning.com/) |
-| 熟悉强化学习概念 | 阅读《强化学习》第1–4章，理解马尔可夫决策过程、蒙特卡洛方法 | 书籍 |
-
-### 阶段 2：核心技能（约 4–6 周）
-| 目标 | 具体行动 | 推荐资源 |
-| :--- | :--- | :--- |
-| 深入学习强化学习 | 学习 CS285 前6讲，掌握 DQN、PPO、SAC 等主流算法 | [课程主页](http://rail.eecs.berkeley.edu/deeprlcourse/) |
-| 掌握概率机器人学 | 阅读《Probabilistic Robotics》第1–5章，理解贝叶斯滤波、卡尔曼滤波 | 书籍 |
-| 动手 ROS 编程 | 完成《ROS for Absolute Beginners》前5章，在 Gazebo 中运行第一个仿真机器人 | 书籍 + [ROS Wiki](http://wiki.ros.org/) |
-
-### 阶段 3：实践仿真（约 3–4 周）
-| 目标 | 具体行动 | 推荐资源 |
-| :--- | :--- | :--- |
-| 选择并学习一个仿真环境 | 从 MuJoCo / Isaac Sim / PyBullet / SAPIEN 中选择一个，完成官方教程 | [MuJoCo 入门](https://mujoco.readthedocs.io/) |
-| 复现经典 RL 论文 | 用所选仿真环境复现 PPO 在 HalfCheetah 或 Ant 上的结果 | [Stable-Baselines3 文档](https://stable-baselines3.readthedocs.io/) |
-| 尝试 Sim2Real 简易实验 | 使用一个开源仿真机器人（如 Unitree Go1 仿真包），尝试策略从仿真迁移到简单任务 | [Unitree 仿真示例](https://github.com/unitreerobotics/unitree_ros) |
-
-### 阶段 4：前沿技术探索（约 4 周）
-| 目标 | 具体行动 | 推荐资源 |
-| :--- | :--- | :--- |
-| 了解 VLA 模型 | 阅读 OpenVLA、RT-2、π0 等论文，理解其架构与训练方法 | [OpenVLA GitHub](https://github.com/openvla/openvla) |
-| 学习扩散策略 | 阅读 Diffusion Policy 论文，尝试在仿真中运行官方代码 | [Diffusion Policy GitHub](https://github.com/real-stanford/diffusion_policy) |
-| 接触世界模型 | 阅读 DreamerV3 论文，理解其在强化学习中的应用 | [DreamerV3 官网](https://danijar.com/dreamerv3/) |
-
-### 阶段 5：动手项目（4 周以上）
-| 目标 | 具体行动 | 推荐资源 |
-| :--- | :--- | :--- |
-| 参与开源项目 | 加入 OpenVLA、LeRobot 等社区，提交 PR 或贡献代码 | [LeRobot GitHub](https://github.com/huggingface/lerobot) |
-| 完成一个端到端项目 | 选择一个任务（如“基于视觉的抓取”），完成数据收集→策略训练→仿真测试→真机尝试（如有条件） | [RoboTwin 平台](https://robotwin-platform.github.io/) |
-| 参加竞赛或挑战赛 | 关注 CoRL 挑战赛、Robot Learning 竞赛等，组队参赛 | [CoRL 2025 竞赛](https://www.corl2025.org/) |
-
-### 阶段 6：保持前沿追踪（持续）
-| 目标 | 具体行动 | 推荐资源 |
-| :--- | :--- | :--- |
-| 跟踪顶会论文 | 定期浏览 CoRL、RSS、ICRA、IROS、NeurIPS 的论文列表 | [arXiv Robotics](https://arxiv.org/list/cs.RO/recent) |
-| 关注领域专家与博客 | 订阅 Google DeepMind、UC Berkeley RAIL、斯坦福 IRIS 等实验室的更新 | [The Gradient](https://thegradient.pub/) |
-| 参与社区交流 | 加入具身智能相关的微信群、Slack、Discord 社群 | [Lumina 社区](https://github.com/TianxingChen/Embodied-AI-Guide) |
-
-### 阶段 7：进阶深化（可选）
-| 目标 | 具体行动 | 推荐资源 |
-| :--- | :--- | :--- |
-| 深入某一子方向 | 选择“灵巧操作”、“人形机器人控制”、“具身大模型”之一，阅读该方向近3年所有重要论文 | [Awesome-Embodied-AI](https://github.com/yunlongdong/Awesome-Embodied-AI) |
-| 尝试硬件实验 | 采购开源机器人（如 Unitree Go1、TurtleBot4），将仿真策略部署到真实机器人 | [TurtleBot4 官网](https://turtlebot.github.io/) |
-| 撰写论文或技术报告 | 将你的实践或创新点整理成文档，投稿至研讨会或开源社区 | [CoRL Workshop](https://www.corl2025.org/workshops) |
 
 ---
 
