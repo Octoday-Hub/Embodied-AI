@@ -3,7 +3,7 @@
 > 实时追踪具身智能领域的全职/实习/校招岗位。本列表持续更新，旨在连接人才与产业机会。
 
 - [国内机会](https://github.com/Octoday-Robotics/Embodied-AI/blob/main/02-jobs.md#-%E5%9B%BD%E5%86%85%E6%9C%BA%E4%BC%9A--domestic)
-- [海外机会](https://github.com/Octoday-Robotics/Embodied-AI/edit/main/02-jobs.md#-%E6%B5%B7%E5%A4%96%E6%9C%BA%E4%BC%9A--international)
+- [[海外机会](https://github.com/Octoday-Robotics/Embodied-AI/blob/main/02-jobs.md#-%E6%B5%B7%E5%A4%96%E6%9C%BA%E4%BC%9A--international)
 - [专项人才与顶尖计划](https://github.com/Octoday-Robotics/Embodied-AI/edit/main/02-jobs.md#-%E4%B8%93%E9%A1%B9%E4%BA%BA%E6%89%8D%E4%B8%8E%E9%A1%B6%E5%B0%96%E8%AE%A1%E5%88%92)
 
 ## 🎯 HR / 招聘方专属通道
