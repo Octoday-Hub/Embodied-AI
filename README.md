@@ -59,7 +59,7 @@
 
 ### 🔗 2.3 连接：洞察产业动态
 
-翻阅 **[公司列表](docs/01-companies.md)** 与 **[招聘信息](docs/02-jobs.md)**：
+翻阅 **[公司列表](https://github.com/Octoday-Robotics/Embodied-AI/blob/main/01-companies.md#-%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E5%85%AC%E5%8F%B8%E5%88%97%E8%A1%A8%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E6%8E%92%E5%BA%8F)** 与 **[招聘信息](docs/02-jobs.md)**：
 - 了解哪些公司在做具身智能，他们的核心产品和落地场景是什么。
 - 通过招聘需求反推当前工业界最需要哪些技能，针对性提升自己。
 
