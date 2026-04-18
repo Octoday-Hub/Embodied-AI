@@ -47,7 +47,7 @@
 
 ### 🪜 2.1 筑基：构建知识框架
 
-从 **[基础知识](docs/00-basics.md)** 板块开始：
+从 **[基础知识](https://github.com/Octoday-Robotics/Embodied-AI/blob/main/00-basics.md#%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86--%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97)** 板块开始：
 - 阅读推荐书籍与课程，了解机器人学、强化学习、计算机视觉的底层逻辑。
 - 掌握核心术语（Sim2Real、VLA、Imitation Learning 等），为后续阅读论文打下基础。
 
