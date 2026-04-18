@@ -53,7 +53,7 @@
 
 ### 🔭 2.2 瞭望：追踪科研前沿
 
-进入 **[论文&代码库](docs/03-papers-code.md)**：
+进入 **[论文&代码库](https://github.com/Octoday-Robotics/Embodied-AI/blob/main/03-papers-code.md#-embodied-ai-papers-%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E8%AE%BA%E6%96%87%E7%B2%BE%E9%80%89)**：
 - 按分类浏览最新顶会论文（VLA、操作、导航、仿真等），结合开源代码加深理解。
 - 关注综述文章，快速把握领域全貌与发展趋势。
 
