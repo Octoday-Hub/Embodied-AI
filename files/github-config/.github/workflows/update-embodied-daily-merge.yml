@@ -1,0 +1,57 @@
+name: Update Daily Embodied Paper Merge
+
+on:
+  workflow_dispatch:
+    inputs:
+      lookback_days:
+        description: "Recent UTC dates to keep in the merged daily output"
+        required: false
+        default: "3"
+      max_results:
+        description: "Maximum unique merged papers to keep"
+        required: false
+        default: "80"
+  schedule:
+    - cron: "30 7 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-embodied-daily-merge
+  cancel-in-progress: true
+
+jobs:
+  update-merged-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate merged daily outputs
+        run: |
+          python scripts/update_embodied_daily_sources.py \
+            --lookback-days "${{ github.event.inputs.lookback_days || '3' }}" \
+            --max-results "${{ github.event.inputs.max_results || '80' }}"
+
+      - name: Refresh Daily Paper Archives
+        run: |
+          python scripts/render_daily_paper_archives.py
+
+      - name: Commit merged daily snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add generated/embodied-daily daily-paper .github/workflows/update-embodied-daily-merge.yml scripts/update_embodied_daily_sources.py scripts/render_daily_paper_archives.py 03-papers.md README.md README_EN.md
+          if git diff --cached --quiet; then
+            echo "No merged daily snapshot changes."
+          else
+            git commit -m "chore: update merged embodied daily papers"
+            git push
+          fi
