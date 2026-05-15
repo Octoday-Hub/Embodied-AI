@@ -65,6 +65,12 @@
 
 <a id="jump-jobs-domestic-27"></a>
 
+### 摩尔线程
+
+- <strong>具身智能算法工程师</strong>｜`社招/校招`｜杭州｜[投递→](https://www.zhipin.com/gongsi/job/2f230e94edc2a9da1nZ93NS7Fls~.html?query=%E5%85%B7%E8%BA%AB)
+- <strong>具身智能算法工程师</strong>｜`实习`｜杭州｜[投递→](https://www.zhipin.com/gongsi/job/2f230e94edc2a9da1nZ93NS7Fls~.html?query=%E5%85%B7%E8%BA%AB)
+
+
 ### 普渡科技
 
 - <strong>端到端模型算法工程师（机器人赛道）</strong>｜`校招`｜成都｜[投递→](https://pudutech.zhiye.com/campus)
