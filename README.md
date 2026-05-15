@@ -1,102 +1,190 @@
-<img width="1280" height="400" alt="Head Banner2" src="https://github.com/user-attachments/assets/37c4adab-2313-442b-9d9a-a978df1895a4" />
+![Head Banner](files/head-banner2.png)
 
 <div align="center">
-
-  # 🤖星期八-具身智能资源库
+  <h1>具身智能知识索引与产业地图</h1>
 </div>
 
-## 🌟 我们的愿景
-> 一份持续更新的具身智能（Embodied AI）领域结构化资源索引，涵盖公司、招聘、论文、代码库、数据集、学习路径等。旨在降低中文开发者的信息检索门槛，共建行业知识地图。
-
-**“星期八”意味着额外的一天——我们希望在这个领域，为你提供超越常规的资源和视角。**
-
-这里不是又一个论文列表，而是一个**连接产业、人才与知识**的信息枢纽。无论你是刚踏入具身智能领域的学生，还是寻找落地场景的工程师，或是关注行业动态的投资人，都能在这里找到自己需要的那块拼图。
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Sans&weight=600&size=28&duration=3200&pause=900&color=FF9F1C&center=true&vCenter=true&width=760&height=44&lines=Welcome%20to%20Octoday%20Hub&v=20260516-2" alt="Welcome to Octoday Hub" />
+</div>
 
 
+<div align="center">
+  <p>我们致力于链接学术研究与产业落地，整合高质量知识内容、工具资源与职业机会，<br />帮助开发者与研究者高效获取信息。</p>
+</div>
 
-🌐 [English Version](README_EN.md)
 
-[![GitHub stars](https://img.shields.io/github/stars/LILAN-00/Octoday-Robotics?style=social)](https://github.com/LILAN-00/Octoday-Robotics/stargazers)
-[![更新状态](https://img.shields.io/badge/更新频率-每周-blue)](https://github.com/LILAN-00/Octoday-Robotics)
-[![贡献指南](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
+<p align="center">
+  <img alt="更新频率" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E9%A2%91%E7%8E%87-%E6%AF%8F%E5%91%A8-22C55E?style=flat-square&labelColor=14532D" />
+  <img alt="Awesome" src="https://img.shields.io/badge/Awesome-Curated-2563EB?style=flat-square&labelColor=1E3A8A" />
+  <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-Welcome-64748B?style=flat-square&labelColor=334155" />
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/Octoday-Hub/Embodied-Al?style=flat-square&label=last%20commit&labelColor=374151&color=3B82F6" />
+</p>
 
----
 
-## 🔰 1. 新手启程 · 从这里开始
+## 🎯 我们的愿景
 
-> **具身智能**（Embodied AI）是指智能体通过物理身体与环境进行实时交互，从而感知、理解、决策并执行动作的智能系统。它融合了计算机视觉、机器人学、强化学习、自然语言处理等多个领域，是迈向通用人工智能的重要路径之一。
+我们希望构建一个面向具身智能领域的开放知识入口，无论你身处实验室还是工厂一线，你的每一份好奇与实践，都能在此找到属于自己的那块拼图。
 
-### 📋 1.1 使用指南 – 如何高效浏览本库
+### 🌌 为什么是“星期八”？
 
-本仓库致力于做**结构化资源索引 + 行业知识地图**，而非重复造轮子的教程库。我们的设计理念是：**按图索骥，各取所需**。
+在传统的七天循环之外，**“星期八”代表着一种打破常规的增量空间。**
 
-无论你是初学者、研究者、工程师还是投资人，都可以通过以下方式高效利用本库：
+- **多一份视角**：在学术研究的严谨之外，提供产业落地的务实观察。
+- **多一层理解**：在算法逻辑的推演之外，重塑对物理世界规律的敬畏。
+- **多一条路径**：在红海竞争的焦虑之外，开辟一条纯粹高效的成长通道。
 
-## 📖 资源目录
+我们希望，这里能成为你探索具身智能世界时，最清晰、最靠谱的坐标原点。
 
-- [基础知识](00-basics.md) – 入门书籍、课程等建议。让你快速建立认知框架，了解核心概念与学习路径。
-- [具身智能公司](01-companies.md) – 国内外代表公司及产品简介，掌握国内外具身智能产业生态，发现潜在合作伙伴或目标企业。
-- [招聘信息](02-jobs.md) – 全职/实习/校招岗位，实时追踪行业岗位需求，为求职或人才引进提供参考。
-- [论文&代码库](03-papers-code.md) – 精选顶会论文与开源代码，覆盖基础模型、VLA、操作、导航、仿真、数据集、评测、综述等9大方向。
-- [工具与平台](04-tools.md) – 机器人内容创作、运动控制、仿真调试等实用工具集锦。
-- [学习社区](docs/05-community.md) – 链接优质博客、自媒体与高校实验室，拓展交流圈层。
-- [贡献指南](CONTRIBUTING.md) – 如果你发现优质资源未被收录，或现有内容有误，欢迎通过 Issues 或 Pull Request 贡献，一起完善这份知识地图。 
-## 🧭 2. 学习路径图 – 从入门到精通
+Beyond the 7th Day, explore the Infinite Embodiment. 
 
-> **如果你是初学者，我们建议按以下路径逐步深入**
 
-### 🪜 2.1 筑基：构建知识框架
 
-从 **[基础知识](https://github.com/Octoday-Robotics/Embodied-AI/blob/main/00-basics.md#%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86--%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97)** 板块开始：
-- 阅读推荐书籍与课程，了解机器人学、强化学习、计算机视觉的底层逻辑。
-- 掌握核心术语（Sim2Real、VLA、Imitation Learning 等），为后续阅读论文打下基础。
+## 📢 Weekly News｜周报  
 
-### 🔭 2.2 瞭望：追踪科研前沿
+🗓️ *2026-05-16: [具身智能周报 05.11-05.16](topics/weeklynews/511-516.md)，覆盖 3 份专题：17 条产业新闻、44 个岗位、40 篇论文精选*
+🌐 *产业侧：17 条动态，政策、资本、平台、出海与场景落地同步升温，赛道进入更完整的产业化周期*
+🧩 *岗位侧：44 个岗位，覆盖 9 家公司；其中技术研发类 36 个，需求集中在模型、控制、感知、系统与硬件底座*
+🧠 *论文侧：40 篇精选论文，研究重心正从单点模型效果转向更快、更稳、更可控、更易部署的系统能力*
 
-进入 **[论文&代码库](https://github.com/Octoday-Robotics/Embodied-AI/blob/main/03-papers-code.md#-embodied-ai-papers-%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E8%AE%BA%E6%96%87%E7%B2%BE%E9%80%89)**：
-- 按分类浏览最新顶会论文（VLA、操作、导航、仿真等），结合开源代码加深理解。
-- 关注综述文章，快速把握领域全貌与发展趋势。
+## 🗺️ 领域地图
 
-### 🔗 2.3 连接：洞察产业动态
+未来会逐步覆盖以下方向：
 
-翻阅 **[公司列表](https://github.com/Octoday-Robotics/Embodied-AI/blob/main/01-companies.md#-%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E5%85%AC%E5%8F%B8%E5%88%97%E8%A1%A8%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E6%8E%92%E5%BA%8F)** 与 **[招聘信息](https://github.com/Octoday-Robotics/Embodied-AI/blob/main/02-jobs.md#-%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E6%8B%9B%E8%81%98%E4%BF%A1%E6%81%AF--embodied-ai-jobs-%E6%8C%89%E9%A6%96%E5%AD%97%E6%AF%8D%E6%8E%92%E5%BA%8F)**：
-- 了解哪些公司在做具身智能，他们的核心产品和落地场景是什么。
-- 通过招聘需求反推当前工业界最需要哪些技能，针对性提升自己。
+`🧭 认知基座`：帮助初学者从零建立对具身智能的认知框架。
 
-### 🌐 2.4 融入：加入社区生态
+`💻 前沿信号`：持续追踪最新论文，形成可复用的研究地图。
 
-加入 **[学习社区](docs/05-community.md)** 中推荐的博客、论坛或实验室：
-- 关注行业大佬的社交媒体，参与线上讨论。
-- 尝试参与开源项目或竞赛，积累实战经验。
+`🛠️ 工具矩阵`：开发框架与工具链，支撑从实验到落地实践。
 
----
+`📖 课程资源`：整合课程与学习资源，搭建系统化知识路径。
 
-> 记住：**资源的价值在于使用，更在于分享**。如果你通过这份资源库有所收获，不妨也贡献一份力量，帮助后来者走得更顺。
-## 🤝 如何贡献
+`🧩 职业通道`：梳理技能图谱与面试指南，赋能成长发展。
 
-我们欢迎所有形式的贡献！无论是添加新的公司、论文，还是修正错误，都能帮助社区。
+`🌐 资本动态`：追踪投融资动态，洞察产业结构与资源趋势。
 
-- 📖 阅读 [贡献指南](CONTRIBUTING.md) 了解详细流程。
-- ✨ 提交 [Pull Request](https://github.com/Octoday-Robotics/Embodied-AI/compare) 直接贡献内容。
-- 🐛 发现错误或有建议？请提交 [Issue](https://github.com/Octoday-Robotics/Embodied-AI/issues/new/choose)。
-## 👥  关于星期八团队
+`📡 行业观察`：关注政策、风向、事件与阶段性行业拐点。
 
-**星期八 Robotics（Octoday-Robotics）** 是一个由具身智能爱好者、开发者和行业观察者组成的开放社区。我们希望通过系统化的资源整理，降低中文开发者进入具身智能领域的门槛，加速知识传播与产业融合。
+## 📍 新手启程：
 
-项目完全开源，欢迎任何形式的贡献、建议与合作。如果你有任何问题、想法或资源推荐，欢迎通过以下方式联系我们：
+具身智能（Embodied AI）是指智能体通过物理身体与环境实时交互，从而产生感知、理解、决策并执行动作的智能系统。它融合了计算机视觉、强化学习与多模态大模型等多个领域。
 
-- **邮箱**：octoday@yeah.net
-- **GitHub Issues**：直接在本仓库提交 [Issue](https://github.com/LILAN-00/Octoday-Embodied-Hub/issues)
-- 📱 **微信公众号**：扫描下方二维码，获取最新动态与资源更新
-<img width="1280" height="560" alt="Tail Banner2" src="https://github.com/user-attachments/assets/8d7c00f6-3c91-478e-8d17-d08394954720" />
-特别感谢所有为项目添砖加瓦的贡献者（排名不分先后）：
+### 🪜（1）筑基：构建知识框架
 
-<a href="https://github.com/LILAN-00/Octoday-Embodied-Hub/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=LILAN-00/Octoday-Embodied-Hub" />
-</a>
+> 当前收录`14` 本推荐书籍、`16` 门在线课程。
 
----
+从[认知基座](topics/00-basics.md)开始：
+
+精选书籍与课程，了解机器人学、强化学习、计算机视觉的底层逻辑。收录国内外顶尖院校（Stanford, CMU, 清华等）公开课，让你快速建立认知框架，了解核心概念与学习路径。
+
+- [推荐书籍](topics/00-basics.md#recommended-books)
+- [在线课程](topics/00-basics.md#online-courses)
+
+### 🔭（2）瞭望台：追踪前沿技术
+
+> 当前收录 `260` 篇精选论文。
+
+进入[论文合集](topics/03-papers.md)：
+
+浏览具身智能精选论文，结合开源代码加深理解，快速把握技术发展趋势。
+
+&emsp;&emsp;**覆盖方向**
+
+- [Embodied Foundation Models](topics/03-papers.md#embodied-foundation-models)
+- [Manipulation & Teleoperation](topics/03-papers.md#manipulation)
+- [Locomotion](topics/03-papers.md#locomotion)
+- [Navigation & Spatial Intelligence](topics/03-papers.md#navigation-spatial-intelligence)
+- [Simulators & Sim2Real](topics/03-papers.md#simulation-sim2real)
+- [Datasets](topics/03-papers.md#datasets)
+- [Benchmarks & Evaluation](topics/03-papers.md#benchmarks-evaluation)
+- [Survey](topics/03-papers.md#survey)
+
+### 🔧（3）锤炼：整合工程实践
+
+> 当前收录 `81` 个工具与平台。
+
+查看[工程工具](topics/04-tools.md)：
+
+集成机器人仿真平台、运动控制、各类SDK及大厂开源项目。
+
+### 🔗（4）坐标：洞察产业动态
+
+> 当前共收录 `274` 家具身智能相关公司：国内 `171` 家、国外 `103` 家。
+
+查看[公司列表](topics/01-companies.md)：
+
+梳理全球具身智能企业图谱，发现潜在的商业锚点。
+
+### 🎒（5）进化：人才风向标
+
+> 当前共收录 `392` 个岗位机会。
+
+查看[招聘信息](topics/02-jobs.md)：
+
+不定期更新全职、实习、校招岗位。通过招聘需求反推工业界技能栈，实现精准的自我能力提升。
+
+如果你想从首页直接跳到具体公司的岗位信息，可以用下面这张速查表：
+
+| 国内机会 | 链接 | 国外机会 | 链接 |
+| :----------------- | ------------------------------------------------------------ | :---------------------------- | ------------------------------------------------------------ |
+| 大疆 | [投递](topics/02-jobs.md#jump-jobs-domestic-14) | 1X Technologies | [投递](topics/02-jobs.md#jump-jobs-overseas-01) |
+| 地平线 | [投递](topics/02-jobs.md#jump-jobs-domestic-15) | AIM Intelligent Machines | [投递](topics/02-jobs.md#jump-jobs-overseas-02) |
+| 傅利叶智能 | [投递](topics/02-jobs.md#jump-jobs-domestic-04) | Amazon Robotics | [投递](topics/02-jobs.md#jump-jobs-overseas-03) |
+| 普渡科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-27) | Apptronik | [投递](topics/02-jobs.md#jump-jobs-overseas-06) |
+| 千寻智能 | [投递](topics/02-jobs.md#jump-jobs-domestic-08) | Aurora | [投递](topics/02-jobs.md#jump-jobs-overseas-07) |
+| 上海人工智能实验室 | [投递](topics/02-jobs.md#jump-jobs-domestic-20) | Boston Dynamics | [投递](topics/02-jobs.md#jump-jobs-overseas-08) |
+| 商汤科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-23) | Cruise | [投递](topics/02-jobs.md#jump-jobs-overseas-09) |
+| 思谋科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-19) | Figure AI | [投递](topics/02-jobs.md#jump-jobs-overseas-10) |
+| 它石智航 | [投递](topics/02-jobs.md#jump-jobs-domestic-09) | Google DeepMind | [投递](topics/02-jobs.md#jump-jobs-overseas-13) |
+| 腾讯Robotics X | [投递](topics/02-jobs.md#jump-jobs-domestic-11) | Grit Ventures | [投递](topics/02-jobs.md#jump-jobs-overseas-14) |
+| 优必选科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-01) | HTX (Singapore) | [投递](topics/02-jobs.md#jump-jobs-overseas-15) |
+| 小米机器人实验室 | [投递](topics/02-jobs.md#jump-jobs-domestic-10) | Nuro | [投递](topics/02-jobs.md#jump-jobs-overseas-17) |
+| 小鹏汽车 | [投递](topics/02-jobs.md#jump-jobs-domestic-16) | NVIDIA | [投递](topics/02-jobs.md#jump-jobs-overseas-19) |
+| 星动纪元 | [投递](topics/02-jobs.md#jump-jobs-domestic-06) | OpenAI | [投递](topics/02-jobs.md#jump-jobs-overseas-21) |
+| 银河通用机器人 | [投递](topics/02-jobs.md#jump-jobs-domestic-07) | Stanford Robotics Lab | [投递](topics/02-jobs.md#jump-jobs-overseas-22) |
+| 宇树科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-03) | Tactus | [投递](topics/02-jobs.md#jump-jobs-overseas-23) |
+| 云深处科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-18) | Tesla Optimus | [投递](topics/02-jobs.md#jump-jobs-overseas-24) |
+| 智元机器人 | [投递](topics/02-jobs.md#jump-jobs-domestic-25) | Toyota Research Institute | [投递](topics/02-jobs.md#jump-jobs-overseas-26) |
+| 字节跳动 | [投递](topics/02-jobs.md#jump-jobs-domestic-12) | Waymo | [投递](topics/02-jobs.md#jump-jobs-overseas-27) |
+| 逐际动力 | [投递](topics/02-jobs.md#jump-jobs-domestic-05) | Wayve | [投递](topics/02-jobs.md#jump-jobs-overseas-28) |
+
+## 🌱 社区共建
+
+我们欢迎任何形式的贡献！无论是提交新的公司信息、论文，还是修正错误。
+
+感谢每一位贡献者，也期待与更多伙伴共建。
+
+## 👥 关于星期八团队
+
+星期八（Octoday Hub）是一个由具身智能爱好者、开发者和行业观察者组成的开放社区。我们希望通过系统化的资源梳理，降低开发者进入具身智能领域的门槛，加速知识传播与产业融合。
+
+如果您有任何想法、资源推荐或商务合作意向，欢迎通过以下方式联系我们：
+
+📧  邮箱：[octoday@yeah.net](mailto:octoday@yeah.net)
+
+💬  微信：Midsummer_Jin 
+
+📱  公众号：星期八Robotics
+
+*扫描下方二维码，获取最新动态与资源更新*
+
+![tail-banner2](files/tail-banner2.png)
+
+## 🌟 给这个仓库点个赞
+
+如果这个仓库对你有帮助，欢迎 Star ⭐️ 和 Fork，也欢迎分享给同行或引用本列表。
+
+你的支持是我们持续更新的最大动力。
+
+```bibtex
+@misc{octoday_robotics_2026,
+  author = {Octoday Embodied-AI Community},
+  title  = {具身智能知识索引与产业地图},
+  year   = {2026},
+  url    = {https://github.com/Octoday-Hub/Embodied-Al}
+}
+```
+
 ## 📄 许可证
 
-本项目采用 MIT 许可证。详细信息请查看 [LICENSE](LICENSE) 文件。
-
+本项目内容采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可。

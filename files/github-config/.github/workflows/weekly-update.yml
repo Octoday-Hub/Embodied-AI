@@ -1,0 +1,55 @@
+name: Update Weekly Embodied arXiv Snapshot
+
+on:
+  workflow_dispatch:
+    inputs:
+      weekly_days:
+        description: "Lookback days for the weekly snapshot"
+        required: false
+        default: "7"
+      weekly_max_results:
+        description: "Maximum filtered papers for the weekly snapshot"
+        required: false
+        default: "60"
+      weekly_fetch_size:
+        description: "Candidate fetch size from arXiv"
+        required: false
+        default: "300"
+  schedule:
+    - cron: "0 2 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  update-weekly:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate weekly outputs
+        run: |
+          python scripts/update_embodied_arxiv_outputs.py \
+            --mode weekly \
+            --weekly-days "${{ github.event.inputs.weekly_days || '7' }}" \
+            --weekly-max-results "${{ github.event.inputs.weekly_max_results || '60' }}" \
+            --weekly-fetch-size "${{ github.event.inputs.weekly_fetch_size || '300' }}"
+
+      - name: Commit weekly snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add generated/arxiv/weekly generated/arxiv/README.md scripts/fetch_embodied_arxiv.py scripts/update_embodied_arxiv_outputs.py
+          if git diff --cached --quiet; then
+            echo "No weekly snapshot changes."
+          else
+            git commit -m "chore: update weekly embodied arxiv snapshot"
+            git push
+          fi
