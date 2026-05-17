@@ -1,25 +1,28 @@
 # Contributing Guide
 
-Thank you for your willingness to contribute to Octoday Hub! We are committed to building a high-quality resource index for the embodied intelligence community, and every contribution helps more developers.
+If you discover a useful tool, a promising company, a valuable paper, or notice a broken link, feel free to open a [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls) or [Issue](https://github.com/Octoday-Hub/Embodied-Al/issues) directly. Every update helps the next person move faster.
 
-## How to Contribute
+---
 
-You can participate in the following ways:
+## Quick Start
 
-- **Submit a Pull Request**: Modify or add content, following the PR template.
-- **Submit an Issue**: Report errors, suggest adding new resources, or propose improvements.
+### Only fixing one link?
 
-## Contribution Workflow
+1. Open the target file and click `Edit this file`
+2. Make your change and click `Propose changes`
+3. Submit the [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls) by following the prompts - no local fork required
 
-### 1. Set Up Environment
+### Planning a larger update?
 
-- Make sure you have a GitHub account.
-- Fork this repository to your account.
-- Clone your fork locally (for bulk edits, you can also edit directly on the web).
+1. Fork this repository to your account
+2. Create a new branch from `main`
+3. Make your edits locally and submit a [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls)
 
-### 2. Create a Branch
+---
 
-Create a new branch from `main`. Naming conventions:
+## Branch Naming
+
+Please follow these naming rules so maintainers can quickly identify the scope:
 
 - `update-basics-[topic]` for `00-basics.md`
 - `add-company-[company-name]` for `01-companies.md`
@@ -27,7 +30,12 @@ Create a new branch from `main`. Naming conventions:
 - `update-paper-[paper-title]` for `03-papers.md`
 - `update-tools-[tool-name]` for `04-tools.md`
 
-### 3. Make Changes
+If you are unsure whether to open a [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls) or an [Issue](https://github.com/Octoday-Hub/Embodied-Al/issues):
+
+- **PR**: Best for direct content edits, link fixes, or typo fixes.
+- **Issue**: Best for reporting problems, sharing leads, or discussing changes first.
+
+## Content Guidelines
 
 Please follow the formatting guidelines below:
 
@@ -58,7 +66,7 @@ Please follow the formatting guidelines below:
 - For recommended books: provide **title**, **author**, **publication year**, and **reason for recommendation** (optional).
 - For recommended courses: provide **course name**, **institution**, **link**, and **description**.
 
-### 4. Submit a PR
+## Before You Submit
 
 - Ensure your changes are accurate and verifiable.
 - One PR should focus on a single, clear change.

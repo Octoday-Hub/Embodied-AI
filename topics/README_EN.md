@@ -26,25 +26,25 @@
 
 ## 🎯 Our Vision
 
-We aim to build an open knowledge gateway for the embodied AI community. Whether you are in a research lab or on the factory floor, every bit of curiosity and hands-on practice can find its place here.
+We aim to build an open gateway to embodied AI knowledge. Whether you work in a research lab or on the factory floor, your curiosity and hands-on experience both have a place here.
 
 
 
 ### 🌌 Why "Octoday"?
 
-Beyond the conventional seven-day cycle, **"Octoday" represents an extra dimension beyond convention.**
+Beyond the conventional seven-day cycle, **"Octoday" stands for an extra day beyond the ordinary.**
 
 - **An Extra Perspective**: Beyond rigorous academic research, we offer pragmatic observations from industrial deployment.
 - **A Deeper Understanding**: Beyond algorithmic reasoning, we cultivate reverence for the laws of the physical world.
 - **An Alternative Path**: Beyond the anxiety of red-ocean competition, we open a pure and efficient channel for growth.
 
-We hope this can become the clearest and most reliable reference point as you explore the world of embodied AI.
+We hope this can become your clearest and most reliable point of reference as you explore the world of embodied AI.
 
-Beyond the 7th Day, explore the Infinite Embodiment.
+Beyond the Seventh Day, explore embodied intelligence without limits.
 
 ## 🗺️ Domain Map
 
-The following directions will be gradually covered:
+We will gradually expand coverage across the following areas:
 
 `🧭 Cognitive Foundation`: Help beginners build a cognitive framework for embodied AI from scratch.
 
@@ -62,7 +62,7 @@ The following directions will be gradually covered:
 
 ## 📍 Getting Started
 
-**Embodied AI** refers to intelligent agents that perceive, understand, decide, and act through a physical body interacting with the environment in real time. It integrates computer vision, reinforcement learning, and multimodal large models.
+**Embodied AI** refers to intelligent systems that perceive, understand, decide, and act through a physical body interacting with the environment in real time. It brings together computer vision, reinforcement learning, and multimodal foundation models.
 
 ### 🪜 (1) Foundation Building: Construct Your Knowledge Framework
 
@@ -70,7 +70,7 @@ The following directions will be gradually covered:
 
 Start with [Cognitive Foundation](00-basics.md):
 
-Hand-picked books and courses to understand the fundamentals of robotics, reinforcement learning, and computer vision. Includes open courses from top institutions (Stanford, CMU, Tsinghua, etc.) to help you quickly build a cognitive framework and grasp core concepts and learning paths.
+A hand-picked selection of books and courses covering the fundamentals of robotics, reinforcement learning, and computer vision. It includes open courses from leading institutions such as Stanford, CMU, and Tsinghua to help you quickly build a solid mental model and identify the core concepts and learning paths.
 
 - [Recommended Books](00-basics.md#recommended-books)
 - [Online Courses](00-basics.md#online-courses)
@@ -112,11 +112,11 @@ A curated map of the global embodied AI enterprise landscape to help you discove
 
 ### 🎒 (5) Evolution: Talent Trends
 
-> Currently featuring `381` job opportunities.
+> Currently featuring `398` job opportunities.
 
 Check [Job Openings](02-jobs.md):
 
-Updated periodically with full-time, internship, and campus recruitment positions. Reverse-engineer industry skill stacks from hiring demands to achieve precise self-improvement.
+Updated on a rolling basis with full-time, internship, and campus opportunities. Use hiring demand to reverse-engineer the skills the industry actually values and sharpen your learning path accordingly.
 
 If you want to jump directly to a specific company's openings from the homepage, use this quick-reference table:
 
@@ -125,33 +125,33 @@ If you want to jump directly to a specific company's openings from the homepage,
 | Horizon Robotics | [Apply](02-jobs.md#jump-jobs-domestic-15) | AIM Intelligent Machines | [Apply](02-jobs.md#jump-jobs-overseas-02) |
 | Fourier Intelligence | [Apply](02-jobs.md#jump-jobs-domestic-04) | Amazon Robotics | [Apply](02-jobs.md#jump-jobs-overseas-06) |
 | Gaussian Robotics | [Apply](02-jobs.md#jump-jobs-domestic-08) | Apptronik | [Apply](02-jobs.md#jump-jobs-overseas-07) |
-| JAKA Robotics | [Apply](02-jobs.md#jump-jobs-domestic-02) | Boston Dynamics | [Apply](02-jobs.md#jump-jobs-overseas-09) |
-| Geek+ | [Apply](02-jobs.md#jump-jobs-domestic-01) | Figure AI | [Apply](02-jobs.md#jump-jobs-overseas-13) |
-| Qianxun Intelligence | [Apply](02-jobs.md#jump-jobs-domestic-17) | Google DeepMind | [Apply](02-jobs.md#jump-jobs-overseas-14) |
-| Shanghai AI Lab | [Apply](02-jobs.md#jump-jobs-domestic-20) | Grit Ventures | [Apply](02-jobs.md#jump-jobs-overseas-15) |
-| SenseTime | [Apply](02-jobs.md#jump-jobs-domestic-23) | HTX | [Apply](02-jobs.md#jump-jobs-overseas-17) |
-| SmartMore | [Apply](02-jobs.md#jump-jobs-domestic-19) | Nuro | [Apply](02-jobs.md#jump-jobs-overseas-19) |
-| Tashi Navigation | [Apply](02-jobs.md#jump-jobs-domestic-09) | NVIDIA | [Apply](02-jobs.md#jump-jobs-overseas-21) |
-| XPeng | [Apply](02-jobs.md#jump-jobs-domestic-16) | OpenAI | [Apply](02-jobs.md#jump-jobs-overseas-22) |
-| Astribot | [Apply](02-jobs.md#jump-jobs-domestic-06) | Tesla | [Apply](02-jobs.md#jump-jobs-overseas-26) |
-| Galbot | [Apply](02-jobs.md#jump-jobs-domestic-07) | Waymo | [Apply](02-jobs.md#jump-jobs-overseas-28) |
-| DEEPRobotics | [Apply](02-jobs.md#jump-jobs-domestic-18) | Wayve | [Apply](02-jobs.md#jump-jobs-overseas-01) |
-| Unitree | [Apply](02-jobs.md#jump-jobs-domestic-03) |  |  |
-| Agibot | [Apply](02-jobs.md#jump-jobs-domestic-25) |  |  |
-| LimX Dynamics | [Apply](02-jobs.md#jump-jobs-domestic-05) |  |  |
-| ByteDance | [Apply](02-jobs.md#jump-jobs-domestic-12) |  |  |
+| JAKA Robotics | [Apply](02-jobs.md#jump-jobs-domestic-02) | Aurora | [Apply](02-jobs.md#jump-jobs-overseas-08) |
+| Geek+ | [Apply](02-jobs.md#jump-jobs-domestic-01) | Boston Dynamics | [Apply](02-jobs.md#jump-jobs-overseas-09) |
+| Qianxun Intelligence | [Apply](02-jobs.md#jump-jobs-domestic-17) | Cruise | [Apply](02-jobs.md#jump-jobs-overseas-10) |
+| Shanghai AI Lab | [Apply](02-jobs.md#jump-jobs-domestic-20) | Figure AI | [Apply](02-jobs.md#jump-jobs-overseas-13) |
+| SenseTime | [Apply](02-jobs.md#jump-jobs-domestic-23) | Google DeepMind | [Apply](02-jobs.md#jump-jobs-overseas-14) |
+| SmartMore | [Apply](02-jobs.md#jump-jobs-domestic-19) | Grit Ventures | [Apply](02-jobs.md#jump-jobs-overseas-15) |
+| Tashi Navigation | [Apply](02-jobs.md#jump-jobs-domestic-09) | HTX | [Apply](02-jobs.md#jump-jobs-overseas-17) |
+| XPeng | [Apply](02-jobs.md#jump-jobs-domestic-16) | Nuro | [Apply](02-jobs.md#jump-jobs-overseas-19) |
+| Astribot | [Apply](02-jobs.md#jump-jobs-domestic-06) | NVIDIA | [Apply](02-jobs.md#jump-jobs-overseas-21) |
+| Galbot | [Apply](02-jobs.md#jump-jobs-domestic-07) | OpenAI | [Apply](02-jobs.md#jump-jobs-overseas-22) |
+| DEEPRobotics | [Apply](02-jobs.md#jump-jobs-domestic-18) | Tactus | [Apply](02-jobs.md#jump-jobs-overseas-24) |
+| Unitree | [Apply](02-jobs.md#jump-jobs-domestic-03) | Tesla | [Apply](02-jobs.md#jump-jobs-overseas-26) |
+| Agibot | [Apply](02-jobs.md#jump-jobs-domestic-25) | Toyota Research Institute | [Apply](02-jobs.md#jump-jobs-overseas-27) |
+| LimX Dynamics | [Apply](02-jobs.md#jump-jobs-domestic-05) | Waymo | [Apply](02-jobs.md#jump-jobs-overseas-28) |
+| ByteDance | [Apply](02-jobs.md#jobs-special-25) | Wayve | [Apply](02-jobs.md#jump-jobs-overseas-01) |
 
 ## 🌱 Community
 
-We welcome contributions in any form! Whether submitting new company information, papers, or correcting errors.
+We welcome contributions in any form, whether you are adding new company information, sharing papers, or fixing errors.
 
-We thank every contributor, and we look forward to building this together with more partners.
+We are grateful to every contributor and look forward to building this resource together.
 
 👉 Check out the [Community Guidelines](CONTRIBUTING_EN.md) for details on how to submit Issues, Pull Requests, and formatting standards for each section.
 
 ## 👥 About Octoday Hub
 
-Octoday Hub is an open community of embodied AI enthusiasts, developers, and industry observers. We hope to lower the barriers to entry for developers entering the field of embodied AI through systematic resource curation, accelerating knowledge dissemination and industrial integration.
+Octoday Hub is an open community of embodied AI enthusiasts, developers, and industry observers. Through systematic curation, we hope to lower the barrier to entry for developers exploring embodied AI while accelerating knowledge sharing and industrial adoption.
 
 If you have any ideas, resource recommendations, or business collaboration inquiries, feel free to reach out:
 
@@ -161,13 +161,13 @@ If you have any ideas, resource recommendations, or business collaboration inqui
 
 📱  WeChat Official Account: 星期八Robotics
 
-*Scan the QR code below for the latest updates and resources*
+*Scan the QR code below for the latest updates and resources.*
 
 ![tail-banner2](../files/tail-banner2.png)
 
 ## 🌟 Star this Repo
 
-If this repository is helpful to you, feel free to Star ⭐️ and Fork, and share it with peers or cite this list.
+If this repository is helpful to you, feel free to star it, fork it, share it with peers, or cite this list.
 
 Your support is our greatest motivation for continuous updates.
 

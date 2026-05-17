@@ -112,7 +112,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🎒（5）进化：人才风向标
 
-> 当前共收录 `386` 个岗位机会。
+> 当前共收录 `398` 个岗位机会。
 
 查看[招聘信息](topics/02-jobs.md)：
 
@@ -125,29 +125,29 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 | 地平线 | [投递](topics/02-jobs.md#jump-jobs-domestic-15) | AIM Intelligent Machines | [投递](topics/02-jobs.md#jump-jobs-overseas-02) |
 | 傅利叶智能 | [投递](topics/02-jobs.md#jump-jobs-domestic-04) | Amazon Robotics | [投递](topics/02-jobs.md#jump-jobs-overseas-06) |
 | 高仙机器人 | [投递](topics/02-jobs.md#jump-jobs-domestic-08) | Apptronik | [投递](topics/02-jobs.md#jump-jobs-overseas-07) |
-| 节卡机器人 | [投递](topics/02-jobs.md#jump-jobs-domestic-02) | Boston Dynamics | [投递](topics/02-jobs.md#jump-jobs-overseas-09) |
-| 极智嘉 Geek+ | [投递](topics/02-jobs.md#jump-jobs-domestic-01) | Figure AI | [投递](topics/02-jobs.md#jump-jobs-overseas-13) |
-| 千寻智能 | [投递](topics/02-jobs.md#jump-jobs-domestic-17) | Google DeepMind | [投递](topics/02-jobs.md#jump-jobs-overseas-14) |
-| 上海人工智能实验室 | [投递](topics/02-jobs.md#jump-jobs-domestic-20) | Grit Ventures | [投递](topics/02-jobs.md#jump-jobs-overseas-15) |
-| 商汤科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-23) | HTX | [投递](topics/02-jobs.md#jump-jobs-overseas-17) |
-| 思谋科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-19) | Nuro | [投递](topics/02-jobs.md#jump-jobs-overseas-19) |
-| 它石智航 | [投递](topics/02-jobs.md#jump-jobs-domestic-09) | NVIDIA | [投递](topics/02-jobs.md#jump-jobs-overseas-21) |
-| 小鹏汽车 | [投递](topics/02-jobs.md#jump-jobs-domestic-16) | OpenAI | [投递](topics/02-jobs.md#jump-jobs-overseas-22) |
-| 星动纪元 | [投递](topics/02-jobs.md#jump-jobs-domestic-06) | Tesla | [投递](topics/02-jobs.md#jump-jobs-overseas-26) |
-| 银河通用机器人 | [投递](topics/02-jobs.md#jump-jobs-domestic-07) | Waymo | [投递](topics/02-jobs.md#jump-jobs-overseas-28) |
-| 云深处科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-18) | Wayve | [投递](topics/02-jobs.md#jump-jobs-overseas-01) |
-| 宇树科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-03) |  |  |
-| 智元机器人 | [投递](topics/02-jobs.md#jump-jobs-domestic-25) |  |  |
-| 逐际动力 | [投递](topics/02-jobs.md#jump-jobs-domestic-05) |  |  |
-| 字节跳动 | [投递](topics/02-jobs.md#jump-jobs-domestic-12) |  |  |
+| 节卡机器人 | [投递](topics/02-jobs.md#jump-jobs-domestic-02) | Aurora | [投递](topics/02-jobs.md#jump-jobs-overseas-08) |
+| 极智嘉 Geek+ | [投递](topics/02-jobs.md#jump-jobs-domestic-01) | Boston Dynamics | [投递](topics/02-jobs.md#jump-jobs-overseas-09) |
+| 千寻智能 | [投递](topics/02-jobs.md#jump-jobs-domestic-17) | Cruise | [投递](topics/02-jobs.md#jump-jobs-overseas-10) |
+| 上海人工智能实验室 | [投递](topics/02-jobs.md#jump-jobs-domestic-20) | Figure AI | [投递](topics/02-jobs.md#jump-jobs-overseas-13) |
+| 商汤科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-23) | Google DeepMind | [投递](topics/02-jobs.md#jump-jobs-overseas-14) |
+| 思谋科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-19) | Grit Ventures | [投递](topics/02-jobs.md#jump-jobs-overseas-15) |
+| 它石智航 | [投递](topics/02-jobs.md#jump-jobs-domestic-09) | HTX | [投递](topics/02-jobs.md#jump-jobs-overseas-17) |
+| 小鹏汽车 | [投递](topics/02-jobs.md#jump-jobs-domestic-16) | Nuro | [投递](topics/02-jobs.md#jump-jobs-overseas-19) |
+| 星动纪元 | [投递](topics/02-jobs.md#jump-jobs-domestic-06) | NVIDIA | [投递](topics/02-jobs.md#jump-jobs-overseas-21) |
+| 银河通用机器人 | [投递](topics/02-jobs.md#jump-jobs-domestic-07) | OpenAI | [投递](topics/02-jobs.md#jump-jobs-overseas-22) |
+| 云深处科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-18) | Tactus | [投递](topics/02-jobs.md#jump-jobs-overseas-24) |
+| 宇树科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-03) | Tesla | [投递](topics/02-jobs.md#jump-jobs-overseas-26) |
+| 智元机器人 | [投递](topics/02-jobs.md#jump-jobs-domestic-25) | Toyota Research Institute | [投递](topics/02-jobs.md#jump-jobs-overseas-27) |
+| 逐际动力 | [投递](topics/02-jobs.md#jump-jobs-domestic-05) | Waymo | [投递](topics/02-jobs.md#jump-jobs-overseas-28) |
+| 字节跳动 | [投递](topics/02-jobs.md#jobs-special-25) | Wayve | [投递](topics/02-jobs.md#jump-jobs-overseas-01) |
 
 ## 🌱 社区共建
 
-我们欢迎任何形式的贡献！无论是提交新的公司信息、论文，还是修正错误。
+我们欢迎任何形式的贡献！无论是提交新的公司信息、论文、还是修正错误。
 
-- 📖  [贡献指南](topics/CONTRIBUTING.md) 了解如何参与社区共建
-- ✨  [Pull Request](https://github.com/Octoday-Hub/Embodied-Al/compare) 直接提交内容更新
-- 🐛  [Issue](https://github.com/Octoday-Hub/Embodied-Al/issues/new/choose) 反馈错误或提出建议
+- 📖  [贡献指南](topics/CONTRIBUTING.md) 了解如何参与社区共建。
+- ✨  [Pull Request](https://github.com/Octoday-Hub/Embodied-Al/pulls) 直接提交内容更新。
+- 🐛  [Issue](https://github.com/Octoday-Hub/Embodied-Al/issues) 反馈错误或提出建议。
 
 感谢每一位贡献者，也期待与更多伙伴共建。
 
