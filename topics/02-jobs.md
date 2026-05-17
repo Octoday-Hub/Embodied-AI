@@ -16,17 +16,17 @@
   <tr>
     <td style="width: 90px; padding: 10px 12px; border: 1px solid #ddd; font-weight: bold; vertical-align: middle;">链接直达:</td>
     <td style="padding: 10px 12px; border: 1px solid #ddd; text-align: center; vertical-align: middle;">
-      <a href="#jump-jobs-domestic-15" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">D</a>
-      <a href="#jump-jobs-domestic-04" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">F</a>
-      <a href="#jump-jobs-domestic-08" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">G</a>
-      <a href="#jump-jobs-domestic-02" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">J</a>
-      <a href="#jump-jobs-domestic-m" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">M</a>
-      <a href="#jump-jobs-domestic-17" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">Q</a>
-      <a href="#jump-jobs-domestic-20" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">S</a>
-      <a href="#jump-jobs-domestic-09" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">T</a>
-      <a href="#jump-jobs-domestic-16" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">X</a>
-      <a href="#jump-jobs-domestic-07" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">Y</a>
-      <a href="#jump-jobs-domestic-25" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">Z</a>
+      <a href="#jump-jobs-domestic-15" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">D</a>
+      <a href="#jump-jobs-domestic-04" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">F</a>
+      <a href="#jump-jobs-domestic-08" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">G</a>
+      <a href="#jump-jobs-domestic-02" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">J</a>
+      <a href="#jump-jobs-domestic-m" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">M</a>
+      <a href="#jump-jobs-domestic-17" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">Q</a>
+      <a href="#jump-jobs-domestic-20" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">S</a>
+      <a href="#jump-jobs-domestic-09" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">T</a>
+      <a href="#jump-jobs-domestic-16" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">X</a>
+      <a href="#jump-jobs-domestic-07" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">Y</a>
+      <a href="#jump-jobs-domestic-25" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">Z</a>
     </td>
   </tr>
 </table>
@@ -1362,18 +1362,16 @@
   <tr>
     <td style="width: 90px; padding: 10px 12px; border: 1px solid #ddd; font-weight: bold; vertical-align: middle;">Jump to:</td>
     <td style="padding: 10px 12px; border: 1px solid #ddd; text-align: center; vertical-align: middle;">
-      <a href="#jump-jobs-overseas-02" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">A</a>
-      <a href="#jump-jobs-overseas-08" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">B</a>
-      <a href="#jump-jobs-overseas-09" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">C</a>
-      <a href="#jump-jobs-overseas-10" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">F</a>
-      <a href="#jump-jobs-overseas-13" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">G</a>
-      <a href="#jump-jobs-overseas-15" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">H</a>
-      <a href="#jump-jobs-overseas-17" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">N</a>
-      <a href="#jump-jobs-overseas-21" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">O</a>
-      <a href="#jump-jobs-overseas-22" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">S</a>
-      <a href="#jump-jobs-overseas-23" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">T</a>
-      <a href="#jump-jobs-overseas-27" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">W</a>
-      <a href="#jump-jobs-overseas-01" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">Other</a>
+      <a href="#jump-jobs-overseas-02" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">A</a>
+      <a href="#jump-jobs-overseas-09" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">B</a>
+      <a href="#jump-jobs-overseas-13" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">F</a>
+      <a href="#jump-jobs-overseas-14" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">G</a>
+      <a href="#jump-jobs-overseas-17" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">H</a>
+      <a href="#jump-jobs-overseas-19" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">N</a>
+      <a href="#jump-jobs-overseas-22" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">O</a>
+      <a href="#jump-jobs-overseas-26" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">T</a>
+      <a href="#jump-jobs-overseas-28" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">W</a>
+      <a href="#jump-jobs-overseas-01" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">Other</a>
     </td>
   </tr>
 </table>
@@ -1843,18 +1841,18 @@
   <tr>
     <td style="width: 110px; padding: 10px 12px; border: 1px solid #ddd; font-weight: bold; vertical-align: middle;">按首字母跳转：</td>
     <td style="padding: 10px 12px; border: 1px solid #ddd; text-align: center; vertical-align: middle;">
-      <a href="#jobs-special-01" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">A</a>
-      <a href="#jobs-special-02" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">B</a>
-      <a href="#jobs-special-05" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">D</a>
-      <a href="#jobs-special-28" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">G</a>
-      <a href="#jobs-special-12" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">M</a>
-      <a href="#jobs-special-31" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">N</a>
-      <a href="#jobs-special-13" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">Q</a>
-      <a href="#jobs-special-14" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">R</a>
-      <a href="#jobs-special-15" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">S</a>
-      <a href="#jobs-special-17" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">T</a>
-      <a href="#jobs-special-18" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">X</a>
-      <a href="#jobs-special-22" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#e8f4fd; color:#0366d6; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">Z</a>
+      <a href="#jobs-special-01" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">A</a>
+      <a href="#jobs-special-02" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">B</a>
+      <a href="#jobs-special-05" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">D</a>
+      <a href="#jobs-special-28" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">G</a>
+      <a href="#jobs-special-12" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">M</a>
+      <a href="#jobs-special-31" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">N</a>
+      <a href="#jobs-special-13" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">Q</a>
+      <a href="#jobs-special-14" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">R</a>
+      <a href="#jobs-special-15" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">S</a>
+      <a href="#jobs-special-17" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">T</a>
+      <a href="#jobs-special-18" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">X</a>
+      <a href="#jobs-special-22" style="display:inline-block; padding: 8px 16px; margin: 3px; background:#fafbfc; color:#24292e; border:1px solid #d0d7de; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;">Z</a>
     </td>
   </tr>
 </table>
