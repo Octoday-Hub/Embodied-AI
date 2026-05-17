@@ -1,6 +1,6 @@
 # 具身智能公司列表（按首字母排序）
 
-> 持续更新国内外具身智能领域代表公司，包含公司简介、标签及官网链接，欢迎补充（可通过 [Issues](https://github.com/Octoday-Hub/Embodied-Al/issues/new/choose) 或 [PR](https://github.com/Octoday-Hub/Embodied-Al/compare) 提交）。
+> 持续更新国内外具身智能领域代表公司，包含公司简介、标签及官网链接，欢迎补充（可通过 [Issues](https://github.com/Octoday-Hub/Embodied-Al/issues) 或 [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls) 提交）。
 
 - [🇨🇳 国内公司](#china-companies)
 - [🌍 国外公司](#global-companies)

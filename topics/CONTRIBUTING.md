@@ -1,25 +1,28 @@
 # 贡献指南
 
-感谢你愿意为 Octoday Hub 贡献力量！我们致力于打造一份高质量的具身智能领域资源索引，你的每一次贡献都能帮助更多开发者。
+如果你发现好工具、新公司、有价值的论文，或者发现链接失效，欢迎直接提交 [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls) 或 [Issue](https://github.com/Octoday-Hub/Embodied-Al/issues)。你的每一次更新都在帮后来者少走弯路。
 
-## 如何贡献
+---
 
-你可以通过以下方式参与：
+## 快速开始
 
-- **直接提交 PR**：修改或新增内容，按照 PR 模板提交。
-- **提交 Issue**：报告错误、建议添加新资源、提出改进意见。
+### 只想改一个链接？
 
-## 贡献流程
+1. 打开对应文件，点击右上角 `Edit this file`
+2. 修改后点击 `Propose changes`
+3. 按提示提交 [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls) 即可，无需 Fork 到本地
 
-### 1. 准备环境
+### 打算批量更新或新增内容？
 
-- 确保你有一个 GitHub 账号。
-- Fork 本仓库到你的账号下。
-- 克隆你的 Fork 到本地（如果需要批量编辑，也可直接在网页端修改）。
+1. Fork 本仓库到你的账号下
+2. 从 `main` 切出新分支
+3. 本地修改后提交 [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls)
 
-### 2. 创建分支
+---
 
-从 main 分支切出一个新分支，命名规则：
+## 分支命名
+
+请按以下规则命名，方便维护者快速识别：
 
 - `update-basics-[主题]` 对应 `00-basics.md`
 - `add-company-[公司名]` 对应 `01-companies.md`
@@ -27,7 +30,12 @@
 - `update-paper-[论文名]` 对应 `03-papers.md`
 - `update-tools-[工具名]` 对应 `04-tools.md`
 
-### 3. 修改内容
+如果你不确定该提 [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls) 还是 [Issue](https://github.com/Octoday-Hub/Embodied-Al/issues)：
+
+- **PR**：适合直接改内容、补链接、修错字。
+- **Issue**：适合反馈问题、补充线索、先讨论再改。
+
+## 内容规范
 
 请遵循以下格式规范：
 
@@ -58,7 +66,7 @@
 - 提供**工具名称**、**类型**（仿真/控制/数据集/框架）、**官方链接**、**一句话简介**。
 - 标注是否开源及主要编程语言。
 
-### 4. 提交 PR
+## 提交前检查
 
 - 确保修改内容准确、有据可查。
 - 一个 PR 尽量只针对一个明确的修改。
