@@ -21,9 +21,11 @@ You can participate in the following ways:
 
 Create a new branch from `main`. Naming conventions:
 
-- `add-company-[company-name]`
-- `update-paper-[paper-title]`
-- `fix-typo-[file-name]`
+- `update-basics-[topic]` for `00-basics.md`
+- `add-company-[company-name]` for `01-companies.md`
+- `update-jobs-[company-name]` for `02-jobs.md`
+- `update-paper-[paper-title]` for `03-papers.md`
+- `update-tools-[tool-name]` for `04-tools.md`
 
 ### 3. Make Changes
 

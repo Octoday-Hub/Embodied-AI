@@ -112,7 +112,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🎒（5）进化：人才风向标
 
-> 当前共收录 `503 个岗位机会。
+> 当前共收录 `386` 个岗位机会。
 
 查看[招聘信息](topics/02-jobs.md)：
 
@@ -122,26 +122,24 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 | 国内机会 | 链接 | 国外机会 | 链接 |
 | :----------------- | ------------------------------------------------------------ | :---------------------------- | ------------------------------------------------------------ |
-| 大疆 | [投递](topics/02-jobs.md#jump-jobs-domestic-14) | 1X Technologies | [投递](topics/02-jobs.md#jump-jobs-overseas-01) |
 | 地平线 | [投递](topics/02-jobs.md#jump-jobs-domestic-15) | AIM Intelligent Machines | [投递](topics/02-jobs.md#jump-jobs-overseas-02) |
-| 傅利叶智能 | [投递](topics/02-jobs.md#jump-jobs-domestic-04) | Amazon Robotics | [投递](topics/02-jobs.md#jump-jobs-overseas-03) |
-| 节卡机器人 | [投递](topics/02-jobs.md#jump-jobs-domestic-02) | Apptronik | [投递](topics/02-jobs.md#jump-jobs-overseas-06) |
-| 千寻智能 | [投递](topics/02-jobs.md#jump-jobs-domestic-08) | Aurora | [投递](topics/02-jobs.md#jump-jobs-overseas-07) |
-| 上海人工智能实验室 | [投递](topics/02-jobs.md#jump-jobs-domestic-20) | Boston Dynamics | [投递](topics/02-jobs.md#jump-jobs-overseas-08) |
-| 商汤科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-23) | Cruise | [投递](topics/02-jobs.md#jump-jobs-overseas-09) |
-| 思谋科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-19) | Figure AI | [投递](topics/02-jobs.md#jump-jobs-overseas-10) |
-| 它石智航 | [投递](topics/02-jobs.md#jump-jobs-domestic-09) | Google DeepMind | [投递](topics/02-jobs.md#jump-jobs-overseas-13) |
-| 腾讯Robotics X | [投递](topics/02-jobs.md#jump-jobs-domestic-11) | Grit Ventures | [投递](topics/02-jobs.md#jump-jobs-overseas-14) |
-| 优必选科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-01) | HTX (Singapore) | [投递](topics/02-jobs.md#jump-jobs-overseas-15) |
-| 小米机器人实验室 | [投递](topics/02-jobs.md#jump-jobs-domestic-10) | Nuro | [投递](topics/02-jobs.md#jump-jobs-overseas-17) |
-| 小鹏汽车 | [投递](topics/02-jobs.md#jump-jobs-domestic-16) | NVIDIA | [投递](topics/02-jobs.md#jump-jobs-overseas-19) |
-| 星动纪元 | [投递](topics/02-jobs.md#jump-jobs-domestic-06) | OpenAI | [投递](topics/02-jobs.md#jump-jobs-overseas-21) |
-| 银河通用机器人 | [投递](topics/02-jobs.md#jump-jobs-domestic-07) | Stanford Robotics Lab | [投递](topics/02-jobs.md#jump-jobs-overseas-22) |
-| 宇树科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-03) | Tactus | [投递](topics/02-jobs.md#jump-jobs-overseas-23) |
-| 云深处科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-18) | Tesla Optimus | [投递](topics/02-jobs.md#jump-jobs-overseas-24) |
-| 智元机器人 | [投递](topics/02-jobs.md#jump-jobs-domestic-25) | Toyota Research Institute | [投递](topics/02-jobs.md#jump-jobs-overseas-26) |
-| 字节跳动 | [投递](topics/02-jobs.md#jump-jobs-domestic-12) | Waymo | [投递](topics/02-jobs.md#jump-jobs-overseas-27) |
-| 逐际动力 | [投递](topics/02-jobs.md#jump-jobs-domestic-05) | Wayve | [投递](topics/02-jobs.md#jump-jobs-overseas-28) |
+| 傅利叶智能 | [投递](topics/02-jobs.md#jump-jobs-domestic-04) | Amazon Robotics | [投递](topics/02-jobs.md#jump-jobs-overseas-06) |
+| 高仙机器人 | [投递](topics/02-jobs.md#jump-jobs-domestic-08) | Apptronik | [投递](topics/02-jobs.md#jump-jobs-overseas-07) |
+| 节卡机器人 | [投递](topics/02-jobs.md#jump-jobs-domestic-02) | Boston Dynamics | [投递](topics/02-jobs.md#jump-jobs-overseas-09) |
+| 极智嘉 Geek+ | [投递](topics/02-jobs.md#jump-jobs-domestic-01) | Figure AI | [投递](topics/02-jobs.md#jump-jobs-overseas-13) |
+| 千寻智能 | [投递](topics/02-jobs.md#jump-jobs-domestic-17) | Google DeepMind | [投递](topics/02-jobs.md#jump-jobs-overseas-14) |
+| 上海人工智能实验室 | [投递](topics/02-jobs.md#jump-jobs-domestic-20) | Grit Ventures | [投递](topics/02-jobs.md#jump-jobs-overseas-15) |
+| 商汤科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-23) | HTX | [投递](topics/02-jobs.md#jump-jobs-overseas-17) |
+| 思谋科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-19) | Nuro | [投递](topics/02-jobs.md#jump-jobs-overseas-19) |
+| 它石智航 | [投递](topics/02-jobs.md#jump-jobs-domestic-09) | NVIDIA | [投递](topics/02-jobs.md#jump-jobs-overseas-21) |
+| 小鹏汽车 | [投递](topics/02-jobs.md#jump-jobs-domestic-16) | OpenAI | [投递](topics/02-jobs.md#jump-jobs-overseas-22) |
+| 星动纪元 | [投递](topics/02-jobs.md#jump-jobs-domestic-06) | Tesla | [投递](topics/02-jobs.md#jump-jobs-overseas-26) |
+| 银河通用机器人 | [投递](topics/02-jobs.md#jump-jobs-domestic-07) | Waymo | [投递](topics/02-jobs.md#jump-jobs-overseas-28) |
+| 云深处科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-18) | Wayve | [投递](topics/02-jobs.md#jump-jobs-overseas-01) |
+| 宇树科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-03) |  |  |
+| 智元机器人 | [投递](topics/02-jobs.md#jump-jobs-domestic-25) |  |  |
+| 逐际动力 | [投递](topics/02-jobs.md#jump-jobs-domestic-05) |  |  |
+| 字节跳动 | [投递](topics/02-jobs.md#jump-jobs-domestic-12) |  |  |
 
 ## 🌱 社区共建
 
