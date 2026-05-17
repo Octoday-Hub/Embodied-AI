@@ -11,7 +11,7 @@ assignees: ''
 - [ ] 基础知识 (00-basics.md)
 - [ ] 公司库 (01-companies.md)
 - [ ] 招聘信息 (02-jobs.md)
-- [ ] 论文与代码库 (03-papers-code.md)
+- [ ] 论文与代码库 (03-papers.md)
 - [ ] 其他（请说明）：_______
 
 ## 修改说明
