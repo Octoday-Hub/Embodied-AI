@@ -20,6 +20,17 @@
 <a id="embodied-foundation-models" name="embodied-foundation-models"></a>
 ## Embodied Foundation Models
 
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.15153)** Pelican-Unified 1.0: A Unified Embodied Intelligence Model for Understanding, Reasoning, Imagination and Action. 北京人形推出的首个按统一原则训练的具身基础模型，将理解、推理、想象和动作生成集成到单一架构，在WorldArena想象评测上排名第一。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.14211)** ASH: Agents that Self-Hone via Embodied Learning. 通过从自生成轨迹学习逆动力学模型，从未标注网络视频中提取监督，实现长时程具身学习的自改进智能体框架。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.10332)** EmbodiSkill: Skill-Aware Reflection for Self-Evolving Embodied Agents. 面向具身智能体的技能自进化框架，通过技能感知反思区分技能内容错误与执行失误，ALFWorld上达93.28%任务成功率。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13403)** RotVLA: Rotational Latent Action for Vision-Language-Action Model. 基于SO(n)旋转潜在动作的VLA框架，提供连续性、组合性和与真实动作动力学对齐的几何结构，仅1.7B参数在LIBERO达98.2%。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13382)** BlockVLA: Accelerating Autoregressive VLA via Block Diffusion Finetuning. 通过块扩散范式将AR骨干适配为高效离散扩散策略，块内并行去噪，在LIBERO和SimplerEnv上实现3.3倍推理加速。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13778)** Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs. 推测推理框架，引入轻量草稿模型和主模型并行验证，将平均任务级延迟降至19.1ms，实现3倍加速，真实传送带分拣验证。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13276)** D-VLA: A High-Concurrency Distributed Asynchronous Reinforcement Learning Framework for Vision-Language-Action Models. 高并发分布式异步RL框架，引入"平面解耦"隔离仿真与优化，四线程异步Swimlane流水线实现全并行，万亿参数规模保持线性加速。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13757)** FrameSkip: Learning from Fewer but More Informative Frames in VLA Training. 数据层帧选择框架，基于动作变化、视觉一致性和任务进度评分帧，仅保留20%帧即达76.15%宏平均成功率，大幅提升VLA训练效率。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13548)** AttenA+: Rectifying Action Inequality in Robotic Foundation Models. 速度驱动动作注意力优先处理运动学关键段，即插即用框架，OpenVLA-OFT提升至98.6%，Franka上验证鲁棒性。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13105)** What to Ignore, What to React: Visually Robust RL Fine-Tuning of VLA Models (PAIR-VLA). 通过不变性项和敏感性目标解决视觉偏移，ManiSkill3上pi_0.5平均提升16.62%，OpenVLA提升9.10%。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13119)** Towards Long-horizon Embodied Agents with Tool-Aligned Vision-Language-Action Models (VLAs-as-Tools). 将长期任务分配给高层VLM和专用VLA工具族，引入工具对齐后训练，LIBERO-Long上pi_0.5提升4.8pp，RoboTwin提升23.1pp。
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.00078)** Being-H0.7: A Latent World-Action Model from Egocentric Videos. 提出Being-H0.7，引入世界模型，兼顾真实场景部署。
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.21741)** Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training. 利用动作条件世界模型在闭环想象环境中对通用机器人策略进行失败导向后训练，把人类纠正从真实执行迁移到可复用的模型内修正流程.
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.20627)** Occupancy Reward Shaping: Improving Credit Assignment for Offline Goal-Conditioned Reinforcement Learning. 离线目标条件强化学习的奖励塑形方法，从世界模型占据测度中提取时序几何结构，缓解稀疏奖励下的信用分配难题。
@@ -111,6 +122,9 @@
 
 <a id="manipulation" name="manipulation"></a>
 ## Manipulation & Teleoperation
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13452)** CUBic: Coordinated Unified Bimanual Perception and Control Framework. 统一双手感知控制框架，学习共享token化表示桥接感知和控制，独立性与协调性从结构中涌现，真实世界Agibot双臂验证。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13117)** SECOND-Grasp: Semantic Contact-guided Dexterous Grasping. 统一灵巧抓取框架，基于VLM语义推理生成粗略接触提议，语义几何一致性细化，DexGraspNet上已见/未见类别分别达98.2%/97.7%。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13632)** Guide, Think, Act: Interactive Embodied Reasoning in Vision-Language-Action Models (GTA-VLA). 交互式VLA框架，用户通过视觉线索引导策略，模型生成空间视觉思维链，SimplerEnv WidowX达81.2%成功率，单次视觉交互显著提升OOD性能。
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.00475)** MSACT: Multistage Spatial Alignment for Stable Low-Latency Fine Manipulation. 提出MSACT，聚焦双臂协作，引入扩散式建模，提升任务成功率。
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.00471)** Stereo Multistage Spatial Attention for Real-Time Mobile Manipulation Under Visual Scale Variation and Disturbances. 面向视觉-语言-动作的方法，聚焦鲁棒性，采用层次化设计，提升任务成功率。
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.00438)** thinking in text and images: interleaved vision--language reasoning traces for long-horizon robot manipulation. 面向视觉-语言-动作的方法，聚焦长时程任务，提供统一评测设置，提升任务成功率。
@@ -151,6 +165,7 @@
 <a id="locomotion" name="locomotion"></a>
 ## Locomotion
 
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.14417)** Before the Body Moves: Learning Anticipatory Joint Intent for Language-Conditioned Humanoid Control (DAJI). 面向语言条件人形机器人控制的层次化框架，学习预期性联合意图表征，显式编码 upcoming 接触变化与平衡准备，实现稳定的全身动作生成。
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.19734)** UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling. 统一人类到人形机器人的物理语言框架，通过视觉锚定的潜在动作分词器连接跨本体策略学习与世界建模.
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.08509)** Visually-grounded Humanoid Agents. 面向人形机器人的方法，关注embodied ai。
 - **[arXiv 2026年3月](https://arxiv.org/abs/2603.17927)** RoboForge: Physically Optimized Text-guided Whole-Body Locomotion for Humanoids. 物理优化的人形机器人全身运动生成框架，通过PP-Opt模块双向联合优化运动生成和物理执行，实现文本到物理可行运动的端到端转换.
@@ -160,6 +175,13 @@
 <a id="navigation-spatial-intelligence" name="navigation-spatial-intelligence"></a>
 ## Navigation & Spatial Intelligence
 
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.09387)** NEXUS: Continual Learning of Symbolic Constraints for Safe and Robust Embodied Planning. 面向安全鲁棒具身规划的符号约束持续学习框架。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.12624)** MindVLA-U1: VLA Beats VA with Unified Streaming Architecture for Autonomous Driving. 首个统一流式VLA自动驾驶架构，单次前向传播同时生成语言token和流匹配轨迹，在WOD-E2E上首次超越人类驾驶员(RFS 8.20 vs 8.13)。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.12622)** Action Emergence from Streaming Intent. 提出流式意图机制实现端到端自动驾驶中的动作涌现，VLA模型SI通过四步思维链解码意图token，驱动CFG引导流匹配动作头，首次在VLA中实现意图可控性。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.12625)** Driving Intents Amplify Planning-Oriented Reinforcement Learning (DIAL). 通过意图条件CFG扩展采样分布打破模式坍塌，结合多意图GRPO进行偏好RL，在WOD-E2E上RFS达9.14，首次超越人类演示和先前最佳。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.12735)** Toward a Blueprint for Generalizable Robot Autonomy (Unified Autonomy Stack). 开源统一自主栈，融合LiDAR/雷达/视觉/惯性感知，实现因子图定位、语义场景理解和多层安全导航，支持多种空中和地面机器人形态。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.12620)** VeGAS: Verifier-Guided Action Selection For Embodied Agents. 测试时框架，采样候选动作并用生成式验证器识别最可靠选择，LLM驱动的数据合成构建失败案例课程，在Habitat/ALFRED上最高提升36%相对性能。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13775)** RoboEvolve: Co-Evolving Planner-Simulator for Robotic Manipulation with Limited Data. VLM规划器和VGM模拟器耦合为共同进化循环，认知启发双阶段机制：白天探索+夜间巩固，仅500个无标签种子超越全监督基线(50倍数据减少)。
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.24707)** Passage-Aware Structural Mapping for RGB-D Visual SLAM. 面向导航与空间建图的感知方法。
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.22339)** flow4dgs-slam: optical flow-guided 4d gaussian splatting slam. 面向导航与空间建图的感知方法，聚焦效率，提升鲁棒性。
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.21693)** SLAM as a Stochastic Control Problem with Partial Information: Optimal Solutions and Rigorous Approximations. 将主动SLAM重写为部分信息下的随机控制问题，并给出带探索代价的统一建模与严格近似分析.
@@ -206,6 +228,10 @@
 
 <a id="simulation-sim2real" name="simulation-sim2real"></a>
 ## Simulators & Sim2Real
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13315)** Embodied Neurocomputation: A Framework for Interfacing Biological Neural Cultures with Scaled Task-Driven Validation. 面向生物神经培养与任务驱动验证的具身神经计算框架。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.14625)** Digital Twin Synchronization Over Mobile Embodied AI Network With Agentic Intelligence. 面向移动具身AI网络的数字孪生同步框架，通过智能体智能实现高保真虚拟表征与低信息年龄。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.12038)** OmniHumanoid: Streaming Cross-Embodiment Video Generation with Paired-Free Adaptation. 流式跨本体视频生成框架，无需配对数据即可适配不同机器人形态，支持连续视频生成。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.12654)** COSMIC: Concurrent Optimization of Structure, Material, and Integrated Control for robotic systems. 梯度共设计框架同时优化拓扑、材料分布和控制策略，嵌入混合拓扑变量到连续设计空间，在可微仿真器中集成神经网络控制器，发现超越分离设计的多样化运动策略。
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.25459)** GS-Playground: A High-Throughput Photorealistic Simulator for Vision-Informed Robot Learning. 面向机器人操作的系统，聚焦效率。
 
 - **[arXiv 2026年3月](https://arxiv.org/abs/2603.22039)** RAFL: Generalizable Sim-to-Real of Soft Robots with Residual Acceleration Field Learning. 残差加速度场学习框架，用可迁移的单元级校正动力学场增强基础模拟器，基于共享局部特征运行，与全局网格拓扑和离散化无关.
@@ -252,6 +278,7 @@
 <a id="benchmarks-evaluation" name="benchmarks-evaluation"></a>
 ## Benchmarks & Evaluation
 
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.12674)** Revealing Interpretable Failure Modes of VLMs (REVELIO). 系统发现VLM可解释失效模式的框架，结合多样性感知束搜索和高斯过程Thompson采样，在自动驾驶和室内机器人中揭示SOTA VLM的未报告漏洞。
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.00397)** MiniVLA-Nav v1: A Multi-Scene Simulation Dataset for Language-Conditioned Robot Navigation. 面向语言条件目标接近导航的多场景仿真数据集，提供RGB、深度、实例分割和专家动作标签，并包含同分布、模板改写与OOD类别等评测划分。
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.24033)** Event-based SLAM Benchmark for High-Speed Maneuvers. 提出面向高速机动场景的事件相机SLAM基准EvSLAM，覆盖多平台、极端光照与复杂运动模式，并设计衡量系统极限能力的统一评测指标。
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.23775)** Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms. 系统梳理VLA系统面临的安全威胁、开放挑战、评测方式与缓解机制，重点讨论长时程执行中的风险来源与安全保障路径。
@@ -291,6 +318,7 @@
 <a id="survey" name="survey"></a>
 ## Survey
 
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.12090)** World Action Models: The Next Frontier in Embodied AI. 首个系统综述世界动作模型(WAM)的综述论文，提出将预测状态建模与动作生成统一的分类体系，涵盖级联式和联合式两大范式。
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.23001)** Vision-Language-Action in Robotics: A Survey of Datasets, Benchmarks, and Data Engines. 围绕视觉-语言-动作的评测基准，聚焦长时程任务，提供统一评测设置，增强泛化能力。
 - **[arXiv 2026年2月](https://arxiv.org/abs/2602.04567)** Benchmarking Vision-Language-Action Models: A Survey. VLA模型基准测试综述.
 - **[Authorea 2026年2月](https://flamechallenge.authorea.com/doi/full/10.22541/au.177023340.02874343/)** Embodied AI Evaluation: A Survey on Evaluation of Embodied AI. 围绕感知-认知-规划-行动完整循环建立系统评估框架，系统总结代表性模拟器、数据集和基准，分析从结果导向到多维度过程质量与物理安全评估的转变.

@@ -1,7 +1,7 @@
 # 岗位与计划总览
 
 > 实时追踪具身智能领域的全职 / 实习 / 校招岗位。本列表持续更新，旨在连接人才与产业机会。
-> 当前共收录 `392` 个机会：国内 `203` 个、海外 `92` 个、专项 `97` 个。
+> 当前共收录 `503` 个机会：国内 `316` 个、海外 `92` 个、专项 `95` 个。
 
 - [💼 国内机会](#jobs-domestic)
 - [🧳 海外机会](#jobs-overseas)
@@ -14,320 +14,1322 @@
 
 <table>
   <tr>
-    <td>按首字母跳转：</td>
-    <td><a href="#jump-jobs-domestic-14"><kbd>D</kbd></a>&ensp;<a href="#jump-jobs-domestic-04"><kbd>F</kbd></a>&ensp;<a href="#jump-jobs-domestic-21"><kbd>K</kbd></a>&ensp;<a href="#jump-jobs-domestic-27"><kbd>P</kbd></a>&ensp;<a href="#jump-jobs-domestic-08"><kbd>Q</kbd></a>&ensp;<a href="#jump-jobs-domestic-19"><kbd>S</kbd></a>&ensp;<a href="#jump-jobs-domestic-09"><kbd>T</kbd></a>&ensp;<a href="#jump-jobs-domestic-01"><kbd>U</kbd></a>&ensp;<a href="#jump-jobs-domestic-06"><kbd>X</kbd></a>&ensp;<a href="#jump-jobs-domestic-03"><kbd>Y</kbd></a>&ensp;<a href="#jump-jobs-domestic-25"><kbd>Z</kbd></a></td>
+    <td>链接直达:</td>
+    <td><a href="#jump-jobs-domestic-15"><kbd>D</kbd></a>&ensp;<a href="#jump-jobs-domestic-04"><kbd>F</kbd></a>&ensp;<a href="#jump-jobs-domestic-08"><kbd>G</kbd></a>&ensp;<a href="#jump-jobs-domestic-02"><kbd>J</kbd></a>&ensp;<a href="#jump-jobs-domestic-17"><kbd>Q</kbd></a>&ensp;<a href="#jump-jobs-domestic-20"><kbd>S</kbd></a>&ensp;<a href="#jump-jobs-domestic-09"><kbd>T</kbd></a>&ensp;<a href="#jump-jobs-domestic-16"><kbd>X</kbd></a>&ensp;<a href="#jump-jobs-domestic-07"><kbd>Y</kbd></a>&ensp;<a href="#jump-jobs-domestic-25"><kbd>Z</kbd></a></td>
   </tr>
 </table>
 
-<a id="jump-jobs-domestic-14"></a>
 
-### 大疆
+<table style="width: 100%; border-collapse: collapse;">
+<thead>
+<tr>
+<th style="width: 20%; min-width: 120px; padding: 10px 12px; text-align: left; border-bottom: 2px solid #ddd;">公司</th>
+<th style="width: 35%; min-width: 120px; padding: 10px 12px; text-align: left; border-bottom: 2px solid #ddd;">岗位</th>
+<th style="width: 12%; min-width: 84px; padding: 10px 12px; text-align: left; border-bottom: 2px solid #ddd;">类型</th>
+<th style="width: 15%; min-width: 90px; padding: 10px 12px; text-align: left; border-bottom: 2px solid #ddd;">地点</th>
+<th style="width: 18%; min-width: 120px; padding: 10px 12px; text-align: center; border-bottom: 2px solid #ddd;">投递</th>
+</tr>
+</thead>
+<tbody>
+<tr id="jump-jobs-domestic-15">
+<td rowspan="6" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>地平线</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">具身生成方向实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69a940618e515379dc081ec9&postType=campus" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人运动控制算法实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69eefaa71f17c37251077100&postType=campus" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">Linux / QNX 底层软件开发实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69fecb4fe49e0e559f6213e8&postType=campus" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人运动控制算法实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69eefaa71f17c37251077100&postType=campus" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">感知算法实习生(OCC方向)</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69a940618e515379dc081eb9&postType=campus" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">测试开发工程师实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69cc9708e49e0e559feff72f&postType=campus" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-domestic-04">
+<td rowspan="9" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>傅利叶智能</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">初级产品经理（智能硬件）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">上海/深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/fftai/126181?locale=zh-CN#/job/42689210-e9a6-45e0-a928-a190c1ec6293" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">人形机器人嵌入式软件工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/fftai/126181?locale=zh-CN#/job/69423f37-33ff-4d7b-b82c-7ba92f86ae81" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人遥操作工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/fftai/126181?locale=zh-CN#/job/433ede87-c4ab-4d55-b4f2-95c1a6bec84f" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人硬件工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/fftai/126181?locale=zh-CN#/job/929134e1-3f88-4045-a5c3-afe72f627875" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人电机电磁工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/fftai/126181?locale=zh-CN#/job/95c6a5e5-7cd1-4502-9317-c36567512f45" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人机械研发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/fftai/126181?locale=zh-CN#/job/1fa09afa-6a89-49bf-91f2-48091ba19d6e" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机械结构工程师（外骨骼）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/fftai/126181?locale=zh-CN#/job/06cdcaf4-3c99-413a-960b-a59d455d396b" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">人形机器人工业设计工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/fftai/126181?locale=zh-CN#/job/d8d628ab-e31f-401b-a665-faacf2ce25f8" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">人形机器人工业设计专家</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/fftai/126181?locale=zh-CN#/job/ad8ad81e-8710-47c9-9367-cf7d59ae6957" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-domestic-08">
+<td rowspan="9" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>高仙机器人</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">算法架构师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6629d2ce1eb8053acd8065ac/pb/posDetail.html?postId=68ac2772b8fdf84cde4e83da&postType=society" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">测试工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6629d2ce1eb8053acd8065ac/pb/posDetail.html?postId=67612b836202cc219c3dfa22&postType=society" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">C++架构师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6629d2ce1eb8053acd8065ac/pb/posDetail.html?postId=67453c311c240e01910782ac&postType=society" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">感知算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6629d2ce1eb8053acd8065ac/pb/posDetail.html?postId=6724a3921c240e0191d27749&postType=society" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">软件项目经理</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6629d2ce1eb8053acd8065ac/pb/posDetail.html?postId=6732be356202cc05472e8f91&postType=society" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">云平台质量与效率工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6629d2ce1eb8053acd8065ac/pb/posDetail.html?postId=66c86be21eb80543256cc9db&postType=society" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">硬件产品经理</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6629d2ce1eb8053acd8065ac/pb/posDetail.html?postId=66e552931eb8056010ca7c2d&postType=society" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">路径规划与控制算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6629d2ce1eb8053acd8065ac/pb/posDetail.html?postId=66585c2f1c240e071a6acdb1&postType=society" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">测试实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6629d2ce1eb8053acd8065ac/pb/posDetail.html?postId=673181a46202cc05472cb4d9&postType=society" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-domestic-02">
+<td rowspan="18" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>节卡机器人</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">机械系统研究员</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://www.jaka.com/zh/position" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">嵌入式系统研究员</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.jaka.com/zh/position" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能算法研究员（感知方向）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.jaka.com/zh/position" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能算法研究员（控制方向）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.jaka.com/zh/position" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">控制软件开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.jaka.com/zh/position" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">控制算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.jaka.com/zh/position" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">视觉算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.jaka.com/zh/position" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">固件工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.jaka.com/zh/position" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">硬件工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.jaka.com/zh/position" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">前端开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.jaka.com/zh/position" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">产品工程师（项目管理运营方向）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.jaka.com/zh/position" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">产品工程师(产品运营方向)</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.jaka.com/zh/position" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">电气工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.jaka.com/zh/position" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">工业设计工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.jaka.com/zh/position" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机械工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.jaka.com/zh/position" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">应用开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.jaka.com/zh/position" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">助理工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">常州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.jaka.com/zh/position" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">产品市场管培生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.jaka.com/zh/position" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-domestic-01">
+<td rowspan="69" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>极智嘉 Geek+</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">3D感知算法工程师（部署优化方向）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/ea5138d0-82f0-4bc2-ae8c-d1938753dddc" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">3D激光SLAM/3D点云感知算法</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/debca098-c339-4f5a-ac51-90c0c0bc626a" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">C++机器人软件工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市 / 安徽合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/6358109f-236c-47a6-aad5-5fe8a45e8b4a" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">Senior Software Architect</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/63f9803b-d613-40d7-b581-06798f55a3b0" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">VLA算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/c266791a-6ff9-41ff-ac11-927d041decb0" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">世界模型算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/eaf69837-64ce-4c76-b6cf-b6fbc62dd5c2" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">产品工程-机械臂</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/b08a191a-faf6-492c-a06e-31f140d2db90" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">产品工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/aa208cef-b103-441e-bff5-0118a0d62d88" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">产品测试工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/5c2f6fa5-3715-46d9-b291-bde84df0e0ed" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">仿真平台开发Leader</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/78932dbc-b3d3-44e2-9857-0313cec29aba" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">全栈开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽合肥市 / 北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/ce6d54e5-bfd9-4ce1-8789-c03335891cf7" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身机器人数采/数据leader</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/671007b0-1b3b-4de2-9f5b-59330cf71c0e" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身机器人整机测试工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/05110c5d-f003-4407-83d4-3ad823b2b2fa" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身机器人灵巧手Leader</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/8b189741-5882-42a4-996e-6169a55e7868" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身机器人软件系统架构Leader</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/04185f75-2763-44fe-9886-118f801da906" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">前端工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/40087c09-5790-435a-a4f9-429522d16b73" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">区域渠道经理（华东）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽合肥市 / 上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/ea92371e-a557-4582-a50c-6bb773c39634" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">后端开发工程师（数据平台）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/a440c39f-002c-4c7f-bf8a-8f414f1686ca" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">壳体结构工程师-轮臂式机器人</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/95c67513-de31-444b-99ac-0d8f3ade0ca8" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">大模型算法与应用开发</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/1b544101-5bb2-4dd5-8639-f99734f48a9c" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">工业设计师-轮臂式机器人</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/9f19940d-9939-4a13-9b34-e0c9e46b5aec" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">操作算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/b4167640-44cc-4429-84c7-5a142b1c1c84" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">数据采集工厂运营负责人</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/fe5cf393-0ab0-48e3-9929-b789d3aec1ac" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">整机结构工程师-轮臂式机器人</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/03e4652a-3dca-4389-8e68-472ead545ba9" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">方案规划工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">江苏苏州市 / 上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/0c763234-3217-4437-95f7-70a94221464f" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">方案规划负责人</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市 / 江苏苏州市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/4d891400-e629-4190-a9d7-71d12c745e83" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人产品经理</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/e5b1b574-fc55-4d2b-8b86-9dd38fd485f9" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人仿真与运控工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/331f9227-e277-496e-8b2a-845739535625" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人控制算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/3876668f-c1b6-4061-89df-493791c6f469" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人控制软件工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/64ebf97f-611e-4ed6-b476-4cc1aa5b94e6" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人数采软件工程师-轮臂式机器人</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/55a7b6cf-823c-4a1b-9069-ee5dca2ce942" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人软件工程师(AMR方向)-轮臂式机器人</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/f7601370-026e-489d-b725-25b7f23ddf3d" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人软件工程师-机械臂拣选方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/60228ac2-6f9f-49b9-94cf-114b4a04e8f7" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人软件工程师（数采设备）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/d1aea566-4bde-4c82-a28f-3844afd2401a" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人软件开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/9dcc4cf6-3af9-4f63-b3e6-97c2fe6a0c09" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人运动规划算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/84a181b3-39ff-4b79-943d-a8415e5a2bad" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机械工程师(精密机械&材料)-机械臂</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/85d18c70-6775-49db-9dcf-2ef877b15947" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机械工程师-HF</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽合肥市 / 北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/5c020252-835d-426c-813a-f2c5f71fd9bf" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机械结构工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/499006a0-1110-4225-bb4c-3c9a2cc4236b" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机械臂应用工程师（实施方向）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/2f6e9b56-15a6-41c7-a575-6165b591d565" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机械臂算法专家-轮臂式机器人</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/862d1bfa-d0b4-4642-9075-080b5c8fbb65" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机电控制专家</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/62835449-67e4-4faa-a96b-9c5a6ab4a84a" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">核心部件结构工程师-机械臂</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/c5f21db4-7484-45a0-a647-e5227ae50a2c" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">核心部件结构工程师-灵巧手</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/8ddf1905-6041-4725-a1d7-26b2a7a93e54" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">电机控制硬件工程师-轮臂式机器人</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/7a6353fc-f9e5-4784-bf9e-cc894a683a20" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">电机控制软件工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/734636f1-ed9d-4ecb-8300-f20b03c6aa0a" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">电气工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/4357f0f3-bfe3-43b4-a5e1-5639146a725b" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">电气工程师-AMR-北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/71c57407-08c2-49a0-ade1-ad0faa78b8d6" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">电气工程师-AMR-合肥</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/20369a07-df12-40a6-83d3-dd0873b5792a" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">电气工程师-机械臂</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/5d0be579-44a7-42b8-a466-c37d483f7248" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">电气工程师-机械臂-合肥</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/a8f5e82a-28cc-40d5-b758-22c702dee3d1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">电气工程师-轮臂机器人</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/af923771-8c37-41e3-a513-21bdbf78fdb1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">硬件工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市 / 安徽合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/2eb3335d-0ef8-41a6-95ed-6aeedde731a5" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">硬件测试工程师-AMR方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/c6c48bd5-0a6a-4369-aa9e-660bfb09fd3d" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">硬件研发项目经理</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/14170775-c5ef-447e-bc2c-54229da94e73" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">算法优化与部署工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/c9f1b9d0-62a0-41f0-bce5-b074fb373a9b" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">系统测试工程师-轮臂式机器人</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/1fcf04c7-9c14-40d9-bdb2-450a198e2e1d" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">视觉SLAM算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/30cf10f0-e766-47c5-b7f4-3d3983ec5a12" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">视觉算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/f4f621a7-02d2-4884-9b03-272cf13659ef" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">视觉算法应用开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/cbd4114f-e7c1-4d9a-b829-db850009cc29" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">解决方案产品经理</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/17242173-f2fe-4917-8060-d116fa3fb289" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">解决方案产品经理-机械臂</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/59ced781-4eb1-42c8-a99d-f4655e69fbb3" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">运动控制算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/0abe76eb-4d05-4a68-8287-95bf6338e0c3" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">销售经理</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">广东广州市 / 上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/6620a4e4-bf18-49e8-b058-76e76b1edbaa" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">销售经理（华东）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">江苏苏州市 / 上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/af9ff712-71c7-451e-a684-7adfe2cec429" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">项目经理</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市 / 安徽合肥市 / 广东广州市 / 江苏苏州市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/1758aeb1-7816-4e71-9d43-92b2ce7bd9c6" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">高级嵌入式软件工程师-轮臂式机器人</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/b15c7ff3-b427-486c-ab90-1633e4b03749" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">高级硬件工程师-轮臂机器人</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/2cf7f936-98df-4eba-8df4-64ad570c86fb" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">视觉感知算法实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/apply/geekplus/5030#/job/cefcd59c-0258-4f9d-bb96-c3bc18ceb555" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-domestic-17">
+<td rowspan="15" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>千寻智能</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">遥操作系统工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">未标注</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://www.spirit-ai.com/career#:~:text=%E9%81%A5%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%B7%A5%E7%A8%8B%E5%B8%88" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身模型推理&部署工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">未标注</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.spirit-ai.com/career#:~:text=%E5%85%B7%E8%BA%AB%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%26%E9%83%A8%E7%BD%B2%E5%B7%A5%E7%A8%8B%E5%B8%88" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身模型训练加速工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">未标注</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.spirit-ai.com/career#:~:text=%E5%85%B7%E8%BA%AB%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E5%8A%A0%E9%80%9F%E5%B7%A5%E7%A8%8B%E5%B8%88" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">数据算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">未标注</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.spirit-ai.com/career#:~:text=%E6%95%B0%E6%8D%AE%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身模型算法工程师（预训练）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">未标注</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.spirit-ai.com/career#:~:text=%E5%85%B7%E8%BA%AB%E6%A8%A1%E5%9E%8B%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%EF%BC%88%E9%A2%84%E8%AE%AD%E7%BB%83%EF%BC%89" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身模型算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">未标注</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.spirit-ai.com/career#:~:text=%E5%85%B7%E8%BA%AB%E6%A8%A1%E5%9E%8B%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器学习系统工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">未标注</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.spirit-ai.com/career#:~:text=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E7%BB%9F%E5%B7%A5%E7%A8%8B%E5%B8%88" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器学习平台全栈工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">未标注</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.spirit-ai.com/career#:~:text=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%B9%B3%E5%8F%B0%E5%85%A8%E6%A0%88%E5%B7%A5%E7%A8%8B%E5%B8%88" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">高级力控算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">未标注</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.spirit-ai.com/career#:~:text=%E9%AB%98%E7%BA%A7%E5%8A%9B%E6%8E%A7%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">硬件开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">未标注</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.spirit-ai.com/career#:~:text=%E7%A1%AC%E4%BB%B6%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">嵌入式软件工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">未标注</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.spirit-ai.com/career#:~:text=%E5%B5%8C%E5%85%A5%E5%BC%8F%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%B8%88" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机械设计工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">未标注</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.spirit-ai.com/career#:~:text=%E6%9C%BA%E6%A2%B0%E8%AE%BE%E8%AE%A1%E5%B7%A5%E7%A8%8B%E5%B8%88" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">运控算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">未标注</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.spirit-ai.com/career#:~:text=%E8%BF%90%E6%8E%A7%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">导航算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">未标注</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.spirit-ai.com/career#:~:text=%E5%AF%BC%E8%88%AA%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">软件开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">未标注</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.spirit-ai.com/career#:~:text=%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-domestic-20">
+<td rowspan="6" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>上海人工智能实验室</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">具身智能操作算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://www.shlab.org.cn/joinus/detail/7587270254460455206?mode=social" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.shlab.org.cn/joinus/detail/7617693362335025418?mode=social" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">导航感知大模型算法工程师-具身智能中心</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.shlab.org.cn/joinus/detail/7551681677601278259?mode=social" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能开放平台产品经理</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.shlab.org.cn/joinus/detail/7453857240626874662?mode=social" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">全栈开发实习生 — 具身智能中心</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.shlab.org.cn/joinus/detail/7604704515585296694?jobFunction=&jobType=&keyword=&location=&mode=campus&subject=" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能/强化学习研究实习生-AI for Science中心</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.shlab.org.cn/joinus/detail/7576254442812999974?jobFunction=&jobType=&keyword=&location=&mode=campus&subject=" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-domestic-23">
+<td rowspan="3" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>商汤科技</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">26届AI领航员-具身智能-算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京/上海/深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=691d8db7e3842960d19c3af4&postType=campus" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">26届AI领航员-具身智能-结构设计工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=691d8eeed14e3214542f3970&postType=campus" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">26届AI领航员-研究院-算法研究员</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=688748c643ff2844337fbbd7&postType=campus" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-domestic-19">
+<td rowspan="7" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>思谋科技</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">机器人软件工程师-校招/实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">校招/实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">深圳/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://app.mokahr.com/m/campus-recruitment/smartmore/40506#/job/1758bda9-1d08-48c7-9930-10105329a460" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">算法工程师（机器视觉方向）-校招/实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招/实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">深圳/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/m/campus-recruitment/smartmore/40506#/job/786a211a-b117-4df2-91a8-736f14ad79e2" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">算法工程师（强化学习方向）-校招/实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招/实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">深圳/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/m/campus-recruitment/smartmore/40506#/job/cf270fc1-d224-425f-912a-fc0b05c29b1c" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">应用开发工程师（C++）-校招/实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招/实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/m/campus-recruitment/smartmore/40506#/job/af7f8a9b-1503-4de3-8da0-c11dbba8d3f0" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机械工程师（机械臂方向）-26届</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/m/campus-recruitment/smartmore/40506#/job/9e72db2c-1da0-44b9-a635-ca345be6565f" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">产品经理（具身智能方向）-26届</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/m/campus-recruitment/smartmore/40506#/job/8633b3da-6f87-4635-8375-761f33c3677d" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">全栈工程师-校招/实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招/实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/m/campus-recruitment/smartmore/40506#/job/350896a6-68b5-46e4-9d62-df7597edbc50" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-domestic-09">
+<td rowspan="7" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>它石智航</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">软件产品经理</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://tarsrobot.jobs.feishu.cn/index/position/7640067508057770249/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">自动化解决方案经理</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://tarsrobot.jobs.feishu.cn/index/position/7640010029453609225/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人系统工程师（规划控制方向）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://tarsrobot.jobs.feishu.cn/index/position/7639998357720762660/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人SLAM算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://tarsrobot.jobs.feishu.cn/index/position/7639682497223510335/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人算法工程师-端到端方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://tarsrobot.jobs.feishu.cn/index/position/7639680215601908010/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人电机控制算法专家</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://tarsrobot.jobs.feishu.cn/index/position/7621020710669355310/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人软件测试工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://tarsrobot.jobs.feishu.cn/index/position/7638598363231357247/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-domestic-16">
+<td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>小鹏汽车</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">具身智能运控算法实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京/上海/深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://xiaopeng.jobs.feishu.cn/campus/m/position/detail/7619138376453114158" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能算法实习生(Manipulation)</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海/深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaopeng.jobs.feishu.cn/campus/m/position/detail/7606269238881323315" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-domestic-06">
+<td rowspan="8" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>星动纪元</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">具身智能大模型算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://k0fqxcszc9.jobs.feishu.cn/index/position/7550252790111750427/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人强化学习（灵巧手方向）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://k0fqxcszc9.jobs.feishu.cn/index/position/7595512286324787506/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">遥操作系统工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://k0fqxcszc9.jobs.feishu.cn/index/position/7595512081555212571/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人规控算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://k0fqxcszc9.jobs.feishu.cn/index/position/7595511597217450259/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">技术产品经理</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://k0fqxcszc9.jobs.feishu.cn/index/position/7573601627207141674/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">Linux系统软件及BSP驱动工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://k0fqxcszc9.jobs.feishu.cn/index/position/7571785644297521459/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">MCU嵌入式软件工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://k0fqxcszc9.jobs.feishu.cn/index/position/7571783296507824435/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">高级云服务开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://k0fqxcszc9.jobs.feishu.cn/index/position/7597643247405582619/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-domestic-07">
+<td rowspan="15" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>银河通用机器人</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">人形强化学习算法工程师（26届）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/572d9f5c-1340-47b0-8aa4-c4b01b3b79d9" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身操作算法工程师(26届)</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/b6d8e177-18c5-419f-af0a-13ed36c5df31" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">重定向算法实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/5c53daa9-38b5-4ef0-9646-0ac65e25b4b7" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">人形机器人强化学习算法实习生（机器人操作方向）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">苏州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/30b0c8f5-dbdd-4f43-b24b-678c0543dd0e" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身 VLA 大模型实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/02e56e93-01ba-4717-9ed7-b407e403a6a5" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">灵巧手操作算法实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/50716205-bf26-4cda-afbb-327f0ee38fa2" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">足式强化学习控制算法实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/a1367571-024b-4d61-8731-39d4b170e980" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能算法实习生-移动操作方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/a42fe642-b9f4-4b5c-8ac6-733338f3ae33" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身多模态大模型算法实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/a52d3610-5caf-4e5f-8088-babf0009b519" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身大模型数据和算法（实习）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/c4e701ff-b9aa-4dbc-a749-98f65d81245e" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">人形机器人工程开发实习生(长期)</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/cebfd57c-ef58-42ff-99ed-ceceb2754451" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能科研实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/d5a1d10d-9135-4bf4-85f1-ccacf2671fda" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人物理仿真实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/26e28271-1fb1-4bf2-a91e-7fc4d20e7e60" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人控制算法实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/38c300d1-2214-462d-82b2-fc4f847cbcf3" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">仿真研发实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/3b46f4ce-be71-46ae-9742-606db3c30eb7" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-domestic-18">
+<td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>云深处科技</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">算法工程师（具身导航）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">未标注</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://app135149.eapps.dingtalkcloud.com/campus-recruitment/yunshenchu/#/job/e3c336dc-2714-4185-99b2-aad2616ff10f" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">算法工程师（模仿学习）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">未标注</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app135149.eapps.dingtalkcloud.com/campus-recruitment/yunshenchu/#/job/5b223e0a-9d66-46c0-88fd-bc48e8d48d51" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-domestic-03">
+<td rowspan="15" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>宇树科技</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">具身智能软件工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://www.unitree.com/cn/position/2047604504966201344/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">数据管线工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.unitree.com/cn/position/2046858311420084224/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">AI Infra 工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.unitree.com/cn/position/2046857577249112064/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身数据评估工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.unitree.com/cn/position/2046858623123980288/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人测试工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.unitree.com/cn/position/1968168294171017216/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">嵌入式软件工程师（Linux）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.unitree.com/cn/position/1569898663562444800/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">嵌入式软件开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.unitree.com/cn/position/1692020901257674752/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">深度强化学习算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.unitree.com/cn/position/1692018892890701824/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">C++开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.unitree.com/cn/position/1704702421768339456/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机械工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.unitree.com/cn/position/1526097908544307200/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人运动控制算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.unitree.com/cn/position/1526050171207548928/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">嵌入式硬件工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.unitree.com/cn/position/1570238458192986112/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">AI算法工程师（大模型）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.unitree.com/cn/position/1692021510983647232/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">高级机电控制工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.unitree.com/cn/position/1570236064524664832/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">激光SLAM算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.unitree.com/cn/position/1569900302872608768/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-domestic-25">
+<td rowspan="10" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>智元机器人</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">C++软件工程师（算法方向）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://agirobot.jobs.feishu.cn/campusrecruitment/position/7631934883878783278/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身 Agent 算法工程师 / 专家</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://agirobot.jobs.feishu.cn/campusrecruitment/position/7631851350171273478/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">Agent算法工程师-灵犀</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://agirobot.jobs.feishu.cn/campusrecruitment/position/7631848833064995115/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能基础模型研发工程师/专家</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://agirobot.jobs.feishu.cn/campusrecruitment/position/7611419025646684443/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">多模态生成动作大模型研究员</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">深圳/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://agirobot.jobs.feishu.cn/campusrecruitment/position/7610272353105266986/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">灵巧手模型算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://agirobot.jobs.feishu.cn/campusrecruitment/position/7637132026886162714/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">感知融合算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://agirobot.jobs.feishu.cn/campusrecruitment/position/7623723736328145203/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">空间智能算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://agirobot.jobs.feishu.cn/campusrecruitment/position/7623719991930407178/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">感知融合算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://agirobot.jobs.feishu.cn/campusrecruitment/position/7611826275519138054/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">视觉SLAM实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://agirobot.jobs.feishu.cn/campusrecruitment/position/7624485773874956607/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-domestic-05">
+<td rowspan="6" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>逐际动力</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">产品助理</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://career.limxdynamics.com/index/position/7512732459647027493/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">Linux BSP工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://career.limxdynamics.com/index/position/7639562069297793286/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">产品预研结构实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://career.limxdynamics.com/index/position/7637735429790681382/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能售前解决方案经理</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://career.limxdynamics.com/index/position/7633702013930359083/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能项目经理</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://career.limxdynamics.com/index/position/7630721644181686538/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">硬件专家（机器人方向）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://career.limxdynamics.com/index/position/7626232058113739051/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-domestic-12">
+<td rowspan="6" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>字节跳动</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">具身智能大模型负责人-Seed</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://jobs.bytedance.com/society/position/detail/7512294803342838034" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能3D仿真专家-Seed</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://jobs.bytedance.com/society/position/detail/7512294778282035464" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人多模态交互算法研究员-Seed</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://jobs.bytedance.com/society/position/detail/7470365891252029704" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人运动控制算法工程师-Seed</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://jobs.bytedance.com/society/position/detail/6740240488294516996" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">角色化模型强化学习算法工程师-Seed</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://jobs.bytedance.com/campus/position/7538400864399575303/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人多模态大模型算法实习生-Seed</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://jobs.bytedance.com/campus/position/7472653650961615122/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+</tbody>
+</table>
 
-- <strong>中/高级计算机视觉算法工程师（动态感知）</strong>&#8203;｜`社招`｜深圳｜[投递→](https://we.dji.com/zh-CN/position/detail?positionId=1888185889855721472)
-- <strong>中/高级计算机视觉算法工程师</strong>｜`社招`｜北京/上海/深圳｜[投递→](https://we.dji.com/zh-CN/position/detail?positionId=1888185889855721472)
-- <strong>中/高级决策规划算法工程师（NN方向）</strong>&#8203;｜`社招`｜深圳｜[投递→](https://we.dji.com/zh-CN/position/detail?positionId=1888185889855721472)
-- <strong>机器人算法工程师</strong>｜`校招`｜上海/深圳｜[投递→](https://we.dji.com/zh-CN/campus/position)
-- <strong>AI实习生-决策与规划算法</strong>｜`实习`｜上海/深圳｜[投递→](https://we.dji.com/zh-CN/campus/position)
-- <strong>AI实习生-机器学习算法</strong>｜`实习`｜上海/深圳｜[投递→](https://we.dji.com/zh-CN/campus/position)
-
-<a id="jump-jobs-domestic-15"></a>
-
-### 地平线
-
-- <strong>地瓜机器人-具身智能高级算法工程师</strong>｜`社招`｜北京｜[投递→](https://horizon-campus.hotjob.cn/)
-- <strong>地瓜机器人-具身仿真数据工程师</strong>｜`社招`｜北京｜[投递→](https://horizon-campus.hotjob.cn/)
-- <strong>地瓜机器人-全栈开发工程师（RDK）</strong>&#8203;｜`社招`｜北京｜[投递→](https://horizon-campus.hotjob.cn/)
-- <strong>世界模型算法工程师</strong>｜`社招`｜北京｜[投递→](https://horizon-campus.hotjob.cn/)
-- <strong>世界模型算法研究实习生-具身智能方向</strong>｜`实习`｜北京/上海｜[投递→](https://horizon-campus.hotjob.cn/)
-- <strong>日常实习生（算法/软件/测试等）</strong>&#8203;｜`实习`｜多城市｜[投递→](https://horizon-campus.hotjob.cn/)
-
-<a id="jump-jobs-domestic-04"></a>
-
-### 傅利叶智能
-
-- <strong>嵌入式软件工程师</strong>｜`社招`｜上海｜[投递→](https://app.mokahr.com/social-recruitment/fftai/0548919223#/job/69423f37-33ff-4d7b-b82c-7ba92f86ae81)
-- <strong>机器人遥操工程师</strong>｜`社招`｜上海｜[投递→](https://app.mokahr.com/social-recruitment/fftai/0548919223#/job/433ede87-c4ab-4d55-b4f2-95c1a6bec84f)
-- <strong>硬件工程师</strong>｜`社招`｜上海｜[投递→](https://app.mokahr.com/social-recruitment/fftai/0548919223#/job/929134e1-3f88-4045-a5c3-afe72f627875)
-- <strong>工业设计工程师</strong>｜`社招`｜上海｜[投递→](https://app.mokahr.com/social-recruitment/fftai/0548919223#/job/d8d628ab-e31f-401b-a665-faacf2ce25f8)
-- <strong>工业设计专家（人形机器人）</strong>｜`社招`｜上海｜[投递→](https://app.mokahr.com/social-recruitment/fftai/0548919223#/job/ad8ad81e-8710-47c9-9367-cf7d59ae6957)
-- <strong>电机电磁工程师</strong>｜`社招`｜上海｜[投递→](https://app.mokahr.com/social-recruitment/fftai/0548919223#/job/95c6a5e5-7cd1-4502-9317-c36567512f45)
-- <strong>机械研发工程师</strong>｜`社招`｜上海｜[投递→](https://app.mokahr.com/social-recruitment/fftai/0548919223#/job/1fa09afa-6a89-49bf-91f2-48091ba19d6e)
-- <strong>机械结构工程师（外骨骼）</strong>｜`社招`｜上海｜[投递→](https://app.mokahr.com/social-recruitment/fftai/0548919223#/job/06cdcaf4-3c99-413a-960b-a59d455d396b)
-
-<a id="jump-jobs-domestic-21"></a>
-
-### 旷视科技
-
-- <strong>具身智能算法系统方向研究员</strong>｜`社招/校招`｜北京/上海｜[投递→](https://app.mokahr.com/m/campus_apply/megviihr/38642#/jobs)
-- <strong>具身智能大模型算法研究员</strong>｜`社招/校招`｜北京/上海｜[投递→](https://app.mokahr.com/m/campus_apply/megviihr/38642#/jobs)
-- <strong>自动驾驶深度学习部署工程师</strong>｜`实习`｜北京｜[投递→](https://app.mokahr.com/m/campus_apply/megviihr/38642#/jobs)
-- <strong>具身智能算法实习生</strong>｜`实习`｜北京/成都｜[投递→](https://app.mokahr.com/m/campus_apply/megviihr/38642#/jobs)
-
-<a id="jump-jobs-domestic-27"></a>
-
-### 普渡科技
-
-- <strong>端到端模型算法工程师（机器人赛道）</strong>｜`校招`｜成都｜[投递→](https://pudutech.zhiye.com/campus)
-- <strong>定位算法工程师（机器人赛道）</strong>｜`校招`｜成都｜[投递→](https://pudutech.zhiye.com/campus)
-- <strong>端到端模型算法工程师（机器人赛道）</strong>｜`校招`｜深圳｜[投递→](https://pudutech.zhiye.com/campus)
-- <strong>安卓开发工程师（机器人赛道）</strong>｜`校招`｜深圳｜[投递→](https://pudutech.zhiye.com/campus)
-- <strong>系统软件工程师（机器人赛道）</strong>｜`校招`｜深圳｜[投递→](https://pudutech.zhiye.com/campus)
-- <strong>安卓开发工程师（机器人赛道）</strong>｜`校招`｜深圳｜[投递→](https://pudutech.zhiye.com/campus)
-- <strong>安卓开发工程师（机器人赛道）</strong>｜`校招`｜成都｜[投递→](https://pudutech.zhiye.com/campus)
-- <strong>机器人感知算法工程师</strong>｜`校招`｜深圳｜[投递→](https://pudutech.zhiye.com/campus)
-- <strong>golang开发（IOT方向）</strong>｜`校招`｜深圳｜[投递→](https://pudutech.zhiye.com/campus)
-- <strong>C++工程师（机器人赛道）</strong>｜`校招`｜深圳｜[投递→](https://pudutech.zhiye.com/campus)
-- <strong>后端工程师（机器人赛道）</strong>｜`校招`｜深圳｜[投递→](https://pudutech.zhiye.com/campus)
-- <strong>前端工程师（机器人赛道）</strong>｜`校招`｜深圳｜[投递→](https://pudutech.zhiye.com/campus)
-- <strong>数据开发工程师（机器人赛道）</strong>｜`校招`｜深圳｜[投递→](https://pudutech.zhiye.com/campus)
-- <strong>硬件工程师（机器人赛道）</strong>｜`校招`｜成都｜[投递→](https://pudutech.zhiye.com/campus)
-- <strong>硬测工程师（机器人赛道）</strong>｜`校招`｜深圳｜[投递→](https://pudutech.zhiye.com/campus)
-
-<a id="jump-jobs-domestic-08"></a>
-
-### 千寻智能
-
-- <strong>遥操作系统工程师</strong>｜`社招`｜北京｜[投递→](https://www.spirit-ai.com/career)
-- <strong>具身模型推理&部署工程师</strong>｜`社招`｜北京｜[投递→](https://www.spirit-ai.com/career)
-- <strong>具身模型训练加速工程师</strong>｜`社招`｜北京｜[投递→](https://www.spirit-ai.com/career)
-- <strong>数据算法工程师</strong>｜`社招`｜北京｜[投递→](https://www.spirit-ai.com/career)
-- <strong>具身模型算法工程师（预训练）</strong>｜`社招`｜北京｜[投递→](https://www.spirit-ai.com/career)
-- <strong>具身模型算法工程师</strong>｜`社招`｜北京｜[投递→](https://www.spirit-ai.com/career)
-- <strong>机器学习系统工程师</strong>｜`社招`｜北京｜[投递→](https://www.spirit-ai.com/career)
-- <strong>机器学习平台全栈工程师</strong>｜`社招`｜北京｜[投递→](https://www.spirit-ai.com/career)
-- <strong>具身算法系统集成工程师</strong>｜`社招`｜北京｜[投递→](https://www.spirit-ai.com/career)
-- <strong>高级力控算法工程师</strong>｜`社招`｜北京｜[投递→](https://www.spirit-ai.com/career)
-- <strong>嵌入式软件工程师</strong>｜`社招`｜北京｜[投递→](https://www.spirit-ai.com/career)
-- <strong>机械设计工程师</strong>｜`社招`｜北京｜[投递→](https://www.spirit-ai.com/career)
-- <strong>运控算法工程师</strong>｜`社招`｜北京｜[投递→](https://www.spirit-ai.com/career)
-- <strong>导航算法工程师</strong>｜`社招`｜北京｜[投递→](https://www.spirit-ai.com/career)
-- <strong>软件开发工程师</strong>｜`社招`｜北京｜[投递→](https://www.spirit-ai.com/career)
-
-<a id="jump-jobs-domestic-19"></a>
-
-### 思谋科技
-
-- <strong>嵌入式软件工程师（机器人方向）</strong>&#8203;｜`社招`｜深圳｜[投递→](https://app.mokahr.com/m/campus-recruitment/smartmore/40506)
-- <strong>算法工程师（机器人运动控制）-26届</strong>｜`校招`｜深圳｜[投递→](https://app.mokahr.com/m/campus-recruitment/smartmore/40506)
-- <strong>算法工程师（智能视觉方向）-26届</strong>｜`校招`｜深圳｜[投递→](https://app.mokahr.com/m/campus-recruitment/smartmore/40506)
-- <strong>算法工程师（强化学习方向）-26届</strong>｜`校招`｜深圳｜[投递→](https://app.mokahr.com/m/campus-recruitment/smartmore/40506)
-- <strong>软件工程师（机器人控制器）-26届</strong>｜`校招`｜深圳｜[投递→](https://app.mokahr.com/m/campus-recruitment/smartmore/40506)
-- <strong>软件工程师（机器视觉）-26届</strong>｜`校招`｜深圳｜[投递→](https://app.mokahr.com/m/campus-recruitment/smartmore/40506)
-- <strong>机器人软件工程师-26届</strong>｜`校招`｜深圳｜[投递→](https://app.mokahr.com/m/campus-recruitment/smartmore/40506)
-- <strong>机械工程师（机械臂方向）-26届</strong>｜`校招`｜深圳｜[投递→](https://app.mokahr.com/m/campus-recruitment/smartmore/40506)
-- <strong>机械结构工程师（机械臂方向）</strong>&#8203;｜`校招`｜深圳｜[投递→](https://app.mokahr.com/m/campus-recruitment/smartmore/40506)
-- <strong>产品经理（具身智能方向）-26届</strong>｜`校招`｜深圳｜[投递→](https://app.mokahr.com/m/campus-recruitment/smartmore/40506)
-- <strong>全栈工程师-26届</strong>｜`校招`｜深圳｜[投递→](https://app.mokahr.com/m/campus-recruitment/smartmore/40506)
-
-<a id="jump-jobs-domestic-20"></a>
-
-### 上海人工智能实验室
-
-- <strong>具身智能操作算法工程师</strong>｜`社招`｜上海｜[投递→](https://www.shlab.org.cn/joinus)
-- <strong>算法工程师-具身智能</strong>｜`社招`｜上海｜[投递→](https://www.shlab.org.cn/joinus)
-- <strong>机器人操作算法工程师-具身智能中心</strong>｜`校招`｜上海｜[投递→](https://www.shlab.org.cn/joinus)
-- <strong>全栈开发实习生 — 具身智能中心</strong>｜`实习`｜上海｜[投递→](https://www.shlab.org.cn/joinus)
-- <strong>具身大模型安全性算法实习生</strong>｜`实习`｜上海｜[投递→](https://www.shlab.org.cn/joinus)
-
-<a id="jump-jobs-domestic-23"></a>
-
-### 商汤科技
-
-- <strong>具身智能算法研究员-北京/上海</strong>｜`社招`｜北京/上海｜[投递→](https://www.sensetime.com/cn/join-us)
-- <strong>具身智能算法工程师 (VLA/多模态方向)</strong>&#8203;｜`社招`｜北京｜[投递→](https://www.sensetime.com/cn/join-us)
-- <strong>高级模型算法工程师（机器人）</strong>&#8203;｜`社招`｜上海｜[投递→](https://www.sensetime.com/cn/join-us)
-- <strong>机器人运动控制算法工程师</strong>｜`社招`｜北京｜[投递→](https://www.sensetime.com/cn/join-us)
-- <strong>机器人3D视觉感知算法工程师</strong>｜`社招`｜北京｜[投递→](https://www.sensetime.com/cn/join-us)
-- <strong>机器人仿真与数据算法工程师</strong>｜`社招`｜北京｜[投递→](https://www.sensetime.com/cn/join-us)
-- <strong>世界模型算法研究员</strong>｜`社招`｜深圳｜[投递→](https://www.sensetime.com/cn/join-us)
-- <strong>具身智能世界模型算法实习生</strong>｜`实习`｜北京｜[投递→](https://www.sensetime.com/cn/join-us)
-- <strong>AI开发工程师实习生（多模态/世界模型）</strong>&#8203;｜`实习`｜上海｜[投递→](https://www.sensetime.com/cn/join-us)
-
-<a id="jump-jobs-domestic-09"></a>
-
-### 它石智航
-
-- <strong>2026校招-具身VLA算法工程师</strong>｜`校招`｜上海｜[投递→](https://tarsrobot.jobs.feishu.cn/021343/)
-- <strong>2026校招-具身智能算法专家</strong>｜`校招`｜上海｜[投递→](https://tarsrobot.jobs.feishu.cn/021343/)
-- <strong>机器人算法工程师-强化学习</strong>｜`校招`｜上海｜[投递→](https://tarsrobot.jobs.feishu.cn/021343/)
-- <strong>机器人算法工程师-规划控制</strong>｜`校招`｜上海｜[投递→](https://tarsrobot.jobs.feishu.cn/021343/)
-- <strong>机器人算法工程师-运动控制</strong>｜`校招`｜上海｜[投递→](https://tarsrobot.jobs.feishu.cn/021343/)
-- <strong>机器人多模态感知算法工程师</strong>｜`校招`｜上海｜[投递→](https://tarsrobot.jobs.feishu.cn/021343/)
-- <strong>机器人SLAM算法工程师</strong>｜`校招`｜上海｜[投递→](https://tarsrobot.jobs.feishu.cn/021343/)
-
-<a id="jump-jobs-domestic-11"></a>
-
-### 腾讯Robotics X
-
-- <strong>机器人具身智能研究员-大模型方向</strong>｜`社招`｜深圳｜[投递→](https://careers.tencent.com/search.html)
-- <strong>机器人具身智能研究员-操作方向</strong>｜`社招`｜深圳｜[投递→](https://careers.tencent.com/search.html)
-- <strong>具身智能平台研发工程师（机器人本体软件）</strong>&#8203;｜`社招`｜深圳｜[投递→](https://careers.tencent.com/search.html)
-- <strong>具身智能平台研发工程师（仿真工程方向）</strong>&#8203;｜`社招`｜深圳｜[投递→](https://careers.tencent.com/search.html)
-- <strong>机器人具身智能软件工程师-系统集成</strong>｜`社招`｜深圳｜[投递→](https://careers.tencent.com/search.html)
-- <strong>多模态大模型研究员-机器人方向</strong>｜`社招`｜深圳｜[投递→](https://careers.tencent.com/search.html)
-- <strong>技术研究-机器人方向</strong>｜`校招`｜深圳｜[投递→](https://careers.tencent.com/search.html)
-
-<a id="jump-jobs-domestic-01"></a>
-
-### 优必选科技
-
-- <strong>3D重建资深工程师</strong>｜`社招`｜深圳｜[投递→](https://ubtrobot.zhiye.com/social/jobs)
-- <strong>伺服软件专家（电机控制）</strong>｜`社招`｜深圳｜[投递→](https://ubtrobot.zhiye.com/social/jobs)
-- <strong>高级系统开发工程师（算法工程化）</strong>｜`社招`｜深圳｜[投递→](https://ubtrobot.zhiye.com/social/jobs)
-- <strong>感知算法资深工程师</strong>｜`社招`｜深圳｜[投递→](https://ubtrobot.zhiye.com/social/jobs)
-- <strong>资深仿真平台运维开发工程师</strong>｜`社招`｜深圳｜[投递→](https://ubtrobot.zhiye.com/social/jobs)
-- <strong>资深仿真算法工程师（3DGS）</strong>｜`社招`｜深圳｜[投递→](https://ubtrobot.zhiye.com/social/jobs)
-- <strong>AI仿生算法资深工程师（AIGC）</strong>｜`社招`｜深圳｜[投递→](https://ubtrobot.zhiye.com/social/jobs)
-- <strong>资深硬件工程师（电机电控）</strong>｜`社招`｜深圳｜[投递→](https://ubtrobot.zhiye.com/social/jobs)
-- <strong>高级运动控制算法工程师</strong>｜`社招`｜深圳｜[投递→](https://ubtrobot.zhiye.com/social/jobs)
-- <strong>资深运动控制算法工程师</strong>｜`社招`｜深圳｜[投递→](https://ubtrobot.zhiye.com/social/jobs)
-- <strong>人形机器人VLA资深算法工程师</strong>｜`社招`｜深圳｜[投递→](https://ubtrobot.zhiye.com/social/jobs)
-- <strong>机器人遥操作资深算法工程师</strong>｜`社招`｜深圳｜[投递→](https://ubtrobot.zhiye.com/social/jobs)
-- <strong>伺服软件资深工程师</strong>｜`社招`｜深圳｜[投递→](https://ubtrobot.zhiye.com/social/jobs)
-- <strong>运动控制实习生</strong>｜`实习`｜深圳｜[投递→](https://ubtrobot.zhiye.com/intern/jobs)
-
-<a id="jump-jobs-domestic-06"></a>
-
-### 星动纪元
-
-- <strong>具身智能大模型算法工程师</strong>｜`社招`｜北京｜[投递→](https://k0fqxcszc9.jobs.feishu.cn/)
-- <strong>具身大模型算法工程师</strong>｜`社招`｜北京｜[投递→](https://k0fqxcszc9.jobs.feishu.cn/)
-- <strong>VLA大模型算法-人形机器人</strong>｜`社招`｜北京｜[投递→](https://k0fqxcszc9.jobs.feishu.cn/)
-- <strong>运动控制算法工程师</strong>｜`社招`｜北京｜[投递→](https://k0fqxcszc9.jobs.feishu.cn/)
-- <strong>大模型算法</strong>｜`社招`｜北京｜[投递→](https://k0fqxcszc9.jobs.feishu.cn/)
-- <strong>机器人强化学习-灵巧手方向</strong>｜`社招`｜北京｜[投递→](https://k0fqxcszc9.jobs.feishu.cn/)
-- <strong>MPC算法工程师</strong>｜`社招`｜北京｜[投递→](https://k0fqxcszc9.jobs.feishu.cn/)
-- <strong>大模型部署和加速工程师</strong>｜`社招`｜北京｜[投递→](https://k0fqxcszc9.jobs.feishu.cn/)
-- <strong>高级云服务开发工程师</strong>｜`社招`｜北京｜[投递→](https://k0fqxcszc9.jobs.feishu.cn/)
-- <strong>机器人规控算法工程师</strong>｜`社招`｜北京｜[投递→](https://k0fqxcszc9.jobs.feishu.cn/)
-- <strong>遥操作系统工程师</strong>｜`社招`｜北京｜[投递→](https://k0fqxcszc9.jobs.feishu.cn/)
-
-<a id="jump-jobs-domestic-10"></a>
-
-### 小米机器人实验室
-
-- <strong>机器人可靠性仿真工程师</strong>｜`社招`｜北京通州｜[投递→](https://xiaomi.jobs.f.mioffice.cn/index)
-- <strong>顶尖应届-具身大模型算法研究员</strong>｜`校招`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/referral/campus/position/)
-- <strong>顶尖应届-具身大模型训练推理工程师</strong>｜`校招`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/referral/campus/position/)
-- <strong>顶尖应届-具身大模型数据工程师</strong>｜`校招`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/referral/campus/position/)
-- <strong>机器人具身智能算法实习生</strong>｜`实习`｜北京｜[投递→](https://www.xzfxrcw.com/job/337224076.html)
-
-<a id="jump-jobs-domestic-16"></a>
-
-### 小鹏汽车
-
-- <strong>具身软件系统工程师</strong>｜`社招`｜北京｜[投递→](https://xiaopeng.jobs.feishu.cn/)
-- <strong>基础模型与多模态大模型算法工程师</strong>｜`校招`｜北京/上海/广州/深圳｜[投递→](https://xiaopeng.jobs.feishu.cn/)
-- <strong>通信软件开发培训生（机器人方向）</strong>&#8203;｜`校招`｜北京/上海/广州/深圳｜[投递→](https://xiaopeng.jobs.feishu.cn/)
-- <strong>机器人测试培训生</strong>｜`校招`｜北京/上海/广州/深圳｜[投递→](https://xiaopeng.jobs.feishu.cn/)
-- <strong>具身智能运控算法实习生</strong>｜`实习`｜北京/上海/深圳｜[投递→](https://xiaopeng.jobs.feishu.cn/campus/m/position/detail/7619138376453114158)
-- <strong>具身智能算法实习生(Manipulation)</strong>&#8203;｜`实习`｜上海/深圳｜[投递→](https://xiaopeng.jobs.feishu.cn/campus/m/position/detail/7606269238881323315)
-- <strong>VLA/VLM算法实习生</strong>｜`实习`｜北京/上海/广州/深圳｜[投递→](https://xiaopeng.jobs.feishu.cn/)
-- <strong>世界模型算法实习生</strong>｜`实习`｜北京/上海/广州/深圳｜[投递→](https://xiaopeng.jobs.feishu.cn/)
-- <strong>强化学习算法实习生</strong>｜`实习`｜北京/上海/广州/深圳｜[投递→](https://xiaopeng.jobs.feishu.cn/)
-- <strong>运动控制算法实习生</strong>｜`实习`｜北京/上海/广州/深圳｜[投递→](https://xiaopeng.jobs.feishu.cn/)
-
-<a id="jump-jobs-domestic-03"></a>
-
-### 宇树科技
-
-- <strong>具身智能软件工程师</strong>｜`社招`｜杭州｜[投递→](https://www.unitree.com/cn/position/2047604504966201344/)
-- <strong>数据管线工程师</strong>｜`社招`｜杭州｜[投递→](https://www.unitree.com/cn/position/2046858311420084224/)
-- <strong>AI Infra 工程师</strong>｜`社招`｜杭州｜[投递→](https://www.unitree.com/cn/position/2046857577249112064/)
-- <strong>具身数据评估工程师</strong>｜`社招`｜杭州｜[投递→](https://www.unitree.com/cn/position/2046858623123980288/)
-- <strong>机器人测试工程师</strong>｜`社招`｜杭州｜[投递→](https://www.unitree.com/cn/position/1968168294171017216/)
-- <strong>嵌入式软件工程师（Linux）</strong>｜`社招`｜杭州｜[投递→](https://www.unitree.com/cn/position/1569898663562444800/)
-- <strong>嵌入式软件开发工程师</strong>｜`社招`｜杭州｜[投递→](https://www.unitree.com/cn/position/1692020901257674752/)
-- <strong>深度强化学习算法工程师</strong>｜`社招`｜杭州｜[投递→](https://www.unitree.com/cn/position/1692018892890701824/)
-- <strong>C++开发工程师</strong>｜`社招`｜杭州｜[投递→](https://www.unitree.com/cn/position/1704702421768339456/)
-- <strong>机械工程师</strong>｜`社招`｜杭州｜[投递→](https://www.unitree.com/cn/position/1526097908544307200/)
-- <strong>机器人运动控制算法工程师</strong>｜`社招`｜杭州｜[投递→](https://www.unitree.com/cn/position/1526050171207548928/)
-- <strong>嵌入式硬件工程师</strong>｜`社招`｜杭州｜[投递→](https://www.unitree.com/cn/position/1570238458192986112/)
-- <strong>AI算法工程师（大模型）</strong>｜`社招`｜杭州｜[投递→](https://www.unitree.com/cn/position/1692021510983647232/)
-- <strong>高级机电控制工程师</strong>｜`社招`｜杭州｜[投递→](https://www.unitree.com/cn/position/1570236064524664832/)
-- <strong>激光SLAM算法工程师</strong>｜`社招`｜杭州｜[投递→](https://www.unitree.com/cn/position/1569900302872608768/)
-
-<a id="jump-jobs-domestic-07"></a>
-
-### 银河通用机器人
-
-- <strong>人形强化学习算法工程师（26届）</strong>｜`校招`｜北京｜[投递→](https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/572d9f5c-1340-47b0-8aa4-c4b01b3b79d9)
-- <strong>具身操作算法工程师(26届)</strong>｜`校招`｜北京｜[投递→](https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/b6d8e177-18c5-419f-af0a-13ed36c5df31)
-- <strong>重定向算法实习生</strong>｜`实习`｜北京｜[投递→](https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/5c53daa9-38b5-4ef0-9646-0ac65e25b4b7)
-- <strong>人形机器人强化学习算法实习生（机器人操作方向）</strong>｜`实习`｜苏州｜[投递→](https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/30b0c8f5-dbdd-4f43-b24b-678c0543dd0e)
-- <strong>具身 VLA 大模型实习生</strong>｜`实习`｜北京｜[投递→](https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/02e56e93-01ba-4717-9ed7-b407e403a6a5)
-- <strong>灵巧手操作算法实习生</strong>｜`实习`｜北京｜[投递→](https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/50716205-bf26-4cda-afbb-327f0ee38fa2)
-- <strong>足式强化学习控制算法实习生</strong>｜`实习`｜北京｜[投递→](https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/a1367571-024b-4d61-8731-39d4b170e980)
-- <strong>具身智能算法实习生-移动操作方向</strong>｜`实习`｜北京｜[投递→](https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/a42fe642-b9f4-4b5c-8ac6-733338f3ae33)
-- <strong>具身多模态大模型算法实习生</strong>｜`实习`｜北京｜[投递→](https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/a52d3610-5caf-4e5f-8088-babf0009b519)
-- <strong>具身大模型数据和算法（实习）</strong>｜`实习`｜北京｜[投递→](https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/c4e701ff-b9aa-4dbc-a749-98f65d81245e)
-- <strong>人形机器人工程开发实习生(长期)</strong>｜`实习`｜北京｜[投递→](https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/cebfd57c-ef58-42ff-99ed-ceceb2754451)
-- <strong>具身智能科研实习生</strong>｜`实习`｜北京｜[投递→](https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/d5a1d10d-9135-4bf4-85f1-ccacf2671fda)
-- <strong>机器人物理仿真实习生</strong>｜`实习`｜北京｜[投递→](https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/26e28271-1fb1-4bf2-a91e-7fc4d20e7e60)
-- <strong>机器人控制算法实习生</strong>｜`实习`｜北京｜[投递→](https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/38c300d1-2214-462d-82b2-fc4f847cbcf3)
-- <strong>仿真研发实习生</strong>｜`实习`｜北京｜[投递→](https://app.mokahr.com/campus-recruitment/yinhetongyong/165930#/job/3b46f4ce-be71-46ae-9742-606db3c30eb7)
-
-<a id="jump-jobs-domestic-18"></a>
-
-### 云深处科技
-
-- <strong>具身算法工程师</strong>｜`社招`｜杭州｜[投递→](https://app135149.eapps.dingtalkcloud.com/campus-recruitment/yunshenchu/)
-- <strong>导航算法工程师</strong>｜`社招`｜杭州｜[投递→](https://app135149.eapps.dingtalkcloud.com/campus-recruitment/yunshenchu/)
-- <strong>SLAM算法工程师</strong>｜`社招/校招`｜杭州｜[投递→](https://app135149.eapps.dingtalkcloud.com/campus-recruitment/yunshenchu/)
-- <strong>算法工程师（模仿学习）</strong>&#8203;｜`社招/校招`｜杭州｜[投递→](https://app135149.eapps.dingtalkcloud.com/campus-recruitment/yunshenchu/)
-- <strong>算法工程师（操作感知）</strong>&#8203;｜`社招/校招`｜杭州｜[投递→](https://app135149.eapps.dingtalkcloud.com/campus-recruitment/yunshenchu/)
-- <strong>算法工程师（具身导航）</strong>&#8203;｜`社招/校招`｜杭州｜[投递→](https://app135149.eapps.dingtalkcloud.com/campus-recruitment/yunshenchu/)
-- <strong>算法工程师（机械臂）</strong>&#8203;｜`社招/校招`｜杭州｜[投递→](https://app135149.eapps.dingtalkcloud.com/campus-recruitment/yunshenchu/)
-- <strong>算法工程师（运动控制）</strong>&#8203;｜`社招/校招`｜杭州｜[投递→](https://app135149.eapps.dingtalkcloud.com/campus-recruitment/yunshenchu/)
-- <strong>算法工程师（感控融合）</strong>&#8203;｜`社招/校招`｜杭州｜[投递→](https://app135149.eapps.dingtalkcloud.com/campus-recruitment/yunshenchu/)
-- <strong>算法工程师（AI识别）</strong>&#8203;｜`社招/校招`｜杭州｜[投递→](https://app135149.eapps.dingtalkcloud.com/campus-recruitment/yunshenchu/)
-- <strong>算法工程师（具身操作）</strong>&#8203;｜`社招/校招`｜杭州｜[投递→](https://app135149.eapps.dingtalkcloud.com/campus-recruitment/yunshenchu/)
-- <strong>遥操作系统工程师</strong>｜`社招/校招`｜杭州｜[投递→](https://app135149.eapps.dingtalkcloud.com/campus-recruitment/yunshenchu/)
-- <strong>嵌入式工程师</strong>｜`社招/校招`｜杭州｜[投递→](https://app135149.eapps.dingtalkcloud.com/campus-recruitment/yunshenchu/)
-- <strong>管培生</strong>｜`校招`｜杭州｜[投递→](https://app135149.eapps.dingtalkcloud.com/campus-recruitment/yunshenchu/)
-- <strong>算法实习生</strong>｜`实习`｜杭州｜[投递→](https://app135149.eapps.dingtalkcloud.com/campus-recruitment/yunshenchu/)
-
-<a id="jump-jobs-domestic-25"></a>
-
-### 智元机器人
-
-- <strong>C++软件工程师（算法方向）</strong>｜`社招`｜深圳｜[投递→](https://agirobot.jobs.feishu.cn/campusrecruitment/position/7631934883878783278/detail)
-- <strong>具身 Agent 算法工程师 / 专家</strong>｜`社招`｜上海｜[投递→](https://agirobot.jobs.feishu.cn/campusrecruitment/position/7631851350171273478/detail)
-- <strong>Agent算法工程师-灵犀</strong>｜`社招`｜深圳｜[投递→](https://agirobot.jobs.feishu.cn/campusrecruitment/position/7631848833064995115/detail)
-- <strong>具身智能基础模型研发工程师/专家</strong>｜`社招`｜上海｜[投递→](https://agirobot.jobs.feishu.cn/campusrecruitment/position/7611419025646684443/detail)
-- <strong>多模态生成动作大模型研究员</strong>｜`社招`｜深圳/上海｜[投递→](https://agirobot.jobs.feishu.cn/campusrecruitment/position/7610272353105266986/detail)
-- <strong>灵巧手模型算法工程师</strong>｜`校招`｜上海｜[投递→](https://agirobot.jobs.feishu.cn/campusrecruitment/position/7637132026886162714/detail)
-- <strong>感知融合算法工程师</strong>｜`校招`｜上海｜[投递→](https://agirobot.jobs.feishu.cn/campusrecruitment/position/7623723736328145203/detail)
-- <strong>空间智能算法工程师</strong>｜`校招`｜上海｜[投递→](https://agirobot.jobs.feishu.cn/campusrecruitment/position/7623719991930407178/detail)
-- <strong>感知融合算法工程师</strong>｜`校招`｜上海｜[投递→](https://agirobot.jobs.feishu.cn/campusrecruitment/position/7611826275519138054/detail)
-- <strong>视觉SLAM实习生</strong>｜`实习`｜上海｜[投递→](https://agirobot.jobs.feishu.cn/campusrecruitment/position/7624485773874956607/detail)
-
-<a id="jump-jobs-domestic-12"></a>
-
-### 字节跳动
-
-- <strong>具身智能研发专家-火山引擎</strong>｜`社招`｜北京｜[投递→](https://jobs.bytedance.com/)
-- <strong>具身多模态交互算法专家-火山引擎</strong>｜`社招`｜北京｜[投递→](https://jobs.bytedance.com/)
-- <strong>具身智能算法研究员-Seed</strong>｜`社招`｜北京/上海/深圳｜[投递→](https://jobs.bytedance.com/)
-- <strong>具身智能研发工程师-火山引擎</strong>｜`校招`｜上海｜[投递→](https://jobs.bytedance.com/campus/position?project=7525009396952582407)
-- <strong>角色化模型强化学习算法工程师-Seed</strong>｜`校招`｜北京｜[投递→](https://careers.larksuite.com/campus/position/7538402783112775944/detail)
-- <strong>AIGC算法工程师-Data AML</strong>｜`校招`｜深圳｜[投递→](https://jobs.bytedance.com/campus/position?project=7525009396952582407)
-- <strong>内容理解算法工程师-抖音</strong>｜`校招`｜深圳｜[投递→](https://jobs.bytedance.com/campus/position?project=7525009396952582407)
-- <strong>机器人多模态大模型算法实习生-Seed</strong>｜`实习`｜北京｜[投递→](https://jobs.bytedance.com/campus/position?project=7525009396952582407)
-
-<a id="jump-jobs-domestic-05"></a>
-
-### 逐际动力
-
-- <strong>具身大模型算法工程师</strong>｜`社招`｜北京｜[投递→](https://career.limxdynamics.com/)
-- <strong>人形机器人智能体算法工程师</strong>｜`社招`｜深圳｜[投递→](https://career.limxdynamics.com/)
-- <strong>机器人运动控制算法工程师</strong>｜`社招`｜深圳｜[投递→](https://career.limxdynamics.com/)
-- <strong>具身智能-VLA强化学习算法实习生</strong>｜`实习`｜北京｜[投递→](https://career.limxdynamics.com/)
-- <strong>人形机器人模仿学习算法实习生</strong>｜`实习`｜深圳｜[投递→](https://career.limxdynamics.com/)
-- <strong>具身智能前沿算法实习生</strong>｜`实习`｜北京｜[投递→](https://career.limxdynamics.com/)
-- <strong>机器人仿真实习生</strong>｜`实习`｜深圳｜[投递→](https://career.limxdynamics.com/)
-
-<a id="jobs-overseas"></a>
 
 ## Overseas Opportunities
 
@@ -338,197 +1340,460 @@
   </tr>
 </table>
 
-<a id="jump-jobs-overseas-02"></a>
-
-### AIM Intelligent Machines
-
-- <strong>Embodied AI Engineer - Controls</strong>｜`Full-time`｜Seattle, WA, USA｜[Apply→](https://aim.vision/jobs/embodied-ai?gh_src=General+Catalyst+job+board)
-- <strong>Perception and SLAM ML Engineer</strong>｜`Full-time`｜Seattle, WA, USA｜[Apply→](https://aim.vision/jobs/perception-ml)
-
-<a id="jump-jobs-overseas-03"></a>
-
-### Amazon Robotics
-
-- <strong>Applied Scientist - ML and Robotics</strong>｜`Full-time`｜North Reading, MA｜[Apply→](https://www.amazon.jobs/en/teams/amazon-robotics)
-- <strong>Applied Scientist, SLAM</strong>｜`Full-time`｜North Reading, MA｜[Apply→](https://www.amazon.jobs/en/teams/amazon-robotics)
-- <strong>Sr. Software Engineer, Mobile Manipulation Robotics</strong>｜`Full-time`｜North Reading, MA｜[Apply→](https://www.amazon.jobs/en/teams/amazon-robotics)
-- <strong>2026 Robotics Systems Engineer Intern</strong>｜`Internship`｜North Reading, MA｜[Apply→](https://www.amazon.jobs/en/teams/amazon-robotics)
-- <strong>Personal Robotics Group Research Intern</strong>｜`Internship`｜Sunnyvale, CA｜[Apply→](https://www.amazon.jobs/en/search)
-
-<a id="jump-jobs-overseas-06"></a>
-
-### Apptronik
-
-- <strong>Principal Software Engineer - AI and Simulation</strong>｜`Full-time`｜Sunnyvale, CA, USA｜[Apply→](https://apptronik.com/careers/)
-- <strong>Senior Mechanical Engineer, Actuation</strong>｜`Full-time`｜Austin, TX, USA｜[Apply→](https://apptronik.com/careers/)
-- <strong>Reinforcement Learning Engineer</strong>｜`Full-time`｜Austin, TX｜[Apply→](https://apptronik.com/careers/)
-- <strong>Senior Robotics Software & Integration Engineer</strong>｜`Full-time`｜Austin, TX｜[Apply→](https://apptronik.com/careers/)
-- <strong>Motion Control and Planning Intern</strong>｜`Internship`｜Austin, TX, USA｜Summer 2026｜[Apply→](https://apptronik.com/careers/)
-- <strong>Autonomy Software Intern — Humanoid Robotics</strong>｜`Internship`｜Austin, TX｜Summer 2026｜[Apply→](https://apptronik.com/careers/)
-
-<a id="jump-jobs-overseas-07"></a>
-
-### Aurora
-
-- <strong>Software Engineer, Functional Architecture</strong>｜`Full-time`｜Pittsburgh, PA｜[Apply→](https://www.aurora.tech/careers)
-- <strong>Senior/Staff Software Engineer, Onboard Infrastructure</strong>｜`Full-time`｜Mountain View, CA｜[Apply→](https://www.aurora.tech/careers)
-- <strong>Machine Learning Research Scientist</strong>｜`Full-time`｜Pittsburgh, CA｜[Apply→](https://www.aurora.tech/careers)
-- <strong>Software Engineer, Behavior Planning</strong>｜`Full-time`｜USA｜[Apply→](https://www.aurora.tech/careers)
-- <strong>Staff Security Software Engineer</strong>｜`Full-time`｜USA｜[Apply→](https://www.aurora.tech/careers)
-
-<a id="jump-jobs-overseas-08"></a>
-
-### Boston Dynamics 
-
-- <strong>Senior Robotics Engineer - Spot Manipulation</strong>｜`Full-time`｜Waltham, MA｜[Apply→](https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics)
-- <strong>Reinforcement Learning Engineer, Spot Behavior</strong>｜`Full-time`｜Waltham, MA｜[Apply→](https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics)
-- <strong>Senior Staff Robotics Engineer - Localization</strong>｜`Full-time`｜Waltham, MA｜[Apply→](https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics)
-- <strong>Research Engineer, Physics Simulation</strong>｜`Full-time`｜Waltham, MA｜[Apply→](https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics)
-- <strong>Software Engineer in Test - Automation</strong>｜`Full-time`｜Waltham, MA｜[Apply→](https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics)
-- <strong>Robotics Software Engineering Development</strong>｜`New Grad`｜Waltham, MA｜Summer 2026｜[Apply→](https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics)
-
-<a id="jump-jobs-overseas-09"></a>
-
-### Cruise
-
-- <strong>VLM/VLA Research Intern (PhD)</strong>&#8203;｜`Internship`｜USA｜Summer 2026｜[Apply→](https://getcruise.com/careers/)
-- <strong>PhD Intern, AI Research</strong>｜`Internship`｜San Francisco, CA｜Summer 2026｜[Apply→](https://getcruise.com/careers/)
-
-<a id="jump-jobs-overseas-10"></a>
-
-### Figure AI
-
-- <strong>AI Engineer, Post-Training - Helix Team</strong>｜`Full-time`｜San Jose, CA｜[Apply→](https://www.figure.ai/careers)
-- <strong>AI Training Infrastructure Engineer - Helix</strong>｜`Full-time`｜San Jose, CA｜[Apply→](https://www.figure.ai/careers)
-- <strong>AI Tooling Engineer, Helix</strong>｜`Full-time`｜San Jose, CA｜[Apply→](https://www.figure.ai/careers)
-- <strong>Embedded Actuation Engineer</strong>｜`Full-time`｜San Jose, CA｜[Apply→](https://www.figure.ai/careers)
-- <strong>Firmware Intern [Summer 2026]</strong>｜`Internship`｜San Jose, CA｜Summer 2026｜[Apply→](https://www.figure.ai/careers)
-- <strong>Manufacturing Data Engineering Intern [Fall 2026]</strong>｜`Internship`｜San Jose, CA｜Fall 2026｜[Apply→](https://www.figure.ai/careers)
-- <strong>Quality Engineering Intern [Summer 2026]</strong>｜`Internship`｜San Jose, CA｜Summer 2026｜[Apply→](https://www.figure.ai/careers)
-
-<a id="jump-jobs-overseas-13"></a>
-
-### Google DeepMind 
-
-- <strong>Research Scientist, Robotics</strong>｜`Full-time`｜Mountain View, CA｜[Apply→](https://deepmind.google/careers/)
-- <strong>Research Scientist, Safety and Alignment for Humanoid Robotics</strong>｜`Full-time`｜New York, NY｜[Apply→](https://deepmind.google/careers/)
-- <strong>Software Engineer, Model Lifecycle Engineering, Robotics</strong>｜`Full-time`｜USA｜[Apply→](https://deepmind.google/careers/)
-- <strong>Research Engineer, Developer Experience, Gemini Robotics</strong>｜`Full-time`｜Mountain View, CA｜[Apply→](https://deepmind.google/careers/)
-- <strong>Research Scientist, Multisensor Robotics & Dexterity</strong>｜`Full-time`｜USA｜[Apply→](https://deepmind.google/careers/)
-- <strong>Staff Technical Program Manager, Gemini Robotics</strong>｜`Full-time`｜USA｜[Apply→](https://deepmind.google/careers/)
-
-<a id="jump-jobs-overseas-14"></a>
-
-### Grit Ventures
-
-- <strong>Reinforcement Learning Intern</strong>｜`Internship`｜USA｜Summer 2026｜[Apply→](https://jobs.gritventures.com)
-
-<a id="jump-jobs-overseas-15"></a>
-
-### HTX 
-
-- <strong>Engineer / Lead Engineer - Embodied AI R&D</strong>｜`Full-time`｜Singapore｜[Apply→](https://www.careers.gov.sg)
-
-<a id="jump-jobs-overseas-17"></a>
-
-### Nuro
-
-- <strong>Senior ML Research Scientist, VLM/VLA</strong>｜`Full-time`｜Mountain View, CA｜[Apply→](https://www.nuro.ai/careers)
-- <strong>ML Research Scientist, Prediction & Smart Agents</strong>｜`Full-time`｜Mountain View, CA｜[Apply→](https://www.nuro.ai/careers)
-- <strong>Machine Learning Research Scientist, Behavior Planning</strong>｜`Full-time`｜Mountain View, CA｜[Apply→](https://www.nuro.ai/careers)
-- <strong>Senior Machine Learning Research Scientist</strong>｜`Full-time`｜Mountain View, CA｜[Apply→](https://www.nuro.ai/careers)
-
-<a id="jump-jobs-overseas-19"></a>
-
-### NVIDIA
-
-- <strong>Software Engineer, Simulation - Robotics</strong>｜`Full-time`｜Santa Clara, CA｜[Apply→](https://www.nvidia.com/en-us/about-nvidia/careers/)
-- <strong>Software Engineer, Robotics - Isaac Lab</strong>｜`Full-time`｜Santa Clara, CA｜[Apply→](https://www.nvidia.com/en-us/about-nvidia/careers/)
-- <strong>Senior Software Engineer - Robotics</strong>｜`Full-time`｜Santa Clara, CA｜[Apply→](https://www.nvidia.com/en-us/about-nvidia/careers/)
-- <strong>Software Engineer, Robotics - Isaac Lab (New College Grad 2026)</strong>&#8203;｜`New Grad`｜Santa Clara, CA｜Class of 2026｜[Apply→](https://www.nvidia.com/en-us/about-nvidia/careers/)
-- <strong>Software Engineer Intern - Robotics</strong>｜`Internship`｜Santa Clara, CA｜Summer 2026｜[Apply→](https://www.nvidia.com/en-us/about-nvidia/careers/)
-
-<a id="jump-jobs-overseas-21"></a>
-
-### OpenAI
-
-- <strong>Field Engineer (Robotics)</strong>&#8203;｜`Full-time`｜San Francisco, CA｜[Apply→](https://openai.com/careers/field-engineer-san-francisco/)
-- <strong>Robotics Software Engineer</strong>｜`Full-time`｜San Francisco, CA｜[Apply→](https://openai.com/careers/search/)
-- <strong>Simulation Realism Engineer</strong>｜`Full-time`｜San Francisco, CA｜[Apply→](https://openai.com/careers/search/)
-- <strong>Simulation Environments Engineer</strong>｜`Full-time`｜San Francisco, CA｜[Apply→](https://openai.com/careers/search/)
-- <strong>Research Engineer, SLAM & Multi-View Geometry</strong>｜`Full-time`｜USA｜[Apply→](https://openai.com/careers/search/)
-- <strong>Mechanical Engineer: Soft Goods Design</strong>｜`Full-time`｜San Francisco, CA｜[Apply→](https://openai.com/careers/search/)
-
-<a id="jump-jobs-overseas-22"></a>
-
-### Stanford Robotics Lab
-
-- <strong>PhD Positions in Robotics</strong>｜`PhD`｜Stanford, CA｜[Apply→](https://cs.stanford.edu/admissions/phd)
-- <strong>Postdoctoral Fellow - SAIL</strong>｜`Postdoc`｜Stanford, CA｜September 2026｜[Apply→](https://ai.stanford.edu/postdoctoralfellows/)
-- <strong>Postdoctoral Researcher - Robotics</strong>｜`Postdoc`｜Stanford, CA｜[Apply→](https://postdocs.stanford.edu/prospective/opportunities)
-
-<a id="jump-jobs-overseas-23"></a>
-
-### Tactus
-
-- <strong>Embodied AI Intern (Summer 2026)</strong>&#8203;｜`Internship`｜Irvine, CA, USA｜Summer 2026｜[Apply→](https://career.calvin.edu)
-
-<a id="jump-jobs-overseas-24"></a>
-
-### Tesla
-
-- <strong>Software Engineer, Robotics AI</strong>｜`Full-time`｜Palo Alto, CA, USA｜[Apply→](https://www.tesla.com/careers/search/?query=Robotics%20AI%20Optimus)
-- <strong>Reinforcement Learning Engineer, Whole Body Controls</strong>｜`Full-time`｜Palo Alto, CA｜[Apply→](https://www.tesla.com/careers/search/job/reinforcement-learning-engineer-whole-body-controls-optimus--244485)
-- <strong>AI Engineer, Manipulation, Optimus</strong>｜`Full-time`｜Palo Alto, CA｜[Apply→](https://www.tesla.com/careers/search/job/deep-learning-manipulation-engineer-tesla-bot-224501)
-- <strong>ML Infrastructure Simulation Engineer, Optimus</strong>｜`Full-time`｜Palo Alto, CA｜[Apply→](https://www.tesla.com/careers/search/?query=Optimus%20simulation)
-- <strong>Reinforcement Learning Engineer, Policy, Optimus</strong>｜`Full-time`｜Palo Alto, CA｜[Apply→](https://www.tesla.com/careers/search/job/reinforcement-learning-engineer-policy-optimus-222416)
-- <strong>AI Engineer, Vision & Foundation Models, Optimus</strong>｜`Full-time`｜Palo Alto, CA｜[Apply→](https://www.tesla.com/careers/search/job/deep-learning-vision-engineer-optimus--233307)
-- <strong>Internship, Reinforcement Learning Engineer (Summer 2026)</strong>&#8203;｜`Internship`｜Palo Alto, CA｜Summer 2026｜[Apply→](https://www.tesla.com/careers/search/?query=Optimus%20internship)
-
-<a id="jump-jobs-overseas-26"></a>
-
-### Toyota Research Institute
-
-- <strong>Senior Research Scientist, Large Behavior Models</strong>｜`Full-time`｜Los Altos, CA｜[Apply→](https://careers.toyota.com/us/en/c/research-development-jobs?s=1)
-- <strong>Research Scientist - Robotics, Learning From Videos</strong>｜`Full-time`｜Los Altos, CA｜[Apply→](https://careers.toyota.com/us/en/c/research-development-jobs?s=1)
-- <strong>Robotics Intern - Mobile Manipulation, Perception</strong>｜`Internship`｜Los Altos, CA｜Summer 2026｜[Apply→](https://careers.toyota.com/us/en/students)
-- <strong>Robotics Intern - Mobile Manipulation, Learned Policies</strong>｜`Internship`｜Los Altos, CA｜Summer 2026｜[Apply→](https://careers.toyota.com/us/en/students)
-
-<a id="jump-jobs-overseas-27"></a>
-
-### Waymo
-
-- <strong>ML Engineer, Perception Foundation Model</strong>｜`Full-time`｜Mountain View, CA｜[Apply→](https://careers.withwaymo.com)
-- <strong>Software Engineer, Embedded Systems / Robotics</strong>｜`Full-time`｜Mountain View, CA｜[Apply→](https://careers.withwaymo.com)
-- <strong>Applied Research Scientist – New Grad</strong>｜`New Grad`｜Mountain View, CA｜[Apply→](https://careers.withwaymo.com)
-- <strong>2026 Summer Intern, PhD, Research, Perception Foundation Models</strong>｜`Internship`｜Mountain View, CA｜Summer 2026｜[Apply→](https://careers.withwaymo.com)
-
-<a id="jump-jobs-overseas-28"></a>
-
-### Wayve
-
-- <strong>Applied Scientist, Controllable GAIA</strong>｜`Full-time`｜London, UK｜[Apply→](https://wayve.ai/careers/life-at-wayve/)
-- <strong>Staff Applied Scientist</strong>｜`Full-time`｜London, UK｜[Apply→](https://wayve.ai/careers/life-at-wayve/)
-- <strong>Senior Applied Scientist</strong>｜`Full-time`｜London, UK｜[Apply→](https://wayve.ai/careers/life-at-wayve/)
-- <strong>Data Scientist</strong>｜`Full-time`｜London, UK｜[Apply→](https://wayve.ai/careers/life-at-wayve/)
-- <strong>Research Scientist Intern</strong>｜`Internship`｜London, UK｜[Apply→](https://wayve.ai/careers/life-at-wayve/)
-
-<a id="jump-jobs-overseas-01"></a>
-
-### 1X Technologies
-
-- <strong>Manufacturing Engineer</strong>｜`Full-time`｜Hayward, CA｜[Apply→](https://www.1x.tech/open-positions/manufacturing-engineer-us)
-- <strong>AI Research Engineer - Scaling</strong>｜`Full-time`｜San Carlos, CA｜[Apply→](https://www.1x.tech/careers)
-- <strong>AI Research Engineer - World Models</strong>｜`Full-time`｜San Carlos, CA｜[Apply→](https://www.1x.tech/careers)
-- <strong>AI Research Engineer - Reinforcement Learning</strong>｜`Full-time`｜San Carlos, CA｜[Apply→](https://www.1x.tech/careers)
-- <strong>Hardware Systems Research Engineer</strong>｜`Full-time`｜San Carlos, CA｜[Apply→](https://www.1x.tech/careers)
-- <strong>Biomechanics Researcher</strong>｜`Full-time`｜San Carlos, CA｜[Apply→](https://www.1x.tech/careers)
-- <strong>Mechanical Engineer - Actuators</strong>｜`Full-time`｜San Carlos, CA｜[Apply→](https://www.1x.tech/careers)
-- <strong>Motor Control Engineer - Robotic Actuators</strong>｜`Full-time`｜San Carlos, CA｜[Apply→](https://www.1x.tech/careers)
-- <strong>Software Engineer - Simulation</strong>｜`Full-time`｜San Carlos, CA｜[Apply→](https://www.1x.tech/careers)
-- <strong>Tactile Sensing Research Engineer</strong>｜`Full-time`｜San Carlos, CA｜[Apply→](https://www.1x.tech/careers)
-- <strong>Staff Autonomy Safety Engineer</strong>｜`Full-time`｜San Carlos, CA｜[Apply→](https://www.1x.tech/careers)
-- <strong>Senior Mechanical Engineer</strong>｜`Full-time`｜San Carlos, CA｜[Apply→](https://www.1x.tech/careers)
+<table style="width: 100%; border-collapse: collapse;">
+<thead>
+<tr>
+<th style="width: 20%; min-width: 120px; padding: 10px 12px; text-align: left; border-bottom: 2px solid #ddd;">公司</th>
+<th style="width: 35%; min-width: 120px; padding: 10px 12px; text-align: left; border-bottom: 2px solid #ddd;">岗位</th>
+<th style="width: 12%; min-width: 84px; padding: 10px 12px; text-align: left; border-bottom: 2px solid #ddd;">类型</th>
+<th style="width: 15%; min-width: 90px; padding: 10px 12px; text-align: left; border-bottom: 2px solid #ddd;">地点</th>
+<th style="width: 18%; min-width: 120px; padding: 10px 12px; text-align: center; border-bottom: 2px solid #ddd;">投递</th>
+</tr>
+</thead>
+<tbody>
+<tr id="jump-jobs-overseas-02">
+<td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>AIM Intelligent Machines</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Embodied AI Engineer - Controls</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Seattle, WA, USA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://aim.vision/jobs/embodied-ai?gh_src=General+Catalyst+job+board" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Perception and SLAM ML Engineer</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Seattle, WA, USA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://aim.vision/jobs/perception-ml" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-overseas-06">
+<td rowspan="5" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>Amazon Robotics</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Applied Scientist - ML and Robotics</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">North Reading, MA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://amazon.jobs/jobs/3207170" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Applied Scientist, SLAM, Industrial Robotics Group</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">North Reading, MA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://www.amazon.jobs/en/jobs/3192845/applied-scientist-slam-industrial-robotics-group" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Sr. Software Engineer, Mobile Manipulation Robotics</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">North Reading, MA / Bellevue, WA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://www.amazon.jobs/en/jobs/3204896/sr-software-engineer-mobile-manipulation-robotics" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Amazon Robotics - 2026 Robotics Systems Engineer Intern/Co-op, Robotics Deployment Engineering</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Internship/Co-op</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">North Reading, MA / Westborough, MA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://www.amazon.jobs/en/jobs/3088749/amazon-robotics-2026-robotics-systems-engineer-intern-co-op-robotics-deployment-engineering" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Personal Robotics Group - Research Scientist II Intern / Co-op - 2026</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Internship/Co-op</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">USA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://www.amazon.jobs/en-gb/jobs/3164675/personal-robotics-group-research-scientist-ii-intern-co-op-2026-robotics-manipulation-locomotion-controls-reinforcement-learning-perception-manipulation-planning-hri-and-more" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-overseas-07">
+<td rowspan="6" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>Apptronik</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Principal Software Engineer - AI and Simulation</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Sunnyvale, CA, USA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://job-boards.greenhouse.io/apptronik/jobs/5848437004?gh_jid=5848437004" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Reinforcement Learning Engineer</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Austin, TX</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://job-boards.greenhouse.io/apptronik/jobs/5813695004" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Senior Robotics Software & Integration Engineer</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Austin, TX</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://job-boards.greenhouse.io/apptronik/jobs/5735869004" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Senior Mechanical Engineer, Actuation</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Austin, TX</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://job-boards.greenhouse.io/apptronik/jobs/5739881004" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Senior Perception Learning Engineer</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Austin, TX</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://job-boards.greenhouse.io/apptronik/jobs/5678268004" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Autonomy Software Intern — Humanoid Robotics</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Internship</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Austin, TX</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://job-boards.greenhouse.io/apptronik/jobs/5813869004" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-overseas-09">
+<td rowspan="6" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>Boston Dynamics</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Senior Robotics Engineer - Spot Manipulation</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Waltham, MA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics/job/Senior-Robotics-Engineer--Spot-Manipulation_R2500" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Reinforcement Learning Engineer - Spot Behavior</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Waltham, MA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics/job/Reinforcement-Learning-Engineer--Spot-Behavior_R1827" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Senior Staff Robotics Engineer - Spot Autonomy</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Waltham, MA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://bostondynamics.wd1.myworkdayjobs.com/boston_dynamics/job/Waltham-MA/Senior-Staff-Robotics-Engineer--Spot-Autonomy_R2764" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Research Engineer, Atlas Physics Simulation for RL</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Waltham, MA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics/job/Research-Engineer--Atlas-Physics-Simulation-for-RL_R1971" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Staff Reinforcement Learning Research Engineer</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Waltham, MA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics/job/Staff-Reinforcement-Learning-Research-Engineer_R2724" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Software Engineer in Test - Automation and Tooling</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Billerica, MA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics/job/Billerica-MA/Software-Engineer-in-Test--Automation-and-Tooling_R2658" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-overseas-13">
+<td rowspan="8" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>Figure AI</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Helix AI Engineer, Training Infrastructure</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">San Jose, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://job-boards.greenhouse.io/figureai/jobs/4431092006" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Helix AI Engineer, Robot Learning</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">San Jose, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://job-boards.greenhouse.io/figureai/jobs/4649851006" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Helix AI Engineer, Generative AI</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">San Jose, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://job-boards.greenhouse.io/figureai/jobs/4671699006" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Helix AI Engineer, Agentic Systems</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">San Jose, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://job-boards.greenhouse.io/figureai/jobs/4659175006" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Helix AI Engineer, Pretraining</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">San Jose, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://job-boards.greenhouse.io/figureai/jobs/4671704006" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Helix AI Engineer, Tooling</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">San Jose, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://job-boards.greenhouse.io/figureai/jobs/4660876006" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Embedded Actuation Engineer</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">San Jose, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://job-boards.greenhouse.io/figureai/jobs/4443990006?source=LinkedIn" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Firmware Intern [Summer 2026]</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Internship</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">San Jose, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://job-boards.greenhouse.io/figureai/jobs/4618805006" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-overseas-14">
+<td rowspan="4" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>Google DeepMind</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Research Scientist, Robotics</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Mountain View, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://job-boards.greenhouse.io/deepmind/jobs/7102795" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Research Scientist, Safety and Alignment for Humanoid Robotics</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">New York, NY</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://job-boards.greenhouse.io/deepmind/jobs/7576917" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Technical Program Manager, Robotics Operations - London</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">London, UK</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://job-boards.greenhouse.io/deepmind/jobs/7681751" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Director of Product Management, Robotics</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Mountain View, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://job-boards.greenhouse.io/deepmind/jobs/7135001" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-overseas-15">
+<td rowspan="1" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>Grit Ventures</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Reinforcement Learning Intern</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Internship</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">USA｜Summer 2026</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://jobs.gritventures.com" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-overseas-17">
+<td rowspan="4" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>HTX</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Engineer / Lead Engineer - Embodied AI Research & Development, RAUS COE</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Permanent/Contract</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Singapore</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://jobs.careers.gov.sg/jobs/hrp/16942564/005056a3-d347-1fe0-b9f5-c21905af6284" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Engineer / Lead Engineer - Robotics, Automation & Unmanned Systems</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Permanent/Contract</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Singapore</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://jobs.careers.gov.sg/jobs/hrp/16722255/005056a3-d347-1fe0-acf8-2d9fa698e281" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Engineer / Lead Engineer, Product management, AI Products</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Permanent/Contract</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Singapore</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://jobs.careers.gov.sg/jobs/hrp/16373654/005056a3-d347-1fe0-a7da-26d97a89e27d" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Engineer / Lead Engineer, Applied Vision AI R&D, S&S CoE</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Permanent</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Singapore</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://jobs.careers.gov.sg/jobs/hrp/16942580/005056a3-d347-1fe0-b9f5-df148d8f6284" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-overseas-19">
+<td rowspan="3" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>Nuro</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Machine Learning Research Scientist: Generative Modeling for Planning</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Mountain View, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://job-boards.greenhouse.io/embed/job_app?for=nuro&t=Blind&token=5416913" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Machine Learning Research Scientist, Behavior Planning and Prediction</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Mountain View, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://boards.greenhouse.io/embed/job_app?token=5434059" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Senior Software Engineer, Machine Learning, 3D Reconstruction</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Mountain View, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://job-boards.greenhouse.io/embed/job_app?for=nuro&token=6824589%252Fapply" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-overseas-21">
+<td rowspan="5" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>NVIDIA</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Software Engineer, Simulation - Robotics</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Santa Clara, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Software-Engineer--Simulation---Robotics_JR2015217" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Senior Software Engineer, Robotics - Isaac Lab</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Santa Clara, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-Software-Engineer--Robotics---Isaac-Lab_JR2013747" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Senior Software Engineer - Robotics</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Santa Clara, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-Software-Engineer---Robotics_JR2013413" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Senior Research Scientist, Multimodal Foundation Models and Robotics</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Santa Clara, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-Research-Scientist--Multimodal-Foundation-Models-and-Robotics_JR2017288" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Software Engineering Intern, Robot Learning Platform - Fall 2026</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Internship</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Santa Clara, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Robot-Learning-Platform---Fall-2026_JR2015575" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-overseas-22">
+<td rowspan="5" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>OpenAI</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Robotics Software Engineer</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">San Francisco, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://openai.com/careers/robotics-software-engineer/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Simulation Realism Engineer</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">San Francisco, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://openai.com/careers/simulation-realism-engineer-san-francisco/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Simulation Environments Engineer</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">San Francisco, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://openai.com/careers/simulation-environments-engineer/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Research Engineer, 3D & Multi-View Geometry</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">San Francisco, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://openai.com/careers/research-engineer-3d-and-multi-view-geometry-san-francisco/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Software Engineer, Distributed Data Systems - Robotics</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">San Francisco, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://openai.com/careers/software-engineer-distributed-data-systems-robotics-san-francisco/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-overseas-26">
+<td rowspan="6" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>Tesla</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Reinforcement Learning Engineer, Whole Body Controls, Optimus</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Palo Alto, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://www.tesla.com/careers/search/job/reinforcement-learning-engineer-whole-body-controls-optimus--244485" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">AI Engineer, Manipulation, Optimus</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Palo Alto, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://www.tesla.com/careers/search/job/deep-learning-manipulation-engineer-tesla-bot-224501" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Reinforcement Learning Engineer, Policy, Optimus</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Palo Alto, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://www.tesla.com/careers/search/job/reinforcement-learning-engineer-policy-optimus-222416" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">AI Engineer, Vision & Foundation Models, Optimus</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Palo Alto, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://www.tesla.com/careers/search/job/ai-engineer-vision-foundation-models-optimus-233307" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Machine Learning Infrastructure Simulation Engineer, Optimus</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Palo Alto, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://www.tesla.com/careers/search/job/machine-learning-infrastructure-simulation-engineer-optimus-252374" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Internship, Robotics Modeling & Simulation Engineer, Optimus (Summer 2026)</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Internship</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Palo Alto, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://www.tesla.com/careers/search/job/internship-robotics-modeling-simulation-engineer-optimus-summer-2026-255615" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-overseas-28">
+<td rowspan="5" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>Waymo</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Software Engineer, Embedded</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Mountain View, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://careers.withwaymo.com/jobs/software-engineer-embedded-mountain-view-california-united-states" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Software Engineer, Perception Data Primary</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Mountain View, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://careers.withwaymo.com/jobs/software-engineer-perception-data-primary-mountain-view-california-united-states" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Embedded Software Technical Lead & Manager, Simulation</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Mountain View, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://careers.withwaymo.com/jobs/embedded-software-technical-lead-manager-simulation-mountain-view-california-united-states" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Applied Research Scientist, Perception LLM/VLM (PhD, New Grad)</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">New Grad</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Mountain View, CA / San Francisco, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://careers.withwaymo.com/jobs/applied-research-scientist-perception-llm-vlm-phd-new-grad-mountain-view-california-united-states-san-francisco" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Applied Research Scientist, 3D Object Detection (PhD New Grad)</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">New Grad</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Mountain View, CA / San Francisco, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://careers.withwaymo.com/jobs/applied-research-scientist-3d-object-detection-phd-new-grad-mountain-view-california-united-states-san-francisco" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jump-jobs-overseas-01">
+<td rowspan="5" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>Wayve</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Robotics State Estimation and Control Generalist</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Sunnyvale, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://wayve.firststage.co/jobs/u4ZL35a8AP/view?layout=grid" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Tech Lead / Manager - Trajectory Generation and Controls</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Sunnyvale, CA / London, UK</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://wayve.firststage.co/jobs/dk5HK2qGvP/view?layout=grid" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Machine Learning Engineer, App SW</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Sunnyvale, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://wayve.firststage.co/jobs/UU6s2746jp/view?layout=grid" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Senior Software Engineer, Simulation</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Sunnyvale, CA / London, UK</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://wayve.firststage.co/jobs/rFmYT8iqUH/view?layout=grid" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Technical Product Manager - Robotaxi</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Sunnyvale, CA / London, UK</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://wayve.firststage.co/jobs/tfRIKEfgSj/view?layout=grid&location=ifxs1dETJu" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td rowspan="6" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>1X Technologies</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">AI Research Engineer - Scaling</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">San Carlos, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://1x.recruitee.com/o/research-engineer-scaling" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">AI Research Engineer - World Models</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">San Carlos, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://1x.recruitee.com/o/ai-research-engineer-world-models" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">AI Research Engineer - Reinforcement Learning</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">San Carlos, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://1x.recruitee.com/o/research-engineer-rl" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Software Engineer - Simulation</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">San Carlos, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://1x.recruitee.com/o/software-engineer-simulation" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Software Engineer - Teleoperation</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">San Carlos, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://1x.recruitee.com/o/software-engineer-teleoperation" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Hardware Systems Research Engineer</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">Full-time</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; ">San Carlos, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; "><div align="center"><a href="https://1x.recruitee.com/o/hardware-systems-research-engineer" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+</tbody>
+</table>
 
 <a id="jobs-special"></a>
 
@@ -543,227 +1808,613 @@
   </tr>
 </table>
 
-<a id="jobs-special-01"></a>
-
-### 阿里巴巴
-
-- <strong>阿里星-27届实习生</strong>｜`专项`｜北京/上海/杭州｜2027年度｜[投递→](https://campus-talent.alibaba.com/campus/position?batchId=100000540002&filterParams=%7B%22aliStar%22%3A%5B%22Y%22%5D%7D)
-- <strong>阿里星计划 - 机器人方向</strong>｜`专项`｜北京/杭州｜[投递→](https://campus-talent.alibaba.com/activity/ali-star?lang=zh)
-
-<a id="jobs-special-26"></a>
-
-### Amazon
-
-- <strong>Amazon Research Awards</strong>｜`专项`｜全球｜[投递→](https://www.amazon.science/research-awards)
-- <strong>Amazon Robotics - PhD Internship</strong>｜`专项`｜北美｜[投递→](https://www.amazon.jobs/en/teams/amazon-robotics)
-
-<a id="jobs-special-27"></a>
-
-### Apple
-
-- <strong>Apple PhD Fellowship - ML/AI</strong>｜`专项`｜Cupertino, CA｜[投递→](https://machinelearning.apple.com/)
-- <strong>Apple Scholar - PhD</strong>｜`专项`｜全球｜[投递→](https://machinelearning.apple.com/)
-
-<a id="jobs-special-02"></a>
-
-### 百度
-
-- <strong>AIDU计划自动驾驶-深度学习决策规划算法工程师</strong>｜`专项`｜北京/上海｜2026年度｜[投递→](https://talent.baidu.com/jobs/detail/GRADUATE/795d6cd1-4b53-4733-a553-a5b96bef9111)
-- <strong>AIDU计划 - 自动驾驶-感知算法工程师(VLM语义方向)</strong>｜`专项`｜北京｜[投递→](https://talent.baidu.com/jobs/detail/GRADUATE/69b11b84-fe6c-4287-8502-b09b6d27faed)
-- <strong>AIDU计划- 自动驾驶-感知算法工程师(多模态障碍物检测方向)</strong>｜`专项`｜北京｜[投递→](https://talent.baidu.com/jobs/detail/GRADUATE/ef698f72-e6ad-480e-9438-446eaed91c76)
-
-<a id="jobs-special-03"></a>
-
-### 北京大学
-
-- <strong>博雅博士后 - 智能科学方向</strong>｜`专项`｜北京｜[投递→](https://postdocs.pku.edu.cn/tzgg/3bb64ae6881c498eb74a84c5267d5617.htm)
-- <strong>博雅博士后 - 计算机方向</strong>｜`专项`｜北京｜[投递→](https://postdocs.pku.edu.cn/tzgg/3bb64ae6881c498eb74a84c5267d5617.htm)
-
-<a id="jobs-special-04"></a>
-
-### 北京智源人工智能研究院
-
-- <strong>联合培养博士项目</strong>｜`专项`｜北京｜2026年度｜[投递→](https://hub.baai.ac.cn/view/44950)
-
-<a id="jobs-special-05"></a>
-
-### 大疆创新
-
-- <strong>机器人算法工程师（精英计划）</strong>&#8203;｜`专项`｜上海/深圳｜[投递→](https://we.dji.com/zh-CN/campus/position)
-- <strong>AI算法工程师（顶尖人才）</strong>&#8203;｜`专项`｜深圳｜[投递→](https://we.dji.com/zh-CN/campus/position)
-
-<a id="jobs-special-06"></a>
-
-### 地平线
-
-- <strong>世界模型算法研究实习生-具身智能方向</strong>｜`实习`｜北京/上海｜[投递→](https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69b8bb6ce49e0e559fba79c3&postType=1)
-- <strong>VLA算法实习生</strong>｜`实习`｜北京/上海｜[投递→](https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69b8bb6fbe908548be3d2423&postType=1)
-- <strong>世界模型算法实习生</strong>｜`实习`｜北京/上海｜[投递→](https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69b8bb6d10919a570b70c007&postType=1)
-- <strong>三维重建与世界模型实习生</strong>｜`实习`｜北京/上海｜[投递→](https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69b8bb70be908548be3d2429&postType=1)
-- <strong>多模态大模型算法实习生</strong>｜`实习`｜北京/上海｜[投递→](https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69b8bb6abe908548be3d240a&postType=1)
-- <strong>自动驾驶基座模型实习生</strong>｜`实习`｜北京｜[投递→](https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69b8bb708e515379dc190b6a&postType=1)
-- <strong>智能驾驶大模型算法实习生</strong>｜`实习`｜北京/上海｜[投递→](https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69b8bb698e515379dc190b33&postType=1)
-- <strong>端到端算法实习生</strong>｜`实习`｜北京/上海｜[投递→](https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69b8bb71e49e0e559fba79e5&postType=1)
-- <strong>自动驾驶 4D 重建算法实习生</strong>｜`实习`｜北京/上海/香港｜[投递→](https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69b8bb6a10919a570b70bff6&postType=1)
-- <strong>强化学习算法实习生</strong>｜`实习`｜北京/上海｜[投递→](https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69b8bb698e515379dc190b37&postType=1)
-
-<a id="jobs-special-28"></a>
-
-### Google
-
-- <strong>Google PhD Fellowship - Machine Learning</strong>｜`专项`｜全球｜[投递→](https://research.google/programs-and-events/phd-fellowship/)
-- <strong>Google PhD Fellowship - Robotics/Embodied AI</strong>｜`专项`｜美国/全球｜[投递→](https://research.google/programs-and-events/phd-fellowship/)
-
-<a id="jobs-special-08"></a>
-
-### 旷视科技
-
-- <strong>MegEagle创视者计划 - 具身智能算法系统方向研究员</strong>｜`专项`｜北京/上海｜[投递→](https://app.mokahr.com/m/campus_apply/megviihr/38642#/jobs)
-- <strong>MegEagle创视者计划 - 具身智能大模型算法研究员</strong>｜`专项`｜北京/上海｜[投递→](https://app.mokahr.com/m/campus_apply/megviihr/38642#/jobs)
-
-<a id="jobs-special-12"></a>
-
-### 美团
-
-- <strong>具身智能系统工程师</strong>｜`社招`｜北京/深圳｜[投递→](https://careers.meituan.com/web/position/detail?jobUnionId=3370570061&jobShareType=1)
-- <strong>具身智能算法工程师</strong>｜`社招`｜北京/深圳｜[投递→](https://careers.meituan.com/web/position/detail?jobUnionId=3370509617&jobShareType=1)
-- <strong>基座大模型算法研究员（预训练/原生多模态/智能体系统）</strong>｜`社招`｜北京/上海｜[投递→](https://careers.meituan.com/web/position/detail?jobUnionId=3375720050&jobShareType=1)
-- <strong>多模态基座大模型算法研究员（视觉/语音/全模态融合）</strong>｜`社招`｜北京/上海/深圳｜[投递→](https://careers.meituan.com/web/position/detail?jobUnionId=3375700771&jobShareType=1)
-- <strong>具身智能技术研究</strong>｜`实习`｜北京/上海/深圳｜[投递→](https://careers.meituan.com/web/position/detail?jobUnionId=3153985413&jobShareType=1)
-- <strong>具身智能前沿研究</strong>｜`实习`｜北京/上海｜[投递→](https://careers.meituan.com/web/position/detail?jobUnionId=4348855149&jobShareType=1)
-- <strong>具身智能前沿技术研究</strong>｜`实习`｜北京/上海｜[投递→](https://careers.meituan.com/web/position/detail?jobUnionId=4348824362&jobShareType=1)
-- <strong>具身智能系统与开放物理世界探索能力研究</strong>｜`实习`｜北京/上海｜[投递→](https://careers.meituan.com/web/position/detail?jobUnionId=4348797539&jobShareType=1)
-- <strong>视觉生成与世界模型技术研究</strong>｜`实习`｜北京/上海/深圳｜[投递→](https://careers.meituan.com/web/position/detail?jobUnionId=4348830639&jobShareType=1)
-- <strong>多模态智能体算法研究与自主规划</strong>｜`实习`｜北京/上海｜[投递→](https://careers.meituan.com/web/position/detail?jobUnionId=3153873069&jobShareType=1)
-
-<a id="jobs-special-29"></a>
-
-### Microsoft
-
-- <strong>Microsoft Research PhD Fellowship</strong>｜`专项`｜美国/全球｜[投递→](https://www.microsoft.com/en-us/research/academic-program/microsoft-research-fellowship/)
-
-<a id="jobs-special-31"></a>
-
-### NVIDIA
-
-- <strong>NVIDIA Graduate Fellowship - AI/Robotics</strong>｜`专项`｜美国/全球｜[投递→](https://research.nvidia.com/graduate-fellowships)
-- <strong>NVIDIA PhD Fellowship</strong>｜`专项`｜美国/全球｜[投递→](https://research.nvidia.com/graduate-fellowships)
-
-<a id="jobs-special-13"></a>
-
-### 清华大学
-
-- <strong>水木学者 - 计算机系/自动化系</strong>｜`专项`｜北京｜[投递→](https://postdoctor.tsinghua.edu.cn/)
-- <strong>水木学者 - AI/机器人方向</strong>｜`专项`｜北京｜[投递→](https://postdoctor.tsinghua.edu.cn/)
-
-<a id="jobs-special-33"></a>
-
-### 启元实验室
-
-- <strong>博士联合培养项目</strong>｜`专项`｜北京｜2026年度｜[投递→](https://yzb.hit.edu.cn/2026/0310/c19935a388130/pagem.htm)
-
-<a id="jobs-special-14"></a>
-
-### 荣耀
-
-- <strong>全球百万雄鹰计划</strong>｜`专项`｜北京/上海/深圳/南京/西安/海外｜[投递→](https://www.honor.com/cn/career/)
-
-<a id="jobs-special-15"></a>
-
-### 上海交通大学
-
-- <strong>致远博士后 - AI/机器人方向</strong>｜`专项`｜上海｜[投递→](https://postd.sjtu.edu.cn/)
-- <strong>致远博士后 - 计算机方向</strong>｜`专项`｜上海｜[投递→](https://postd.sjtu.edu.cn/)
-
-<a id="jobs-special-16"></a>
-
-### 商汤科技
-
-- <strong>26届AI领航员-具身智能-算法工程师</strong>｜`专项`｜北京/上海/深圳｜[投递→](https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=691d8db7e3842960d19c3af4&postType=campus)
-- <strong>26届AI领航员-具身智能-结构设计工程师</strong>｜`专项`｜北京/上海｜[投递→](https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=691d8eeed14e3214542f3970&postType=campus)
-- <strong>26届AI领航员-研究院-算法研究员</strong>｜`专项`｜北京/上海｜[投递→](https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=688748c643ff2844337fbbd7&postType=campus)
-
-<a id="jobs-special-17"></a>
-
-### 腾讯
-
-- <strong>青云计划</strong>｜`专项`｜北京/上海/深圳｜2026年度｜[投递→](https://join.qq.com/)
-- <strong>腾讯技术大咖</strong>｜`专项`｜北京/上海/深圳｜[投递→](https://careers.tencent.com/search.html)
-- <strong>青云计划 - 机器人方向</strong>｜`专项`｜深圳｜[投递→](https://join.qq.com/)
-- <strong>青云计划 - AI研究方向</strong>｜`专项`｜深圳｜[投递→](https://join.qq.com/)
-
-<a id="jobs-special-18"></a>
-
-### 西湖大学
-
-- <strong>博士后 - 人工智能方向</strong>｜`专项`｜杭州｜[投递→](https://www.westlake.edu.cn/careers/)
-- <strong>博士后 - 机器人方向</strong>｜`专项`｜杭州｜[投递→](https://www.westlake.edu.cn/careers/)
-
-<a id="jobs-special-19"></a>
-
-### 小米
-
-- <strong>顶尖应届-Diffusion-based端到端算法工程师-自动驾驶</strong>｜`专项`｜上海｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215912629813357/detail)
-- <strong>顶尖应届-Diffusion-based端到端算法工程师-自动驾驶</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215618936094829/detail)
-- <strong>顶尖应届-世界模型端到端算法工程师-自动驾驶</strong>｜`专项`｜上海｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215886202519661/detail)
-- <strong>顶尖应届-世界模型端到端算法工程师-自动驾驶</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215358336467053/detail)
-- <strong>顶尖应届-云端 VLM/VLA 多模态大模型大模型算法工程师-汽车</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215332196696172/detail)
-- <strong>顶尖应届-云端数据基座大模型工程师-自动驾驶</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215748851581037/detail)
-- <strong>顶尖应届-人形机器人仿真驱动算法工程师-机器人事业部</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215435179917421/detail)
-- <strong>顶尖应届-仿真算法工程师-自动驾驶</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7578791466316368164/detail)
-- <strong>顶尖应届-具身基座VLA大模型工程师-汽车</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520216202611753068/detail)
-- <strong>顶尖应届-具身基座VLA大模型研究员-汽车</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7507237713168302188/detail)
-- <strong>顶尖应届-具身大模型数据工程师-XiaomiRobotics</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7624353848895637823/detail)
-- <strong>顶尖应届-具身大模型算法研究员-XiaomiRobotics</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7624353963583883574/detail)
-- <strong>顶尖应届-具身大模型训练推理工程师-XiaomiRobotics</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7624353849524537654/detail)
-- <strong>顶尖应届-时空联合规划模型工程师-自动驾驶</strong>｜`专项`｜上海｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215748218126444/detail)
-- <strong>顶尖应届-机器人具身智能算法工程师-机器人事业部</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7518973498065551469/detail)
-- <strong>顶尖应届-机器人具身智能算法研究员-机器人事业部</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520214992697786477/detail)
-- <strong>顶尖应届-机器人物理角色动画算法工程师-机器人事业部</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520214614627434604/detail)
-- <strong>顶尖应届-机器人运动控制算法工程师（强化学习）-机器人事业部</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215332196991084/detail)
-- <strong>顶尖应届-灵巧手控制算法工程师-机器人事业部</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520214762254155884/detail)
-- <strong>顶尖应届-空间智能端到端算法工程师-自动驾驶</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215566139113580/detail)
-- <strong>顶尖应届-端云协同多模态大模型算法工程师-汽车</strong>｜`专项`｜武汉｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215253780709484/detail)
-- <strong>顶尖应届-端到端控制算法工程师-机器人事业部</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520214959303196780/detail)
-- <strong>顶尖应届-端到端算法研究员-自动驾驶</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520433254606061676/detail)
-- <strong>顶尖应届-自动驾驶VLA大模型工程师-汽车</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520216228628168812/detail)
-- <strong>顶尖应届-自动驾驶VLA大模型研究员-汽车</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7507236104706850925/detail)
-- <strong>顶尖应届-自动驾驶后端研发工程师-汽车</strong>｜`专项`｜武汉｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520214976168214637/detail)
-- <strong>顶尖应届-自动驾驶垂域大模型算法工程师-汽车</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215383790403692/detail)
-- <strong>顶尖应届-自动驾驶算法优化工程师-汽车</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520214536944058477/detail)
-- <strong>顶尖应届-视觉基础模型算法工程师-自动驾驶</strong>｜`专项`｜上海｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520216040878686316/detail)
-- <strong>顶尖应届-视觉基础模型算法工程师-自动驾驶</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215694740537452/detail)
-- <strong>顶尖应届-预测大模型工程师-汽车</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7507235021537149037/detail)
-- <strong>顶尖应届-预测大模型工程师-汽车</strong>｜`专项`｜上海｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7507238408659615852/detail)
-- <strong>顶尖应届-预测大模型算法研究员-汽车</strong>｜`专项`｜上海｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7507238831680176236/detail)
-- <strong>顶尖应届-预测大模型算法研究员-汽车</strong>｜`专项`｜北京｜[投递→](https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7507238831679914092/detail)
-
-<a id="jobs-special-20"></a>
-
-### 优必选科技
-
-- <strong>具身智能首席科学家</strong>｜`专项`｜深圳｜[投递→](https://ubtrobot.zhiye.com/social/jobs)
-
-<a id="jobs-special-22"></a>
-
-### 浙江大学
-
-- <strong>求是博士后 - 控制/计算机方向</strong>｜`专项`｜杭州｜[投递→](https://hr.zju.edu.cn/postdoctor/)
-- <strong>求是博士后 - AI方向</strong>｜`专项`｜杭州｜[投递→](https://hr.zju.edu.cn/postdoctor/)
-
-<a id="jobs-special-23"></a>
-
-### 中科院
-
-- <strong>百人计划 - 计算机/机器人方向</strong>｜`专项`｜北京/全国｜[投递→](https://www.cas.cn/rcjy/)
-- <strong>海外优青项目</strong>｜`专项`｜北京｜2026年度｜[投递→](https://cnic.cas.cn)
-
-<a id="jobs-special-25"></a>
-
-### 字节跳动
-
-- <strong>Top Seed人才计划</strong>｜`专项`｜北京/上海/深圳/杭州/成都等｜2026年度｜[投递→](https://jobs.bytedance.com/campus)
-- <strong>筋斗云人才计划</strong>｜`专项`｜北京/上海/深圳/杭州/成都等｜2026年度｜[投递→](https://jobs.bytedance.com/campus)
+<table style="width: 100%; border-collapse: collapse;">
+<thead>
+<tr>
+<th style="width: 20%; min-width: 120px; padding: 10px 12px; text-align: left; border-bottom: 2px solid #ddd;">公司</th>
+<th style="width: 35%; min-width: 120px; padding: 10px 12px; text-align: left; border-bottom: 2px solid #ddd;">岗位/计划</th>
+<th style="width: 12%; min-width: 84px; padding: 10px 12px; text-align: left; border-bottom: 2px solid #ddd;">类型</th>
+<th style="width: 15%; min-width: 90px; padding: 10px 12px; text-align: left; border-bottom: 2px solid #ddd;">地点</th>
+<th style="width: 18%; min-width: 120px; padding: 10px 12px; text-align: center; border-bottom: 2px solid #ddd;">投递</th>
+</tr>
+</thead>
+<tbody>
+<tr id="jobs-special-01">
+<td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>阿里巴巴</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">阿里星-27届实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京/上海/杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://campus-talent.alibaba.com/campus/position?batchId=100000540002&filterParams=%7B%22aliStar%22%3A%5B%22Y%22%5D%7D" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">阿里星计划 - 机器人方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://campus-talent.alibaba.com/activity/ali-star?lang=zh" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-26">
+<td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>Amazon</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Amazon Research Awards</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">全球</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://www.amazon.science/research-awards" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">Amazon Robotics - PhD Internship</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北美</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.amazon.jobs/en/teams/amazon-robotics" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-27">
+<td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>Apple</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Apple PhD Fellowship - ML/AI</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Cupertino, CA</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://machinelearning.apple.com/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">Apple Scholar - PhD</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">全球</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://machinelearning.apple.com/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-02">
+<td rowspan="3" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>百度</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">AIDU计划自动驾驶-深度学习决策规划算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://talent.baidu.com/jobs/detail/GRADUATE/795d6cd1-4b53-4733-a553-a5b96bef9111" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">AIDU计划 - 自动驾驶-感知算法工程师(VLM语义方向)</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://talent.baidu.com/jobs/detail/GRADUATE/69b11b84-fe6c-4287-8502-b09b6d27faed" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">AIDU计划- 自动驾驶-感知算法工程师(多模态障碍物检测方向)</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://talent.baidu.com/jobs/detail/GRADUATE/ef698f72-e6ad-480e-9438-446eaed91c76" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-03">
+<td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>北京大学</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">博雅博士后 - 智能科学方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://postdocs.pku.edu.cn/tzgg/3bb64ae6881c498eb74a84c5267d5617.htm" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">博雅博士后 - 计算机方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://postdocs.pku.edu.cn/tzgg/3bb64ae6881c498eb74a84c5267d5617.htm" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-04">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>北京智源人工智能研究院</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">联合培养博士项目</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://hub.baai.ac.cn/view/44950" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-05">
+<td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>大疆创新</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">机器人算法工程师（精英计划）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">上海/深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://we.dji.com/zh-CN/campus/position" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">AI算法工程师（顶尖人才）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://we.dji.com/zh-CN/campus/position" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-06">
+<td rowspan="10" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>地平线</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">世界模型算法研究实习生-具身智能方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69b8bb6ce49e0e559fba79c3&postType=1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">VLA算法实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69b8bb6fbe908548be3d2423&postType=1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">世界模型算法实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69b8bb6d10919a570b70c007&postType=1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">三维重建与世界模型实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69b8bb70be908548be3d2429&postType=1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">多模态大模型算法实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69b8bb6abe908548be3d240a&postType=1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">自动驾驶基座模型实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69b8bb708e515379dc190b6a&postType=1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">智能驾驶大模型算法实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69b8bb698e515379dc190b33&postType=1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">端到端算法实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69b8bb71e49e0e559fba79e5&postType=1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">自动驾驶 4D 重建算法实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海/香港</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69b8bb6a10919a570b70bff6&postType=1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">强化学习算法实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/posDetail.html?postId=69b8bb698e515379dc190b37&postType=1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-28">
+<td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>Google</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Google PhD Fellowship - Machine Learning</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">全球</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://research.google/programs-and-events/phd-fellowship/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">Google PhD Fellowship - Robotics/Embodied AI</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">美国/全球</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://research.google/programs-and-events/phd-fellowship/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-12">
+<td rowspan="10" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>美团</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">具身智能系统工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京/深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://careers.meituan.com/web/position/detail?jobUnionId=3370570061&jobShareType=1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://careers.meituan.com/web/position/detail?jobUnionId=3370509617&jobShareType=1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">基座大模型算法研究员（预训练/原生多模态/智能体系统）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://careers.meituan.com/web/position/detail?jobUnionId=3375720050&jobShareType=1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">多模态基座大模型算法研究员（视觉/语音/全模态融合）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海/深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://careers.meituan.com/web/position/detail?jobUnionId=3375700771&jobShareType=1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能技术研究</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海/深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://careers.meituan.com/web/position/detail?jobUnionId=3153985413&jobShareType=1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能前沿研究</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://careers.meituan.com/web/position/detail?jobUnionId=4348855149&jobShareType=1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能前沿技术研究</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://careers.meituan.com/web/position/detail?jobUnionId=4348824362&jobShareType=1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能系统与开放物理世界探索能力研究</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://careers.meituan.com/web/position/detail?jobUnionId=4348797539&jobShareType=1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">视觉生成与世界模型技术研究</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海/深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://careers.meituan.com/web/position/detail?jobUnionId=4348830639&jobShareType=1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">多模态智能体算法研究与自主规划</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://careers.meituan.com/web/position/detail?jobUnionId=3153873069&jobShareType=1" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-29">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>Microsoft</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Microsoft Research PhD Fellowship</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">美国/全球</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://www.microsoft.com/en-us/research/academic-program/microsoft-research-fellowship/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-31">
+<td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>NVIDIA</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">NVIDIA Graduate Fellowship - AI/Robotics</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">美国/全球</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://research.nvidia.com/graduate-fellowships" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">NVIDIA PhD Fellowship</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">美国/全球</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://research.nvidia.com/graduate-fellowships" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-13">
+<td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>清华大学</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">水木学者 - 计算机系/自动化系</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://postdoctor.tsinghua.edu.cn/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">水木学者 - AI/机器人方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://postdoctor.tsinghua.edu.cn/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-33">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>启元实验室</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">博士联合培养项目</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://yzb.hit.edu.cn/2026/0310/c19935a388130/pagem.htm" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-14">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>荣耀</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">全球百万雄鹰计划</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京/上海/深圳/南京/西安/海外</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://www.honor.com/cn/career/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-15">
+<td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>上海交通大学</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">致远博士后 - AI/机器人方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://postd.sjtu.edu.cn/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">致远博士后 - 计算机方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://postd.sjtu.edu.cn/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-16">
+<td rowspan="3" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>商汤科技</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">26届AI领航员-具身智能-算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京/上海/深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=691d8db7e3842960d19c3af4&postType=campus" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">26届AI领航员-具身智能-结构设计工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=691d8eeed14e3214542f3970&postType=campus" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">26届AI领航员-研究院-算法研究员</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=688748c643ff2844337fbbd7&postType=campus" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-17">
+<td rowspan="4" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>腾讯</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">青云计划</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京/上海/深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://join.qq.com/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">腾讯技术大咖</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海/深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://careers.tencent.com/search.html" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">青云计划 - 机器人方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://join.qq.com/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">青云计划 - AI研究方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://join.qq.com/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-18">
+<td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>西湖大学</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">博士后 - 人工智能方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://www.westlake.edu.cn/careers/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">博士后 - 机器人方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.westlake.edu.cn/careers/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-19">
+<td rowspan="34" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>小米</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">顶尖应届-Diffusion-based端到端算法工程师-自动驾驶</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215912629813357/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-Diffusion-based端到端算法工程师-自动驾驶</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215618936094829/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-世界模型端到端算法工程师-自动驾驶</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215886202519661/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-世界模型端到端算法工程师-自动驾驶</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215358336467053/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-云端 VLM/VLA 多模态大模型大模型算法工程师-汽车</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215332196696172/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-云端数据基座大模型工程师-自动驾驶</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215748851581037/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-人形机器人仿真驱动算法工程师-机器人事业部</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215435179917421/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-仿真算法工程师-自动驾驶</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7578791466316368164/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-具身基座VLA大模型工程师-汽车</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520216202611753068/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-具身基座VLA大模型研究员-汽车</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7507237713168302188/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-具身大模型数据工程师-XiaomiRobotics</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7624353848895637823/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-具身大模型算法研究员-XiaomiRobotics</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7624353963583883574/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-具身大模型训练推理工程师-XiaomiRobotics</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7624353849524537654/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-时空联合规划模型工程师-自动驾驶</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215748218126444/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-机器人具身智能算法工程师-机器人事业部</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7518973498065551469/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-机器人具身智能算法研究员-机器人事业部</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520214992697786477/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-机器人物理角色动画算法工程师-机器人事业部</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520214614627434604/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-机器人运动控制算法工程师（强化学习）-机器人事业部</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215332196991084/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-灵巧手控制算法工程师-机器人事业部</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520214762254155884/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-空间智能端到端算法工程师-自动驾驶</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215566139113580/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-端云协同多模态大模型算法工程师-汽车</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">武汉</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215253780709484/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-端到端控制算法工程师-机器人事业部</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520214959303196780/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-端到端算法研究员-自动驾驶</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520433254606061676/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-自动驾驶VLA大模型工程师-汽车</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520216228628168812/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-自动驾驶VLA大模型研究员-汽车</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7507236104706850925/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-自动驾驶后端研发工程师-汽车</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">武汉</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520214976168214637/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-自动驾驶垂域大模型算法工程师-汽车</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215383790403692/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-自动驾驶算法优化工程师-汽车</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520214536944058477/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-视觉基础模型算法工程师-自动驾驶</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520216040878686316/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-视觉基础模型算法工程师-自动驾驶</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7520215694740537452/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-预测大模型工程师-汽车</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7507235021537149037/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-预测大模型工程师-汽车</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7507238408659615852/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-预测大模型算法研究员-汽车</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7507238831680176236/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">顶尖应届-预测大模型算法研究员-汽车</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://xiaomi.jobs.f.mioffice.cn/toptalent/position/7507238831679914092/detail" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-20">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>优必选科技</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">具身智能首席科学家</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">深圳</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://ubtrobot.zhiye.com/social/jobs" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-22">
+<td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>浙江大学</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">求是博士后 - 控制/计算机方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://hr.zju.edu.cn/postdoctor/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">求是博士后 - AI方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">杭州</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://hr.zju.edu.cn/postdoctor/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-23">
+<td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>中科院</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">百人计划 - 计算机/机器人方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京/全国</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://www.cas.cn/rcjy/" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">海外优青项目</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://cnic.cas.cn" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr id="jobs-special-25">
+<td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><strong>字节跳动</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Top Seed人才计划</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京/上海/深圳/杭州/成都等</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://jobs.bytedance.com/campus" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+<tr>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">筋斗云人才计划</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京/上海/深圳/杭州/成都等</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://jobs.bytedance.com/campus" style="display:inline-block; min-width:92px; padding:10px 16px; border-radius:10px; background:#73c2e8; color:#fff; text-decoration:none; font-weight:700; line-height:1; font-family:Arial, sans-serif; text-align:center;">Apply</a></div></td>
+</tr>
+</tbody>
+</table>
 
 <a id="jobs-hr"></a>
 
