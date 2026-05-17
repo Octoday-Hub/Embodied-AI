@@ -8,15 +8,15 @@
 
 ### 只想改一个链接？
 
-1. 打开对应文件，点击右上角 `Edit this file`
-2. 修改后点击 `Propose changes`
-3. 按提示提交 [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls) 即可，无需 Fork 到本地
+1. 打开对应文件，点击右上角 `Edit this file`。
+2. 修改后点击 `Propose changes`。
+3. 按提示提交 [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls) 即可，无需 Fork 到本地。
 
 ### 打算批量更新或新增内容？
 
-1. Fork 本仓库到你的账号下
-2. 从 `main` 切出新分支
-3. 本地修改后提交 [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls)
+1. Fork 本仓库到你的账号下。
+2. 从 `main` 切出新分支。
+3. 本地修改后提交 [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls)。
 
 ---
 
@@ -24,11 +24,11 @@
 
 请按以下规则命名，方便维护者快速识别：
 
-- `update-basics-[主题]` 对应 `00-basics.md`
-- `add-company-[公司名]` 对应 `01-companies.md`
-- `update-jobs-[公司名]` 对应 `02-jobs.md`
-- `update-paper-[论文名]` 对应 `03-papers.md`
-- `update-tools-[工具名]` 对应 `04-tools.md`
+- `update-basics-[主题]` 对应 `00-basics.md`。
+- `add-company-[公司名]` 对应 `01-companies.md`。
+- `update-jobs-[公司名]` 对应 `02-jobs.md`。
+- `update-paper-[论文名]` 对应 `03-papers.md`。
+- `update-tools-[工具名]` 对应 `04-tools.md`。
 
 如果你不确定该提 [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls) 还是 [Issue](https://github.com/Octoday-Hub/Embodied-Al/issues)：
 
