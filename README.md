@@ -22,9 +22,13 @@
 </p>
 
 
+🌐 [English Version](topics/README_EN.md)
+
 ## 🎯 我们的愿景
 
 我们希望构建一个面向具身智能领域的开放知识入口，无论你身处实验室还是工厂一线，你的每一份好奇与实践，都能在此找到属于自己的那块拼图。
+
+
 
 ### 🌌 为什么是“星期八”？
 
@@ -37,15 +41,6 @@
 我们希望，这里能成为你探索具身智能世界时，最清晰、最靠谱的坐标原点。
 
 Beyond the 7th Day, explore the Infinite Embodiment. 
-
-
-
-## 📢 Weekly News｜周报  
-
-- 🗓️ 2026-05-16: [具身智能周报 05.11-05.16](topics/weeklynews/511-516.md)，覆盖 3 份专题：17 条产业新闻、44 个岗位、40 篇论文精选
-- 🌐 产业侧：17 条动态，政策、资本、平台、出海与场景落地同步升温，赛道进入更完整的产业化周期
-- 🧩 岗位侧：44 个岗位，覆盖 9 家公司；其中技术研发类 36 个，需求集中在模型、控制、感知、系统与硬件底座
-- 🧠 论文侧：40 篇精选论文，研究重心正从单点模型效果转向更快、更稳、更可控、更易部署的系统能力
 
 ## 🗺️ 领域地图
 
@@ -82,7 +77,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🔭（2）瞭望台：追踪前沿技术
 
-> 当前收录 `260` 篇精选论文。
+> 当前收录 `288` 篇精选论文。
 
 进入[论文合集](topics/03-papers.md)：
 
@@ -101,7 +96,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🔧（3）锤炼：整合工程实践
 
-> 当前收录 `81` 个工具与平台。
+> 当前收录 `96` 个工具与平台。
 
 查看[工程工具](topics/04-tools.md)：
 
@@ -109,7 +104,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🔗（4）坐标：洞察产业动态
 
-> 当前共收录 `274` 家具身智能相关公司：国内 `171` 家、国外 `103` 家。
+> 当前共收录 `273` 家具身智能相关公司：国内 `170` 家、国外 `103` 家。
 
 查看[公司列表](topics/01-companies.md)：
 
@@ -117,7 +112,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🎒（5）进化：人才风向标
 
-> 当前共收录 `392` 个岗位机会。
+> 当前共收录 `503 个岗位机会。
 
 查看[招聘信息](topics/02-jobs.md)：
 
@@ -130,7 +125,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 | 大疆 | [投递](topics/02-jobs.md#jump-jobs-domestic-14) | 1X Technologies | [投递](topics/02-jobs.md#jump-jobs-overseas-01) |
 | 地平线 | [投递](topics/02-jobs.md#jump-jobs-domestic-15) | AIM Intelligent Machines | [投递](topics/02-jobs.md#jump-jobs-overseas-02) |
 | 傅利叶智能 | [投递](topics/02-jobs.md#jump-jobs-domestic-04) | Amazon Robotics | [投递](topics/02-jobs.md#jump-jobs-overseas-03) |
-| 普渡科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-27) | Apptronik | [投递](topics/02-jobs.md#jump-jobs-overseas-06) |
+| 节卡机器人 | [投递](topics/02-jobs.md#jump-jobs-domestic-02) | Apptronik | [投递](topics/02-jobs.md#jump-jobs-overseas-06) |
 | 千寻智能 | [投递](topics/02-jobs.md#jump-jobs-domestic-08) | Aurora | [投递](topics/02-jobs.md#jump-jobs-overseas-07) |
 | 上海人工智能实验室 | [投递](topics/02-jobs.md#jump-jobs-domestic-20) | Boston Dynamics | [投递](topics/02-jobs.md#jump-jobs-overseas-08) |
 | 商汤科技 | [投递](topics/02-jobs.md#jump-jobs-domestic-23) | Cruise | [投递](topics/02-jobs.md#jump-jobs-overseas-09) |
@@ -151,6 +146,10 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 ## 🌱 社区共建
 
 我们欢迎任何形式的贡献！无论是提交新的公司信息、论文，还是修正错误。
+
+- 📖  [贡献指南](topics/CONTRIBUTING.md) 了解如何参与社区共建
+- ✨  [Pull Request](https://github.com/Octoday-Hub/Embodied-Al/compare) 直接提交内容更新
+- 🐛  [Issue](https://github.com/Octoday-Hub/Embodied-Al/issues/new/choose) 反馈错误或提出建议
 
 感谢每一位贡献者，也期待与更多伙伴共建。
 
