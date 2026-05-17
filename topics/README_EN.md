@@ -145,9 +145,11 @@ If you want to jump directly to a specific company's openings from the homepage,
 
 We welcome contributions in any form, whether you are adding new company information, sharing papers, or fixing errors.
 
-We are grateful to every contributor and look forward to building this resource together.
+- 📖  [Community Guidelines](CONTRIBUTING_EN.md) for details on how to contribute.
+- ✨  [Pull Request](https://github.com/Octoday-Hub/Embodied-Al/pulls) to submit content updates directly.
+- 🐛  [Issue](https://github.com/Octoday-Hub/Embodied-Al/issues) to report errors or share suggestions.
 
-👉 Check out the [Community Guidelines](CONTRIBUTING_EN.md) for details on how to submit Issues, Pull Requests, and formatting standards for each section.
+We are grateful to every contributor and look forward to building this resource together.
 
 ## 👥 About Octoday Hub
 

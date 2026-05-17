@@ -8,15 +8,15 @@ If you discover a useful tool, a promising company, a valuable paper, or notice 
 
 ### Only fixing one link?
 
-1. Open the target file and click `Edit this file`
-2. Make your change and click `Propose changes`
-3. Submit the [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls) by following the prompts - no local fork required
+1. Open the target file and click `Edit this file`.
+2. Make your change and click `Propose changes`.
+3. Submit the [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls) by following the prompts; no local fork required.
 
 ### Planning a larger update?
 
-1. Fork this repository to your account
-2. Create a new branch from `main`
-3. Make your edits locally and submit a [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls)
+1. Fork this repository to your account.
+2. Create a new branch from `main`.
+3. Make your edits locally and submit a [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls).
 
 ---
 
@@ -24,11 +24,11 @@ If you discover a useful tool, a promising company, a valuable paper, or notice 
 
 Please follow these naming rules so maintainers can quickly identify the scope:
 
-- `update-basics-[topic]` for `00-basics.md`
-- `add-company-[company-name]` for `01-companies.md`
-- `update-jobs-[company-name]` for `02-jobs.md`
-- `update-paper-[paper-title]` for `03-papers.md`
-- `update-tools-[tool-name]` for `04-tools.md`
+- `update-basics-[topic]` for `00-basics.md`.
+- `add-company-[company-name]` for `01-companies.md`.
+- `update-jobs-[company-name]` for `02-jobs.md`.
+- `update-paper-[paper-title]` for `03-papers.md`.
+- `update-tools-[tool-name]` for `04-tools.md`.
 
 If you are unsure whether to open a [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls) or an [Issue](https://github.com/Octoday-Hub/Embodied-Al/issues):
 
