@@ -18,7 +18,7 @@
   <img alt="Update Frequency" src="https://img.shields.io/badge/Update%20Frequency-Weekly-22C55E?style=flat-square&labelColor=14532D" />
   <img alt="Awesome" src="https://img.shields.io/badge/Awesome-Curated-2563EB?style=flat-square&labelColor=1E3A8A" />
   <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-Welcome-64748B?style=flat-square&labelColor=334155" />
-  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/Octoday-Hub/Embodied-Al?style=flat-square&label=last%20commit&labelColor=374151&color=3B82F6" />
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/Octoday-Hub/Embodied-AI?style=flat-square&label=last%20commit&labelColor=374151&color=3B82F6" />
 </p>
 
 
@@ -30,7 +30,7 @@ We aim to build an open gateway to embodied AI knowledge. Whether you work in a 
 
 
 
-### 🌌 Why "Octoday"?
+### 🌌 Why 'Octoday'?
 
 Beyond the conventional seven-day cycle, **"Octoday" stands for an extra day beyond the ordinary.**
 
@@ -40,7 +40,7 @@ Beyond the conventional seven-day cycle, **"Octoday" stands for an extra day bey
 
 We hope this can become your clearest and most reliable point of reference as you explore the world of embodied AI.
 
-Beyond the Seventh Day, explore embodied intelligence without limits.
+Beyond the Seventh Day, explore Infinite Embodiment.
 
 ## 🗺️ Domain Map
 
@@ -60,7 +60,7 @@ We will gradually expand coverage across the following areas:
 
 `📡 Industry Insights`: Monitor policies, trends, events, and inflection points in the industry.
 
-## 📍 Getting Started
+## 📍 Getting Started: Your First Step
 
 **Embodied AI** refers to intelligent systems that perceive, understand, decide, and act through a physical body interacting with the environment in real time. It brings together computer vision, reinforcement learning, and multimodal foundation models.
 
@@ -68,37 +68,37 @@ We will gradually expand coverage across the following areas:
 
 > Currently featuring `14` recommended books and `16` online courses.
 
-Start with [Cognitive Foundation](00-basics.md):
+Start with [Cognitive Foundation](00-basics_EN.md):
 
 A hand-picked selection of books and courses covering the fundamentals of robotics, reinforcement learning, and computer vision. It includes open courses from leading institutions such as Stanford, CMU, and Tsinghua to help you quickly build a solid mental model and identify the core concepts and learning paths.
 
-- [Recommended Books](00-basics.md#recommended-books)
-- [Online Courses](00-basics.md#online-courses)
+- [Recommended Books](00-basics_EN.md#recommended-books)
+- [Online Courses](00-basics_EN.md#online-courses)
 
 ### 🔭 (2) Watchtower: Track Frontier Technologies
 
 > Currently featuring `288` curated papers.
 
-Explore the [Paper Collection](03-papers.md):
+Explore the [Paper Collection](03-papers_EN.md):
 
-Browse curated embodied AI papers, deepen your understanding through open-source code, and quickly grasp technology trends.
+This English page is being translated section by section. It already includes the core structure and a growing set of translated entries, so you can start browsing in English while still using the Chinese source for the full master list.
 
 &emsp;&emsp;**Coverage**
 
-- [Embodied Foundation Models](03-papers.md#embodied-foundation-models)
-- [Manipulation & Teleoperation](03-papers.md#manipulation)
-- [Locomotion](03-papers.md#locomotion)
-- [Navigation & Spatial Intelligence](03-papers.md#navigation-spatial-intelligence)
-- [Simulators & Sim2Real](03-papers.md#simulation-sim2real)
-- [Datasets](03-papers.md#datasets)
-- [Benchmarks & Evaluation](03-papers.md#benchmarks-evaluation)
-- [Survey](03-papers.md#survey)
+- [Embodied Foundation Models](03-papers_EN.md#embodied-foundation-models)
+- [Manipulation & Teleoperation](03-papers_EN.md#manipulation)
+- [Locomotion](03-papers_EN.md#locomotion)
+- [Navigation & Spatial Intelligence](03-papers_EN.md#navigation-spatial-intelligence)
+- [Simulators & Sim2Real](03-papers_EN.md#simulation-sim2real)
+- [Datasets](03-papers_EN.md#datasets)
+- [Benchmarks & Evaluation](03-papers_EN.md#benchmarks-evaluation)
+- [Survey](03-papers_EN.md#survey)
 
 ### 🔧 (3) Forge: Integrate Engineering Practice
 
 > Currently featuring `96` tools and platforms.
 
-Check out [Engineering Tools](04-tools.md):
+Check out [Engineering Tools](04-tools_EN.md):
 
 A collection of robot simulation platforms, motion control, various SDKs, and major open-source projects.
 
@@ -106,17 +106,17 @@ A collection of robot simulation platforms, motion control, various SDKs, and ma
 
 > Currently featuring `273` embodied AI-related companies: `170` domestic, `103` overseas.
 
-View the [Company List](01-companies.md):
+View the [Company List](01-companies_EN.md):
 
 A curated map of the global embodied AI enterprise landscape to help you discover potential business anchors.
 
-### 🎒 (5) Evolution: Talent Trends
+### 🎒 (5) Evolution: Talent Compass
 
-> Currently featuring `398` job opportunities.
+> The full jobs database currently features `398` opportunities.
 
-Check [Job Openings](02-jobs.md):
+Check [Global Opportunities](02-jobs_EN.md):
 
-Updated on a rolling basis with full-time, internship, and campus opportunities. Use hiring demand to reverse-engineer the skills the industry actually values and sharpen your learning path accordingly.
+The English jobs page currently focuses on global opportunities. The quick-reference table below still links to the Chinese master list, which remains the most complete source for domestic, global, internship, campus, and special-program openings.
 
 If you want to jump directly to a specific company's openings from the homepage, use this quick-reference table:
 
@@ -141,13 +141,13 @@ If you want to jump directly to a specific company's openings from the homepage,
 | LimX Dynamics | [Apply](02-jobs.md#jump-jobs-domestic-05) | Waymo | [Apply](02-jobs.md#jump-jobs-overseas-28) |
 | ByteDance | [Apply](02-jobs.md#jobs-special-25) | Wayve | [Apply](02-jobs.md#jump-jobs-overseas-01) |
 
-## 🌱 Community
+## 🌱 Community Building
 
 We welcome contributions in any form, whether you are adding new company information, sharing papers, or fixing errors.
 
-- 📖  [Community Guidelines](CONTRIBUTING_EN.md) for details on how to contribute.
-- ✨  [Pull Request](https://github.com/Octoday-Hub/Embodied-Al/pulls) to submit content updates directly.
-- 🐛  [Issue](https://github.com/Octoday-Hub/Embodied-Al/issues) to report errors or share suggestions.
+- 📖  [Contributing Guide](CONTRIBUTING_EN.md) for details on how to contribute.
+- ✨  [Pull Request](https://github.com/Octoday-Hub/Embodied-AI/pulls) to submit content updates directly.
+- 🐛  [Issue](https://github.com/Octoday-Hub/Embodied-AI/issues) to report errors or share suggestions.
 
 We are grateful to every contributor and look forward to building this resource together.
 
@@ -176,9 +176,9 @@ Your support is our greatest motivation for continuous updates.
 ```bibtex
 @misc{octoday_robotics_2026,
   author = {Octoday Embodied-AI Community},
-  title  = {具身智能知识索引与产业地图},
+  title  = {Embodied AI Knowledge Index and Industry Map},
   year   = {2026},
-  url    = {https://github.com/Octoday-Hub/Embodied-Al}
+  url    = {https://github.com/Octoday-Hub/Embodied-AI}
 }
 ```
 

@@ -2783,8 +2783,8 @@
 
    ​	💬 微信：Midsummer_Jin
 
-   ​	🐙 GitHub Issues：在本仓库 [Issues](https://github.com/Octoday-Hub/Embodied-Al/issues) 中反馈或留言说明岗位信息
+   ​	🐙 GitHub Issues：在本仓库 [Issues](https://github.com/Octoday-Hub/Embodied-AI/issues) 中反馈或留言说明岗位信息
 
-   ​	📝 直接提交 [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls)：修改 `topics/02-jobs.md` 中的对应条目
+   ​	📝 直接提交 [PR](https://github.com/Octoday-Hub/Embodied-AI/pulls)：修改 `topics/02-jobs.md` 中的对应条目
 
 3. 审核通过后，岗位将在24小时内更新至本列表，并同步至微信群/公众号/飞书文档。
