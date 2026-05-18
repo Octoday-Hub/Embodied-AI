@@ -1,22 +1,22 @@
-# Contributing Guide
+## Contributing Guide
 
 If you discover a useful tool, a promising company, a valuable paper, or notice a broken link, feel free to open a [PR](https://github.com/Octoday-Hub/Embodied-AI/pulls) or [Issue](https://github.com/Octoday-Hub/Embodied-AI/issues) directly. Every update helps the next person move faster.
 
-## Quick Start
+### Quick Start
 
-### Only fixing one link?
+#### Only fixing one link?
 
 1. Open the target file and click `Edit this file`.
 2. Make your change and click `Propose changes`.
 3. Submit the [PR](https://github.com/Octoday-Hub/Embodied-AI/pulls) by following the prompts; no local fork required.
 
-### Planning a larger update?
+#### Planning a larger update?
 
 1. Fork this repository to your account.
 2. Create a new branch from `main`.
 3. Make your edits locally and submit a [PR](https://github.com/Octoday-Hub/Embodied-AI/pulls).
 
-## Branch Naming
+#### Branch Naming
 
 Please follow these naming rules so maintainers can quickly identify the scope:
 
@@ -31,7 +31,7 @@ If you are unsure whether to open a [PR](https://github.com/Octoday-Hub/Embodied
 - **PR**: Best for direct content edits, link fixes, or typo fixes.
 - **Issue**: Best for reporting problems, sharing leads, or discussing changes first.
 
-## Content Guidelines
+### Content Guidelines
 
 Please follow the formatting guidelines below:
 
@@ -61,24 +61,24 @@ Please follow the formatting guidelines below:
 - Provide **tool name**, **type** (simulation / control / dataset, etc.), **official link**, and a **one-sentence description**.
 - Indicate whether it is open-source and the main programming language.
 
-## Information Accuracy
+### Information Accuracy
 
 - Verifiable: The information you provide should be confirmable via official websites or authoritative sources.
 - Timely: Please provide the latest information for time-sensitive content such as jobs and financing updates.
 - Content Authorization: Submitting a PR means you agree to publish your contribution under the same license as this repository. Please cite the source when quoting third-party content.
 
-## Review and Merge
+### Review and Merge
 
 - Maintainers will complete an initial review within 3 business days. If changes are needed, they will leave comments for follow-up.
 - After approval, the maintainers will merge the PR into the `main` branch.
 - For major structural changes, such as adding new categories or modifying the directory layout, please open an Issue first to discuss it and avoid PR rejection.
 
-## Code of Conduct
+### Code of Conduct
 
 - Be friendly and respectful.
 - Respect intellectual property rights.
 - For business collaborations, please contact us by email instead of posting advertisements in Issues or PRs.
 
-## Acknowledgments
+### Acknowledgments
 
 Thank you to every contributor ❤️ 📧 If you have any questions, feel free to contact: [octoday@yeah.net](mailto:octoday@yeah.net)
