@@ -2,7 +2,7 @@
 
 > 机器人开发工具集锦，覆盖仿真环境、开发框架、SLAM / 视觉工具等。
 >
-> 本列表持续更新，如果你发现好工具未被收录，或现有信息需要更新，请直接提交[PR](https://github.com/Octoday-Hub/Embodied-Al/pulls)或在[Issues](https://github.com/Octoday-Hub/Embodied-Al/issues)中反馈。
+> 本列表持续更新，如果你发现好工具未被收录，或现有信息需要更新，请直接提交[PR](https://github.com/Octoday-Hub/Embodied-AI/pulls)或在[Issues](https://github.com/Octoday-Hub/Embodied-AI/issues)中反馈。
 
 | 工具名称 | 简介 | 链接 |
 |:---|:---|:---|

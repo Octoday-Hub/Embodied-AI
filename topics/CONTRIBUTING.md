@@ -1,8 +1,6 @@
 # 贡献指南
 
-如果你发现好工具、新公司、有价值的论文，或者发现链接失效，欢迎直接提交 [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls) 或 [Issue](https://github.com/Octoday-Hub/Embodied-Al/issues)。你的每一次更新都在帮后来者少走弯路。
-
----
+如果你发现好工具、新公司、有价值的论文，或者发现链接失效，欢迎直接提交 [PR](https://github.com/Octoday-Hub/Embodied-AI/pulls) 或 [Issue](https://github.com/Octoday-Hub/Embodied-AI/issues)。你的每一次更新都在帮后来者少走弯路。
 
 ## 快速开始
 
@@ -10,15 +8,13 @@
 
 1. 打开对应文件，点击右上角 `Edit this file`。
 2. 修改后点击 `Propose changes`。
-3. 按提示提交 [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls) 即可，无需 Fork 到本地。
+3. 按提示提交 [PR](https://github.com/Octoday-Hub/Embodied-AI/pulls) 即可，无需 Fork 到本地。
 
 ### 打算批量更新或新增内容？
 
 1. Fork 本仓库到你的账号下。
 2. 从 `main` 切出新分支。
-3. 本地修改后提交 [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls)。
-
----
+3. 本地修改后提交 [PR](https://github.com/Octoday-Hub/Embodied-AI/pulls)。
 
 ## 分支命名
 
@@ -30,7 +26,7 @@
 - `update-paper-[论文名]` 对应 `03-papers.md`。
 - `update-tools-[工具名]` 对应 `04-tools.md`。
 
-如果你不确定该提 [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls) 还是 [Issue](https://github.com/Octoday-Hub/Embodied-Al/issues)：
+如果你不确定该提 [PR](https://github.com/Octoday-Hub/Embodied-AI/pulls) 还是 [Issue](https://github.com/Octoday-Hub/Embodied-AI/issues)：
 
 - **PR**：适合直接改内容、补链接、修错字。
 - **Issue**：适合反馈问题、补充线索、先讨论再改。
@@ -52,8 +48,7 @@
 #### 招聘信息 (02-jobs.md)
 
 - 提供**岗位名称**、**公司**、**地点**、**类型**（全职/实习/校招）、**投递链接**。
-- 招聘信息需标注**截止日期**或**更新时间**，过期信息请及时清理。
-- 使用统一的表格格式，保持排版对齐。
+- 招聘信息需标注**截止日期**或**更新时间**，发现过期信息请直接删除或标注。
 
 #### 论文合集 (03-papers.md)
 
@@ -63,29 +58,27 @@
 
 #### 工具矩阵 (04-tools.md)
 
-- 提供**工具名称**、**类型**（仿真/控制/数据集/框架）、**官方链接**、**一句话简介**。
+- 提供**工具名称**、**类型**（仿真/控制/数据集等）、**官方链接**、**一句话简介**。
 - 标注是否开源及主要编程语言。
-
-## 提交前检查
-
-- 确保修改内容准确、有据可查。
-- 一个 PR 尽量只针对一个明确的修改。
-- 填写 PR 模板中的检查清单。
 
 ## 信息准确性
 
-- **可验证**：提供的信息应能在官网或权威渠道核实。
-- **时效性**：招聘、投融资等信息请尽量提供最新内容。
-- **无偏见**：保持客观中立。
+- 可验证：提供的信息应能在官网或权威渠道核实。
+- 时效性：招聘、投融资等信息请提供最新内容。
+- 内容授权：提交 PR 即表示你同意将贡献内容以与本仓库相同的许可证发布。引用第三方内容请注明出处。
+
+## 审核与合并
+
+- 维护者会在 3 个工作日内 进行初审，如需修改会留言反馈。
+- 通过审核后由维护者合并至 `main` 分支。
+- 重大结构调整（如新增分类、修改目录）建议先开 Issue 讨论，避免 PR 被拒。
 
 ## 行为准则
 
 - 保持友善与尊重。
 - 尊重知识产权。
-- 商业合作请通过邮件联系，避免在 Issue/PR 中发布广告。
+- 商业合作请通过邮件联系，避免在 Issue / PR 中发布广告。
 
 ## 致谢
 
-感谢每一位贡献者。如果你想被加入贡献者名单，请在 PR 中注明你的 GitHub ID。
-
-📧 如有任何问题，欢迎联系：[octoday@yeah.net](mailto:octoday@yeah.net)
+感谢每一位贡献者 ❤️ 📧 如有任何问题，欢迎联系：[octoday@yeah.net](mailto:octoday@yeah.net)

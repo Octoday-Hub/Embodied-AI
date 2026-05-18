@@ -1,6 +1,6 @@
 ## 具身智能精选论文
 
-> 持续更新具身智能领域最具代表性的论文，主要按其研究任务进行分类，欢迎补充（可通过 [Issues](https://github.com/Octoday-Hub/Embodied-Al/issues) 或 [PR](https://github.com/Octoday-Hub/Embodied-Al/pulls) 提交）。
+> 持续更新具身智能领域最具代表性的论文，主要按其研究任务进行分类，欢迎补充（可通过 [Issues](https://github.com/Octoday-Hub/Embodied-AI/issues) 或 [PR](https://github.com/Octoday-Hub/Embodied-AI/pulls) 提交）。
 
 ## 📄Table Of Contents
 

@@ -18,7 +18,7 @@
   <img alt="更新频率" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E9%A2%91%E7%8E%87-%E6%AF%8F%E5%91%A8-22C55E?style=flat-square&labelColor=14532D" />
   <img alt="Awesome" src="https://img.shields.io/badge/Awesome-Curated-2563EB?style=flat-square&labelColor=1E3A8A" />
   <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-Welcome-64748B?style=flat-square&labelColor=334155" />
-  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/Octoday-Hub/Embodied-Al?style=flat-square&label=last%20commit&labelColor=374151&color=3B82F6" />
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/Octoday-Hub/Embodied-AI?style=flat-square&label=last%20commit&labelColor=374151&color=3B82F6" />
 </p>
 
 
@@ -146,8 +146,8 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 我们欢迎任何形式的贡献！无论是提交新的公司信息、论文、还是修正错误。
 
 - 📖  [贡献指南](topics/CONTRIBUTING.md) 了解如何参与社区共建。
-- ✨  [Pull Request](https://github.com/Octoday-Hub/Embodied-Al/pulls) 直接提交内容更新。
-- 🐛  [Issue](https://github.com/Octoday-Hub/Embodied-Al/issues) 反馈错误或提出建议。
+- ✨  [Pull Request](https://github.com/Octoday-Hub/Embodied-AI/pulls) 直接提交内容更新。
+- 🐛  [Issue](https://github.com/Octoday-Hub/Embodied-AI/issues) 反馈错误或提出建议。
 
 感谢每一位贡献者，也期待与更多伙伴共建。
 
@@ -178,7 +178,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
   author = {Octoday Embodied-AI Community},
   title  = {具身智能知识索引与产业地图},
   year   = {2026},
-  url    = {https://github.com/Octoday-Hub/Embodied-Al}
+  url    = {https://github.com/Octoday-Hub/Embodied-AI}
 }
 ```
 
