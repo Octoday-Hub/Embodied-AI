@@ -112,7 +112,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🎒（5）进化：人才风向标
 
-> 当前共收录 `398` 个岗位机会。
+> 当前共收录 `398` 个岗位机会：国内 `214` 个、海外 `85` 个、专项 `99` 个。
 
 查看[招聘信息](topics/02-jobs.md)：
 
