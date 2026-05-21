@@ -51,20 +51,22 @@ Please follow the formatting guidelines below:
 - Recommended books should include **title**, **author**, **publication year**, and **reason for recommendation** (optional).
 - Recommended courses should include **course title**, **institution**, **link**, and **description**.
 
-Template:
+Book template:
 
-```md
-| **Title** | Author | Year | Why it is useful |
-| :-- | :-- | :-- | :-- |
-| **Example Book** | Author Name | 2024 | One-line recommendation |
+```text
+- Title: Modern Robotics
+- Author: Kevin M. Lynch, Frank C. Park
+- Year: 2017
+- Why it is useful: A systematic introduction to kinematics, dynamics, and control.
 ```
 
-Course example:
+Course template:
 
-```md
-| **Course Title** | Institution | Description | Link |
-| :-- | :-- | :-- | :-- |
-| **Example Course** | Example Org | One-line course summary | [Course Link](https://example.com) |
+```text
+- Course Title: Robotics Specialization
+- Institution: UPenn
+- Description: A structured introduction to robotics fundamentals.
+- Link: https://example.com
 ```
 
 #### Company List (01-companies.md)
@@ -72,12 +74,13 @@ Course example:
 - Provide **company name**, **official website link**, **one-sentence introduction**, **technical focus**, and **location**.
 - Remain objective and neutral; summarize core business in one sentence.
 
-Template:
+Company template:
 
-```md
-| **Company Name** | One-sentence introduction | Technical focus | Official Site |
-| :-- | :-- | :-- | :-- |
-| **Example Company** | One-line introduction | `focus-a` `focus-b` | [Official Site](https://example.com) |
+```text
+- Company Name: Example Robotics
+- One-sentence introduction: Builds warehouse robots and scheduling systems.
+- Technical focus: `mobile robots` `warehouse logistics`
+- Official Site: https://example.com
 ```
 
 #### Job Openings (02-jobs.md)
@@ -85,24 +88,15 @@ Template:
 - Provide **job title**, **company**, **location**, **type** (full-time / internship / campus), and **application link**.
 - Job postings should include a **deadline** or **last updated** date. If you find expired information, please mark it clearly.
 
-Template:
+Jobs template:
 
-```md
-<tr>
-<td rowspan="2"><strong>Example Company</strong></td>
-<td>Robotics Algorithm Engineer</td>
-<td>Full-time</td>
-<td>Shanghai</td>
-<td><a href="https://example.com/jobs/123">Apply</a></td>
-</tr>
-<tr>
-<td>Reinforcement Learning Intern</td>
-<td>Internship</td>
-<td>Beijing</td>
-<td><a href="https://example.com/jobs/456">Apply</a></td>
-</tr>
-
-Last updated: 2026-05-21
+```text
+- Company: Example Robotics
+- Job Title: Robotics Algorithm Engineer
+- Type: Full-time
+- Location: Shanghai
+- Application Link: https://example.com/jobs/123
+- Last updated: 2026-05-21
 ```
 
 #### Paper Collection (03-papers.md)
@@ -111,10 +105,15 @@ Last updated: 2026-05-21
 - Include a **one-sentence summary** of the core contribution when possible.
 - Group by research direction (e.g., Manipulation, Locomotion, Navigation, etc.).
 
-Template:
+Paper template:
 
-```md
-- **[arXiv May 2026](https://arxiv.org/abs/2605.12345)** Example Paper Title. One sentence summarizing the core contribution. [Code](https://github.com/example/repo)
+```text
+- Paper Title: Example Policy for Manipulation
+- Authors: Author A, Author B
+- Venue / Journal: arXiv
+- Year: 2026
+- One-sentence summary: Introduces a vision-and-force manipulation policy.
+- Code Link: https://github.com/example/repo
 ```
 
 #### Tool Matrix (04-tools.md)
@@ -122,12 +121,15 @@ Template:
 - Provide **tool name**, **type** (simulation / control / dataset, etc.), **official link**, and a **one-sentence description**.
 - Indicate whether it is open-source and the main programming language.
 
-Template:
+Tool template:
 
-```md
-| **Tool Name** | Description | Link |
-| :-- | :-- | :-- |
-| **Example Tool** | One-line description | [Link](https://example.com) |
+```text
+- Tool Name: ExampleSim
+- Type: simulation
+- Official Link: https://example.com
+- One-sentence description: A lightweight simulator for manipulation research.
+- Open-source: yes
+- Main programming language: Python
 ```
 
 ### Information Accuracy
