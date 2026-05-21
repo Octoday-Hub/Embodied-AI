@@ -112,34 +112,34 @@ A curated map of the global embodied AI enterprise landscape to help you discove
 
 ### 🎒 (5) Evolution: Talent Compass
 
-> The full jobs database currently features `398` opportunities.
+> The full jobs database currently features `85` global opportunities.
 
 Check [Global Opportunities](02-jobs_EN.md):
 
-The English jobs page currently focuses on global opportunities. The quick-reference table below still links to the Chinese master list, which remains the most complete source for domestic, global, internship, campus, and special-program openings.
+The English jobs page currently focuses on `85` global opportunities. The Chinese master list remains the most complete source for domestic, global, internship, campus, and special-program openings.
 
 If you want to jump directly to a specific company's openings from the homepage, use this quick-reference table:
 
 | Domestic Opportunities | Link | Overseas Opportunities | Link |
 | :--------------------- | ------------------------------------------------------------ | :--------------------- | ------------------------------------------------------------ |
-| Horizon Robotics | [Apply](02-jobs.md#jump-jobs-domestic-15) | AIM Intelligent Machines | [Apply](02-jobs.md#jump-jobs-overseas-02) |
-| Fourier Intelligence | [Apply](02-jobs.md#jump-jobs-domestic-04) | Amazon Robotics | [Apply](02-jobs.md#jump-jobs-overseas-06) |
-| Gaussian Robotics | [Apply](02-jobs.md#jump-jobs-domestic-08) | Apptronik | [Apply](02-jobs.md#jump-jobs-overseas-07) |
-| JAKA Robotics | [Apply](02-jobs.md#jump-jobs-domestic-02) | Aurora | [Apply](02-jobs.md#jump-jobs-overseas-08) |
-| Geek+ | [Apply](02-jobs.md#jump-jobs-domestic-01) | Boston Dynamics | [Apply](02-jobs.md#jump-jobs-overseas-09) |
-| Qianxun Intelligence | [Apply](02-jobs.md#jump-jobs-domestic-17) | Cruise | [Apply](02-jobs.md#jump-jobs-overseas-10) |
-| Shanghai AI Lab | [Apply](02-jobs.md#jump-jobs-domestic-20) | Figure AI | [Apply](02-jobs.md#jump-jobs-overseas-13) |
-| SenseTime | [Apply](02-jobs.md#jump-jobs-domestic-23) | Google DeepMind | [Apply](02-jobs.md#jump-jobs-overseas-14) |
-| SmartMore | [Apply](02-jobs.md#jump-jobs-domestic-19) | Grit Ventures | [Apply](02-jobs.md#jump-jobs-overseas-15) |
-| Tashi Navigation | [Apply](02-jobs.md#jump-jobs-domestic-09) | HTX | [Apply](02-jobs.md#jump-jobs-overseas-17) |
-| XPeng | [Apply](02-jobs.md#jump-jobs-domestic-16) | Nuro | [Apply](02-jobs.md#jump-jobs-overseas-19) |
-| Astribot | [Apply](02-jobs.md#jump-jobs-domestic-06) | NVIDIA | [Apply](02-jobs.md#jump-jobs-overseas-21) |
-| Galbot | [Apply](02-jobs.md#jump-jobs-domestic-07) | OpenAI | [Apply](02-jobs.md#jump-jobs-overseas-22) |
-| DEEPRobotics | [Apply](02-jobs.md#jump-jobs-domestic-18) | Tactus | [Apply](02-jobs.md#jump-jobs-overseas-24) |
-| Unitree | [Apply](02-jobs.md#jump-jobs-domestic-03) | Tesla | [Apply](02-jobs.md#jump-jobs-overseas-26) |
-| Agibot | [Apply](02-jobs.md#jump-jobs-domestic-25) | Toyota Research Institute | [Apply](02-jobs.md#jump-jobs-overseas-27) |
-| LimX Dynamics | [Apply](02-jobs.md#jump-jobs-domestic-05) | Waymo | [Apply](02-jobs.md#jump-jobs-overseas-28) |
-| ByteDance | [Apply](02-jobs.md#jobs-special-25) | Wayve | [Apply](02-jobs.md#jump-jobs-overseas-01) |
+| Horizon Robotics | [Apply](02-jobs.md#jump-jobs-domestic-15) | AIM Intelligent Machines | [Apply](02-jobs_EN.md#jump-jobs-overseas-02) |
+| Fourier Intelligence | [Apply](02-jobs.md#jump-jobs-domestic-04) | Amazon Robotics | [Apply](02-jobs_EN.md#jump-jobs-overseas-06) |
+| Gaussian Robotics | [Apply](02-jobs.md#jump-jobs-domestic-08) | Apptronik | [Apply](02-jobs_EN.md#jump-jobs-overseas-07) |
+| JAKA Robotics | [Apply](02-jobs.md#jump-jobs-domestic-02) | Aurora | [Apply](02-jobs_EN.md#jump-jobs-overseas-08) |
+| Geek+ | [Apply](02-jobs.md#jump-jobs-domestic-01) | Boston Dynamics | [Apply](02-jobs_EN.md#jump-jobs-overseas-09) |
+| Qianxun Intelligence | [Apply](02-jobs.md#jump-jobs-domestic-17) | Cruise | [Apply](02-jobs_EN.md#jump-jobs-overseas-10) |
+| Shanghai AI Lab | [Apply](02-jobs.md#jump-jobs-domestic-20) | Figure AI | [Apply](02-jobs_EN.md#jump-jobs-overseas-13) |
+| SenseTime | [Apply](02-jobs.md#jump-jobs-domestic-23) | Google DeepMind | [Apply](02-jobs_EN.md#jump-jobs-overseas-14) |
+| SmartMore | [Apply](02-jobs.md#jump-jobs-domestic-19) | Grit Ventures | [Apply](02-jobs_EN.md#jump-jobs-overseas-15) |
+| Tashi Navigation | [Apply](02-jobs.md#jump-jobs-domestic-09) | HTX | [Apply](02-jobs_EN.md#jump-jobs-overseas-17) |
+| XPeng | [Apply](02-jobs.md#jump-jobs-domestic-16) | Nuro | [Apply](02-jobs_EN.md#jump-jobs-overseas-19) |
+| Astribot | [Apply](02-jobs.md#jump-jobs-domestic-06) | NVIDIA | [Apply](02-jobs_EN.md#jump-jobs-overseas-21) |
+| Galbot | [Apply](02-jobs.md#jump-jobs-domestic-07) | OpenAI | [Apply](02-jobs_EN.md#jump-jobs-overseas-22) |
+| DEEPRobotics | [Apply](02-jobs.md#jump-jobs-domestic-18) | Tactus | [Apply](02-jobs_EN.md#jump-jobs-overseas-24) |
+| Unitree | [Apply](02-jobs.md#jump-jobs-domestic-03) | Tesla | [Apply](02-jobs_EN.md#jump-jobs-overseas-26) |
+| Agibot | [Apply](02-jobs.md#jump-jobs-domestic-25) | Toyota Research Institute | [Apply](02-jobs_EN.md#jump-jobs-overseas-27) |
+| LimX Dynamics | [Apply](02-jobs.md#jump-jobs-domestic-05) | Waymo | [Apply](02-jobs_EN.md#jump-jobs-overseas-28) |
+| ByteDance | [Apply](02-jobs.md#jobs-special-25) | Wayve | [Apply](02-jobs_EN.md#jump-jobs-overseas-01) |
 
 ## 🌱 Community Building
 
