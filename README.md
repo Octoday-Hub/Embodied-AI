@@ -21,6 +21,12 @@
   <img alt="Last Commit" src="https://img.shields.io/github/last-commit/Octoday-Hub/Embodied-AI?style=flat-square&label=last%20commit&labelColor=374151&color=3B82F6" />
 </p>
 
+<p align="center">
+  <img alt="更新岗位" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E5%B2%97%E4%BD%8D-%2B50-14B8A6?style=flat-square&labelColor=0F766E" />
+  <img alt="更新工具" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E5%B7%A5%E5%85%B7-%2B15-8B5CF6?style=flat-square&labelColor=5B21B6" />
+  <img alt="更新论文" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E8%AE%BA%E6%96%87-%2B28-F59E0B?style=flat-square&labelColor=92400E" />
+</p>
+
 
 🌐 [English Version](topics/README_EN.md)
 
@@ -104,7 +110,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🔗（4）坐标：洞察产业动态
 
-> 当前共收录 `273` 家具身智能相关公司：国内 `170` 家、国外 `103` 家。
+> 当前共收录 `274` 家具身智能相关公司：国内 `171` 家、国外 `103` 家。
 
 查看[公司列表](topics/01-companies.md)：
 

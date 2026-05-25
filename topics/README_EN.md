@@ -21,6 +21,12 @@
   <img alt="Last Commit" src="https://img.shields.io/github/last-commit/Octoday-Hub/Embodied-AI?style=flat-square&label=last%20commit&labelColor=374151&color=3B82F6" />
 </p>
 
+<p align="center">
+  <img alt="Jobs Updated" src="https://img.shields.io/badge/Jobs%20Updated-%2B50-14B8A6?style=flat-square&labelColor=0F766E" />
+  <img alt="Tools Updated" src="https://img.shields.io/badge/Tools%20Updated-%2B15-8B5CF6?style=flat-square&labelColor=5B21B6" />
+  <img alt="Papers Updated" src="https://img.shields.io/badge/Papers%20Updated-%2B28-F59E0B?style=flat-square&labelColor=92400E" />
+</p>
+
 
 🌐 [Chinese Version](/README.md)
 
@@ -81,7 +87,7 @@ A hand-picked selection of books and courses covering the fundamentals of roboti
 
 Explore the [Paper Collection](03-papers_EN.md):
 
-This English page is being translated section by section. It already includes the core structure and a growing set of translated entries, so you can start browsing in English while still using the Chinese source for the full master list.
+Browse curated papers on embodied intelligence, deepen your understanding with open-source code, and quickly grasp the latest technological trends.
 
 &emsp;&emsp;**Coverage**
 
@@ -104,7 +110,7 @@ A collection of robot simulation platforms, motion control, various SDKs, and ma
 
 ### 🔗 (4) Coordinates: Gain Industrial Insights
 
-> Currently featuring `273` embodied AI-related companies: `170` domestic, `103` overseas.
+> Currently featuring `274` embodied AI-related companies: `171` domestic, `103` overseas.
 
 View the [Company List](01-companies_EN.md):
 
