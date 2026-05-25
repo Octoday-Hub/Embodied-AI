@@ -7,7 +7,7 @@
 | 工具名称 | 简介 | 链接 |
 |:---|:---|:---|
 | **Aerial Gym** | 基于 Isaac Gym 的空中机器人仿真环境，支持无人机强化学习训练。 | [链接](https://github.com/ntnu-arl/aerial_gym_simulator) |
-| **AI2-THOR** | 语义交互模拟。由艾伦研究所开发，拥有200+精细房间和2600+可交互物体，支持复杂的物体状态改变（如切片、烹饪）。 | [链接](https://ai2thor.allenai.org/) |
+| **AI2-THOR** | 语义交互模拟器。由艾伦研究所开发，拥有200+精细房间和2600+可交互物体，支持复杂的物体状态改变（如切片、烹饪）。 | [链接](https://ai2thor.allenai.org/) |
 | **AllenAct** | 面向具身智能研究的训练框架，支持 iTHOR、RoboTHOR、Habitat 等多环境和常用 RL / IL 算法。 | [链接](https://allenact.org/) |
 | **ALOHA 2** | 面向双臂遥操作与具身数据采集的低成本开源硬件平台，附带教程与 MuJoCo 仿真模型。 | [链接](https://aloha-2.github.io/) |
 | **AprilTag** | 机器人领域常用的视觉标记系统，支持标签检测、位姿估计和相机 / 机器人标定。 | [链接](https://github.com/AprilRobotics/apriltag) |
@@ -23,24 +23,24 @@
 | **Cyclone DDS** | Eclipse 基金会维护的 DDS 实现，以鲁棒性和网络适应性见长，常用于 ROS 2 部署。 | [链接](https://projects.eclipse.org/projects/iot.cyclonedds) |
 | **DDS (Data Distribution Service)** | 实时分布式系统的发布-订阅通信标准，也是 ROS 2 中间件体系的基础。 | [链接](https://www.omg.org/omg-dds-portal/index.htm) |
 | **DeepMind SI-Tuning** | VLA模型微调框架。Google DeepMind推出的用于微调RT-2、OpenVLA等视觉-语言-动作模型的代码库，专注于提升机器人在特定任务上的泛化能力。 | [链接](https://github.com/google-deepmind/si_tuning) |
-| **DexCap** | 灵巧手数据采集。斯坦福开源，通过手部动作捕捉系统和深度相机，低成本、大规模地采集人类灵巧手操作数据，支持精细化的Sim-to-Real迁移。 | [链接](https://dexcap.github.io/) |
+| **DexCap** | 灵巧手数据采集系统。斯坦福开源，通过手部动作捕捉系统和深度相机，低成本、大规模地采集人类灵巧手操作数据，支持精细化的Sim-to-Real迁移。 | [链接](https://dexcap.github.io/) |
 | **Diffusion Policy** | 基于扩散模型的机器人策略学习框架，常用于模仿学习与操作控制研究。 | [链接](https://github.com/real-stanford/diffusion_policy) |
-| **DISCOVERSE** | 面向 Real2Sim2Real 的高保真机器人仿真框架，结合 3DGS 场景表示、MuJoCo 物理和控制接口。 | [链接](https://air-discoverse.github.io/) |
-| **Dobb-E** | 硬件到数据的全栈。NYU开源，包含低成本手持采集硬件"Stick"、数据集和模仿学习框架，核心是让机器人在15分钟示教后学会新家务。 | [链接](https://dobb-e.com/) |
+| **DISCOVERSE** | 面向 Real2Sim2Real 的高保真仿真框架，结合 3DGS 场景表示、MuJoCo 物理和控制接口。 | [链接](https://air-discoverse.github.io/) |
+| **Dobb-E** | 硬件到数据的全栈方案。NYU开源，包含低成本手持采集硬件"Stick"、数据集和模仿学习框架，核心是让机器人在15分钟示教后学会新家务。 | [链接](https://dobb-e.com/) |
 | **DORA** | 面向 AI 机器人应用的数据流中间件，支持低时延、可组合、分布式的数据处理管线。 | [链接](https://github.com/dora-rs/dora) |
 | **Drake** | 面向机器人建模、规划与控制的工具包，适用于系统分析、仿真和算法研究。 | [链接](https://github.com/RobotLocomotion/drake) |
 | **EmbodiedCity** | 真实开放环境具身智能平台。清华大学发布，基于虚幻引擎5打造真实城市环境，提供在线和离线两种部署方式，支持智能体在开放城市中进行导航与任务规划。 | [链接](https://embodied-city.fiblab.net/) |
 | **Fast DDS (原 Fast RTPS)** | eProsima 的 DDS 实现，为 ROS 2 提供高性能、可配置的通信中间件。 | [链接](https://fast-dds.docs.eprosima.com/en/latest/index.html) |
 | **Foxglove** | 面向机器人与 Physical AI 的数据可视化和可观测性平台，支持 ROS、MCAP、3D 场景与多模态日志调试。 | [链接](https://foxglove.dev) |
 | **Gazebo Sim** | 高保真度开源机器人仿真器，支持多种物理引擎（ODE、Bullet、DART），提供逼真渲染和传感器模型，是 ROS 生态中的主流仿真平台之一。 | [链接](https://gazebosim.org) |
-| **Genesis** | 通用机器人仿真引擎。由GenFlow团队推出，专为生成式物理智能设计，集成了刚体、流体、软体等多种物理求解器，旨在解决复杂场景下的仿真难题。 | [链接](https://genesis-embodied-ai.github.io/) |
+| **Genesis** | 通用机器人仿真引擎。专为生成式物理智能设计，集成了刚体、流体、软体等多种物理求解器，旨在解决复杂场景下的仿真难题。 | [链接](https://genesis-embodied-ai.github.io/) |
 | **GR-1 (ByteDance Model)** | 字节跳动开源的 GPT 风格视觉机器人操作模型，面向语言条件下的多任务机器人操作学习与动作预测，需与智元机器人的 GR-1 人形机器人整机区分。 | [链接](https://github.com/bytedance/GR-1) |
 | **GRUtopia** | 通用具身智能仿真平台。由上海人工智能实验室发布，提供海量高质量可交互场景与数据，支持简单代码定义任务，是解决具身智能数据稀缺问题的核心工具。 | [链接](https://github.com/OpenRobotLab/GRUtopia) |
 | **Gymnasium-Robotics** | 基于 Gymnasium API 的机器人仿真环境集合，适合强化学习算法开发、复现和标准化比较。 | [链接](https://robotics.farama.org/) |
 | **Habitat-Lab** | 面向具身智能任务的高层开发库，通常与 Habitat Sim 配合使用，支持任务定义、智能体配置、训练与标准化评测。 | [链接](https://github.com/facebookresearch/habitat-lab) |
 | **Habitat Sim** | Meta 开源的高性能 3D 仿真器，常与 Habitat-Lab 配合使用，适用于大规模场景导航与交互任务。 | [链接](https://github.com/facebookresearch/habitat-sim) |
 | **Habitat 3.0** | 社交具身AI仿真平台。Meta AI推出的最新版本，专注于人与机器人、机器人与机器人之间的交互，支持高精度的社会行为模拟和导航任务。 | [链接](https://aihabitat.org/) |
-| **Intern-Robotics** | 书生具身全栈引擎。上海人工智能实验室开源的具身智能全栈框架，涵盖导航、操作、运动大模型等，推动具身大脑的全栈化与量产。 | [链接](https://internrobotics.shlab.org.cn/) |
+| **Intern-Robotics** | 书生具身全栈框架。上海人工智能实验室开源的具身智能全栈框架，涵盖导航、操作、运动大模型等，推动具身大脑的全栈化与量产。 | [链接](https://internrobotics.shlab.org.cn/) |
 | **京东 JoyInside** | 面向机器人与 AI 玩具等智能硬件的对话智能体平台。 | [链接](https://joyinside.com/) |
 | **Kalibr** | 多传感器标定工具箱，支持相机内参、多相机和相机-IMU 联合标定。 | [链接](https://github.com/ethz-asl/kalibr) |
 | **kscale·K-Bot** | 面向开发者和研究人员的开源全栈人形机器人平台。 | [链接](https://docs.kscale.dev/category/k-bot) |
@@ -59,7 +59,7 @@
 | **NVIDIA Isaac Sim** | 基于 Omniverse 构建的机器人仿真平台，支持物理 AI 训练、合成数据生成和 Sim2Real 工作流。 | [链接](https://developer.nvidia.com/isaac-sim) |
 | **NVIDIA RAD-MARS** | 机器人辅助设计与仿真平台。基于Omniverse构建，允许在物理级逼真的环境中设计机器人硬件并测试运动学算法，连接了机械设计与AI训练。 | [链接](https://www.nvidia.com/en-us/omniverse/solutions/robotics/) |
 | **Octo** | 开源通用机器人策略，基于多机器人轨迹预训练，支持语言指令、目标图像和小样本微调。 | [链接](https://github.com/octo-models/octo) |
-| **OK-Robot** | 系统集成框架。纽约大学（NYU）开源的模块化框架，专为真实家庭环境设计，通过结合VLM实现零样本（Zero-shot）的取放任务。 | [链接](https://ok-robot.github.io/) |
+| **OK-Robot** | 模块化系统集成框架。纽约大学（NYU）开源，专为真实家庭环境设计，通过结合VLM实现零样本（Zero-shot）的取放任务。 | [链接](https://ok-robot.github.io/) |
 | **OmniGibson** | 基于 Isaac Sim 的具身智能仿真框架，支持交互场景、任务定义、数据采集与并行环境训练。 | [链接](https://behavior.stanford.edu/omnigibson/overview.html) |
 | **OMPL** | 开源运动规划库，包含多种经典采样规划算法，常用于路径规划和机械臂规划。 | [链接](https://ompl.kavrakilab.org) |
 | **Open3D** | 现代 3D 数据处理库，支持点云、重建、配准、可视化和 3D 机器学习。 | [链接](https://www.open3d.org) |
