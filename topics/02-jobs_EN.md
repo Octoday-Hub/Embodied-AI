@@ -27,7 +27,14 @@
   </tr>
 </table>
 
-<table style="width: 100%; border-collapse: collapse;">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+<colgroup>
+  <col style="width: 20%;">
+  <col style="width: 35%;">
+  <col style="width: 12%;">
+  <col style="width: 15%;">
+  <col style="width: 18%;">
+</colgroup>
 <thead>
 <tr>
 <th style="width: 20%; min-width: 120px; padding: 10px 12px; text-align: left; border-bottom: 2px solid #ddd;">Company</th>
@@ -91,7 +98,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-overseas-07" name="jump-jobs-overseas-07"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="6" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>Apptronik</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Principal Software Engineer - AI and Simulation</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
@@ -131,7 +138,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-overseas-08" name="jump-jobs-overseas-08"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="5" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>Aurora</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Software Engineer, Functional Architecture</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
@@ -311,7 +318,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-overseas-17" name="jump-jobs-overseas-17"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="4" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>HTX</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Engineer / Lead Engineer - Embodied AI Research & Development, RAUS COE</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Permanent/Contract</td>
@@ -339,7 +346,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-overseas-19" name="jump-jobs-overseas-19"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="3" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>Nuro</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Machine Learning Research Scientist: Generative Modeling for Planning</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
@@ -395,7 +402,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-overseas-22" name="jump-jobs-overseas-22"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="5" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>OpenAI</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Robotics Software Engineer</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
@@ -455,7 +462,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-overseas-26" name="jump-jobs-overseas-26"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="6" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>Tesla</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Reinforcement Learning Engineer, Whole Body Controls, Optimus</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
@@ -495,7 +502,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-overseas-27" name="jump-jobs-overseas-27"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="4" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>Toyota Research Institute</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Senior Research Scientist, Large Behavior Models</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
@@ -523,7 +530,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-overseas-28" name="jump-jobs-overseas-28"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="5" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>Waymo</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Software Engineer, Embedded</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
@@ -591,7 +598,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-overseas-00" name="jump-jobs-overseas-00"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="6" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>1X Technologies</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">AI Research Engineer - Scaling</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>

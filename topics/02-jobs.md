@@ -144,7 +144,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-domestic-08" name="jump-jobs-domestic-08"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="9" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>高仙机器人</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">算法架构师</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
@@ -732,7 +732,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-domestic-m" name="jump-jobs-domestic-m"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="3" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>摩尔线程</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">具身智能算法工程师</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
@@ -848,7 +848,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-domestic-20" name="jump-jobs-domestic-20"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="6" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>上海人工智能实验室</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">具身智能操作算法工程师</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
@@ -888,7 +888,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-domestic-23" name="jump-jobs-domestic-23"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="3" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>商汤科技</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">26届AI领航员-具身智能-算法工程师</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">校招</td>
@@ -956,7 +956,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-domestic-09" name="jump-jobs-domestic-09"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="7" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>它石智航</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">软件产品经理</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
@@ -1176,7 +1176,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-domestic-18" name="jump-jobs-domestic-18"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>云深处科技</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">算法工程师（具身导航）</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">未标注</td>
@@ -1192,7 +1192,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-domestic-03" name="jump-jobs-domestic-03"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="15" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>宇树科技</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">具身智能软件工程师</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
@@ -1426,7 +1426,14 @@
   </tr>
 </table>
 
-<table style="width: 100%; border-collapse: collapse;">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+<colgroup>
+  <col style="width: 20%;">
+  <col style="width: 35%;">
+  <col style="width: 12%;">
+  <col style="width: 15%;">
+  <col style="width: 18%;">
+</colgroup>
 <thead>
 <tr>
 <th style="width: 20%; min-width: 120px; padding: 10px 12px; text-align: left; border-bottom: 2px solid #ddd;">公司</th>
@@ -1490,7 +1497,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-overseas-07" name="jump-jobs-overseas-07"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="6" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>Apptronik</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Principal Software Engineer - AI and Simulation</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
@@ -1530,7 +1537,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-overseas-08" name="jump-jobs-overseas-08"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="5" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>Aurora</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Software Engineer, Functional Architecture</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
@@ -1710,7 +1717,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-overseas-17" name="jump-jobs-overseas-17"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="4" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>HTX</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Engineer / Lead Engineer - Embodied AI Research & Development, RAUS COE</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Permanent/Contract</td>
@@ -1738,7 +1745,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-overseas-19" name="jump-jobs-overseas-19"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="3" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>Nuro</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Machine Learning Research Scientist: Generative Modeling for Planning</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
@@ -1794,7 +1801,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-overseas-22" name="jump-jobs-overseas-22"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="5" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>OpenAI</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Robotics Software Engineer</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
@@ -1854,7 +1861,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-overseas-26" name="jump-jobs-overseas-26"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="6" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>Tesla</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Reinforcement Learning Engineer, Whole Body Controls, Optimus</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
@@ -1894,7 +1901,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-overseas-27" name="jump-jobs-overseas-27"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="4" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>Toyota Research Institute</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Senior Research Scientist, Large Behavior Models</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
@@ -1922,7 +1929,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-overseas-28" name="jump-jobs-overseas-28"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="5" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>Waymo</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Software Engineer, Embedded</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
@@ -1990,7 +1997,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-overseas-00" name="jump-jobs-overseas-00"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="6" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>1X Technologies</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">AI Research Engineer - Scaling</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">Full-time</td>
@@ -2140,7 +2147,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jobs-special-03" name="jobs-special-03"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>北京大学</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">博雅博士后 - 智能科学方向</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
@@ -2336,7 +2343,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jobs-special-31" name="jobs-special-31"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>NVIDIA</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">NVIDIA Graduate Fellowship - AI/Robotics</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
@@ -2352,7 +2359,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jobs-special-13" name="jobs-special-13"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>清华大学</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">水木学者 - 计算机系/自动化系</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
@@ -2388,7 +2395,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jobs-special-15" name="jobs-special-15"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>上海交通大学</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">致远博士后 - AI/机器人方向</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
@@ -2404,7 +2411,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jobs-special-16" name="jobs-special-16"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="3" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>商汤科技</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">26届AI领航员-具身智能-算法工程师</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
@@ -2688,7 +2695,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jobs-special-22" name="jobs-special-22"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>浙江大学</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">求是博士后 - 控制/计算机方向</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
@@ -2704,7 +2711,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jobs-special-23" name="jobs-special-23"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="2" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>中科院</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">百人计划 - 计算机/机器人方向</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
@@ -2720,7 +2727,7 @@
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jobs-special-25" name="jobs-special-25"></a></td>
 </tr>
-<tr style="background: #f6f8fa;">
+<tr style="background: #ffffff;">
 <td rowspan="6" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>字节跳动</strong></td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">具身智能大模型负责人-Seed</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
