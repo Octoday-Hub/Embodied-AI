@@ -118,6 +118,15 @@
 - **[CoRL April 2022](https://arxiv.org/abs/2204.01691)** SayCan: Do As I Can, Not As I Say: Grounding Language in Robotic Affordances. Grounds language models in robotic affordances to execute natural-language instructions.
 - **[CoRL March 2022](https://arxiv.org/abs/2203.12601)** R3M: A Universal Visual Representation for Robot Manipulation. A universal visual representation for robot manipulation pretrained on large-scale Ego4D human video, transferable to a wide range of downstream robot manipulation tasks.
 
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30056)** Sample-Efficient Diffusion-based Reinforcement Learning with Critic Guidance. 提出基于扩散模型的样本高效强化学习方法，结合Critic引导提升学习效率，在机器人控制任务中表现优异。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30260)** How LoRA Remembers? A Parametric Memory Law for LLM Finetuning. 提出参数化记忆法则，量化LoRA在LLM微调中的记忆容量极限，为具身智能模型微调提供理论指导。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30311)** Archon: A Unified Multimodal Model for Holistic Digital Human Generation. 提出Archon统一多模态模型，整合七种模态实现整体数字人生成，提出"模态内思考"方法逐步增强保真度和可控性。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.29488)** AnyMo: Scaling Any-Modality Conditional Motion Generation with Masked Modeling. 提出AnyMo统一多模态框架，结合残差FSQ运动分词器和可扩展掩码建模Transformer，支持任意模态组合的高质量运动合成。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30248)** GenClaw: Code-Driven Agentic Image Generation. 提出GenClaw代码驱动智能体图像生成范式，代理首先概念化，然后使用代码渲染视觉草图，最后用生成模型补充纹理，实现高度可控的视觉生成。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.28272)** EchoAvatar: Real-time Generative Avatar Animation from Audio Streams. 提出统一流式架构，从增量音频输入合成连续全身运动，支持语音和音乐的无缝泛化，通过工具调用接口实现LLM显式语义控制。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30263)** minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models. 提出minWM全栈开源框架，将双向视频扩散模型转换为相机可控的少步自回归世界模型，支持实时低延迟推出。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.26933)** Diff-Tracking: Leveraging Text-to-Image Diffusion Models for Unsupervised Visual Object Tracking. 提出Diff-Tracking方法，利用预训练文本到图像扩散模型的丰富语义知识，通过交叉注意力机制实现无监督视觉目标跟踪。
+
 <a id="manipulation" name="manipulation"></a>
 ## Manipulation & Teleoperation
 
@@ -165,6 +174,9 @@
 - **[ICRA March 2021](https://arxiv.org/abs/2103.02245)** Form2Fit: Learning Shape Priors for Generalizable Manipulation. A method for generalizable manipulation through learned shape priors.
 - **[ICCV January 2021](https://arxiv.org/abs/2101.09555)** Where2Act: From Pixels to Actions for Articulated Objects. A method for articulated object manipulation that maps pixels directly to actions.
 - **[CVPR December 2018](https://arxiv.org/abs/1812.02713)** PartNet: A Large-Scale Benchmark for Fine-Grained and Hierarchical Part-Level 3D Object Understanding. A benchmark for fine-grained and hierarchical part-level 3D object understanding.
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.26478)** Learning from Demonstrations. 研究机器人从示范中学习的方法，探讨模仿学习、行为克隆等技术在机器人操作中的应用，分析样本效率和泛化能力。
+- **[ICML 2026年5月](https://arxiv.org/abs/2605.27095)** FA-OPD: Adversarial Dual On-Policy Distillation from Expressive Flow-based Teacher. 提出FA-OPD对抗双重在线策略蒸馏方法，流匹配教师与轻量MLP学生协同训练，在六个机器人基准上超越强基线。
 
 <a id="locomotion" name="locomotion"></a>
 ## Locomotion
@@ -233,6 +245,11 @@
 - **[NeurIPS April 2018](https://arxiv.org/abs/1804.00168)** PointNav: Learning to Navigate in Cities Without a Map. Learning to navigate in cities without a map.
 - **[CVPR February 2017](https://arxiv.org/abs/1702.04405)** ScanNet: Richly-Annotated 3D Reconstructions of Indoor Scenes. A richly annotated indoor-scene 3D reconstruction dataset.
 
+- **[ICRA 2026年5月](https://arxiv.org/abs/2605.29773)** Energy-Aware NECO for Single-Pass Pixel-wise Out-of-Distribution Detection in Semantic Segmentation. 提出能量感知的NECO方法，实现语义分割中的高效像素级分布外检测，提升机器人感知系统的鲁棒性。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.27178)** Domain Adaptation for Robot Vision. 研究机器人视觉中的域适应问题，提出改进的对抗学习和自监督方法，提升模型在新环境中的泛化能力。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.25832)** Visual-Inertial Odometry. 研究视觉惯性里程计技术，融合相机和IMU数据实现鲁棒的机器人定位，在挑战性环境下保持高精度。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.26949)** DinoComplete: 3D Shape Completion with Distilled Semantic Priors and State Space Models. 提出DinoComplete形状补全框架，利用DINO特征蒸馏的体素对齐语义先验，结合多尺度体素Mamba模块实现高效长程推理。
+
 <a id="simulation-sim2real" name="simulation-sim2real"></a>
 ## Simulators & Sim2Real
 
@@ -268,6 +285,8 @@
 - **[CVPR December 2017](https://arxiv.org/abs/1712.05474)** AI2-THOR: An Interactive 3D Environment for Visual AI. A classic interactive 3D environment for visual AI.
 - **[IROS October 2012](https://homes.cs.washington.edu/~todorov/papers/TodorovIROS12.pdf)** MuJoCo: A Physics Engine for Model-Based Control. A classic physics engine for model-based control.
 
+- **[GECCO 2026年5月](https://arxiv.org/abs/2605.28812)** Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation. 提出基于压力中心的触觉表示方法，保留密集接触信息的同时保持sim-to-real迁移的鲁棒性，实现零样本真实机器人迁移。
+
 <a id="datasets" name="datasets"></a>
 ## Datasets
 
@@ -288,6 +307,8 @@
 - **[ICCV April 2019](https://arxiv.org/abs/1904.03278)** AMASS: Archive of Motion Capture as Surface Shapes. A large human motion dataset.
 - **[TPAMI May 2017](https://arxiv.org/abs/1705.09155)** Human3.6M: Large Scale Datasets and Predictive Methods for 3D Human Sensing. A large-scale human 3D pose dataset.
 
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.29462)** CFMME: A Comprehensive Chinese Financial Multimodal Evaluation Dataset. 提出CFMME中文金融多模态评估基准，包含6052个实例覆盖八种金融图像模态，为具身智能金融应用提供评估工具。
 
 <a id="benchmarks-evaluation" name="benchmarks-evaluation"></a>
 ## Benchmarks & Evaluation
