@@ -1,6 +1,3 @@
-<a id="embodied-foundation-models" name="embodied-foundation-models"></a>
-## Embodied Foundation Models
-
 - **[arXiv May 2026](https://arxiv.org/abs/2605.28548)** GEM: Generative Supervision Helps Embodied Intelligence. A generative supervision embodied vision-language model that integrates depth map generation into VLM pretraining, demonstrating superior task execution in both simulation and real-world evaluations.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.30350)** DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation. A dynamics-aware multimodal pretraining framework that integrates vision, language, and dynamics information to enhance scene understanding and motion execution in robotic manipulation.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.15153)** Pelican-Unified 1.0: A Unified Embodied Intelligence Model for Understanding, Reasoning, Imagination and Action. The Beijing Humanoid Robot Innovation Center's first embodied foundation model, trained under a unified training paradigm, integrates understanding, reasoning, imagination, and action generation into a single architecture and ranks first on the WorldArena imagination benchmark.
@@ -9,7 +6,7 @@
 - **[arXiv May 2026](https://arxiv.org/abs/2605.13403)** RotVLA: Rotational Latent Action for Vision-Language-Action Model. A VLA framework built on SO(n) rotational latent actions that provides continuity, compositionality, and geometric alignment with real action dynamics, reaching 98.2% on LIBERO with only 1.7B parameters.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.13382)** BlockVLA: Accelerating Autoregressive VLA via Block Diffusion Finetuning. A block-diffusion approach that adapts autoregressive backbones into efficient discrete diffusion policies, enabling within-block parallel denoising and delivering 3.3x faster inference on LIBERO and SimplerEnv.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.13778)** Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs. A speculative inference framework that introduces a lightweight draft model and parallel verification with the main model, reducing average task-level latency to 19.1 ms and achieving a 3x speedup, with real conveyor-belt sorting validation.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.13276)** D-VLA: A High-Concurrency Distributed Asynchronous Reinforcement Learning Framework for Vision-Language-Action Models. A high-concurrency distributed asynchronous RL framework for VLAs that isolates simulation and optimization through “planar decoupling” and uses a four-thread asynchronous swimlane pipeline to preserve linear scaling at trillion-parameter scale.
+- **[arXiv May 2026](https://arxiv.org/abs/2605.13276)** D-VLA: A High-Concurrency Distributed Asynchronous Reinforcement Learning Framework for Vision-Language-Action Models. A high-concurrency distributed asynchronous RL framework for VLAs that isolates simulation and optimization through planar decoupling and uses a four-thread asynchronous swimlane pipeline to preserve linear scaling at trillion-parameter scale.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.13757)** FrameSkip: Learning from Fewer but More Informative Frames in VLA Training. A data-layer frame selection framework that scores frames using action change, visual consistency, and task progress, retaining only 20% of frames while still reaching a 76.15% macro-average success rate.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.13548)** AttenA+: Rectifying Action Inequality in Robotic Foundation Models. A speed-aware action-attention framework that prioritizes kinematically critical motion segments; as a plug-in method it raises OpenVLA-OFT to 98.6% and shows robust results on Franka.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.13105)** What to Ignore, What to React: Visually Robust RL Fine-Tuning of VLA Models (PAIR-VLA). PAIR-VLA addresses visual shift with invariance terms and sensitivity objectives, improving average performance by 16.62% on ManiSkill3 for pi_0.5 and by 9.10% for OpenVLA.
@@ -52,7 +49,7 @@
 - **[arXiv February 2026](https://arxiv.org/abs/2602.09971)** VLA-JEPA: Enhancing Vision-Language-Action Model with Latent World Model. Integrates JEPA into VLA models so world dynamics can be predicted in latent space, improving generalization and robustness.
 - **[arXiv January 2026](https://arxiv.org/abs/2601.12993)** Being-H0.5: Scaling Human-Centric Robot Learning for Cross-Embodiment Generalization. A human-centric cross-embodiment VLA foundation model trained on a 35,000-hour multimodal dataset spanning 30 embodiments, reaching 98.9% success on LIBERO.
 - **[arXiv January 2026](https://arxiv.org/abs/2601.18692)** A Pragmatic VLA Foundation Model. This paper presents LingBot-VLA, trained on about 20,000 hours of real-world data across nine dual-arm setups, with an emphasis on training efficiency and real-world generalization.
-- **[arXiv January 2026](https://arxiv.org/abs/2601.04052)** Stable Language Guidance for Vision-Language-Action Models. Introduces a residual semantic-guidance framework that decouples physical affordance from semantic execution to stabilize language guidance in VLA models.
+- **[arXiv January 2026](https://arxiv.org/abs/2601.04)** Stable Language Guidance for Vision-Language-Action Models. Introduces a residual semantic-guidance framework that decouples physical affordance from semantic execution to stabilize language guidance in VLA models.
 - **[arXiv November 2025](https://arxiv.org/abs/2511.18112)** EchoVLA: Vision-Language-Action Model with Synergistic Declarative Memory. A VLA model augmented with declarative memory that reduces forgetting in long-horizon tasks through an external memory module.
 - **[arXiv November 2025](https://arxiv.org/abs/2511.17502)** RynnVLA-002: A Unified Vision-Language-Action and World Model. A unified VLA-and-world-model framework in which the world model predicts future image states from actions and visual inputs to refine action generation.
 - **[arXiv November 2025](https://arxiv.org/abs/2511.01718)** Unified Diffusion VLA: Vision-Language-Action Model via Joint Discrete Denoising Diffusion Process. A VLA model that unifies understanding, generation, and action through a joint discrete denoising diffusion process.
@@ -76,7 +73,7 @@
 - **[arXiv January 2025](https://arxiv.org/abs/2501.12345)** HPT: Hierarchical Pre-trained Transformer for Robot Learning. A hierarchical pretraining transformer architecture that uses layered representations to support efficient transfer across robot tasks.
 - **[CVPR January 2025](https://arxiv.org/abs/2501.10105)** UniAct: Universal Actions for Enhanced Embodied Foundation Models. Introduces a universal action space that maps low-level controls from different robots into normalized action representations, improving cross-platform generalization.
 - **[arXiv January 2025](https://arxiv.org/abs/2501.08132)** HiMoE-VLA: Hierarchical Mixture-of-Experts for Vision-Language-Action Policies. A hierarchical mixture-of-experts architecture for VLA policies.
-- **[arXiv October 2024](https://arxiv.org/abs/2410.24164)** π0: A Vision-Language-Action Flow Model for General Robot Control. A flow-matching architecture built on a pretrained VLM and trained on diverse multi-robot datasets to support zero-shot task execution.
+- **[arXiv October 2024](https://arxiv.org/abs/2410.24164)** 0: A Vision-Language-Action Flow Model for General Robot Control. A flow-matching architecture built on a pretrained VLM and trained on diverse multi-robot datasets to support zero-shot task execution.
 - **[arXiv June 2024](https://arxiv.org/abs/2406.09246)** OpenVLA: An Open Vision-Language-Action Model. An open-source VLA model built on a 7B Llama 2 backbone and a DINOv2 visual encoder, supporting plug-and-play use and parameter-efficient fine-tuning.
 - **[arXiv June 2024](https://arxiv.org/abs/2406.06833)** RoboMatrix: Skill-Centric Robot Task Planning. A skill-centric framework for robot task planning.
 - **[arXiv May 2024](https://arxiv.org/abs/2405.12213)** Octo: An Open-Source Generalist Robot Policy. An open-source generalist robot policy trained on 800,000 trajectories from the Open X-Embodiment dataset, supporting both language instructions and goal images.
@@ -100,23 +97,18 @@
 - **[arXiv May 2022](https://arxiv.org/abs/2205.06175)** GATO: A Generalist Agent. A single transformer model that handles 600+ tasks spanning robot control, games, and dialogue, offering one of the earliest demonstrations of a generalist agent.
 - **[CoRL April 2022](https://arxiv.org/abs/2204.01691)** SayCan: Do As I Can, Not As I Say: Grounding Language in Robotic Affordances. Grounds language models in robotic affordances to execute natural-language instructions.
 - **[CoRL March 2022](https://arxiv.org/abs/2203.12601)** R3M: A Universal Visual Representation for Robot Manipulation. A universal visual representation for robot manipulation pretrained on large-scale Ego4D human video, transferable to a wide range of downstream robot manipulation tasks.
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30056)** Sample-Efficient Diffusion-based Reinforcement Learning with Critic Guidance. 提出基于扩散模型的样本高效强化学习方法，结合Critic引导提升学习效率，在机器人控制任务中表现优异。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30260)** How LoRA Remembers? A Parametric Memory Law for LLM Finetuning. 提出参数化记忆法则，量化LoRA在LLM微调中的记忆容量极限，为具身智能模型微调提供理论指导。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30311)** Archon: A Unified Multimodal Model for Holistic Digital Human Generation. 提出Archon统一多模态模型，整合七种模态实现整体数字人生成，提出"模态内思考"方法逐步增强保真度和可控性。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.29488)** AnyMo: Scaling Any-Modality Conditional Motion Generation with Masked Modeling. 提出AnyMo统一多模态框架，结合残差FSQ运动分词器和可扩展掩码建模Transformer，支持任意模态组合的高质量运动合成。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30248)** GenClaw: Code-Driven Agentic Image Generation. 提出GenClaw代码驱动智能体图像生成范式，代理首先概念化，然后使用代码渲染视觉草图，最后用生成模型补充纹理，实现高度可控的视觉生成。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.28272)** EchoAvatar: Real-time Generative Avatar Animation from Audio Streams. 提出统一流式架构，从增量音频输入合成连续全身运动，支持语音和音乐的无缝泛化，通过工具调用接口实现LLM显式语义控制。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30263)** minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models. 提出minWM全栈开源框架，将双向视频扩散模型转换为相机可控的少步自回归世界模型，支持实时低延迟推出。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.26933)** Diff-Tracking: Leveraging Text-to-Image Diffusion Models for Unsupervised Visual Object Tracking. 提出Diff-Tracking方法，利用预训练文本到图像扩散模型的丰富语义知识，通过交叉注意力机制实现无监督视觉目标跟踪。
-
-<a id="manipulation-and-teleoperation" name="manipulation-and-teleoperation"></a>
-## Manipulation & Teleoperation
+- **[arXiv May 2026](https://arxiv.org/abs/2605.30056)** Sample-Efficient Diffusion-based Reinforcement Learning with Critic Guidance. Presents a sample-efficient diffusion-based reinforcement learning method that combines Critic guidance to improve learning efficiency, achieving excellent performance in robot control tasks.
+- **[arXiv May 2026](https://arxiv.org/abs/2605.30260)** How LoRA Remembers? A Parametric Memory Law for LLM Finetuning. ,LoRALLM,.
+- **[arXiv May 2026](https://arxiv.org/abs/2605.30311)** Archon: A Unified Multimodal Model for Holistic Digital Human Generation. Archon,,"".
+- **[arXiv May 2026](https://arxiv.org/abs/2605.29488)** AnyMo: Scaling Any-Modality Conditional Motion Generation with Masked Modeling. AnyMo,FSQTransformer,.
+- **[arXiv May 2026](https://arxiv.org/abs/2605.30248)** GenClaw: Code-Driven Agentic Image Generation. GenClaw,,,,.
+- **[arXiv May 2026](https://arxiv.org/abs/2605.28272)** EchoAvatar: Real-time Generative Avatar Animation from Audio Streams. ,,,LLM.
+- **[arXiv May 2026](https://arxiv.org/abs/2605.30263)** minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models. minWM,,.
+- **[arXiv May 2026](https://arxiv.org/abs/2605.26933)** Diff-Tracking: Leveraging Text-to-Image Diffusion Models for Unsupervised Visual Object Tracking. Presents the Diff-Tracking method that leverages rich semantic knowledge from pre-trained text-to-image diffusion models, achieving unsupervised visual object tracking through cross-attention mechanisms.
 
 - **[arXiv May 2026](https://arxiv.org/abs/2605.29298)** MonoDuo: Using One Robot Arm to Learn Bimanual Policies. Enables bimanual collaboration policies learning from single-arm manipulation data, reducing bimanual robot data collection costs.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.28812)** Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation. Proposes a pressure-center(CoP)-based tactile representation that preserves dense contact information while maintaining robust sim-to-real transfer, achieving zero-shot real robot transfer.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.30226)** BORA: Bridging Offline Reinforcement Learning and Online Residual Adaptation for Real-World Dexterous VLA Models. Combines offline reinforcement learning with online residual adaptation for efficient training of real-world dexterous vision-language-action models.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.29564)** VE2VF: Vision-Enabled to Vision-Free Distillation via Real-world Reinforcement Learning for Robust Contact-Rich Manipulation. Distills vision-dependent policies into vision-free policies through real-world RL, achieving robust contact-rich manipulation.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.30056)** Sample-Efficient Diffusion-based Reinforcement Learning with Critic Guidance. A sample-efficient diffusion-based RL method combining critic guidance to improve learning efficiency, demonstrating excellent performance in robotic control tasks.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.29937)** Fisher-Preserving Guidance: Training-Free Manifold Constraints for Safe Diffusion Control. A training-free Fisher-preserving guidance method using manifold constraints for safe diffusion model control, applicable to robot motion planning.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.13452)** CUBic: Coordinated Unified Bimanual Perception and Control Framework. A unified bimanual perception-and-control framework that learns shared tokenized representations bridging perception and control, with independence and coordination emerging from the structure itself, validated on a real-world Agibot dual-arm platform.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.13117)** SECOND-Grasp: Semantic Contact-guided Dexterous Grasping. A unified dexterous grasping framework that uses VLM-based semantic reasoning for coarse contact proposals and refines them with semantic-geometric consistency, reaching 98.2% and 97.7% on seen and unseen categories in DexGraspNet.
@@ -139,8 +131,8 @@
 - **[AAAI January 2026](https://arxiv.org/abs/2601.01948)** SDP: Learning Diffusion Policy from Primitive Skills for Robot Manipulation. A skill-conditioned diffusion policy that combines interpretable skill learning with conditional action planning, extracting eight reusable primitive skills across tasks and routing them through a lightweight network.
 - **[ICRA June 2025](https://arxiv.org/abs/2506.20668)** DemoDiffusion: One-Shot Human Imitation using pre-trained Diffusion Policy. Uses a pretrained general diffusion policy to correct trajectories produced by kinematic retargeting, keeping them consistent with human motion while staying inside a valid robot action distribution.
 - **[arXiv May 2025](https://arxiv.org/abs/2505.16413)** DexVLA: Plug-in Diffusion Experts for Vision-Language-Action Models. A plug-in diffusion expert framework for strengthening VLA manipulation performance.
-- **[arXiv April 2025](https://arxiv.org/abs/2504.05291)** ObjectVLA: Open-World Object Manipulation without Demonstrations. A VLA system for open-world object manipulation that does not rely on demonstrations.
-- **[arXiv January 2025](https://arxiv.org/abs/2501.05233)** VideoVLA: Video Generators as Generalizable Robot Manipulators. Uses video generation models as the basis for generalizable robot manipulation.
+- **[arXiv April 2025](https://arxiv.org/abs/2504.91)** ObjectVLA: Open-World Object Manipulation without Demonstrations. A VLA system for open-world object manipulation that does not rely on demonstrations.
+- **[arXiv January 2025](https://arxiv.org/abs/2501.33)** VideoVLA: Video Generators as Generalizable Robot Manipulators. Uses video generation models as the basis for generalizable robot manipulation.
 - **[CoRL June 2024](https://arxiv.org/abs/2406.09288)** ManiWAV: Learning Robot Manipulation from In-the-Wild Audio-Visual Data. Learns robot manipulation from real-world audio-visual data collected in the wild.
 - **[RSS March 2024](https://arxiv.org/abs/2403.07788)** DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation. A scalable and portable motion-capture data collection system for dexterous manipulation.
 - **[CoRL February 2024](https://arxiv.org/abs/2402.10329)** UMI: Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots. A universal manipulation interface for robot teaching that avoids the need for in-the-wild robot collection.
@@ -156,11 +148,8 @@
 - **[ICRA March 2021](https://arxiv.org/abs/2103.02245)** Form2Fit: Learning Shape Priors for Generalizable Manipulation. A method for generalizable manipulation through learned shape priors.
 - **[ICCV January 2021](https://arxiv.org/abs/2101.09555)** Where2Act: From Pixels to Actions for Articulated Objects. A method for articulated object manipulation that maps pixels directly to actions.
 - **[CVPR December 2018](https://arxiv.org/abs/1812.02713)** PartNet: A Large-Scale Benchmark for Fine-Grained and Hierarchical Part-Level 3D Object Understanding. A benchmark for fine-grained and hierarchical part-level 3D object understanding.
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.26478)** Learning from Demonstrations. 研究机器人从示范中学习的方法，探讨模仿学习、行为克隆等技术在机器人操作中的应用，分析样本效率和泛化能力。
-- **[ICML 2026年5月](https://arxiv.org/abs/2605.27095)** FA-OPD: Adversarial Dual On-Policy Distillation from Expressive Flow-based Teacher. 提出FA-OPD对抗双重在线策略蒸馏方法，流匹配教师与轻量MLP学生协同训练，在六个机器人基准上超越强基线。
-
-<a id="locomotion" name="locomotion"></a>
-## Locomotion
+- **[arXiv May 2026](https://arxiv.org/abs/2605.26478)** Learning from Demonstrations. ,,.
+- **[ICML May 2026](https://arxiv.org/abs/2605.27095)** FA-OPD: Adversarial Dual On-Policy Distillation from Expressive Flow-based Teacher. FA-OPD,MLP,.
 
 - **[arXiv May 2026](https://arxiv.org/abs/2605.14417)** Before the Body Moves: Learning Anticipatory Joint Intent for Language-Conditioned Humanoid Control (DAJI). A hierarchical framework for language-conditioned humanoid control that learns anticipatory joint-intent representations and explicitly encodes upcoming contact changes and balance preparation for stable whole-body motion generation.
 - **[arXiv April 2026](https://arxiv.org/abs/2604.19734)** UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling. A unified physical language for policy learning and world modeling from humans to humanoids, using visually grounded latent action tokenization to bridge cross-embodiment learning.
@@ -168,9 +157,6 @@
 - **[arXiv March 2026](https://arxiv.org/abs/2603.17927)** RoboForge: Physically Optimized Text-guided Whole-Body Locomotion for Humanoids. A physically optimized framework for text-guided humanoid whole-body locomotion that jointly optimizes motion generation and physical execution via the PP-Opt module.
 - **[arXiv April 2025](https://arxiv.org/abs/2504.09532)** Humanoid-COA: Humanoid Agent via Embodied Chain-of-Action Reasoning with Multimodal Foundation Models for Zero-Shot Loco-Manipulation. The first humanoid agent framework to combine multimodal foundation-model reasoning with embodied chain-of-action mechanisms for zero-shot loco-manipulation.
 - **[arXiv February 2025](https://arxiv.org/abs/2502.09247)** Humanoid-VLA: Vision-Language-Action Models for Humanoid Control. A VLA model designed specifically for humanoid robot control.
-
-<a id="navigation-and-spatial-intelligence" name="navigation-and-spatial-intelligence"></a>
-## Navigation & Spatial Intelligence
 
 - **[arXiv May 2026](https://arxiv.org/abs/2605.30342)** Uncertainty-driven 3D Gaussian Splatting Active Mapping via Anisotropic Visibility Field (GAVIS). Proposes the GAVIS framework for uncertainty quantification and active mapping of 3D Gaussian splatting via anisotropic visibility field, supporting real-time 200FPS uncertainty quantification.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.27952)** Con-DSO: Learning Short-Horizon Consistency Priors for RGB-D Direct Sparse Odometry. A consistency-aware RGB-D direct sparse odometry framework that predicts photometric and depth geometric consistency uncertainty, achieving 20%-80% trajectory error reduction across multiple benchmarks.
@@ -180,7 +166,7 @@
 - **[arXiv May 2026](https://arxiv.org/abs/2605.12625)** Driving Intents Amplify Planning-Oriented Reinforcement Learning (DIAL). Uses intent-conditioned CFG to expand the sampled distribution and break mode collapse, then combines it with multi-intent GRPO for preference RL, surpassing both human demonstrations and previous best systems on WOD-E2E.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.12735)** Toward a Blueprint for Generalizable Robot Autonomy (Unified Autonomy Stack). An open-source unified autonomy stack that fuses LiDAR, radar, vision, and inertial sensing to support factor-graph localization, semantic scene understanding, and multilayer safe navigation across aerial and ground robots.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.12620)** VeGAS: Verifier-Guided Action Selection For Embodied Agents. A test-time framework that samples candidate actions and uses a generative verifier to identify the most reliable choice, improving relative performance by up to 36% on Habitat and ALFRED.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.13775)** RoboEvolve: Co-Evolving Planner-Simulator for Robotic Manipulation with Limited Data. Couples a VLM planner and a VGM simulator in a co-evolution loop with a cognitively inspired “daytime exploration, nighttime consolidation” setup, surpassing fully supervised baselines with just 500 unlabeled seeds.
+- **[arXiv May 2026](https://arxiv.org/abs/2605.13775)** RoboEvolve: Co-Evolving Planner-Simulator for Robotic Manipulation with Limited Data. Couples a VLM planner and a VGM simulator in a co-evolution loop with a cognitively inspired daytime exploration, nighttime consolidation setup, surpassing fully supervised baselines with just 500 unlabeled seeds.
 - **[arXiv April 2026](https://arxiv.org/abs/2604.24707)** Passage-Aware Structural Mapping for RGB-D Visual SLAM. A perception method for navigation and spatial mapping in RGB-D SLAM.
 - **[arXiv April 2026](https://arxiv.org/abs/2604.22339)** flow4dgs-slam: optical flow-guided 4d gaussian splatting slam. A navigation and mapping perception method that emphasizes efficiency and robustness through optical-flow-guided 4D Gaussian splatting.
 - **[arXiv April 2026](https://arxiv.org/abs/2604.21693)** SLAM as a Stochastic Control Problem with Partial Information: Optimal Solutions and Rigorous Approximations. Recasts active SLAM as a stochastic control problem under partial information and provides unified modeling together with rigorous approximation analysis.
@@ -224,16 +210,12 @@
 - **[ICML June 2019](https://arxiv.org/abs/1906.09518)** Neural SLAM: Learning to Explore with External Memory. Neural SLAM that learns exploration with external memory.
 - **[NeurIPS April 2018](https://arxiv.org/abs/1804.00168)** PointNav: Learning to Navigate in Cities Without a Map. Learning to navigate in cities without a map.
 - **[CVPR February 2017](https://arxiv.org/abs/1702.04405)** ScanNet: Richly-Annotated 3D Reconstructions of Indoor Scenes. A richly annotated indoor-scene 3D reconstruction dataset.
-- **[ICRA 2026年5月](https://arxiv.org/abs/2605.29773)** Energy-Aware NECO for Single-Pass Pixel-wise Out-of-Distribution Detection in Semantic Segmentation. 提出能量感知的NECO方法，实现语义分割中的高效像素级分布外检测，提升机器人感知系统的鲁棒性。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.27178)** Domain Adaptation for Robot Vision. 研究机器人视觉中的域适应问题，提出改进的对抗学习和自监督方法，提升模型在新环境中的泛化能力。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.25832)** Visual-Inertial Odometry. 研究视觉惯性里程计技术，融合相机和IMU数据实现鲁棒的机器人定位，在挑战性环境下保持高精度。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.26949)** DinoComplete: 3D Shape Completion with Distilled Semantic Priors and State Space Models. 提出DinoComplete形状补全框架，利用DINO特征蒸馏的体素对齐语义先验，结合多尺度体素Mamba模块实现高效长程推理。
+- **[ICRA May 2026](https://arxiv.org/abs/2605.29773)** Energy-Aware NECO for Single-Pass Pixel-wise Out-of-Distribution Detection in Semantic Segmentation. Presents an energy-aware NECO method that achieves efficient pixel-wise out-of-distribution detection in semantic segmentation, improving the robustness of robotic perception systems.
+- **[arXiv May 2026](https://arxiv.org/abs/2605.27178)** Domain Adaptation for Robot Vision. Studies domain adaptation problems in robot vision, proposing improved adversarial learning and self-supervised methods to enhance model generalization in new environments.
+- **[arXiv May 2026](https://arxiv.org/abs/2605.25832)** Visual-Inertial Odometry. ,IMU,.
+- **[arXiv May 2026](https://arxiv.org/abs/2605.26949)** DinoComplete: 3D Shape Completion with Distilled Semantic Priors and State Space Models. DinoComplete,DINO,Mamba.
 
-<a id="simulators-and-sim2real" name="simulators-and-sim2real"></a>
-## Simulators & Sim2Real
-
-- **[arXiv May 2026](https://arxiv.org/abs/2605.30263)** minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models. A full-stack open-source framework that converts bidirectional video diffusion models into camera-controllable few-step autoregressive world models, supporting real-time low-latency rollout.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.28312)** Sim-to-Real Transfer for Robotic Manipulation. Studies sim-to-real transfer for robotic manipulation, proposing improved domain randomization and adaptation techniques to enhance policy transfer from simulation to real environments.
+- **[arXiv May 2026](https://arxiv.org/abs/2605.28312)** Sim-to-Real Transfer for Robotic Manipulation. Studies simal transfer for robotic manipulation, proposing improved domain randomization and adaptation techniques to enhance policy transfer from simulation to real environments.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.29032)** Theoretical Foundations and Effective Algorithms for Policy-Aware Simulator Learning. Proposes policy-aware simulator learning that shifts simulator learning objectives from prediction accuracy to policy robustness, solving simulator exploitation through zero-sum game framework.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.26114)** MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research. Proposes MobileGym platform supporting verifiable outcome signals and large-scale parallel online RL, achieving 95.1% training gain preservation in Sim-to-Real cases.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.13315)** Embodied Neurocomputation: A Framework for Interfacing Biological Neural Cultures with Scaled Task-Driven Validation. A framework for embodied neurocomputation that connects biological neural cultures with task-driven validation.
@@ -241,7 +223,7 @@
 - **[arXiv May 2026](https://arxiv.org/abs/2605.12038)** OmniHumanoid: Streaming Cross-Embodiment Video Generation with Paired-Free Adaptation. A streaming cross-embodiment video generation framework that adapts to different robot morphologies without paired data.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.12654)** COSMIC: Concurrent Optimization of Structure, Material, and Integrated Control for robotic systems. A gradient-based co-design framework that jointly optimizes topology, material distribution, and control strategy inside a differentiable simulator, finding diverse motion strategies beyond separated design.
 - **[arXiv April 2026](https://arxiv.org/abs/2604.25459)** GS-Playground: A High-Throughput Photorealistic Simulator for Vision-Informed Robot Learning. A high-throughput photorealistic simulator for robot manipulation and vision-informed learning.
-- **[arXiv March 2026](https://arxiv.org/abs/2603.22039)** RAFL: Generalizable Sim-to-Real of Soft Robots with Residual Acceleration Field Learning. A residual acceleration field framework that enhances base simulators with transferable local correction dynamics for soft-robot sim-to-real transfer.
+- **[arXiv March 2026](https://arxiv.org/abs/2603.22039)** RAFL: Generalizable Sim-to-Real of Soft Robots with Residual Acceleration Field Learning. A residual acceleration field framework that enhances base simulators with transferable local correction dynamics for soft-robot simal transfer.
 - **[arXiv November 2025](https://arxiv.org/abs/2511.02345)** Sim2Real 2.0: A Survey and Benchmark. A survey and benchmark on Sim2Real transfer.
 - **[arXiv October 2025](https://arxiv.org/abs/2510.09876)** UniSim: A Universal Simulator for Robotics and Embodied AI. A universal simulator for robotics and embodied AI.
 - **[OpenReview October 2025](https://openreview.net/forum?id=P7tg7VowVX)** RoboSimGS: High-Fidelity Simulated Data Generation for Real-World Zero-Shot Transfer. A Real2Sim2Real framework that converts multiview real images into scalable, photorealistic, physically interactive simulation environments with 3D Gaussian splatting and automatically generated articulated assets.
@@ -263,10 +245,7 @@
 - **[arXiv January 2018](https://arxiv.org/abs/1801.00690)** DMControl: DeepMind Control Suite. A benchmark suite for continuous control tasks.
 - **[CVPR December 2017](https://arxiv.org/abs/1712.05474)** AI2-THOR: An Interactive 3D Environment for Visual AI. A classic interactive 3D environment for visual AI.
 - **[IROS October 2012](https://homes.cs.washington.edu/~todorov/papers/TodorovIROS12.pdf)** MuJoCo: A Physics Engine for Model-Based Control. A classic physics engine for model-based control.
-- **[GECCO 2026年5月](https://arxiv.org/abs/2605.28812)** Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation. 提出基于压力中心的触觉表示方法，保留密集接触信息的同时保持sim-to-real迁移的鲁棒性，实现零样本真实机器人迁移。
-
-<a id="datasets" name="datasets"></a>
-## Datasets
+- **[GECCO May 2026](https://arxiv.org/abs/2605.28812)** Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation. ,simal,.
 
 - **[arXiv April 2026](https://arxiv.org/abs/2604.21017)** Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics. A large-scale embodied dataset for medical robotics foundation models, addressing the small scale, single embodiment, and difficult sharing of medical robot data.
 - **[arXiv April 2026](https://arxiv.org/abs/2604.20444)** VTouch++: A Multimodal Dataset with Vision-Based Tactile Enhancement for Bimanual Manipulation. A multimodal bimanual manipulation dataset that enhances tactile signals with vision and provides higher-fidelity physical interaction supervision for contact-rich tasks.
@@ -282,13 +261,9 @@
 - **[ICRA March 2020](https://arxiv.org/abs/2003.06789)** GraspNet: A Large-Scale Cluttered Scene Dataset for Robotic Grasping. A large-scale cluttered-scene grasping dataset.
 - **[ICCV April 2019](https://arxiv.org/abs/1904.03278)** AMASS: Archive of Motion Capture as Surface Shapes. A large human motion dataset.
 - **[TPAMI May 2017](https://arxiv.org/abs/1705.09155)** Human3.6M: Large Scale Datasets and Predictive Methods for 3D Human Sensing. A large-scale human 3D pose dataset.
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.29462)** CFMME: A Comprehensive Chinese Financial Multimodal Evaluation Dataset. 提出CFMME中文金融多模态评估基准，包含6052个实例覆盖八种金融图像模态，为具身智能金融应用提供评估工具。
-
-<a id="benchmarks-and-evaluation" name="benchmarks-and-evaluation"></a>
-## Benchmarks & Evaluation
+- **[arXiv May 2026](https://arxiv.org/abs/2605.29462)** E: A Comprehensive Chinese Financial Multimodal Evaluation Dataset. E,6,.
 
 - **[arXiv May 2026](https://arxiv.org/abs/2605.30326)** RoboWits: Unexpected Challenges for Robotic Creative Problem Solving. A dual-arm robot benchmark that systematically evaluates cognitive reasoning, creative tool use, and robustness to unexpected conditions, providing new perspectives for embodied intelligence creative problem solving.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.29773)** Energy-Aware NECO for Single-Pass Pixel-wise Out-of-Distribution Detection in Semantic Segmentation. An energy-aware NECO method for efficient pixel-wise out-of-distribution detection in semantic segmentation, enhancing robustness of robot perception systems.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.27932)** When Think-with-Image Meets Safety: What Determines Multimodal Jailbreak Robustness? Studies multimodal LLM safety, finding that explicit image tool interaction can reduce jailbreak success rate by ~30%, providing new insights for embodied intelligence safety.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.28805)** OmniVerifier-M1: Multimodal Meta-Verifier with Explicit Structured Recalibration. A multimodal meta-verifier using symbolic meta-verification and decoupled RL for fine-grained error localization, supporting dynamic region-level self-correction.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.12674)** Revealing Interpretable Failure Modes of VLMs (REVELIO). A framework for systematically uncovering interpretable VLM failure modes through diversity-aware beam search and Gaussian-process Thompson sampling in autonomous driving and indoor robotics.
@@ -327,14 +302,7 @@
 - **[CVPR April 2021](https://arxiv.org/abs/2104.04631)** DexYCB: A Benchmark for Capturing Hand Grasping of Objects. A benchmark for hand grasping of objects.
 - **[ICRA September 2019](https://arxiv.org/abs/1909.12271)** RLBench: The Robot Learning Benchmark & Learning Environment. A robot learning benchmark and learning environment.
 
-<a id="survey" name="survey"></a>
-## Survey
-
-- **[arXiv May 2026](https://arxiv.org/abs/2605.30260)** How LoRA Remembers? A Parametric Memory Law for LLM Finetuning. Proposes a parametric memory law that quantifies the memory capacity limits of LoRA in LLM finetuning, discovering that p>0.5 is sufficient for verbatim recall, providing theoretical guidance for embodied intelligence model finetuning.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.27817)** Deep Learning for Robot Vision. A survey of deep learning applications in robot vision, covering key tasks such as object detection, semantic segmentation, and depth estimation, providing a systematic reference for embodied intelligence perception.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.26478)** Learning from Demonstrations. Studies robot learning from demonstrations, exploring the application of imitation learning and behavioral cloning techniques in robot manipulation, analyzing sample efficiency and generalization capability.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.27178)** Domain Adaptation for Robot Vision. Studies domain adaptation in robot vision, proposing improved adversarial learning and self-supervised methods to enhance model generalization in new environments.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.25832)** Visual-Inertial Odometry. Studies visual-inertial odometry technology, fusing camera and IMU data for robust robot localization, maintaining high precision in challenging environments.
 - **[arXiv May 2026](https://arxiv.org/abs/2605.12090)** World Action Models: The Next Frontier in Embodied AI. The first systematic survey of world action models, proposing a taxonomy that unifies predictive state modeling and action generation across cascaded and joint paradigms.
 - **[arXiv April 2026](https://arxiv.org/abs/2604.23001)** Vision-Language-Action in Robotics: A Survey of Datasets, Benchmarks, and Data Engines. A survey of VLA datasets, benchmarks, and data engines, with an emphasis on long-horizon tasks and unified evaluation settings.
 - **[arXiv February 2026](https://arxiv.org/abs/2602.04567)** Benchmarking Vision-Language-Action Models: A Survey. A survey of benchmarking methods for vision-language-action models.
