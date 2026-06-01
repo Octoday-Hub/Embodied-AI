@@ -24,7 +24,7 @@
 <p align="center">
   <img alt="Jobs Listed" src="https://img.shields.io/badge/Jobs%20Listed-437-14B8A6?style=flat-square&labelColor=0F766E" />
   <img alt="Tools Listed" src="https://img.shields.io/badge/Tools%20Listed-15-8B5CF6?style=flat-square&labelColor=5B21B6" />
-  <img alt="Papers Listed" src="https://img.shields.io/badge/Papers%20Listed-329-F59E0B?style=flat-square&labelColor=92400E" />
+  <img alt="Papers Listed" src="https://img.shields.io/badge/Papers%20Listed-319-F59E0B?style=flat-square&labelColor=92400E" />
 </p>
 
 
