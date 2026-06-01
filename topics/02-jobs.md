@@ -1403,6 +1403,765 @@
 </table>
 
 
+
+<tr style="background: #ffffff;">
+<td rowspan="14" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>埃斯顿</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">自动化工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">江苏省</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://estun1.zhiye.com/social/detail?jobAdId=09516030-570f-4aca-8241-c285b6b78925"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人应用软件开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">江苏省·南京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://estun1.zhiye.com/social/detail?jobAdId=ebf80d51-547b-418d-8ec9-aec37c525e2c"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人网络通信开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">江苏省·南京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://estun1.zhiye.com/social/detail?jobAdId=c976f80d-fd0e-411e-90fa-0e61b63fbc5d"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">控制器软件开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">江苏省·南京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://estun1.zhiye.com/social/detail?jobAdId=576feffa-f022-4632-8091-473ef1fd1caa"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人离线仿真软件开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">江苏省·南京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://estun1.zhiye.com/social/detail?jobAdId=2aa6583c-de74-4a8b-85aa-8d9eedd5b5e8"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人应用软件工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">江苏省·南京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://estun1.zhiye.com/campus/detail?jobAdId=017a32e3-4274-48c0-8d03-b6fc56750d1b"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">伺服算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">江苏省·南京市·江宁区</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://estun1.zhiye.com/campus/detail?jobAdId=0118ea84-2ba2-40cf-acc4-3c432307b020"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人软件工程师 （机器人控制器软件）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">江苏省·南京市·江宁区</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://estun1.zhiye.com/campus/detail?jobAdId=e7b462f9-e9dc-4cb9-8016-3f2d24e8aab9"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机械研发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">江苏省·南京市·江宁区</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://estun1.zhiye.com/campus/detail?jobAdId=b98be43f-4d9e-48a0-bfa9-37f01e07a92e"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机械臂视觉算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市,安徽省·芜湖市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://efort.zhiye.com/social/detail?jobAdId=c06f88b9-6225-426e-a755-4b53cda1ef25"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人软件开发工程师-人形机器人</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市,安徽省·芜湖市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://efort.zhiye.com/social/detail?jobAdId=f3ca9c4b-c371-416e-9ca2-6fe8d9123c3d"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">视觉感知算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市,安徽省·芜湖市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://efort.zhiye.com/campus/detail?jobAdId=701d79dc-baf6-4fc1-b05d-3af8701874d3"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">路径规划算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市,安徽省·芜湖市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://efort.zhiye.com/campus/detail?jobAdId=f4ff67d6-09a8-48b0-af92-26bb96c135a0"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">多模态大模型算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市,安徽省·芜湖市,北京市,浙江省·杭州市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://efort.zhiye.com/campus/detail?jobAdId=607008f1-9418-40a6-8446-88f24bd5f291"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td rowspan="1" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>安徽合力</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">产品设计</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">安徽省-合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="http://ahhl.zhiye.com/zpdetail/311123451?p=1%5E5"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td rowspan="4" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>奥比中光</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">机械臂/四足机器人产研负责人</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">广东省·深圳市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://job.orbbec.com.cn/social/detail?jobAdId=7c3c47df-5213-4c55-aa02-60a34eaf782f"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人开发者平台运营负责人</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">广东省·深圳市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://job.orbbec.com.cn/social/detail?jobAdId=d5e75f85-7704-4c8f-8dfa-53872f5da41d"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">电机控制工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">广东省·深圳市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://job.orbbec.com.cn/social/detail?jobAdId=65f39f31-8d69-4e82-a13d-0c053c4a3f35"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">算法优化工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">广东省·深圳市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://job.orbbec.com.cn/campus/detail?jobAdId=05c64a68-0855-4900-93c4-e4c2ed7fba4b"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td rowspan="9" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>柏楚</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">软件开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://fscut.zhiye.com/social/detail?jobAdId=4afcfa92-a409-49b8-b298-510fd6e5ae08"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人开发工程师（数控平台方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://fscut.zhiye.com/social/detail?jobAdId=0735fdb1-7429-43de-8b98-309ec2ccdaf2"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">图形学算法高级工程师/架构师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://fscut.zhiye.com/social/detail?jobAdId=ad7d566b-7364-4732-8989-8ee6216a6630"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">传感器开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://fscut.zhiye.com/social/detail?jobAdId=45dc2ede-e681-483e-abc2-906ac87b0e76"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">3D感知算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://fscut.zhiye.com/social/detail?jobAdId=06584377-f8f8-4832-bd2b-8909705b207d"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">高级传动系统工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://fscut.zhiye.com/social/detail?jobAdId=f042ef70-c364-41a3-8347-4648307da5f3"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">运动控制算法工程师（机械臂）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://fscut.zhiye.com/campus/detail?jobAdId=9f2c24ff-dad5-466e-b44a-37ec5c04151b"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">运动控制工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://fscut.zhiye.com/campus/detail?jobAdId=e5b1b539-61ad-494d-b7ce-34191d639096"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">驱控系统/驱动算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://fscut.zhiye.com/campus/detail?jobAdId=5802b200-bb1e-42cb-9823-0a87e101f1ca"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td rowspan="13" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>禾赛科技</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">数据算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://kwh0jtf778.jobs.feishu.cn/index/position/7641045064391297321/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">大客户项目经理-机器人以及自动驾驶方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://kwh0jtf778.jobs.feishu.cn/index/position/7519760899784296745/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">产品经理（机器人驱动方向）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://kwh0jtf778.jobs.feishu.cn/index/position/7550218882548533558/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">控制算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://kwh0jtf778.jobs.feishu.cn/index/position/7617305559284730158/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">驱动器专家</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://kwh0jtf778.jobs.feishu.cn/index/position/7488981047674456361/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">NVH工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://kwh0jtf778.jobs.feishu.cn/index/position/7633779724242585906/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">电机工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://kwh0jtf778.jobs.feishu.cn/index/position/7613668621936888118/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">驱动器工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://kwh0jtf778.jobs.feishu.cn/index/position/7522752330577824042/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">减速器工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://kwh0jtf778.jobs.feishu.cn/index/position/7612611148416485642/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">基础几何模型算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://kwh0jtf778.jobs.feishu.cn/index/position/7623684121131764014/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">产品工程师（机器人驱动）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://kwh0jtf778.jobs.feishu.cn/229043/position/7566195497736849706/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">控制算法工程师（驱动器方向）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="http://kwh0jtf778.jobs.feishu.cn/229043/position/7566197653387479305/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">AME机械工艺规范工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">杭州市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://kwh0jtf778.jobs.feishu.cn/229043/position/7560978439487244583/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td rowspan="10" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>汇川技术</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">机器人机械设计工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">江苏省·南京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://inovance.zhiye.com/social/detail?jobAdId=aed88afa-214b-4239-89ba-02ed3f15f020"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">江苏省·南京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://inovance.zhiye.com/social/detail?jobAdId=c24af21b-136a-44c0-b174-5d32f7ddc6da"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人机械设计高级工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">江苏省·南京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://inovance.zhiye.com/social/detail?jobAdId=9aa9f1c8-9780-4f43-8c15-c69fafb17ccb"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">高级软件架构师（机器人应用软件/解决方案架构）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">广东省·深圳市,江苏省·南京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://inovance.zhiye.com/social/detail?jobAdId=dce0bbe4-d8ab-48b3-ba88-779c0fcd40eb"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">高级软件架构师（机器人系统）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">广东省·深圳市,江苏省·南京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://inovance.zhiye.com/social/detail?jobAdId=aefc836d-9dd6-4c1e-a276-fb6b0a84f9cb"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">广东省·深圳市,江苏省·南京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://inovance.zhiye.com/campus/detail?jobAdId=c27a133e-7faa-4cf5-81d2-c23ad5ff5be4"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人算法工程师（博士-人形机器人-强化学习）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">广东省·深圳市,江苏省·苏州市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://inovance.zhiye.com/campus/detail?jobAdId=162f46f5-449c-4726-8167-971b072e65bc"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机械设计工程师（机器人</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">江苏省·苏州市/南京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://inovance.zhiye.com/campus/detail?jobAdId=265a9eb6-5a2b-402b-8d00-ef3b1a0eb981"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机械测试工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">江苏省·南京市/苏州市,广东省·深圳市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://inovance.zhiye.com/campus/detail?jobAdId=e81b0e4a-9b41-455a-9acd-825f731ad72e"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">维修工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">江苏省·苏州市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://inovance.zhiye.com/campus/detail?jobAdId=5dbb23d9-285c-42ac-9aad-0babd9e9d757"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td rowspan="3" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>极飞科技</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">机器人算法工程师（电机控制）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">广东省·广州市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://zhaopin.xa.com/social/detail?jobAdId=f26f62a8-7b6c-42df-aa22-e38ea9d55c13"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">高级电机控制算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">广东省·广州市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://zhaopin.xa.com/social/detail?jobAdId=3eaca699-b097-48f2-9b14-2e5b20e4b644"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">AI训练师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">广东省·广州市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://zhaopin.xa.com/social/detail?jobAdId=7436c45e-e6ef-4f17-8c9f-2c75b53b2a38"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td rowspan="15" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>极佳</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">后端工程师（AI / Agent 系统）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://gigaai0118.jobs.feishu.cn/index/position/7636991424973785407/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">3D 引擎开发工程师（Unity</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://gigaai0118.jobs.feishu.cn/index/position/7636991168706758975/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">Web 前端工程师（内容创作方向）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://gigaai0118.jobs.feishu.cn/index/position/7636990998786640137/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">Agentic算法工程师/研究员</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://gigaai0118.jobs.feishu.cn/index/position/7634117725241116937/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">双足机器人结构设计工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://gigaai0118.jobs.feishu.cn/index/position/7631439757704382726/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人测试工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://gigaai0118.jobs.feishu.cn/index/position/7624117601698318655/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身机器人本体硬件产品经理</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://gigaai0118.jobs.feishu.cn/index/position/7624117601539885350/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能机器人数据采集运营</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://gigaai0118.jobs.feishu.cn/index/position/7620754759066290468/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人供应链专家</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://gigaai0118.jobs.feishu.cn/index/position/7620647625164359972/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">世界模型算法专家-具身方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://gigaai0118.jobs.feishu.cn/index/position/7620298392292477193/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">高级机械工程师（人形机器人）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://gigaai0118.jobs.feishu.cn/index/position/7614081027497642266/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人物料质量工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://gigaai0118.jobs.feishu.cn/index/position/7614068905337981210/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">关节及通讯研发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://gigaai0118.jobs.feishu.cn/index/position/7614029193920645386/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人结构工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://gigaai0118.jobs.feishu.cn/index/position/7613997783272605978/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能-框架开发架构师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://gigaai0118.jobs.feishu.cn/index/position/7613993841625123115/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td rowspan="12" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>迦智科技</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">深度学习算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://www.zhipin.com/gongsi/job/bcd987db80a996f61nR_09-6Eg~~.html?ka=company-jobs"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">规划控制算法实习生（强化学习）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.zhipin.com/gongsi/job/100000/bcd987db80a996f61nR_09-6Eg~~.html"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">AGV实施实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.zhipin.com/gongsi/job/100000/bcd987db80a996f61nR_09-6Eg~~.html"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实施工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.zhipin.com/gongsi/job/100000/bcd987db80a996f61nR_09-6Eg~~.html"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">高级嵌入式工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.zhipin.com/gongsi/job/100000/bcd987db80a996f61nR_09-6Eg~~.html?page=2"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">测试实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.zhipin.com/gongsi/job/100000/bcd987db80a996f61nR_09-6Eg~~.html?page=2"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人软件测试实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="http://zhipin.com/gongsi/job/100000/bcd987db80a996f61nR_09-6Eg~~.html?page=2"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">结构设计工程师（机器人关节 / 机械臂）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.zhipin.com/gongsi/job/300000/bcd987db80a996f61nR_09-6Eg~~.html"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人运动控制工程师（底层运控方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.zhipin.com/gongsi/job/300000/bcd987db80a996f61nR_09-6Eg~~.html"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">资深关节模组设计工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.zhipin.com/gongsi/job/300000/bcd987db80a996f61nR_09-6Eg~~.html"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">博士研究员</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://www.iplusmobot.cn/joinus_social_info/index?cid=3"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">测试实习生</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="http://iplusmobot.cn/joinus_social_info/index?cid=5"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td rowspan="4" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>节卡</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">产品验证工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://jaka.zhiye.com/social/detail?jobAdId=75c99003-aff5-4812-8c31-68d15caab061"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机械系统研究员</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://alidocs.dingtalk.com/notable/share/form/v013BMqYyb52jJVAqwZ_dv19yqvsgs3oebp3pcjys_1qX0QQ0"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能算法研究员(感知方向)</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://alidocs.dingtalk.com/notable/share/form/v013BMqYyb52jJVAqwZ_dv19yqvsgs3oebp3pcjys_1qX0QQ0"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能算法研究员(控制方向)</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://alidocs.dingtalk.com/notable/share/form/v013BMqYyb52jJVAqwZ_dv19yqvsgs3oebp3pcjys_1qX0QQ0"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td rowspan="3" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>九号</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">高级嵌入式电控软件开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/ninebot/45626#/job/1ddf11b6-9618-4903-aeeb-fbc4c1a0e0f7"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">AI应用专家</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/ninebot/45626#/job/edbe17b6-9c42-4c60-b70f-c1aec0700129"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">高级硬件工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">江苏·常州市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/ninebot/45626#/job/531185a3-8c81-499d-963f-b92ee9b1d970"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td rowspan="18" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>均普智能</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">研发测试工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">浙江·宁波市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/joyson/98423#/job/73456307-cad6-44f7-bba7-cd34f0ced49a"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身大模型算法工程师 （预训练方向）</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/joyson/98423#/job/f3aec7c1-91b8-439a-be6c-80e6f4e606c2"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身仿真科学家/工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/joyson/98423#/job/a6c3abe0-4066-4423-902c-13b10181522b"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身真机与仿真评测科学家/工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/joyson/98423#/job/ace89068-28a9-442a-9de0-f9762bd0685d"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身数据闭环科学家/工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/joyson/98423#/job/011aab19-6129-40a5-8083-1b0de24467ff"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身模型推理与部署科学家/工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/joyson/98423#/job/3722cdef-0245-4b36-b189-3e9216a8c85e"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身模型后训练科学家/工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">上海市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/joyson/98423#/job/99d7e7c1-fa6c-4328-99de-440b3488105e"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">研发机械设计工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">浙江·宁波市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/joyson/98423#/job/69d1e7d6-f34a-48f1-b5ab-07bc7d8472ad"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">运控工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">浙江·宁波市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/joyson/98423#/job/040b9e5a-a1ff-4f0f-99c3-821e541d831f"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">感知算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">浙江·宁波市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/joyson/98423#/job/5ec06a62-eb25-4ced-9b06-98439b31eacd"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">算法验证工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">浙江·宁波市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/joyson/98423#/job/6d56815e-9af6-4b63-a051-c08ee1ca161d"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">数据标注开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">浙江·宁波市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/joyson/98423#/job/f797e1d2-f821-489a-8653-ac5231fa57c4"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">软件工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">浙江·宁波市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/joyson/98423#/job/b3174cfa-f90d-48dc-aff1-9ded3d515cb1"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">强化学习专家</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">浙江·宁波市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/joyson/98423#/job/d1c6c266-1da0-4c48-b96b-6bffc6d0e791"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机械设计工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">浙江·宁波市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/joyson/98423#/job/58c5cf18-0fac-4307-8c36-ee3bfb72af70"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机械方案工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">浙江·宁波市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/joyson/98423#/job/e343b0e0-a98e-4091-aa95-018dc433f49c"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">视觉工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">江苏·苏州市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/joyson/98423#/job/427cb1e7-e54d-4ab2-9c1e-1a9df558f8ca"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">人形机器人产测主管</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">浙江·宁波市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://app.mokahr.com/social-recruitment/joyson/98423#/job/a7983295-fc63-4d24-a727-fd3339f3ae7d"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td rowspan="18" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>科大讯飞</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">聆动通用-C++软件开发工程师-深圳(J11600)</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">广东省·深圳市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://iflytek.zhiye.com/social/detail?jobAdId=49ebd688-eb40-4693-8de3-75dba484deda"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">聆动通用-AI视觉感知算法工程师-深圳(J11870)</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">广东省·深圳市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://iflytek.zhiye.com/social/detail?jobAdId=3437cdb9-4151-4ddc-88f0-a1c292be6b9f"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">聆动通用-机械臂运动规划算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">江苏省·苏州市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://iflytek.zhiye.com/social/detail?jobAdId=451ca8e0-3cbe-42b8-b0f6-a59252c908ac"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">聆动通用-机械臂运动规划算法工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽省·合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://iflytek.zhiye.com/social/detail?jobAdId=730828c6-45bb-489d-bf8a-d3287d7e25d2"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">聆动通用-硬件工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽省·合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://iflytek.zhiye.com/social/detail?jobAdId=bb00c1d3-1aea-4b3a-b25b-c33def8e0949"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">前端开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽省·合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://iflytek.zhiye.com/campus/detail?jobAdId=ef7cf2db-0be2-42e1-806f-674d628a466c"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">Go开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽省·合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://iflytek.zhiye.com/campus/detail?jobAdId=9aa042cf-7177-4cb7-bdfa-bb71f07b15de"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">AI研究算法工程师-机器人AI运动控制方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽省·合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://iflytek.zhiye.com/campus/detail?jobAdId=61007c8c-8961-43ec-bee9-12e744a5e770"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">AI研究算法工程师-推荐算法方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽省·合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://iflytek.zhiye.com/campus/detail?jobAdId=69eac602-4d55-43f4-b827-6065a7a172b3"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">AI研究算法工程师-多模态大模型方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽省·合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://iflytek.zhiye.com/campus/detail?jobAdId=77fb4db1-98f2-4ce3-9242-aaef5cfe6ec0"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">AI研究算法工程师-语音大模型方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽省·合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://iflytek.zhiye.com/campus/detail?jobAdId=caa0e1dc-61d4-48da-aca0-e245b868c64f"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">AI研究算法工程师-具身智能和机器人方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽省·合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://iflytek.zhiye.com/campus/detail?jobAdId=a7b1630e-cd18-4426-b8ec-62f97b287c28"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">AI研究算法工程师-认知大模型方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽省·合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://iflytek.zhiye.com/campus/detail?jobAdId=e7a75392-79d2-4d82-b7ec-a23f47a2ca31"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">AI研究算法工程师-自然语言处理方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽省·合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://iflytek.zhiye.com/campus/detail?jobAdId=1bf6a473-83d2-4415-a578-27a9d7eea87c"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">AI研发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽省·合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://iflytek.zhiye.com/campus/detail?jobAdId=c99c33b0-a0a8-4b83-91e2-7299702a6f62"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">AI研究算法工程师-智能语音方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽省·合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://iflytek.zhiye.com/campus/detail?jobAdId=56c06237-cd71-478b-b807-a5e076957c15"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">AI研究算法工程师-深度学习框架和平台方向</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽省·合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://iflytek.zhiye.com/campus/detail?jobAdId=ed3189ee-aa47-4f92-b012-bf4499a7f40e"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">Java开发工程师</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">安徽省·合肥市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://iflytek.zhiye.com/campus/detail?jobAdId=abfdd1bb-6b9f-47c7-95a7-3a5f417cd297"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+
 <a id="jobs-overseas"></a>
 ## Overseas Opportunities
 
