@@ -24,7 +24,7 @@
 <p align="center">
   <img alt="收录岗位" src="https://img.shields.io/badge/%E6%94%B6%E5%BD%93%E5%B2%97%E4%BD%8D-437-14B8A6?style=flat-square&labelColor=0F766E" />
   <img alt="收录工具" src="https://img.shields.io/badge/%E6%94%B6%E5%BD%93%E5%B7%A5%E5%85%B7-15-8B5CF6?style=flat-square&labelColor=5B21B6" />
-  <img alt="收录论文" src="https://img.shields.io/badge/%E6%94%B6%E5%BD%93%E8%AE%BA%E6%96%87-329-F59E0B?style=flat-square&labelColor=92400E" />
+  <img alt="收录论文" src="https://img.shields.io/badge/%E6%94%B6%E5%BD%93%E8%AE%BA%E6%96%87-319-F59E0B?style=flat-square&labelColor=92400E" />
 </p>
 
 
