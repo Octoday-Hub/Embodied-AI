@@ -22,9 +22,9 @@
 </p>
 
 <p align="center">
-  <img alt="Jobs Updated" src="https://img.shields.io/badge/Jobs%20Updated-%2B50-14B8A6?style=flat-square&labelColor=0F766E" />
+  <img alt="Jobs Updated" src="https://img.shields.io/badge/Jobs%20Updated-%2B398-14B8A6?style=flat-square&labelColor=0F766E" />
   <img alt="Tools Updated" src="https://img.shields.io/badge/Tools%20Updated-%2B15-8B5CF6?style=flat-square&labelColor=5B21B6" />
-  <img alt="Papers Updated" src="https://img.shields.io/badge/Papers%20Updated-%2B28-F59E0B?style=flat-square&labelColor=92400E" />
+  <img alt="Papers Updated" src="https://img.shields.io/badge/Papers%20Updated-%2B313-F59E0B?style=flat-square&labelColor=92400E" />
 </p>
 
 
@@ -83,7 +83,7 @@ A hand-picked selection of books and courses covering the fundamentals of roboti
 
 ### 🔭 (2) Watchtower: Track Frontier Technologies
 
-> Currently featuring `288` curated papers.
+> Currently featuring `313` curated papers.
 
 Explore the [Paper Collection](03-papers_EN.md):
 
