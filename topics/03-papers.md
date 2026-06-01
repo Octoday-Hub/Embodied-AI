@@ -118,6 +118,17 @@
 - **[CoRL 2022年7月](https://arxiv.org/abs/2207.05608)** Inner Monologue: Embodied Reasoning through Planning with Language Models. 语言模型辅助的具身推理与规划框架.
 - **[CoRL 2022年4月](https://arxiv.org/abs/2204.01691)** SayCan: Do As I Can, Not As I Say: Grounding Language in Robotic Affordances. 将语言模型与机器人能力结合，实现自然语言指令执行.
 
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30056)** Sample-Efficient Diffusion-based Reinforcement Learning with Critic Guidance. 提出基于扩散模型的样本高效强化学习方法，结合Critic引导提升学习效率，在机器人控制任务中表现优异。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30260)** How LoRA Remembers? A Parametric Memory Law for LLM Finetuning. 提出参数化记忆法则，量化LoRA在LLM微调中的记忆容量极限，为具身智能模型微调提供理论指导。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30311)** Archon: A Unified Multimodal Model for Holistic Digital Human Generation. 提出Archon统一多模态模型，整合七种模态实现整体数字人生成，提出"模态内思考"方法逐步增强保真度和可控性。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.29488)** AnyMo: Scaling Any-Modality Conditional Motion Generation with Masked Modeling. 提出AnyMo统一多模态框架，结合残差FSQ运动分词器和可扩展掩码建模Transformer，支持任意模态组合的高质量运动合成。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30350)** DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation. 提出DynaFLIP动力学感知多模态预训练框架，整合视觉、语言和动力学信息，提升机器人操作中的场景理解和动作执行能力。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.28548)** GEM: Generative Supervision Helps Embodied Intelligence. 提出GEM生成式监督具身视觉语言模型，将深度图生成任务整合到VLM预训练阶段，在模拟和真实环境评估中展现卓越的任务执行能力。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30248)** GenClaw: Code-Driven Agentic Image Generation. 提出GenClaw代码驱动智能体图像生成范式，代理首先概念化，然后使用代码渲染视觉草图，最后用生成模型补充纹理，实现高度可控的视觉生成。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.28272)** EchoAvatar: Real-time Generative Avatar Animation from Audio Streams. 提出统一流式架构，从增量音频输入合成连续全身运动，支持语音和音乐的无缝泛化，通过工具调用接口实现LLM显式语义控制。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30263)** minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models. 提出minWM全栈开源框架，将双向视频扩散模型转换为相机可控的少步自回归世界模型，支持实时低延迟推出。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.26933)** Diff-Tracking: Leveraging Text-to-Image Diffusion Models for Unsupervised Visual Object Tracking. 提出Diff-Tracking方法，利用预训练文本到图像扩散模型的丰富语义知识，通过交叉注意力机制实现无监督视觉目标跟踪。
+
 <a id="manipulation" name="manipulation"></a>
 ## Manipulation & Teleoperation
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.13452)** CUBic: Coordinated Unified Bimanual Perception and Control Framework. 统一双手感知控制框架，学习共享token化表示桥接感知和控制，独立性与协调性从结构中涌现，真实世界Agibot双臂验证。
@@ -159,6 +170,13 @@
 - **[ICRA 2021年3月](https://arxiv.org/abs/2103.02245)** Form2Fit: Learning Shape Priors for Generalizable Manipulation. 学习形状先验的通用操作.
 - **[ICCV 2021年1月](https://arxiv.org/abs/2101.09555)** Where2Act: From Pixels to Actions for Articulated Objects. 从像素到动作的铰接物体操作.
 - **[CVPR 2018年12月](https://arxiv.org/abs/1812.02713)** PartNet: A Large-Scale Benchmark for Fine-Grained and Hierarchical Part-Level 3D Object Understanding. 细粒度部件级3D物体理解基准.
+
+- **[ICML 2026年5月](https://arxiv.org/abs/2605.29937)** Fisher-Preserving Guidance: Training-Free Manifold Constraints for Safe Diffusion Control. 提出无需训练的Fisher保持引导方法，通过流形约束实现安全的扩散模型控制，适用于机器人运动规划。
+- **[ICRA 2026年5月](https://arxiv.org/abs/2605.29298)** MonoDuo: Using One Robot Arm to Learn Bimanual Policies. 提出MonoDuo方法，通过单臂操作数据学习双臂协作策略，降低双臂机器人数据收集成本。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.26478)** Learning from Demonstrations. 研究机器人从示范中学习的方法，探讨模仿学习、行为克隆等技术在机器人操作中的应用，分析样本效率和泛化能力。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30226)** BORA: Bridging Offline Reinforcement Learning and Online Residual Adaptation for Real-World Dexterous VLA Models. 提出BORA方法，结合离线强化学习和在线残差适应，实现真实世界灵巧视觉-语言-动作模型的高效训练。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.29564)** VE2VF: Vision-Enabled to Vision-Free Distillation via Real-world Reinforcement Learning. 提出VE2VF方法，通过真实世界强化学习将视觉依赖策略蒸馏为视觉无关策略，实现鲁棒的接触丰富操作。
+- **[ICML 2026年5月](https://arxiv.org/abs/2605.27095)** FA-OPD: Adversarial Dual On-Policy Distillation from Expressive Flow-based Teacher. 提出FA-OPD对抗双重在线策略蒸馏方法，流匹配教师与轻量MLP学生协同训练，在六个机器人基准上超越强基线。
 
 <a id="locomotion" name="locomotion"></a>
 ## Locomotion
@@ -224,6 +242,13 @@
 - **[NeurIPS 2018年4月](https://arxiv.org/abs/1804.00168)** PointNav: Learning to Navigate in Cities Without a Map. 无地图的城市导航学习.
 - **[CVPR 2017年2月](https://arxiv.org/abs/1702.04405)** ScanNet: Richly-Annotated 3D Reconstructions of Indoor Scenes. 富标注的室内场景 3D 重建数据集.
 
+- **[ICRA 2026年5月](https://arxiv.org/abs/2605.29773)** Energy-Aware NECO for Single-Pass Pixel-wise Out-of-Distribution Detection in Semantic Segmentation. 提出能量感知的NECO方法，实现语义分割中的高效像素级分布外检测，提升机器人感知系统的鲁棒性。
+- **[CVPR 2026年5月](https://arxiv.org/abs/2605.30342)** GAVIS: Uncertainty-driven 3D Gaussian Splatting Active Mapping via Anisotropic Visibility Field. 提出GAVIS框架，通过各向异性可见场实现3D高斯溅射的不确定性量化和主动建图，支持实时200FPS的不确定性量化。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.27952)** Con-DSO: Learning Short-Horizon Consistency Priors for RGB-D Direct Sparse Odometry. 提出一致性感知的RGB-D直接稀疏里程计框架，通过预测光度和深度几何一致性不确定性，在多个基准上实现20%-80%的轨迹误差降低。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.27178)** Domain Adaptation for Robot Vision. 研究机器人视觉中的域适应问题，提出改进的对抗学习和自监督方法，提升模型在新环境中的泛化能力。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.25832)** Visual-Inertial Odometry. 研究视觉惯性里程计技术，融合相机和IMU数据实现鲁棒的机器人定位，在挑战性环境下保持高精度。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.26949)** DinoComplete: 3D Shape Completion with Distilled Semantic Priors and State Space Models. 提出DinoComplete形状补全框架，利用DINO特征蒸馏的体素对齐语义先验，结合多尺度体素Mamba模块实现高效长程推理。
+
 <a id="simulation-sim2real" name="simulation-sim2real"></a>
 ## Simulators & Sim2Real
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.13315)** Embodied Neurocomputation: A Framework for Interfacing Biological Neural Cultures with Scaled Task-Driven Validation. 面向生物神经培养与任务驱动验证的具身神经计算框架。
@@ -255,6 +280,11 @@
 - **[CVPR 2017年12月](https://arxiv.org/abs/1712.05474)** AI2-THOR: An Interactive 3D Environment for Visual AI. 交互式3D环境，经典仿真平台.
 - **[IROS 2012年10月](https://homes.cs.washington.edu/~todorov/papers/TodorovIROS12.pdf)** MuJoCo: A Physics Engine for Model-Based Control. 模型控制物理引擎，经典工作.
 
+- **[GECCO 2026年5月](https://arxiv.org/abs/2605.28812)** Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation. 提出基于压力中心的触觉表示方法，保留密集接触信息的同时保持sim-to-real迁移的鲁棒性，实现零样本真实机器人迁移。
+- **[ICML 2026年5月](https://arxiv.org/abs/2605.29032)** Theoretical Foundations and Effective Algorithms for Policy-Aware Simulator Learning. 提出策略感知模拟器学习方法，将模拟器学习目标从预测准确性转向策略鲁棒性，通过零和博弈框架解决模拟器利用问题。
+- **[Neutrosophic Sets and Systems 2026年5月](https://arxiv.org/abs/2605.26114)** MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research. 提出MobileGym平台，支持可验证的结果信号和大规模并行在线强化学习，在Sim-to-Real案例中实现95.1%的训练增益保持。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.28312)** Sim-to-Real Transfer for Robotic Manipulation. 研究机器人操作中的sim-to-real迁移问题，提出改进的域随机化和适应技术，提升仿真到真实环境的策略迁移效果。
+
 <a id="datasets" name="datasets"></a>
 ## Datasets
 
@@ -272,6 +302,8 @@
 - **[ICRA 2020年3月](https://arxiv.org/abs/2003.06789)** GraspNet: A Large-Scale Cluttered Scene Dataset for Robotic Grasping. 大规模杂乱场景抓取数据集.
 - **[ICCV 2019年4月](https://arxiv.org/abs/1904.03278)** AMASS: Archive of Motion Capture as Surface Shapes. 大型人体运动数据集.
 - **[TPAMI 2017年5月](https://arxiv.org/abs/1705.09155)** Human3.6M: Large Scale Datasets and Predictive Methods for 3D Human Sensing. 大型人体3D姿态数据集.
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.29462)** CFMME: A Comprehensive Chinese Financial Multimodal Evaluation Dataset. 提出CFMME中文金融多模态评估基准，包含6052个实例覆盖八种金融图像模态，为具身智能金融应用提供评估工具。
 
 <a id="benchmarks-evaluation" name="benchmarks-evaluation"></a>
 ## Benchmarks & Evaluation
@@ -313,6 +345,10 @@
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.03956)** VLA-Forget: Vision-Language-Action Unlearning for Embodied Foundation Models. 面向具身基础模型的遗忘方法，研究如何安全移除VLA中的特定知识或行为能力，同时尽量保持整体性能。
 - **[arXiv 2025年2月](https://arxiv.org/abs/2502.07712)** SafeVLA: Safety Alignment for Vision-Language-Action Models. VLA模型的安全对齐方法.
 
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.27932)** When Think-with-Image Meets Safety: What Determines Multimodal Jailbreak Robustness? 研究多模态大模型的安全性，发现显式图像工具交互可将越狱成功率降低约30%，为具身智能安全提供新见解。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.28805)** OmniVerifier-M1: Multimodal Meta-Verifier with Explicit Structured Recalibration. 提出OmniVerifier-M1多模态元验证器，利用符号元验证和解耦强化学习实现细粒度错误定位，支持动态区域级自校正。
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30326)** RoboWits: Unexpected Challenges for Robotic Creative Problem Solving. 提出RoboWits双臂机器人基准测试，系统评估认知推理、创造性工具使用和应对意外条件的鲁棒性，为具身智能创造性问题解决提供新视角。
+
 <a id="survey" name="survey"></a>
 ## Survey
 
@@ -337,3 +373,5 @@
 - **[arXiv 2021年9月](https://arxiv.org/abs/2109.06789)** A Survey of Imitation Learning: Algorithms, Applications, and Challenges. 模仿学习综述.
 - **[T-RO 2021年3月](https://arxiv.org/abs/2103.04567)** Robotic Manipulation: A Survey. 机器人操纵综述.
 - **[IJRR 2020年4月](https://arxiv.org/abs/2004.09876)** Reinforcement Learning for Robotics: A Survey. 机器人强化学习综述.
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.27817)** Deep Learning for Robot Vision. 综述深度学习在机器人视觉中的应用，涵盖目标检测、语义分割、深度估计等关键任务，为具身智能感知提供系统参考。
