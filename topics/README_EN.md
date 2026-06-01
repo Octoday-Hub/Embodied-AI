@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Sans&weight=600&size=28&duration=3200&pause=900&color=FF9F1C&center=true&vCenter=true&width=760&height=44&lines=Welcome%20to%20Octoday%20Hub&v=20260516-2" alt="Welcome to Octoday Hub" />
+  <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Sans&weight=600&size=28&duration=3200&pause=900&color=FF9F1C&center=true&vCenter=true&width=760&height=44&lines=Welcome%20to%20Octoday%20Hub&v=20260601-2" alt="Welcome to Octoday Hub" />
 </div>
 
 
@@ -22,9 +22,9 @@
 </p>
 
 <p align="center">
-  <img alt="Jobs Listed" src="https://img.shields.io/badge/Jobs%20Listed-437-14B8A6?style=flat-square&labelColor=0F766E" />
-  <img alt="Tools Listed" src="https://img.shields.io/badge/Tools%20Listed-15-8B5CF6?style=flat-square&labelColor=5B21B6" />
-  <img alt="Papers Listed" src="https://img.shields.io/badge/Papers%20Listed-319-F59E0B?style=flat-square&labelColor=92400E" />
+  <img alt="Jobs Updated" src="https://img.shields.io/badge/Jobs%20Updated-%2B124-14B8A6?style=flat-square&labelColor=0F766E" />
+  <img alt="Tools Updated" src="https://img.shields.io/badge/Tools%20Updated-%2B0-8B5CF6?style=flat-square&labelColor=5B21B6" />
+  <img alt="Papers Updated" src="https://img.shields.io/badge/Papers%20Updated-%2B0-F59E0B?style=flat-square&labelColor=92400E" />
 </p>
 
 
@@ -83,7 +83,7 @@ A hand-picked selection of books and courses covering the fundamentals of roboti
 
 ### 🔭 (2) Watchtower: Track Frontier Technologies
 
-> Currently featuring `313` curated papers.
+> Currently featuring `288` curated papers.
 
 Explore the [Paper Collection](03-papers_EN.md):
 
