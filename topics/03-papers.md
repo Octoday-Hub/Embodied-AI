@@ -282,8 +282,8 @@
 
 - **[GECCO 2026年5月](https://arxiv.org/abs/2605.28812)** Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation. 提出基于压力中心的触觉表示方法，保留密集接触信息的同时保持sim-to-real迁移的鲁棒性，实现零样本真实机器人迁移。
 - **[ICML 2026年5月](https://arxiv.org/abs/2605.29032)** Theoretical Foundations and Effective Algorithms for Policy-Aware Simulator Learning. 提出策略感知模拟器学习方法，将模拟器学习目标从预测准确性转向策略鲁棒性，通过零和博弈框架解决模拟器利用问题。
-- **[Neutrosophic Sets and Systems 2026年5月](https://arxiv.org/abs/2605.26114)** MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research. 提出MobileGym平台，支持可验证的结果信号和大规模并行在线强化学习，在Sim-to-Real案例中实现95.1%的训练增益保持。
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.28312)** Sim-to-Real Transfer for Robotic Manipulation. 研究机器人操作中的sim-to-real迁移问题，提出改进的域随机化和适应技术，提升仿真到真实环境的策略迁移效果。
+- **[Neutrosophic Sets and Systems 2026年5月](https://arxiv.org/abs/2605.26114)** MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research. 提出MobileGym平台，支持可验证的结果信号和大规模并行在线强化学习，在Sim-to-Real案例中实现95.1%的训练增益保持。
 
 <a id="datasets" name="datasets"></a>
 ## Datasets
@@ -371,7 +371,7 @@
 - **[arXiv 2022年12月](https://arxiv.org/abs/2212.04567)** Sim-to-Real Transfer for Robotics: A Survey. Sim2Real迁移综述.
 - **[arXiv 2022年5月](https://arxiv.org/abs/2205.09876)** A Survey of Embodied Navigation. 具身导航综述.
 - **[arXiv 2021年9月](https://arxiv.org/abs/2109.06789)** A Survey of Imitation Learning: Algorithms, Applications, and Challenges. 模仿学习综述.
-- **[T-RO 2021年3月](https://arxiv.org/abs/2103.04567)** Robotic Manipulation: A Survey. 机器人操纵综述.
 - **[IJRR 2020年4月](https://arxiv.org/abs/2004.09876)** Reinforcement Learning for Robotics: A Survey. 机器人强化学习综述.
+- **[T-RO 2021年3月](https://arxiv.org/abs/2103.04567)** Robotic Manipulation: A Survey. 机器人操纵综述.
 
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.27817)** Deep Learning for Robot Vision. 综述深度学习在机器人视觉中的应用，涵盖目标检测、语义分割、深度估计等关键任务，为具身智能感知提供系统参考。
