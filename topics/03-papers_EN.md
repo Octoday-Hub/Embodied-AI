@@ -271,6 +271,8 @@
 <a id="datasets" name="datasets"></a>
 ## Datasets
 
+- **[Science Robotics May 2026](https://arxiv.org/abs/2605.29254)** Extreme Dynamic Symmetry Enables Omnidirectional and Multifunctional Robots. A robot design method based on extreme dynamic symmetry achieving omnidirectional mobility and multifunctional operation capabilities, providing new insights for robot morphology design.
+
 - **[arXiv April 2026](https://arxiv.org/abs/2604.21017)** Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics. A large-scale embodied dataset for medical robotics foundation models, addressing the small scale, single embodiment, and difficult sharing of medical robot data.
 - **[arXiv April 2026](https://arxiv.org/abs/2604.20444)** VTouch++: A Multimodal Dataset with Vision-Based Tactile Enhancement for Bimanual Manipulation. A multimodal bimanual manipulation dataset that enhances tactile signals with vision and provides higher-fidelity physical interaction supervision for contact-rich tasks.
 - **[arXiv February 2026](https://arxiv.org/abs/2602.01693)** Manip-Cognition-1.6M: GSR: Learning Structured Reasoning for Embodied Manipulation. A large-scale dataset for structured reasoning in embodied manipulation, jointly supervising world understanding, action planning, and goal explanation.
@@ -285,7 +287,7 @@
 - **[ICRA March 2020](https://arxiv.org/abs/2003.06789)** GraspNet: A Large-Scale Cluttered Scene Dataset for Robotic Grasping. A large-scale cluttered-scene grasping dataset.
 - **[ICCV April 2019](https://arxiv.org/abs/1904.03278)** AMASS: Archive of Motion Capture as Surface Shapes. A large human motion dataset.
 - **[TPAMI May 2017](https://arxiv.org/abs/1705.09155)** Human3.6M: Large Scale Datasets and Predictive Methods for 3D Human Sensing. A large-scale human 3D pose dataset.
-- **[Science Robotics May 2026](https://arxiv.org/abs/2605.29254)** Extreme Dynamic Symmetry Enables Omnidirectional and Multifunctional Robots. A robot design method based on extreme dynamic symmetry achieving omnidirectional mobility and multifunctional operation capabilities, providing new insights for robot morphology design.
+
 
 <a id="benchmarks-evaluation" name="benchmarks-evaluation"></a>
 ## Benchmarks & Evaluation
@@ -357,5 +359,6 @@
 - **[arXiv December 2022](https://arxiv.org/abs/2212.04567)** Sim-to-Real Transfer for Robotics: A Survey. A survey of Sim2Real transfer in robotics.
 - **[arXiv May 2022](https://arxiv.org/abs/2205.09876)** A Survey of Embodied Navigation. A survey of embodied navigation.
 - **[arXiv September 2021](https://arxiv.org/abs/2109.06789)** A Survey of Imitation Learning: Algorithms, Applications, and Challenges. A survey of imitation learning.
-- **[IJRR April 2020](https://arxiv.org/abs/2004.09876)** Reinforcement Learning for Robotics: A Survey. A survey of reinforcement learning for robotics.
 - **[T-RO March 2021](https://arxiv.org/abs/2103.04567)** Robotic Manipulation: A Survey. A survey of robotic manipulation.
+- **[IJRR April 2020](https://arxiv.org/abs/2004.09876)** Reinforcement Learning for Robotics: A Survey. A survey of reinforcement learning for robotics.
+
