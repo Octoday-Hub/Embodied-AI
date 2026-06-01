@@ -375,3 +375,44 @@
 - **[arXiv 2021年9月](https://arxiv.org/abs/2109.06789)** A Survey of Imitation Learning: Algorithms, Applications, and Challenges. 模仿学习综述.
 - **[T-RO 2021年3月](https://arxiv.org/abs/2103.04567)** Robotic Manipulation: A Survey. 机器人操纵综述.
 - **[IJRR 2020年4月](https://arxiv.org/abs/2004.09876)** Reinforcement Learning for Robotics: A Survey. 机器人强化学习综述.
+
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.28812)** Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation. Proposes a pressure-center(CoP)-based tactile representation that preserves dense contact information while maintaining robust sim-to-real transfer, achieving zero-shot real robot transfer.
+- **[arXiv May 2026](https://arxiv.org/abs/2605.30056)** Sample-Efficient Diffusion-based Reinforcement Learning with Critic Guidance. A sample-efficient diffusion-based RL method combining critic guidance to improve learning efficiency, demonstrating excellent performance in robotic control tasks.
+
+<a id="selected-embodied-ai-papers" name="selected-embodied-ai-papers"></a>
+## Selected Embodied AI Papers
+
+
+
+<a id="📄-table-of-contents" name="📄-table-of-contents"></a>
+## 📄 Table Of Contents
+
+
+
+<a id="navigation-&-spatial-intelligence" name="navigation-&-spatial-intelligence"></a>
+## Navigation & Spatial Intelligence
+- **[arXiv May 2026](https://arxiv.org/abs/2605.26368)** Unified Panoramic Geometry Estimation via Multi-View Foundation Models (PaGeR). Lifts 3D foundation models from perspective images to the omnidirectional domain, unifying scale-invariant depth, metric depth, surface normals, and sky mask prediction for 360-degree scene reconstruction.
+
+
+<a id="simulators-&-sim2real" name="simulators-&-sim2real"></a>
+## Simulators & Sim2Real
+- **[arXiv May 2026](https://arxiv.org/abs/2605.30263)** minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models. A full-stack open-source framework that converts bidirectional video diffusion models into camera-controllable few-step autoregressive world models, supporting real-time low-latency rollout.
+
+
+<a id="datasets" name="datasets"></a>
+## Datasets
+- **[Science Robotics May 2026](https://arxiv.org/abs/2605.29254)** Extreme Dynamic Symmetry Enables Omnidirectional and Multifunctional Robots. A robot design method based on extreme dynamic symmetry achieving omnidirectional mobility and multifunctional operation capabilities, providing new insights for robot morphology design.
+
+
+<a id="benchmarks-&-evaluation" name="benchmarks-&-evaluation"></a>
+## Benchmarks & Evaluation
+- **[arXiv May 2026](https://arxiv.org/abs/2605.29773)** Energy-Aware NECO for Single-Pass Pixel-wise Out-of-Distribution Detection in Semantic Segmentation. An energy-aware NECO method for efficient pixel-wise out-of-distribution detection in semantic segmentation, enhancing robustness of robot perception systems.
+
+
+<a id="survey" name="survey"></a>
+## Survey
+- **[arXiv May 2026](https://arxiv.org/abs/2605.30260)** How LoRA Remembers? A Parametric Memory Law for LLM Finetuning. Proposes a parametric memory law that quantifies the memory capacity limits of LoRA in LLM finetuning, discovering that p>0.5 is sufficient for verbatim recall, providing theoretical guidance for embodied intelligence model finetuning.
+- **[arXiv May 2026](https://arxiv.org/abs/2605.26478)** Learning from Demonstrations. Studies robot learning from demonstrations, exploring the application of imitation learning and behavioral cloning techniques in robot manipulation, analyzing sample efficiency and generalization capability.
+- **[arXiv May 2026](https://arxiv.org/abs/2605.27178)** Domain Adaptation for Robot Vision. Studies domain adaptation in robot vision, proposing improved adversarial learning and self-supervised methods to enhance model generalization in new environments.
+- **[arXiv May 2026](https://arxiv.org/abs/2605.25832)** Visual-Inertial Odometry. Studies visual-inertial odometry technology, fusing camera and IMU data for robust robot localization, maintaining high precision in challenging environments.
