@@ -247,6 +247,7 @@
 <a id="simulation-sim2real" name="simulation-sim2real"></a>
 
 ## Simulators & Sim2Real
+- **[Neutrosophic Sets and Systems 2026年5月](https://arxiv.org/abs/2605.26114)** MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research. 提出MobileGym平台，支持可验证的结果信号和大规模并行在线强化学习，在Sim-to-Real案例中实现95.1%的训练增益保持。
 
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.13315)** Embodied Neurocomputation: A Framework for Interfacing Biological Neural Cultures with Scaled Task-Driven Validation. 面向生物神经培养与任务驱动验证的具身神经计算框架。
 
@@ -280,7 +281,7 @@
 - **[arXiv 2018年1月](https://arxiv.org/abs/1801.00690)** DMControl: DeepMind Control Suite. 连续控制任务基准.
 - **[CVPR 2017年12月](https://arxiv.org/abs/1712.05474)** AI2-THOR: An Interactive 3D Environment for Visual AI. 交互式3D环境，经典仿真平台.
 - **[IROS 2012年10月](https://homes.cs.washington.edu/~todorov/papers/TodorovIROS12.pdf)** MuJoCo: A Physics Engine for Model-Based Control. 模型控制物理引擎，经典工作.
-- **[Neutrosophic Sets and Systems 2026年5月](https://arxiv.org/abs/2605.26114)** MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research. 提出MobileGym平台，支持可验证的结果信号和大规模并行在线强化学习，在Sim-to-Real案例中实现95.1%的训练增益保持。
+
 <a id="datasets" name="datasets"></a>
 
 ## Datasets
@@ -372,5 +373,5 @@
 - **[arXiv 2022年12月](https://arxiv.org/abs/2212.04567)** Sim-to-Real Transfer for Robotics: A Survey. Sim2Real迁移综述.
 - **[arXiv 2022年5月](https://arxiv.org/abs/2205.09876)** A Survey of Embodied Navigation. 具身导航综述.
 - **[arXiv 2021年9月](https://arxiv.org/abs/2109.06789)** A Survey of Imitation Learning: Algorithms, Applications, and Challenges. 模仿学习综述.
-- **[IJRR 2020年4月](https://arxiv.org/abs/2004.09876)** Reinforcement Learning for Robotics: A Survey. 机器人强化学习综述.
 - **[T-RO 2021年3月](https://arxiv.org/abs/2103.04567)** Robotic Manipulation: A Survey. 机器人操纵综述.
+- **[IJRR 2020年4月](https://arxiv.org/abs/2004.09876)** Reinforcement Learning for Robotics: A Survey. 机器人强化学习综述.
