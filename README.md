@@ -22,8 +22,7 @@
 </p>
 
 <p align="center">
-  <img alt="更新岗位" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E5%B2%97%E4%BD%8D-%2B124-14B8A6?style=flat-square&labelColor=0F766E" />
-  <img alt="更新工具" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E5%B7%A5%E5%85%B7-%2B0-8B5CF6?style=flat-square&labelColor=5B21B6" />
+  <img alt="更新岗位" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E5%B2%97%E4%BD%8D-%2B101-14B8A6?style=flat-square&labelColor=0F766E" />
   <img alt="更新论文" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E8%AE%BA%E6%96%87-%2B31-F59E0B?style=flat-square&labelColor=92400E" />
 </p>
 
@@ -118,7 +117,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🎒（5）进化：人才风向标
 
-> 当前共收录 `437` 个岗位机会：国内 `214` 个、海外 `85` 个、专项 `138` 个。
+> 当前共收录 `538` 个岗位机会：国内 `354` 个、海外 `85` 个、专项 `99` 个。
 
 查看[招聘信息](topics/02-jobs.md)：
 
