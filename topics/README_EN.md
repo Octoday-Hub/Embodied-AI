@@ -22,7 +22,6 @@
 </p>
 
 <p align="center">
-  <img alt="Jobs Updated" src="https://img.shields.io/badge/Jobs%20Updated-%2B101-14B8A6?style=flat-square&labelColor=0F766E" />
   <img alt="Papers Updated" src="https://img.shields.io/badge/Papers%20Updated-%2B31-F59E0B?style=flat-square&labelColor=92400E" />
 </p>
 
@@ -117,7 +116,7 @@ A curated map of the global embodied AI enterprise landscape to help you discove
 
 ### 🎒 (5) Evolution: Talent Compass
 
-> The full jobs database currently features `538` global opportunities.
+> The English jobs page currently features `85` global opportunities.
 
 Check [Global Opportunities](02-jobs_EN.md):
 
