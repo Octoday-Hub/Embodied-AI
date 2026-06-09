@@ -4,15 +4,19 @@
 
 ---
 
+<a name="toc"></a>
+
 ## 目录
 
-**仓库项目分类：** [📚 资源列表](#-资源列表) · [🎮 仿真平台](#-仿真平台) · [🤖 模型](#-模型) · [🏗️ 学习框架](#-学习框架) · [🤖 机器人项目](#-机器人项目) · [📖 教程](#-教程) · [🧠 推理/强化学习](#-推理强化学习)
+**仓库项目分类：** [📚 资源列表](#resource-lists) · [🎮 仿真平台](#simulation-platforms) · [🤖 模型](#models) · [🏗️ 学习框架](#learning-frameworks) · [🤖 机器人项目](#robot-projects) · [📖 教程](#tutorials) · [🧠 推理/强化学习](#reasoning-rl)
 
-**平台与社区分类：** [🏭 厂商开发者社区](#-厂商开发者社区) · [🛒 产品/模型/数据平台](#-产品模型数据平台)
+**平台与社区分类：** [🏭 厂商开发者社区](#vendor-communities) · [🛒 产品/模型/数据平台](#product-platforms)
 
 ---
 
 # 仓库项目
+
+<a name="resource-lists"></a>
 
 ## 📚 资源列表
 
@@ -43,9 +47,11 @@
 - **Awesome-3DCV-Papers-Daily** — [`qxiaofan/awesome-3dcv-papers-daily`](https://github.com/qxiaofan/awesome-3dcv-papers-daily)  
   📄 计算机视觉、VSLAM、点云、结构光、机械臂抓取、三维重建、深度学习、自动驾驶等前沿论文与文章
 
-[↑ 回目录](#目录)
+[↑ 回目录](#toc)
 
 ---
+
+<a name="simulation-platforms"></a>
 
 ## 🎮 仿真平台
 
@@ -58,9 +64,11 @@
 - **Prometheus** — [`amov-lab/Prometheus`](https://github.com/amov-lab/Prometheus) ⭐ 4.5k  
   📄 面向自主无人机的开源软件系统，支持目标检测、SLAM 导航、编队控制等
 
-[↑ 回目录](#目录)
+[↑ 回目录](#toc)
 
 ---
+
+<a name="models"></a>
 
 ## 🤖 模型
 
@@ -100,9 +108,11 @@
 - **Dexterity-BEV** — 详见 [Dexterity-BEV](https://arxiv.org/abs/2606.02274)  
   📄 对齐 3D 世界与动作实现可泛化机器人策略学习
 
-[↑ 回目录](#目录)
+[↑ 回目录](#toc)
 
 ---
+
+<a name="learning-frameworks"></a>
 
 ## 🏗️ 学习框架
 
@@ -121,9 +131,11 @@
 - **AgileX Cobot Magic** — [`agilexrobotics`](https://github.com/agilexrobotics)  
   📄 基于 Mobile ALOHA 架构的开源双臂移动操作平台（松灵机器人），含 PiPER 机械臂、AGV 底盘和深度相机
 
-[↑ 回目录](#目录)
+[↑ 回目录](#toc)
 
 ---
+
+<a name="robot-projects"></a>
 
 ## 🤖 机器人项目
 
@@ -253,9 +265,11 @@
 - **RoboWiki** — [`yfrobotics/robowiki`](https://github.com/yfrobotics/robowiki)  
   📄 机器人领域的维基百科（云飞机器人实验室）
 
-[↑ 回目录](#目录)
+[↑ 回目录](#toc)
 
 ---
+
+<a name="tutorials"></a>
 
 ## 📖 教程
 
@@ -265,9 +279,11 @@
 - **宇树科技机器人控制教程** — [`unitreerobotics/unitree_guide`](https://github.com/unitreerobotics/unitree_guide)  
   📄 宇树科技四足机器人控制的开源教程项目，适合入门学习与参考
 
-[↑ 回目录](#目录)
+[↑ 回目录](#toc)
 
 ---
+
+<a name="reasoning-rl"></a>
 
 ## 🧠 推理 / 强化学习
 
@@ -283,11 +299,13 @@
 - **unitree_IL_lerobot** — [`unitreerobotics/unitree_IL_lerobot`](https://github.com/unitreerobotics/unitree_IL_lerobot)  
   📄 基于 LeRobot 框架的模仿学习工具，用于 G1 双臂灵巧手数据的训练与测试
 
-[↑ 回目录](#目录)
+[↑ 回目录](#toc)
 
 ---
 
 # 平台与社区
+
+<a name="vendor-communities"></a>
 
 ## 🏭 厂商开发者社区
 
@@ -321,9 +339,11 @@
 - **宇树科技 UnifoLM VLA** — [`unitreerobotics/unifolm-vla`](https://github.com/unitreerobotics/unifolm-vla)  
   📄 面向通用人形机器人操作的视觉-语言-动作大模型(UnifoLM-VLA)
 
-[↑ 回目录](#目录)
+[↑ 回目录](#toc)
 
 ---
+
+<a name="product-platforms"></a>
 
 ## 🛒 产品 / 模型 / 数据平台
 
@@ -345,7 +365,7 @@
 - **Product Hunt** — [`https://www.producthunt.com/`](https://www.producthunt.com/)  
   📄 全球新品发布平台，追踪机器人/AI 产品动态
 
-[↑ 回目录](#目录)
+[↑ 回目录](#toc)
 
 ---
 
@@ -353,12 +373,12 @@
 
 | 类别 | 项目 |
 |:---|:---|
-| 📚 **资源列表** | [Embodied-AI-Guide](https://github.com/TianxingChen/Embodied-AI-Guide) · [Awesome-LLM-Robotics](https://github.com/GT-RIPL/Awesome-LLM-Robotics) · [Awesome-Embodied-AI](https://github.com/haoranD/Awesome-Embodied-AI) · [Awesome-Robotics-Foundation-Models](https://github.com/robotics-survey/Awesome-Robotics-Foundation-Models) |
+| 📚 **资源列表** | [Embodied-AI-Guide](https://github.com/TianxingChen/Embodied-AI-Guide) · [Awesome-LLM-Robotics](https://github.com/GT-RIPL/Awesome-LLM-Robotics) · [Awesome-World-Models](https://github.com/knightnemo/Awesome-World-Models) · [Awesome-World-Models (leofan90)](https://github.com/leofan90/Awesome-World-Models) · [Embodied_AI_Paper_List](https://github.com/HCPLab-SYSU/Embodied_AI_Paper_List) · [Awesome-Embodied-Robotics-and-Agent](https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent) · [Awesome-Embodied-AI](https://github.com/haoranD/Awesome-Embodied-AI) · [Awesome-Robotics-Foundation-Models](https://github.com/robotics-survey/Awesome-Robotics-Foundation-Models) · [Awesome-3DCV-Papers-Daily](https://github.com/qxiaofan/awesome-3dcv-papers-daily) |
 | 🎮 **仿真平台** | [BEHAVIOR-1K](https://github.com/StanfordVL/BEHAVIOR-1K) · [XTDrone](https://github.com/robin-shaun/XTDrone) · [Prometheus](https://github.com/amov-lab/Prometheus) |
-| 🤖 **模型** | [XR-1](https://github.com/Open-X-Humanoid/XR-1) · [DexVLA](https://github.com/juruobenruo/DexVLA) · [VLA-Adapter](https://github.com/OpenHelix-Team/VLA-Adapter) · [WholebodyVLA](https://github.com/OpenDriveLab/WholebodyVLA) · [X-VLA](https://github.com/2toinf/X-VLA) · [RDT-1B](https://github.com/thu-ml/RoboticsDiffusionTransformer) · [ManiFoundation](https://github.com/NUS-LinS-Lab/ManiFM) · [RoboBrain 2.5](https://github.com/FlagOpen/RoboBrain2.5) · [AgiBot-World](https://github.com/OpenDriveLab/AgiBot-World) |
-| 🏗️ **学习框架** | [RLinf](https://github.com/RLinf/RLinf) · [OpenLoong](https://github.com/loongOpen) · [AimRT](https://github.com/AimRT/AimRT) · [Open-TeleVision](https://github.com/OpenTeleVision/TeleVision) · [AgileX Cobot Magic](https://github.com/agilexrobotics) |
-| 🤖 **机器人项目** | [AgiBot X1](https://github.com/AgibotTech/agibot_x1_infer) · [Fourier N1](https://github.com/FFTAI) · [OpenLoong](https://github.com/loongOpen) · [OpenCat](https://github.com/PetoiCamp/OpenCat) · [Apollo](https://github.com/ApolloAuto/apollo) · [AnyGrasp](https://github.com/graspnet/anygrasp_sdk) · [VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono) · [FAST_LIO](https://github.com/hku-mars/FAST_LIO) |
+| 🤖 **模型** | [XR-1](https://github.com/Open-X-Humanoid/XR-1) · [DexVLA](https://github.com/juruobenruo/DexVLA) · [VLA-Adapter](https://github.com/OpenHelix-Team/VLA-Adapter) · [LLaVA-OneVision](https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision) · [Otter](https://github.com/EvolvingLMMs-Lab/Otter) · [WholebodyVLA](https://github.com/OpenDriveLab/WholebodyVLA) · [X-VLA](https://github.com/2toinf/X-VLA) · [RDT-1B](https://github.com/thu-ml/RoboticsDiffusionTransformer) · [ManiFoundation](https://github.com/NUS-LinS-Lab/ManiFM) · [RoboBrain 2.5](https://github.com/FlagOpen/RoboBrain2.5) · [AgiBot-World](https://github.com/OpenDriveLab/AgiBot-World) · [Dexterity-BEV](https://arxiv.org/abs/2606.02274) |
+| 🏗️ **学习框架** | [RLinf](https://github.com/RLinf/RLinf) · [OpenLoong (Brain)](https://github.com/loongOpen) · [AimRT](https://github.com/AimRT/AimRT) · [Open-TeleVision](https://github.com/OpenTeleVision/TeleVision) · [AgileX Cobot Magic](https://github.com/agilexrobotics) |
+| 🤖 **机器人项目** | [AgiBot X1](https://github.com/AgibotTech/agibot_x1_infer) · [OpenLoong](https://github.com/loongOpen) · [Fourier N1](https://github.com/FFTAI) · [EngineAI](https://github.com/engineai-robotics/engineai_humanoid) · [Booster Gym](https://github.com/BoosterRobotics) · [Humanoid-Gym](https://github.com/roboterax/humanoid-gym) · [Unitree Qmini](https://github.com/unitreerobotics/Qmini) · [OpenCat](https://github.com/PetoiCamp/OpenCat) · [CyberDog](https://github.com/MiRoboticsLab/cyberdog_ros2) · [Apollo](https://github.com/ApolloAuto/apollo) · [AnyGrasp](https://github.com/graspnet/anygrasp_sdk) · [VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono) · [FAST_LIO](https://github.com/hku-mars/FAST_LIO) · [EGO-Planner](https://github.com/ZJU-FAST-Lab/ego-planner) · [Dummy-Robot](https://github.com/peng-zhihui/Dummy-Robot) |
 | 📖 **教程** | [every-embodied](https://github.com/datawhalechina/every-embodied) · [unitree_guide](https://github.com/unitreerobotics/unitree_guide) |
-| 🧠 **推理/RL** | [OpenR1-Multimodal](https://github.com/EvolvingLMMs-Lab/OpenR1-Multimodal) · [unitree_rl_gym](https://github.com/unitreerobotics/unitree_rl_gym) · [unitree_IL_lerobot](https://github.com/unitreerobotics/unitree_IL_lerobot) · [Humanoid-Gym](https://github.com/roboterax/humanoid-gym) |
-| 🏭 **厂商开发者社区** | [宇树开发者社区](https://www.unifolm.com/) · [华为昇腾](https://www.mindspore.cn) · [地瓜机器人](https://developer.d-robotics.cc/) · [OpenAI 社区](https://developers.openai.com/community) |
+| 🧠 **推理/RL** | [OpenR1-Multimodal](https://github.com/EvolvingLMMs-Lab/OpenR1-Multimodal) · [unitree_rl_gym](https://github.com/unitreerobotics/unitree_rl_gym) · [unitree_rl_lab](https://github.com/unitreerobotics/unitree_rl_lab) · [unitree_IL_lerobot](https://github.com/unitreerobotics/unitree_IL_lerobot) · [Humanoid-Gym](https://github.com/roboterax/humanoid-gym) |
+| 🏭 **厂商开发者社区** | [宇树开发者社区](https://www.unifolm.com/) · [宇树 SDK2](https://github.com/unitreerobotics/unitree_sdk2) · [宇树 ROS2](https://github.com/unitreerobotics/unitree_ros2) · [宇树 MuJoCo](https://github.com/unitreerobotics/unitree_mujoco) · [宇树 Isaac Lab](https://github.com/unitreerobotics/unitree_sim_isaaclab) · [宇树 UnifoLM](https://github.com/unitreerobotics/unifolm-world-model-action) · [华为昇腾](https://www.mindspore.cn) · [地瓜机器人](https://developer.d-robotics.cc/) · [OpenAI 社区](https://developers.openai.com/community) |
 | 🛒 **产品/模型/数据平台** | [Hugging Face](https://huggingface.co/papers/trending) · [魔塔社区](https://modelscope.cn/home) · [GitCode](https://gitcode.com/) · [Kaggle](https://www.kaggle.com/) · [GitHub (embodied-ai)](https://github.com/topics/embodied-ai) · [Product Hunt](https://www.producthunt.com/) |

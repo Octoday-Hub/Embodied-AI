@@ -4,15 +4,19 @@
 
 ---
 
+<a name="toc"></a>
+
 ## Table of Contents
 
-**Repository Categories:** [📚 Resource Lists](#-resource-lists) · [🎮 Simulation Platforms](#-simulation-platforms) · [🤖 Models](#-models) · [🏗️ Learning Frameworks](#-learning-frameworks) · [🤖 Robot Projects](#-robot-projects) · [📖 Tutorials](#-tutorials) · [🧠 Reasoning / RL](#-reasoning--reinforcement-learning)
+**Repository Categories:** [📚 Resource Lists](#resource-lists) · [🎮 Simulation Platforms](#simulation-platforms) · [🤖 Models](#models) · [🏗️ Learning Frameworks](#learning-frameworks) · [🤖 Robot Projects](#robot-projects) · [📖 Tutorials](#tutorials) · [🧠 Reasoning / RL](#reasoning-rl)
 
-**Platform & Community Categories:** [🏭 Vendor Developer Communities](#-vendor-developer-communities) · [🛒 Product / Model / Data Platforms](#-product--model--data-platforms)
+**Platform & Community Categories:** [🏭 Vendor Developer Communities](#vendor-communities) · [🛒 Product / Model / Data Platforms](#product-platforms)
 
 ---
 
 # Repositories
+
+<a name="resource-lists"></a>
 
 ## 📚 Resource Lists
 
@@ -43,9 +47,11 @@
 - **Awesome-3DCV-Papers-Daily** — [`qxiaofan/awesome-3dcv-papers-daily`](https://github.com/qxiaofan/awesome-3dcv-papers-daily)  
   📄 Cutting-edge papers and articles on computer vision, VSLAM, point clouds, structured light, robotic grasping, 3D reconstruction, deep learning, and autonomous driving
 
-[↑ Back to TOC](#table-of-contents)
+[↑ Back to TOC](#toc)
 
 ---
+
+<a name="simulation-platforms"></a>
 
 ## 🎮 Simulation Platforms
 
@@ -58,9 +64,11 @@
 - **Prometheus** — [`amov-lab/Prometheus`](https://github.com/amov-lab/Prometheus) ⭐ 4.5k  
   📄 Open-source software system for autonomous UAVs, supporting object detection, SLAM navigation, formation control, etc.
 
-[↑ Back to TOC](#table-of-contents)
+[↑ Back to TOC](#toc)
 
 ---
+
+<a name="models"></a>
 
 ## 🤖 Models
 
@@ -100,9 +108,11 @@
 - **Dexterity-BEV** — See [Dexterity-BEV](https://arxiv.org/abs/2606.02274)  
   📄 Aligning 3D world and actions for generalizable robot policy learning
 
-[↑ Back to TOC](#table-of-contents)
+[↑ Back to TOC](#toc)
 
 ---
+
+<a name="learning-frameworks"></a>
 
 ## 🏗️ Learning Frameworks
 
@@ -121,9 +131,11 @@
 - **AgileX Cobot Magic** — [`agilexrobotics`](https://github.com/agilexrobotics)  
   📄 Open-source dual-arm mobile manipulation platform (AgileX) based on Mobile ALOHA architecture, featuring PiPER arms, AGV chassis, and depth camera
 
-[↑ Back to TOC](#table-of-contents)
+[↑ Back to TOC](#toc)
 
 ---
+
+<a name="robot-projects"></a>
 
 ## 🤖 Robot Projects
 
@@ -253,9 +265,11 @@
 - **RoboWiki** — [`yfrobotics/robowiki`](https://github.com/yfrobotics/robowiki)  
   📄 Wikipedia for robotics (YF Robotics Lab)
 
-[↑ Back to TOC](#table-of-contents)
+[↑ Back to TOC](#toc)
 
 ---
+
+<a name="tutorials"></a>
 
 ## 📖 Tutorials
 
@@ -265,9 +279,11 @@
 - **Unitree Robot Control Guide** — [`unitreerobotics/unitree_guide`](https://github.com/unitreerobotics/unitree_guide)  
   📄 Open-source tutorial for Unitree quadruped robot control, suitable for beginners
 
-[↑ Back to TOC](#table-of-contents)
+[↑ Back to TOC](#toc)
 
 ---
+
+<a name="reasoning-rl"></a>
 
 ## 🧠 Reasoning / Reinforcement Learning
 
@@ -283,11 +299,13 @@
 - **unitree_IL_lerobot** — [`unitreerobotics/unitree_IL_lerobot`](https://github.com/unitreerobotics/unitree_IL_lerobot)  
   📄 LeRobot-based imitation learning toolkit for G1 dual-arm dexterous hand data training and testing
 
-[↑ Back to TOC](#table-of-contents)
+[↑ Back to TOC](#toc)
 
 ---
 
 # Platforms & Communities
+
+<a name="vendor-communities"></a>
 
 ## 🏭 Vendor Developer Communities
 
@@ -321,9 +339,11 @@
 - **Unitree UnifoLM VLA** — [`unitreerobotics/unifolm-vla`](https://github.com/unitreerobotics/unifolm-vla)  
   📄 Vision-Language-Action large model (UnifoLM-VLA) for general-purpose humanoid robot manipulation
 
-[↑ Back to TOC](#table-of-contents)
+[↑ Back to TOC](#toc)
 
 ---
+
+<a name="product-platforms"></a>
 
 ## 🛒 Product / Model / Data Platforms
 
@@ -345,7 +365,7 @@
 - **Product Hunt** — [`https://www.producthunt.com/`](https://www.producthunt.com/)  
   📄 Global new product launch platform for tracking robot/AI product releases
 
-[↑ Back to TOC](#table-of-contents)
+[↑ Back to TOC](#toc)
 
 ---
 
@@ -353,12 +373,12 @@
 
 | Category | Projects |
 |:---------|:---------|
-| 📚 **Resource Lists** | [Embodied-AI-Guide](https://github.com/TianxingChen/Embodied-AI-Guide) · [Awesome-LLM-Robotics](https://github.com/GT-RIPL/Awesome-LLM-Robotics) · [Awesome-Embodied-AI](https://github.com/haoranD/Awesome-Embodied-AI) · [Awesome-Robotics-Foundation-Models](https://github.com/robotics-survey/Awesome-Robotics-Foundation-Models) |
+| 📚 **Resource Lists** | [Embodied-AI-Guide](https://github.com/TianxingChen/Embodied-AI-Guide) · [Awesome-LLM-Robotics](https://github.com/GT-RIPL/Awesome-LLM-Robotics) · [Awesome-World-Models](https://github.com/knightnemo/Awesome-World-Models) · [Awesome-World-Models (leofan90)](https://github.com/leofan90/Awesome-World-Models) · [Embodied_AI_Paper_List](https://github.com/HCPLab-SYSU/Embodied_AI_Paper_List) · [Awesome-Embodied-Robotics-and-Agent](https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent) · [Awesome-Embodied-AI](https://github.com/haoranD/Awesome-Embodied-AI) · [Awesome-Robotics-Foundation-Models](https://github.com/robotics-survey/Awesome-Robotics-Foundation-Models) · [Awesome-3DCV-Papers-Daily](https://github.com/qxiaofan/awesome-3dcv-papers-daily) |
 | 🎮 **Simulation Platforms** | [BEHAVIOR-1K](https://github.com/StanfordVL/BEHAVIOR-1K) · [XTDrone](https://github.com/robin-shaun/XTDrone) · [Prometheus](https://github.com/amov-lab/Prometheus) |
-| 🤖 **Models** | [XR-1](https://github.com/Open-X-Humanoid/XR-1) · [DexVLA](https://github.com/juruobenruo/DexVLA) · [VLA-Adapter](https://github.com/OpenHelix-Team/VLA-Adapter) · [WholebodyVLA](https://github.com/OpenDriveLab/WholebodyVLA) · [X-VLA](https://github.com/2toinf/X-VLA) · [RDT-1B](https://github.com/thu-ml/RoboticsDiffusionTransformer) · [ManiFoundation](https://github.com/NUS-LinS-Lab/ManiFM) · [RoboBrain 2.5](https://github.com/FlagOpen/RoboBrain2.5) · [AgiBot-World](https://github.com/OpenDriveLab/AgiBot-World) |
-| 🏗️ **Learning Frameworks** | [RLinf](https://github.com/RLinf/RLinf) · [OpenLoong](https://github.com/loongOpen) · [AimRT](https://github.com/AimRT/AimRT) · [Open-TeleVision](https://github.com/OpenTeleVision/TeleVision) · [AgileX Cobot Magic](https://github.com/agilexrobotics) |
-| 🤖 **Robot Projects** | [AgiBot X1](https://github.com/AgibotTech/agibot_x1_infer) · [Fourier N1](https://github.com/FFTAI) · [OpenLoong](https://github.com/loongOpen) · [OpenCat](https://github.com/PetoiCamp/OpenCat) · [Apollo](https://github.com/ApolloAuto/apollo) · [AnyGrasp](https://github.com/graspnet/anygrasp_sdk) · [VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono) · [FAST_LIO](https://github.com/hku-mars/FAST_LIO) |
+| 🤖 **Models** | [XR-1](https://github.com/Open-X-Humanoid/XR-1) · [DexVLA](https://github.com/juruobenruo/DexVLA) · [VLA-Adapter](https://github.com/OpenHelix-Team/VLA-Adapter) · [LLaVA-OneVision](https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision) · [Otter](https://github.com/EvolvingLMMs-Lab/Otter) · [WholebodyVLA](https://github.com/OpenDriveLab/WholebodyVLA) · [X-VLA](https://github.com/2toinf/X-VLA) · [RDT-1B](https://github.com/thu-ml/RoboticsDiffusionTransformer) · [ManiFoundation](https://github.com/NUS-LinS-Lab/ManiFM) · [RoboBrain 2.5](https://github.com/FlagOpen/RoboBrain2.5) · [AgiBot-World](https://github.com/OpenDriveLab/AgiBot-World) · [Dexterity-BEV](https://arxiv.org/abs/2606.02274) |
+| 🏗️ **Learning Frameworks** | [RLinf](https://github.com/RLinf/RLinf) · [OpenLoong (Brain)](https://github.com/loongOpen) · [AimRT](https://github.com/AimRT/AimRT) · [Open-TeleVision](https://github.com/OpenTeleVision/TeleVision) · [AgileX Cobot Magic](https://github.com/agilexrobotics) |
+| 🤖 **Robot Projects** | [AgiBot X1](https://github.com/AgibotTech/agibot_x1_infer) · [OpenLoong](https://github.com/loongOpen) · [Fourier N1](https://github.com/FFTAI) · [EngineAI](https://github.com/engineai-robotics/engineai_humanoid) · [Booster Gym](https://github.com/BoosterRobotics) · [Humanoid-Gym](https://github.com/roboterax/humanoid-gym) · [Unitree Qmini](https://github.com/unitreerobotics/Qmini) · [OpenCat](https://github.com/PetoiCamp/OpenCat) · [CyberDog](https://github.com/MiRoboticsLab/cyberdog_ros2) · [Apollo](https://github.com/ApolloAuto/apollo) · [AnyGrasp](https://github.com/graspnet/anygrasp_sdk) · [VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono) · [FAST_LIO](https://github.com/hku-mars/FAST_LIO) · [EGO-Planner](https://github.com/ZJU-FAST-Lab/ego-planner) · [Dummy-Robot](https://github.com/peng-zhihui/Dummy-Robot) |
 | 📖 **Tutorials** | [every-embodied](https://github.com/datawhalechina/every-embodied) · [unitree_guide](https://github.com/unitreerobotics/unitree_guide) |
-| 🧠 **Reasoning / RL** | [OpenR1-Multimodal](https://github.com/EvolvingLMMs-Lab/OpenR1-Multimodal) · [unitree_rl_gym](https://github.com/unitreerobotics/unitree_rl_gym) · [unitree_IL_lerobot](https://github.com/unitreerobotics/unitree_IL_lerobot) · [Humanoid-Gym](https://github.com/roboterax/humanoid-gym) |
-| 🏭 **Vendor Developer Communities** | [Unitree Community](https://www.unifolm.com/) · [Huawei Ascend](https://www.mindspore.cn) · [D-Robotics](https://developer.d-robotics.cc/) · [OpenAI Community](https://developers.openai.com/community) |
+| 🧠 **Reasoning / RL** | [OpenR1-Multimodal](https://github.com/EvolvingLMMs-Lab/OpenR1-Multimodal) · [unitree_rl_gym](https://github.com/unitreerobotics/unitree_rl_gym) · [unitree_rl_lab](https://github.com/unitreerobotics/unitree_rl_lab) · [unitree_IL_lerobot](https://github.com/unitreerobotics/unitree_IL_lerobot) · [Humanoid-Gym](https://github.com/roboterax/humanoid-gym) |
+| 🏭 **Vendor Developer Communities** | [Unitree Community](https://www.unifolm.com/) · [Unitree SDK2](https://github.com/unitreerobotics/unitree_sdk2) · [Unitree ROS2](https://github.com/unitreerobotics/unitree_ros2) · [Unitree MuJoCo](https://github.com/unitreerobotics/unitree_mujoco) · [Unitree Isaac Lab](https://github.com/unitreerobotics/unitree_sim_isaaclab) · [Unitree UnifoLM](https://github.com/unitreerobotics/unifolm-world-model-action) · [Huawei Ascend](https://www.mindspore.cn) · [D-Robotics](https://developer.d-robotics.cc/) · [OpenAI Community](https://developers.openai.com/community) |
 | 🛒 **Product / Model / Data Platforms** | [Hugging Face](https://huggingface.co/papers/trending) · [ModelScope](https://modelscope.cn/home) · [GitCode](https://gitcode.com/) · [Kaggle](https://www.kaggle.com/) · [GitHub (embodied-ai)](https://github.com/topics/embodied-ai) · [Product Hunt](https://www.producthunt.com/) |
