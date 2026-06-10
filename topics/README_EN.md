@@ -22,6 +22,9 @@
 </p>
 
 <p align="center">
+  <img alt="Repos Updated" src="https://img.shields.io/badge/Repos%20Updated-%2B87-8B5CF6?style=flat-square&labelColor=5B21B6" />
+  <img alt="Competitions Updated" src="https://img.shields.io/badge/Competitions%20Updated-%2B21-14B8A6?style=flat-square&labelColor=0F766E" />
+  <img alt="Conferences Updated" src="https://img.shields.io/badge/Conferences%20Updated-%2B10-F59E0B?style=flat-square&labelColor=92400E" />
   <img alt="Papers Updated" src="https://img.shields.io/badge/Papers%20Updated-%2B31-F59E0B?style=flat-square&labelColor=92400E" />
 </p>
 
@@ -82,6 +85,8 @@ A hand-picked selection of books and courses covering the fundamentals of roboti
 ### 🔭 (2) Watchtower: Track Frontier Technologies
 
 > Currently featuring `319` curated papers.
+> Currently featuring `21` curated competitions.
+> Currently featuring `10` curated conferences.
 
 Explore the [Paper Collection](03-papers_EN.md):
 
@@ -98,13 +103,25 @@ Browse curated papers on embodied intelligence, deepen your understanding with o
 - [Benchmarks & Evaluation](03-papers_EN.md#benchmarks-evaluation)
 - [Survey](03-papers_EN.md#survey)
 
+Check out the [Competition Calendar](05-competition_EN.md):
+
+A comprehensive collection of 21 robotics competitions — from international world cups and youth education challenges to undergraduate engineering contests, with a 2026 event timeline and detailed descriptions.
+
+Check out the [Academic Conferences](07-conferences_EN.md):
+
+An overview of 10 core academic conferences in embodied AI and robotics, including ICRA, IROS, CoRL, NeurIPS, and more — with dates, locations, and topic analysis.
+
 ### 🔧 (3) Forge: Integrate Engineering Practice
 
-> Currently featuring `96` tools and platforms.
+> Currently featuring `96` tools and platforms, `87` open-source repos and communities.
 
 Check out [Engineering Tools](04-tools_EN.md):
 
 A collection of robot simulation platforms, motion control, various SDKs, and major open-source projects.
+
+Check out [Open-Source Repos](06-repos_EN.md):
+
+A curated collection of core embodied AI open-source projects, developer communities, and product platforms.
 
 ### 🔗 (4) Coordinates: Gain Industrial Insights
 

@@ -22,8 +22,9 @@
 </p>
 
 <p align="center">
-  <img alt="更新岗位" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E5%B2%97%E4%BD%8D-%2B101-14B8A6?style=flat-square&labelColor=0F766E" />
-  <img alt="更新论文" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E8%AE%BA%E6%96%87-%2B31-F59E0B?style=flat-square&labelColor=92400E" />
+  <img alt="更新项目" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E9%A1%B9%E7%9B%AE-%2B87-8B5CF6?style=flat-square&labelColor=5B21B6" />
+  <img alt="更新比赛" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%AF%94%E8%B5%9B-%2B21-14B8A6?style=flat-square&labelColor=0F766E" />
+  <img alt="更新会议" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E4%BC%9A%E8%AE%AE-%2B10-F59E0B?style=flat-square&labelColor=92400E" />
 </p>
 
 
@@ -83,6 +84,8 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 ### 🔭（2）瞭望台：追踪前沿技术
 
 > 当前收录 `319` 篇精选论文。
+> 当前收录 `21` 个精选比赛。
+> 当前收录 `10` 个精选会议。
 
 进入[论文合集](topics/03-papers.md)：
 
@@ -99,13 +102,25 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 - [Benchmarks & Evaluation](topics/03-papers.md#benchmarks-evaluation)
 - [Survey](topics/03-papers.md#survey)
 
+查看[比赛汇总](topics/05-competition.md)：
+
+全面覆盖国际综合、青少年教育、水下特种与国内大学综合竞赛，含 2026 年赛程日历与赛事详情。
+
+查看[学术会议](topics/07-conferences.md)：
+
+全球 10 大具身智能与机器人核心学术会议概览，含 ICRA、IROS、CoRL、NeurIPS 等领域日历与介绍。
+
 ### 🔧（3）锤炼：整合工程实践
 
-> 当前收录 `96` 个工具与平台。
+> 当前收录 `96` 个工具与平台、`87` 个开源仓库与社区。
 
 查看[工程工具](topics/04-tools.md)：
 
-集成机器人仿真平台、运动控制、各类SDK及大厂开源项目。
+集成机器人仿真平台、运动控制、各类 SDK 及大厂开源项目。
+
+查看[开源仓库](topics/06-repos.md)：
+
+具身智能核心开源项目、开发者社区与产品平台汇总。
 
 ### 🔗（4）坐标：洞察产业动态
 
