@@ -83,9 +83,17 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🔭（2）瞭望台：追踪前沿技术
 
-> 当前收录 `319` 篇精选论文。
 > 当前收录 `21` 个精选比赛。
 > 当前收录 `10` 个精选会议。
+> 当前收录 `319` 篇精选论文。
+
+查看[比赛汇总](topics/05-competition.md)：
+
+全面覆盖国际综合、青少年教育、水下特种与国内大学综合竞赛，含 2026 年赛程日历与赛事详情。
+
+查看[学术会议](topics/07-conferences.md)：
+
+全球 10 大具身智能与机器人核心学术会议概览，含 ICRA、IROS、CoRL、NeurIPS 等领域日历与介绍。
 
 进入[论文合集](topics/03-papers.md)：
 
@@ -101,14 +109,6 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 - [Datasets](topics/03-papers.md#datasets)
 - [Benchmarks & Evaluation](topics/03-papers.md#benchmarks-evaluation)
 - [Survey](topics/03-papers.md#survey)
-
-查看[比赛汇总](topics/05-competition.md)：
-
-全面覆盖国际综合、青少年教育、水下特种与国内大学综合竞赛，含 2026 年赛程日历与赛事详情。
-
-查看[学术会议](topics/07-conferences.md)：
-
-全球 10 大具身智能与机器人核心学术会议概览，含 ICRA、IROS、CoRL、NeurIPS 等领域日历与介绍。
 
 ### 🔧（3）锤炼：整合工程实践
 
