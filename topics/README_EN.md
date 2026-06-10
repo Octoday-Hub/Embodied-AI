@@ -25,7 +25,7 @@
   <img alt="Repos Updated" src="https://img.shields.io/badge/Repos%20Updated-%2B87-8B5CF6?style=flat-square&labelColor=5B21B6" />
   <img alt="Competitions Updated" src="https://img.shields.io/badge/Competitions%20Updated-%2B21-14B8A6?style=flat-square&labelColor=0F766E" />
   <img alt="Conferences Updated" src="https://img.shields.io/badge/Conferences%20Updated-%2B10-F59E0B?style=flat-square&labelColor=92400E" />
-  <img alt="Papers Updated" src="https://img.shields.io/badge/Papers%20Updated-%2B31-F59E0B?style=flat-square&labelColor=92400E" />
+
 </p>
 
 
