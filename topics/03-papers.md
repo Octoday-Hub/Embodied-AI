@@ -59,7 +59,7 @@
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.21232)** ReCAPA: Hierarchical Predictive Correction to Mitigate Cascading Failures. 面向多步骤VLA执行的层次化预测纠错框架，通过前瞻式对齐与规划减轻中间步骤错误带来的级联失误.
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.20834)** PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance. 面向轻量部署的小型VLA模型，通过世界知识引导增强参数受限条件下的高层理解、空间感知与操作能力.
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.20012)** EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training. 通过mid-training在VLM与VLA之间建立具身过渡阶段，缓解数据分布落差并提升下游动作建模效果.
-- **[CVPR 2026年4月](https://arxiv.org/abs/2604.07774)** RoboAgent: Chaining Basic Capabilities for Embodied Task Planning. 面向具身任务规划的VLM能力链框架，将复杂规划分解为基本视觉-语言问题的序列，实现更透明可控的推理过程.
+- ★ **[CVPR 2026年4月](https://arxiv.org/abs/2604.07774)** RoboAgent: Chaining Basic Capabilities for Embodied Task Planning. 面向具身任务规划的VLM能力链框架，将复杂规划分解为基本视觉-语言问题的序列，实现更透明可控的推理过程.
 - **[arXiv 2026年3月](https://arxiv.org/abs/2603.00376)** NeuroHex: A Brain-Inspired Hex Coordinate System to Enable Highly Computationally-Efficient World Models for Continuous Online-Adaptive Learning. 提出 NeuroHex：一种受大脑启发的六边形坐标系统与层次化世界建模方法，用于实现面向持续在线自适应学习的高计算效率世界模型。
 - **[arXiv 2026年3月](https://arxiv.org/abs/2603.29844)** DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA. 提出 DIAL：一种面向端到端 VLA 的潜在世界建模方法，通过解耦意图与动作来增强真实世界部署能力与泛化性。
 - **[arXiv 2026年3月](https://arxiv.org/abs/2603.27670)** ProgressVLA: Progress-Guided Diffusion Policy for Vision-Language Robotic Manipulation. 进度引导的扩散策略VLA，通过预训练进度估计器和可微分进度引导实现长程任务中的进度感知.
@@ -84,18 +84,18 @@
 - **[arXiv 2025年10月](https://arxiv.org/abs/2510.01623)** VLA-R1: Enhancing Reasoning in Vision-Language-Action Models. 通过RLVR和GRPO系统优化推理与执行的推理增强VLA，并发布VLA-CoT-13K思维链监督数据集.
 - **[arXiv 2025年9月](https://arxiv.org/abs/2509.12345)** FoMER: How Good are Foundation Models in Step-by-Step Embodied Reasoning. 提出FoMER基准，专门评估大语言模型在复杂具身决策场景中的逐步推理能力.
 - **[arXiv 2025年9月](https://arxiv.org/abs/2509.11767)** WALL-OSS: Igniting VLMs toward the Embodied Space. 端到端具身基础模型，通过大规模多模态预训练实现具身感知、语言-动作关联和鲁棒操纵.
-- **[NeurIPS 2025年9月](https://arxiv.org/abs/2509.08844)** EfficientVLA: Training-Free Acceleration and Compression for Vision-Language-Action Models. 无训练推理加速框架，实现1.93倍加速和28.9%的FLOPs减少.
-- **[ICLR 2025年9月](https://arxiv.org/abs/2509.09332)** OmniEVA: Embodied Versatile Planner via Task-Adaptive 3D-Grounded and Embodiment-aware Reasoning. 提出任务自适应的3D接地机制和具身感知推理框架，通过门控路由器根据上下文需求显式选择性调节3D融合，实现上下文感知的3D接地和具身约束感知的规划决策.
+- ★ **[NeurIPS 2025年9月](https://arxiv.org/abs/2509.08844)** EfficientVLA: Training-Free Acceleration and Compression for Vision-Language-Action Models. 无训练推理加速框架，实现1.93倍加速和28.9%的FLOPs减少.
+- ★ **[ICLR 2025年9月](https://arxiv.org/abs/2509.09332)** OmniEVA: Embodied Versatile Planner via Task-Adaptive 3D-Grounded and Embodiment-aware Reasoning. 提出任务自适应的3D接地机制和具身感知推理框架，通过门控路由器根据上下文需求显式选择性调节3D融合，实现上下文感知的3D接地和具身约束感知的规划决策.
 - **[arXiv 2025年7月](https://arxiv.org/abs/2507.01424)** TriVLA: A Triple-System Vision-Language-Action Model with Episodic World Modeling. 三系统VLA架构（感知-世界模型-行动），通过情景世界模型提升长期任务规划能力.
 - **[arXiv 2025年7月](https://arxiv.org/abs/2507.08421)** SwitchVLA: Execution-Aware Task Switching for Vision-Language-Action Models. 执行感知的任务切换VLA.
 - **[arXiv 2025年6月](https://arxiv.org/abs/2506.00411)** LoHoVLA: Vision-Language-Action Model for Long-Horizon Embodied Tasks. 专为长时程具身任务设计的VLA模型，通过分层动作预测缓解复合任务的错误累积问题.
 - **[arXiv 2025年6月](https://arxiv.org/abs/2506.04500)** Don't Do That. Guiding Embodied Systems through Large Language Model-based Constraint Generation. 提出STPR约束生成框架，利用LLM将自然语言约束翻译为可执行的Python函数，应用于点云表示和传统搜索算法，确保机器人导航中的约束遵从.
-- **[ICML 2025年5月](https://arxiv.org/abs/2505.06412)** DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression. 将自回归推理与扩散策略集成的框架，在102个未见物体上实现63.7%的零样本拾取准确率.
+- ★ **[ICML 2025年5月](https://arxiv.org/abs/2505.06412)** DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression. 将自回归推理与扩散策略集成的框架，在102个未见物体上实现63.7%的零样本拾取准确率.
 - **[arXiv 2025年5月](https://arxiv.org/abs/2505.03500)** VLAs are Confined yet Capable of Generalizing to Novel Instructions. 研究 VLA 模型如何在保持受约束行为边界的同时，仍能泛化到新指令，并在统一设置下进行评估。
 - **[arXiv 2025年3月](https://arxiv.org/abs/2503.12438)** ChatVLA: Multimodal Understanding and Robot Control. 对话式多模态理解与机器人控制.
 - **[arXiv 2025年3月](https://arxiv.org/abs/2503.04123)** SmolVLA: Efficient Vision-Language-Action Models for Robotics. 轻量化VLA模型，适合边缘部署.
 - **[arXiv 2025年1月](https://arxiv.org/abs/2501.12345)** HPT: Hierarchical Pre-trained Transformer for Robot Learning. 分层预训练Transformer架构，通过层次化表征学习实现跨任务的高效迁移学习.
-- **[CVPR 2025年1月](https://arxiv.org/abs/2501.10105)** UniAct: Universal Actions for Enhanced Embodied Foundation Models. 提出通用动作空间，将不同形态机器人的底层控制统一为规范化的动作表征，提升基础模型在不同机器人平台间的泛化能力.
+- ★ **[CVPR 2025年1月](https://arxiv.org/abs/2501.10105)** UniAct: Universal Actions for Enhanced Embodied Foundation Models. 提出通用动作空间，将不同形态机器人的底层控制统一为规范化的动作表征，提升基础模型在不同机器人平台间的泛化能力.
 - **[arXiv 2025年1月](https://arxiv.org/abs/2501.08132)** HiMoE-VLA: Hierarchical Mixture-of-Experts for Vision-Language-Action Policies. 分层混合专家VLA架构.
 - **[arXiv 2024年10月](https://arxiv.org/abs/2410.24164)** π0: A Vision-Language-Action Flow Model for General Robot Control. 基于预训练VLM的流匹配架构，在多机器人平台多样化数据集上训练，实现零样本任务执行.
 - **[arXiv 2024年6月](https://arxiv.org/abs/2406.09246)** OpenVLA: An Open Vision-Language-Action Model. 开源的VLA模型，基于7B参数的Llama 2和DINOv2视觉编码器，支持即插即用和参数高效微调.
@@ -113,9 +113,9 @@
 - **[arXiv 2023年3月](https://arxiv.org/abs/2303.03378)** PaLM-E: An Embodied Multimodal Language Model. 将真实世界传感器数据（图像、状态估计）与语言模型融合的具身多模态语言模型，实现具身推理与长期规划.
 - **[ICRA 2023年3月](https://arxiv.org/abs/2303.08734)** PromptCraft: Zero-Shot Task Planning with Large Language Models. 零样本任务规划的提示工程框架.
 - **[arXiv 2022年12月](https://arxiv.org/abs/2212.06817)** RT-1: Robotics Transformer for Real-World Control at Scale. 首个大规模机器人Transformer模型，在13个任务、13万条演示上训练，实现了高成功率和新任务的零样本泛化.
-- **[ICLR 2022年12月](https://arxiv.org/abs/2212.04088)** LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models. 少样本具身规划的LLM方法.
-- **[ICLR 2022年10月](https://arxiv.org/abs/2210.03629)** ReAct: Synergizing Reasoning and Acting in Language Models. 语言模型中推理与行动协同的框架.
-- **[NeurIPS 2022年10月](https://arxiv.org/abs/2210.03094)** VIMA: General Robot Manipulation with Multimodal Prompts. 多模态提示的通用机器人操纵模型.
+- ★ **[ICLR 2022年12月](https://arxiv.org/abs/2212.04088)** LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models. 少样本具身规划的LLM方法.
+- ★ **[ICLR 2022年10月](https://arxiv.org/abs/2210.03629)** ReAct: Synergizing Reasoning and Acting in Language Models. 语言模型中推理与行动协同的框架.
+- ★ **[NeurIPS 2022年10月](https://arxiv.org/abs/2210.03094)** VIMA: General Robot Manipulation with Multimodal Prompts. 多模态提示的通用机器人操纵模型.
 - **[CoRL 2022年9月](https://arxiv.org/abs/2209.07753)** Code as Policies: Language Model Programs for Embodied Control. 将语言模型生成的代码作为机器人控制策略.
 - **[CoRL 2022年7月](https://arxiv.org/abs/2207.05608)** Inner Monologue: Embodied Reasoning through Planning with Language Models. 语言模型辅助的具身推理与规划框架.
 - **[arXiv 2022年5月](https://arxiv.org/abs/2205.06175)** GATO: A Generalist Agent. 单一Transformer模型同时处理600+任务，涵盖机器人控制、游戏、对话等，首次展示了通用智能体的可能性.
@@ -132,12 +132,12 @@
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.00475)** MSACT: Multistage Spatial Alignment for Stable Low-Latency Fine Manipulation. 提出 MSACT：一种面向稳定低延迟精细操作的多阶段空间对齐方法，并特别关注双臂协作与扩散式建模。
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.00471)** Stereo Multistage Spatial Attention for Real-Time Mobile Manipulation Under Visual Scale Variation and Disturbances. 一种面向实时移动操作的视觉-语言-动作方法，针对尺度变化与干扰场景，围绕层次化空间注意力设计以增强鲁棒性。
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.00438)** thinking in text and images: interleaved vision--language reasoning traces for long-horizon robot manipulation. 一种面向长时程机器人操作的 VLA 风格方法，通过交错文本与视觉推理痕迹来提升规划与执行能力。
-- **[ICML 2026年5月](https://arxiv.org/abs/2605.29937)** Fisher-Preserving Guidance: Training-Free Manifold Constraints for Safe Diffusion Control. 提出无需训练的Fisher保持引导方法，通过流形约束实现安全的扩散模型控制，适用于机器人运动规划。
+- ★ **[ICML 2026年5月](https://arxiv.org/abs/2605.29937)** Fisher-Preserving Guidance: Training-Free Manifold Constraints for Safe Diffusion Control. 提出无需训练的Fisher保持引导方法，通过流形约束实现安全的扩散模型控制，适用于机器人运动规划。
 - **[ICRA 2026年5月](https://arxiv.org/abs/2605.29298)** MonoDuo: Using One Robot Arm to Learn Bimanual Policies. 提出MonoDuo方法，通过单臂操作数据学习双臂协作策略，降低双臂机器人数据收集成本。
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.26478)** Learning from Demonstrations. 研究机器人从示范中学习的方法，探讨模仿学习、行为克隆等技术在机器人操作中的应用，分析样本效率和泛化能力。
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.30226)** BORA: Bridging Offline Reinforcement Learning and Online Residual Adaptation for Real-World Dexterous VLA Models. 提出BORA方法，结合离线强化学习和在线残差适应，实现真实世界灵巧视觉-语言-动作模型的高效训练。
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.29564)** VE2VF: Vision-Enabled to Vision-Free Distillation via Real-world Reinforcement Learning. 提出VE2VF方法，通过真实世界强化学习将视觉依赖策略蒸馏为视觉无关策略，实现鲁棒的接触丰富操作。
-- **[ICML 2026年5月](https://arxiv.org/abs/2605.27095)** FA-OPD: Adversarial Dual On-Policy Distillation from Expressive Flow-based Teacher. 提出FA-OPD对抗双重在线策略蒸馏方法，流匹配教师与轻量MLP学生协同训练，在六个机器人基准上超越强基线。
+- ★ **[ICML 2026年5月](https://arxiv.org/abs/2605.27095)** FA-OPD: Adversarial Dual On-Policy Distillation from Expressive Flow-based Teacher. 提出FA-OPD对抗双重在线策略蒸馏方法，流匹配教师与轻量MLP学生协同训练，在六个机器人基准上超越强基线。
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.26848)** starry: spatial-temporal action-centric world modeling for robotic manipulation. 提出 starry：一种面向机器人操作的动作中心时空世界建模方法，重点关注双臂协作与任务成功率提升。
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.05320)** ExpressMM: Expressive Mobile Manipulation Behaviors in Human-Robot Interactions. 面向人机交互的富表达移动操作行为框架，把动作执行与社会表达结合起来提升交互自然性与可理解性。
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.21924)** Long-Horizon Manipulation via Trace-Conditioned VLA Planning. LoHo-Manip框架通过视觉轨迹提示与任务管理VLM，将长时程操作拆解为可恢复的局部执行与滚动式重规划.
@@ -150,7 +150,7 @@
 - **[arXiv 2026年3月](https://arxiv.org/abs/2603.00110)** Learning Physics from Pretrained Video Models: A Multimodal Continuous and Sequential World Interaction Models for Robotic Manipulation. 利用预训练视频模型学习连续与序列物理交互，构建服务机器人操作的多模态世界交互模型。
 - **[arXiv 2026年3月](https://arxiv.org/abs/2603.17834)** Generative Control as Optimization: Time Unconditional Flow Matching for Adaptive and Robust Robotic Control. 将流匹配控制从固定步轨迹积分改为自适应优化过程，并利用速度场范数作为无训练的安全与分布外信号，提升控制效率与鲁棒性。
 - **[arXiv 2026年1月](https://arxiv.org/abs/2601.21251)** SMP: Abstracting Robot Manipulation Skills via Mixture-of-Experts Diffusion Policies. Skill MoE Policy，学习紧凑正交技能基，使用粘性路由在每一步从小的任务相关专家子集组合动作，变分训练目标支持设计，自适应专家激活实现快速采样.
-- **[AAAI 2026年1月](https://arxiv.org/abs/2601.01948)** SDP: Learning Diffusion Policy from Primitive Skills for Robot Manipulation. 技能条件扩散策略SDP，将可解释的技能学习与条件行动规划相结合，抽象出跨任务的八个可复用原始技能，采用VLM提取离散表示，轻量路由网络为每个状态分配期望的原始技能.
+- ★ **[AAAI 2026年1月](https://arxiv.org/abs/2601.01948)** SDP: Learning Diffusion Policy from Primitive Skills for Robot Manipulation. 技能条件扩散策略SDP，将可解释的技能学习与条件行动规划相结合，抽象出跨任务的八个可复用原始技能，采用VLM提取离散表示，轻量路由网络为每个状态分配期望的原始技能.
 - **[ICRA 2025年6月](https://arxiv.org/abs/2506.20668)** DemoDiffusion: One-Shot Human Imitation using pre-trained Diffusion Policy. 利用预训练的通用扩散策略对通过运动学重定向获得的轨迹进行修正，确保其既遵循人体运动又保持在合理机器人动作分布内，实现单次人类演示的机器人操作模仿.
 - **[arXiv 2025年5月](https://arxiv.org/abs/2505.16413)** DexVLA: Plug-in Diffusion Experts for Vision-Language-Action Models. 扩散专家即插即用的VLA增强框架.
 - **[arXiv 2025年4月](https://arxiv.org/abs/2504.05291)** ObjectVLA: Open-World Object Manipulation without Demonstrations. 无需演示的开放世界物体操纵VLA.
@@ -161,15 +161,15 @@
 - **[CoRL 2023年7月](https://arxiv.org/abs/2307.16677)** AnyTeleop: A General Vision-Based Teleoperation System for Robotic Manipulation. 通用视觉遥操作系统.
 - **[RSS 2023年4月](https://arxiv.org/abs/2304.13705)** ACT: Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware. 低成本硬件的精细双手操作学习.
 - **[RSS 2023年3月](https://arxiv.org/abs/2303.04137)** Diffusion Policy: Visuomotor Policy Learning via Action Diffusion. 基于扩散模型的机器人策略学习，在灵巧操作上表现优异.
-- **[ICLR 2023年2月](https://arxiv.org/abs/2302.12422)** MimicPlay: Long-Horizon Imitation Learning by Watching Human Play. 通过观看人类玩游戏的长时间模仿学习.
+- ★ **[ICLR 2023年2月](https://arxiv.org/abs/2302.12422)** MimicPlay: Long-Horizon Imitation Learning by Watching Human Play. 通过观看人类玩游戏的长时间模仿学习.
 - **[CoRL 2022年11月](https://arxiv.org/abs/2211.07636)** RVT: Robotic View Transformer for 3D Object Manipulation. 3D物体操纵的机器人视图Transformer.
 - **[CoRL 2022年9月](https://arxiv.org/abs/2209.05451)** Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation. 语言条件的多任务机器人操纵 Transformer，通常也以 PerAct 名称被引用.
 - **[ICRA 2022年3月](https://arxiv.org/abs/2203.08745)** C2F-ARM: Coarse-to-Fine Imitation Learning for Robot Manipulation. 粗到细的模仿学习框架.
 - **[CoRL 2022年2月](https://arxiv.org/abs/2202.02005)** BC-Z: Zero-Shot Task Generalization with Robotic Imitation Learning. 零样本任务泛化的模仿学习方法，通过语言指令条件化，使机器人能在测试时执行训练中未见过的任务.
 - **[CoRL 2021年9月](https://arxiv.org/abs/2109.12098)** CLIPort: What and Where Pathways for Robotic Manipulation. 结合CLIP视觉理解与端到端模仿学习的机器人操纵方法，实现开放词汇的物体操纵和泛化.
 - **[ICRA 2021年3月](https://arxiv.org/abs/2103.02245)** Form2Fit: Learning Shape Priors for Generalizable Manipulation. 学习形状先验的通用操作.
-- **[ICCV 2021年1月](https://arxiv.org/abs/2101.09555)** Where2Act: From Pixels to Actions for Articulated Objects. 从像素到动作的铰接物体操作.
-- **[CVPR 2018年12月](https://arxiv.org/abs/1812.02713)** PartNet: A Large-Scale Benchmark for Fine-Grained and Hierarchical Part-Level 3D Object Understanding. 细粒度部件级3D物体理解基准.
+- ★ **[ICCV 2021年1月](https://arxiv.org/abs/2101.09555)** Where2Act: From Pixels to Actions for Articulated Objects. 从像素到动作的铰接物体操作.
+- ★ **[CVPR 2018年12月](https://arxiv.org/abs/1812.02713)** PartNet: A Large-Scale Benchmark for Fine-Grained and Hierarchical Part-Level 3D Object Understanding. 细粒度部件级3D物体理解基准.
 <a id="locomotion" name="locomotion"></a>
 
 ## Locomotion
@@ -196,7 +196,7 @@
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.12620)** VeGAS: Verifier-Guided Action Selection For Embodied Agents. 测试时框架，采样候选动作并用生成式验证器识别最可靠选择，LLM驱动的数据合成构建失败案例课程，在Habitat/ALFRED上最高提升36%相对性能。
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.13775)** RoboEvolve: Co-Evolving Planner-Simulator for Robotic Manipulation with Limited Data. VLM规划器和VGM模拟器耦合为共同进化循环，认知启发双阶段机制：白天探索+夜间巩固，仅500个无标签种子超越全监督基线(50倍数据减少)。
 - **[ICRA 2026年5月](https://arxiv.org/abs/2605.29773)** Energy-Aware NECO for Single-Pass Pixel-wise Out-of-Distribution Detection in Semantic Segmentation. 提出能量感知的NECO方法，实现语义分割中的高效像素级分布外检测，提升机器人感知系统的鲁棒性。
-- **[CVPR 2026年5月](https://arxiv.org/abs/2605.30342)** GAVIS: Uncertainty-driven 3D Gaussian Splatting Active Mapping via Anisotropic Visibility Field. 提出GAVIS框架，通过各向异性可见场实现3D高斯溅射的不确定性量化和主动建图，支持实时200FPS的不确定性量化。
+- ★ **[CVPR 2026年5月](https://arxiv.org/abs/2605.30342)** GAVIS: Uncertainty-driven 3D Gaussian Splatting Active Mapping via Anisotropic Visibility Field. 提出GAVIS框架，通过各向异性可见场实现3D高斯溅射的不确定性量化和主动建图，支持实时200FPS的不确定性量化。
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.27952)** Con-DSO: Learning Short-Horizon Consistency Priors for RGB-D Direct Sparse Odometry. 提出一致性感知的RGB-D直接稀疏里程计框架，通过预测光度和深度几何一致性不确定性，在多个基准上实现20%-80%的轨迹误差降低。
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.27178)** Domain Adaptation for Robot Vision. 研究机器人视觉中的域适应问题，提出改进的对抗学习和自监督方法，提升模型在新环境中的泛化能力。
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.25832)** Visual-Inertial Odometry. 研究视觉惯性里程计技术，融合相机和IMU数据实现鲁棒的机器人定位，在挑战性环境下保持高精度。
@@ -230,20 +230,20 @@
 - **[arXiv 2025年1月](https://arxiv.org/abs/2501.07399)** Efficiently Closing Loops in LiDAR-Based SLAM Using Point Cloud Density Maps. 利用点云密度图高效完成激光SLAM回环检测与验证，在保证精度的同时降低计算开销。
 - **[arXiv 2024年7月](https://arxiv.org/abs/2407.00848)** EgoExo++: Integrating On-demand Exocentric Visuals with 2.5D Ground Surface Estimation for Interactive Teleoperation of Underwater ROVs. 用于水下ROV交互遥操作的自我中心与外部视角融合框架，结合2.5D地面估计提升复杂水下环境感知与操控安全性。
 - **[ICRA 2024年2月](https://arxiv.org/abs/2402.09466)** VLFM: Vision-Language Frontier Maps for Zero-Shot Semantic Navigation. 零样本语义导航的视觉语言边界地图.
-- **[CVPR 2024年1月](https://arxiv.org/abs/2401.04567)** EgoVLPv2: Egocentric Video-Language Pre-training. 第一人称视频-语言预训练.
+- ★ **[CVPR 2024年1月](https://arxiv.org/abs/2401.04567)** EgoVLPv2: Egocentric Video-Language Pre-training. 第一人称视频-语言预训练.
 - **[arXiv 2023年8月](https://arxiv.org/abs/2308.00513)** UVIO: An UWB-Aided Visual-Inertial Odometry Framework with Bias-Compensated Anchors Initialization. UWB辅助的视觉惯性里程计框架，通过偏置补偿的锚点初始化提升定位收敛速度与稳定性。
-- **[AAAI 2023年5月](https://arxiv.org/abs/2305.16986)** NavGPT: Explicit Reasoning in Vision-and-Language Navigation with Large Language Models. 大语言模型在视觉-语言导航中的显式推理.
+- ★ **[AAAI 2023年5月](https://arxiv.org/abs/2305.16986)** NavGPT: Explicit Reasoning in Vision-and-Language Navigation with Large Language Models. 大语言模型在视觉-语言导航中的显式推理.
 - **[RSS 2022年10月](https://arxiv.org/abs/2210.05663)** CLIP-Fields: Weakly Supervised Semantic Fields for Robotic Memory. 弱监督语义场用于机器人记忆.
-- **[CVPR 2022年3月](https://arxiv.org/abs/2203.06789)** PONI: Potential Functions for ObjectGoal Navigation with Interaction-free Learning. 无交互学习的物体目标导航势函数.
-- **[ICCV 2021年4月](https://arxiv.org/abs/2104.03456)** SOON: Scenario Oriented Object Navigation. 场景导向的物体导航.
+- ★ **[CVPR 2022年3月](https://arxiv.org/abs/2203.06789)** PONI: Potential Functions for ObjectGoal Navigation with Interaction-free Learning. 无交互学习的物体目标导航势函数.
+- ★ **[ICCV 2021年4月](https://arxiv.org/abs/2104.03456)** SOON: Scenario Oriented Object Navigation. 场景导向的物体导航.
 - **[ICRA 2021年3月](https://arxiv.org/abs/2103.07086)** ViNG: Learning Open-World Navigation with Visual Goal Representations. 视觉目标表示的开放世界导航.
 - **[CoRL 2020年10月](https://arxiv.org/abs/2010.15044)** Semantic MapNet: Building Allocentric Semantic Maps and Representations. 异中心语义地图构建.
-- **[ECCV 2020年7月](https://arxiv.org/abs/2007.00643)** ObjectNav: Object Goal Navigation using Goal-Oriented Semantic Exploration. 目标驱动的语义探索导航.
-- **[CVPR 2020年6月](https://arxiv.org/abs/2006.13979)** VLN-BERT: A Recurrent BERT for Vision-and-Language Navigation. 视觉-语言导航的循环BERT模型.
-- **[ICLR 2020年6月](https://arxiv.org/abs/2006.04884)** Active Neural SLAM. 主动神经SLAM框架.
-- **[ICML 2019年6月](https://arxiv.org/abs/1906.09518)** Neural SLAM: Learning to Explore with External Memory. 神经SLAM，学习用外部记忆进行探索.
-- **[NeurIPS 2018年4月](https://arxiv.org/abs/1804.00168)** PointNav: Learning to Navigate in Cities Without a Map. 无地图的城市导航学习.
-- **[CVPR 2017年2月](https://arxiv.org/abs/1702.04405)** ScanNet: Richly-Annotated 3D Reconstructions of Indoor Scenes. 富标注的室内场景 3D 重建数据集.
+- ★ **[ECCV 2020年7月](https://arxiv.org/abs/2007.00643)** ObjectNav: Object Goal Navigation using Goal-Oriented Semantic Exploration. 目标驱动的语义探索导航.
+- ★ **[CVPR 2020年6月](https://arxiv.org/abs/2006.13979)** VLN-BERT: A Recurrent BERT for Vision-and-Language Navigation. 视觉-语言导航的循环BERT模型.
+- ★ **[ICLR 2020年6月](https://arxiv.org/abs/2006.04884)** Active Neural SLAM. 主动神经SLAM框架.
+- ★ **[ICML 2019年6月](https://arxiv.org/abs/1906.09518)** Neural SLAM: Learning to Explore with External Memory. 神经SLAM，学习用外部记忆进行探索.
+- ★ **[NeurIPS 2018年4月](https://arxiv.org/abs/1804.00168)** PointNav: Learning to Navigate in Cities Without a Map. 无地图的城市导航学习.
+- ★ **[CVPR 2017年2月](https://arxiv.org/abs/1702.04405)** ScanNet: Richly-Annotated 3D Reconstructions of Indoor Scenes. 富标注的室内场景 3D 重建数据集.
 <a id="simulation-sim2real" name="simulation-sim2real"></a>
 
 ## Simulators & Sim2Real
@@ -256,7 +256,7 @@
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.12038)** OmniHumanoid: Streaming Cross-Embodiment Video Generation with Paired-Free Adaptation. 流式跨本体视频生成框架，无需配对数据即可适配不同机器人形态，支持连续视频生成。
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.12654)** COSMIC: Concurrent Optimization of Structure, Material, and Integrated Control for robotic systems. 梯度共设计框架同时优化拓扑、材料分布和控制策略，嵌入混合拓扑变量到连续设计空间，在可微仿真器中集成神经网络控制器，发现超越分离设计的多样化运动策略。
 - **[GECCO 2026年5月](https://arxiv.org/abs/2605.28812)** Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation. 提出基于压力中心的触觉表示方法，保留密集接触信息的同时保持sim-to-real迁移的鲁棒性，实现零样本真实机器人迁移。
-- **[ICML 2026年5月](https://arxiv.org/abs/2605.29032)** Theoretical Foundations and Effective Algorithms for Policy-Aware Simulator Learning. 提出策略感知模拟器学习方法，将模拟器学习目标从预测准确性转向策略鲁棒性，通过零和博弈框架解决模拟器利用问题。
+- ★ **[ICML 2026年5月](https://arxiv.org/abs/2605.29032)** Theoretical Foundations and Effective Algorithms for Policy-Aware Simulator Learning. 提出策略感知模拟器学习方法，将模拟器学习目标从预测准确性转向策略鲁棒性，通过零和博弈框架解决模拟器利用问题。
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.28312)** Sim-to-Real Transfer for Robotic Manipulation. 研究机器人操作中的sim-to-real迁移问题，提出改进的域随机化和适应技术，提升仿真到真实环境的策略迁移效果。
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.25459)** GS-Playground: A High-Throughput Photorealistic Simulator for Vision-Informed Robot Learning. 一个面向机器人操作与视觉知情学习的高吞吐量、照片级真实感仿真器。
 - **[arXiv 2026年3月](https://arxiv.org/abs/2603.22039)** RAFL: Generalizable Sim-to-Real of Soft Robots with Residual Acceleration Field Learning. 残差加速度场学习框架，用可迁移的单元级校正动力学场增强基础模拟器，基于共享局部特征运行，与全局网格拓扑和离散化无关.
@@ -270,16 +270,16 @@
 - **[arXiv 2024年12月](https://arxiv.org/abs/2412.12345)** Genesis: A Generative and Universal Physics Engine for Robotics and Beyond. 生成式通用物理引擎.
 - **[CoRL 2024年6月](https://arxiv.org/abs/2406.02523)** RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots. 大规模日常任务仿真.
 - **[ICRA 2023年3月](https://arxiv.org/abs/2303.15482)** OmniGibson: A Modular Simulation Environment for Embodied AI. 模块化具身AI仿真环境.
-- **[NeurIPS 2021年8月](https://arxiv.org/abs/2108.10470)** Isaac Gym: High Performance GPU-Based Physics Simulation for Robot Learning. 高性能GPU物理仿真平台.
+- ★ **[NeurIPS 2021年8月](https://arxiv.org/abs/2108.10470)** Isaac Gym: High Performance GPU-Based Physics Simulation for Robot Learning. 高性能GPU物理仿真平台.
 - **[IROS 2020年12月](https://arxiv.org/abs/2012.02924)** iGibson 1.0: A Simulation Environment for Interactive Tasks in Large Realistic Scenes. 大型真实场景交互任务仿真环境.
 - **[CoRL 2020年9月](https://arxiv.org/abs/2009.12293)** robosuite: A Modular Simulation Framework and Benchmark for Robot Learning. 面向机器人学习的模块化仿真框架与基准套件.
-- **[NeurIPS 2020年7月](https://arxiv.org/abs/2007.04954)** ThreeDWorld: A Platform for Interactive Multi-Modal Physical Simulation. 交互式多模态物理仿真平台.
-- **[CVPR 2020年3月](https://arxiv.org/abs/2003.08515)** SAPIEN: A SimulAted Part-based Interactive ENvironment. 基于部件的交互式仿真环境.
+- ★ **[NeurIPS 2020年7月](https://arxiv.org/abs/2007.04954)** ThreeDWorld: A Platform for Interactive Multi-Modal Physical Simulation. 交互式多模态物理仿真平台.
+- ★ **[CVPR 2020年3月](https://arxiv.org/abs/2003.08515)** SAPIEN: A SimulAted Part-based Interactive ENvironment. 基于部件的交互式仿真环境.
 - **[CoRL 2019年10月](https://arxiv.org/abs/1910.10897)** Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning. 多任务元强化学习基准.
-- **[ICCV 2019年4月](https://arxiv.org/abs/1904.01201)** Habitat: A Platform for Embodied AI Research. 具身AI研究平台，包含仿真器和数据集.
+- ★ **[ICCV 2019年4月](https://arxiv.org/abs/1904.01201)** Habitat: A Platform for Embodied AI Research. 具身AI研究平台，包含仿真器和数据集.
 - **[ICRA 2019年3月](https://arxiv.org/abs/1903.00742)** PyBullet: A Fast Physics Simulation for Robotics. 快速物理仿真库.
 - **[arXiv 2018年1月](https://arxiv.org/abs/1801.00690)** DMControl: DeepMind Control Suite. 连续控制任务基准.
-- **[CVPR 2017年12月](https://arxiv.org/abs/1712.05474)** AI2-THOR: An Interactive 3D Environment for Visual AI. 交互式3D环境，经典仿真平台.
+- ★ **[CVPR 2017年12月](https://arxiv.org/abs/1712.05474)** AI2-THOR: An Interactive 3D Environment for Visual AI. 交互式3D环境，经典仿真平台.
 - **[IROS 2012年10月](https://homes.cs.washington.edu/~todorov/papers/TodorovIROS12.pdf)** MuJoCo: A Physics Engine for Model-Based Control. 模型控制物理引擎，经典工作.
 
 <a id="datasets" name="datasets"></a>
@@ -298,11 +298,11 @@
 - **[ICRA 2023年11月](https://arxiv.org/abs/2311.12032)** RH20T: A Comprehensive Robotic Dataset for Learning Diverse Skills in Real-World. 真实世界多样化技能学习数据集.
 - **[arXiv 2023年10月](https://arxiv.org/abs/2310.08864)** Open X-Embodiment Dataset: Robotic Learning Datasets and RT-X Models. 最大规模多机器人数据集，22种机器人、100万+轨迹.
 - **[CoRL 2023年8月](https://arxiv.org/abs/2308.12952)** BridgeData V2: A Dataset for Robot Learning at Scale. 大规模机器人学习数据集.
-- **[CVPR 2021年10月](https://arxiv.org/abs/2110.07058)** Ego4D: Around the World in 3,000 Hours of Egocentric Video. 大规模第一人称视频数据集.
-- **[NeurIPS 2021年9月](https://arxiv.org/abs/2109.08238)** HM3D: Habitat-Matterport 3D Dataset (HM3D): 1000 Large-scale 3D Environments for Embodied AI. 大规模3D环境数据集.
+- ★ **[CVPR 2021年10月](https://arxiv.org/abs/2110.07058)** Ego4D: Around the World in 3,000 Hours of Egocentric Video. 大规模第一人称视频数据集.
+- ★ **[NeurIPS 2021年9月](https://arxiv.org/abs/2109.08238)** HM3D: Habitat-Matterport 3D Dataset (HM3D): 1000 Large-scale 3D Environments for Embodied AI. 大规模3D环境数据集.
 - **[ICRA 2020年3月](https://arxiv.org/abs/2003.06789)** GraspNet: A Large-Scale Cluttered Scene Dataset for Robotic Grasping. 大规模杂乱场景抓取数据集.
-- **[ICCV 2019年4月](https://arxiv.org/abs/1904.03278)** AMASS: Archive of Motion Capture as Surface Shapes. 大型人体运动数据集.
-- **[TPAMI 2017年5月](https://arxiv.org/abs/1705.09155)** Human3.6M: Large Scale Datasets and Predictive Methods for 3D Human Sensing. 大型人体3D姿态数据集.
+- ★ **[ICCV 2019年4月](https://arxiv.org/abs/1904.03278)** AMASS: Archive of Motion Capture as Surface Shapes. 大型人体运动数据集.
+- ★ **[TPAMI 2017年5月](https://arxiv.org/abs/1705.09155)** Human3.6M: Large Scale Datasets and Predictive Methods for 3D Human Sensing. 大型人体3D姿态数据集.
 <a id="benchmarks-evaluation" name="benchmarks-evaluation"></a>
 
 ## Benchmarks & Evaluation
@@ -328,7 +328,7 @@
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.20151)** Toward Safe Autonomous Robotic Endovascular Interventions using World Models. 面向血管介入机器人的世界模型安全控制框架，提升在多样化患者解剖条件下的自主导航鲁棒性与长期稳定性.
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.19638)** SafetyALFRED: Evaluating Safety-Conscious Planning of Multimodal Large Language Models. 在ALFRED基础上扩展六类厨房危险场景，评估多模态大模型在交互环境中是否会主动规避安全风险.
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.03956)** VLA-Forget: Vision-Language-Action Unlearning for Embodied Foundation Models. 面向具身基础模型的遗忘方法，研究如何安全移除VLA中的特定知识或行为能力，同时尽量保持整体性能。
-- **[AAAI 2026年3月](https://ojs.aaai.org/index.php/AAAI/article/view/40880)** IS-Bench: Evaluating Interactive Safety of VLM-Driven Embodied Agents in Daily Household Tasks. 首个多模态交互安全基准，包含161个挑战性场景和388个独特安全风险，采用新颖的过程导向评估验证风险缓解步骤是否在特定风险步骤前后正确执行.
+- ★ **[AAAI 2026年3月](https://ojs.aaai.org/index.php/AAAI/article/view/40880)** IS-Bench: Evaluating Interactive Safety of VLM-Driven Embodied Agents in Daily Household Tasks. 首个多模态交互安全基准，包含161个挑战性场景和388个独特安全风险，采用新颖的过程导向评估验证风险缓解步骤是否在特定风险步骤前后正确执行.
 - **[arXiv 2026年1月](https://arxiv.org/abs/2601.15282)** RBench: Rethinking Video Generation Model for the Embodied World. 面向机器人视频生成的综合基准，涵盖五个任务领域和四种不同具身，评估任务级正确性和视觉保真度，与人类评估Spearman相关系数达0.96.
 - **[arXiv 2026年1月](https://arxiv.org/abs/2601.04137)** WoW-World-Eval: Wow, wo, val. A Comprehensive Embodied World Model Evaluation Turing Test. 具身图灵测试基准，基于609个机器人操作数据，考察感知、规划、预测、泛化和执行五大核心能力，22个指标的综合评估协议与人类偏好Pearson相关性>0.93.
 - **[arXiv 2026年1月](https://arxiv.org/abs/2601.03136)** Limited Linguistic Diversity in Embodied AI Datasets. 分析具身 AI 数据集中语言多样性受限的问题及其对训练与评测的影响。
@@ -339,13 +339,13 @@
 - **[arXiv 2025年2月](https://arxiv.org/abs/2502.07712)** SafeVLA: Safety Alignment for Vision-Language-Action Models. VLA模型的安全对齐方法.
 - **[CoRL 2024年6月](https://arxiv.org/abs/2406.03456)** CRAM: A Benchmark for Compositional Reasoning and Action in Manipulation. 组合推理与操作基准.
 - **[arXiv 2024年3月](https://arxiv.org/abs/2403.10510)** EmbSpatial-Bench: Benchmarking Spatial Reasoning for Embodied AI. 具身空间推理基准.
-- **[CVPR 2024年1月](https://arxiv.org/abs/2401.08912)** OpenEQA: Embodied Question Answering in the Era of Foundation Models. 基础模型时代的具身问答基准.
-- **[ICLR 2023年2月](https://arxiv.org/abs/2302.04659)** ManiSkill2: A Unified Benchmark for Generalizable Manipulation Skills. 通用操纵技能统一基准.
-- **[NeurIPS 2022年11月](https://arxiv.org/abs/2211.03745)** BEHAVIOR Challenge: Benchmarking Everyday Activities. 日常活动基准挑战.
-- **[CVPR 2022年3月](https://arxiv.org/abs/2203.09811)** BEHAVIOR-1K: A Benchmark for Embodied AI with 1,000 Everyday Activities. 1000种日常活动基准.
-- **[ICLR 2021年12月](https://arxiv.org/abs/2112.03227)** CALVIN: A Benchmark for Language-Conditioned Policy Learning. 语言条件策略学习基准.
-- **[NeurIPS 2021年6月](https://arxiv.org/abs/2106.09876)** Franka Kitchen: A Benchmark for Long-Horizon Manipulation. 长时程操纵基准.
-- **[CVPR 2021年4月](https://arxiv.org/abs/2104.04631)** DexYCB: A Benchmark for Capturing Hand Grasping of Objects. 手部抓取物体基准.
+- ★ **[CVPR 2024年1月](https://arxiv.org/abs/2401.08912)** OpenEQA: Embodied Question Answering in the Era of Foundation Models. 基础模型时代的具身问答基准.
+- ★ **[ICLR 2023年2月](https://arxiv.org/abs/2302.04659)** ManiSkill2: A Unified Benchmark for Generalizable Manipulation Skills. 通用操纵技能统一基准.
+- ★ **[NeurIPS 2022年11月](https://arxiv.org/abs/2211.03745)** BEHAVIOR Challenge: Benchmarking Everyday Activities. 日常活动基准挑战.
+- ★ **[CVPR 2022年3月](https://arxiv.org/abs/2203.09811)** BEHAVIOR-1K: A Benchmark for Embodied AI with 1,000 Everyday Activities. 1000种日常活动基准.
+- ★ **[ICLR 2021年12月](https://arxiv.org/abs/2112.03227)** CALVIN: A Benchmark for Language-Conditioned Policy Learning. 语言条件策略学习基准.
+- ★ **[NeurIPS 2021年6月](https://arxiv.org/abs/2106.09876)** Franka Kitchen: A Benchmark for Long-Horizon Manipulation. 长时程操纵基准.
+- ★ **[CVPR 2021年4月](https://arxiv.org/abs/2104.04631)** DexYCB: A Benchmark for Capturing Hand Grasping of Objects. 手部抓取物体基准.
 - **[ICRA 2019年9月](https://arxiv.org/abs/1909.12271)** RLBench: The Robot Learning Benchmark & Learning Environment. 机器人学习基准.
 <a id="survey" name="survey"></a>
 
