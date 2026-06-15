@@ -86,7 +86,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 > 当前收录 `21` 个精选比赛 + `10` 个精选会议。
 > 当前收录 `319` 篇精选论文。
 
-查看[学术生态（Research & Competition Hub）](topics/05-research-hub.md)：
+查看[学术与竞赛生态](topics/05-research-hub.md)：
 
 整合全球 **21 项机器人/具身智能竞赛**与 **10 大核心学术会议**，含 2026-2027 年行业日历、赛事详情与顶会介绍。
 
