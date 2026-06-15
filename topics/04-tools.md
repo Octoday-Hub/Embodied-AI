@@ -8,9 +8,7 @@
 
 ## 目录
 
-**仓库项目分类：** [📚 资源列表](#resource-lists) · [🎮 仿真平台](#simulation-platforms) · [🤖 模型](#models) · [🏗️ 学习框架](#learning-frameworks) · [🤖 机器人项目](#robot-projects) · [📖 教程](#tutorials) · [🧠 推理/强化学习](#reasoning-rl)
-
-**平台与社区分类：** [🏭 厂商开发者社区](#vendor-communities) · [🛒 产品/模型/数据平台](#product-platforms)
+**工具与项目分类：** [🎮 仿真平台](#simulation-platforms) · [🤖 模型](#models) · [🏗️ 学习框架](#learning-frameworks) · [🤖 机器人项目](#robot-projects) · [📖 教程](#tutorials) · [🧠 推理/强化学习](#reasoning-rl) · [🔧 中间件与 ROS 工具](#middleware-ros) · [🗺️ SLAM 与感知](#slam-perception)
 
 ---
 
@@ -253,8 +251,6 @@
 <a name="learning-frameworks"></a>
 
 ## 🏗️ 学习框架
-
-(以下条目合并自 repos 与 tools)
 
 - **RLinf** — [`RLinf/RLinf`](https://github.com/RLinf/RLinf) ⭐ 3.7k  
   📄 面向具身和智能体 AI 的强化学习基础设施
