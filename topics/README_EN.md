@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-  <img alt="Repos Updated" src="https://img.shields.io/badge/Repos%20Updated-%2B87-8B5CF6?style=flat-square&labelColor=5B21B6" />
+  <img alt="Tools Updated" src="https://img.shields.io/badge/Tools%20Updated-%2B162-8B5CF6?style=flat-square&labelColor=5B21B6" />
   <img alt="Competitions Updated" src="https://img.shields.io/badge/Competitions%20Updated-%2B21-14B8A6?style=flat-square&labelColor=0F766E" />
   <img alt="Conferences Updated" src="https://img.shields.io/badge/Conferences%20Updated-%2B10-F59E0B?style=flat-square&labelColor=92400E" />
 
@@ -84,17 +84,12 @@ A hand-picked selection of books and courses covering the fundamentals of roboti
 
 ### 🔭 (2) Watchtower: Track Frontier Technologies
 
-> Currently featuring `21` curated competitions.
-> Currently featuring `10` curated conferences.
+> Currently featuring `21` curated competitions + `10` curated conferences.
 > Currently featuring `319` curated papers.
 
-Check out the [Competition Calendar](05-competition_EN.md):
+Check out the [Research & Competition Hub](05-research-hub_EN.md):
 
-A comprehensive collection of 21 robotics competitions — from international world cups and youth education challenges to undergraduate engineering contests, with a 2026 event timeline and detailed descriptions.
-
-Check out the [Academic Conferences](07-conferences_EN.md):
-
-An overview of 10 core academic conferences in embodied AI and robotics, including ICRA, IROS, CoRL, NeurIPS, and more — with dates, locations, and topic analysis.
+A unified collection of **21 robotics / embodied AI competitions** and **10 core academic conferences**, including the 2026-2027 industry calendar, detailed event descriptions, and top conference overviews.
 
 Explore the [Paper Collection](03-papers_EN.md):
 
@@ -113,15 +108,11 @@ Browse curated papers on embodied intelligence, deepen your understanding with o
 
 ### 🔧 (3) Forge: Integrate Engineering Practice
 
-> Currently featuring `96` tools and platforms, `87` open-source repos and communities.
+> Currently featuring `162` tools, open-source projects, and development frameworks.
 
-Check out [Engineering Tools](04-tools_EN.md):
+Check out [Tools & Open-Source Projects](04-tools_EN.md):
 
-A collection of robot simulation platforms, motion control, various SDKs, and major open-source projects.
-
-Check out [Open-Source Repos](06-repos_EN.md):
-
-A curated collection of core embodied AI open-source projects, developer communities, and product platforms.
+A unified collection of robot simulation platforms, motion control frameworks, SDKs, open-source projects, and ROS toolchains.
 
 ### 🔗 (4) Coordinates: Gain Industrial Insights
 
