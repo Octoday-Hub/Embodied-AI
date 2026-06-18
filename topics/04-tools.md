@@ -16,7 +16,7 @@
 
 ## 🎮 仿真平台
 
-(以下条目合并自 repos 与 tools)
+
 
 - **BEHAVIOR-1K** — [`StanfordVL/BEHAVIOR-1K`](https://github.com/StanfordVL/BEHAVIOR-1K) ⭐ 1.5k  
   📄 斯坦福大学出品，1,000 种日常生活活动的具身 AI 基准测试与仿真平台
