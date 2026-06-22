@@ -82,7 +82,7 @@ The 2026 theme is **"Robots for All"**, held for the first time in Vienna, Austr
 
 ### 2026 Competitions
 
-ICRA 2026 hosts 9 robotics competitions, with the following directly relevant to embodied AI:
+ICRA 2026 hosts 9 robotics competitions covering manipulation, navigation, humanoid and embodied AI topics:
 
 - AgiBot World Challenge 2026 (embodied humanoid robots: World Model / VLM+VLA / Whole-Body Control tracks)
 - REAL-I Real-World Embodied Intelligence Learning Challenge (3 industrial scenarios)
@@ -156,16 +156,6 @@ The 22nd edition is held for the **first time in Sydney, Australia**, hosted by 
 - **High Selectivity**: Annual acceptance rate of ~25-30%, significantly lower than ICRA/IROS
 - **Rich Workshops**: Hosts numerous highly interactive workshops, a hub for frontier discussions (embodied AI, world models, etc.)
 
-### Connection to Embodied AI
-
-RSS has recently accepted a large number of embodied AI papers, including:
-
-- Vision-based robot manipulation (VLA models)
-- World models for robotics
-- Whole-body control of humanoid robots
-- New paradigms for imitation learning and teaching from demonstration
-
-
 <a name="4-corl-2026-conference-on-robot-learning"></a>
 
 ## 4. CoRL 2026 — Conference on Robot Learning
@@ -199,16 +189,6 @@ The 10th edition covers the full pipeline of robot learning, from algorithms to 
 | **Navigation & Exploration** | Autonomous exploration, goal-driven navigation learning |
 | **Safety & Generalization** | Policy robustness, domain adaptation, zero-shot transfer |
 
-### Connection to Embodied AI
-
-CoRL is **one of the most active venues in embodied AI**, with 2025-2026 papers heavily featuring:
-
-- OpenVLA and its variants
-- Diffusion policy-based manipulation learning
-- Training paradigms for large-scale robot datasets
-- World models in robotic manipulation
-
-
 <a name="5-neurips-2026-conference-on-neural-information-processing-systems"></a>
 
 ## 5. NeurIPS 2026 — Conference on Neural Information Processing Systems
@@ -230,17 +210,6 @@ The 40th edition's **main venue is in Sydney, Australia** (with satellite venues
 | **CCF Rank** | A-class |
 | **Edition** | 40th |
 | **Paper Submission** | Closed (Deadline: May 7, 2026; Abstract: May 5, 2026) |
-
-### Embodied AI Related Topics
-
-| Area | Description |
-|:---|:---|
-| **Robot Learning** | Robot policies based on reinforcement and imitation learning |
-| **World Models** | Generative world models for planning and decision-making |
-| **VLA Foundation Models** | General-purpose Vision-Language-Action foundation models |
-| **Sim-to-Real** | Simulation-to-reality transfer learning and domain adaptation |
-| **Embodied Reasoning** | LLM/VLM reasoning capabilities for robotic tasks |
-| **Multi-Agent Coordination** | Learning and coordination in multi-robot systems |
 
 ### Special Features
 
@@ -291,7 +260,7 @@ The 43rd edition is held in Denver. CVPR has recently introduced specialized wor
 
 ### Overview
 
-ICML is **one of the three top-tier machine learning conferences** (alongside NeurIPS and ICLR), classified as a **CCF A-class** conference. ICML has recently accepted a substantial number of papers on robot learning, reinforcement learning, and world models directly relevant to embodied AI.
+ICML is **one of the three top-tier machine learning conferences** (alongside NeurIPS and ICLR), classified as a **CCF A-class** conference. ICML has recently accepted a substantial number of papers on robot learning, reinforcement learning, and world models.
 
 The 43rd edition is held for the first time in Seoul, South Korea. ICML features dedicated tracks for Robot Learning, Reinforcement Learning, and Mobility & Navigation.
 
@@ -434,11 +403,11 @@ IJCAI covers all sub-fields of AI and features a dedicated **"AI and Robotics" s
 
 | Field | Representative Conferences |
 |:---|:---|
-| **General Robotics** | ICRA (CCF B) · IROS (CCF C) · RSS (CCF B) |
-| **Robot Learning** | CoRL · NeurIPS (CCF A) · ICML (CCF A) |
-| **Computer Vision** | CVPR (CCF A) |
-| **General AI** | AAAI (CCF A) · IJCAI (CCF A) |
-| **Humanoid Robots** | IEEE-RAS Humanoids |
+| **General Robotics** | [ICRA](#1-icra-2026-ieee-international-conference-on-robotics-and-automation) (CCF B) · [IROS](#2-iros-2026-ieeerj-international-conference-on-intelligent-robots-and-systems) (CCF C) · [RSS](#3-rss-2026-robotics-science-and-systems) (CCF B) |
+| **Robot Learning** | [CoRL](#4-corl-2026-conference-on-robot-learning) · [NeurIPS](#5-neurips-2026-conference-on-neural-information-processing-systems) (CCF A) · [ICML](#7-icml-2026-international-conference-on-machine-learning) (CCF A) |
+| **Computer Vision** | [CVPR](#6-cvpr-2026-ieee-cvf-conference-on-computer-vision-and-pattern-recognition) (CCF A) |
+| **General AI** | [AAAI](#8-aaai-2027-aaai-conference-on-artificial-intelligence) (CCF A) · [IJCAI](#10-ijcai-ecai-2026-international-joint-conference-on-artificial-intelligence) (CCF A) |
+| **Humanoid Robots** | [IEEE-RAS Humanoids](#9-ieee-ras-humanoids-2026-ieee-ras-international-conference-on-humanoid-robots) |
 
 *(CCF rankings: ICRA = B, RSS = B, IROS = C, NeurIPS = A, ICML = A, CVPR = A, AAAI = A, IJCAI = A; CoRL and Humanoids are not CCF-ranked)*
 
@@ -446,16 +415,16 @@ IJCAI covers all sub-fields of AI and features a dedicated **"AI and Robotics" s
 
 | Dates | Conference | Location |
 |:---|:---|:---|
-| **Jun 1-5, 2026** | ICRA 2026 | Vienna, Austria |
-| **Jun 3-7, 2026** | CVPR 2026 | Denver, USA |
-| **Jul 6-11, 2026** | ICML 2026 | Seoul, South Korea |
-| **Jul 13-17, 2026** | RSS 2026 | Sydney, Australia |
-| **Aug 15-21, 2026** | IJCAI-ECAI 2026 | Bremen, Germany |
-| **Sep 27-Oct 1, 2026** | IROS 2026 | Pittsburgh, USA |
-| **Nov 9-12, 2026** | CoRL 2026 | Austin, USA |
-| **Dec 6-12, 2026** | NeurIPS 2026 | Sydney, Australia (main) · Atlanta (satellite) |
-| **Dec 6-9, 2026** | Humanoids 2026 | Silicon Valley · Santa Clara, USA |
-| **Feb 16-23, 2027** | AAAI 2027 | Montreal, Canada |
+| **Jun 1-5, 2026** | [ICRA 2026](#1-icra-2026-ieee-international-conference-on-robotics-and-automation) | Vienna, Austria |
+| **Jun 3-7, 2026** | [CVPR 2026](#6-cvpr-2026-ieee-cvf-conference-on-computer-vision-and-pattern-recognition) | Denver, USA |
+| **Jul 6-11, 2026** | [ICML 2026](#7-icml-2026-international-conference-on-machine-learning) | Seoul, South Korea |
+| **Jul 13-17, 2026** | [RSS 2026](#3-rss-2026-robotics-science-and-systems) | Sydney, Australia |
+| **Aug 15-21, 2026** | [IJCAI-ECAI 2026](#10-ijcai-ecai-2026-international-joint-conference-on-artificial-intelligence) | Bremen, Germany |
+| **Sep 27-Oct 1, 2026** | [IROS 2026](#2-iros-2026-ieeerj-international-conference-on-intelligent-robots-and-systems) | Pittsburgh, USA |
+| **Nov 9-12, 2026** | [CoRL 2026](#4-corl-2026-conference-on-robot-learning) | Austin, USA |
+| **Dec 6-12, 2026** | [NeurIPS 2026](#5-neurips-2026-conference-on-neural-information-processing-systems) | Sydney, Australia (main) · Atlanta (satellite) |
+| **Dec 6-9, 2026** | [Humanoids 2026](#9-ieee-ras-humanoids-2026-ieee-ras-international-conference-on-humanoid-robots) | Silicon Valley · Santa Clara, USA |
+| **Feb 16-23, 2027** | [AAAI 2027](#8-aaai-2027-aaai-conference-on-artificial-intelligence) | Montreal, Canada |
 
 
 # Competition Calendar
@@ -831,7 +800,7 @@ One of China's **most influential comprehensive university robot competitions**,
 | Field | Details |
 |-------|---------|
 | **Edition** | 25th |
-| **Date** | Summer 2026 (TBD) |
+| **Date** | TBD |
 | **Location** | TBD |
 | **Organizer** | National College Robot Competition Committee |
 | **Website** | https://www.robocon.org.cn |
@@ -854,7 +823,7 @@ One of China's **most influential comprehensive university robot competitions**,
 
 | Field | Details |
 |-------|---------|
-| **Date** | Summer 2026 |
+| **Date** | TBD |
 | **Location** | Hangzhou, China |
 | **Organizer** | China International Engineering Science Foundation (CIEFS) |
 | **Website** | https://www.curc.cn |

@@ -1,7 +1,5 @@
 # 🛠️ 工具与开源项目
 
-> 更新日期：2026-06-22 · 聚焦机器人相关开源库
-> 
 > 💡 本列表持续更新，如果你发现好工具未被收录，或现有信息需要更新，请直接提交 [PR](https://github.com/Octoday-Hub/Embodied-AI/pulls) 或在 [Issues](https://github.com/Octoday-Hub/Embodied-AI/issues) 中反馈。
 
 
@@ -24,8 +22,6 @@
 
 - **Prometheus** — [`amov-lab/Prometheus`](https://github.com/amov-lab/Prometheus) ⭐ 4.5k  
   📄 面向自主无人机的开源软件系统，支持目标检测、SLAM 导航、编队控制等
-
-[↑ 回目录](#toc)
 
 - **Aerial Gym** — [`github.com/ntnu-arl/aerial_gym_simulator`](https://github.com/ntnu-arl/aerial_gym_simulator)
   📄 基于 Isaac Gym 的空中机器人仿真环境，支持无人机强化学习训练。
@@ -125,6 +121,8 @@
 
 - **Webots** — [`cyberbotics.com`](https://cyberbotics.com)
   📄 开源跨平台机器人仿真桌面应用，提供完整的建模、编程与仿真环境。
+
+[↑ 回目录](#toc)
 
 <a name="models"></a>
 

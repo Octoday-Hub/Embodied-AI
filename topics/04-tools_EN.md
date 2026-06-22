@@ -1,8 +1,5 @@
 # 🛠️ Tools & Open-Source Projects
 
-> **Updated: June 22, 2026**
-> Curated robotics tools, simulation platforms, open-source projects, and development frameworks
-> 
 > 💡 This list is continuously updated. If you find a good tool that is not included, or if existing information needs updating, please submit a [PR](https://github.com/Octoday-Hub/Embodied-AI/pulls) or provide feedback in [Issues](https://github.com/Octoday-Hub/Embodied-AI/issues).
 
 
@@ -28,7 +25,9 @@
 - **Prometheus** — [`amov-lab/Prometheus`](https://github.com/amov-lab/Prometheus) ⭐ 4.5k 
  📄 An open-source system for autonomous UAVs, supporting detection, SLAM, and formation control.
 
-[↑ Back to TOC](#toc)<a name=models></a>
+[↑ Back to TOC](#toc)
+
+<a name=models></a>
 
 ## 🤖 Models
 
