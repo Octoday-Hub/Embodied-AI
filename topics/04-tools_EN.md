@@ -1,18 +1,17 @@
 # 🛠️ Tools & Open-Source Projects
 
-> **Updated: June 15, 2026**
+> **Updated: June 22, 2026**
 > Curated robotics tools, simulation platforms, open-source projects, and development frameworks
-> This module merges the original Tools & Platforms and Open-Source Repositories sections
+> 
+> 💡 This list is continuously updated. If you find a good tool that is not included, or if existing information needs updating, please submit a [PR](https://github.com/Octoday-Hub/Embodied-AI/pulls) or provide feedback in [Issues](https://github.com/Octoday-Hub/Embodied-AI/issues).
 
----
 
 <a name=toc></a>
 
 ## Table of Contents
 
-**Categories:** [🎮 Simulation Platforms](#simulation-platforms) · [🤖 Models](#models) · [🧰 General Tools & Libraries](#general-tools) · [🏗️ Learning Frameworks](#learning-frameworks) · [🤖 Robot Projects](#robot-projects) · [📖 Tutorials](#tutorials) · [🧠 Reasoning / RL](#reasoning-rl) · [🗺️ SLAM & Perception](#slam-perception) · [🔧 Middleware & ROS Tools](#middleware-ros)
+**Categories:** [🎮 Simulation Platforms](#simulation-platforms) · [🤖 Models](#models) · [🧰 General Tools & Libraries](#general-tools) · [🏗️ Learning Frameworks](#learning-frameworks) · [🤖 Robot Projects](#robot-projects) · [🧠 Reasoning / RL](#reasoning-rl) · [🗺️ SLAM & Perception](#slam-perception) · [🔧 Middleware & ROS Tools](#middleware-ros) · [🛒 Other](#other)
 
----
 
 <a name=simulation-platforms></a>
 
@@ -71,7 +70,6 @@
 
 [↑ Back to ToC](#toc)
 
----
 
 <a name=general-tools></a>
 
@@ -141,7 +139,6 @@
 
 [↑ Back to ToC](#toc)
 
----
 
 <a name=learning-frameworks></a>
 
@@ -166,64 +163,11 @@
 
 [↑ Back to TOC](#toc)
 
-
-- **DeepMind SI-Tuning** — [`github.com/google-deepmind/si_tuning`](https://github.com/google-deepmind/si_tuning)
- 📄 A VLA fine-tuning framework from Google DeepMind for models such as RT-2 and OpenVLA, focused on improving generalization on task-specific robotic workloads.
-
-- **Diffusion Policy** — [`github.com/real-stanford/diffusion_policy`](https://github.com/real-stanford/diffusion_policy)
- 📄 A robot policy learning framework based on diffusion models, commonly used in imitation learning and manipulation control research.
-
-- **DORA** — [`github.com/dora-rs/dora`](https://github.com/dora-rs/dora)
- 📄 A dataflow middleware for AI robotics applications that supports low-latency, composable, and distributed data-processing pipelines.
-
-- **Intern-Robotics (ShuSheng)** — [`internrobotics.shlab.org.cn`](https://internrobotics.shlab.org.cn/)
- 📄 An open-source full-stack embodied robotics framework from the Shanghai AI Lab, covering navigation, manipulation, and motion foundation models to support embodied AI development at scale.
-
-- **LeRobot** — [`huggingface.co/docs/lerobot/main/en/index`](https://huggingface.co/docs/lerobot/main/en/index)
- 📄 Hugging Face's real-world robot machine learning toolkit, providing models, datasets, and training utilities.
-
-- **MimicGen** — [`github.com/NVlabs/mimicgen`](https://github.com/NVlabs/mimicgen)
- 📄 A data generation system that scales a small number of human demonstrations into large robot datasets, useful for expanding manipulation training corpora.
-
-- **Octo** — [`github.com/octo-models/octo`](https://github.com/octo-models/octo)
- 📄 An open-source general robot policy pretrained on multi-robot trajectories, supporting language instructions, goal images, and few-shot fine-tuning.
-
-- **OK-Robot** — [`ok-robot.github.io`](https://ok-robot.github.io/)
- 📄 A modular framework from NYU for real home environments that combines VLMs to perform zero-shot pick-and-place tasks.
-
-- **OpenVLA** — [`github.com/openvla/openvla`](https://github.com/openvla/openvla)
- 📄 An open-source vision-language-action model for general robot manipulation, supporting fine-tuning, training, and evaluation.
-
-- **OpenXLab** — [`openxlab.org.cn`](https://openxlab.org.cn/)
- 📄 A comprehensive open platform from the Shanghai AI Lab for embodied AI, offering a full toolchain from data processing and algorithm training to deployment.
-
-- **RobotecAI RAI** — [`github.com/RobotecAI/rai`](https://github.com/RobotecAI/rai)
- 📄 RobotecAI's open-source agentic robotics framework built on the ROS 2 toolchain, supporting natural-language interaction, multimodal capability integration, and robot task execution.
-
-- **RoboGen** — [`robogen-ai.github.io`](https://robogen-ai.github.io/)
- 📄 A code-generative robotics framework from MIT and collaborators that uses large language models to automatically generate full Python policies with perception, planning, and control logic.
-
-- **robomimic** — [`github.com/ARISE-Initiative/robomimic`](https://github.com/ARISE-Initiative/robomimic)
- 📄 A general framework for learning from robot demonstrations, with datasets, offline learning algorithms, and reproducible baselines.
-
-- **ROS / ROS2** — [`www.ros.org`](https://www.ros.org)
- 📄 The Robot Operating System, with a rich ecosystem of tools and libraries for modular and distributed robot software development.
-
-- **SAGE** — [`github.com/eth-easl/sage`](https://github.com/eth-easl/sage)
- 📄 A distributed embodied AI computing framework from ETH Zurich that provides efficient data pipelines and parallel computing for large-scale policy training and data processing.
-
-- **Theseus** — [`github.com/facebookresearch/theseus`](https://github.com/facebookresearch/theseus)
- 📄 A differentiable nonlinear optimization library for robotics and vision, suitable for state estimation, geometric optimization, trajectory optimization, and end-to-end differentiable systems.
-
-- **Universal Manipulation Interface (UMI)** — [`github.com/real-stanford/universal_manipulation_interface`](https://github.com/real-stanford/universal_manipulation_interface)
- 📄 A general manipulation interface open-sourced by Stanford, supporting a range of robot learning and manipulation tasks.
-
-- **VEX Robotics Software** — [`www.vexrobotics.com/?srsltid=AfmBOoqB_9zu0-eFHO4wzVB_33rsABV6DRRJ_drQfuk67n-MLcUmVy9M`](https://www.vexrobotics.com/?srsltid=AfmBOoqB_9zu0-eFHO4wzVB_33rsABV6DRRJ_drQfuk67n-MLcUmVy9M)
- 📄 Software tools for the VEX robotics platform, with drag-and-drop programming support commonly used in educational settings.
+- **every-embodied** — [`datawhalechina/every-embodied`](https://github.com/datawhalechina/every-embodied) ⭐ 2.2k  
+  📄 Build VLA/OpenVLA/SmolVLA/Pi0 from scratch with only Python basics.
 
 [↑ Back to TOC](#toc)
 
----
 
 <a name=robot-projects></a>
 
@@ -330,7 +274,7 @@
 - **Beijing Humanoid Innovation Center·Huisi Kaiwu** — [`login.x-humanoid-cloud.com/?responseType=code&clientId=fd6c22fb&redirectUri=https%3A%2F%2Fopen.x-humanoid-cloud.com%2Fhome&stamp=1778429122172&env=cloud`](https://login.x-humanoid-cloud.com/?responseType=code&clientId=fd6c22fb&redirectUri=https%3A%2F%2Fopen.x-humanoid-cloud.com%2Fhome&stamp=1778429122172&env=cloud)
  📄 toolchain platform covering skill invocation, agent configuration, and deployment.
 
-- **DexCap** — [`dexcap.github.io`](https://dexcap.github.io/)
+- **DexCap** — [`dex-cap.github.io`](https://dex-cap.github.io/)
  📄 Stanford dexterous hand data collection system, using motion capture cameras to collect human dexterous manipulation data at scale for Sim-to-Real transfer.
 
 - **Dobb-E** — [`dobb-e.com`](https://dobb-e.com/)
@@ -355,45 +299,16 @@
  📄 software platform, with unified API, module registry, remote operations, and fleet management.
 
 - **NetEase Lingdong Lingjue** — [`lingdong.fuxi.163.com/productSummary/wj`](https://lingdong.fuxi.163.com/productSummary/wj)
- 📄 Embodied AI model and training framework for mining excavator loading.
-- **NetEase Lingdong Lingjue** — [`lingdong.fuxi.163.com/productSummary/wj`](https://lingdong.fuxi.163.com/productSummary/wj)
- 📄 Embodied AI model and training framework for mining excavator loading.
-
-- **Viam** — [`www.viam.com`](https://www.viam.com)
- 📄 software platform, with unified API, module registry, remote operations, and fleet management.
-
-- **Tencent Tairos** — [`tairos.tencent.com`](https://tairos.tencent.com/)
- 📄 open embodied AI platform, providing models, tools, and data services.
-
-- **Agibot LinkCraft Platform** — [`www.agibot.com.cn/filepage/295.html`](https://www.agibot.com.cn/filepage/295.html)
- 📄 Agibotzero-code robot content creation platform, supporting motion imitation and speech-driven task generation.
-
-- **kscale·K-Bot** — [`docs.kscale.dev/category/k-bot`](https://docs.kscale.dev/category/k-bot)
- 📄 open-sourcefull-stack humanoid platform
-
-- **JD JoyInside** — [`joyinside.com`](https://joyinside.com/)
- 📄 conversational agent platform
-
-- **GR-1 (ByteDance Model)** — [`github.com/bytedance/GR-1`](https://github.com/bytedance/GR-1)
- 📄 ByteDance open-source GPT-style vision robot model for language-conditioned multitask learning.
-
-- **Dobb-E** — [`dobb-e.com`](https://dobb-e.com/)
- 📄 NYU full-stack pipeline from hardware to data, with low-cost handheld Stick hardware, dataset, and imitation learning frameworkobots to learn tasks from 15 min demos.
-
-- **DexCap** — [`dexcap.github.io`](https://dexcap.github.io/)
- 📄 Stanford dexterous hand data collection system, using motion capture cameras to collect human dexterous manipulation data at scale for Sim-to-Real transfer.
-
-- **Beijing Humanoid Innovation Center·Huisi Kaiwu** — [`login.x-humanoid-cloud.com/?responseType=code&clientId=fd6c22fb&redirectUri=https%3A%2F%2Fopen.x-humanoid-cloud.com%2Fhome&stamp=1778429122172&env=cloud`](https://login.x-humanoid-cloud.com/?responseType=code&clientId=fd6c22fb&redirectUri=https%3A%2F%2Fopen.x-humanoid-cloud.com%2Fhome&stamp=1778429122172&env=cloud)
- 📄 toolchain platform covering skill invocation, agent configuration, and deployment.
-
-- **ALOHA 2** — [`aloha-2.github.io`](https://aloha-2.github.io/)
- 📄 Low-cost open-source hardware platform, with tutorials and MuJoCo simulation models.
+  📄 Embodied AI model and training framework for mining excavator loading.
 
 - **Unitree XR Teleoperation** — [`unitreerobotics/xr_teleoperate`](https://github.com/unitreerobotics/xr_teleoperate) 
- 📄 XR-based (Apple Vision Pro/Quest) H1/G1 humanoid teleoperation system
+  📄 XR-based (Apple Vision Pro/Quest) H1/G1 humanoid teleoperation system
 
 - **RoboWiki** — [`yfrobotics/robowiki`](https://github.com/yfrobotics/robowiki) 
- 📄 Robotics wiki (Yunfei Robotics Lab).
+  📄 Robotics wiki (Yunfei Robotics Lab).
+
+- **Unitree Robot Control Guide** — [`unitreerobotics/unitree_guide`](https://github.com/unitreerobotics/unitree_guide) 
+  📄 Open-source tutorial for Unitree quadruped robot control, suitable for beginners.
 
 [↑ Back to TOC](#toc)
 
@@ -404,7 +319,7 @@
 - **Beijing humanoid robot Innovation Center · Huisi Kaiwu** — [`login.x-humanoid-cloud.com/?responseType=code&clientId=fd6c22fb&redirectUri=https%3A%2F%2Fopen.x-humanoid-cloud.com%2Fhome&stamp=1778429122172&env=cloud`](https://login.x-humanoid-cloud.com/?responseType=code&clientId=fd6c22fb&redirectUri=https%3A%2F%2Fopen.x-humanoid-cloud.com%2Fhome&stamp=1778429122172&env=cloud)
  📄 A toolchain platform for general-purpose embodied AI applications, covering skill invocation, agent configuration, and real-world deployment.
 
-- **DexCap** — [`dexcap.github.io`](https://dexcap.github.io/)
+- **DexCap** — [`dex-cap.github.io`](https://dex-cap.github.io/)
  📄 A dexterous-hand data collection system from Stanford that uses motion capture and depth cameras to collect human hand-manipulation data at scale and low cost, supporting fine-grained sim-to-real transfer.
 
 - **Dobb-E** — [`dobb-e.com`](https://dobb-e.com/)
@@ -433,23 +348,6 @@
 
 [↑ Back to TOC](#toc)
 
----
-
-<a name=tutorials></a>
-
-## 📖 Tutorials
-
-- **every-embodied** — [`datawhalechina/every-embodied`](https://github.com/datawhalechina/every-embodied) ⭐ 2.2k 
- 📄 Build VLA/OpenVLA/SmolVLA/Pi0 from scratch with only Python basics.
-
-- **Unitree Robot Control Guide** — [`unitreerobotics/unitree_guide`](https://github.com/unitreerobotics/unitree_guide) 
- 📄 open-source tutorial for Unitree quadruped robot control
-
-[↑ Back to TOC](#toc)
-
-
----
-
 <a name=reasoning-rl></a>
 
 ## 🧠 Reasoning / Reinforcement Learning
@@ -467,10 +365,6 @@
  📄 LeRobot-based imitation learning tool for G1 bimanual dexterous hand data.
 
 [↑ Back to TOC](#toc)
-
-
----
-
 
 <a name=slam-perception></a>
 
@@ -508,7 +402,6 @@
 
 [↑ Back to TOC](#toc)
 
----
 
 <a name=middleware-ros></a>
 
@@ -588,6 +481,14 @@
 
 [↑ Back to TOC](#toc)
 
----
 
-*Data updated: June 15, 2026*
+<a name=other></a>
+
+## 🛒 Other
+
+> Tools, platforms, and projects not covered by the above categories
+
+[↑ Back to TOC](#toc)
+
+
+*Data updated: June 22, 2026*

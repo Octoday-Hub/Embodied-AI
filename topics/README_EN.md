@@ -35,8 +35,6 @@
 
 We aim to build an open gateway to embodied AI knowledge. Whether you work in a research lab or on the factory floor, your curiosity and hands-on experience both have a place here.
 
-
-
 ### 🌌 Why 'Octoday'?
 
 Beyond the conventional seven-day cycle, **"Octoday" stands for an extra day beyond the ordinary.**

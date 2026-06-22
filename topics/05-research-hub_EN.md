@@ -1,10 +1,7 @@
 # Research & Competition Hub
 
-> **Collected: June 8-9, 2026**
 > Featuring **21** robotics / embodied AI competitions + **10** core academic conferences
 > This module integrates competitions and academic conferences, offering a one-stop view of frontier dynamics and competitive events in embodied AI.
-
----
 
 # 📅 Academic Calendar
 
@@ -16,7 +13,7 @@
 
 | Month | Conference |
 |:---|:---|
-| **June** | [ICRA 2026 (Jun 1-5)](#1-icra-2026-ieee-international-conference-on-robotics-and-automation) ｜ [CVPR 2026 (Jun 3-7)](#6-cvpr-2026-ieee-cvf-conference-on-computer-vision-and-pattern-recognition) |
+| **June** | [ICRA 2026 (Jun 1-5·Ended)](#1-icra-2026-ieee-international-conference-on-robotics-and-automation) ｜ [CVPR 2026 (Jun 3-7·Ended)](#6-cvpr-2026-ieee-cvf-conference-on-computer-vision-and-pattern-recognition) |
 | **July** | [ICML 2026 (Jul 6-11)](#7-icml-2026-international-conference-on-machine-learning) ｜ [RSS 2026 (Jul 13-17)](#3-rss-2026-robotics-science-and-systems) |
 | **August** | [IJCAI-ECAI 2026 (Aug 15-21)](#10-ijcai-ecai-2026-international-joint-conference-on-artificial-intelligence) |
 | **September** | [IROS 2026 (Sep 27-Oct 1)](#2-iros-2026-ieeerj-international-conference-on-intelligent-robots-and-systems) |
@@ -29,51 +26,25 @@
 |:---|:---|
 | **February** | [AAAI 2027 (Feb 16-23)](#8-aaai-2027-aaai-conference-on-artificial-intelligence) |
 
----
 
 ## 🏆 2026 Competition Calendar
 
-### Q1 (Jan - Mar)
-
 | Month | Events |
 |-------|--------|
-| **Mar** | [RoboMaster University League](#10-robomaster-2026) ｜ [China Univ. Intelligent Robot Creative Contest - Registration](#14-9th-china-university-intelligent-robot-creative-contest) ｜ [RAICOM - Registration Open](#15-raicom-ruikang-robot-developer-contest) |
-| **Mar** | [China Robot & AI Contest Regional Rounds Start](#13-28th-china-robot-and-ai-contest) |
-
-### Q2 (Apr - Jun)
-
-| Month | Events |
-|-------|--------|
-| **Apr** | [Beijing Humanoid Robot Half Marathon (4.19)](#19-beijing-humanoid-robot-half-marathon) ｜ [VEX Worlds (4.21-30)](#4-vex-robotics-world-championship-2026) |
-| **Apr** | [FIRST Championship (4.29-5.2)](#5-first-championship-2026) ｜ [Embedded Chip & System Design Contest Starts](#16-national-undergraduate-embedded-chip-and-system-design-contest) |
-| **May** | [China Robot Contest + RoboCup China (5.1-5)](#9-2026-china-robot-contest-and-robocup-china) ｜ [RoboMaster Regional](#10-robomaster-2026) |
-| **May** | [China Univ. Intelligent Robot Creative Contest - Deadline (5.8)](#14-9th-china-university-intelligent-robot-creative-contest) |
-| **Jun** | [ICRA 2026 Challenges (6.1-5)](#2-icra-2026-robot-challenges) ｜ [MATE ROV World Championship (6.25-27)](#8-mate-rov-2026-underwater-robot-world-championship) |
-| **Jun** | [RoboCup 2026 World Championship (6.30-7.6)](#1-robocup-2026) |
-
-### Q3 (Jul - Sep)
-
-| Month | Events |
-|-------|--------|
-| **Jul** | [RoboSub 2026 (7.11-16)](#7-robosub-2026-29th-auv-competition) ｜ [Intelligent Robot Creative Contest Finals (7.12-13)](#14-9th-china-university-intelligent-robot-creative-contest) |
-| **Jul** | [RoboMaster National Finals](#10-robomaster-2026) ｜ [ROBOCON 2026](#11-robocon-2026-25th-edition) ｜ [ROBOTAC 2026](#12-robotac-2026) |
-| **Aug** | [RAICOM Finals](#15-raicom-ruikang-robot-developer-contest) ｜ [WRC World Robot Contest (8.19-23)](#17-2026-world-robot-contest-wrc) |
-| **Aug** | [World Humanoid Robot Games (8.22-26)](#18-2026-world-humanoid-robot-games-2nd-edition) |
-
-### Q4 (Oct - Dec)
-
-| Month | Events |
-|-------|--------|
+| **Mar** | [RoboMaster University League](#10-robomaster-2026) ｜ [China Univ. Intelligent Robot Creative Contest - Registration](#14-9th-china-university-intelligent-robot-creative-contest) ｜ [RAICOM - Registration Open](#15-raicom-ruikang-robot-developer-contest) ｜ [China Robot & AI Contest Regional Rounds Start](#13-28th-china-robot-and-ai-contest) |
+| **Apr** | [Beijing Humanoid Robot Half Marathon (4.19)](#19-beijing-humanoid-robot-half-marathon) ｜ [VEX Worlds (4.21-30)](#4-vex-robotics-world-championship-2026) ｜ [FIRST Championship (4.29-5.2)](#5-first-championship-2026) ｜ [Embedded Chip & System Design Contest Starts](#16-national-undergraduate-embedded-chip-and-system-design-contest) |
+| **May** | [China Robot Contest + RoboCup China (5.1-5)](#9-2026-china-robot-contest-and-robocup-china) ｜ [RoboMaster Regional](#10-robomaster-2026) ｜ [China Univ. Intelligent Robot Creative Contest - Deadline (5.8)](#14-9th-china-university-intelligent-robot-creative-contest) |
+| **Jun** | [ICRA 2026 Challenges (6.1-5·Ended)](#2-icra-2026-robot-challenges) ｜ [MATE ROV World Championship (6.25-27)](#8-mate-rov-2026-underwater-robot-world-championship) ｜ [RoboCup 2026 World Championship (6.30-7.6)](#1-robocup-2026) |
+| **Jul** | [RoboSub 2026 (7.11-16)](#7-robosub-2026-29th-auv-competition) ｜ [Intelligent Robot Creative Contest Finals (7.12-13)](#14-9th-china-university-intelligent-robot-creative-contest) ｜ [RoboMaster National Finals](#10-robomaster-2026) ｜ [ROBOCON 2026](#11-robocon-2026-25th-edition) ｜ [ROBOTAC 2026](#12-robotac-2026) |
+| **Aug** | [RAICOM Finals](#15-raicom-ruikang-robot-developer-contest) ｜ [WRC World Robot Contest (8.19-23)](#17-2026-world-robot-contest-wrc) ｜ [World Humanoid Robot Games (8.22-26)](#18-2026-world-humanoid-robot-games-2nd-edition) |
 | **Nov** | [DARPA Triage Challenge Finals (11.5-13)](#3-darpa-triage-challenge) |
 | **Dec** | [WRO 2026 International Final (12.8-10)](#6-world-robot-olympiad-wro-2026) |
 
----
 
 # Academic Conferences
 
 ## Part I: Core Robotics Conferences
 
----
 
 <a name="1-icra-2026-ieee-international-conference-on-robotics-and-automation"></a>
 
@@ -119,7 +90,6 @@ ICRA 2026 hosts 9 robotics competitions, with the following directly relevant to
 - What Bimanuals Can Do competition
 - LeHome Challenge 2026 (home scene cloth manipulation)
 
----
 
 <a name="2-iros-2026-ieeerj-international-conference-on-intelligent-robots-and-systems"></a>
 
@@ -155,7 +125,6 @@ In 2026, IROS returns to Pittsburgh, USA — home to Carnegie Mellon University 
 | **Robot Learning** | Online learning, transfer learning, meta-learning in robotics |
 | **Medical & Assistive Robotics** | Surgical robots, rehabilitation robots, assistive living |
 
----
 
 <a name="3-rss-2026-robotics-science-and-systems"></a>
 
@@ -196,7 +165,6 @@ RSS has recently accepted a large number of embodied AI papers, including:
 - Whole-body control of humanoid robots
 - New paradigms for imitation learning and teaching from demonstration
 
----
 
 <a name="4-corl-2026-conference-on-robot-learning"></a>
 
@@ -240,7 +208,6 @@ CoRL is **one of the most active venues in embodied AI**, with 2025-2026 papers 
 - Training paradigms for large-scale robot datasets
 - World models in robotic manipulation
 
----
 
 <a name="5-neurips-2026-conference-on-neural-information-processing-systems"></a>
 
@@ -250,19 +217,19 @@ CoRL is **one of the most active venues in embodied AI**, with 2025-2026 papers 
 
 NeurIPS is the **highest-ranked conference in AI and machine learning**, classified as a **CCF A-class** conference. In recent years, NeurIPS has significantly expanded its **embodied AI and robot learning tracks and workshops** — VLA models, world models, and robot RL have become integral parts of the program.
 
-The 40th edition is held in Atlanta, with an expected 13,000+ attendees, making it the largest AI conference in the world.
+The 40th edition's **main venue is in Sydney, Australia** (with satellite venues in Atlanta and Paris). The conference is expected to draw 13,000+ attendees, making it the largest AI conference in the world.
 
 ### Key Information
 
 | Item | Details |
 |:---|:---|
-| **Dates** | December 6-12, 2026 |
-| **Location** | Atlanta, GA, USA · Georgia World Congress Center |
+| **Dates** | December 6-12, 2026 (Main venue: Sydney) |
+| **Location** | **Main venue**: Sydney, Australia · International Convention Centre Sydney (ICC Sydney)<br>**Satellite**: Atlanta, GA, USA · Georgia World Congress Center (Dec 8-13)<br>**Satellite**: Paris, France |
 | **Organizer** | NeurIPS Foundation |
 | **Official Website** | https://neurips.cc/Conferences/2026 |
 | **CCF Rank** | A-class |
 | **Edition** | 40th |
-| **Paper Submission** | To be announced (typically opens in May) |
+| **Paper Submission** | Closed (Deadline: May 7, 2026; Abstract: May 5, 2026) |
 
 ### Embodied AI Related Topics
 
@@ -281,7 +248,6 @@ The 40th edition is held in Atlanta, with an expected 13,000+ attendees, making 
 - **Robotics Competitions** (e.g., MineRL Competition, NetHack Competition)
 - **Datasets & Benchmarks Track** (standardizing robot dataset evaluation)
 
----
 
 <a name="6-cvpr-2026-ieee-cvf-conference-on-computer-vision-and-pattern-recognition"></a>
 
@@ -315,11 +281,9 @@ The 43rd edition is held in Denver. CVPR has recently introduced specialized wor
 | **Vision-Language Models** | Vision encoder training for VLMs |
 | **Embodied AI Workshop** | Regular CVPR workshop on robot vision and embodied intelligence |
 
----
 
 ## Part II: Core Machine Learning Conferences
 
----
 
 <a name="7-icml-2026-international-conference-on-machine-learning"></a>
 
@@ -352,7 +316,6 @@ The 43rd edition is held for the first time in Seoul, South Korea. ICML features
 | **World Models** | Generative world models for planning and control |
 | **Multi-Agent Learning** | Collaborative learning in multi-robot systems |
 
----
 
 <a name="8-aaai-2027-aaai-conference-on-artificial-intelligence"></a>
 
@@ -384,11 +347,9 @@ The 41st edition is held in Montreal, Canada. AAAI features specialized tracks o
 | **Multimodal Learning** | Vision-Language-Action joint modeling |
 | **Human-Robot Interaction AI** | Social robotics, affective computing, collaborative AI |
 
----
 
 ## Part III: Specialized Conferences
 
----
 
 <a name="9-ieee-ras-humanoids-2026-ieee-ras-international-conference-on-humanoid-robots"></a>
 
@@ -398,7 +359,7 @@ The 41st edition is held in Montreal, Canada. AAAI features specialized tracks o
 
 Humanoids is the **world's only top-tier academic conference dedicated exclusively to humanoid robots**, founded in 2000 and organized by IEEE RAS. The conference comprehensively covers humanoid robot mechanical design, motion control, perception and interaction, and AI decision-making — making it the **most authoritative academic platform in humanoid robotics**.
 
-The 25th edition (Silver Jubilee) is held in **Silicon Valley**, closely tied to the global humanoid robotics industry hub. Expected attendance: 1,200+ with 200+ paper submissions.
+The 25th edition (Silver Jubilee) is held in **Silicon Valley · Santa Clara, California**, closely tied to the global humanoid robotics industry hub. Expected attendance: 1,200+ with 200+ paper submissions.
 
 ### Key Information
 
@@ -433,7 +394,6 @@ The 25th edition (Silver Jubilee) is held in **Silicon Valley**, closely tied to
 - **Silicon Valley Industry Connection**: Deep interaction with Agility, Tesla Optimus, Figure AI, and other humanoid companies
 - **Public Forum (Dec 6)**: Showcasing the latest humanoid robot technologies to the general public
 
----
 
 <a name="10-ijcai-ecai-2026-international-joint-conference-on-artificial-intelligence"></a>
 
@@ -467,7 +427,6 @@ IJCAI covers all sub-fields of AI and features a dedicated **"AI and Robotics" s
 | **AI and Health** | Medical robotics and AI diagnostics |
 | **AI and Robotics** | **Embodied intelligence / cross-disciplinary AI and robotics research** |
 
----
 
 ## Part IV: Conference Classification Overview
 
@@ -475,10 +434,10 @@ IJCAI covers all sub-fields of AI and features a dedicated **"AI and Robotics" s
 
 | Field | Representative Conferences |
 |:---|:---|
-| **General Robotics** | ICRA · IROS · RSS |
-| **Robot Learning** | CoRL · NeurIPS · ICML |
-| **Computer Vision** | CVPR |
-| **General AI** | AAAI · IJCAI |
+| **General Robotics** | ICRA (CCF B) · IROS (CCF C) · RSS (CCF B) |
+| **Robot Learning** | CoRL · NeurIPS (CCF A) · ICML (CCF A) |
+| **Computer Vision** | CVPR (CCF A) |
+| **General AI** | AAAI (CCF A) · IJCAI (CCF A) |
 | **Humanoid Robots** | IEEE-RAS Humanoids |
 
 *(CCF rankings: ICRA = B, RSS = B, IROS = C, NeurIPS = A, ICML = A, CVPR = A, AAAI = A, IJCAI = A; CoRL and Humanoids are not CCF-ranked)*
@@ -494,21 +453,15 @@ IJCAI covers all sub-fields of AI and features a dedicated **"AI and Robotics" s
 | **Aug 15-21, 2026** | IJCAI-ECAI 2026 | Bremen, Germany |
 | **Sep 27-Oct 1, 2026** | IROS 2026 | Pittsburgh, USA |
 | **Nov 9-12, 2026** | CoRL 2026 | Austin, USA |
-| **Dec 6-12, 2026** | NeurIPS 2026 | Atlanta, USA |
-| **Dec 7-9, 2026** | Humanoids 2026 | Silicon Valley, USA |
+| **Dec 6-12, 2026** | NeurIPS 2026 | Sydney, Australia (main) · Atlanta (satellite) |
+| **Dec 6-9, 2026** | Humanoids 2026 | Silicon Valley · Santa Clara, USA |
 | **Feb 16-23, 2027** | AAAI 2027 | Montreal, Canada |
 
----
-
-*Data collected: June 9, 2026*
-
----
 
 # Competition Calendar
 
 ## I. International Comprehensive Events
 
----
 
 <a name="1-robocup-2026"></a>
 
@@ -550,7 +503,6 @@ RoboCup (Robot World Cup) is the world's largest and most influential robot socc
 - IROS RoboCup Best Paper Award
 - Gerhard K. Kraetzschmar RoboCup Award
 
----
 
 <a name="2-icra-2026-robot-challenges"></a>
 
@@ -612,7 +564,6 @@ ICRA 2026 is held in Vienna, Austria, featuring **9 robot competitions** coverin
 #### COMP 9: Legged Robot Challenges
 - **Content**: Test quadruped and humanoid robots for autonomous traversability on diverse terrains
 
----
 
 <a name="3-darpa-triage-challenge"></a>
 
@@ -642,11 +593,9 @@ DARPA Triage Challenge (DTC), organized by the U.S. Defense Advanced Research Pr
 | System Competition | Nov 5 - 13, 2026 |
 | Awards Ceremony | Nov 13, 2026 |
 
----
 
 ## II. International Youth Education Events
 
----
 
 <a name="4-vex-robotics-world-championship-2026"></a>
 
@@ -673,7 +622,6 @@ DARPA Triage Challenge (DTC), organized by the U.S. Defense Advanced Research Pr
 | VEX V5 Robotics Competition | Middle / High School |
 | VEX U | University |
 
----
 
 <a name="5-first-championship-2026"></a>
 
@@ -701,7 +649,6 @@ Founded by Dean Kamen in 1989, FIRST is one of the world's most influential **yo
 | **FLL** | FIRST Lego League | Elementary / Middle School |
 | **FLL Jr** | FIRST Lego League Jr | Early Elementary |
 
----
 
 <a name="6-world-robot-olympiad-wro-2026"></a>
 
@@ -731,11 +678,9 @@ WRO is an international robotics competition for youth aged **8-19**, attracting
 | **Future Innovators** | Open-ended innovation projects |
 | **Future Engineers** | Autonomous driving themed |
 
----
 
 ## III. International Underwater / Specialized Robotics Events
 
----
 
 <a name="7-robosub-2026-29th-auv-competition"></a>
 
@@ -776,7 +721,6 @@ RoboSub is the **world's most influential autonomous underwater vehicle (AUV) co
 - **Depth**: 14-16 ft
 - **Recommended Sensors**: IMU, pressure sensor, DVL, hydrophones, camera
 
----
 
 <a name="8-mate-rov-2026-underwater-robot-world-championship"></a>
 
@@ -815,11 +759,9 @@ Organized by the Marine Technology Society (MTS), the MATE ROV Competition is th
 - Marine ecology research (coral garden transect flying)
 - MATE buoy data collection
 
----
 
 ## IV. China University Comprehensive Competitions
 
----
 
 <a name="9-2026-china-robot-contest-and-robocup-china"></a>
 
@@ -848,7 +790,6 @@ One of China's **most authoritative robotics competitions**, organized by the Ch
 | **Rescue Robot** | Obstacle Crossing & Search, Autonomous Mapping |
 | **Innovation & Creative** | Multi-robot Arts & Culture, Robot Innovation Challenge |
 
----
 
 <a name="10-robomaster-2026"></a>
 
@@ -876,7 +817,6 @@ Founded by **DJI**, RoboMaster is the **most spectacular and technically challen
 | **Premier League (RMUC)** | 7v7 combat (Hero/Infantry/Engineer/Sentry/Aerial/Dart) |
 | **University League (RMUL)** | 3v3 combat + 1v1 infantry + Engineering Challenge |
 
----
 
 <a name="11-robocon-2026-25th-edition"></a>
 
@@ -901,7 +841,6 @@ One of China's **most influential comprehensive university robot competitions**,
 
 **"Martial Arts Mystery"** — a robot competition themed around Chinese martial arts culture.
 
----
 
 <a name="12-robotac-2026"></a>
 
@@ -921,11 +860,9 @@ One of China's **most influential comprehensive university robot competitions**,
 | **Website** | https://www.curc.cn |
 | **Type** | Mobile robot combat |
 
----
 
 ## V. China AI & Robotics Discipline Competitions
 
----
 
 <a name="13-28th-china-robot-and-ai-contest"></a>
 
@@ -949,7 +886,6 @@ Organized by the Chinese Association for Artificial Intelligence (CAAI), this co
 
 Guizhou, Ningxia, Jilin, Guangdong, Shanghai, Jiangxi, Heilongjiang, Hainan, Chongqing, and more.
 
----
 
 <a name="14-9th-china-university-intelligent-robot-creative-contest"></a>
 
@@ -998,7 +934,6 @@ Sunny Optical "Future Vision" Creative Contest, Software System Security Contest
 | Second Prize | 40% |
 | Third Prize | 40% |
 
----
 
 <a name="15-raicom-ruikang-robot-developer-contest"></a>
 
@@ -1030,7 +965,6 @@ Formerly the RoboCom Robot Developer Contest, RAICOM is organized by the **Talen
 | **CAIP** | Programming & Algorithm Track | Coding & algorithmic challenges |
 | **CAIR** | Engineering Competition/Robotics Track | Hands-on robot combat |
 
----
 
 <a name="16-national-undergraduate-embedded-chip-and-system-design-contest"></a>
 
@@ -1050,11 +984,9 @@ A **National A-Class event** on the MOE university competition ranking list, foc
 | **Website** | https://www.socchina.net |
 | **Track Highlight** | Chip application tracks include robot-specific challenges (D-Grass Robot, etc.) |
 
----
 
 ## VI. China Comprehensive / Innovation Events
 
----
 
 <a name="17-2026-world-robot-contest-wrc"></a>
 
@@ -1083,7 +1015,6 @@ Organized by the Chinese Institute of Electronics (CIE), WRC has been held for 1
 | **Robot Application Contest** | Industrial, agricultural, and medical applications |
 | **Youth Robot Design Contest** | Cultivating teamwork and innovation in youth |
 
----
 
 <a name="18-2026-world-humanoid-robot-games-2nd-edition"></a>
 
@@ -1112,7 +1043,6 @@ The world's first and only **Olympic-style competition exclusively for humanoid 
 #### Scenario-Based (6 Events)
 Factory, hotel, home, emergency response, hospital, retail
 
----
 
 <a name="19-beijing-humanoid-robot-half-marathon"></a>
 
@@ -1131,11 +1061,9 @@ The world's **first branded humanoid robot marathon event**, featuring over 100 
 | **Organizer** | Beijing E-Town |
 | **Distance** | 21.0975 km (half marathon) |
 
----
 
 ## VII. Specialized / International Innovation Competitions
 
----
 
 <a name="20-agibot-world-challenge-2026-embodied-ai-special"></a>
 
@@ -1162,7 +1090,6 @@ AgiBot World Challenge 2026 is a specialized competition focused on **general-pu
 | **VLM+VLA** | Vision-Language Model + Vision-Language Action |
 | **Whole-Body Control** | Full-body motion control for humanoid robots |
 
----
 
 <a name="21-real-i-embodied-ai-learning-challenge"></a>
 
@@ -1186,7 +1113,6 @@ REAL-I (inaugural) was launched by ICRA 2026, focusing on **real-world embodied 
 2. Daily chemical bottle pick-and-place (June 3)
 3. Parcel scanning (June 4)
 
----
 
 ## VIII. Competition Classification Overview
 
@@ -1203,8 +1129,7 @@ REAL-I (inaugural) was launched by ICRA 2026, focusing on **real-world embodied 
 | **Embodied AI** | REAL-I, AgiBot World Challenge (at ICRA) |
 | **Underwater Robotics** | RoboSub (AUV), MATE ROV (ROV) |
 
----
 
-*Data collected: June 8, 2026*
+*Data updated: June 22, 2026*
 *Sources: Official competition websites and authoritative media reports*
 *Version: v3.0 EN (academic conferences removed, anchor navigation added, 21 events)*

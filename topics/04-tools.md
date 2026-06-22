@@ -1,22 +1,20 @@
 # 🛠️ 工具与开源项目
 
-> 整理时间：2026-06-08 · 聚焦机器人相关开源库
+> 更新日期：2026-06-22 · 聚焦机器人相关开源库
+> 
+> 💡 本列表持续更新，如果你发现好工具未被收录，或现有信息需要更新，请直接提交 [PR](https://github.com/Octoday-Hub/Embodied-AI/pulls) 或在 [Issues](https://github.com/Octoday-Hub/Embodied-AI/issues) 中反馈。
 
----
 
 <a name="toc"></a>
 
 ## 目录
 
-**工具与项目分类：** [🎮 仿真平台](#simulation-platforms) · [🤖 模型](#models) · [🧰 通用工具与库](#general-tools) · [🏗️ 学习框架](#learning-frameworks) · [🤖 机器人项目](#robot-projects) · [📖 教程](#tutorials) · [🧠 推理/强化学习](#reasoning-rl) · [🗺️ SLAM 与感知](#slam-perception) · [🔧 中间件与 ROS 工具](#middleware-ros)
+**工具与项目分类：** [🎮 仿真平台](#simulation-platforms) · [🤖 模型](#models) · [🧰 通用工具与库](#general-tools) · [🏗️ 学习框架](#learning-frameworks) · [🤖 机器人项目](#robot-projects) · [🧠 推理/强化学习](#reasoning-rl) · [🗺️ SLAM 与感知](#slam-perception) · [🔧 中间件与 ROS 工具](#middleware-ros) · [🛒 其他](#other)
 
----
 
 <a name="simulation-platforms"></a>
 
 ## 🎮 仿真平台
-
-
 
 - **BEHAVIOR-1K** — [`StanfordVL/BEHAVIOR-1K`](https://github.com/StanfordVL/BEHAVIOR-1K) ⭐ 1.5k  
   📄 斯坦福大学出品，1,000 种日常生活活动的具身 AI 基准测试与仿真平台
@@ -28,9 +26,6 @@
   📄 面向自主无人机的开源软件系统，支持目标检测、SLAM 导航、编队控制等
 
 [↑ 回目录](#toc)
-
----
-
 
 - **Aerial Gym** — [`github.com/ntnu-arl/aerial_gym_simulator`](https://github.com/ntnu-arl/aerial_gym_simulator)
   📄 基于 Isaac Gym 的空中机器人仿真环境，支持无人机强化学习训练。
@@ -53,7 +48,7 @@
 - **Drake** — [`github.com/RobotLocomotion/drake`](https://github.com/RobotLocomotion/drake)
   📄 面向机器人建模、规划与控制的工具包，适用于系统分析、仿真和算法研究。
 
-- **EmbodiedCity** — [`embodied-city.fiblab.net`](https://embodied-city.fiblab.net/)
+- **EmbodiedCity** — [`github.com/tsinghua-fib-lab/EmbodiedCity`](https://github.com/tsinghua-fib-lab/EmbodiedCity)
   📄 真实开放环境具身智能平台。清华大学发布，基于虚幻引擎5打造真实城市环境，提供在线和离线两种部署方式，支持智能体在开放城市中进行导航与任务规划。
 
 - **Gazebo Sim** — [`gazebosim.org`](https://gazebosim.org)
@@ -95,7 +90,7 @@
 - **NVIDIA Isaac Sim** — [`developer.nvidia.com/isaac-sim`](https://developer.nvidia.com/isaac-sim)
   📄 基于 Omniverse 构建的机器人仿真平台，支持物理 AI 训练、合成数据生成和 Sim2Real 工作流。
 
-- **NVIDIA RAD-MARS** — [`www.nvidia.com/en-us/omniverse/solutions/robotics`](https://www.nvidia.com/en-us/omniverse/solutions/robotics/)
+- **NVIDIA RAD-MARS** — [`developer.nvidia.com/omniverse`](https://developer.nvidia.com/omniverse)
   📄 机器人辅助设计与仿真平台。基于Omniverse构建，允许在物理级逼真的环境中设计机器人硬件并测试运动学算法，连接了机械设计与AI训练。
 
 - **OmniGibson** — [`behavior.stanford.edu/omnigibson/overview.html`](https://behavior.stanford.edu/omnigibson/overview.html)
@@ -173,7 +168,6 @@
 
 [↑ 回目录](#toc)
 
----
 
 <a name="general-tools"></a>
 
@@ -255,7 +249,6 @@
 
 [↑ 回目录](#toc)
 
----
 
 <a name="learning-frameworks"></a>
 
@@ -276,9 +269,11 @@
 - **AgileX Cobot Magic** — [`agilexrobotics`](https://github.com/agilexrobotics)  
   📄 基于 Mobile ALOHA 架构的开源双臂移动操作平台（松灵机器人），含 PiPER 机械臂、AGV 底盘和深度相机
 
+- **every-embodied** — [`datawhalechina/every-embodied`](https://github.com/datawhalechina/every-embodied) ⭐ 2.2k  
+  📄 仅需 Python 基础，从 0 构建 VLA/OpenVLA/SmolVLA/Pi0 的具身智能学习路径
+
 [↑ 回目录](#toc)
 
----
 
 <a name="robot-projects"></a>
 
@@ -386,7 +381,7 @@
 - **北京人形机器人创新中心·慧思开物** — [`login.x-humanoid-cloud.com/?responseType=code&clientId=fd6c22fb&redirectUri=https%3A%2F%2Fopen.x-humanoid-cloud.com%2Fhome&stamp=1778429122172&env=cloud`](https://login.x-humanoid-cloud.com/?responseType=code&clientId=fd6c22fb&redirectUri=https%3A%2F%2Fopen.x-humanoid-cloud.com%2Fhome&stamp=1778429122172&env=cloud)
   📄 面向通用具身智能场景的工具链平台，覆盖技能调用、智能体配置到场景部署。
 
-- **DexCap** — [`dexcap.github.io`](https://dexcap.github.io/)
+- **DexCap** — [`dex-cap.github.io`](https://dex-cap.github.io/)
   📄 灵巧手数据采集系统。斯坦福开源，通过手部动作捕捉系统和深度相机，低成本、大规模地采集人类灵巧手操作数据，支持精细化的Sim-to-Real迁移。
 
 - **Dobb-E** — [`dobb-e.com`](https://dobb-e.com/)
@@ -412,38 +407,6 @@
 
 - **网易灵动·灵掘** — [`lingdong.fuxi.163.com/productSummary/wj`](https://lingdong.fuxi.163.com/productSummary/wj)
   📄 面向矿山挖掘机装车场景的具身智能模型与训练框架。
-- **网易灵动·灵掘** — [`lingdong.fuxi.163.com/productSummary/wj`](https://lingdong.fuxi.163.com/productSummary/wj)
-  📄 面向矿山挖掘机装车场景的具身智能模型与训练框架。
-
-- **Viam** — [`www.viam.com`](https://www.viam.com)
-  📄 面向机器人构建、部署和管理的软件平台，提供统一 API、模块注册、远程运维和车队级管理能力。
-
-- **腾讯 Tairos (钛螺丝)** — [`tairos.tencent.com`](https://tairos.tencent.com/)
-  📄 面向机器人场景的具身智能开放平台，提供模型、开发工具和数据服务。
-
-- **智元灵创平台 (LinkCraft)** — [`www.agibot.com.cn/filepage/295.html`](https://www.agibot.com.cn/filepage/295.html)
-  📄 智元机器人推出的零代码机器人内容创作平台，支持动作模仿、语音驱动和任务脚本生成。
-
-- **kscale·K-Bot** — [`docs.kscale.dev/category/k-bot`](https://docs.kscale.dev/category/k-bot)
-  📄 面向开发者和研究人员的开源全栈人形机器人平台。
-
-- **京东 JoyInside** — [`joyinside.com`](https://joyinside.com/)
-  📄 面向机器人与 AI 玩具等智能硬件的对话智能体平台。
-
-- **GR-1 (ByteDance Model)** — [`github.com/bytedance/GR-1`](https://github.com/bytedance/GR-1)
-  📄 字节跳动开源的 GPT 风格视觉机器人操作模型，面向语言条件下的多任务机器人操作学习与动作预测，需与智元机器人的 GR-1 人形机器人整机区分。
-
-- **Dobb-E** — [`dobb-e.com`](https://dobb-e.com/)
-  📄 硬件到数据的全栈方案。NYU开源，包含低成本手持采集硬件"Stick"、数据集和模仿学习框架，核心是让机器人在15分钟示教后学会新家务。
-
-- **DexCap** — [`dexcap.github.io`](https://dexcap.github.io/)
-  📄 灵巧手数据采集系统。斯坦福开源，通过手部动作捕捉系统和深度相机，低成本、大规模地采集人类灵巧手操作数据，支持精细化的Sim-to-Real迁移。
-
-- **北京人形机器人创新中心·慧思开物** — [`login.x-humanoid-cloud.com/?responseType=code&clientId=fd6c22fb&redirectUri=https%3A%2F%2Fopen.x-humanoid-cloud.com%2Fhome&stamp=1778429122172&env=cloud`](https://login.x-humanoid-cloud.com/?responseType=code&clientId=fd6c22fb&redirectUri=https%3A%2F%2Fopen.x-humanoid-cloud.com%2Fhome&stamp=1778429122172&env=cloud)
-  📄 面向通用具身智能场景的工具链平台，覆盖技能调用、智能体配置到场景部署。
-
-- **ALOHA 2** — [`aloha-2.github.io`](https://aloha-2.github.io/)
-  📄 面向双臂遥操作与具身数据采集的低成本开源硬件平台，附带教程与 MuJoCo 仿真模型。
 
 - **宇树科技 XR 遥操作** — [`unitreerobotics/xr_teleoperate`](https://github.com/unitreerobotics/xr_teleoperate)  
   📄 基于 XR 设备（Apple Vision Pro/Quest 等）的 H1/G1 人形机器人遥操作系统
@@ -451,23 +414,11 @@
 - **RoboWiki** — [`yfrobotics/robowiki`](https://github.com/yfrobotics/robowiki)  
   📄 机器人领域的维基百科（云飞机器人实验室）
 
-[↑ 回目录](#toc)
-
----
-
-<a name="tutorials"></a>
-
-## 📖 教程
-
-- **every-embodied** — [`datawhalechina/every-embodied`](https://github.com/datawhalechina/every-embodied) ⭐ 2.2k  
-  📄 仅需 Python 基础，从 0 构建 VLA/OpenVLA/SmolVLA/Pi0 的具身智能学习路径
-
 - **宇树科技机器人控制教程** — [`unitreerobotics/unitree_guide`](https://github.com/unitreerobotics/unitree_guide)  
   📄 宇树科技四足机器人控制的开源教程项目，适合入门学习与参考
 
 [↑ 回目录](#toc)
 
----
 
 <a name="reasoning-rl"></a>
 
@@ -486,10 +437,6 @@
   📄 基于 LeRobot 框架的模仿学习工具，用于 G1 双臂灵巧手数据的训练与测试
 
 [↑ 回目录](#toc)
-
----
-
----
 
 <a name="slam-perception"></a>
 
@@ -524,7 +471,6 @@
 
 [↑ 回目录](#toc)
 
----
 
 <a name="middleware-ros"></a>
 
@@ -589,6 +535,14 @@
 
 [↑ 回目录](#toc)
 
----
 
-*数据整理日期：2026年6月15日*
+<a name="other"></a>
+
+## 🛒 其他
+
+> 未被以上分类覆盖的工具、平台与项目
+
+[↑ 回目录](#toc)
+
+
+*数据更新日期：2026年6月22日*
