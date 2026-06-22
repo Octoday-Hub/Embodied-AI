@@ -6,9 +6,11 @@
 
 ---
 
-# 📅 Conference Industry Calendar
+# 📅 Academic Calendar
 
-# 📅 2026-2027 Industry Calendar (Click to jump to details)
+> Click a conference/event name to jump to details
+
+## 🎤 2026-2027 Conference Calendar
 
 ### 📍 2026
 
@@ -29,11 +31,7 @@
 
 ---
 
----
-
-# 📅 Competition Industry Calendar
-
-# 📅 2026 Industry Calendar (click events to jump to details)
+## 🏆 2026 Competition Calendar
 
 ### Q1 (Jan - Mar)
 
@@ -71,11 +69,9 @@
 
 ---
 
----
-
 # Academic Conferences
 
-# Part I: Core Robotics Conferences
+## Part I: Core Robotics Conferences
 
 ---
 
@@ -321,7 +317,7 @@ The 43rd edition is held in Denver. CVPR has recently introduced specialized wor
 
 ---
 
-# Part II: Core Machine Learning Conferences
+## Part II: Core Machine Learning Conferences
 
 ---
 
@@ -390,7 +386,7 @@ The 41st edition is held in Montreal, Canada. AAAI features specialized tracks o
 
 ---
 
-# Part III: Specialized Conferences
+## Part III: Specialized Conferences
 
 ---
 
@@ -473,9 +469,9 @@ IJCAI covers all sub-fields of AI and features a dedicated **"AI and Robotics" s
 
 ---
 
-# Part IV: Conference Classification Overview
+## Part IV: Conference Classification Overview
 
-## By Field
+### By Field
 
 | Field | Representative Conferences |
 |:---|:---|
@@ -487,7 +483,7 @@ IJCAI covers all sub-fields of AI and features a dedicated **"AI and Robotics" s
 
 *(CCF rankings: ICRA = B, RSS = B, IROS = C, NeurIPS = A, ICML = A, CVPR = A, AAAI = A, IJCAI = A; CoRL and Humanoids are not CCF-ranked)*
 
-## By Timeline
+### By Timeline
 
 | Dates | Conference | Location |
 |:---|:---|:---|
@@ -510,7 +506,7 @@ IJCAI covers all sub-fields of AI and features a dedicated **"AI and Robotics" s
 
 # Competition Calendar
 
-# I. International Comprehensive Events
+## I. International Comprehensive Events
 
 ---
 
@@ -648,7 +644,7 @@ DARPA Triage Challenge (DTC), organized by the U.S. Defense Advanced Research Pr
 
 ---
 
-# II. International Youth Education Events
+## II. International Youth Education Events
 
 ---
 
@@ -737,7 +733,7 @@ WRO is an international robotics competition for youth aged **8-19**, attracting
 
 ---
 
-# III. International Underwater / Specialized Robotics Events
+## III. International Underwater / Specialized Robotics Events
 
 ---
 
@@ -821,7 +817,7 @@ Organized by the Marine Technology Society (MTS), the MATE ROV Competition is th
 
 ---
 
-# IV. China University Comprehensive Competitions
+## IV. China University Comprehensive Competitions
 
 ---
 
@@ -927,7 +923,7 @@ One of China's **most influential comprehensive university robot competitions**,
 
 ---
 
-# V. China AI & Robotics Discipline Competitions
+## V. China AI & Robotics Discipline Competitions
 
 ---
 
@@ -1056,7 +1052,7 @@ A **National A-Class event** on the MOE university competition ranking list, foc
 
 ---
 
-# VI. China Comprehensive / Innovation Events
+## VI. China Comprehensive / Innovation Events
 
 ---
 
@@ -1137,7 +1133,7 @@ The world's **first branded humanoid robot marathon event**, featuring over 100 
 
 ---
 
-# VII. Specialized / International Innovation Competitions
+## VII. Specialized / International Innovation Competitions
 
 ---
 
@@ -1192,9 +1188,9 @@ REAL-I (inaugural) was launched by ICRA 2026, focusing on **real-world embodied 
 
 ---
 
-# VIII. Competition Classification Overview
+## VIII. Competition Classification Overview
 
-## By Type
+### By Type
 
 | Category | Representative Events |
 |----------|----------------------|

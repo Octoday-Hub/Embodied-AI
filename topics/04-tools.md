@@ -8,7 +8,7 @@
 
 ## 目录
 
-**工具与项目分类：** [🎮 仿真平台](#simulation-platforms) · [🤖 模型](#models) · [🏗️ 学习框架](#learning-frameworks) · [🤖 机器人项目](#robot-projects) · [📖 教程](#tutorials) · [🧠 推理/强化学习](#reasoning-rl) · [🔧 中间件与 ROS 工具](#middleware-ros) · [🗺️ SLAM 与感知](#slam-perception)
+**工具与项目分类：** [🎮 仿真平台](#simulation-platforms) · [🤖 模型](#models) · [🧰 通用工具与库](#general-tools) · [🏗️ 学习框架](#learning-frameworks) · [🤖 机器人项目](#robot-projects) · [📖 教程](#tutorials) · [🧠 推理/强化学习](#reasoning-rl) · [🗺️ SLAM 与感知](#slam-perception) · [🔧 中间件与 ROS 工具](#middleware-ros)
 
 ---
 
@@ -175,6 +175,11 @@
 
 ---
 
+<a name="general-tools"></a>
+
+## 🧰 通用工具与库
+
+> 涵盖仿真工具、开发框架、中间件、基准和其他通用库
 
 - **AI2-THOR** — [`ai2thor.allenai.org`](https://ai2thor.allenai.org/)
   📄 语义交互模拟器。由艾伦研究所开发，拥有200+精细房间和2600+可交互物体，支持复杂的物体状态改变（如切片、烹饪）。
@@ -247,6 +252,10 @@
 
 - **VIMA** — [`vimalabs.github.io`](https://vimalabs.github.io/)
   📄 多模态具身任务基准。由UIUC等机构推出，提供复杂的"搭建积木"类任务，专门用于评测机器人模型在处理视觉、语言及空间推理混合指令时的表现。
+
+[↑ 回目录](#toc)
+
+---
 
 <a name="learning-frameworks"></a>
 

@@ -84,12 +84,11 @@ A hand-picked selection of books and courses covering the fundamentals of roboti
 
 ### 🔭 (2) Watchtower: Track Frontier Technologies
 
-> Currently featuring `21` curated competitions + `10` curated conferences.
-> Currently featuring `319` curated papers.
+> Currently featuring `21` competitions, `10` conferences, and `319` selected papers.
 
 Check out the [Research & Competition Hub](05-research-hub_EN.md):
 
-A unified collection of **21 robotics / embodied AI competitions** and **10 core academic conferences**, including the 2026-2027 industry calendar, detailed event descriptions, and top conference overviews.
+A curated collection of embodied AI competitions and academic conferences, with the 2026-2027 industry calendar, event details, and top conference overviews.
 
 Explore the [Paper Collection](03-papers_EN.md):
 
@@ -112,7 +111,7 @@ Browse curated papers on embodied intelligence, deepen your understanding with o
 
 Check out [Tools & Open-Source Projects](04-tools_EN.md):
 
-A unified collection of robot simulation platforms, motion control frameworks, SDKs, open-source projects, and ROS toolchains.
+A unified collection of simulation platforms, motion control, SDKs, ROS toolchains, and open-source projects — spanning the full pipeline from simulation to real-world deployment.
 
 ### 🔗 (4) Coordinates: Gain Industrial Insights
 
