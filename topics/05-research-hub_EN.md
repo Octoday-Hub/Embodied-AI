@@ -18,7 +18,7 @@
 | **August** | [IJCAI-ECAI 2026 (Aug 15-21)](#10-ijcai-ecai-2026-international-joint-conference-on-artificial-intelligence) |
 | **September** | [IROS 2026 (Sep 27-Oct 1)](#2-iros-2026-ieeerj-international-conference-on-intelligent-robots-and-systems) |
 | **November** | [CoRL 2026 (Nov 9-12)](#4-corl-2026-conference-on-robot-learning) |
-| **December** | [NeurIPS 2026 (Dec 6-12)](#5-neurips-2026-conference-on-neural-information-processing-systems) ｜ [IEEE-RAS Humanoids 2026 (Dec 7-9)](#9-ieee-ras-humanoids-2026-ieee-ras-international-conference-on-humanoid-robots) |
+| **December** | [NeurIPS 2026 (Dec 6-12)](#5-neurips-2026-conference-on-neural-information-processing-systems) ｜ [IEEE-RAS Humanoids 2026 (Dec 6-9)](#9-ieee-ras-humanoids-2026-ieee-ras-international-conference-on-humanoid-robots) |
 
 ### 📍 2027
 
@@ -54,7 +54,7 @@
 
 ICRA is the **largest and most influential flagship conference** in robotics, organized by the IEEE Robotics and Automation Society (RAS). It is classified as a **CCF B-class** conference by the China Computer Federation. ICRA covers all areas of robotics and serves as a premier venue for embodied AI papers (VLA, manipulation, navigation, humanoid robots, etc.).
 
-The 2026 theme is **"Robots for All"**, held for the first time in Vienna, Austria, with thousands of researchers expected. The conference also hosts **9 robotics competitions** (including the AgiBot World Challenge for embodied AI), making it one of the most practice-oriented robotics conferences.
+The 2026 theme is "**Robots for All**", held for the first time in Vienna, Austria, with thousands of researchers expected. The conference also hosts **9 robotics competitions** (including the AgiBot World Challenge for embodied AI), making it one of the most practice-oriented robotics conferences.
 
 ### Key Information
 
@@ -226,7 +226,7 @@ The 40th edition's **main venue is in Sydney, Australia** (with satellite venues
 
 CVPR is the **highest-ranked conference in computer vision**, classified as a **CCF A-class** conference. While primarily vision-focused, **embodied AI fundamentally depends on visual perception** — VLA model vision encoders, 3D scene understanding, object detection and pose estimation, and hand-object interaction analysis are all key topics at CVPR.
 
-The 43rd edition is held in Denver. CVPR has recently introduced specialized workshops on **"Robot Vision"** and **"Embodied AI"**, attracting a growing number of papers on robot manipulation and navigation-related vision.
+The 43rd edition is held in Denver. CVPR has recently introduced specialized workshops on "**Robot Vision**" and "**Embodied AI**", attracting a growing number of papers on robot manipulation and navigation-related vision.
 
 ### Key Information
 
@@ -294,7 +294,7 @@ The 43rd edition is held for the first time in Seoul, South Korea. ICML features
 
 AAAI is **one of the oldest and most prestigious comprehensive AI conferences**, classified as a **CCF A-class** conference. AAAI covers all sub-fields of AI, including dedicated tracks and workshops on **robotics and embodied AI**.
 
-The 41st edition is held in Montreal, Canada. AAAI features specialized tracks on **"AI and Robotics"** and **"Embodied AI"**, making it an important venue for embodied intelligence research.
+The 41st edition is held in Montreal, Canada. AAAI features specialized tracks on "**AI and Robotics**" and "**Embodied AI**", making it an important venue for embodied intelligence research.
 
 ### Key Information
 
@@ -372,7 +372,7 @@ The 25th edition (Silver Jubilee) is held in **Silicon Valley · Santa Clara, Ca
 
 IJCAI is **one of the oldest and most authoritative comprehensive AI conferences**, classified as a **CCF A-class** conference. In 2026, it is jointly held with ECAI (European Conference on Artificial Intelligence) in Bremen, Germany.
 
-IJCAI covers all sub-fields of AI and features a dedicated **"AI and Robotics" special track**, accepting papers on embodied intelligence, robot planning, and human-robot interaction.
+IJCAI covers all sub-fields of AI and features a dedicated "**AI and Robotics** special track", accepting papers on embodied intelligence, robot planning, and human-robot interaction.
 
 ### Key Information
 
@@ -625,7 +625,7 @@ Founded by Dean Kamen in 1989, FIRST is one of the world's most influential **yo
 
 ### Overview
 
-WRO is an international robotics competition for youth aged **8-19**, attracting teams from **100+ countries** annually. The 2026 theme is **"Robots Meet Culture"**, with the International Final in Puerto Rico.
+WRO is an international robotics competition for youth aged **8-19**, attracting teams from **100+ countries** annually. The 2026 theme is "**Robots Meet Culture**", with the International Final in Puerto Rico.
 
 ### Basic Info
 
@@ -657,7 +657,7 @@ WRO is an international robotics competition for youth aged **8-19**, attracting
 
 ### Overview
 
-RoboSub is the **world's most influential autonomous underwater vehicle (AUV) competition**, founded in 1997 with venue support from the U.S. Navy. Open to high school and university teams, it challenges participants to design and build fully autonomous underwater robots for complex navigation, object recognition, and manipulation tasks. The 2026 theme is **"Ocean Exploration & Mapping"**.
+RoboSub is the **world's most influential autonomous underwater vehicle (AUV) competition**, founded in 1997 with venue support from the U.S. Navy. Open to high school and university teams, it challenges participants to design and build fully autonomous underwater robots for complex navigation, object recognition, and manipulation tasks. The 2026 theme is "**Ocean Exploration & Mapping**".
 
 ### Basic Info
 
@@ -697,7 +697,7 @@ RoboSub is the **world's most influential autonomous underwater vehicle (AUV) co
 
 ### Overview
 
-Organized by the Marine Technology Society (MTS), the MATE ROV Competition is the **world's largest underwater remotely operated vehicle (ROV) educational competition**. Teams design and build ROVs to complete simulated ocean science missions. The 2026 theme is **"Floats"**, with finals in Newfoundland, Canada.
+Organized by the Marine Technology Society (MTS), the MATE ROV Competition is the **world's largest underwater remotely operated vehicle (ROV) educational competition**. Teams design and build ROVs to complete simulated ocean science missions. The 2026 theme is "**Floats**", with finals in Newfoundland, Canada.
 
 ### Basic Info
 
@@ -793,7 +793,7 @@ Founded by **DJI**, RoboMaster is the **most spectacular and technically challen
 
 ### Overview
 
-One of China's **most influential comprehensive university robot competitions**, established in 2002. The champion represents China at the **ABU ROBOCON** Asia-Pacific competition. The 2026 theme is **"Martial Arts Mystery"**.
+One of China's **most influential comprehensive university robot competitions**, established in 2002. The champion represents China at the **ABU ROBOCON** Asia-Pacific competition. The 2026 theme is "**Martial Arts Mystery"**.
 
 ### Basic Info
 
@@ -808,7 +808,7 @@ One of China's **most influential comprehensive university robot competitions**,
 
 ### 2026 Challenge
 
-**"Martial Arts Mystery"** — a robot competition themed around Chinese martial arts culture.
+"**Martial Arts Mystery**" — a robot competition themed around Chinese martial arts culture.
 
 
 <a name="12-robotac-2026"></a>
@@ -862,7 +862,7 @@ Guizhou, Ningxia, Jilin, Guangdong, Shanghai, Jiangxi, Heilongjiang, Hainan, Cho
 
 ### Overview
 
-Founded in 2017 with the theme **"Better, Faster, Stronger"**, this contest aims to cultivate students' abilities in problem identification, solution development, technical innovation, and incubation. The 2026 edition (9th) is an MOE-recognized national competition.
+Founded in 2017 with the theme "**Better, Faster, Stronger**", this contest aims to cultivate students' abilities in problem identification, solution development, technical innovation, and incubation. The 2026 edition (9th) is an MOE-recognized national competition.
 
 ### Basic Info
 
@@ -910,7 +910,7 @@ Sunny Optical "Future Vision" Creative Contest, Software System Security Contest
 
 ### Overview
 
-Formerly the RoboCom Robot Developer Contest, RAICOM is organized by the **Talent Exchange Center of the Ministry of Industry and Information Technology (MIIT)** and is classified as a **National A-Class competition** for university teaching evaluation. The 2026 theme is **"Robots as Caregivers"**.
+Formerly the RoboCom Robot Developer Contest, RAICOM is organized by the **Talent Exchange Center of the Ministry of Industry and Information Technology (MIIT)** and is classified as a **National A-Class competition** for university teaching evaluation. The 2026 theme is "**Robots as Caregivers**".
 
 ### Basic Info
 
@@ -963,7 +963,7 @@ A **National A-Class event** on the MOE university competition ranking list, foc
 
 ### Overview
 
-Organized by the Chinese Institute of Electronics (CIE), WRC has been held for 10 editions since 2015 and is acclaimed as the **"Olympics of Robotics"**. It consists of three phases: Selection (WRCT), Championship (WRCC), and Finals (WRCF), with **500,000+** cumulative participants.
+Organized by the Chinese Institute of Electronics (CIE), WRC has been held for 10 editions since 2015 and is acclaimed as the "**Olympics of Robotics**". It consists of three phases: Selection (WRCT), Championship (WRCC), and Finals (WRCF), with **500,000+** cumulative participants.
 
 ### Basic Info
 

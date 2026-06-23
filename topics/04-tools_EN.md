@@ -309,43 +309,6 @@
 - **Unitree Robot Control Guide** — [`unitreerobotics/unitree_guide`](https://github.com/unitreerobotics/unitree_guide) 
   📄 Open-source tutorial for Unitree quadruped robot control, suitable for beginners.
 
-[↑ Back to TOC](#toc)
-
-
-- **ALOHA 2** — [`aloha-2.github.io`](https://aloha-2.github.io/)
- 📄 A low-cost open-source hardware platform for bimanual teleoperation and embodied data collection, bundled with tutorials and MuJoCo simulation models.
-
-- **Beijing humanoid robot Innovation Center · Huisi Kaiwu** — [`login.x-humanoid-cloud.com/?responseType=code&clientId=fd6c22fb&redirectUri=https%3A%2F%2Fopen.x-humanoid-cloud.com%2Fhome&stamp=1778429122172&env=cloud`](https://login.x-humanoid-cloud.com/?responseType=code&clientId=fd6c22fb&redirectUri=https%3A%2F%2Fopen.x-humanoid-cloud.com%2Fhome&stamp=1778429122172&env=cloud)
- 📄 A toolchain platform for general-purpose embodied AI applications, covering skill invocation, agent configuration, and real-world deployment.
-
-- **DexCap** — [`dex-cap.github.io`](https://dex-cap.github.io/)
- 📄 A dexterous-hand data collection system from Stanford that uses motion capture and depth cameras to collect human hand-manipulation data at scale and low cost, supporting fine-grained sim-to-real transfer.
-
-- **Dobb-E** — [`dobb-e.com`](https://dobb-e.com/)
- 📄 A full-stack pipeline from hardware to data released by NYU, including a low-cost handheld data collection device called Stick, a dataset, and an imitation-learning framework for teaching household tasks from 15 minutes of demonstration.
-
-- **GR-1 (ByteDance Model)** — [`github.com/bytedance/GR-1`](https://github.com/bytedance/GR-1)
- 📄 ByteDance's open-source GPT-style vision-based robot manipulation model for language-conditioned multitask learning and action prediction, distinct from Agibot's GR-1 humanoid hardware.
-
-- **JD JoyInside** — [`joyinside.com`](https://joyinside.com/)
- 📄 A conversational agent platform for intelligent hardware such as robots and AI toys.
-
-- **kscale·K-Bot** — [`docs.kscale.dev/category/k-bot`](https://docs.kscale.dev/category/k-bot)
- 📄 An open-source full-stack humanoid robot platform for developers and researchers.
-
-- **AgiBot LinkCraft Platform** — [`www.agibot.com.cn/filepage/295.html`](https://www.agibot.com.cn/filepage/295.html)
- 📄 Agibot's zero-code robot content creation platform, supporting motion imitation, speech-driven generation, and task script creation.
-
-- **Tencent Tairos (Chinese nickname: Titanium Screw)** — [`tairos.tencent.com`](https://tairos.tencent.com/)
- 📄 An open embodied AI platform for robotics scenarios, providing models, development tools, and data services.
-
-- **Viam** — [`www.viam.com`](https://www.viam.com)
- 📄 A software platform for building, deploying, and managing robots, with a unified API, module registry, remote operations, and fleet-level management.
-
-- **NetEase Lingdong · Lingjue** — [`lingdong.fuxi.163.com/productSummary/wj`](https://lingdong.fuxi.163.com/productSummary/wj)
- 📄 NetEase Lingdong's embodied AI model and training framework for mining excavator loading scenarios.
-
-[↑ Back to TOC](#toc)
 
 <a name=reasoning-rl></a>
 
