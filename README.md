@@ -44,7 +44,7 @@
 
 我们希望，这里能成为你探索具身智能世界时，最清晰、最靠谱的坐标原点。
 
-Beyond the 7th Day, explore the Infinite Embodiment. 
+Beyond the 7th Day, explore the Infinite Embodiment.
 
 ## 🗺️ 领域地图
 
@@ -167,7 +167,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 📧  邮箱：[octoday@yeah.net](mailto:octoday@yeah.net)
 
-💬  微信：Midsummer_Jin 
+💬  微信：Midsummer_Jin
 
 📱  公众号：星期八Robotics
 

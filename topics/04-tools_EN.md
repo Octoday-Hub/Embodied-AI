@@ -14,16 +14,113 @@
 
 ## 🎮 Simulation Platforms
 
-(Items merged from repos and tools)
+- **BEHAVIOR-1K** — [`StanfordVL/BEHAVIOR-1K`](https://github.com/StanfordVL/BEHAVIOR-1K) ⭐ 1.5k
+  📄 Stanford benchmark for embodied AI agents on 1,000 everyday household activities.
 
-- **BEHAVIOR-1K** — [`StanfordVL/BEHAVIOR-1K`](https://github.com/StanfordVL/BEHAVIOR-1K) ⭐ 1.5k 
- 📄 Stanford benchmark for embodied AI agents on 1,000 everyday household activities.
+- **XTDrone** — [`robin-shaun/XTDrone`](https://github.com/robin-shaun/XTDrone) ⭐ 6.5k
+  📄 A UAV simulation platform based on PX4, ROS, and Gazebo, supporting swarm simulation.
 
-- **XTDrone** — [`robin-shaun/XTDrone`](https://github.com/robin-shaun/XTDrone) ⭐ 6.5k 
- 📄 A UAV simulation platform based on PX4, ROS, and Gazebo, supporting swarm simulation.
+- **Prometheus** — [`amov-lab/Prometheus`](https://github.com/amov-lab/Prometheus) ⭐ 4.5k
+  📄 An open-source system for autonomous UAVs, supporting detection, SLAM, and formation control.
 
-- **Prometheus** — [`amov-lab/Prometheus`](https://github.com/amov-lab/Prometheus) ⭐ 4.5k 
- 📄 An open-source system for autonomous UAVs, supporting detection, SLAM, and formation control.
+- **Aerial Gym** — [`github.com/ntnu-arl/aerial_gym_simulator`](https://github.com/ntnu-arl/aerial_gym_simulator)
+  📄 An aerial robot simulation environment based on Isaac Gym, supporting UAV reinforcement learning training.
+
+- **AllenAct** — [`allenact.org`](https://allenact.org/)
+  📄 A training framework for embodied AI research supporting iTHOR, RoboTHOR, Habitat, and common RL/IL algorithms.
+
+- **BEHAVIOR** — [`behavior.stanford.edu`](https://behavior.stanford.edu/)
+  📄 A large-scale interactive simulation benchmark built on SAPIEN, with 100 everyday household items and 30 complex tasks — a comprehensive physical interaction testing environment.
+
+- **CARLA** — [`carla.org`](https://carla.org)
+  📄 An open-source simulator for autonomous driving and robotics research, providing urban road scenes, traffic participants, sensors, and scenario scripting.
+
+- **CoppeliaSim (V-REP)** — [`www.coppeliarobotics.com`](https://www.coppeliarobotics.com)
+  📄 A robotics simulation platform with remote API, embedded scripting, and multiple interfaces, suitable for education, research, and industrial prototyping.
+
+- **DISCOVERSE** — [`air-discoverse.github.io`](https://air-discoverse.github.io/)
+  📄 A high-fidelity simulation framework for Real2Sim2Real, combining 3DGS scene representation with MuJoCo physics and control interfaces.
+
+- **Drake** — [`github.com/RobotLocomotion/drake`](https://github.com/RobotLocomotion/drake)
+  📄 A toolkit for robot modeling, planning, and control, suitable for system analysis, simulation, and algorithm research.
+
+- **EmbodiedCity** — [`github.com/tsinghua-fib-lab/EmbodiedCity`](https://github.com/tsinghua-fib-lab/EmbodiedCity)
+  📄 An embodied intelligence platform for real-world open environments. Built by Tsinghua University on Unreal Engine 5, supporting online/offline deployment for navigation and task planning in urban settings.
+
+- **Gazebo Sim** — [`gazebosim.org`](https://gazebosim.org)
+  📄 A high-fidelity open-source robot simulator supporting multiple physics engines (ODE, Bullet, DART) with realistic rendering and sensor models, widely used in the ROS ecosystem.
+
+- **Genesis** — [`genesis-embodied-ai.github.io`](https://genesis-embodied-ai.github.io/)
+  📄 A universal robotics simulation engine designed for generative physical AI, integrating rigid body, fluid, and soft body physics solvers.
+
+- **GRUtopia** — [`github.com/OpenRobotLab/GRUtopia`](https://github.com/OpenRobotLab/GRUtopia)
+  📄 A general embodied AI simulation platform by Shanghai AI Lab, providing massive interactive scenes and data with simple code-defined tasks.
+
+- **Gymnasium-Robotics** — [`robotics.farama.org`](https://robotics.farama.org/)
+  📄 A collection of robot simulation environments based on the Gymnasium API, suitable for RL algorithm development and standardized benchmarking.
+
+- **Habitat-Lab** — [`github.com/facebookresearch/habitat-lab`](https://github.com/facebookresearch/habitat-lab)
+  📄 A high-level development library for embodied AI tasks, typically used with Habitat Sim for task definition, agent configuration, training, and evaluation.
+
+- **Habitat Sim** — [`github.com/facebookresearch/habitat-sim`](https://github.com/facebookresearch/habitat-sim)
+  📄 Meta's open-source high-performance 3D simulator, often paired with Habitat-Lab for large-scale scene navigation and interaction tasks.
+
+- **Habitat 3.0** — [`aihabitat.org`](https://aihabitat.org/)
+  📄 Meta AI's latest social embodied AI simulation platform focusing on human-robot and robot-robot interaction with high-fidelity social behavior simulation.
+
+- **ManiSkill3** — [`github.com/haosulab/ManiSkill`](https://github.com/haosulab/ManiSkill)
+  📄 A next-generation manipulation skill simulation framework by Shanghai AI Lab, supporting complex articulated objects and efficient parallel physics simulation.
+
+- **MORSE Simulator** — [`morse-simulator.github.io`](https://morse-simulator.github.io/)
+  📄 A Blender-based academic robot simulator supporting mobile robots, human-robot interaction, and multi-middleware integration.
+
+- **MuJoCo** — [`github.com/google-deepmind/mujoco`](https://github.com/google-deepmind/mujoco)
+  📄 A high-performance physics engine designed for robotics, biomechanics, and graphics, widely used in RL and motion control research.
+
+- **NVIDIA Isaac Gym** — [`developer.nvidia.com/isaac-gym`](https://developer.nvidia.com/isaac-gym)
+  📄 A high-performance RL simulation environment for robot learning with GPU-accelerated massively parallel training.
+
+- **NVIDIA Isaac Lab** — [`developer.nvidia.com/isaac/lab`](https://developer.nvidia.com/isaac/lab)
+  📄 An open-source, GPU-accelerated modular robot learning framework for large-scale policy training and sim-to-real transfer.
+
+- **NVIDIA Isaac Sim** — [`developer.nvidia.com/isaac-sim`](https://developer.nvidia.com/isaac-sim)
+  📄 A robotics simulation platform built on Omniverse, supporting physical AI training, synthetic data generation, and Sim2Real workflows.
+
+- **NVIDIA RAD-MARS** — [`developer.nvidia.com/omniverse`](https://developer.nvidia.com/omniverse)
+  📄 A robot-assisted design and simulation platform built on Omniverse for designing robot hardware and testing kinematic algorithms in physically realistic environments.
+
+- **OmniGibson** — [`behavior.stanford.edu/omnigibson/overview.html`](https://behavior.stanford.edu/omnigibson/overview.html)
+  📄 An embodied AI simulation framework based on Isaac Sim supporting interactive scenes, task definition, data collection, and parallel training.
+
+- **PyBullet** — [`github.com/bulletphysics/bullet3`](https://github.com/bulletphysics/bullet3)
+  📄 A Python interface to the Bullet physics engine, lightweight and easy to use for rapid prototyping and RL experiments.
+
+- **RLBench** — [`github.com/stepjam/RLBench`](https://github.com/stepjam/RLBench)
+  📄 A large-scale vision-guided robot manipulation benchmark and learning environment for RL, imitation learning, multi-task, and few-shot settings.
+
+- **RoboCasa** — [`robocasa.ai`](https://robocasa.ai/)
+  📄 A large-scale simulation framework for everyday household manipulation, supporting diverse scenes, objects, demonstration data, and benchmarks.
+
+- **robosuite** — [`github.com/ARISE-Initiative/robosuite`](https://github.com/ARISE-Initiative/robosuite)
+  📄 A modular robot learning simulation framework based on MuJoCo with benchmark suites for manipulation research.
+
+- **RobotStudio** — [`www.abb.com/global/en/areas/robotics/products/software/robotstudio-suite`](https://www.abb.com/global/en/areas/robotics/products/software/robotstudio-suite)
+  📄 ABB's official robot programming, simulation, and offline programming software for industrial robotic cell development.
+
+- **SAPIEN** — [`github.com/haosulab/SAPIEN`](https://github.com/haosulab/SAPIEN)
+  📄 A simulation environment for part-level interaction and manipulation tasks, supporting articulated object modeling and manipulation learning research.
+
+- **SimplerEnv** — [`github.com/simpler-env/SimplerEnv`](https://github.com/simpler-env/SimplerEnv)
+  📄 A simulation evaluation environment for real-world robot manipulation policies, supporting reproduction and comparison of real-to-sim manipulation policies under unified settings.
+
+- **Unity ML-Agents** — [`github.com/Unity-Technologies/ml-agents`](https://github.com/Unity-Technologies/ml-agents)
+  📄 Unity game engine's ML agent toolkit for training intelligent agents in 3D environments.
+
+- **UnrealCV** — [`unrealcv.org`](https://unrealcv.org/)
+  📄 An open-source plugin connecting Unreal Engine with external vision/robotics programs, suitable for building simulation environments and synthetic data pipelines.
+
+- **Webots** — [`cyberbotics.com`](https://cyberbotics.com)
+  📄 An open-source cross-platform desktop robot simulation application with a complete environment for modeling, programming, and simulation.
 
 [↑ Back to TOC](#toc)
 
@@ -31,43 +128,49 @@
 
 ## 🤖 Models
 
-- **VLA-Adapter** — [`OpenHelix-Team/VLA-Adapter`](https://github.com/OpenHelix-Team/VLA-Adapter) ⭐ 2.2k  
+- **VLA-Adapter** — [`OpenHelix-Team/VLA-Adapter`](https://github.com/OpenHelix-Team/VLA-Adapter) ⭐ 2.2k
  📄 Efficient training paradigm for small-scale VLA models — VLA Adapter
 
-- **LLaVA-OneVision** — [`EvolvingLMMs-Lab/LLaVA-OneVision`](https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision) ⭐ 754  
+- **LLaVA-OneVision** — [`EvolvingLMMs-Lab/LLaVA-OneVision`](https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision) ⭐ 754
  📄 Fully open-source large multimodal model achieving SOTA at low cost
 
-- **Otter** — [`EvolvingLMMs-Lab/Otter`](https://github.com/EvolvingLMMs-Lab/Otter) ⭐ 3.3k  
+- **Otter** — [`EvolvingLMMs-Lab/Otter`](https://github.com/EvolvingLMMs-Lab/Otter) ⭐ 3.3k
  📄 OpenFlamingo-based multimodal model trained on MIMIC-IT dataset for improved instruction following
 
-- **XR-1** — [`Open-X-Humanoid/XR-1`](https://github.com/Open-X-Humanoid/XR-1)  
+- **XR-1** — [`Open-X-Humanoid/XR-1`](https://github.com/Open-X-Humanoid/XR-1)
  📄 China's first national standard VLA foundation model (Beijing Humanoid Robot Innovation Center), supporting cross-robot platform operation with RoboMIND 2.0 dataset and ArtVIP assets
 
-- **DexVLA** — [`juruobenruo/DexVLA`](https://github.com/juruobenruo/DexVLA)  
+- **DexVLA** — [`juruobenruo/DexVLA`](https://github.com/juruobenruo/DexVLA)
  📄 Qwen2-VL based vision-language-action model supporting single-arm, dual-arm, and dexterous hand control
 
-- **ManiFoundation** — [`NUS-LinS-Lab/ManiFM`](https://github.com/NUS-LinS-Lab/ManiFM)  
+- **ManiFoundation** — [`NUS-LinS-Lab/ManiFM`](https://github.com/NUS-LinS-Lab/ManiFM)
  📄 General robot manipulation foundation model (NUS/Tsinghua) handling rigid, articulated, and deformable objects via contact synthesis
 
-- **RoboBrain 2.5** — [`FlagOpen/RoboBrain2.5`](https://github.com/FlagOpen/RoboBrain2.5)  
+- **RoboBrain 2.5** — [`FlagOpen/RoboBrain2.5`](https://github.com/FlagOpen/RoboBrain2.5)
  📄 Next-gen embodied AI foundation model (BAAI/Peking University) supporting precise 3D spatial reasoning, depth-aware coordinate prediction, and temporal modeling
 
-- **WholebodyVLA** — [`OpenDriveLab/WholebodyVLA`](https://github.com/OpenDriveLab/WholebodyVLA) ⭐  
+- **WholebodyVLA** — [`OpenDriveLab/WholebodyVLA`](https://github.com/OpenDriveLab/WholebodyVLA) ⭐
  📄 ICLR 2026, unified latent-space VLA model for humanoid whole-body mobile manipulation (Shanghai AI Lab)
 
-- **X-VLA** — [`2toinf/X-VLA`](https://github.com/2toinf/X-VLA)  
+- **X-VLA** — [`2toinf/X-VLA`](https://github.com/2toinf/X-VLA)
  📄 ICLR 2026, soft-prompt Transformer cross-morphology VLA model, AgiBot World Challenge (IROS 2025) champion
 
-- **RoboticsDiffusionTransformer (RDT-1B)** — [`thu-ml/RoboticsDiffusionTransformer`](https://github.com/thu-ml/RoboticsDiffusionTransformer)  
+- **RoboticsDiffusionTransformer (RDT-1B)** — [`thu-ml/RoboticsDiffusionTransformer`](https://github.com/thu-ml/RoboticsDiffusionTransformer)
  📄 Bimanual robot manipulation foundation model (Tsinghua University) using diffusion Transformer architecture, SOTA across multiple bimanual tasks
 
-- **AgiBot-World** — [`OpenDriveLab/AgiBot-World`](https://github.com/OpenDriveLab/AgiBot-World)  
+- **AgiBot-World** — [`OpenDriveLab/AgiBot-World`](https://github.com/OpenDriveLab/AgiBot-World)
  📄 IROS 2025 Best Paper candidate, large-scale manipulation platform for scalable embodied intelligence (Shanghai AI Lab)
 
-- **Dexterity-BEV** — See [Dexterity-BEV](https://arxiv.org/abs/2606.02274)  
- 📄 Aligning 3D world and actions for generalizable robot policy learning
+- **Dexterity-BEV** — See [Dexterity-BEV](https://arxiv.org/abs/2606.02274)
+  📄 Aligning 3D world and actions for generalizable robot policy learning
 
-[↑ Back to ToC](#toc)
+- **cuRobo** — [`github.com/NVlabs/curobo`](https://github.com/NVlabs/curobo)
+  📄 NVIDIA's CUDA-accelerated robot motion generation library supporting inverse kinematics, collision detection, trajectory optimization, and high-DOF planning.
+
+- **VIMA** — [`vimalabs.github.io`](https://vimalabs.github.io/)
+  📄 A multimodal embodied task benchmark from UIUC, providing complex "block-building" style tasks for evaluating VLAs on visual, linguistic, and spatial reasoning.
+
+[↑ Back to TOC](#toc)
 
 
 <a name=general-tools></a>
@@ -128,7 +231,7 @@
  📄 Distributed embodied AI computing framework from ETH Zurich for large-scale policy training.
 
 - **Theseus** — [`github.com/facebookresearch/theseus`](https://github.com/facebookresearch/theseus)
- 📄 Differentiable nonlinear optimization library for robotics and vision state estimation.
+  📄 Differentiable nonlinear optimization library for robotics and vision state estimation.
 
 - **Universal Manipulation Interface (UMI)** — [`github.com/real-stanford/universal_manipulation_interface`](https://github.com/real-stanford/universal_manipulation_interface)
  📄 Stanford general manipulation interface for robot learning and manipulation tasks.
@@ -136,7 +239,7 @@
 - **VEX Robotics Software** — [`www.vexrobotics.com/?srsltid=AfmBOoqB_9zu0-eFHO4wzVB_33rsABV6DRRJ_drQfuk67n-MLcUmVy9M`](https://www.vexrobotics.com/?srsltid=AfmBOoqB_9zu0-eFHO4wzVB_33rsABV6DRRJ_drQfuk67n-MLcUmVy9M)
  📄 Software tools for VEX robotics platform with drag-and-drop programming for education.
 
-[↑ Back to ToC](#toc)
+[↑ Back to TOC](#toc)
 
 
 <a name=learning-frameworks></a>
@@ -145,24 +248,24 @@
 
 (Items merged from repos and tools)
 
-- **RLinf** — [`RLinf/RLinf`](https://github.com/RLinf/RLinf) ⭐ 3.7k 
+- **RLinf** — [`RLinf/RLinf`](https://github.com/RLinf/RLinf) ⭐ 3.7k
  📄 Reinforcement learning infrastructure for embodied and agentic AI.
 
-- **OpenLoong (Brain)** — [`loongOpen`](https://github.com/loongOpen) 
+- **OpenLoong (Brain)** — [`loongOpen`](https://github.com/loongOpen)
  📄 Qinglong humanoid full-stack skill scheduling framework with MPC+WBC control, Gymloong/MiniGym training platforms.
 
-- **AimRT** — [`AimRT/AimRT`](https://github.com/AimRT/AimRT) 
+- **AimRT** — [`AimRT/AimRT`](https://github.com/AimRT/AimRT)
  📄 Modern C++ runtime framework for robotics, lightweight and compatible with ROS2/HTTP/gRPC.
 
-- **Open-TeleVision** — [`OpenTeleVision/TeleVision`](https://github.com/OpenTeleVision/TeleVision) 
+- **Open-TeleVision** — [`OpenTeleVision/TeleVision`](https://github.com/OpenTeleVision/TeleVision)
  📄 Immersive VR-based robot teleoperation system for real-time bimanual manipulation.
 
-- **AgileX Cobot Magic** — [`agilexrobotics`](https://github.com/agilexrobotics) 
+- **AgileX Cobot Magic** — [`agilexrobotics`](https://github.com/agilexrobotics)
  📄 open-source bimanual mobile manipulation platform based on Mobile ALOHA (AgileX Robotics).
 
 [↑ Back to TOC](#toc)
 
-- **every-embodied** — [`datawhalechina/every-embodied`](https://github.com/datawhalechina/every-embodied) ⭐ 2.2k  
+- **every-embodied** — [`datawhalechina/every-embodied`](https://github.com/datawhalechina/every-embodied) ⭐ 2.2k
   📄 Build VLA/OpenVLA/SmolVLA/Pi0 from scratch with only Python basics.
 
 [↑ Back to TOC](#toc)
@@ -172,96 +275,96 @@
 
 ## 🤖 Robot Projects
 
-### humanoid
+### Humanoid
 
-- **AgiBot X1** — [`infer`](https://github.com/AgibotTech/agibot_x1_infer) · [`train`](https://github.com/AgibotTech/agibot_x1_train) · [`hardware`](https://github.com/AgibotTech/agibot_x1_hardware) 
+- **AgiBot X1** — [`infer`](https://github.com/AgibotTech/agibot_x1_infer) · [`train`](https://github.com/AgibotTech/agibot_x1_train) · [`hardware`](https://github.com/AgibotTech/agibot_x1_hardware)
  📄 Agibot X1 fully open-sourcehumanoid project with inference, RL training code, and hardware design.
 
-- **OpenLoong Qinglong** — [`loongOpen`](https://github.com/loongOpen) 
+- **OpenLoong Qinglong** — [`loongOpen`](https://github.com/loongOpen)
  📄 Full-stack open-sourcehumanoid project (Shanghaihumanoid Innovation Center/OpenAtom Foundation) with MPC+WBC control and training platform
 
-- **Fourier N1** — [`FFTAI`](https://github.com/FFTAI) 
+- **Fourier N1** — [`FFTAI`](https://github.com/FFTAI)
  📄 World first fully open-sourcehumanoid (Fourier Intelligence) with full hardware design, BOM, assembly guide, and SDK (1.3m/38kg/3.5m/s).m/s
 
-- **EngineAI Humanoid** — [`engineai-robotics/engineai_humanoid`](https://github.com/engineai-robotics/engineai_humanoid) 
+- **EngineAI Humanoid** — [`engineai-robotics/engineai_humanoid`](https://github.com/engineai-robotics/engineai_humanoid)
  📄 EngineAI SA01/PM01 bipedal robot open-source motion control with end-to-end neural gait.
 
-- **Booster Gym** — [`BoosterRobotics`](https://github.com/BoosterRobotics) 
+- **Booster Gym** — [`BoosterRobotics`](https://github.com/BoosterRobotics)
  📄 Booster T1/K1 humanoid end-to-end RL motion control framework (Booster Robotics) with RoboCup kicking demo.
 
-- **Humanoid-Gym** — [`roboterax/humanoid-gym`](https://github.com/roboterax/humanoid-gym) 
+- **Humanoid-Gym** — [`roboterax/humanoid-gym`](https://github.com/roboterax/humanoid-gym)
  📄 Isaac Gym-basedhumanoid RL training framework supporting zero-shot sim-to-real transfer.
 
-- **Unitree Qmini** — [`unitreerobotics/Qmini`](https://github.com/unitreerobotics/Qmini) 
+- **Unitree Qmini** — [`unitreerobotics/Qmini`](https://github.com/unitreerobotics/Qmini)
  📄 Unitree open-source bipedal platform with BOM, assembly guide, and URDF models.
 
-### quadruped
+### Quadruped
 
-- **OpenCat** — [`PetoiCamp/OpenCat`](https://github.com/PetoiCamp/OpenCat) ⭐ 15k 
+- **OpenCat** — [`PetoiCamp/OpenCat`](https://github.com/PetoiCamp/OpenCat) ⭐ 15k
  📄 open-sourcequadruped platform
 
-- **Xiaomi CyberDog** — [`MiRoboticsLab/cyberdog_ros2`](https://github.com/MiRoboticsLab/cyberdog_ros2) 
+- **Xiaomi CyberDog** — [`MiRoboticsLab/cyberdog_ros2`](https://github.com/MiRoboticsLab/cyberdog_ros2)
  📄 Xiaomi CyberDog open-source quadruped software and hardware.
 
-- **Unitreequadruped ROS** — [`unitreerobotics/unitree_ros`](https://github.com/unitreerobotics/unitree_ros) 
+- **Unitreequadruped ROS** — [`unitreerobotics/unitree_ros`](https://github.com/unitreerobotics/unitree_ros)
  📄 Unitreequadruped Go1/Go2 ROS driver packages.
 
 ### Arms & Desktop Robots
 
-- **vlm_arm** — [`TommyZihao/vlm_arm`](https://github.com/TommyZihao/vlm_arm) 
+- **vlm_arm** — [`TommyZihao/vlm_arm`](https://github.com/TommyZihao/vlm_arm)
  📄 Robot arm + LLM + multimodal integration (Tongji Zihao).
 
-- **Dummy-Robot (Mini Robot Arm)** — [`peng-zhihui/Dummy-Robot`](https://github.com/peng-zhihui/Dummy-Robot) 
+- **Dummy-Robot (Mini Robot Arm)** — [`peng-zhihui/Dummy-Robot`](https://github.com/peng-zhihui/Dummy-Robot)
  📄 DIY mini robot arm (ZhiHuijun).
 
-- **X-Bot Smart Robot Arm** — [`peng-zhihui/X-Bot`](https://github.com/peng-zhihui/X-Bot) 
+- **X-Bot Smart Robot Arm** — [`peng-zhihui/X-Bot`](https://github.com/peng-zhihui/X-Bot)
  📄 CoreXY-based drawing robot arm (ZhiHuijun).
 
-- **ElectronBot Mini Desktop Robot** — [`peng-zhihui/ElectronBot`](https://github.com/peng-zhihui/ElectronBot) 
+- **ElectronBot Mini Desktop Robot** — [`peng-zhihui/ElectronBot`](https://github.com/peng-zhihui/ElectronBot)
  📄 Compact desktop robot (ZhiHuijun).
 
-- **Rubik Cube Robot** — [`diy-robots.com`](http://www.diy-robots.com/?page_id=46) 
+- **Rubik Cube Robot** — [`diy-robots.com`](http://www.diy-robots.com/?page_id=46)
  📄 LEGO-based Rubik cube-solving robot.
 
 ### Mobile Robots
 
-- **MiniRover Mars Rover** — [`peng-zhihui/MiniRover-Hardware`](https://github.com/peng-zhihui/MiniRover-Hardware) 
+- **MiniRover Mars Rover** — [`peng-zhihui/MiniRover-Hardware`](https://github.com/peng-zhihui/MiniRover-Hardware)
  📄 DIY Mars rover open-source project (ZhiHuijun).
 
-- **ONE-Robot Unicycle Robot** — [`peng-zhihui/ONE-Robot`](https://github.com/peng-zhihui/ONE-Robot) 
+- **ONE-Robot Unicycle Robot** — [`peng-zhihui/ONE-Robot`](https://github.com/peng-zhihui/ONE-Robot)
  📄 IMU and STM32-based one-wheel self-balancing robot (ZhiHuijun).
 
 
-- **Visual SLAM 14 Lectures** — [`gaoxiang12/slambook2`](https://github.com/gaoxiang12/slambook2) ⭐ 12k 
+- **Visual SLAM 14 Lectures** — [`gaoxiang12/slambook2`](https://github.com/gaoxiang12/slambook2) ⭐ 12k
  📄 Classic SLAM Chinese tutorial with companion code (Gao Xiang).
 
-- **VINS-Mono** — [`HKUST-Aerial-Robotics/VINS-Mono`](https://github.com/HKUST-Aerial-Robotics/VINS-Mono) ⭐ 5k 
+- **VINS-Mono** — [`HKUST-Aerial-Robotics/VINS-Mono`](https://github.com/HKUST-Aerial-Robotics/VINS-Mono) ⭐ 5k
  📄 Robust monocular visual-inertial state estimator (HKUST).
 
-- **VINS-Fusion** — [`HKUST-Aerial-Robotics/VINS-Fusion`](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion) 
+- **VINS-Fusion** — [`HKUST-Aerial-Robotics/VINS-Fusion`](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion)
  📄 Optimization-based multi-sensor estimator supporting mono/stereo + IMU fusion.
 
-- **LIO-SAM** — [`TixiaoShan/LIO-SAM`](https://github.com/TixiaoShan/LIO-SAM) ⭐ 3.5k 
+- **LIO-SAM** — [`TixiaoShan/LIO-SAM`](https://github.com/TixiaoShan/LIO-SAM) ⭐ 3.5k
  📄 Tightly-coupled LiDAR-inertial odometry, widely cited LiDAR SLAM solution.
 
-- **FAST_LIO** — [`hku-mars/FAST_LIO`](https://github.com/hku-mars/FAST_LIO) ⭐ 2.5k 
+- **FAST_LIO** — [`hku-mars/FAST_LIO`](https://github.com/hku-mars/FAST_LIO) ⭐ 2.5k
  📄 Efficient and robust LiDAR-inertial odometry (HKU MARS Lab).
 
-- **FAST-LIVO2** — [`hku-mars/FAST-LIVO2`](https://github.com/hku-mars/FAST-LIVO2) 
+- **FAST-LIVO2** — [`hku-mars/FAST-LIVO2`](https://github.com/hku-mars/FAST-LIVO2)
  📄 Fast direct LiDAR-inertial-visual odometry with tight coupling.
 
-- **R3LIVE** — [`hku-mars/r3live`](https://github.com/hku-mars/r3live) ⭐ 2.0k 
+- **R3LIVE** — [`hku-mars/r3live`](https://github.com/hku-mars/r3live) ⭐ 2.0k
  📄 Robust real-time RGB-colored LiDAR-inertial-visual SLAM.
 
-- **Unitree 4D LiDAR SLAM** — [`unitreerobotics/point_lio_unilidar`](https://github.com/unitreerobotics/point_lio_unilidar) 
+- **Unitree 4D LiDAR SLAM** — [`unitreerobotics/point_lio_unilidar`](https://github.com/unitreerobotics/point_lio_unilidar)
  📄 Point-LIO based SLAM for Unitree L1 4D LiDAR.
 
 ### Grasping & Manipulation
 
-- **AnyGrasp** — [`graspnet/anygrasp_sdk`](https://github.com/graspnet/anygrasp_sdk) 
+- **AnyGrasp** — [`graspnet/anygrasp_sdk`](https://github.com/graspnet/anygrasp_sdk)
  📄 Efficient 6-DoF grasp pose estimation (Shanghai AI Lab) for general object grasping.
 
-- **MYNT EYE Stereo Camera** — [`slightech/MYNT-EYE-S-SDK`](https://github.com/slightech/MYNT-EYE-S-SDK) 
+- **MYNT EYE Stereo Camera** — [`slightech/MYNT-EYE-S-SDK`](https://github.com/slightech/MYNT-EYE-S-SDK)
  📄 MYNT EYE stereo camera series with complete SLAM and vision solutions.
 
 ### Others
@@ -277,7 +380,7 @@
  📄 Stanford dexterous hand data collection system, using motion capture cameras to collect human dexterous manipulation data at scale for Sim-to-Real transfer.
 
 - **Dobb-E** — [`dobb-e.com`](https://dobb-e.com/)
- 📄 NYU full-stack pipeline from hardware to data, with low-cost handheld Stick hardware, dataset, and imitation learning frameworkobots to learn tasks from 15 min demos.
+ 📄 NYU full-stack pipeline from hardware to data, with low-cost handheld Stick hardware, dataset, and imitation learning framework for robots to learn tasks from 15 min demos.
 
 - **GR-1 (ByteDance Model)** — [`github.com/bytedance/GR-1`](https://github.com/bytedance/GR-1)
  📄 ByteDance open-source GPT-style vision robot model for language-conditioned multitask learning.
@@ -300,30 +403,31 @@
 - **NetEase Lingdong Lingjue** — [`lingdong.fuxi.163.com/productSummary/wj`](https://lingdong.fuxi.163.com/productSummary/wj)
   📄 Embodied AI model and training framework for mining excavator loading.
 
-- **Unitree XR Teleoperation** — [`unitreerobotics/xr_teleoperate`](https://github.com/unitreerobotics/xr_teleoperate) 
+- **Unitree XR Teleoperation** — [`unitreerobotics/xr_teleoperate`](https://github.com/unitreerobotics/xr_teleoperate)
   📄 XR-based (Apple Vision Pro/Quest) H1/G1 humanoid teleoperation system
 
-- **RoboWiki** — [`yfrobotics/robowiki`](https://github.com/yfrobotics/robowiki) 
+- **RoboWiki** — [`yfrobotics/robowiki`](https://github.com/yfrobotics/robowiki)
   📄 Robotics wiki (Yunfei Robotics Lab).
 
-- **Unitree Robot Control Guide** — [`unitreerobotics/unitree_guide`](https://github.com/unitreerobotics/unitree_guide) 
+- **Unitree Robot Control Guide** — [`unitreerobotics/unitree_guide`](https://github.com/unitreerobotics/unitree_guide)
   📄 Open-source tutorial for Unitree quadruped robot control, suitable for beginners.
 
+[↑ Back to TOC](#toc)
 
 <a name=reasoning-rl></a>
 
 ## 🧠 Reasoning / Reinforcement Learning
 
-- **OpenR1-Multimodal** — [`EvolvingLMMs-Lab/OpenR1-Multimodal`](https://github.com/EvolvingLMMs-Lab/OpenR1-Multimodal) ⭐ 1.5k 
+- **OpenR1-Multimodal** — [`EvolvingLMMs-Lab/OpenR1-Multimodal`](https://github.com/EvolvingLMMs-Lab/OpenR1-Multimodal) ⭐ 1.5k
  📄 R1 reasoning paradigm on multimodal models with 8K open-source multimodal RL samples.
 
-- **unitree_rl_gym** — [`unitreerobotics/unitree_rl_gym`](https://github.com/unitreerobotics/unitree_rl_gym) 
+- **unitree_rl_gym** — [`unitreerobotics/unitree_rl_gym`](https://github.com/unitreerobotics/unitree_rl_gym)
  📄 Unitree quadruped/humanoid RL training framework based on Isaac Gym.
 
-- **unitree_rl_lab** — [`IsaacLab`](https://github.com/unitreerobotics/unitree_rl_lab) · [`MuJoCo`](https://github.com/unitreerobotics/unitree_rl_mjlab) 
+- **unitree_rl_lab** — [`IsaacLab`](https://github.com/unitreerobotics/unitree_rl_lab) · [`MuJoCo`](https://github.com/unitreerobotics/unitree_rl_mjlab)
  📄 Unitree robot RL implementations based on Isaac Lab and MuJoCo.
 
-- **unitree_IL_lerobot** — [`unitreerobotics/unitree_IL_lerobot`](https://github.com/unitreerobotics/unitree_IL_lerobot) 
+- **unitree_IL_lerobot** — [`unitreerobotics/unitree_IL_lerobot`](https://github.com/unitreerobotics/unitree_IL_lerobot)
  📄 LeRobot-based imitation learning tool for G1 bimanual dexterous hand data.
 
 [↑ Back to TOC](#toc)
@@ -406,13 +510,10 @@
  📄 A common ROS / ROS 2 plotting plugin for viewing topic values in real time during tuning and debugging.
 
 - **system_fingerprint** — [`github.com/MetroRobots/ros_system_fingerprint`](https://github.com/MetroRobots/ros_system_fingerprint)
- 📄 A system snapshot tool for ROS / ROS 2 runtime environments, nodes, topics, and TF state, useful for debugging and delivery validation.
+  📄 A system snapshot tool for ROS / ROS 2 runtime environments, nodes, topics, and TF state, useful for debugging and delivery validation.
 
 - **Webviz** — [`webviz.io`](https://webviz.io/)
  📄 A browser-based visualization platform for ROS bag files and live robot data, useful for layout-based analysis, replay, and remote debugging.
-
-- **AI2-THOR** — [`ai2thor.allenai.org`](https://ai2thor.allenai.org/)
- 📄 A semantic interactive simulator from the Allen Institute, featuring 200+ detailed rooms and 2600+ interactive objects, with support for complex state changes such as slicing and cooking.
 
 - **Arduino IDE** — [`www.arduino.cc`](https://www.arduino.cc)
  📄 An open-source electronics prototyping environment suited for quick sensor, actuator, and control-board integration, with support for C / C++ programming.

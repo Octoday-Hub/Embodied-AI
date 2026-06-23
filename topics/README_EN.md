@@ -170,7 +170,7 @@ If you have any ideas, resource recommendations, or business collaboration inqui
 
 💬  WeChat: Midsummer_Jin
 
-📱  WeChat Official Account: 星期八Robotics
+📱  WeChat Official Account: Octoday Robotics
 
 *Scan the QR code below for the latest updates and resources.*
 
