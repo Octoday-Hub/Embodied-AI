@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-  <img alt="更新项目" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E5%B7%A5%E5%85%B7-%2B162-8B5CF6?style=flat-square&labelColor=5B21B6" />
+  <img alt="更新项目" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E5%B7%A5%E5%85%B7-%2B151-8B5CF6?style=flat-square&labelColor=5B21B6" />
   <img alt="更新比赛" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%AF%94%E8%B5%9B-%2B21-14B8A6?style=flat-square&labelColor=0F766E" />
   <img alt="更新会议" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E4%BC%9A%E8%AE%AE-%2B10-F59E0B?style=flat-square&labelColor=92400E" />
 </p>
@@ -104,7 +104,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🔧（3）锤炼：整合工程实践
 
-> 当前收录 `162` 个工具与开源项目。
+> 当前收录 `151` 个工具与开源项目。
 
 查看[工具与开源项目](topics/04-tools.md)：
 

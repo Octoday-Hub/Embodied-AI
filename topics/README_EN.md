@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-  <img alt="Tools Updated" src="https://img.shields.io/badge/Tools%20Updated-%2B162-8B5CF6?style=flat-square&labelColor=5B21B6" />
+  <img alt="Tools Updated" src="https://img.shields.io/badge/Tools%20Updated-%2B154-8B5CF6?style=flat-square&labelColor=5B21B6" />
   <img alt="Competitions Updated" src="https://img.shields.io/badge/Competitions%20Updated-%2B21-14B8A6?style=flat-square&labelColor=0F766E" />
   <img alt="Conferences Updated" src="https://img.shields.io/badge/Conferences%20Updated-%2B10-F59E0B?style=flat-square&labelColor=92400E" />
 
@@ -105,7 +105,7 @@ Browse curated papers on embodied intelligence, deepen your understanding with o
 
 ### 🔧 (3) Forge: Integrate Engineering Practice
 
-> Currently featuring `162` tools, open-source projects, and development frameworks.
+> Currently featuring `154` tools, open-source projects, and development frameworks.
 
 Check out [Tools & Open-Source Projects](04-tools_EN.md):
 
