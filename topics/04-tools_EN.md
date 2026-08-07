@@ -122,6 +122,9 @@
 - **Webots** — [`cyberbotics.com`](https://cyberbotics.com)
   📄 An open-source cross-platform desktop robot simulation application with a complete environment for modeling, programming, and simulation.
 
+
+- **KWAISEM DexVerse** — [`dexforce.com`](https://www.dexforce.com/)
+  📄 A generative simulation engine (released at WAIC 2026) for large-scale embodied AI training, supporting real-time multi-physics simulation and generative simulation for rapid conversion of real scenes into trainable virtual environments.
 [↑ Back to TOC](#toc)
 
 <a name=models></a>
@@ -170,6 +173,12 @@
 - **VIMA** — [`vimalabs.github.io`](https://vimalabs.github.io/)
   📄 A multimodal embodied task benchmark from UIUC, providing complex "block-building" style tasks for evaluating VLAs on visual, linguistic, and spatial reasoning.
 
+
+- **MiniCPM-RobotManip** — [`github.com/OpenBMB/MiniCPM-Robot`](https://github.com/OpenBMB/MiniCPM-Robot)
+  📄 A 1.5B general-purpose VLA model (released at WAIC 2026) with 1-minute context memory, 120ms per decision step, top-tier comprehensive VLA benchmark performance.
+
+- **MiniCPM-RobotTrack** — [`github.com/OpenBMB/MiniCPM-Robot`](https://github.com/OpenBMB/MiniCPM-Robot)
+  📄 A 0.9B end-to-end visual instruction tracking model (released at WAIC 2026) supporting single-target, dynamic multi-target, and ambiguous target tracking at 5+ Hz with offline local deployment.
 [↑ Back to TOC](#toc)
 
 
@@ -181,9 +190,6 @@
 
 - **AI2-THOR** — [`ai2thor.allenai.org`](https://ai2thor.allenai.org/)
  📄 Semantic interactive simulator from the Allen Institute, with 200+ rooms and 2600+ interactive objects.
-
-- **DeepMind SI-Tuning** — [`github.com/google-deepmind/si_tuning`](https://github.com/google-deepmind/si_tuning)
- 📄 VLA fine-tuning framework from Google DeepMind for RT-2, OpenVLA and other VLA models.
 
 - **Diffusion Policy** — [`github.com/real-stanford/diffusion_policy`](https://github.com/real-stanford/diffusion_policy)
  📄 Diffusion-model-based robot policy learning framework for imitation learning and manipulation.
@@ -227,9 +233,6 @@
 - **RQT Frame Editor** — [`github.com/ipa320/rqt_frame_editor_plugin`](https://github.com/ipa320/rqt_frame_editor_plugin)
  📄 Rqt plugin for creating and adjusting TF frames for multi-sensor coordination.
 
-- **SAGE** — [`github.com/eth-easl/sage`](https://github.com/eth-easl/sage)
- 📄 Distributed embodied AI computing framework from ETH Zurich for large-scale policy training.
-
 - **Theseus** — [`github.com/facebookresearch/theseus`](https://github.com/facebookresearch/theseus)
   📄 Differentiable nonlinear optimization library for robotics and vision state estimation.
 
@@ -239,6 +242,27 @@
 - **VEX Robotics Software** — [`www.vexrobotics.com/?srsltid=AfmBOoqB_9zu0-eFHO4wzVB_33rsABV6DRRJ_drQfuk67n-MLcUmVy9M`](https://www.vexrobotics.com/?srsltid=AfmBOoqB_9zu0-eFHO4wzVB_33rsABV6DRRJ_drQfuk67n-MLcUmVy9M)
  📄 Software tools for VEX robotics platform with drag-and-drop programming for education.
 
+- **insightOS Semantic** — [`insightos.cn`](https://www.insightos.cn/)
+  📄 An embodied semantic agent system (released at WAIC 2026) that uses semantics as a central hub to connect "understanding-planning-execution-evolution", enabling natural language command of multi-heterogeneous robots.
+
+- **RoboPocket** — [`noematrix.ai`](https://www.noematrix.ai/)
+  📄 A hardware-agnostic data collection system (released at WAIC 2026) that dramatically lowers the barrier to real-world data acquisition, managing nearly 10,000 data entries per day without teleoperation dependency.
+
+- **Meta-World** — [`metaworld.farama.org`](https://metaworld.farama.org/)
+  📄 A classic robot manipulation benchmark with 50 tasks, commonly used for multi-task learning and meta-RL evaluation.
+
+- **RoboTwin 2.0** — [`github.com/RoboTwin-Platform/RoboTwin`](https://github.com/RoboTwin-Platform/RoboTwin)
+  📄 A data generation and benchmark platform for bimanual manipulation, emphasizing strong domain randomization, scalable generation, and standardized evaluation.
+
+
+- **TairosAgent** — [`tairos.tencent.com`](https://tairos.tencent.com/)
+  📄 An embodied-native agent framework (released at WAIC 2026) with three-layer architecture (perception-reaction, cognitive-decision, exploration-sedimentation) natively designed for embodied tasks.
+
+- **Apexio** — [`tairos.tencent.com`](https://tairos.tencent.com/)
+  📄 A persistent online embodied agent (released at WAIC 2026) with three concurrently running layers at different frequencies: on-demand cognition, 15Hz perception-action loop, and high-frequency reflex execution.
+
+- **PhyAI** — [`github.com/OpenBMB/MiniCPM-Robot`](https://github.com/OpenBMB/MiniCPM-Robot)
+  📄 An open-source inference framework for Physical AI (released at WAIC 2026), designed for on-device inference and cloud RL rollout, delivering 1.8-2.8x acceleration for π0/π0.5/GR00T models.
 [↑ Back to TOC](#toc)
 
 
@@ -317,9 +341,6 @@
 - **Dummy-Robot (Mini Robot Arm)** — [`peng-zhihui/Dummy-Robot`](https://github.com/peng-zhihui/Dummy-Robot)
  📄 DIY mini robot arm (ZhiHuijun).
 
-- **X-Bot Smart Robot Arm** — [`peng-zhihui/X-Bot`](https://github.com/peng-zhihui/X-Bot)
- 📄 CoreXY-based drawing robot arm (ZhiHuijun).
-
 - **ElectronBot Mini Desktop Robot** — [`peng-zhihui/ElectronBot`](https://github.com/peng-zhihui/ElectronBot)
  📄 Compact desktop robot (ZhiHuijun).
 
@@ -388,8 +409,8 @@
 - **JD JoyInside** — [`joyinside.com`](https://joyinside.com/)
  📄 conversational agent platform
 
-- **kscale·K-Bot** — [`docs.kscale.dev/category/k-bot`](https://docs.kscale.dev/category/k-bot)
- 📄 open-sourcefull-stack humanoid platform
+- **kscale·K-Bot** — [`github.com/kscalelabs/kbot`](https://github.com/kscalelabs/kbot)
+  📄 open-source full-stack humanoid platform
 
 - **Agibot LinkCraft Platform** — [`www.agibot.com.cn/filepage/295.html`](https://www.agibot.com.cn/filepage/295.html)
  📄 Agibotzero-code robot content creation platform, supporting motion imitation and speech-driven task generation.
@@ -418,7 +439,7 @@
 
 ## 🧠 Reasoning / Reinforcement Learning
 
-- **OpenR1-Multimodal** — [`EvolvingLMMs-Lab/OpenR1-Multimodal`](https://github.com/EvolvingLMMs-Lab/OpenR1-Multimodal) ⭐ 1.5k
+- **OpenR1-Multimodal** — [`EvolvingLMMs-Lab/open-r1-multimodal`](https://github.com/EvolvingLMMs-Lab/open-r1-multimodal) ⭐ 1.5k
  📄 R1 reasoning paradigm on multimodal models with 8K open-source multimodal RL samples.
 
 - **unitree_rl_gym** — [`unitreerobotics/unitree_rl_gym`](https://github.com/unitreerobotics/unitree_rl_gym)

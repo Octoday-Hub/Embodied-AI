@@ -22,9 +22,9 @@
 </p>
 
 <p align="center">
-  <img alt="更新项目" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E5%B7%A5%E5%85%B7-%2B162-8B5CF6?style=flat-square&labelColor=5B21B6" />
-  <img alt="更新比赛" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%AF%94%E8%B5%9B-%2B21-14B8A6?style=flat-square&labelColor=0F766E" />
-  <img alt="更新会议" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E4%BC%9A%E8%AE%AE-%2B10-F59E0B?style=flat-square&labelColor=92400E" />
+  <img alt="更新论文" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E8%AE%BA%E6%96%87-%2B86-8B5CF6?style=flat-square&labelColor=5B21B6" />
+  <img alt="更新工具" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E5%B7%A5%E5%85%B7-%2B8-14B8A6?style=flat-square&labelColor=0F766E" />
+  <img alt="更新数据集" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%95%B0%E6%8D%AE%E9%9B%86-%2B41-F59E0B?style=flat-square&labelColor=92400E" />
 </p>
 
 
@@ -64,6 +64,8 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 `📡 行业观察`：关注政策、风向、事件与阶段性行业拐点。
 
+`📦 数据地图`：汇聚全球具身智能数据集，打通训练数据资源。
+
 ## 📍 新手启程：
 
 具身智能（Embodied AI）是指智能体通过物理身体与环境实时交互，从而产生感知、理解、决策并执行动作的智能系统。它融合了计算机视觉、强化学习与多模态大模型等多个领域。
@@ -81,7 +83,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🔭（2）瞭望台：追踪前沿技术
 
-> 当前收录 `21` 项竞赛、`10` 场会议、`319` 篇精选论文。
+> 当前收录 `21` 项竞赛、`10` 场会议、`362` 篇精选论文。
 
 查看[学术与竞赛](topics/05-research-hub.md)：
 
@@ -104,7 +106,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🔧（3）锤炼：整合工程实践
 
-> 当前收录 `162` 个工具与开源项目。
+> 当前收录 `156` 个工具与开源项目。
 
 查看[工具与开源项目](topics/04-tools.md)：
 
@@ -112,11 +114,17 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🔗（4）坐标：洞察产业动态
 
-> 当前共收录 `274` 家具身智能相关公司：国内 `171` 家、国外 `103` 家。
+> 当前共收录 `285` 家具身智能相关公司：国内 `180` 家、国外 `105` 家。
 
 查看[公司列表](topics/01-companies.md)：
 
 梳理全球具身智能企业图谱，发现潜在的商业锚点。
+
+### 📦（4+）数据：打通训练资源
+
+查看[具身智能数据集目录](topics/06-datasets.md)：
+
+汇聚 Open X-Embodiment、AgiBot World、DROID 等全球主流数据集，覆盖操作、移动、遥操作与仿真合成。
 
 ### 🎒（5）进化：人才风向标
 

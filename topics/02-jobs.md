@@ -1794,19 +1794,19 @@
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">26届AI领航员-具身智能-算法工程师</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">校招</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京市/上海市/深圳市</td>
-<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=691d8db7e3842960d19c3af4&postType=campus"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://hr.sensetime.com/"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
 </tr>
 <tr style="background: #ffffff;">
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">26届AI领航员-具身智能-结构设计工程师</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市/上海市</td>
-<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=691d8eeed14e3214542f3970&postType=campus"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://hr.sensetime.com/"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
 </tr>
 <tr style="background: #f6f8fa;">
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">26届AI领航员-研究院-算法研究员</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市/上海市</td>
-<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=688748c643ff2844337fbbd7&postType=campus"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://hr.sensetime.com/"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
 </tr>
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jump-jobs-domestic-19" name="jump-jobs-domestic-19"></a></td>
@@ -3317,19 +3317,19 @@
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">26届AI领航员-具身智能-算法工程师</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">专项</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京市/上海市/深圳市</td>
-<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=691d8db7e3842960d19c3af4&postType=campus"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://hr.sensetime.com/"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
 </tr>
 <tr style="background: #ffffff;">
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">26届AI领航员-具身智能-结构设计工程师</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市/上海市</td>
-<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=691d8eeed14e3214542f3970&postType=campus"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://hr.sensetime.com/"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
 </tr>
 <tr style="background: #f6f8fa;">
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">26届AI领航员-研究院-算法研究员</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">专项</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市/上海市</td>
-<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=688748c643ff2844337fbbd7&postType=campus"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://hr.sensetime.com/"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
 </tr>
 <tr>
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jobs-special-17" name="jobs-special-17"></a></td>

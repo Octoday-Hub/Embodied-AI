@@ -22,9 +22,9 @@
 </p>
 
 <p align="center">
-  <img alt="Tools Updated" src="https://img.shields.io/badge/Tools%20Updated-%2B162-8B5CF6?style=flat-square&labelColor=5B21B6" />
-  <img alt="Competitions Updated" src="https://img.shields.io/badge/Competitions%20Updated-%2B21-14B8A6?style=flat-square&labelColor=0F766E" />
-  <img alt="Conferences Updated" src="https://img.shields.io/badge/Conferences%20Updated-%2B10-F59E0B?style=flat-square&labelColor=92400E" />
+  <img alt="Papers Updated" src="https://img.shields.io/badge/Papers%20Updated-%2B86-8B5CF6?style=flat-square&labelColor=5B21B6" />
+  <img alt="Tools Updated" src="https://img.shields.io/badge/Tools%20Updated-%2B8-14B8A6?style=flat-square&labelColor=0F766E" />
+  <img alt="Datasets Updated" src="https://img.shields.io/badge/Datasets%20Updated-%2B41-F59E0B?style=flat-square&labelColor=92400E" />
 
 </p>
 
@@ -65,6 +65,8 @@ We will gradually expand coverage across the following areas:
 
 `📡 Industry Insights`: Monitor policies, trends, events, and inflection points in the industry.
 
+`📦 Data Map`: Curate global embodied AI datasets to unlock training data resources.
+
 ## 📍 Getting Started: Your First Step
 
 **Embodied AI** refers to intelligent systems that perceive, understand, decide, and act through a physical body interacting with the environment in real time. It brings together computer vision, reinforcement learning, and multimodal foundation models.
@@ -82,7 +84,7 @@ A hand-picked selection of books and courses covering the fundamentals of roboti
 
 ### 🔭 (2) Watchtower: Track Frontier Technologies
 
-> Currently featuring `21` competitions, `10` conferences, and `319` selected papers.
+> Currently featuring `21` competitions, `10` conferences, and `362` selected papers.
 
 Check out the [Research & Competition Hub](05-research-hub_EN.md):
 
@@ -105,7 +107,7 @@ Browse curated papers on embodied intelligence, deepen your understanding with o
 
 ### 🔧 (3) Forge: Integrate Engineering Practice
 
-> Currently featuring `162` tools, open-source projects, and development frameworks.
+> Currently featuring `161` tools, open-source projects, and development frameworks.
 
 Check out [Tools & Open-Source Projects](04-tools_EN.md):
 
@@ -113,11 +115,17 @@ A unified collection of simulation platforms, motion control, SDKs, ROS toolchai
 
 ### 🔗 (4) Coordinates: Gain Industrial Insights
 
-> Currently featuring `274` embodied AI-related companies: `171` domestic, `103` overseas.
+> Currently featuring `285` embodied AI-related companies: `180` domestic, `105` overseas.
 
 View the [Company List](01-companies_EN.md):
 
 A curated map of the global embodied AI enterprise landscape to help you discover potential business anchors.
+
+### 📦 (4+) Data: Unlock Training Resources
+
+Check the [Embodied AI Dataset Catalog](06-datasets_EN.md):
+
+A curated collection of major global datasets including Open X-Embodiment, AgiBot World, and DROID, covering manipulation, mobile manipulation, teleoperation, and simulation.
 
 ### 🎒 (5) Evolution: Talent Compass
 

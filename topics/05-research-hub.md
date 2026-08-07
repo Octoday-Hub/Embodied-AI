@@ -4,95 +4,95 @@
 > 本模块整合竞赛与学术会议两大板块，一站式追踪具身智能领域的前沿动态与竞技生态
 
 
-# 📅 学术日历
+## 📅 学术日历
 
 > 点击会议/赛事名称跳转详情
 
-## 🎤 2026-2027年会议日历
+### 2026-2027年会议日历
 
-### 📍 2026年
+#### 📍 2026年
 
 | 月份 | 会议 |
 |:---|:---|
-| **6月** | [ICRA 2026（6.1-5·已结束）](#1-icra-2026-ieee-international-conference-on-robotics-and-automation) ｜ [CVPR 2026（6.3-7·已结束）](#6-cvpr-2026-ieee-cvf-conference-on-computer-vision-and-pattern-recognition) |
-| **7月** | [ICML 2026（7.6-11）](#7-icml-2026-international-conference-on-machine-learning) ｜ [RSS 2026（7.13-17）](#3-rss-2026-robotics-science-and-systems) |
-| **8月** | [IJCAI-ECAI 2026（8.15-21）](#10-ijcai-ecai-2026-international-joint-conference-on-artificial-intelligence) |
+| **6月** | [ICRA 2026（6.1-5）](#1-icra-2026-ieee-international-conference-on-robotics-and-automation) ｜ [CVPR 2026（6.3-7）](#6-cvpr-2026-ieee-cvf-conference-on-computer-vision-and-pattern-recognition) |
+| **7月** | [ICML 2026（7.6-11）](#1-icml-2026-international-conference-on-machine-learning) ｜ [RSS 2026（7.13-17）](#3-rss-2026-robotics-science-and-systems) |
+| **8月** | [IJCAI-ECAI 2026（8.15-21）](#2-ijcai-ecai-2026-international-joint-conference-on-artificial-intelligence) |
 | **9月** | [IROS 2026（9.27-10.1）](#2-iros-2026-ieeerj-international-conference-on-intelligent-robots-and-systems) |
 | **11月** | [CoRL 2026（11.9-12）](#4-corl-2026-conference-on-robot-learning) |
-| **12月** | [NeurIPS 2026（12.6-12）](#5-neurips-2026-conference-on-neural-information-processing-systems) ｜ [IEEE-RAS Humanoids 2026（12.6-9）](#9-ieee-ras-humanoids-2026-ieee-ras-international-conference-on-humanoid-robots) |
+| **12月** | [NeurIPS 2026（12.6-12）](#5-neurips-2026-conference-on-neural-information-processing-systems) ｜ [IEEE-RAS Humanoids 2026（12.6-9）](#1-ieee-ras-humanoids-2026-ieee-ras-international-conference-on-humanoid-robots) |
 
-### 📍 2027年
+#### 📍 2027年
 
 | 月份 | 会议 |
 |:---|:---|
-| **2月** | [AAAI 2027（2.16-23）](#8-aaai-2027-aaai-conference-on-artificial-intelligence) |
+| **2月** | [AAAI 2027（2.16-23）](#2-aaai-2027-aaai-conference-on-artificial-intelligence) |
 
 
-## 🏆 2026年竞赛日历
+### 2026年竞赛日历
 
 | 月份 | 赛事 |
 |------|------|
-| **3月** | [RoboMaster 高校联盟赛](#12-robomaster-2026-机甲大师赛) ｜ [中国高校智能机器人创意大赛报名](#16-第九届中国高校智能机器人创意大赛) ｜ [RAICOM 报名启动](#17-睿抗机器人开发者大赛raicom) ｜ [中国机器人及人工智能大赛各赛区启动](#15-第二十八届中国机器人及人工智能大赛) |
+| **3月** | [RoboMaster 高校联盟赛](#12-robomaster-2026-机甲大师赛) ｜ [中国高校智能机器人创意大赛报名](#4-第九届中国高校智能机器人创意大赛) ｜ [RAICOM 报名启动](#17-睿抗机器人开发者大赛raicom) ｜ [中国机器人及人工智能大赛各赛区启动](#3-第二十八届中国机器人及人工智能大赛) |
 | **4月** | [北京亦庄人形机器人半程马拉松（4.19）](#21-北京亦庄人形机器人半程马拉松) ｜ [VEX Worlds（4.21-30）](#6-vex-robotics-world-championship-2026) ｜ [FIRST Championship（4.29-5.2）](#7-first-championship-2026) ｜ [嵌入式芯片与系统设计竞赛启动](#18-全国大学生嵌入式芯片与系统设计竞赛) |
-| **5月** | [中国机器人大赛+RoboCup中国赛（5.1-5）](#11-2026中国机器人大赛暨robocup机器人世界杯中国赛) ｜ [RoboMaster 区域赛](#12-robomaster-2026-机甲大师赛) ｜ [中国高校智能机器人创意大赛报名截止（5.8）](#16-第九届中国高校智能机器人创意大赛) |
-| **6月** | [ICRA 2026 挑战赛（6.1-5·已结束）](#2-icra-2026-机器人挑战赛) ｜ [MATE ROV 世锦赛（6.25-27）](#10-mate-rov-2026-水下机器人世界锦标赛) ｜ [RoboCup 2026 世界杯（6.30-7.6）](#1-robocup-2026-机器人世界杯) |
-| **7月** | [RoboSub 2026（7.11-16）](#9-robosub-2026第29届自主水下机器人竞赛) ｜ [高校智能机器人创意大赛全国赛（7.12-13）](#16-第九届中国高校智能机器人创意大赛) ｜ [RoboMaster 全国总决赛](#12-robomaster-2026-机甲大师赛) ｜ [ROBOCON 2026](#13-robocon-2026第二十五届) ｜ [ROBOTAC 2026](#14-robotac-2026) |
+| **5月** | [中国机器人大赛+RoboCup中国赛（5.1-5）](#11-2026中国机器人大赛暨robocup机器人世界杯中国赛) ｜ [RoboMaster 区域赛](#12-robomaster-2026-机甲大师赛) ｜ [中国高校智能机器人创意大赛报名截止（5.8）](#4-第九届中国高校智能机器人创意大赛) |
+| **6月** | [ICRA 2026 挑战赛（6.1-5）](#2-icra-2026-机器人挑战赛) ｜ [MATE ROV 世锦赛（6.25-27）](#10-mate-rov-2026-水下机器人世界锦标赛) ｜ [RoboCup 2026 世界杯（6.30-7.6）](#1-robocup-2026-机器人世界杯) |
+| **7月** | [RoboSub 2026（7.11-16）](#9-robosub-2026第29届自主水下机器人竞赛) ｜ [高校智能机器人创意大赛全国赛（7.12-13）](#4-第九届中国高校智能机器人创意大赛) ｜ [RoboMaster 全国总决赛](#12-robomaster-2026-机甲大师赛) ｜ [ROBOCON 2026](#1-robocon-2026第二十五届) ｜ [ROBOTAC 2026](#2-robotac-2026) |
 | **8月** | [RAICOM 总决赛](#17-睿抗机器人开发者大赛raicom) ｜ [WRC 世界机器人大会（8.19-23）](#19-2026世界机器人大会wrc) ｜ [世界人形机器人运动会（8.22-26）](#20-2026世界人形机器人运动会第二届) |
 | **11月** | [DARPA Triage Challenge 总决赛（11.5-13）](#5-darpa-triage-challenge-挑战赛) |
 | **12月** | [WRO 2026 国际总决赛（12.8-10）](#8-world-robot-olympiadwro-2026) |
 
 
-# 学术会议
+## 学术会议
 
-## 目录
+### 目录
 
 - [会议分类总览](#会议分类总览)
 - [机器人学核心会议](#1-icra-2026-ieee-international-conference-on-robotics-and-automation)
-- [机器学习核心会议](#7-icml-2026-international-conference-on-machine-learning)
-- [专业领域会议](#9-ieee-ras-humanoids-2026-ieee-ras-international-conference-on-humanoid-robots)
+- [机器学习核心会议](#1-icml-2026-international-conference-on-machine-learning)
+- [专业领域会议](#1-ieee-ras-humanoids-2026-ieee-ras-international-conference-on-humanoid-robots)
 
-## 会议分类总览
+### 会议分类总览
 
-### 按领域分类
+#### 按领域分类
 
 | 领域 | 代表会议 |
 |:---|:---|
 | **机器人学综合** | [ICRA](#1-icra-2026-ieee-international-conference-on-robotics-and-automation)（CCF B）· [IROS](#2-iros-2026-ieeerj-international-conference-on-intelligent-robots-and-systems)（CCF C）· [RSS](#3-rss-2026-robotics-science-and-systems)（CCF B） |
-| **机器人学习** | [CoRL](#4-corl-2026-conference-on-robot-learning) · [NeurIPS](#5-neurips-2026-conference-on-neural-information-processing-systems)（CCF A）· [ICML](#7-icml-2026-international-conference-on-machine-learning)（CCF A） |
+| **机器人学习** | [CoRL](#4-corl-2026-conference-on-robot-learning) · [NeurIPS](#5-neurips-2026-conference-on-neural-information-processing-systems)（CCF A）· [ICML](#1-icml-2026-international-conference-on-machine-learning)（CCF A） |
 | **计算机视觉** | [CVPR](#6-cvpr-2026-ieee-cvf-conference-on-computer-vision-and-pattern-recognition)（CCF A） |
-| **人工智能综合** | [AAAI](#8-aaai-2027-aaai-conference-on-artificial-intelligence)（CCF A）· [IJCAI](#10-ijcai-ecai-2026-international-joint-conference-on-artificial-intelligence)（CCF A） |
-| **人形机器人专项** | [IEEE-RAS Humanoids](#9-ieee-ras-humanoids-2026-ieee-ras-international-conference-on-humanoid-robots) |
+| **人工智能综合** | [AAAI](#2-aaai-2027-aaai-conference-on-artificial-intelligence)（CCF A）· [IJCAI](#2-ijcai-ecai-2026-international-joint-conference-on-artificial-intelligence)（CCF A） |
+| **人形机器人专项** | [IEEE-RAS Humanoids](#1-ieee-ras-humanoids-2026-ieee-ras-international-conference-on-humanoid-robots) |
 
 *注：(A) 表示 CCF A类；(B) 表示 CCF B类；无标注为未入榜或 C 类*
 
-### 按时间排列
+#### 按时间排列
 
 | 时间 | 会议 | 地点 |
 |:---|:---|:---|
 | **2026年6月1-5日** | [ICRA 2026](#1-icra-2026-ieee-international-conference-on-robotics-and-automation) | 奥地利·维也纳 |
 | **2026年6月3-7日** | [CVPR 2026](#6-cvpr-2026-ieee-cvf-conference-on-computer-vision-and-pattern-recognition) | 美国·丹佛 |
-| **2026年7月6-11日** | [ICML 2026](#7-icml-2026-international-conference-on-machine-learning) | 韩国·首尔 |
+| **2026年7月6-11日** | [ICML 2026](#1-icml-2026-international-conference-on-machine-learning) | 韩国·首尔 |
 | **2026年7月13-17日** | [RSS 2026](#3-rss-2026-robotics-science-and-systems) | 澳大利亚·悉尼 |
-| **2026年8月15-21日** | [IJCAI-ECAI 2026](#10-ijcai-ecai-2026-international-joint-conference-on-artificial-intelligence) | 德国·不莱梅 |
+| **2026年8月15-21日** | [IJCAI-ECAI 2026](#2-ijcai-ecai-2026-international-joint-conference-on-artificial-intelligence) | 德国·不莱梅 |
 | **2026年9月27-10月1日** | [IROS 2026](#2-iros-2026-ieeerj-international-conference-on-intelligent-robots-and-systems) | 美国·匹兹堡 |
 | **2026年11月9-12日** | [CoRL 2026](#4-corl-2026-conference-on-robot-learning) | 美国·奥斯汀 |
 | **2026年12月6-12日** | [NeurIPS 2026](#5-neurips-2026-conference-on-neural-information-processing-systems) | 美国·亚特兰大 |
-| **2026年12月6-9日** | [Humanoids 2026](#9-ieee-ras-humanoids-2026-ieee-ras-international-conference-on-humanoid-robots) | 美国·硅谷·圣克拉拉 |
-| **2027年2月16-23日** | [AAAI 2027](#8-aaai-2027-aaai-conference-on-artificial-intelligence) | 加拿大·蒙特利尔 |
+| **2026年12月6-9日** | [Humanoids 2026](#1-ieee-ras-humanoids-2026-ieee-ras-international-conference-on-humanoid-robots) | 美国·硅谷·圣克拉拉 |
+| **2027年2月16-23日** | [AAAI 2027](#2-aaai-2027-aaai-conference-on-artificial-intelligence) | 加拿大·蒙特利尔 |
 
-## 一、机器人学核心会议
+### 一、机器人学核心会议
 
 <a name="1-icra-2026-ieee-international-conference-on-robotics-and-automation"></a>
 
-## 1. ICRA 2026 — IEEE International Conference on Robotics and Automation
+#### 1. ICRA 2026 — IEEE International Conference on Robotics and Automation
 
-### 会议简介
+##### 会议简介
 
 ICRA（IEEE 国际机器人与自动化会议）是机器人学领域**规模最大、影响力最广的顶级学术会议**，由 IEEE 机器人与自动化学会（RAS）主办，被中国计算机学会（CCF）列为**B类会议**。ICRA 涵盖机器人学各个方向，是具身智能相关论文（VLA、操作、导航、人形机器人等）发表的核心平台。
 
 2026年主题为 "**Robots for All**" ，首次在奥地利维也纳举办，预计吸引全球数千名研究者。会议同步举办**9项机器人挑战赛**（含 AgiBot World Challenge 等具身智能专项），是学术与实践结合最紧密的机器人会议。
 
-### 基本信息
+##### 基本信息
 
 | 项目 | 内容 |
 |:---|:---|
@@ -105,7 +105,7 @@ ICRA（IEEE 国际机器人与自动化会议）是机器人学领域**规模最
 | **会议主题** | Robots for All |
 | **论文投稿状态** | 已关闭（2026年1月截止） |
 
-### 核心议题
+##### 核心议题
 
 | 方向 | 说明 |
 |:---|:---|
@@ -116,11 +116,11 @@ ICRA（IEEE 国际机器人与自动化会议）是机器人学领域**规模最
 | **机器人学习** | 强化学习、模仿学习、VLA模型、世界模型 |
 | **多机器人系统** | 集群协同、任务分配、分布式控制 |
 
-### 2026年九大竞赛
+##### 2026年九大竞赛
 
 ICRA 2026 同步举办 9 项机器人竞赛（详见竞赛汇总文档），其中具身智能相关赛项包括：
 
-- AgiBot World Challenge 2026（详见[专题竞赛](#20-agibot-world-challenge-2026具身智能专项)，具身智能人形机器人三大赛道）
+- AgiBot World Challenge 2026（详见[专题竞赛](#1-agibot-world-challenge-2026具身智能专项)，具身智能人形机器人三大赛道）
 - REAL-I 真实世界具身智能学习挑战赛（详见[专题竞赛](#23-real-i-真实世界具身智能学习挑战赛)，三个工业场景）
 - 第11届机器人抓取与操作竞赛
 - 双臂机器人实用操作竞赛
@@ -129,15 +129,15 @@ ICRA 2026 同步举办 9 项机器人竞赛（详见竞赛汇总文档），其�
 
 <a name="2-iros-2026-ieeerj-international-conference-on-intelligent-robots-and-systems"></a>
 
-## 2. IROS 2026 — IEEE/RSJ International Conference on Intelligent Robots and Systems
+#### 2. IROS 2026 — IEEE/RSJ International Conference on Intelligent Robots and Systems
 
-### 会议简介
+##### 会议简介
 
 IROS（IEEE/RSJ 智能机器人与系统国际会议）是机器人学领域**第二大顶级会议**，与 ICRA 齐名，由 IEEE RAS 与 RSJ（日本机器人学会）共同主办，被 CCF 列为**C类会议**。IROS 更侧重于**智能机器人系统**的集成与创新，涵盖从传感器到决策的全栈技术。
 
 2026年重返美国匹兹堡——卡内基梅隆大学（CMU）所在地，匹兹堡也是全球机器人研究的重要枢纽，汇聚了大量自动驾驶与机器人企业。IROS 2026 预计接收论文 1000+ 篇。
 
-### 基本信息
+##### 基本信息
 
 | 项目 | 内容 |
 |:---|:---|
@@ -150,7 +150,7 @@ IROS（IEEE/RSJ 智能机器人与系统国际会议）是机器人学领域**�
 | **录用通知** | 2026年6月16日 |
 | **最终稿提交** | 2026年7月10日 |
 
-### 核心议题
+##### 核心议题
 
 | 方向 | 说明 |
 |:---|:---|
@@ -164,15 +164,15 @@ IROS（IEEE/RSJ 智能机器人与系统国际会议）是机器人学领域**�
 
 <a name="3-rss-2026-robotics-science-and-systems"></a>
 
-## 3. RSS 2026 — Robotics: Science and Systems
+#### 3. RSS 2026 — Robotics: Science and Systems
 
-### 会议简介
+##### 会议简介
 
 RSS（机器人学：科学与系统）是与 ICRA、IROS 并列的**机器人学三大顶会之一**，以**论文质量极高、录用率低**著称，被 CCF 列为 **B类会议**。RSS 注重机器人学的基础理论与系统性创新，每届仅接收约 100-150 篇论文，是发表突破性工作的首选平台。
 
 2026年为第22届，首次在**澳大利亚悉尼**举办，由悉尼科技大学（UTS）承办。
 
-### 基本信息
+##### 基本信息
 
 | 项目 | 内容 |
 |:---|:---|
@@ -185,7 +185,7 @@ RSS（机器人学：科学与系统）是与 ICRA、IROS 并列的**机器人�
 | **论文摘要截止** | 2026年1月24日（已关闭） |
 | **论文提交截止** | 2026年1月31日（已关闭） |
 
-### 核心特色
+##### 核心特色
 
 - **单轨制**（Single Track）：全部论文以口头报告展示，不设海报分会
 - **发表前评审**：所有录用论文在会议前即在线发表
@@ -194,15 +194,15 @@ RSS（机器人学：科学与系统）是与 ICRA、IROS 并列的**机器人�
 
 <a name="4-corl-2026-conference-on-robot-learning"></a>
 
-## 4. CoRL 2026 — Conference on Robot Learning
+#### 4. CoRL 2026 — Conference on Robot Learning
 
-### 会议简介
+##### 会议简介
 
 CoRL（机器人学习会议）是**机器人学与机器学习交叉领域的顶级会议**，专注于机器人学习的前沿研究，涵盖强化学习、模仿学习、VLA 模型等领域。近年来已成为**具身智能论文发表的核心阵地**，OpenVLA、RT-2 等里程碑工作均曾在 CoRL 发表。
 
 2026年为第10届，主题涵盖从算法到实际部署的完整机器人学习链路。会议设 1 天 Workshop + 3 天主会。
 
-### 基本信息
+##### 基本信息
 
 | 项目 | 内容 |
 |:---|:---|
@@ -214,7 +214,7 @@ CoRL（机器人学习会议）是**机器人学与机器学习交叉领域的�
 | **届数** | 第10届 |
 | **征稿启动** | 2026年1月25日 |
 
-### 核心议题
+##### 核心议题
 
 | 方向 | 说明 |
 |:---|:---|
@@ -227,15 +227,15 @@ CoRL（机器人学习会议）是**机器人学与机器学习交叉领域的�
 
 <a name="5-neurips-2026-conference-on-neural-information-processing-systems"></a>
 
-## 5. NeurIPS 2026 — Conference on Neural Information Processing Systems
+#### 5. NeurIPS 2026 — Conference on Neural Information Processing Systems
 
-### 会议简介
+##### 会议简介
 
 NeurIPS（神经信息处理系统大会）是**人工智能与机器学习领域最高级别的顶级会议**，被 CCF 列为 **A类会议**。近年来，NeurIPS 大幅增加了**具身智能、机器人学习**相关的 Track 与 Workshop，VLA 模型、世界模型、机器人强化学习等方向已成为 NeurIPS 的重要组成部分。
 
 2026年为第40届，主会在**澳大利亚·悉尼**举办（亚特兰大、巴黎为卫星会场）。预计参会人数 13,000+，是 AI 领域规模最大的学术会议。
 
-### 基本信息
+##### 基本信息
 
 | 项目 | 内容 |
 |:---|:---|
@@ -247,7 +247,7 @@ NeurIPS（神经信息处理系统大会）是**人工智能与机器学习领�
 | **届数** | 第40届 |
 | **论文投稿状态** | 已关闭（2026年5月7日截止，摘要5月5日截止）
 
-### 特色活动
+##### 特色活动
 
 - **具身智能 Workshop**（每年固定举办，如 "Robot Learning"、"Embodied AI" 等）
 - **机器人竞赛**（如 MineRL 竞赛、NetHack 竞赛等）
@@ -256,15 +256,15 @@ NeurIPS（神经信息处理系统大会）是**人工智能与机器学习领�
 
 <a name="6-cvpr-2026-ieee-cvf-conference-on-computer-vision-and-pattern-recognition"></a>
 
-## 6. CVPR 2026 — IEEE/CVF Conference on Computer Vision and Pattern Recognition
+#### 6. CVPR 2026 — IEEE/CVF Conference on Computer Vision and Pattern Recognition
 
-### 会议简介
+##### 会议简介
 
 CVPR（计算机视觉与模式识别会议）是**计算机视觉领域最高级别的顶级会议**，被 CCF 列为 **A类会议**。虽然 CVPR 本身以视觉为核心，但**具身智能的核心离不开视觉感知**——VLA 模型的视觉编码器、3D 场景理解、物体检测与位姿估计、手物交互分析等，都是 CVPR 的重要议题。
 
 2026年为第43届，在丹佛举办。CVPR 近年特设 "**机器人视觉**"、"**具身 AI**" 专题 Workshop，并吸引大量机器人操作、导航相关的视觉论文投稿。
 
-### 基本信息
+##### 基本信息
 
 | 项目 | 内容 |
 |:---|:---|
@@ -275,20 +275,20 @@ CVPR（计算机视觉与模式识别会议）是**计算机视觉领域最高�
 | **CCF 等级** | A类 |
 | **届数** | 第43届 |
 
-## 二、机器学习核心会议
+### 二、机器学习核心会议
 
 
-<a name="7-icml-2026-international-conference-on-machine-learning"></a>
+<a name="1-icml-2026-international-conference-on-machine-learning"></a>
 
-## 7. ICML 2026 — International Conference on Machine Learning
+### 1. ICML 2026 — International Conference on Machine Learning
 
-### 会议简介
+#### 会议简介
 
 ICML（国际机器学习大会）是**机器学习领域最高级别的三大顶会之一**（与 NeurIPS、ICLR 齐名），被 CCF 列为 **A类会议**。ICML 近年大量接收机器人学习、强化学习、世界模型等方向论文。
 
 2026年为第43届，首次在韩国首尔举办。ICML 设有 Robot Learning、Reinforcement Learning、Mobility & Navigation 等 Track。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |:---|:---|
@@ -299,17 +299,17 @@ ICML（国际机器学习大会）是**机器学习领域最高级别的三大�
 | **CCF 等级** | A类 |
 | **届数** | 第43届 |
 
-<a name="8-aaai-2027-aaai-conference-on-artificial-intelligence"></a>
+<a name="2-aaai-2027-aaai-conference-on-artificial-intelligence"></a>
 
-## 8. AAAI 2027 — AAAI Conference on Artificial Intelligence
+### 2. AAAI 2027 — AAAI Conference on Artificial Intelligence
 
-### 会议简介
+#### 会议简介
 
 AAAI（美国人工智能协会年会）是**人工智能领域历史最悠久、最负盛名的综合性顶会之一**，被 CCF 列为 **A类会议**。AAAI 涵盖 AI 全部子领域，包含**机器人学与具身智能**相关 Track 和 Workshop。
 
 2027年为第41届，在加拿大蒙特利尔举办。AAAI 设有 "**AI and Robotics**"、"**Embodied AI**" 等专题 Track，是具身智能研究成果的重要展示平台。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |:---|:---|
@@ -320,7 +320,7 @@ AAAI（美国人工智能协会年会）是**人工智能领域历史最悠久�
 | **CCF 等级** | A类 |
 | **届数** | 第41届 |
 
-### 与具身智能相关的重点方向
+#### 与具身智能相关的重点方向
 
 | 方向 | 说明 |
 |:---|:---|
@@ -330,20 +330,20 @@ AAAI（美国人工智能协会年会）是**人工智能领域历史最悠久�
 | **人机交互 AI** | 社会机器人、情感计算、协同 AI |
 
 
-## 三、专业领域会议
+### 三、专业领域会议
 
 
-<a name="9-ieee-ras-humanoids-2026-ieee-ras-international-conference-on-humanoid-robots"></a>
+<a name="1-ieee-ras-humanoids-2026-ieee-ras-international-conference-on-humanoid-robots"></a>
 
-## 9. IEEE-RAS Humanoids 2026 — IEEE-RAS International Conference on Humanoid Robots
+### 1. IEEE-RAS Humanoids 2026 — IEEE-RAS International Conference on Humanoid Robots
 
-### 会议简介
+#### 会议简介
 
 Humanoids 是**全球唯一专注仿人机器人（人形机器人）的顶级学术会议**，始于 2000 年，由 IEEE RAS 主办。会议全面覆盖人形机器人的机械设计、运动控制、感知交互、AI 决策等方面，是**人形机器人领域最权威的学术平台**。
 
 2026年为第25届（银禧年），在**硅谷·圣克拉拉（Santa Clara, CA）**举办，与全球人形机器人产业中心紧密联动。预计参会 1200+ 人，提交论文 200+ 篇。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |:---|:---|
@@ -358,7 +358,7 @@ Humanoids 是**全球唯一专注仿人机器人（人形机器人）的顶级�
 | **录用通知** | 2026年10月6日 |
 | **最终稿提交** | 2026年10月26日 |
 
-### 核心议题
+#### 核心议题
 
 | 方向 | 说明 |
 |:---|:---|
@@ -370,24 +370,24 @@ Humanoids 是**全球唯一专注仿人机器人（人形机器人）的顶级�
 | **可穿戴机器人** | 外骨骼、假肢、增强技术 |
 | **应用场景** | 工业、医疗、家庭服务、灾难响应 |
 
-### 2026年特色
+#### 2026年特色
 
 - **第25届银禧纪念**：将举办特别回顾论坛和产业前瞻讨论
 - **硅谷产业联动**：与 Agility、Tesla Optimus、Figure AI 等人形机器人公司深度互动
 - **公共论坛（12月6日）**：面向公众展示最新人形机器人技术成果
 
 
-<a name="10-ijcai-ecai-2026-international-joint-conference-on-artificial-intelligence"></a>
+<a name="2-ijcai-ecai-2026-international-joint-conference-on-artificial-intelligence"></a>
 
-## 10. IJCAI-ECAI 2026 — International Joint Conference on Artificial Intelligence
+### 2. IJCAI-ECAI 2026 — International Joint Conference on Artificial Intelligence
 
-### 会议简介
+#### 会议简介
 
 IJCAI（国际人工智能联合会议）是**人工智能领域历史最悠久、最权威的综合性顶会之一**，被 CCF 列为 **A类会议**。2026年与 ECAI（欧洲人工智能会议）联合举办，在德国不莱梅召开。
 
 IJCAI 涵盖 AI 全部子领域，设有 "**AI and Robotics** 特别赛道"，接收具身智能、机器人规划、人机交互等方向论文。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |:---|:---|
@@ -399,7 +399,7 @@ IJCAI 涵盖 AI 全部子领域，设有 "**AI and Robotics** 特别赛道"，�
 | **届数** | 第35届 |
 | **论文提交截止** | 2026年1月19日（已关闭） |
 
-### 2026年特别赛道
+#### 2026年特别赛道
 
 | 赛道 | 说明 |
 |:---|:---|
@@ -409,22 +409,22 @@ IJCAI 涵盖 AI 全部子领域，设有 "**AI and Robotics** 特别赛道"，�
 | **AI 与健康** | 医疗机器人与 AI 诊断 |
 | **AI 与机器人** | **具身智能/机器人与 AI 的交叉研究** |
 
-# 竞赛汇总
+## 竞赛汇总
 
-## 一、国际综合赛事
+### 一、国际综合赛事
 
 
 <a name="1-robocup-2026-机器人世界杯"></a>
 
-## 1. RoboCup 2026 机器人世界杯
+### 1. RoboCup 2026 机器人世界杯
 
-### 赛事简介
+#### 赛事简介
 
 RoboCup（机器人世界杯）是全球规模最大、影响力最广的机器人足球与救援综合赛事，被誉为"机器人世界杯"。赛事始于1997年，旨在通过足球比赛推动人工智能和机器人技术发展，其终极目标是：**到2050年，一支完全自主的人形机器人足球队能够击败人类世界杯冠军**。
 
 2026年是RoboCup历史上**首次在韩国举办**，预计来自数十个国家的**超过3,000名参赛者**和约**15,000名观众**。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -436,7 +436,7 @@ RoboCup（机器人世界杯）是全球规模最大、影响力最广的机器�
 | **历史** | 第30届，首次在韩国举办 |
 | **下届预告** | 2027年将在德国纽伦堡举办 |
 
-### 联赛体系（五大联赛）
+#### 联赛体系（五大联赛）
 
 | 联赛类别 | 子赛项 |
 |----------|--------|
@@ -446,7 +446,7 @@ RoboCup（机器人世界杯）是全球规模最大、影响力最广的机器�
 | **RoboCupIndustrial（工业）** | 工业场景下的机器人移动操作 |
 | **RoboCupJunior（青少年）** | 面向中小学的机器人竞赛 |
 
-### 奖项
+#### 奖项
 
 - 各联赛冠亚季军
 - RoboCup Symposium Best Paper Award
@@ -457,13 +457,13 @@ RoboCup（机器人世界杯）是全球规模最大、影响力最广的机器�
 
 <a name="2-icra-2026-机器人挑战赛"></a>
 
-## 2. ICRA 2026 机器人挑战赛
+#### 2. ICRA 2026 机器人挑战赛
 
-### 赛事简介
+#### 赛事简介
 
 ICRA 2026在奥地利维也纳举办，会议期间同步举办**9项机器人挑战赛**，涵盖机器人操作、自主导航、手术机器人、人形机器人等前沿方向，是学术领域最具实践性的机器人竞赛平台。
 
-### 基本信息
+##### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -472,39 +472,47 @@ ICRA 2026在奥地利维也纳举办，会议期间同步举办**9项机器人�
 | **举办单位** | IEEE Robotics and Automation Society |
 | **官方网址** | https://2026.ieee-icra.org/program/competitions/ |
 
-### 九大竞赛详情
+#### 九大竞赛详情
 
-#### COMP 1：第11届机器人抓取与操作竞赛
+##### COMP 1：第11届机器人抓取与操作竞赛
+
 - **内容**：杂物流中的物体拾取、移动操作、人机物体交接、云端操作
 - **时间**：6月2-4日（分赛道进行）
 - **官网**：https://sites.google.com/view/rgmcomp
 
-#### COMP 2：双臂机器人能做什么（What Bimanuals Can Do）
+##### COMP 2：双臂机器人能做什么（What Bimanuals Can Do）
+
 - **内容**：使用木偶操控、VR、外骨骼、手持夹爪、动作追踪手套或算法手部感知完成实用操作任务
 - **评估标准**：任务完成质量、数据收集速度、学习策略性能
 - **时间**：6月1-4日
 
-#### COMP 3：第27届RoboRacer自主赛车竞赛
+##### COMP 3：第27届RoboRacer自主赛车竞赛
+
 - **内容**：制造1:10比例自主赛车，避免碰撞并最小化单圈时间
 - **官网**：https://icra2026-race.roboracer.ai/
 
-#### COMP 4：LeHome Challenge 2026
+##### COMP 4：LeHome Challenge 2026
+
 - **内容**：家庭场景中的衣物操作技能学习——操作布料等可变形物体的标准化基准
 - **时间**：6月1-2日
 - **官网**：https://lehome-challenge.com/
 
-#### COMP 5：REAL-I 首届真实世界具身智能学习挑战赛
+##### COMP 5：REAL-I 首届真实世界具身智能学习挑战赛
+
 - **内容**：三个工业场景——金属零件扶正、日用化学品瓶拾取放置、快递包裹扫描
 - **提供**：真实机器人开放访问、大规模工业数据集、统一基准评估
 
-#### COMP 6：AI for Robotic Surgery（机器人手术AI）
+##### COMP 6：AI for Robotic Surgery（机器人手术AI）
+
 - **内容**：使用达芬奇研究套件（dVRK）完成移peg任务，分人机遥操作和全自主两种方式
 - **官网**：https://surgical-robotics-ai.github.io/
 
-#### COMP 7：BARN Challenge 2026（自主导航）
+##### COMP 7：BARN Challenge 2026（自主导航）
+
 - **内容**：操控Clearpath Jackal机器人在模拟和真实环境中快速无碰撞导航
 
-#### COMP 8：AgiBot World Challenge 2026（具身智能人形机器人）
+##### COMP 8：AgiBot World Challenge 2026（具身智能人形机器人）
+
 - **内容**：评估下一代通用人形机器人在复杂非结构化环境中的能力
 - **三大赛道**：
   - 世界模型赛道（World Model）
@@ -512,19 +520,20 @@ ICRA 2026在奥地利维也纳举办，会议期间同步举办**9项机器人�
   - 全身控制赛道（Whole-Body Control）
 - **官网**：https://agibot-world.com/challenge2026
 
-#### COMP 9：足式机器人挑战赛（Legged Robot Challenges）
+##### COMP 9：足式机器人挑战赛（Legged Robot Challenges）
+
 - **内容**：测试四足和人形机器人在各种地形上的自主通过能力
 
 
 <a name="5-darpa-triage-challenge-挑战赛"></a>
 
-## 3. DARPA Triage Challenge 挑战赛
+### 3. DARPA Triage Challenge 挑战赛
 
-### 赛事简介
+#### 赛事简介
 
 DARPA Triage Challenge（DTC）由美国国防高级研究计划局（DARPA）主办，旨在推动**医疗检伤分类（Triage）机器人技术**的突破。挑战赛要求机器人在大规模伤亡事件中自主执行搜救、伤员定位、伤情评估和数据传输任务。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -534,7 +543,7 @@ DARPA Triage Challenge（DTC）由美国国防高级研究计划局（DARPA）�
 | **官方网址** | https://triagechallenge.darpa.mil |
 | **项目经理** | 退役陆军上校 Jeremy C. Pamplin 医生 |
 
-### 2026年时间线
+#### 2026年时间线
 
 | 事项 | 时间 |
 |------|------|
@@ -545,18 +554,18 @@ DARPA Triage Challenge（DTC）由美国国防高级研究计划局（DARPA）�
 | 颁奖典礼 | 2026年11月13日 |
 
 
-## 二、国际青少年教育赛事
+### 二、国际青少年教育赛事
 
 
 <a name="6-vex-robotics-world-championship-2026"></a>
 
-## 4. VEX Robotics World Championship 2026
+### 1. VEX Robotics World Championship 2026
 
-### 赛事简介
+#### 赛事简介
 
 **全球规模最大的青少年机器人竞赛**，由RECF主办。2026年首次迁至圣路易斯，覆盖小学到大学。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -565,7 +574,7 @@ DARPA Triage Challenge（DTC）由美国国防高级研究计划局（DARPA）�
 | **举办单位** | Robotics Education & Competition Foundation（RECF） |
 | **官方网址** | https://www.vexrobotics.com |
 
-### 赛项
+#### 赛项
 
 | 组别 | 适用学段 |
 |------|----------|
@@ -576,13 +585,13 @@ DARPA Triage Challenge（DTC）由美国国防高级研究计划局（DARPA）�
 
 <a name="7-first-championship-2026"></a>
 
-## 5. FIRST Championship 2026
+### 2. FIRST Championship 2026
 
-### 赛事简介
+#### 赛事简介
 
 由Dean Kamen于1989年创立，全球最具影响力的**青少年STEM教育机器人竞赛**之一。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -591,7 +600,7 @@ DARPA Triage Challenge（DTC）由美国国防高级研究计划局（DARPA）�
 | **举办单位** | FIRST |
 | **官方网址** | https://www.firstinspires.org |
 
-### 四项赛事
+#### 四项赛事
 
 | 赛事 | 适用学段 |
 |------|----------|
@@ -603,13 +612,13 @@ DARPA Triage Challenge（DTC）由美国国防高级研究计划局（DARPA）�
 
 <a name="8-world-robot-olympiadwro-2026"></a>
 
-## 6. World Robot Olympiad（WRO）2026
+### 3. World Robot Olympiad（WRO）2026
 
-### 赛事简介
+#### 赛事简介
 
 WRO（世界机器人奥林匹克竞赛）是面向全球**8-19岁**青少年的国际性机器人竞赛，每年吸引**100多个国家**的团队参与。2026年主题为"**机器人遇见文化（Robots Meet Culture）**"，国际总决赛在波多黎各举行。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -620,7 +629,7 @@ WRO（世界机器人奥林匹克竞赛）是面向全球**8-19岁**青少年的
 | **官方网址** | https://wro-association.org/competition/2026-season/ |
 | **规则发布时间** | 2026年1月15日 |
 
-### 比赛类别
+#### 比赛类别
 
 | 类别 | 说明 |
 |------|------|
@@ -630,18 +639,18 @@ WRO（世界机器人奥林匹克竞赛）是面向全球**8-19岁**青少年的
 | **Future Engineers（未来工程师）** | 主题"自动驾驶汽车" |
 
 
-## 三、国际水下/特种机器人赛事
+### 三、国际水下/特种机器人赛事
 
 
 <a name="9-robosub-2026第29届自主水下机器人竞赛"></a>
 
-## 7. RoboSub 2026（第29届自主水下机器人竞赛）
+### 1. RoboSub 2026（第29届自主水下机器人竞赛）
 
-### 赛事简介
+#### 赛事简介
 
 RoboSub是**全球最具影响力的自主水下机器人（AUV）竞赛**，始于1997年，由美国海军提供场地支持。面向高中和大学团队，要求参赛队伍设计建造完全自主的水下机器人，完成水下导航、目标识别、操作等复杂任务。2026年主题为"**海洋勘探与测绘**"。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -653,7 +662,7 @@ RoboSub是**全球最具影响力的自主水下机器人（AUV）竞赛**，始
 | **参赛对象** | 高中和大学团队 |
 | **注册费用** | 每队 $1,500 |
 
-### 竞赛任务
+#### 竞赛任务
 
 | 任务 | 说明 |
 |------|------|
@@ -664,7 +673,7 @@ RoboSub是**全球最具影响力的自主水下机器人（AUV）竞赛**，始
 | 鱼雷发射 | 通过目标板上的小孔发射鱼雷 |
 | 管道识别与跟踪 | 模拟海底基础设施检测 |
 
-### 技术规格
+#### 技术规格
 
 - **自主性**：不允许有线遥控或远程操作
 - **重量上限**：约125磅
@@ -675,13 +684,13 @@ RoboSub是**全球最具影响力的自主水下机器人（AUV）竞赛**，始
 
 <a name="10-mate-rov-2026-水下机器人世界锦标赛"></a>
 
-## 8. MATE ROV 2026 水下机器人世界锦标赛
+### 2. MATE ROV 2026 水下机器人世界锦标赛
 
-### 赛事简介
+#### 赛事简介
 
 MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最大的水下遥控机器人（ROV）教育竞赛**。参赛队伍需设计建造ROV完成模拟海洋科考任务。2026年主题为"**漂浮的挑战（Floats）**"，总决赛在加拿大纽芬兰举行。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -692,7 +701,7 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 | **官方网址** | https://materovcompetition.org/2026 |
 | **资助单位** | 美国国家科学基金会（NSF） |
 
-### 比赛组别（5级）
+#### 比赛组别（5级）
 
 | 组别 | 等级 |
 |------|------|
@@ -702,7 +711,7 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 | PIONEER（先锋） | 高级 |
 | EXPLORER（探索者） | 最高级 |
 
-### 任务领域
+#### 任务领域
 
 - 入侵物种管理（识别和报告入侵蟹类）
 - 环境监测（采集eDNA样本，分析传感器频率）
@@ -711,18 +720,18 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 - MATE浮标数据收集
 
 
-## 四、国内大学生综合竞赛
+### 四、国内大学生综合竞赛
 
 
 <a name="11-2026中国机器人大赛暨robocup机器人世界杯中国赛"></a>
 
-## 9. 2026中国机器人大赛暨RoboCup机器人世界杯中国赛
+### 1. 2026中国机器人大赛暨RoboCup机器人世界杯中国赛
 
-### 赛事简介
+#### 赛事简介
 
 国内**最权威的机器人学科竞赛**之一，由中国自动化学会主办，是RoboCup的中国赛区选拔赛。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -731,7 +740,7 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 | **举办单位** | 中国自动化学会、RoboCup中国委员会 |
 | **官方网址** | https://rcccaa.drct-caa.org.cn |
 
-### 赛项体系（5大类14子赛项）
+#### 赛项体系（5大类14子赛项）
 
 | 大类 | 子赛项 |
 |------|--------|
@@ -744,13 +753,13 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 
 <a name="12-robomaster-2026-机甲大师赛"></a>
 
-## 10. RoboMaster 2026 机甲大师赛
+### 2. RoboMaster 2026 机甲大师赛
 
-### 赛事简介
+#### 赛事简介
 
 由**大疆创新（DJI）** 发起的全国性大学生机器人竞技赛事，国内**最具观赏性和技术挑战性**的大学生机器人对抗赛。2026赛季已吸引全球**400多所高校**参与。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -761,7 +770,7 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 | **官方网址** | https://www.robomaster.com |
 | **赛事性质** | 教育部白名单赛事、保研加分 |
 
-### 赛事体系
+#### 赛事体系
 
 | 赛事 | 形式 |
 |------|------|
@@ -769,15 +778,15 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 | **高校联盟赛（RMUL）** | 3V3对抗赛 + 1V1步兵对抗 + 工程挑战赛 |
 
 
-<a name="13-robocon-2026第二十五届"></a>
+<a name="1-robocon-2026第二十五届"></a>
 
-## 11. ROBOCON 2026（第二十五届）
+### 3. ROBOCON 2026（第二十五届）
 
-### 赛事简介
+#### 赛事简介
 
 中国**最具影响力的综合性大学生机器人竞赛**之一，始于2002年。冠军队代表中国参加**ABU ROBOCON**亚太大学生机器人大赛。2026年主题为"**武林探秘**"。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -789,15 +798,15 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 | **通知发布时间** | 2026年6月5日 |
 
 
-<a name="14-robotac-2026"></a>
+<a name="2-robotac-2026"></a>
 
-## 12. ROBOTAC 2026
+### 4. ROBOTAC 2026
 
-### 赛事简介
+#### 赛事简介
 
 **中国原创的**国家级机器人科技竞技赛事，融合体育竞赛的趣味性和科技性。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -808,18 +817,18 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 | **赛事类型** | 移动机器人竞技对抗 |
 
 
-## 五、国内人工智能与机器人学科竞赛
+### 五、国内人工智能与机器人学科竞赛
 
 
-<a name="15-第二十八届中国机器人及人工智能大赛"></a>
+<a name="3-第二十八届中国机器人及人工智能大赛"></a>
 
-## 13. 第二十八届中国机器人及人工智能大赛
+### 1. 第二十八届中国机器人及人工智能大赛
 
-### 赛事简介
+#### 赛事简介
 
 由中国人工智能学会主办，**全国普通高校学科竞赛排行榜**赛事（教育部认可）。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -829,20 +838,20 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 | **官方网址** | https://www.caairobot.com |
 | **报名系统** | https://craic.yuntop.com |
 
-### 已公布赛区
+#### 已公布赛区
 
 贵州、宁夏、吉林、广东、上海、江西、黑龙江、海南、重庆等。
 
 
-<a name="16-第九届中国高校智能机器人创意大赛"></a>
+<a name="4-第九届中国高校智能机器人创意大赛"></a>
 
-## 14. 第九届中国高校智能机器人创意大赛
+### 2. 第九届中国高校智能机器人创意大赛
 
-### 赛事简介
+#### 赛事简介
 
 创办于2017年，以"**更好、更快、更强**"为主题，旨在培养学生提出问题、解决问题、技术创新和后期孵化的一体化能力。2026年举办第九届，属教育部认可的全国性竞赛。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -854,9 +863,10 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 | **官方网址** | http://www.robotcontest.cn |
 | **报名费用** | 区域赛600元/队，全国赛800元/队 |
 
-### 三大赛项
+#### 三大赛项
 
 #### 主题赛
+
 | 主题 | 内容 |
 |------|------|
 | **主题1：创意设计** | 家用智能机器人——让生活更美好（分无实物组/实物模型组/模块化搭建组/AIGC组） |
@@ -864,6 +874,7 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 | **主题3：创意格斗** | 智能机器人对抗赛——挑战更强（轮式格斗/仿人格斗/视觉竞技/无人机竞技等） |
 
 #### 专项赛
+
 | 专项 | 内容 |
 |------|------|
 | 专项1 | 基于ROS技术应用的机器人挑战赛（六轴/双臂/双轮足） |
@@ -871,9 +882,10 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 | 专项3 | VEX U智能机器人对抗赛 |
 
 #### 产教融合赛（6项）
+
 舜宇"未来视界"创意赛、软件系统安全赛、北控水务"智赋生态"创新赛、中兴捧月"星匠师"挑战赛、中国移动"梧桐杯"数智创新大赛、信捷电气"数智融合"创新赛
 
-### 奖项设置（全国赛）
+#### 奖项设置（全国赛）
 
 | 奖项 | 比例 |
 |------|------|
@@ -884,13 +896,13 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 
 <a name="17-睿抗机器人开发者大赛raicom"></a>
 
-## 15. 睿抗机器人开发者大赛（RAICOM）
+### 3. 睿抗机器人开发者大赛（RAICOM）
 
-### 赛事简介
+#### 赛事简介
 
 睿抗机器人开发者大赛（原名RoboCom机器人开发者大赛）由**工业和信息化部人才交流中心**主办，属于**教育部本科教学评估国家A类竞赛**。2026年主题为"**机器照护人**"。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -903,7 +915,7 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 | **报名费用** | 600元/队（1-3人） |
 | **参赛对象** | 中职/高职/本科/研究生 |
 
-### 四大赛道
+#### 四大赛道
 
 | 赛道 | 全称 | 方向 |
 |------|------|------|
@@ -915,13 +927,13 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 
 <a name="18-全国大学生嵌入式芯片与系统设计竞赛"></a>
 
-## 16. 全国大学生嵌入式芯片与系统设计竞赛
+### 4. 全国大学生嵌入式芯片与系统设计竞赛
 
-### 赛事简介
+#### 赛事简介
 
 **全国普通高校大学生竞赛榜单国家级A类赛事**，由教育部认可，聚焦嵌入式系统与芯片应用设计。2026年设有多个应用赛道，包括地瓜机器人、海思等企业的专项赛道。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -932,18 +944,18 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 | **赛道特色** | 芯片应用赛道含地瓜机器人等机器人方向赛题 |
 
 
-## 六、国内综合/创新类竞赛
+### 六、国内综合/创新类竞赛
 
 
 <a name="19-2026世界机器人大会wrc"></a>
 
-## 17. 2026世界机器人大会（WRC）
+### 1. 2026世界机器人大会（WRC）
 
-### 赛事简介
+#### 赛事简介
 
 由中国电子学会主办，自2015年起已成功举办10届，被赞誉为"**机器人界的奥林匹克**"。大赛由选拔赛（WRCT）、锦标赛（WRCC）、总决赛（WRCF）三阶段组成，累计参赛选手**50余万名**。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -953,7 +965,7 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 | **官方网址** | https://www.worldrobotconference.com/contest/ |
 | **累计数据** | 参赛队伍20万+，参赛选手50万+，国家和地区20+ |
 
-### 四大核心赛项
+#### 四大核心赛项
 
 | 赛项 | 简介 |
 |------|------|
@@ -965,13 +977,13 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 
 <a name="20-2026世界人形机器人运动会第二届"></a>
 
-## 18. 2026世界人形机器人运动会（第二届）
+### 2. 2026世界人形机器人运动会（第二届）
 
-### 赛事简介
+#### 赛事简介
 
 全球首个且唯一的**专门为人形机器人举办的奥运会式综合竞技赛事**。2025年首届16国280队参赛，2026年规模大幅扩大。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -982,24 +994,26 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 | **赛项总数** | 32个（26个竞技类 + 6个场景类） |
 | **预计规模** | 500+台人形机器人 |
 
-### 赛项
+#### 赛项
 
 #### 竞技类（26项）
+
 100米短跑（完全自主）、足球、体操、举重、武术、街舞、体育舞蹈、拔河、投壶等
 
 #### 场景类（6项）
+
 工厂、酒店、家庭、应急响应、医院、零售
 
 
 <a name="21-北京亦庄人形机器人半程马拉松"></a>
 
-## 19. 北京亦庄人形机器人半程马拉松
+### 3. 北京亦庄人形机器人半程马拉松
 
-### 赛事简介
+#### 赛事简介
 
 全球**首个人形机器人马拉松品牌赛事**，超百支机器人赛队与1.2万名人类选手共同参赛。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -1009,18 +1023,18 @@ MATE ROV Competition由海洋技术学会（MTS）主办，是全球**规模最�
 | **距离** | 21.0975公里（半程马拉松） |
 
 
-## 七、专题/国际创新竞赛
+### 七、专题/国际创新竞赛
 
 
 <a name="22-agibot-world-challenge-2026具身智能专项"></a>
 
-## 20. AgiBot World Challenge 2026（具身智能专项）
+### 1. AgiBot World Challenge 2026（具身智能专项）
 
-### 赛事简介
+#### 赛事简介
 
 AgiBot World Challenge 2026是专注于**通用人形机器人**和**具身智能**的专项竞赛。2026年作为ICRA 2026的竞赛之一举办（详见ICRA COMP 8），但因其在具身智能领域的特殊地位，单独列出。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -1029,7 +1043,7 @@ AgiBot World Challenge 2026是专注于**通用人形机器人**和**具身智�
 | **官方网址** | https://agibot-world.com/challenge2026 |
 | **竞赛模式** | 仿真+真实机器人双轨评估 |
 
-### 三大赛道
+#### 三大赛道
 
 | 赛道 | 说明 |
 |------|------|
@@ -1040,13 +1054,13 @@ AgiBot World Challenge 2026是专注于**通用人形机器人**和**具身智�
 
 <a name="23-real-i-真实世界具身智能学习挑战赛"></a>
 
-## 21. REAL-I 真实世界具身智能学习挑战赛
+### 2. REAL-I 真实世界具身智能学习挑战赛
 
-### 赛事简介
+#### 赛事简介
 
 REAL-I（首届）由ICRA 2026发起，专注于**真实世界场景中的具身智能**。提供真实机器人开放访问、大规模工业数据集和统一基准评估。
 
-### 基本信息
+#### 基本信息
 
 | 项目 | 内容 |
 |------|------|
@@ -1054,16 +1068,16 @@ REAL-I（首届）由ICRA 2026发起，专注于**真实世界场景中的具身
 | **比赛地点** | 奥地利·维也纳 |
 | **官方网址** | https://www.kdc.icra.lejurobot.com/home |
 
-### 三个工业场景
+#### 三个工业场景
 
 1. 金属零件扶正（6月2日）
 2. 日用化学品瓶拾取放置（6月3日）
 3. 快递包裹扫描（6月4日）
 
 
-## 八、赛事分类总览
+### 八、赛事分类总览
 
-### 按类型分类
+#### 按类型分类
 
 | 范围 | 代表赛事 |
 |----------|----------|

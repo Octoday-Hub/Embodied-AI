@@ -122,6 +122,9 @@
 - **Webots** — [`cyberbotics.com`](https://cyberbotics.com)
   📄 开源跨平台机器人仿真桌面应用，提供完整的建模、编程与仿真环境。
 
+
+- **跨维智能 DexVerse** — [`dexforce.com`](https://www.dexforce.com/)
+  📄 生成式仿真引擎（WAIC 2026 发布），面向具身智能大规模训练的国产自主基础设施，支持实时多物理场仿真与生成式仿真，可将真实场景快速转化为可训练虚拟环境。
 [↑ 回目录](#toc)
 
 <a name="models"></a>
@@ -164,6 +167,12 @@
 - **Dexterity-BEV** — 详见 [Dexterity-BEV](https://arxiv.org/abs/2606.02274)
   📄 对齐 3D 世界与动作实现可泛化机器人策略学习
 
+
+- **面壁智能 MiniCPM-RobotManip** — [`github.com/OpenBMB/MiniCPM-Robot`](https://github.com/OpenBMB/MiniCPM-Robot)
+  📄 1.5B 通用 VLA 模型（WAIC 2026 发布），保留 1 分钟上下文记忆，单决策步推理 120ms，综合性能位列 VLA 第一梯队。
+
+- **面壁智能 MiniCPM-RobotTrack** — [`github.com/OpenBMB/MiniCPM-Robot`](https://github.com/OpenBMB/MiniCPM-Robot)
+  📄 0.9B 端到端视觉指令跟踪模型（WAIC 2026 发布），支持单目标/动态多目标/模糊目标跟踪，断网本地部署 5+ Hz。
 [↑ 回目录](#toc)
 
 
@@ -178,9 +187,6 @@
 
 - **cuRobo** — [`github.com/NVlabs/curobo`](https://github.com/NVlabs/curobo)
   📄 NVIDIA 开源的 CUDA 加速机器人运动生成库，支持逆运动学、碰撞检测、轨迹优化与高自由度规划。
-
-- **DeepMind SI-Tuning** — [`github.com/google-deepmind/si_tuning`](https://github.com/google-deepmind/si_tuning)
-  📄 VLA模型微调框架。Google DeepMind推出的用于微调RT-2、OpenVLA等视觉-语言-动作模型的代码库，专注于提升机器人在特定任务上的泛化能力。
 
 - **Diffusion Policy** — [`github.com/real-stanford/diffusion_policy`](https://github.com/real-stanford/diffusion_policy)
   📄 基于扩散模型的机器人策略学习框架，常用于模仿学习与操作控制研究。
@@ -230,9 +236,6 @@
 - **RQT Frame Editor** — [`github.com/ipa320/rqt_frame_editor_plugin`](https://github.com/ipa320/rqt_frame_editor_plugin)
   📄 用于创建和调整 TF 坐标系的 rqt 插件，便于处理多传感器和多机器人坐标关系。
 
-- **SAGE** — [`github.com/eth-easl/sage`](https://github.com/eth-easl/sage)
-  📄 具身智能分布式计算框架。由ETH Zurich推出，提供高效的分布式数据流水线和并行计算架构，专门用于加速大规模策略训练和数据处理。
-
 - **Theseus** — [`github.com/facebookresearch/theseus`](https://github.com/facebookresearch/theseus)
   📄 可微非线性优化库，适合机器人和视觉中的状态估计、几何优化、轨迹优化与端到端可微系统构建。
 
@@ -245,6 +248,21 @@
 - **VIMA** — [`vimalabs.github.io`](https://vimalabs.github.io/)
   📄 多模态具身任务基准。由UIUC等机构推出，提供复杂的"搭建积木"类任务，专门用于评测机器人模型在处理视觉、语言及空间推理混合指令时的表现。
 
+- **具识智能 insightOS Semantic** — [`insightos.cn`](https://www.insightos.cn/)
+  📄 具身语义智能体系统（WAIC 2026 发布），以语义为中枢贯通"理解—规划—执行—进化"全链路，支持用自然语言指挥多台异构机器人协同作业。
+
+- **穹彻智能 RoboPocket** — [`noematrix.ai`](https://www.noematrix.ai/)
+  📄 无本体数据采集系统（WAIC 2026 发布），大幅降低真实世界数据采集门槛，单日可管理近万条数据，完全摆脱对遥操作数据的依赖。
+
+
+- **腾讯 TairosAgent 具身智能体框架** — [`tairos.tencent.com`](https://tairos.tencent.com/)
+  📄 具身原生智能体框架（WAIC 2026 发布），三层系统（感知反应/认知决策/探索沉淀）全部围绕具身任务原生设计，维护环境/本体/任务三类记忆。
+
+- **腾讯 Apexio 原生具身智能体** — [`tairos.tencent.com`](https://tairos.tencent.com/)
+  📄 持续在线具身智能体（WAIC 2026 发布），三层不同频率并行：认知系统按需唤醒、感知行动系统 15Hz 持续运行、执行系统高频反射响应。
+
+- **面壁智能 PhyAI 推理框架** — [`github.com/OpenBMB/MiniCPM-Robot`](https://github.com/OpenBMB/MiniCPM-Robot)
+  📄 面向 Physical AI 的开源推理框架（WAIC 2026 发布），专为端侧极速推理与云端 RL 大规模 Rollout 设计，支持 π0/π0.5/GR00T 等模型 1.8-2.8 倍加速。
 [↑ 回目录](#toc)
 
 
@@ -319,9 +337,6 @@
 - **超迷你机械臂 (Dummy-Robot)** — [`peng-zhihui/Dummy-Robot`](https://github.com/peng-zhihui/Dummy-Robot)
   📄 自制迷你机械臂机器人（稚晖君）
 
-- **X-Bot 智能机械臂** — [`peng-zhihui/X-Bot`](https://github.com/peng-zhihui/X-Bot)
-  📄 基于 CoreXY 结构的写字机械臂（稚晖君）
-
 - **ElectronBot 迷你桌面机器人** — [`peng-zhihui/ElectronBot`](https://github.com/peng-zhihui/ElectronBot)
   📄 非常小巧的桌面机器人（稚晖君）
 
@@ -391,7 +406,7 @@
 - **京东 JoyInside** — [`joyinside.com`](https://joyinside.com/)
   📄 面向机器人与 AI 玩具等智能硬件的对话智能体平台。
 
-- **kscale·K-Bot** — [`docs.kscale.dev/category/k-bot`](https://docs.kscale.dev/category/k-bot)
+- **kscale·K-Bot** — [`github.com/kscalelabs/kbot`](https://github.com/kscalelabs/kbot)
   📄 面向开发者和研究人员的开源全栈人形机器人平台。
 
 - **智元灵创平台 (LinkCraft)** — [`www.agibot.com.cn/filepage/295.html`](https://www.agibot.com.cn/filepage/295.html)
@@ -422,7 +437,7 @@
 
 ## 🧠 推理 / 强化学习
 
-- **OpenR1-Multimodal** — [`EvolvingLMMs-Lab/OpenR1-Multimodal`](https://github.com/EvolvingLMMs-Lab/OpenR1-Multimodal) ⭐ 1.5k
+- **OpenR1-Multimodal** — [`EvolvingLMMs-Lab/open-r1-multimodal`](https://github.com/EvolvingLMMs-Lab/open-r1-multimodal) ⭐ 1.5k
   📄 R1 推理范式在多模态模型上的探索，开源 8K 多模态 RL 训练样本
 
 - **unitree_rl_gym** — [`unitreerobotics/unitree_rl_gym`](https://github.com/unitreerobotics/unitree_rl_gym)
