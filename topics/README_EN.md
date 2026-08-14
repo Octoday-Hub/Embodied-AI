@@ -18,14 +18,19 @@
   <img alt="Update Frequency" src="https://img.shields.io/badge/Update%20Frequency-Weekly-22C55E?style=flat-square&labelColor=14532D" />
   <img alt="Awesome" src="https://img.shields.io/badge/Awesome-Curated-2563EB?style=flat-square&labelColor=1E3A8A" />
   <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-Welcome-64748B?style=flat-square&labelColor=334155" />
-  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/Octoday-Hub/Embodied-AI?style=flat-square&label=last%20commit&labelColor=374151&color=3B82F6" />
+  <img alt="Last Commit: 8.14" src="https://img.shields.io/badge/Last%20Commit-8.14-3B82F6?style=flat-square&labelColor=374151" />
 </p>
 
 <p align="center">
-  <img alt="Papers Updated" src="https://img.shields.io/badge/Papers%20Updated-%2B86-8B5CF6?style=flat-square&labelColor=5B21B6" />
-  <img alt="Tools Updated" src="https://img.shields.io/badge/Tools%20Updated-%2B8-14B8A6?style=flat-square&labelColor=0F766E" />
-  <img alt="Datasets Updated" src="https://img.shields.io/badge/Datasets%20Updated-%2B41-F59E0B?style=flat-square&labelColor=92400E" />
+  <img alt="Datasets Updated" src="https://img.shields.io/badge/Datasets%20Updated-%2B6-F59E0B?style=flat-square&labelColor=92400E" />
+</p>
 
+<p align="center">
+  <strong>This Week (20260814):</strong> Dataset page redesign
+</p>
+
+<p align="center">
+  A new structured guide covers six representative embodied AI datasets across real-world collection, cross-embodiment aggregation, contact-rich multimodality, tabletop manipulation, simulation benchmarks, and automated data generation, with official access points, scale and modality details, usage notes, and official sample images.
 </p>
 
 
@@ -107,7 +112,7 @@ Browse curated papers on embodied intelligence, deepen your understanding with o
 
 ### 🔧 (3) Forge: Integrate Engineering Practice
 
-> Currently featuring `161` tools, open-source projects, and development frameworks.
+> Currently featuring `156` tools, open-source projects, and development frameworks.
 
 Check out [Tools & Open-Source Projects](04-tools_EN.md):
 
@@ -125,7 +130,7 @@ A curated map of the global embodied AI enterprise landscape to help you discove
 
 Check the [Embodied AI Dataset Catalog](06-datasets_EN.md):
 
-A curated collection of major global datasets including Open X-Embodiment, AgiBot World, and DROID, covering manipulation, mobile manipulation, teleoperation, and simulation.
+A focused guide to six representative datasets — DROID, Open X-Embodiment / RT-X, RH20T, BridgeData V2, LIBERO, and MimicGen — documenting official sources, scale, collection or generation methods, key modalities, access paths, and sample images.
 
 ### 🎒 (5) Evolution: Talent Compass
 
