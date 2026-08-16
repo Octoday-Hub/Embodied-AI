@@ -1,17 +1,41 @@
-Head Banner
+![Head Banner](files/head-banner2.png)
 
-# 具身智能知识索引与产业地图
+<div align="center">
+  <h1>具身智能知识索引与产业地图</h1>
+</div>
 
-我们致力于链接学术研究与产业落地，整合高质量知识内容、工具资源与职业机会，  
-帮助开发者与研究者高效获取信息。
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Sans&weight=600&size=28&duration=3200&pause=900&color=FF9F1C&center=true&vCenter=true&width=760&height=44&lines=Welcome%20to%20Octoday%20Hub&v=20260601-2" alt="Welcome to Octoday Hub" />
+</div>
 
-**本周更新（2026-08-14）**：数据集页重构，新增 6 个代表性数据集（规模、模态、官方入口与样例图等）。
+<div align="center">
+  <p>我们致力于链接学术研究与产业落地，整合高质量知识内容、工具资源与职业机会，<br />帮助开发者与研究者高效获取信息。</p>
+</div>
+
+<p align="center">
+  <img alt="更新频率" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E9%A2%91%E7%8E%87-%E6%AF%8F%E5%91%A8-22C55E?style=flat-square&labelColor=14532D" />
+  <img alt="Awesome" src="https://img.shields.io/badge/Awesome-Curated-2563EB?style=flat-square&labelColor=1E3A8A" />
+  <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-Welcome-64748B?style=flat-square&labelColor=334155" />
+  <img alt="Last Commit: 8.14" src="https://img.shields.io/badge/Last%20Commit-8.14-3B82F6?style=flat-square&labelColor=374151" />
+</p>
+
+<p align="center">
+  <img alt="更新数据集" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%95%B0%E6%8D%AE%E9%9B%86-%2B6-F59E0B?style=flat-square&labelColor=92400E" />
+</p>
+
+<p align="center">
+  <strong>本周更新（20260814）：</strong>数据集页面重构
+</p>
+
+<p align="center">
+  新增 6 个具身智能代表性数据集的结构化专题页，覆盖真实采集、跨机器人汇总、接触丰富多模态、桌面操作、仿真基准与自动数据生成；提供官方入口、规模与模态说明、数据使用方式及官方样例图。
+</p>
 
 🌐 [English Version](topics/README_EN.md)
 
 ## 🎯 我们的愿景
 
-我们希望构建一个面向具身智能领域的开放知识入口，无论你身处实验室还是工厂一线，你的每一份好奇与实践，都能在此找到属于自己的那块拼图。
+我们希望构建一个面向具身智能领域的开放知识入口，无论你身处学校实验室还是公司企业，你的每一份好奇与实践，都能在此找到属于自己的那块拼图。
 
 ### 🌌 为什么是"星期八"？
 
@@ -26,58 +50,80 @@ Head Banner
 Beyond the 7th Day, explore the Infinite Embodiment.
 
 
-## 📖 知识索引
-
-具身智能（Embodied AI）是智能体通过物理身体与环境实时交互，完成感知、决策与执行的系统，交叉计算机视觉、强化学习与多模态大模型。
-
-
-| 我想…       | 去这里                                | 当前规模                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| --------- | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 从零建立认知框架  | [认知基座](topics/00-basics.md)        | 14 本书 · 16 门课<br />• [推荐书籍](topics/00-basics.md#recommended-books)<br />• [在线课程](topics/00-basics.md#online-courses)                                                                                                                                                                                                                                                                                                                                                                                                              |
-| 追论文、看开源实现 | [论文合集](topics/03-papers.md)        | 362 篇<br />• [Embodied Foundation Models](topics/03-papers.md#embodied-foundation-models)<br />• [Manipulation & Teleoperation](topics/03-papers.md#manipulation)<br />• [Locomotion](topics/03-papers.md#locomotion)<br />• [Navigation & Spatial Intelligence](topics/03-papers.md#navigation-spatial-intelligence)<br />• [Simulators & Sim2Real](topics/03-papers.md#simulation-sim2real)<br />• [Datasets](topics/03-papers.md#datasets)<br />• [Benchmarks & Evaluation](topics/03-papers.md#benchmarks-evaluation)<br />• [Survey](topics/03-papers.md#survey) |
-| 查竞赛与顶会日历  | [学术与竞赛](topics/05-research-hub.md) | 21 项竞赛 · 10 场会议                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| 找工具/项目    | [工具与开源项目](topics/04-tools.md)      | 156 项                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| 找训练数据     | [数据集目录](topics/06-datasets.md)     | 6 个专题页                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+## 1. 📖 知识索引
+- 具身智能（Embodied AI）是智能体通过物理身体与环境实时交互，完成感知、决策与执行的系统，交叉计算机视觉、强化学习与多模态大模型
+- 在AI及海量数据时代，我们帮你先过滤得到一些优质学习材料，他们通常是来自于国内外顶级院校（Stanford, CMU, 清华等）以及知名企业的论文/开源项目/开源工具/优质数据集等
 
 
-## 🗺️ 产业地图
+| 我想…| 去这里 | 当前内容整理（持续增加中） |
+| ---- | ------ | ------ |
+| 建立认知框架  | [认知基座](topics/00-basics.md) | 14 本书 · 16 门课<br />• [推荐书籍](topics/00-basics.md#recommended-books)<br />• [在线课程](topics/00-basics.md#online-courses)|
+| 寻找前沿论文 | [论文合集](topics/03-papers.md)| 362 篇，分专题如下：<br />• [Embodied Foundation Models](topics/03-papers.md#embodied-foundation-models)<br />• [Manipulation & Teleoperation](topics/03-papers.md#manipulation)<br />• [Locomotion](topics/03-papers.md#locomotion)<br />• [Navigation & Spatial Intelligence](topics/03-papers.md#navigation-spatial-intelligence)<br />• [Simulators & Sim2Real](topics/03-papers.md#simulation-sim2real)<br />• [Datasets](topics/03-papers.md#datasets)<br />• [Benchmarks & Evaluation](topics/03-papers.md#benchmarks-evaluation)<br />• [Survey](topics/03-papers.md#survey) |
+| 找好用的代码    | [开源工具/项目](topics/04-tools.md)      | 156 项 |
+| 找优质数据集     | [数据集目录](topics/06-datasets.md)     | 6 个数据集 |
+| 竞赛/顶会日历  | [学术与竞赛](topics/05-research-hub.md) | 21 项竞赛 · 10 场会议 |
 
+
+## 2. 🗺️ 产业地图
+### 2.1 🏢 公司信息
 当前共收录 `285` 家具身智能相关公司：国内 `180` 家、国外 `105` 家。
-
 查看[公司列表](topics/01-companies.md)，梳理全球具身智能企业图谱。
 
-## 岗位速查
-
+### 2.2 🙌 招聘信息
 当前共收录 `538` 个岗位机会：国内 `354` 个、海外 `85` 个、专项 `99` 个。
-
 查看[招聘信息](topics/02-jobs.md)。从首页跳到对应公司的招聘区块：
 
+| 国内机会 | 国外机会 |
+| :--- | :--- |
+| [地平线](topics/02-jobs.md#jump-jobs-domestic-15) | [AIM Intelligent Machines](topics/02-jobs.md#jump-jobs-overseas-02) |
+| [傅利叶智能](topics/02-jobs.md#jump-jobs-domestic-04) | [Amazon Robotics](topics/02-jobs.md#jump-jobs-overseas-06) |
+| [高仙机器人](topics/02-jobs.md#jump-jobs-domestic-08) | [Apptronik](topics/02-jobs.md#jump-jobs-overseas-07) |
+| [节卡机器人](topics/02-jobs.md#jump-jobs-domestic-02) | [Aurora](topics/02-jobs.md#jump-jobs-overseas-08) |
+| [极智嘉 Geek+](topics/02-jobs.md#jump-jobs-domestic-01) | [Boston Dynamics](topics/02-jobs.md#jump-jobs-overseas-09) |
+| [千寻智能](topics/02-jobs.md#jump-jobs-domestic-17) | [Cruise](topics/02-jobs.md#jump-jobs-overseas-10) |
+| [上海人工智能实验室](topics/02-jobs.md#jump-jobs-domestic-20) | [Figure AI](topics/02-jobs.md#jump-jobs-overseas-13) |
+| [商汤科技](topics/02-jobs.md#jump-jobs-domestic-23) | [Google DeepMind](topics/02-jobs.md#jump-jobs-overseas-14) |
+| [思谋科技](topics/02-jobs.md#jump-jobs-domestic-19) | [Grit Ventures](topics/02-jobs.md#jump-jobs-overseas-15) |
+| [它石智航](topics/02-jobs.md#jump-jobs-domestic-09) | [HTX](topics/02-jobs.md#jump-jobs-overseas-17) |
+| [小鹏汽车](topics/02-jobs.md#jump-jobs-domestic-16) | [Nuro](topics/02-jobs.md#jump-jobs-overseas-19) |
+| [星动纪元](topics/02-jobs.md#jump-jobs-domestic-06) | [NVIDIA](topics/02-jobs.md#jump-jobs-overseas-21) |
+| [银河通用机器人](topics/02-jobs.md#jump-jobs-domestic-07) | [OpenAI](topics/02-jobs.md#jump-jobs-overseas-22) |
+| [云深处科技](topics/02-jobs.md#jump-jobs-domestic-18) | [Tactus](topics/02-jobs.md#jump-jobs-overseas-24) |
+| [宇树科技](topics/02-jobs.md#jump-jobs-domestic-03) | [Tesla](topics/02-jobs.md#jump-jobs-overseas-26) |
+| [智元机器人](topics/02-jobs.md#jump-jobs-domestic-25) | [Toyota Research Institute](topics/02-jobs.md#jump-jobs-overseas-27) |
+| [逐际动力](topics/02-jobs.md#jump-jobs-domestic-05) | [Waymo](topics/02-jobs.md#jump-jobs-overseas-28) |
+| [字节跳动](topics/02-jobs.md#jobs-special-25) | [Wayve](topics/02-jobs.md#jump-jobs-overseas-01) |
 
-| 国内机会      | 链接                                            | 国外机会                      | 链接                                            |
-| --------- | --------------------------------------------- | ------------------------- | --------------------------------------------- |
-| 地平线       | [投递](topics/02-jobs.md#jump-jobs-domestic-15) | AIM Intelligent Machines  | [投递](topics/02-jobs.md#jump-jobs-overseas-02) |
-| 傅利叶智能     | [投递](topics/02-jobs.md#jump-jobs-domestic-04) | Amazon Robotics           | [投递](topics/02-jobs.md#jump-jobs-overseas-06) |
-| 高仙机器人     | [投递](topics/02-jobs.md#jump-jobs-domestic-08) | Apptronik                 | [投递](topics/02-jobs.md#jump-jobs-overseas-07) |
-| 节卡机器人     | [投递](topics/02-jobs.md#jump-jobs-domestic-02) | Aurora                    | [投递](topics/02-jobs.md#jump-jobs-overseas-08) |
-| 极智嘉 Geek+ | [投递](topics/02-jobs.md#jump-jobs-domestic-01) | Boston Dynamics           | [投递](topics/02-jobs.md#jump-jobs-overseas-09) |
-| 千寻智能      | [投递](topics/02-jobs.md#jump-jobs-domestic-17) | Cruise                    | [投递](topics/02-jobs.md#jump-jobs-overseas-10) |
-| 上海人工智能实验室 | [投递](topics/02-jobs.md#jump-jobs-domestic-20) | Figure AI                 | [投递](topics/02-jobs.md#jump-jobs-overseas-13) |
-| 商汤科技      | [投递](topics/02-jobs.md#jump-jobs-domestic-23) | Google DeepMind           | [投递](topics/02-jobs.md#jump-jobs-overseas-14) |
-| 思谋科技      | [投递](topics/02-jobs.md#jump-jobs-domestic-19) | Grit Ventures             | [投递](topics/02-jobs.md#jump-jobs-overseas-15) |
-| 它石智航      | [投递](topics/02-jobs.md#jump-jobs-domestic-09) | HTX                       | [投递](topics/02-jobs.md#jump-jobs-overseas-17) |
-| 小鹏汽车      | [投递](topics/02-jobs.md#jump-jobs-domestic-16) | Nuro                      | [投递](topics/02-jobs.md#jump-jobs-overseas-19) |
-| 星动纪元      | [投递](topics/02-jobs.md#jump-jobs-domestic-06) | NVIDIA                    | [投递](topics/02-jobs.md#jump-jobs-overseas-21) |
-| 银河通用机器人   | [投递](topics/02-jobs.md#jump-jobs-domestic-07) | OpenAI                    | [投递](topics/02-jobs.md#jump-jobs-overseas-22) |
-| 云深处科技     | [投递](topics/02-jobs.md#jump-jobs-domestic-18) | Tactus                    | [投递](topics/02-jobs.md#jump-jobs-overseas-24) |
-| 宇树科技      | [投递](topics/02-jobs.md#jump-jobs-domestic-03) | Tesla                     | [投递](topics/02-jobs.md#jump-jobs-overseas-26) |
-| 智元机器人     | [投递](topics/02-jobs.md#jump-jobs-domestic-25) | Toyota Research Institute | [投递](topics/02-jobs.md#jump-jobs-overseas-27) |
-| 逐际动力      | [投递](topics/02-jobs.md#jump-jobs-domestic-05) | Waymo                     | [投递](topics/02-jobs.md#jump-jobs-overseas-28) |
-| 字节跳动      | [投递](topics/02-jobs.md#jobs-special-25)       | Wayve                     | [投递](topics/02-jobs.md#jump-jobs-overseas-01) |
+## 🌱 社区共建
+未来会逐步丰富/覆盖以下方向：
 
+`🧭 认知基座`：帮助初学者从零建立对具身智能的认知框架。
 
+`💻 前沿信号`：持续追踪最新论文，形成可复用的研究地图。
+
+`🛠️ 工具矩阵`：开发框架与工具链，支撑从实验到落地实践。
+
+`📖 课程资源`：整合课程与学习资源，搭建系统化知识路径。
+
+`🧩 职业通道`：梳理技能图谱与面试指南，赋能成长发展。
+
+`🌐 资本动态`：追踪投融资动态，洞察产业结构与资源趋势。
+
+`📡 行业观察`：关注政策、风向、事件与阶段性行业拐点。
+
+`📦 数据地图`：汇聚全球具身智能数据集，打通训练数据资源。
+
+欢迎补充公司、论文、工具、数据，或修正错误。
+- [贡献指南](topics/CONTRIBUTING.md)
+- [Pull Request](https://github.com/Octoday-Hub/Embodied-AI/pulls)
+- [Issue](https://github.com/Octoday-Hub/Embodied-AI/issues)
+ 
 
 ## 🌟 给这个仓库点个赞
-如果这个仓库对你有帮助，欢迎 Star ⭐️、Fork 或引用，你的知识是我持续更新的最大动力
+
+如果这个仓库对你有帮助，欢迎 Star ⭐️ 和 Fork，也欢迎分享给同行或引用本列表。
+
+你的支持是我们持续更新的最大动力。
 
 ```bibtex
 @misc{octoday_robotics_2026,
@@ -88,35 +134,21 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 }
 ```
 
-## 🌱共建
-未来会逐步丰富/覆盖以下方向：
-`🧭 认知基座`：帮助初学者从零建立对具身智能的认知框架。
-`💻 前沿信号`：持续追踪最新论文，形成可复用的研究地图。
-`🛠️ 工具矩阵`：开发框架与工具链，支撑从实验到落地实践。
-`📖 课程资源`：整合课程与学习资源，搭建系统化知识路径。
-`🧩 职业通道`：梳理技能图谱与面试指南，赋能成长发展。
-`🌐 资本动态`：追踪投融资动态，洞察产业结构与资源趋势。
-`📡 行业观察`：关注政策、风向、事件与阶段性行业拐点。
-`📦 数据地图`：汇聚全球具身智能数据集，打通训练数据资源。
+## 👥 关于星期八团队
 
-欢迎补充公司、论文、工具、数据，或修正错误。
-- [贡献指南](topics/CONTRIBUTING.md)
-- [Pull Request](https://github.com/Octoday-Hub/Embodied-AI/pulls)
-- [Issue](https://github.com/Octoday-Hub/Embodied-AI/issues)
- 
+星期八（Octoday Hub）是一个由具身智能爱好者、开发者和行业观察者组成的开放社区。我们希望通过系统化的资源梳理，降低开发者进入具身智能领域的门槛，加速知识传播与产业融合。
 
-## 👥关于星期八团队
+如果您有任何想法、资源推荐或商务合作意向，欢迎通过以下方式联系我们：
 
-星期八（Octoday Hub）是由具身智能爱好者、开发者与行业观察者组成的开放社区。名字取自「第七天之外的增量」：在学术之外补产业视角，在算法之外补物理世界约束。
+📧  邮箱：[octoday@yeah.net](mailto:octoday@yeah.net)
 
-- 📧邮箱：[octoday@yeah.net](mailto:octoday@yeah.net)
-- 💬微信：Midsummer_Jin
-- 📱公众号：星期八Robotics
+💬  微信：Midsummer_Jin
 
-扫描下方二维码获取更新：
+📱  公众号：星期八Robotics
 
-tail-banner2
+*扫描下方二维码，获取最新动态与资源更新*
 
+![tail-banner2](files/tail-banner2.png)
 
 ## 许可证
 
