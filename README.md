@@ -51,17 +51,16 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 
 ## 1. 📖 知识索引
-- 具身智能（Embodied AI）是智能体通过物理身体与环境实时交互，完成感知、决策与执行的系统，交叉计算机视觉、强化学习与多模态大模型
-- 在AI及海量数据时代，我们帮你先过滤得到一些优质学习材料，他们通常是来自于国内外顶级院校（Stanford, CMU, 清华等）以及知名企业的论文/开源项目/开源工具/优质数据集等
+具身智能（Embodied AI）是智能体通过物理身体与环境实时交互，完成感知、决策与执行的系统，交叉计算机视觉、强化学习与多模态大模型
 
 
 | 我想…| 去这里 | 当前内容整理（持续增加中） |
 | ---- | ------ | ------ |
 | 建立认知框架  | [认知基座](topics/00-basics.md) | 14 本书 · 16 门课<br />• [推荐书籍](topics/00-basics.md#recommended-books)<br />• [在线课程](topics/00-basics.md#online-courses)|
 | 寻找前沿论文 | [论文合集](topics/03-papers.md)| 362 篇，分专题如下：<br />• [Embodied Foundation Models](topics/03-papers.md#embodied-foundation-models)<br />• [Manipulation & Teleoperation](topics/03-papers.md#manipulation)<br />• [Locomotion](topics/03-papers.md#locomotion)<br />• [Navigation & Spatial Intelligence](topics/03-papers.md#navigation-spatial-intelligence)<br />• [Simulators & Sim2Real](topics/03-papers.md#simulation-sim2real)<br />• [Datasets](topics/03-papers.md#datasets)<br />• [Benchmarks & Evaluation](topics/03-papers.md#benchmarks-evaluation)<br />• [Survey](topics/03-papers.md#survey) |
-| 找好用的代码    | [开源工具/项目](topics/04-tools.md)      | 156 项 |
-| 找优质数据集     | [数据集目录](topics/06-datasets.md)     | 6 个数据集 |
-| 竞赛/顶会日历  | [学术与竞赛](topics/05-research-hub.md) | 21 项竞赛 · 10 场会议 |
+| 找好用的代码    | [开源项目](topics/04-tools.md)      | 156 项 |
+| 找优质数据集     | [数据集](topics/06-datasets.md)     | 6 个数据集 |
+| 找竞赛/顶会  | [活动日历](topics/05-research-hub.md) | 21 项竞赛 · 10 场会议 |
 
 
 ## 2. 🗺️ 产业地图
