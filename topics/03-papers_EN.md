@@ -12,24 +12,85 @@
 
 ## Embodied Foundation Models
 
-- **[arXiv Jul 2026](https://arxiv.org/abs/2607.15330)** Xiaomi-Robotics-1: 100K Hours Trajectories. Xiaomi foundation model trained on 100K+ hours real-world data, achieving 57.6% on RoboCasa365 (previous SOTA 46.6%).
-
 
 - **[arXiv Jul 2026](https://arxiv.org/abs/2607.10655)** Foveated Perception for Shortcut Learning. Proposes foveated perception mechanisms to mitigate shortcut learning in robotic foundation models.
+
 - **[arXiv Jul 2026](https://arxiv.org/abs/2607.09818)** TS-Mask VLA: Temporal-Spatial Masking. Proposes 2D temporal-spatial masking with Bridge Attention, achieving 95.7% on LIBERO with only 0.5B parameters.
+
 - **[arXiv Jul 2026](https://arxiv.org/abs/2607.06564)** Lift3D-VLA: 3D Geometry VLA. Elevates VLA models with 3D geometric features and physical dynamics modeling.
-- **[arXiv Jul 2026](https://arxiv.org/abs/2607.05377)** Cortex: Bidirectionally Aligned Agent Framework. Bidirectional framework connecting high-level planning with low-level execution via standardized subtask descriptions.
+
 - **[arXiv Jul 2026](https://arxiv.org/abs/2607.03941)** WSA1: 3D World-Spatial-Action Model. Proposes a 3D-centric world-spatial-action model for generalizable robot control via 3D scene understanding.
+
 - **[arXiv Jul 2026](https://arxiv.org/abs/2607.02865)** DREAMSTEER: Latent World Models for VLA. Uses latent world models to steer VLA policies at deployment time without any finetuning.
+
 - **[arXiv Jul 2026](https://arxiv.org/abs/2607.02501)** Embodied.cpp: Portable Inference Runtime. A portable inference runtime for embodied AI models similar to llama.cpp but for robotics.
+
 - **[arXiv Jul 2026](https://arxiv.org/abs/2607.01088)** ROSA: Foundation Model Serving System. A serving system for robotics foundation models supporting multi-model deployment and heterogeneous robot coordination.
+
 - **[arXiv Jul 2026](https://arxiv.org/abs/2607.01002)** Hy-Embodied-RxBrain-1.0: A Cognitive World Model with Unified Textual Reasoning and Visual Imagination. Tencent's embodied native world cognition model released at WAIC 2026, pioneering deep synergy between textual reasoning and visual imagination in continuous cognitive sequences for high-level robot decision guidance.
-- **[arXiv Jul 2026](https://arxiv.org/abs/2607.01001)** Hy-Embodied-VLA-0.5: A Scalable Vision-Language-Action Model for Cross-Embodiment Deployment. Tencent's embodied VLA foundation model released at WAIC 2026, trained on 10,000+ hours of high-precision data for unified vision-language-action modeling with cross-embodiment deployment capability.
+
+### [Xiaomi-Robotics-1: Scaling VLA Models with over 100K Hours of Real-World Trajectories](https://arxiv.org/abs/2607.15330)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A VLA trained on 100K hours of real-world trajectories, reaching 57.4% on RoboCasa365.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">July 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Xiaomi (Xiaomi Robotics)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>MoT (Mixture-of-Transformers) architecture</strong>: the Qwen3-VL vision-language model handles semantic understanding while a Diffusion Transformer (DiT) generates action chunks via flow matching; VLM-side action tokens do not participate in DiT attention</li><li><strong>Two-stage training</strong>: pretraining on 100K hours of UMI real-world trajectories + post-training on ~10K hours of cross-embodiment data (self-collected mobile/dual-arm robot data, instruction-annotated UMI and open-source datasets)</li><li><strong>Scalable automatic annotation pipeline</strong>: the VLM automatically generates language descriptions of scene state transitions, completing full annotation in about 2 weeks</li><li>Provides <strong>2B / 5B / 10B</strong> model scales; cross-embodiment action spaces unified via end-effector coordinate-frame increments, with missing dimensions masked by loss masking</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Average success rate of <strong>57.4%</strong> on RoboCasa365, surpassing the previous SOTA (46.6%)</li><li>Average score of <strong>20.07</strong> on RoboDojo, vs 13.07 for the prior SOTA</li><li>Average <strong>75%</strong> on 4 out-of-the-box household tasks on real robots; finetuning for new tasks requires on average less than 10 hours of data</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model Xiaomi-Robotics-1 (2B / 5B / 10B); dataset Xiaomi-Robotics-1 Dataset (100K hours of UMI real-world manipulation trajectories); open-source (Apache-2.0)</td></tr>
+</tbody>
+</table>
+
+### [Cortex: A Bidirectionally Aligned Embodied Agent Framework for Long-horizon Manipulation](https://arxiv.org/abs/2607.05377)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A two-system bidirectional alignment framework combining VLM planning with VLA execution, reaching 95.5% zero-shot on LIBERO-Long.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">July 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Tsinghua University, Shanghai AI Lab</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Two-system architecture</strong>: a high-level VLM tracks task progress through text semantic memory and dispatches sub-tasks one by one, while a low-level VLA executes reactively</li><li><strong>Bidirectionally aligned sub-task interface</strong>: manipulation sub-tasks are normalized into 32 canonical skill primitives with strict language templates, constraining planner outputs to executable, processable sub-tasks</li><li><strong>Event-balanced sampling</strong>: oversampling samples near sub-task transition boundaries to alleviate planning ambiguity in long-horizon tasks</li><li>Training data: 4000+ hours of auto-annotated open-source video + 30 hours of simulation data; inference-side harness supports language normalization and timeout reset</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Zero-shot success rate of <strong>95.5%</strong> on LIBERO-Long, 3.1% higher than the single-agent baseline</li><li><strong>86.8%</strong> on RoboTwin, 4.1% higher than the single-agent baseline</li><li>Zero-shot completion of an unseen 14-step chemistry experiment on a real robot at <strong>65%</strong> success (0% for end-to-end VLA finetuning)</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model Cortex; training data 4000+ hours of auto-annotated open-source video + 30 hours of simulation data</td></tr>
+</tbody>
+</table>
+
+### [Hy-Embodied-VLA-0.5: A Scalable Vision-Language-Action Model for Cross-Embodiment Deployment](https://arxiv.org/abs/2607.01001)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Tencent's embodied VLA foundation model, trained on 10K+ hours of data, supporting cross-embodiment deployment.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">July 2026 (released at WAIC 2026)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Tencent (Robotics X / Hunyuan)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Forms a <strong>three-layer "Perception-Cognition-Action" model stack</strong> with Hy-Embodied-VLM-1.0 and Hy-Embodied-RxBrain-1.0; the VLA converts high-level goals into continuous, correctable low-level actions</li><li><strong>Designed for high-frequency continuous action generation</strong>, matching the multi-timescale physical world by frequency layering</li><li><strong>Chemical plant trial production</strong>: single-unit takt time under 6 seconds; new SKUs require only ~8 hours of data collection and finetuning for adaptation</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Unified modeling and cross-embodiment capability performed excellently in release evaluations</li><li>Factory trial production validated industrial deployment for high-mix, low-volume production lines</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model Hy-Embodied-VLA-0.5; training data 10K+ hours of high-precision data; open-source</td></tr>
+</tbody>
+</table>
+
+### [MiniCPM-RobotManip: A 1.5B General-Purpose VLA Model with Native Context Memory](https://github.com/OpenBMB/MiniCPM-Robot)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A 1.5B lightweight VLA with streaming native memory, single-step inference at 120ms.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">July 2026 (released at WAIC 2026)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">ModelBest (OpenBMB)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Architecture</strong>: SigLIP vision tower + Qwen3.5 language backbone + 16-layer DiT action head, generating 30-step 80-dim action chunks at once</li><li><strong>Streaming memory</strong>: inherits MiniCPM-V 4.6's visual token compression (256→64 per frame), incrementally caches historical observations, and retains up to ~1 minute of context with inference cost on par with a single frame</li><li><strong>1.5B-parameter generalist policy</strong>, 120ms forward pass per decision step (H100 BF16), vs ~234ms for π0.5</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">LIBERO <strong>97.5</strong>, Calvin ABC→D 4.1, RoboTwin2 easy/hard 91.3/91.6, RMBench <strong>53.3</strong> (π0.5 only 10.4, ~5x)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model MiniCPM-RobotManip (1.5B); open-source (Apache-2.0, repo MiniCPM-Robot)</td></tr>
+</tbody>
+</table>
+
 - **[arXiv Jun 2026](https://arxiv.org/abs/2606.26025)** In-Context World Modeling. Proposes in-context world modeling for robotic control without explicit world model training.
+
 - **[arXiv Jun 2026](https://arxiv.org/abs/2606.24049)** SPACE: Cross-Robot Data Learning. Proposes Cartesian state increments as a universal action representation for cross-embodiment policy learning.
+
 - **[arXiv Jun 2026](https://arxiv.org/abs/2606.22174)** OpenHLM: Whole-Body Humanoid Loco-Manipulation. Open-source VLA recipe for whole-body humanoid loco-manipulation supporting squatting, pedal-pressing, etc.
+
 - **[arXiv Jun 2026](https://arxiv.org/abs/2606.17846)** Qwen-RobotManip: Alignment Unlocks Scale. Proposes unified alignment framework for multi-source heterogeneous manipulation data, ~38,100h pretraining corpus with emergent zero-shot generalization.
+
 - **[arXiv Jun 2026](https://arxiv.org/abs/2606.17200)** ACE-Ego-0: Unifying Egocentric Human and Robotic Data. Unifies egocentric human video and robot data for cross-embodiment VLA pretraining via camera-space action mapping and temporal alignment.
+
 - **[arXiv Jun 2026](https://arxiv.org/abs/2606.13886)** PhysVLA: Physically-Grounded VLA. Introduces physical reasoning into VLA models for enhanced understanding of object physical properties.
 
 - **[arXiv Jun 2026](https://arxiv.org/abs/2606.13769)** μ0: A Scalable 3D Interaction-Trace World Model. Proposes a scalable 3D interaction-trace world model for cross-embodiment robot learning via interaction point trajectory prediction, without action labels.
@@ -41,116 +102,365 @@
 - **[arXiv Jun 2026](https://arxiv.org/abs/2606.08242)** Light-WAM: Efficient World Action Models. Lightweight world action model with compact video backbone and reduced latent space.
 
 - **[arXiv Jun 2026](https://arxiv.org/abs/2606.06556)** Robots Need More than VLA and World Models. Systematically analyzes limitations of VLA and world models, proposing additional capabilities needed for robotic systems.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.30350)** DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation. A dynamics-aware multimodal pretraining framework that integrates vision, language, and dynamics information to enhance scene understanding and motion execution in robotic manipulation.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.30311)** Archon: A Unified Multimodal Model for Holistic Digital Human Generation. Proposes Archon, a unified multimodal model integrating seven modalities for holistic digital human generation with an intra-modal thinking approach for enhanced fidelity and controllability.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.30263)** minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models. A full-stack open-source framework that converts bidirectional video diffusion models into camera-controllable few-step autoregressive world models, supporting real-time low-latency rollout.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.30260)** How LoRA Remembers? A Parametric Memory Law for LLM Finetuning. Proposes a parametric memory law that quantifies the memory capacity limits of LoRA in LLM finetuning, discovering that p>0.5 is sufficient for verbatim recall, providing theoretical guidance for embodied intelligence model finetuning.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.30248)** GenClaw: Code-Driven Agentic Image Generation. Proposes GenClaw, a code-driven agentic image generation paradigm where agents first conceptualize, then render visual sketches with code, and finally add textures with generative models for highly controllable visual generation.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.30056)** Sample-Efficient Diffusion-based Reinforcement Learning with Critic Guidance. A sample-efficient diffusion-based RL method combining critic guidance to improve learning efficiency, demonstrating excellent performance in robotic control tasks.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.29488)** AnyMo: Scaling Any-Modality Conditional Motion Generation with Masked Modeling. Proposes AnyMo, a unified multimodal framework combining residual FSQ motion tokenizer and scalable masked modeling Transformer for high-quality motion synthesis from any modality combination.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.28548)** GEM: Generative Supervision Helps Embodied Intelligence. A generative supervision embodied vision-language model that integrates depth map generation into VLM pretraining, demonstrating superior task execution in both simulation and real-world evaluations.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.28272)** EchoAvatar: Real-time Generative Avatar Animation from Audio Streams. Proposes a unified streaming architecture synthesizing continuous full-body motion from incremental audio input, supporting seamless speech and music generalization with explicit LLM semantic control.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.26933)** Diff-Tracking: Leveraging Text-to-Image Diffusion Models for Unsupervised Visual Object Tracking. Proposes Diff-Tracking, leveraging rich semantic knowledge from pretrained text-to-image diffusion models for unsupervised visual object tracking via cross-attention mechanisms.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.15153)** Pelican-Unified 1.0: A Unified Embodied Intelligence Model for Understanding, Reasoning, Imagination and Action. The Beijing Humanoid Robot Innovation Center's first embodied foundation model, trained under a unified training paradigm, integrates understanding, reasoning, imagination, and action generation into a single architecture and ranks first on the WorldArena imagination benchmark.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.14211)** ASH: Agents that Self-Hone via Embodied Learning. A self-improving embodied agent framework that learns inverse dynamics from self-generated trajectories and extracts supervision from unlabeled web videos for long-horizon embodied learning.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.13778)** Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs. A speculative inference framework that introduces a lightweight draft model and parallel verification with the main model, reducing average task-level latency to 19.1 ms and achieving a 3x speedup, with real conveyor-belt sorting validation.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.13757)** FrameSkip: Learning from Fewer but More Informative Frames in VLA Training. A data-layer frame selection framework that scores frames using action change, visual consistency, and task progress, retaining only 20% of frames while still reaching a 76.15% macro-average success rate.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.13548)** AttenA+: Rectifying Action Inequality in Robotic Foundation Models. A speed-aware action-attention framework that prioritizes kinematically critical motion segments; as a plug-in method it raises OpenVLA-OFT to 98.6% and shows robust results on Franka.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.13403)** RotVLA: Rotational Latent Action for Vision-Language-Action Model. A VLA framework built on SO(n) rotational latent actions that provides continuity, compositionality, and geometric alignment with real action dynamics, reaching 98.2% on LIBERO with only 1.7B parameters.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.13382)** BlockVLA: Accelerating Autoregressive VLA via Block Diffusion Finetuning. A block-diffusion approach that adapts autoregressive backbones into efficient discrete diffusion policies, enabling within-block parallel denoising and delivering 3.3x faster inference on LIBERO and SimplerEnv.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.13276)** D-VLA: A High-Concurrency Distributed Asynchronous Reinforcement Learning Framework for Vision-Language-Action Models. A high-concurrency distributed asynchronous RL framework for VLAs that isolates simulation and optimization through “planar decoupling” and uses a four-thread asynchronous swimlane pipeline to preserve linear scaling at trillion-parameter scale.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.13119)** Towards Long-horizon Embodied Agents with Tool-Aligned Vision-Language-Action Models (VLAs-as-Tools). A framework that assigns long-horizon tasks to a high-level VLM plus a family of specialized VLA tools; tool-aligned post-training improves pi_0.5 by 4.8 points on LIBERO-Long and by 23.1 points on RoboTwin.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.13105)** What to Ignore, What to React: Visually Robust RL Fine-Tuning of VLA Models (PAIR-VLA). PAIR-VLA addresses visual shift with invariance terms and sensitivity objectives, improving average performance by 16.62% on ManiSkill3 for pi_0.5 and by 9.10% for OpenVLA.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.10332)** EmbodiSkill: Skill-Aware Reflection for Self-Evolving Embodied Agents. A skill self-evolution framework for embodied agents that distinguishes skill-content errors from execution failures through skill-aware reflection, reaching a 93.28% task success rate on ALFWorld.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.00416)** Learning while Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies. Introduces Learning while Deploying, a fleet-scale reinforcement learning framework for generalist robot policies.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.00321)** Embodied Interpretability: Linking Causal Understanding to Generalization in Vision-Language-Action Models. A study of VLA interpretability that examines how causal understanding connects to generalization.
-- **[arXiv May 2026](https://arxiv.org/abs/2605.00078)** Being-H0.7: A Latent World-Action Model from Egocentric Videos. Introduces Being-H0.7, a latent world-action model that incorporates world modeling with real-world deployment in mind.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.27792)** MotuBrain: An Advanced World Action Model for Robot Control. Introduces MotuBrain, a world-action model focused on long-horizon tasks that leverages heterogeneous data to improve task success.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.24921)** libra-vla: achieving learning equilibrium via asynchronous coarse-to-fine dual-system. Introduces libra-vla, an asynchronous coarse-to-fine dual-system architecture for open-world settings that aims to improve robustness.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.24622)** CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies. A coarse-to-fine action generation method for VLA policies that targets multi-step execution and improved task success.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.24447)** Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment. A study of deploying VLA models across XPUs, focusing on hardware constraints, efficiency, and acceleration for on-robot use.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.24182)** $M^2$-VLA: Boosting Vision-Language Models for Generalizable Manipulation via Layer Mixture and Meta-Skills. A manipulation-oriented VLA approach that improves generalization through layer mixture and meta-skills.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.23272)** Modular Sensory Stream for Integrating Physical Feedback in Vision-Language-Action Models. A VLA extension that integrates physical feedback through a modular sensory stream to better support tactile interaction.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.23121)** Breaking Lock-In: Preserving Steerability under Low-Data VLA Post-Training. Addresses the lock-in effect in low-data VLA post-training by preserving visual grounding and adding contrastive prompt guidance at test time to reduce overfitting to training objects and spatial targets.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.23073)** RL Token: Bootstrapping Online RL with Vision-Language-Action Models. Introduces RL Token, an efficiency-oriented method that constrains action generation with sparse spatial anchors to improve task success.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.21741)** Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training. Uses an action-conditioned world model to post-train general robot policies inside a closed-loop imagined environment, moving human correction from costly real execution to reusable model-internal revisions.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.21391)** From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges. Introduces the ResVLA residual-bridge architecture, creating an explicit transition between high-level semantic understanding and low-level physical control to improve alignment and representation efficiency in generative VLAs.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.21241)** CorridorVLA: Explicit Spatial Constraints for Generative Action Heads via Sparse Anchors. Adds sparse spatial anchors and explicit tolerance corridors to generative action heads, using interpretable physical constraints to improve action alignment and task success in VLA policies.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.21232)** ReCAPA: Hierarchical Predictive Correction to Mitigate Cascading Failures. A hierarchical predictive-correction framework for multi-step VLA execution that uses anticipatory alignment and planning to reduce cascading failures.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.20834)** PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance. A compact VLA model for lightweight deployment that uses world-knowledge guidance to strengthen high-level understanding, spatial perception, and manipulation under tight parameter budgets.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.20627)** Occupancy Reward Shaping: Improving Credit Assignment for Offline Goal-Conditioned Reinforcement Learning. A reward shaping method for offline goal-conditioned RL that extracts temporal geometric structure from world-model occupancy measures to ease sparse-reward credit assignment.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.20246)** Cortex 2.0: Grounding World Models in Real-World Industrial Deployment. A world-model framework for long-horizon industrial manipulation that shifts from reactive control to plan-and-act, improving cross-task and cross-embodiment execution stability by generating candidate futures.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.20100)** JoyAI-RA 0.1: A Foundation Model for Robotic Autonomy. A VLA foundation model for open-world robotic autonomy that organizes multi-embodiment data and cross-embodiment training to mitigate insufficient data diversity and poor generalization.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.20012)** EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training. Introduces a mid-training stage between VLMs and VLAs to reduce distribution mismatch and improve downstream action modeling.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.19683)** Mask World Model: Predicting What Matters for Robust Robot Policy Learning. A masked world model for robot policy learning that predicts only the state changes most relevant to decision-making, improving both training efficiency and policy robustness.
-- **[arXiv Apr 2026](https://arxiv.org/abs/2604.16484)** DexWorldModel: Causal Latent World Modeling towards Automated Learning of Embodied Tasks. Proposes CLWM using DINOv3 features as generative targets to disentangle interaction semantics from visual noise, with dual-state TTT memory for O(1) long-horizon footprint and speculative asynchronous inference cutting blocking latency by ~50%.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.08168)** ViVa: A Video-Generative Value Model for Robot Reinforcement Learning. A video-generative value model that uses spatiotemporal priors from pretrained video generators for value estimation, delivering strong gains on real-world box assembly tasks.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.07799)** Learning Without Losing Identity: Capability Evolution for Embodied Agents. A new capability-centric evolution paradigm for embodied agents that introduces modular capability blocks for continual learning, raising success rate from 32.4% to 91.3% over 20 iterations with zero policy drift.
-- ★ **[CVPR April 2026](https://arxiv.org/abs/2604.07774)** RoboAgent: Chaining Basic Capabilities for Embodied Task Planning. A VLM capability-chaining framework for embodied task planning that decomposes complex planning into sequences of basic vision-language questions for more transparent and controllable reasoning.
-- **[arXiv April 2026](https://arxiv.org/abs/2604.07430)** HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents. A VLM family designed for real-world embodied agents, built with a MoE architecture and available in 2B and 32B sizes, with strong results across 22 benchmarks.
-- **[arXiv March 2026](https://arxiv.org/abs/2603.29844)** DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA. Introduces DIAL, a latent-world-modeling approach for end-to-end VLAs focused on real-world deployment and stronger generalization.
-- **[arXiv March 2026](https://arxiv.org/abs/2603.27670)** ProgressVLA: Progress-Guided Diffusion Policy for Vision-Language Robotic Manipulation. A progress-guided diffusion-policy VLA that uses a pretrained progress estimator and differentiable progress guidance to become progress-aware on long-horizon manipulation tasks.
-- **[arXiv March 2026](https://arxiv.org/abs/2603.20711)** RoboECC: Multi-Factor-Aware Edge-Cloud Collaborative Deployment for VLA Models. An edge-cloud collaborative deployment framework for VLA models that co-optimizes model partitioning and network awareness to balance real-time performance with inference quality under bandwidth fluctuations.
-- **[arXiv March 2026](https://arxiv.org/abs/2603.17573)** HeiSD: Hybrid Speculative Decoding for Embodied Vision-Language-Action Models with Kinematic Awareness. Introduces HeiSD, a kinematics-aware hybrid speculative decoding method for embodied VLAs aimed at more efficient inference.
-- **[arXiv March 2026](https://arxiv.org/abs/2603.17192)** Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models. A mechanistic interpretability study of VLA internals that analyzes how different attention heads specialize in instruction following, object interaction, and robot control.
-- **[arXiv March 2026](https://arxiv.org/abs/2603.01581)** KERV: Kinematic-Rectified Speculative Decoding for Embodied VLA Models. Injects robot kinematics into speculative decoding for VLAs, using kinematic prediction and threshold-based correction to reduce re-inference overhead while preserving success rate.
-- **[arXiv March 2026](https://arxiv.org/abs/2603.00376)** NeuroHex: A Brain-Inspired Hex Coordinate System to Enable Highly Computationally-Efficient World Models for Continuous Online-Adaptive Learning. Introduces NeuroHex, a highly efficient, hierarchically designed world modeling approach inspired by brain-like hex coordinates.
-- **[arXiv February 2026](https://arxiv.org/abs/2602.14979)** RynnBrain: Open Embodied Foundation Models. Open embodied spatiotemporal foundation models that unify egocentric understanding, spatiotemporal localization, physical reasoning, and physically grounded planning inside one framework.
-- **[arXiv February 2026](https://arxiv.org/abs/2602.11075)** RISE: Self-Improving Robot Policy with Compositional World Model. A self-improving robot policy framework driven by a compositional world model that generates experience internally and iteratively improves policies for better generalization and adaptation.
-- **[arXiv February 2026](https://arxiv.org/abs/2602.09971)** VLA-JEPA: Enhancing Vision-Language-Action Model with Latent World Model. Integrates JEPA into VLA models so world dynamics can be predicted in latent space, improving generalization and robustness.
-- **[arXiv February 2026](https://arxiv.org/abs/2602.04315)** GeneralVLA: Generalizable Vision-Language-Action Models with Knowledge-Guided Trajectory Planning. A hierarchical VLA model with knowledge-guided trajectory planning that enables zero-shot manipulation and automatic data generation without real robot data.
-- **[arXiv January 2026](https://arxiv.org/abs/2601.18692)** A Pragmatic VLA Foundation Model. This paper presents LingBot-VLA, trained on about 20,000 hours of real-world data across nine dual-arm setups, with an emphasis on training efficiency and real-world generalization.
-- **[arXiv January 2026](https://arxiv.org/abs/2601.12993)** Being-H0.5: Scaling Human-Centric Robot Learning for Cross-Embodiment Generalization. A human-centric cross-embodiment VLA foundation model trained on a 35,000-hour multimodal dataset spanning 30 embodiments, reaching 98.9% success on LIBERO.
-- **[arXiv January 2026](https://arxiv.org/abs/2601.04052)** Stable Language Guidance for Vision-Language-Action Models. Introduces a residual semantic-guidance framework that decouples physical affordance from semantic execution to stabilize language guidance in VLA models.
-- **[WAIC 2026](https://github.com/OpenBMB/MiniCPM-Robot)** MiniCPM-RobotManip: A 1.5B General-Purpose VLA Model with Native Context Memory. ModelBest's embodied VLA model released at WAIC 2026, achieving top-tier comprehensive performance at 1.5B parameters with native 1-minute context memory and 120ms per decision step.
-- **[arXiv November 2025](https://arxiv.org/abs/2511.18112)** EchoVLA: Vision-Language-Action Model with Synergistic Declarative Memory. A VLA model augmented with declarative memory that reduces forgetting in long-horizon tasks through an external memory module.
-- **[arXiv November 2025](https://arxiv.org/abs/2511.17502)** RynnVLA-002: A Unified Vision-Language-Action and World Model. A unified VLA-and-world-model framework in which the world model predicts future image states from actions and visual inputs to refine action generation.
-- **[arXiv November 2025](https://arxiv.org/abs/2511.01718)** Unified Diffusion VLA: Vision-Language-Action Model via Joint Discrete Denoising Diffusion Process. A VLA model that unifies understanding, generation, and action through a joint discrete denoising diffusion process.
-- **[arXiv October 2025](https://arxiv.org/abs/2510.25122)** NanoVLA: Routing Decoupled Vision-Language Understanding for Nano-sized Generalist Robotic Policies. A lightweight VLA architecture that combines decoupled vision-language understanding with dynamic routing, delivering up to 52x faster edge inference while reducing parameters by 98%.
-- **[arXiv October 2025](https://arxiv.org/abs/2510.12710)** Reflection-Based Task Adaptation for Self-Improving VLA. Uses a two-path design with failure-driven reflective RL and success-driven quality-guided SFT to enable fast autonomous task adaptation in VLA models.
-- **[arXiv October 2025](https://arxiv.org/abs/2510.10274)** X-VLA: The First Soft-Prompted Robot Foundation Model for Any Robot, Any Task. A soft-prompt-based robot foundation model that generalizes across robots and tasks through parameter-efficient adaptation.
-- **[arXiv October 2025](https://arxiv.org/abs/2510.07778)** IntentionVLA: Embodied Intention Reasoning for Human-Robot Interaction. A VLA model for embodied intention reasoning that improves fluency and safety in human-robot collaboration.
-- **[arXiv October 2025](https://arxiv.org/abs/2510.01623)** VLA-R1: Enhancing Reasoning in Vision-Language-Action Models. A reasoning-enhanced VLA that uses RLVR and GRPO to optimize reasoning and execution jointly, and releases the VLA-CoT-13K chain-of-thought supervision dataset.
-- **[arXiv September 2025](https://arxiv.org/abs/2509.12345)** FoMER: How Good are Foundation Models in Step-by-Step Embodied Reasoning. Introduces the FoMER benchmark to evaluate step-by-step reasoning by large language models in complex embodied decision-making settings.
-- **[arXiv September 2025](https://arxiv.org/abs/2509.11767)** WALL-OSS: Igniting VLMs toward the Embodied Space. An end-to-end embodied foundation model that uses large-scale multimodal pretraining to improve embodied perception, language-action association, and robust manipulation.
-- ★ **[ICLR September 2025](https://arxiv.org/abs/2509.09332)** OmniEVA: Embodied Versatile Planner via Task-Adaptive 3D-Grounded and Embodiment-aware Reasoning. Introduces task-adaptive 3D grounding and embodiment-aware reasoning, using a gated router to selectively regulate 3D fusion based on context for context-aware grounding and planning.
-- ★ **[NeurIPS September 2025](https://arxiv.org/abs/2509.08844)** EfficientVLA: Training-Free Acceleration and Compression for Vision-Language-Action Models. A training-free acceleration framework for VLA inference that achieves 1.93x speedup and a 28.9% reduction in FLOPs.
-- **[arXiv July 2025](https://arxiv.org/abs/2507.08421)** SwitchVLA: Execution-Aware Task Switching for Vision-Language-Action Models. A VLA framework for execution-aware task switching.
-- **[arXiv July 2025](https://arxiv.org/abs/2507.01424)** TriVLA: A Triple-System Vision-Language-Action Model with Episodic World Modeling. A triple-system VLA architecture spanning perception, world modeling, and action, where episodic world models strengthen long-horizon task planning.
-- **[arXiv June 2025](https://arxiv.org/abs/2506.04500)** Don't Do That. Guiding Embodied Systems through Large Language Model-based Constraint Generation. Introduces the STPR constraint-generation framework, using LLMs to translate natural-language constraints into executable Python functions for point-cloud representations and classical search-based navigation.
-- **[arXiv June 2025](https://arxiv.org/abs/2506.00411)** LoHoVLA: Vision-Language-Action Model for Long-Horizon Embodied Tasks. A VLA model tailored for long-horizon embodied tasks, using hierarchical action prediction to mitigate error accumulation in compound tasks.
-- ★ **[ICML May 2025](https://arxiv.org/abs/2505.06412)** DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression. A unified diffusion-and-autoregression framework that scales robot foundation models and reaches 63.7% zero-shot pick accuracy on 102 unseen objects.
-- **[arXiv May 2025](https://arxiv.org/abs/2505.03500)** VLAs are Confined yet Capable of Generalizing to Novel Instructions. A study of VLA models that evaluates how they remain constrained while still generalizing to novel instructions under a unified setup.
-- **[arXiv March 2025](https://arxiv.org/abs/2503.12438)** ChatVLA: Multimodal Understanding and Robot Control. Conversational multimodal understanding and robot control.
-- **[arXiv March 2025](https://arxiv.org/abs/2503.04123)** SmolVLA: Efficient Vision-Language-Action Models for Robotics. A lightweight VLA model for robotics that is suitable for edge deployment.
-- **[arXiv January 2025](https://arxiv.org/abs/2501.12345)** HPT: Hierarchical Pre-trained Transformer for Robot Learning. A hierarchical pretraining transformer architecture that uses layered representations to support efficient transfer across robot tasks.
-- ★ **[CVPR January 2025](https://arxiv.org/abs/2501.10105)** UniAct: Universal Actions for Enhanced Embodied Foundation Models. Introduces a universal action space that maps low-level controls from different robots into normalized action representations, improving cross-platform generalization.
-- **[arXiv January 2025](https://arxiv.org/abs/2501.08132)** HiMoE-VLA: Hierarchical Mixture-of-Experts for Vision-Language-Action Policies. A hierarchical mixture-of-experts architecture for VLA policies.
-- **[arXiv October 2024](https://arxiv.org/abs/2410.24164)** π0: A Vision-Language-Action Flow Model for General Robot Control. A flow-matching architecture built on a pretrained VLM and trained on diverse multi-robot datasets to support zero-shot task execution.
 
-- **[arXiv June 2024](https://arxiv.org/abs/2406.09246)** OpenVLA: An Open Vision-Language-Action Model. An open-source VLA model built on a 7B Llama 2 backbone and a DINOv2 visual encoder, supporting plug-and-play use and parameter-efficient fine-tuning.
-- **[arXiv June 2024](https://arxiv.org/abs/2406.06833)** RoboMatrix: Skill-Centric Robot Task Planning. A skill-centric framework for robot task planning.
+- **[arXiv May 2026](https://arxiv.org/abs/2605.30350)** DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation. A dynamics-aware multimodal pretraining framework that integrates vision, language, and dynamics information to enhance scene understanding and motion execution in robotic manipulation.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.30311)** Archon: A Unified Multimodal Model for Holistic Digital Human Generation. Proposes Archon, a unified multimodal model integrating seven modalities for holistic digital human generation with an intra-modal thinking approach for enhanced fidelity and controllability.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.30263)** minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models. A full-stack open-source framework that converts bidirectional video diffusion models into camera-controllable few-step autoregressive world models, supporting real-time low-latency rollout.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.30260)** How LoRA Remembers? A Parametric Memory Law for LLM Finetuning. Proposes a parametric memory law that quantifies the memory capacity limits of LoRA in LLM finetuning, discovering that p>0.5 is sufficient for verbatim recall, providing theoretical guidance for embodied intelligence model finetuning.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.30248)** GenClaw: Code-Driven Agentic Image Generation. Proposes GenClaw, a code-driven agentic image generation paradigm where agents first conceptualize, then render visual sketches with code, and finally add textures with generative models for highly controllable visual generation.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.30056)** Sample-Efficient Diffusion-based Reinforcement Learning with Critic Guidance. A sample-efficient diffusion-based RL method combining critic guidance to improve learning efficiency, demonstrating excellent performance in robotic control tasks.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.29488)** AnyMo: Scaling Any-Modality Conditional Motion Generation with Masked Modeling. Proposes AnyMo, a unified multimodal framework combining residual FSQ motion tokenizer and scalable masked modeling Transformer for high-quality motion synthesis from any modality combination.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.28548)** GEM: Generative Supervision Helps Embodied Intelligence. A generative supervision embodied vision-language model that integrates depth map generation into VLM pretraining, demonstrating superior task execution in both simulation and real-world evaluations.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.28272)** EchoAvatar: Real-time Generative Avatar Animation from Audio Streams. Proposes a unified streaming architecture synthesizing continuous full-body motion from incremental audio input, supporting seamless speech and music generalization with explicit LLM semantic control.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.26933)** Diff-Tracking: Leveraging Text-to-Image Diffusion Models for Unsupervised Visual Object Tracking. Proposes Diff-Tracking, leveraging rich semantic knowledge from pretrained text-to-image diffusion models for unsupervised visual object tracking via cross-attention mechanisms.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.15153)** Pelican-Unified 1.0: A Unified Embodied Intelligence Model for Understanding, Reasoning, Imagination and Action. The Beijing Humanoid Robot Innovation Center's first embodied foundation model, trained under a unified training paradigm, integrates understanding, reasoning, imagination, and action generation into a single architecture and ranks first on the WorldArena imagination benchmark.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.14211)** ASH: Agents that Self-Hone via Embodied Learning. A self-improving embodied agent framework that learns inverse dynamics from self-generated trajectories and extracts supervision from unlabeled web videos for long-horizon embodied learning.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.13778)** Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs. A speculative inference framework that introduces a lightweight draft model and parallel verification with the main model, reducing average task-level latency to 19.1 ms and achieving a 3x speedup, with real conveyor-belt sorting validation.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.13757)** FrameSkip: Learning from Fewer but More Informative Frames in VLA Training. A data-layer frame selection framework that scores frames using action change, visual consistency, and task progress, retaining only 20% of frames while still reaching a 76.15% macro-average success rate.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.13548)** AttenA+: Rectifying Action Inequality in Robotic Foundation Models. A speed-aware action-attention framework that prioritizes kinematically critical motion segments; as a plug-in method it raises OpenVLA-OFT to 98.6% and shows robust results on Franka.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.13403)** RotVLA: Rotational Latent Action for Vision-Language-Action Model. A VLA framework built on SO(n) rotational latent actions that provides continuity, compositionality, and geometric alignment with real action dynamics, reaching 98.2% on LIBERO with only 1.7B parameters.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.13382)** BlockVLA: Accelerating Autoregressive VLA via Block Diffusion Finetuning. A block-diffusion approach that adapts autoregressive backbones into efficient discrete diffusion policies, enabling within-block parallel denoising and delivering 3.3x faster inference on LIBERO and SimplerEnv.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.13276)** D-VLA: A High-Concurrency Distributed Asynchronous Reinforcement Learning Framework for Vision-Language-Action Models. A high-concurrency distributed asynchronous RL framework for VLAs that isolates simulation and optimization through “planar decoupling” and uses a four-thread asynchronous swimlane pipeline to preserve linear scaling at trillion-parameter scale.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.13119)** Towards Long-horizon Embodied Agents with Tool-Aligned Vision-Language-Action Models (VLAs-as-Tools). A framework that assigns long-horizon tasks to a high-level VLM plus a family of specialized VLA tools; tool-aligned post-training improves pi_0.5 by 4.8 points on LIBERO-Long and by 23.1 points on RoboTwin.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.13105)** What to Ignore, What to React: Visually Robust RL Fine-Tuning of VLA Models (PAIR-VLA). PAIR-VLA addresses visual shift with invariance terms and sensitivity objectives, improving average performance by 16.62% on ManiSkill3 for pi_0.5 and by 9.10% for OpenVLA.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.10332)** EmbodiSkill: Skill-Aware Reflection for Self-Evolving Embodied Agents. A skill self-evolution framework for embodied agents that distinguishes skill-content errors from execution failures through skill-aware reflection, reaching a 93.28% task success rate on ALFWorld.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.00416)** Learning while Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies. Introduces Learning while Deploying, a fleet-scale reinforcement learning framework for generalist robot policies.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.00321)** Embodied Interpretability: Linking Causal Understanding to Generalization in Vision-Language-Action Models. A study of VLA interpretability that examines how causal understanding connects to generalization.
+
+- **[arXiv May 2026](https://arxiv.org/abs/2605.00078)** Being-H0.7: A Latent World-Action Model from Egocentric Videos. Introduces Being-H0.7, a latent world-action model that incorporates world modeling with real-world deployment in mind.
+
+### [Qwen-VLA: A Unified Embodied Foundation Model](https://arxiv.org/abs/2605.30280)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A unified embodied foundation model spanning manipulation, navigation and trajectory prediction in a single model.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">May 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Alibaba Qwen (Tongyi Qianwen) team</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Qwen3.5-4B VLM + 1.15B DiT flow-matching action decoder</strong> (~5.1B total)</li><li>Four-stage training: T2A text-to-action pretraining → CPT → SFT → RL</li><li>Unifies manipulation, navigation and trajectory prediction into an action-trajectory framework</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>LIBERO <strong>97.9%</strong>, Simpler-WidowX <strong>73.7%</strong>, RoboTwin Easy/Hard 86.1%/87.2%</li><li>Average real-robot ALOHA OOD success rate <strong>76.9%</strong>, outperforming GR00T N1.6 and π0.5</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model Qwen-VLA-Base / Instruct; training data 10K+ hours from multiple sources (manipulation trajectories, human demonstrations such as Ego4D, simulation, VLN, VL); open-source (QwenLM/Qwen-VLA)</td></tr>
+</tbody>
+</table>
+
+- **[arXiv Apr 2026](https://arxiv.org/abs/2604.16484)** DexWorldModel: Causal Latent World Modeling towards Automated Learning of Embodied Tasks. Proposes CLWM using DINOv3 features as generative targets to disentangle interaction semantics from visual noise, with dual-state TTT memory for O(1) long-horizon footprint and speculative asynchronous inference cutting blocking latency by ~50%.
+
+- ★ **[ICML May 2025](https://arxiv.org/abs/2505.06412)** DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression. A unified diffusion-and-autoregression framework that scales robot foundation models and reaches 63.7% zero-shot pick accuracy on 102 unseen objects.
+
+- **[arXiv May 2025](https://arxiv.org/abs/2505.03500)** VLAs are Confined yet Capable of Generalizing to Novel Instructions. A study of VLA models that evaluates how they remain constrained while still generalizing to novel instructions under a unified setup.
+
+### [GR00T N1.5: World Model-Enhanced VLA](https://research.nvidia.com/labs/gear/gr00t-n15/)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">GR00T N1 upgrade with a frozen VLM plus world modeling and synthetic neural trajectories, doubling the language-following rate.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">May 2025</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">NVIDIA GEAR Lab</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>World model + action expert fusion</strong>: the VLM (Eagle 2.5) is trained frozen to preserve language capability, while a DiT action expert outputs continuous actions</li><li><strong>FLARE future latent representation alignment</strong> (implicit world modeling), unlocking learning from human first-person videos</li><li>DreamGen / Cosmos generate neural trajectories as synthetic data</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Real-robot GR-1 language instruction following <strong>46.6% → 93.3%</strong> (overall success 43.3% → 83.0%)</li><li>Language Table 52.8% → <strong>93.2%</strong>; success on 12 DreamGen new tasks 13.1% → 38.3%</li><li>Upgrade completed with synthetic data in just <strong>36 hours</strong> (nearly 3 months of human effort)</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model GR00T-N1.5-3B; datasets Open X-Embodiment, AgiBot-Beta, DexMG, DreamGen neural trajectories, NVIDIA Physical AI data (24,000 simulated trajectories); open-source</td></tr>
+</tbody>
+</table>
+
+### [π0.5: Scaling VLA with Heterogeneous Data](https://arxiv.org/abs/2504.16054)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">π0's open-world upgrade, co-training on heterogeneous data enables robots to complete long-horizon household tasks.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">April 2025</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Physical Intelligence</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Heterogeneous data co-training</strong>: multi-robot data + high-level sub-task labels + verbal instructions + web VL data</li><li>Pretraining with <strong>FAST discrete action tokens</strong>, post-training with a flow matching continuous action expert</li><li>Two-level inference, ~3.3B parameters (SigLIP 400M + Gemma 2B + 300M expert)</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>First time an end-to-end system performs <strong>10-15 minute long-horizon tasks</strong> in a new home (cleaning kitchen/bedroom)</li><li>OOD sub-task success rate <strong>94%</strong>, close to the control group in seen test environments</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model π0.5; training data ~400 hours of mobile manipulation (across ~100 homes) + cross-embodiment and web data; partially open-sourced in openpi</td></tr>
+</tbody>
+</table>
+
+### [AgiBot GO-1: Open-Sourced Generalist Embodied Agent](https://arxiv.org/abs/2503.06669)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">AgiBot's open-sourced generalist embodied foundation model, with million-scale real-robot data and latent action representations.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">March 2025 (released at WRC 2025)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">AgiBot + OpenDriveLab (Shanghai AI Lab)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>ViLLA architecture</strong>: InternVL-2B VLM + Latent Planner + diffusion Action Expert</li><li>Companion <strong>AgiBot World</strong> million-scale real-robot dataset (1M+ trajectories, 217 tasks, 5 scenarios)</li><li>Latent action representation scales predictably with data volume</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Pretraining on AgiBot World improves over Open X-Embodiment by an average <strong>30%</strong></li><li>GO-1 exceeds <strong>60%</strong> success on complex tasks, a 32% improvement over RDT</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model GO-1; datasets AgiBot World (1M+ trajectories) and AgiBot Digital World simulation data; datasets and model fully open-sourced</td></tr>
+</tbody>
+</table>
+
+### [GR00T N1: An Open Foundation Model for Generalist Humanoid Robots](https://arxiv.org/abs/2503.14734)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">The first open humanoid VLA foundation model, with fast-slow dual systems supporting multi-step manipulation.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">March 2025 (released at GTC 2025)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">NVIDIA GEAR Lab (led by Jim Fan and Yuke Zhu)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Dual-system architecture</strong>: System 2 is a VLM (Eagle-2, 10Hz planning), System 1 is a diffusion Transformer action expert (120Hz closed-loop control)</li><li><strong>LAPA latent action pretraining</strong>, learning from unlabeled human videos</li><li>Data pyramid: a mixture of real teleoperation + synthetic + internet data</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>The public GR00T-N1-2B has ~<strong>2.2B parameters</strong>; 63.9ms to sample 16 actions on an L40 GPU</li><li>Pretraining ~50K H100 GPU hours; surpasses SOTA imitation baselines across embodied simulation benchmarks, deployed on Fourier GR-1</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model GR00T-N1-2B; datasets Open X-Embodiment, AgiBot-Alpha, 181,000+ unlabeled internet videos; open-source (Apache 2.0)</td></tr>
+</tbody>
+</table>
+
+### [π0: A Vision-Language-Action Flow Model](https://arxiv.org/abs/2410.24164)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Physical Intelligence's first generalist policy, flow matching continuous actions enable dexterous manipulation.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">October 2024</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Physical Intelligence (π)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>PaliGemma 3B VLM + 300M action expert</strong> (~3.3B total)</li><li><strong>flow matching</strong> generates continuous actions, 50Hz high-frequency control, 50-step action chunks</li><li>10K+ hours, 8 robot platforms, 68 tasks, pretraining + post-training paradigm</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Zero-shot: tidying a table <strong>0.971</strong>, folding shirts <strong>1.0</strong>, bagging groceries <strong>0.786</strong></li><li>OpenVLA / Octo near 0 on these tasks; more than 2x improvement over π0-small</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model π0 (~3.3B) / π0-small (470M); training data proprietary 10K+ hours + Open X-Embodiment; openpi open-sourced (2025-02)</td></tr>
+</tbody>
+</table>
+
+### [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A 7B open-source VLA that outperforms a 55B closed-source model on open data.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">June 2024</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Stanford + UC Berkeley + TRI + Google DeepMind + Physical Intelligence + MIT</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Based on Prismatic-7B VLM: <strong>SigLIP + DINOv2 dual vision encoders</strong> + Llama 2 7B</li><li>Finetuned on <strong>Open X-Embodiment 970K trajectories</strong></li><li>Weights / training pipeline fully open-sourced, supporting LoRA and quantization-based efficient finetuning</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Absolute <strong>16.5%</strong> improvement in success rate over RT-2-X (55B) across 29 evaluation tasks, with 7x fewer parameters</li><li>Zero-shot outperforms RT-1-X and Octo</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model OpenVLA (7B); dataset Open X-Embodiment (970K trajectories); weights and code open-sourced</td></tr>
+</tbody>
+</table>
+
 - **[CoRL May 2024](https://arxiv.org/abs/2405.16789)** MC-Skill: Multi-Context Skill Learning for Vision-Language-Action. A multi-context skill-learning VLA framework that supports generalization in complex scenes.
-- **[arXiv May 2024](https://arxiv.org/abs/2405.12213)** Octo: An Open-Source Generalist Robot Policy. An open-source generalist robot policy trained on 800,000 trajectories from the Open X-Embodiment dataset, supporting both language instructions and goal images.
-- **[arXiv February 2024](https://arxiv.org/abs/2402.06149)** GR-2: A Generative Video-Language-Action Model for Robot Manipulation. A generative video-language-action model that learns general visual representations through large-scale video pretraining before fine-tuning on robot manipulation tasks.
-- **[arXiv January 2024](https://arxiv.org/abs/2401.12963)** AutoRT: Embodied Foundation Models for Large-Scale Robot Orchestration. A system for large-scale robot orchestration with foundation models, combining LLM-based task decomposition with VLM-based environment understanding to collect data across multiple robots in parallel.
-- **[arXiv November 2023](https://arxiv.org/abs/2311.01355)** RoboFlamingo: A Vision-Language Model for Open-Vocabulary Robot Control. An open-source VLA model based on Flamingo that achieves open-vocabulary robot control through vision-language model fine-tuning and few-shot learning.
-- **[arXiv July 2023](https://arxiv.org/abs/2307.15818)** RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control. The first model to formally introduce the VLA concept, fine-tuning a vision-language model (PaLI-X / PaLM-E) into a VLA so robots can benefit from internet-scale knowledge.
-- **[CoRL July 2023](https://arxiv.org/abs/2307.06135)** SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Robot Task Planning. Improves robot task planning by grounding large language models in 3D scene graphs.
-- **[arXiv July 2023](https://arxiv.org/abs/2307.05973)** VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models. Builds 3D value maps from LLMs and VLMs for downstream motion planners, enabling zero-shot trajectory synthesis without additional training.
-- **[arXiv June 2023](https://arxiv.org/abs/2306.11706)** RoboCat: A Self-Improving Foundation Agent for Robotic Manipulation. A self-improving robot foundation model that aggregates data and fine-tunes on new tasks, creating a self-improvement loop.
+
+### [Octo: An Open-Source Generalist Robot Policy](https://arxiv.org/abs/2405.12213)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">An open-source generalist robot diffusion policy, flexibly adapting to multiple sensors and action spaces.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">May 2024</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">UC Berkeley + Stanford + CMU + Google DeepMind</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Transformer backbone + diffusion action decoding</strong>, supporting language / goal-image dual conditioning</li><li>First fully open-source generalist robot policy (weights, training pipeline, data)</li><li>Finetunable to new sensors (force sensing) and new action spaces</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Pretrained on Open X-Embodiment <strong>800K trajectories</strong>, evaluated on 9 real-robot platforms</li><li>Zero-shot surpasses RT-1-X and rivals RT-2-X (55B); finetuning beats suboptimal baselines by an average <strong>52%</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model Octo-Small (27M) / Octo-Base (93M); dataset Open X-Embodiment (800K trajectories); fully open-sourced</td></tr>
+</tbody>
+</table>
+
+### [RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://arxiv.org/abs/2307.15818)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Actions tokenized and integrated into a VLM for co-finetuning, transferring internet knowledge to robot control for the first time.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">July 2023</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Google DeepMind</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>First to propose the <strong>VLA paradigm</strong>: actions encoded as text tokens, co-finetuned with internet vision-language data</li><li>Backbones are <strong>PaLI-X-55B</strong> and <strong>PaLM-E-12B</strong></li><li>Supports chain-of-thought multi-step reasoning</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>~6000 real-robot evaluations; average success on unseen scenes raised from 32% for RT-1 to <strong>62%</strong></li><li>Emergent capabilities (symbol / reasoning / person recognition) average <strong>60%</strong>, vs 17% for RT-1</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model RT-2 (PaLI-X-55B / PaLM-E-12B); training data robot trajectories + internet VL data; weights not released</td></tr>
+</tbody>
+</table>
+
+### [VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models](https://arxiv.org/abs/2307.05973)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">LLM + VLM compose 3D value maps to directly plan manipulation trajectories, zero-training and zero-shot.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">July 2023</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Stanford (Wenlong Huang, Fei-Fei Li, Jiajun Wu team)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>LLM writes code to call the VLM, <strong>composing 3D value maps</strong> (affordance + constraint) as the objective function for motion planning</li><li><strong>Zero-training, zero-shot</strong> synthesis of 6-DoF trajectories, supporting open instructions and open objects</li><li>MPC closed-loop replanning robust to disturbances</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Average success <strong>88%</strong> across 5 real-robot task categories (70% with disturbances), vs only 24% for the LLM + action primitive baseline</li><li>Online learning reduces contact task dynamics learning from >12 hours to ~<strong>3 minutes</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Uses off-the-shelf LLM (GPT-4) + VLM (CLIP); no proprietary training data; code open-sourced (huangwl18/VoxPoser)</td></tr>
+</tbody>
+</table>
+
 - **[arXiv May 2023](https://arxiv.org/abs/2305.16291)** Voyager: An Open-Ended Embodied Agent with Large Language Models. An LLM-driven framework for open-ended embodied agents in open-world environments.
-- **[ICRA March 2023](https://arxiv.org/abs/2303.08734)** PromptCraft: Zero-Shot Task Planning with Large Language Models. A prompt-engineering framework for zero-shot task planning with large language models.
-- **[arXiv March 2023](https://arxiv.org/abs/2303.03378)** PaLM-E: An Embodied Multimodal Language Model. An embodied multimodal language model that fuses real-world sensor inputs such as images and state estimates with a language model for embodied reasoning and long-horizon planning.
-- **[arXiv December 2022](https://arxiv.org/abs/2212.06817)** RT-1: Robotics Transformer for Real-World Control at Scale. The first large-scale robot transformer model, trained on 130,000 demonstrations across 13 tasks and showing strong success rates together with zero-shot generalization.
-- ★ **[ICLR December 2022](https://arxiv.org/abs/2212.04088)** LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models. An LLM-based method for few-shot grounded planning in embodied agents.
-- ★ **[ICLR October 2022](https://arxiv.org/abs/2210.03629)** ReAct: Synergizing Reasoning and Acting in Language Models. A framework for coupling reasoning and action in language models.
-- ★ **[NeurIPS October 2022](https://arxiv.org/abs/2210.03094)** VIMA: General Robot Manipulation with Multimodal Prompts. A general robot manipulation model built around multimodal prompting.
-- **[CoRL September 2022](https://arxiv.org/abs/2209.07753)** Code as Policies: Language Model Programs for Embodied Control. Uses code generated by language models as policies for embodied robot control.
-- **[CoRL July 2022](https://arxiv.org/abs/2207.05608)** Inner Monologue: Embodied Reasoning through Planning with Language Models. A framework for embodied reasoning and planning assisted by language models.
+
+### [PaLM-E: An Embodied Multimodal Language Model](https://arxiv.org/abs/2303.03378)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">The first embodied multimodal language model, connecting continuous sensor signals into an LLM for unified planning and QA.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">March 2023</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Google Robotics + Google Research + TU Berlin</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Continuous observations such as images / robot states are encoded as vectors and injected into the pretrained PaLM embedding space</li><li>A single model unifies <strong>robot planning, VQA and captioning</strong></li><li>Cross-domain joint training enables positive transfer</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Largest model <strong>PaLM-E-562B</strong></li><li>Achieved SOTA on OK-VQA</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model PaLM-E (12B / 84B / 562B); training data RT-series robot data + internet vision-language data; not open-sourced</td></tr>
+</tbody>
+</table>
+
+### [RT-1: Robotics Transformer for Real-World Control at Scale](https://arxiv.org/abs/2212.06817)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">The first large-scale multi-task real-robot Transformer policy, validating the scalability of robot policies.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">December 2022</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Google (Robotics at Google / Everyday Robots)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Inputs 6 frames of images + language instructions, outputs <strong>11-dim discrete actions</strong></li><li>Lightweight architecture <strong>EfficientNet-B3 (FiLM) + TokenLearner</strong>, only 35M parameters</li><li>Collected and trained on 700+ real tasks</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>97%</strong> success across 700+ real-robot tasks</li><li>Significant zero-shot generalization to new objects and new environments</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model RT-1 (35M); dataset RT-1 dataset; code open-sourced (google-research/robotics_transformer)</td></tr>
+</tbody>
+</table>
+
 - **[arXiv May 2022](https://arxiv.org/abs/2205.06175)** GATO: A Generalist Agent. A single transformer model that handles 600+ tasks spanning robot control, games, and dialogue, offering one of the earliest demonstrations of a generalist agent.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.27792)** MotuBrain: An Advanced World Action Model for Robot Control. Introduces MotuBrain, a world-action model focused on long-horizon tasks that leverages heterogeneous data to improve task success.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.24921)** libra-vla: achieving learning equilibrium via asynchronous coarse-to-fine dual-system. Introduces libra-vla, an asynchronous coarse-to-fine dual-system architecture for open-world settings that aims to improve robustness.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.24622)** CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies. A coarse-to-fine action generation method for VLA policies that targets multi-step execution and improved task success.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.24447)** Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment. A study of deploying VLA models across XPUs, focusing on hardware constraints, efficiency, and acceleration for on-robot use.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.24182)** $M^2$-VLA: Boosting Vision-Language Models for Generalizable Manipulation via Layer Mixture and Meta-Skills. A manipulation-oriented VLA approach that improves generalization through layer mixture and meta-skills.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.23272)** Modular Sensory Stream for Integrating Physical Feedback in Vision-Language-Action Models. A VLA extension that integrates physical feedback through a modular sensory stream to better support tactile interaction.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.23121)** Breaking Lock-In: Preserving Steerability under Low-Data VLA Post-Training. Addresses the lock-in effect in low-data VLA post-training by preserving visual grounding and adding contrastive prompt guidance at test time to reduce overfitting to training objects and spatial targets.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.23073)** RL Token: Bootstrapping Online RL with Vision-Language-Action Models. Introduces RL Token, an efficiency-oriented method that constrains action generation with sparse spatial anchors to improve task success.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.21741)** Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training. Uses an action-conditioned world model to post-train general robot policies inside a closed-loop imagined environment, moving human correction from costly real execution to reusable model-internal revisions.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.21391)** From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges. Introduces the ResVLA residual-bridge architecture, creating an explicit transition between high-level semantic understanding and low-level physical control to improve alignment and representation efficiency in generative VLAs.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.21241)** CorridorVLA: Explicit Spatial Constraints for Generative Action Heads via Sparse Anchors. Adds sparse spatial anchors and explicit tolerance corridors to generative action heads, using interpretable physical constraints to improve action alignment and task success in VLA policies.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.21232)** ReCAPA: Hierarchical Predictive Correction to Mitigate Cascading Failures. A hierarchical predictive-correction framework for multi-step VLA execution that uses anticipatory alignment and planning to reduce cascading failures.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.20834)** PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance. A compact VLA model for lightweight deployment that uses world-knowledge guidance to strengthen high-level understanding, spatial perception, and manipulation under tight parameter budgets.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.20627)** Occupancy Reward Shaping: Improving Credit Assignment for Offline Goal-Conditioned Reinforcement Learning. A reward shaping method for offline goal-conditioned RL that extracts temporal geometric structure from world-model occupancy measures to ease sparse-reward credit assignment.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.20246)** Cortex 2.0: Grounding World Models in Real-World Industrial Deployment. A world-model framework for long-horizon industrial manipulation that shifts from reactive control to plan-and-act, improving cross-task and cross-embodiment execution stability by generating candidate futures.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.20100)** JoyAI-RA 0.1: A Foundation Model for Robotic Autonomy. A VLA foundation model for open-world robotic autonomy that organizes multi-embodiment data and cross-embodiment training to mitigate insufficient data diversity and poor generalization.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.20012)** EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training. Introduces a mid-training stage between VLMs and VLAs to reduce distribution mismatch and improve downstream action modeling.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.19683)** Mask World Model: Predicting What Matters for Robust Robot Policy Learning. A masked world model for robot policy learning that predicts only the state changes most relevant to decision-making, improving both training efficiency and policy robustness.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.08168)** ViVa: A Video-Generative Value Model for Robot Reinforcement Learning. A video-generative value model that uses spatiotemporal priors from pretrained video generators for value estimation, delivering strong gains on real-world box assembly tasks.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.07799)** Learning Without Losing Identity: Capability Evolution for Embodied Agents. A new capability-centric evolution paradigm for embodied agents that introduces modular capability blocks for continual learning, raising success rate from 32.4% to 91.3% over 20 iterations with zero policy drift.
+
+- ★ **[CVPR April 2026](https://arxiv.org/abs/2604.07774)** RoboAgent: Chaining Basic Capabilities for Embodied Task Planning. A VLM capability-chaining framework for embodied task planning that decomposes complex planning into sequences of basic vision-language questions for more transparent and controllable reasoning.
+
+- **[arXiv April 2026](https://arxiv.org/abs/2604.07430)** HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents. A VLM family designed for real-world embodied agents, built with a MoE architecture and available in 2B and 32B sizes, with strong results across 22 benchmarks.
+
+- **[arXiv March 2026](https://arxiv.org/abs/2603.29844)** DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA. Introduces DIAL, a latent-world-modeling approach for end-to-end VLAs focused on real-world deployment and stronger generalization.
+
+- **[arXiv March 2026](https://arxiv.org/abs/2603.27670)** ProgressVLA: Progress-Guided Diffusion Policy for Vision-Language Robotic Manipulation. A progress-guided diffusion-policy VLA that uses a pretrained progress estimator and differentiable progress guidance to become progress-aware on long-horizon manipulation tasks.
+
+- **[arXiv March 2026](https://arxiv.org/abs/2603.20711)** RoboECC: Multi-Factor-Aware Edge-Cloud Collaborative Deployment for VLA Models. An edge-cloud collaborative deployment framework for VLA models that co-optimizes model partitioning and network awareness to balance real-time performance with inference quality under bandwidth fluctuations.
+
+- **[arXiv March 2026](https://arxiv.org/abs/2603.17573)** HeiSD: Hybrid Speculative Decoding for Embodied Vision-Language-Action Models with Kinematic Awareness. Introduces HeiSD, a kinematics-aware hybrid speculative decoding method for embodied VLAs aimed at more efficient inference.
+
+- **[arXiv March 2026](https://arxiv.org/abs/2603.17192)** Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models. A mechanistic interpretability study of VLA internals that analyzes how different attention heads specialize in instruction following, object interaction, and robot control.
+
+- **[arXiv March 2026](https://arxiv.org/abs/2603.01581)** KERV: Kinematic-Rectified Speculative Decoding for Embodied VLA Models. Injects robot kinematics into speculative decoding for VLAs, using kinematic prediction and threshold-based correction to reduce re-inference overhead while preserving success rate.
+
+- **[arXiv March 2026](https://arxiv.org/abs/2603.00376)** NeuroHex: A Brain-Inspired Hex Coordinate System to Enable Highly Computationally-Efficient World Models for Continuous Online-Adaptive Learning. Introduces NeuroHex, a highly efficient, hierarchically designed world modeling approach inspired by brain-like hex coordinates.
+
+- **[arXiv February 2026](https://arxiv.org/abs/2602.14979)** RynnBrain: Open Embodied Foundation Models. Open embodied spatiotemporal foundation models that unify egocentric understanding, spatiotemporal localization, physical reasoning, and physically grounded planning inside one framework.
+
+- **[arXiv February 2026](https://arxiv.org/abs/2602.11075)** RISE: Self-Improving Robot Policy with Compositional World Model. A self-improving robot policy framework driven by a compositional world model that generates experience internally and iteratively improves policies for better generalization and adaptation.
+
+- **[arXiv February 2026](https://arxiv.org/abs/2602.09971)** VLA-JEPA: Enhancing Vision-Language-Action Model with Latent World Model. Integrates JEPA into VLA models so world dynamics can be predicted in latent space, improving generalization and robustness.
+
+- **[arXiv February 2026](https://arxiv.org/abs/2602.04315)** GeneralVLA: Generalizable Vision-Language-Action Models with Knowledge-Guided Trajectory Planning. A hierarchical VLA model with knowledge-guided trajectory planning that enables zero-shot manipulation and automatic data generation without real robot data.
+
+- **[arXiv January 2026](https://arxiv.org/abs/2601.18692)** A Pragmatic VLA Foundation Model. This paper presents LingBot-VLA, trained on about 20,000 hours of real-world data across nine dual-arm setups, with an emphasis on training efficiency and real-world generalization.
+
+- **[arXiv January 2026](https://arxiv.org/abs/2601.12993)** Being-H0.5: Scaling Human-Centric Robot Learning for Cross-Embodiment Generalization. A human-centric cross-embodiment VLA foundation model trained on a 35,000-hour multimodal dataset spanning 30 embodiments, reaching 98.9% success on LIBERO.
+
+- **[arXiv January 2026](https://arxiv.org/abs/2601.04052)** Stable Language Guidance for Vision-Language-Action Models. Introduces a residual semantic-guidance framework that decouples physical affordance from semantic execution to stabilize language guidance in VLA models.
+
+- **[arXiv November 2025](https://arxiv.org/abs/2511.18112)** EchoVLA: Vision-Language-Action Model with Synergistic Declarative Memory. A VLA model augmented with declarative memory that reduces forgetting in long-horizon tasks through an external memory module.
+
+- **[arXiv November 2025](https://arxiv.org/abs/2511.17502)** RynnVLA-002: A Unified Vision-Language-Action and World Model. A unified VLA-and-world-model framework in which the world model predicts future image states from actions and visual inputs to refine action generation.
+
+- **[arXiv November 2025](https://arxiv.org/abs/2511.01718)** Unified Diffusion VLA: Vision-Language-Action Model via Joint Discrete Denoising Diffusion Process. A VLA model that unifies understanding, generation, and action through a joint discrete denoising diffusion process.
+
+- **[arXiv October 2025](https://arxiv.org/abs/2510.25122)** NanoVLA: Routing Decoupled Vision-Language Understanding for Nano-sized Generalist Robotic Policies. A lightweight VLA architecture that combines decoupled vision-language understanding with dynamic routing, delivering up to 52x faster edge inference while reducing parameters by 98%.
+
+- **[arXiv October 2025](https://arxiv.org/abs/2510.12710)** Reflection-Based Task Adaptation for Self-Improving VLA. Uses a two-path design with failure-driven reflective RL and success-driven quality-guided SFT to enable fast autonomous task adaptation in VLA models.
+
+- **[arXiv October 2025](https://arxiv.org/abs/2510.10274)** X-VLA: The First Soft-Prompted Robot Foundation Model for Any Robot, Any Task. A soft-prompt-based robot foundation model that generalizes across robots and tasks through parameter-efficient adaptation.
+
+- **[arXiv October 2025](https://arxiv.org/abs/2510.07778)** IntentionVLA: Embodied Intention Reasoning for Human-Robot Interaction. A VLA model for embodied intention reasoning that improves fluency and safety in human-robot collaboration.
+
+- **[arXiv October 2025](https://arxiv.org/abs/2510.01623)** VLA-R1: Enhancing Reasoning in Vision-Language-Action Models. A reasoning-enhanced VLA that uses RLVR and GRPO to optimize reasoning and execution jointly, and releases the VLA-CoT-13K chain-of-thought supervision dataset.
+
+- **[arXiv September 2025](https://arxiv.org/abs/2509.15293)** FoMER: How Good are Foundation Models in Step-by-Step Embodied Reasoning. Introduces the FoMER benchmark to evaluate step-by-step reasoning by large language models in complex embodied decision-making settings.
+
+- **[arXiv September 2025](https://arxiv.org/abs/2509.11767)** WALL-OSS: Igniting VLMs toward the Embodied Space. An end-to-end embodied foundation model that uses large-scale multimodal pretraining to improve embodied perception, language-action association, and robust manipulation.
+
+- ★ **[ICLR September 2025](https://arxiv.org/abs/2509.09332)** OmniEVA: Embodied Versatile Planner via Task-Adaptive 3D-Grounded and Embodiment-aware Reasoning. Introduces task-adaptive 3D grounding and embodiment-aware reasoning, using a gated router to selectively regulate 3D fusion based on context for context-aware grounding and planning.
+
+- ★ **[NeurIPS September 2025](https://arxiv.org/abs/2509.08844)** EfficientVLA: Training-Free Acceleration and Compression for Vision-Language-Action Models. A training-free acceleration framework for VLA inference that achieves 1.93x speedup and a 28.9% reduction in FLOPs.
+
+- **[arXiv July 2025](https://arxiv.org/abs/2507.08421)** SwitchVLA: Execution-Aware Task Switching for Vision-Language-Action Models. A VLA framework for execution-aware task switching.
+
+- **[arXiv July 2025](https://arxiv.org/abs/2507.01424)** TriVLA: A Triple-System Vision-Language-Action Model with Episodic World Modeling. A triple-system VLA architecture spanning perception, world modeling, and action, where episodic world models strengthen long-horizon task planning.
+
+- **[arXiv June 2025](https://arxiv.org/abs/2506.04500)** Don't Do That. Guiding Embodied Systems through Large Language Model-based Constraint Generation. Introduces the STPR constraint-generation framework, using LLMs to translate natural-language constraints into executable Python functions for point-cloud representations and classical search-based navigation.
+
+- **[arXiv June 2025](https://arxiv.org/abs/2506.00411)** LoHoVLA: Vision-Language-Action Model for Long-Horizon Embodied Tasks. A VLA model tailored for long-horizon embodied tasks, using hierarchical action prediction to mitigate error accumulation in compound tasks.
+
+- **[arXiv March 2025](https://arxiv.org/abs/2503.12438)** ChatVLA: Multimodal Understanding and Robot Control. Conversational multimodal understanding and robot control.
+
+- **[arXiv March 2025](https://arxiv.org/abs/2503.04123)** SmolVLA: Efficient Vision-Language-Action Models for Robotics. A lightweight VLA model for robotics that is suitable for edge deployment.
+
+- **[arXiv January 2025](https://arxiv.org/abs/2409.20537)** HPT: Hierarchical Pre-trained Transformer for Robot Learning. A hierarchical pretraining transformer architecture that uses layered representations to support efficient transfer across robot tasks.
+
+- ★ **[CVPR January 2025](https://arxiv.org/abs/2501.10105)** UniAct: Universal Actions for Enhanced Embodied Foundation Models. Introduces a universal action space that maps low-level controls from different robots into normalized action representations, improving cross-platform generalization.
+
+- **[arXiv January 2025](https://arxiv.org/abs/2501.08132)** HiMoE-VLA: Hierarchical Mixture-of-Experts for Vision-Language-Action Policies. A hierarchical mixture-of-experts architecture for VLA policies.
+
+- **[arXiv June 2024](https://arxiv.org/abs/2406.06833)** RoboMatrix: Skill-Centric Robot Task Planning. A skill-centric framework for robot task planning.
+
+- **[arXiv February 2024](https://arxiv.org/abs/2402.06149)** GR-2: A Generative Video-Language-Action Model for Robot Manipulation. A generative video-language-action model that learns general visual representations through large-scale video pretraining before fine-tuning on robot manipulation tasks.
+
+- **[arXiv January 2024](https://arxiv.org/abs/2401.12963)** AutoRT: Embodied Foundation Models for Large-Scale Robot Orchestration. A system for large-scale robot orchestration with foundation models, combining LLM-based task decomposition with VLM-based environment understanding to collect data across multiple robots in parallel.
+
+- **[arXiv November 2023](https://arxiv.org/abs/2311.01355)** RoboFlamingo: A Vision-Language Model for Open-Vocabulary Robot Control. An open-source VLA model based on Flamingo that achieves open-vocabulary robot control through vision-language model fine-tuning and few-shot learning.
+
+- **[CoRL July 2023](https://arxiv.org/abs/2307.06135)** SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Robot Task Planning. Improves robot task planning by grounding large language models in 3D scene graphs.
+
+- **[arXiv June 2023](https://arxiv.org/abs/2306.11706)** RoboCat: A Self-Improving Foundation Agent for Robotic Manipulation. A self-improving robot foundation model that aggregates data and fine-tunes on new tasks, creating a self-improvement loop.
+
+- **[ICRA March 2023](https://arxiv.org/abs/2303.08734)** PromptCraft: Zero-Shot Task Planning with Large Language Models. A prompt-engineering framework for zero-shot task planning with large language models.
+
+- ★ **[ICLR December 2022](https://arxiv.org/abs/2212.04088)** LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models. An LLM-based method for few-shot grounded planning in embodied agents.
+
+- ★ **[ICLR October 2022](https://arxiv.org/abs/2210.03629)** ReAct: Synergizing Reasoning and Acting in Language Models. A framework for coupling reasoning and action in language models.
+
+- ★ **[NeurIPS October 2022](https://arxiv.org/abs/2210.03094)** VIMA: General Robot Manipulation with Multimodal Prompts. A general robot manipulation model built around multimodal prompting.
+
+- **[CoRL September 2022](https://arxiv.org/abs/2209.07753)** Code as Policies: Language Model Programs for Embodied Control. Uses code generated by language models as policies for embodied robot control.
+
+- **[CoRL July 2022](https://arxiv.org/abs/2207.05608)** Inner Monologue: Embodied Reasoning through Planning with Language Models. A framework for embodied reasoning and planning assisted by language models.
+
 - **[CoRL April 2022](https://arxiv.org/abs/2204.01691)** SayCan: Do As I Can, Not As I Say: Grounding Language in Robotic Affordances. Grounds language models in robotic affordances to execute natural-language instructions.
+
 - **[CoRL March 2022](https://arxiv.org/abs/2203.12601)** R3M: A Universal Visual Representation for Robot Manipulation. A universal visual representation for robot manipulation pretrained on large-scale Ego4D human video, transferable to a wide range of downstream robot manipulation tasks.
+
 
 <a id="manipulation" name="manipulation"></a>
 ## Manipulation & Teleoperation
@@ -299,7 +609,7 @@
 - **[arXiv March 2026](https://arxiv.org/abs/2603.09163)** SPAN-Nav: Generalized Spatial Awareness for Versatile Vision-Language Navigation. An end-to-end model that extracts spatial priors from large-scale indoor and outdoor scenes through occupancy prediction and injects those cues explicitly into action reasoning through CoT.
 - **[arXiv March 2026](https://arxiv.org/abs/2603.06914)** SysNav: Multi-Level Systematic Cooperation Enables Real-World, Cross-Embodiment Object Navigation. A three-level object navigation framework that decouples semantic reasoning, planning, and motion control, validated across wheeled robots, Unitree Go2, and Unitree G1 in 190 real-world trials.
 
-- **[ICRA February 2026](https://arxiv.org/abs/2602.12345)** NavSpace: Spatial Intelligence Navigation Benchmark. A spatial-intelligence navigation benchmark spanning more than 1,200 dynamic instructions across six categories, pushing evaluation beyond static perception into persistent reasoning.
+- **[ICRA February 2026](https://arxiv.org/abs/2510.08173)** NavSpace: Spatial Intelligence Navigation Benchmark. A spatial-intelligence navigation benchmark spanning more than 1,200 dynamic instructions across six categories, pushing evaluation beyond static perception into persistent reasoning.
 - **[arXiv September 2025](https://arxiv.org/abs/2509.14000)** JaGuard: Position Error Correction of GNSS Jamming with Deep Temporal Graphs. Models GNSS jamming correction as dynamic graph regression, using deep temporal graph networks to fuse satellite geometry and short-term motion for drift correction.
 - **[arXiv June 2025](https://arxiv.org/abs/2506.15518)** Real-Time Initialization of Unknown Anchors for UWB-aided Navigation. A real-time initialization method for unknown anchors in UWB-assisted navigation that improves localization usability without prior anchor layouts.
 - **[arXiv May 2025](https://arxiv.org/abs/2505.08912)** CoW: Chain-of-Thought Walking for Embodied Navigation. A chain-of-thought walking approach for embodied navigation.
@@ -328,56 +638,195 @@
 <a id="simulation-sim2real" name="simulation-sim2real"></a>
 
 ## Simulators & Sim2Real
-- **[Neutrosophic Sets and Systems 2026年5月](https://arxiv.org/abs/2605.26114)** MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research. Proposes MobileGym platform supporting verifiable outcome signals and large-scale parallel online RL, achieving 95.1% training gain preservation in Sim-to-Real cases.
 
 - **[arXiv Jul 2026](https://arxiv.org/abs/2607.15065)** DriftWorld: Fast World Modeling. Fast world modeling through drifting.
 
-
 - **[arXiv Jul 2026](https://arxiv.org/abs/2607.06699)** RoboSnap: Real-to-Sim Scene Generation. Converts a single RGB image to physically stable simulation-ready scenes.
+
 - **[arXiv Jul 2026](https://arxiv.org/abs/2607.02205)** Actuator Reality Shaping. Matches physical actuators with ideal reference dynamics in simulation for zero-shot sim-to-real transfer.
+
 - **[arXiv Jul 2026](https://arxiv.org/abs/2607.01410)** BIFROST: Sim2Real Transfer. Zero-shot sim2real transfer via cross-domain dual-simulation objective for shared history encoders.
+
 - **[arXiv Jul 2026](https://arxiv.org/abs/2607.00678)** ABot-M0.5: Mobility-and-Manipulation Model. Unified mobility-and-manipulation world action model.
+
 - **[arXiv Jun 2026](https://arxiv.org/abs/2606.25939)** DeformGen: Deformable Manipulation. Generates topology-consistent deformable states via local physical perturbation and dynamics simulation.
+
 - **[arXiv Jun 2026](https://arxiv.org/abs/2606.20389)** CoLI: Continuum Robot Learning. Proposes a continuum robot platform based on multi-material 3D printing and isomorphic teleoperation.
+
 - **[arXiv Jun 2026](https://arxiv.org/abs/2606.17030)** Qwen-RobotWorld: Video Generation World Model. Unifies embodied world modeling through language-conditioned video generation.
+
 - **[arXiv Jun 2026](https://arxiv.org/abs/2606.16470)** Decoupled Object-Centric Video Understanding. Decoupled object-centric video understanding for generating manipulation commands.
+
 - **[arXiv Jun 2026](https://arxiv.org/abs/2606.11372)** HiPi: High-Fidelity Sensors. Reproducible high-fidelity piezoresistive sensors for robotic manipulation.
+
 - **[arXiv Jun 2026](https://arxiv.org/abs/2606.11184)** TacForeSight: Tactile World Model. Force-guided tactile world model for contact-rich manipulation.
+
+- **[Neutrosophic Sets and Systems 2026年5月](https://arxiv.org/abs/2605.26114)** MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research. Proposes MobileGym platform supporting verifiable outcome signals and large-scale parallel online RL, achieving 95.1% training gain preservation in Sim-to-Real cases.
+
 - ★ **[ICML May 2026](https://arxiv.org/abs/2605.29032)** Theoretical Foundations and Effective Algorithms for Policy-Aware Simulator Learning. Proposes policy-aware simulator learning that shifts simulator learning objectives from prediction accuracy to policy robustness, solving simulator exploitation through zero-sum game framework.
+
 - **[GECCO May 2026](https://arxiv.org/abs/2605.28812)** Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation. Proposes a pressure-center-based tactile representation that preserves dense contact information while maintaining robust sim-to-real transfer, achieving zero-shot real robot transfer.
+
 - **[arXiv May 2026](https://arxiv.org/abs/2605.28312)** Sim-to-Real Transfer for Robotic Manipulation. Studies sim-to-real transfer for robotic manipulation, proposing improved domain randomization and adaptation techniques to enhance policy transfer from simulation to real environments.
+
 - **[arXiv May 2026](https://arxiv.org/abs/2605.14625)** Digital Twin Synchronization Over Mobile Embodied AI Network With Agentic Intelligence. A digital-twin synchronization framework for mobile embodied AI networks that uses agentic intelligence to maintain high-fidelity virtual representations with low information age.
+
 - **[arXiv May 2026](https://arxiv.org/abs/2605.13315)** Embodied Neurocomputation: A Framework for Interfacing Biological Neural Cultures with Scaled Task-Driven Validation. A framework for embodied neurocomputation that connects biological neural cultures with task-driven validation.
+
 - **[arXiv May 2026](https://arxiv.org/abs/2605.12654)** COSMIC: Concurrent Optimization of Structure, Material, and Integrated Control for robotic systems. A gradient-based co-design framework that jointly optimizes topology, material distribution, and control strategy inside a differentiable simulator, finding diverse motion strategies beyond separated design.
+
 - **[arXiv May 2026](https://arxiv.org/abs/2605.12038)** OmniHumanoid: Streaming Cross-Embodiment Video Generation with Paired-Free Adaptation. A streaming cross-embodiment video generation framework that adapts to different robot morphologies without paired data.
+
+### [V-JEPA 2: Self-Supervised Video Models for Understanding, Prediction and Planning](https://arxiv.org/abs/2506.09985)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A purely self-supervised latent-space video world model combining understanding, prediction and zero-shot planning.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">June 2025</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Meta FAIR (Yann LeCun et al.)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>JEPA architecture</strong>: predicts the future in latent space rather than reconstructing pixels</li><li>ViT-g <strong>1B-parameter</strong> encoder + 3D-RoPE, pretrained on 1M+ hours of internet video</li><li>Followed by a 300M-parameter action-conditioned world model, V-JEPA 2-AC</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Something-Something v2 motion understanding <strong>77.3 top-1</strong>; EK-100 action prediction 39.7 R@5 (44% relative improvement)</li><li>V-JEPA 2-AC trained with <62 hours of Droid data, zero-shot grasp-and-place on Franka dual arms</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model V-JEPA 2 / V-JEPA 2-AC; training data internet video + Droid dataset; model and weights open-sourced</td></tr>
+</tbody>
+</table>
+
+### [Cosmos: World Foundation Model Platform for Physical AI](https://arxiv.org/abs/2501.03575)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">NVIDIA's open platform of world foundation models for Physical AI.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">January 2025</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">NVIDIA</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Includes a video curation pipeline, pretrained WFMs, post-training examples and <strong>video tokenizers</strong></li><li>Initial Cosmos-Predict1: two models, autoregressive 5B + diffusion 7B</li><li>Tokenizers with up to <strong>2048x compression</strong> (8/16x spatial, 4/8x temporal)</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Training data ~<strong>20M hours of video</strong> (~45PB, 9000T tokens)</li><li>Tokenizer ~<strong>12x</strong> faster than contemporaneous SOTA</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model Cosmos-Predict1/2.5, Transfer2.5, Reason; open-source (NVIDIA Open Model License)</td></tr>
+</tbody>
+</table>
+
+### [Genie 2: A Large-Scale Foundation World Model](https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A large-scale foundation world model that generates playable 3D worlds from a single image.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">December 2024</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Google DeepMind (Generalist Agents team)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Autoregressive latent diffusion world model</strong>, trained on large-scale video datasets</li><li>Generates playable 3D worlds from a single image prompt</li><li>Emergent physics such as gravity / water / smoke, complex character animation, object interactions and long-term memory</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Consistent world generation up to ~<strong>1 minute</strong> (examples mostly 10-20 seconds)</li><li>Supports first/third-person, isometric and other viewpoints; a distilled version enables real-time interaction</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model Genie 2; prompt images generated by Imagen 3; not open-sourced</td></tr>
+</tbody>
+</table>
+
+### [Genesis: A Generative and Universal Physics Engine](https://arxiv.org/abs/2406.19481)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">An open-source generative physics engine, simulating at 430Kx real-time and supporting language-driven 4D world generation.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">June 2024 (physics engine open-sourced December 2024)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Led by CMU with 20+ universities (MIT, Stanford, Tsinghua, Peking University, etc.), in collaboration with NVIDIA and Taichi Graphics</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>A <strong>general-purpose physics engine</strong> rebuilt from the ground up, unifying multiple physics solvers</li><li>Native Python + <strong>Taichi GPU acceleration</strong>, supporting differentiable simulation and differentiable tactile sensing</li><li>VLM-generated agents can turn natural language into 4D worlds, policies, trajectories and videos</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Franka manipulation scenes reach <strong>43M FPS</strong> (~430Kx real-time)</li><li>~10-80x faster than Isaac Gym / MJX; a locomotion policy transferable to the real world trained in 26 seconds on a single RTX 4090</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model Genesis physics engine and simulation platform open-sourced; generative framework released incrementally</td></tr>
+</tbody>
+</table>
+
+### [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">An 11B-parameter unsupervised world model, generating playable 2D worlds from a single image.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">February 2024</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Google DeepMind (with UBC)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>ST-transformer video tokenizer + autoregressive dynamics model + latent action model</li><li><strong>No action labels needed</strong>, fully unsupervised training on internet videos</li><li>Single image / sketch / photo generates controllable 2D interactive worlds</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>11B parameters</strong>, trained on ~30K hours, 68M clips of 2D game videos</li><li>Frame-by-frame generation of playable worlds (single 16-frame window)</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model Genie (11B); training data internet 2D game videos; not open-sourced</td></tr>
+</tbody>
+</table>
+
+### [UniSim: Learning Interactive Real-World Simulators](https://arxiv.org/abs/2310.06114)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Learning interactive world simulators by orchestrating multimodal real data; sim-trained policies deploy zero-shot to real robots.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">October 2023</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">UC Berkeley + Google DeepMind + MIT</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Built around a <strong>video diffusion model</strong></li><li>Orchestrates complementary multi-axis real data: image objects, robot actions, navigation motion, language</li><li>Uniformly supports high-level language instructions and low-level control; inference resembles POMDP rollouts</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Won the <strong>ICLR 2024 Outstanding Paper Award</strong></li><li>Sim-only trained VLM planners and RL policies transfer zero-shot to real robots</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Training data combines Ego4D, Something-Something, Bridge, RH20T, RT-1, etc.; not open-sourced</td></tr>
+</tbody>
+</table>
+
+### [DreamerV3: Mastering Diverse Skills through World Models](https://arxiv.org/abs/2301.04104)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A general world-model RL method with fixed hyperparameters sweeping 150+ tasks, the first to obtain diamonds in Minecraft from scratch.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">January 2023</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Google DeepMind + University of Toronto (Danijar Hafner et al.)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>RSSM discrete latent state world model</strong></li><li>Robustness techniques such as symlog transform, two-hot reward regression and KL balancing; a single set of hyperparameters works universally</li><li>actor-critic trained entirely on imagined trajectories within the world model</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Fixed hyperparameters surpass specialized algorithms on <strong>150+ tasks</strong>; Atari 100K mean 2.01x human level</li><li>First algorithm to collect diamonds in Minecraft from scratch (no human data) within 100M steps</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Model open-sourced (danijar/dreamerv3, MIT); evaluation domains Atari, DMControl, DMLab, Minecraft, etc.</td></tr>
+</tbody>
+</table>
+
+### [World Models](https://arxiv.org/abs/1803.10122)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A three-stage world model of VAE + MDN-RNN + controller, pioneering the paradigm of training agents in "dreams".</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">March 2018</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Google Brain (David Ha) + NNAISENSE / IDSIA (Jürgen Schmidhuber)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Three stages: <strong>VAE visual compression + MDN-RNN temporal memory + controller</strong></li><li>V/M modules trained unsupervised</li><li>The controller can be trained entirely in the world model's "dreams" and then transferred back to the real environment</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>CarRacing-v0 average <strong>906±21 points</strong>, the first method to solve this environment</li><li>ViZDoom pure dream-training policy transfers to the real environment, achieving 1092±556 survival steps</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Code open-sourced (worldmodels); evaluation environments OpenAI Gym (CarRacing, ViZDoom)</td></tr>
+</tbody>
+</table>
+
 - **[arXiv April 2026](https://arxiv.org/abs/2604.25459)** GS-Playground: A High-Throughput Photorealistic Simulator for Vision-Informed Robot Learning. A high-throughput photorealistic simulator for robot manipulation and vision-informed learning.
+
 - **[arXiv March 2026](https://arxiv.org/abs/2603.22039)** RAFL: Generalizable Sim-to-Real of Soft Robots with Residual Acceleration Field Learning. A residual acceleration field framework that enhances base simulators with transferable local correction dynamics for soft-robot sim-to-real transfer.
+
 - **[arXiv November 2025](https://arxiv.org/abs/2511.02345)** Sim2Real 2.0: A Survey and Benchmark. A survey and benchmark on Sim2Real transfer.
+
 - **[arXiv October 2025](https://arxiv.org/abs/2510.09876)** UniSim: A Universal Simulator for Robotics and Embodied AI. A universal simulator for robotics and embodied AI.
+
 - **[OpenReview October 2025](https://openreview.net/forum?id=P7tg7VowVX)** RoboSimGS: High-Fidelity Simulated Data Generation for Real-World Zero-Shot Transfer. A Real2Sim2Real framework that converts multiview real images into scalable, photorealistic, physically interactive simulation environments with 3D Gaussian splatting and automatically generated articulated assets.
+
 - **[arXiv September 2025](https://arxiv.org/abs/2509.24948)** World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training. Uses world models as low-cost virtual environments for VLA post-training, providing continuous rewards and action termination signals in place of costly real interaction.
+
 - **[ICRA September 2025](https://arxiv.org/abs/2509.14687)** RealMirror: Vision-Language-Action Platform for Embodied AI. An open end-to-end simulation platform with strong visual fidelity and realistic physical interaction for embodied AI.
+
 - **[arXiv September 2025](https://arxiv.org/abs/2509.12372)** Sym2Real: Symbolic Dynamics with Residual Learning for Data-Efficient Adaptive Control. A data-efficient control framework that combines symbolic dynamics with residual learning and achieves robust real-world control with about ten trajectories.
+
 - **[arXiv June 2025](https://arxiv.org/abs/2506.10600)** EmbodiedGen: Generative 3D Worlds for Embodied AI. Generative 3D worlds for embodied AI.
 
-- **[arXiv December 2024](https://arxiv.org/abs/2412.12345)** Genesis: A Generative and Universal Physics Engine for Robotics and Beyond. A generative and universal physics engine for robotics and beyond.
 - **[CoRL June 2024](https://arxiv.org/abs/2406.02523)** RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots. Large-scale everyday task simulation for generalist robots.
+
 - **[ICRA March 2023](https://arxiv.org/abs/2303.15482)** OmniGibson: A Modular Simulation Environment for Embodied AI. A modular embodied AI simulation environment.
+
 - ★ **[NeurIPS August 2021](https://arxiv.org/abs/2108.10470)** Isaac Gym: High Performance GPU-Based Physics Simulation for Robot Learning. A high-performance GPU-based physics simulator for robot learning.
+
 - **[IROS December 2020](https://arxiv.org/abs/2012.02924)** iGibson 1.0: A Simulation Environment for Interactive Tasks in Large Realistic Scenes. A simulation environment for interactive tasks in large realistic scenes.
 
 - **[CoRL September 2020](https://arxiv.org/abs/2009.12293)** robosuite: A Modular Simulation Framework and Benchmark for Robot Learning. A modular simulation framework and benchmark for robot learning.
+
 - ★ **[NeurIPS July 2020](https://arxiv.org/abs/2007.04954)** ThreeDWorld: A Platform for Interactive Multi-Modal Physical Simulation. A platform for interactive multimodal physical simulation.
+
 - ★ **[CVPR March 2020](https://arxiv.org/abs/2003.08515)** SAPIEN: A SimulAted Part-based Interactive ENvironment. A part-based interactive simulation environment.
+
 - **[CoRL October 2019](https://arxiv.org/abs/1910.10897)** Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning. A multitask and meta-reinforcement learning benchmark.
+
 - ★ **[ICCV April 2019](https://arxiv.org/abs/1904.01201)** Habitat: A Platform for Embodied AI Research. An embodied AI research platform including simulators and datasets.
+
 - **[ICRA March 2019](https://arxiv.org/abs/1903.00742)** PyBullet: A Fast Physics Simulation for Robotics. A fast physics simulation library for robotics.
+
 - **[arXiv January 2018](https://arxiv.org/abs/1801.00690)** DMControl: DeepMind Control Suite. A benchmark suite for continuous control tasks.
+
 - ★ **[CVPR December 2017](https://arxiv.org/abs/1712.05474)** AI2-THOR: An Interactive 3D Environment for Visual AI. A classic interactive 3D environment for visual AI.
+
 - **[IROS October 2012](https://homes.cs.washington.edu/~todorov/papers/TodorovIROS12.pdf)** MuJoCo: A Physics Engine for Model-Based Control. A classic physics engine for model-based control.
 
-<a id="datasets" name="datasets"></a>
 
+<a id="datasets" name="datasets"></a>
 ## Datasets
 
 - **[arXiv Jul 2026](https://arxiv.org/abs/2607.04367)** Perception-Manipulation: Food Cutting. A perception-manipulation robotics system for food cutting.

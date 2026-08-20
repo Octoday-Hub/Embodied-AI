@@ -18,19 +18,20 @@
   <img alt="更新频率" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E9%A2%91%E7%8E%87-%E6%AF%8F%E5%91%A8-22C55E?style=flat-square&labelColor=14532D" />
   <img alt="Awesome" src="https://img.shields.io/badge/Awesome-Curated-2563EB?style=flat-square&labelColor=1E3A8A" />
   <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-Welcome-64748B?style=flat-square&labelColor=334155" />
-  <img alt="Last Commit: 8.14" src="https://img.shields.io/badge/Last%20Commit-8.14-3B82F6?style=flat-square&labelColor=374151" />
+  <img alt="Last Commit: 8.20" src="https://img.shields.io/badge/Last%20Commit-8.20-3B82F6?style=flat-square&labelColor=374151" />
 </p>
 
 <p align="center">
-  <img alt="更新数据集" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%95%B0%E6%8D%AE%E9%9B%86-%2B6-F59E0B?style=flat-square&labelColor=92400E" />
+  <img alt="更新论文" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E8%AE%BA%E6%96%87-%2B13-8B5CF6?style=flat-square&labelColor=5B21B6" />
+  <img alt="更新数据集" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%95%B0%E6%8D%AE%E9%9B%86-%2B20-F59E0B?style=flat-square&labelColor=92400E" />
 </p>
 
 <p align="center">
-  <strong>本周更新（20260814）：</strong>数据集页面重构
+  <strong>本周更新（20260820）：</strong>论文条目结构化 + 数据集扩充
 </p>
 
 <p align="center">
-  新增 6 个具身智能代表性数据集的结构化专题页，覆盖真实采集、跨机器人汇总、接触丰富多模态、桌面操作、仿真基准与自动数据生成；提供官方入口、规模与模态说明、数据使用方式及官方样例图。
+  论文页新增 13 篇经典论文的结构化条目（含 VLA 基座、世界模型与 WRC 相关代表作），并按发布时间排序、同步英文版；数据集页扩充至 26 个代表性数据集，覆盖真实采集、跨机器人汇总、接触丰富多模态、桌面操作、仿真基准与自动数据生成，提供官方入口、规模与模态说明及样例图。
 </p>
 
 
@@ -89,7 +90,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🔭（2）瞭望台：追踪前沿技术
 
-> 当前收录 `21` 项竞赛、`10` 场会议、`362` 篇精选论文。
+> 当前收录 `21` 项竞赛、`10` 场会议、`413` 篇精选论文。
 
 查看[学术与竞赛](topics/05-research-hub.md)：
 
@@ -130,7 +131,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 查看[具身智能数据集目录](topics/06-datasets.md)：
 
-聚焦 DROID、Open X-Embodiment / RT-X、RH20T、BridgeData V2、LIBERO 与 MimicGen 六个代表性数据集；按官方来源整理其规模、采集或生成方式、关键模态、数据使用入口与样例图。
+聚焦 DROID、Open X-Embodiment / RT-X、RH20T、BridgeData V2、LIBERO、MimicGen、AgiBot World、RoboMIND 等 26 个代表性数据集；按官方来源整理其规模、采集或生成方式、关键模态、数据使用入口与样例图。
 
 ### 🎒（5）进化：人才风向标
 
