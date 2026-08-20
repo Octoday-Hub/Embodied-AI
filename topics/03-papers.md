@@ -12,24 +12,85 @@
 
 ## Embodied Foundation Models
 
-- **[arXiv 2026年7月](https://arxiv.org/abs/2607.15330)** Xiaomi-Robotics-1: Scaling VLA Models with over 100K Hours of Real-World Trajectories. 小米发布具身基础模型，通过10万小时真实操作轨迹训练，在RoboCasa365上达57.6%成功率，超越此前SOTA的46.6%。
-
 
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.10655)** Artificial Foveated Perception for Mitigating Shortcut Learning in Robotic Foundation Models. 提出人工中央凹感知机制，缓解机器人基础模型中的捷径学习问题。
+
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.09818)** TS-Mask VLA: 2D Temporal-Spatial Masking for VLA with Effective Bridging. 提出2D时空间掩码VLA框架及Bridge Attention条件桥梁，0.5B参数在LIBERO上达95.7%成功率。
+
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.06564)** Lift3D-VLA: Lifting VLA Models to 3D Geometry and Dynamics-Aware Manipulation. 将VLA模型提升至3D几何与动力学感知的操作框架，引入3D几何特征与物理动态建模。
-- **[arXiv 2026年7月](https://arxiv.org/abs/2607.05377)** Cortex: A Bidirectionally Aligned Embodied Agent Framework for Long-horizon Manipulation. 清华与上海AI Lab提出双向对齐具身智能体框架，通过标准化子任务描述连接高层规划与低层执行。
+
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.03941)** WSA1: A 3D-Centric World-Spatial-Action Model for Generalizable Robot Control. 提出以3D为中心的世界-空间-动作模型WSA1，通过3D场景理解实现通用机器人控制。
+
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.02865)** DREAMSTEER: Latent World Models Steer VLA Policies During Deployment Without Finetuning. 利用潜在世界模型在部署时引导VLA策略，无需额外微调。
+
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.02501)** Embodied.cpp: A Portable Inference Runtime for Embodied AI on Heterogeneous Robots. 提出便携式具身AI推理运行时，类似llama.cpp但面向机器人，支持异构硬件部署。
+
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.01088)** ROSA: A Robotics Foundation Model Serving System for Robot Factories. 提出面向机器人工厂的基础模型服务系统ROSA，支持多模型部署与异构机器人协调。
+
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.01002)** Hy-Embodied-RxBrain-1.0: A Cognitive World Model with Unified Textual Reasoning and Visual Imagination. 腾讯在 WAIC 2026 发布的具身原生世界认知模型，首次将文本推理与视觉想象在连续认知序列中深度协同，为机器人决策提供高维指导。
-- **[arXiv 2026年7月](https://arxiv.org/abs/2607.01001)** Hy-Embodied-VLA-0.5: A Scalable Vision-Language-Action Model for Cross-Embodiment Deployment. 腾讯在 WAIC 2026 发布的具身 VLA 基座模型，通过超万小时高精度数据训练实现视觉-语言-动作统一建模，具备跨本体部署能力。
+
+### [Xiaomi-Robotics-1: Scaling VLA Models with over 100K Hours of Real-World Trajectories](https://arxiv.org/abs/2607.15330)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">用 10 万小时真实轨迹训练 VLA，RoboCasa365 达 57.4%。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 7 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">小米（Xiaomi Robotics）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>MoT（Mixture-of-Transformers）架构</strong>：Qwen3-VL 视觉语言模型负责语义理解，Diffusion Transformer（DiT）以流匹配生成动作块，VLM 侧动作 token 不参与 DiT 注意力</li><li><strong>两阶段训练</strong>：10 万小时 UMI 真实轨迹预训练 + 约 1 万小时跨本体数据后训练（自采移动/双臂机器人数据、指令标注 UMI 与开源数据集）</li><li><strong>可扩展自动标注管线</strong>：VLM 自动生成场景状态转移语言描述，约 2 周完成全量标注</li><li>提供 <strong>2B / 5B / 10B</strong> 三个规模；跨本体动作空间通过末端执行器坐标系增量统一，缺失维度按损失掩码</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>RoboCasa365 平均成功率 <strong>57.4%</strong>，超越此前 SOTA（46.6%）</li><li>RoboDojo 平均得分 <strong>20.07</strong>，前 SOTA 为 13.07</li><li>真机开箱 4 个 household 任务平均 <strong>75%</strong>；新任务微调平均不到 10 小时数据</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 Xiaomi-Robotics-1（2B / 5B / 10B）；数据集 Xiaomi-Robotics-1 Dataset（10 万小时 UMI 真实操作轨迹）；开源（Apache-2.0）</td></tr>
+</tbody>
+</table>
+
+### [Cortex: A Bidirectionally Aligned Embodied Agent Framework for Long-horizon Manipulation](https://arxiv.org/abs/2607.05377)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">VLM 规划 + VLA 执行的双系统双向对齐框架，LIBERO-Long 零样本 95.5%。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 7 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">清华大学、上海 AI Lab</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>双系统架构</strong>：高层 VLM 以文本语义记忆追踪任务进度、逐个子任务派发，低层 VLA 反应式执行</li><li><strong>双向对齐子任务接口</strong>：操作子任务标准化为 32 个规范技能原语与严格语言模板，规划输出受限于可执行、可处理的子任务</li><li><strong>事件平衡采样</strong>：对子任务转换边界附近样本过采样，缓解长时程任务中的规划模糊性</li><li>训练数据：4000+ 小时自动标注开源视频 + 30 小时仿真数据；推理侧 harness 支持语言规范化与超时重置</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>LIBERO-Long 零样本成功率 <strong>95.5%</strong>，比单体基线高 3.1%</li><li>RoboTwin <strong>86.8%</strong>，比单体基线高 4.1%</li><li>真机零样本完成未见过的 14 步化学实验，成功率 <strong>65%</strong>（端到端 VLA 微调为 0%）</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 Cortex；训练数据 4000+ 小时自动标注开源视频 + 30 小时仿真数据</td></tr>
+</tbody>
+</table>
+
+### [Hy-Embodied-VLA-0.5: A Scalable Vision-Language-Action Model for Cross-Embodiment Deployment](https://arxiv.org/abs/2607.01001)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">腾讯具身 VLA 基座模型，超万小时数据训练，支持跨本体部署。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 7 月（WAIC 2026 发布）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">腾讯（Robotics X / 混元）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>与 Hy-Embodied-VLM-1.0、Hy-Embodied-RxBrain-1.0 组成 <strong>「感知—认知—行动」三层模型栈</strong>，VLA 负责把高层目标转化为连续、可纠错的低层动作</li><li><strong>面向高频连续动作生成</strong>，按频率分层匹配物理世界多时间尺度</li><li><strong>化工工厂试产</strong>：单件节拍小于 6 秒，新 SKU 仅需约 8 小时数据采集与微调即可适配</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>统一建模与跨本体能力在发布评测中表现优异</li><li>工厂试产验证了面向高混合、低批量产线的工业落地能力</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 Hy-Embodied-VLA-0.5；训练数据超万小时高精度数据；开源</td></tr>
+</tbody>
+</table>
+
+### [MiniCPM-RobotManip: A 1.5B General-Purpose VLA Model with Native Context Memory](https://github.com/OpenBMB/MiniCPM-Robot)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">1.5B 轻量 VLA，流式原生记忆，单步推理 120ms。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 7 月（WAIC 2026 发布）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">面壁智能（OpenBMB）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>架构</strong>：SigLIP 视觉塔 + Qwen3.5 语言骨干 + 16 层 DiT 动作头，一次生成 30 步 80 维动作块</li><li><strong>流式记忆</strong>：继承 MiniCPM-V 4.6 视觉 token 压缩（每帧 256→64），增量缓存历史观测，保留最长约 1 分钟上下文且推理成本与单帧持平</li><li><strong>1.5B 参数通用策略</strong>，单决策步前向 120ms（H100 BF16），对比 π0.5 约 234ms</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">LIBERO <strong>97.5</strong>、Calvin ABC→D 4.1、RoboTwin2 easy/hard 91.3/91.6、RMBench <strong>53.3</strong>（π0.5 仅 10.4，约 5 倍）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 MiniCPM-RobotManip（1.5B）；开源（Apache-2.0，仓库 MiniCPM-Robot）</td></tr>
+</tbody>
+</table>
+
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.26025)** In-Context World Modeling for Robotic Control. 提出上下文世界模型，通过上下文学习实现机器人控制。
+
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.24049)** SPACE: Enabling Learning from Cross-Robot Data Toward Generalist Policies. 提出SPACE框架，通过笛卡尔状态增量作为通用动作表示，结合动作适配器处理机器人动力学差异，实现跨本体策略学习。
+
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.22174)** OpenHLM: An Empirical Recipe for Whole-Body Humanoid Loco-Manipulation. 清华提出面向人形机器人全身移动操作的开源VLA配方，支持下蹲、踩踏板等全身协调动作。
+
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.17846)** Qwen-RobotManip: Alignment Unlocks Scale for Robotic Manipulation Foundation Models. 通义团队提出统一对齐框架，构建~38,100小时预训练语料，在零样本指令跟随、跨本体迁移上超越先前模型。
+
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.17200)** ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining. 提出统一人类第一视角视频与机器人的跨本体VLA预训练框架，通过相机空间动作映射与时间对齐实现异构数据联合训练。
+
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.13886)** PhysVLA: Towards Physically-Grounded VLA for Embodied Robotic Manipulation. 提出物理接地VLA，将物理推理引入VLA模型，增强对物体物理属性的理解与操作泛化。
 
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.13769)** μ0: A Scalable 3D Interaction-Trace World Model. 提出基于3D轨迹的可扩展世界模型μ0，通过预测交互点轨迹实现跨本体机器人学习，无需动作标签。
@@ -38,119 +99,368 @@
 
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.08530)** GEAR-VLA: Learning Geometry-Aware Action Representations for Generalizable Robotic Manipulation. 提出几何感知动作表示VLA框架，通过粗到细动作学习与跨本体规范化，在LIBERO/零样本LIBERO-Plus等基准上取得SOTA。
 
-- **[WAIC 2026](https://github.com/OpenBMB/MiniCPM-Robot)** MiniCPM-RobotManip: A 1.5B General-Purpose VLA Model with Native Context Memory. 面壁智能在 WAIC 2026 发布的具身 VLA 模型，以1.5B参数实现第一梯队综合性能，原生支持1分钟上下文记忆，单决策步推理仅120ms。
-
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.08242)** Light-WAM: Efficient World Action Models with State-Fusion Action Decoding. 提出轻量级世界动作模型Light-WAM，通过紧凑视频骨干和降维潜空间降低训练成本。
-- **[arXiv 2026年6月](https://arxiv.org/abs/2606.06556)** Robots Need More than VLA and World Models. 系统分析VLA与世界模型的局限性，提出机器人系统所需的额外能力：物理推理、因果理解和持续学习。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30350)** DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation. 提出DynaFLIP动力学感知多模态预训练框架，整合视觉、语言和动力学信息，提升机器人操作中的场景理解和动作执行能力。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30311)** Archon: A Unified Multimodal Model for Holistic Digital Human Generation. 提出Archon统一多模态模型，整合七种模态实现整体数字人生成，提出"模态内思考"方法逐步增强保真度和可控性。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30263)** minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models. 提出minWM全栈开源框架，将双向视频扩散模型转换为相机可控的少步自回归世界模型，支持实时低延迟推出。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30260)** How LoRA Remembers? A Parametric Memory Law for LLM Finetuning. 提出参数化记忆法则，量化LoRA在LLM微调中的记忆容量极限，为具身智能模型微调提供理论指导。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30248)** GenClaw: Code-Driven Agentic Image Generation. 提出GenClaw代码驱动智能体图像生成范式，代理首先概念化，然后使用代码渲染视觉草图，最后用生成模型补充纹理，实现高度可控的视觉生成。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30056)** Sample-Efficient Diffusion-based Reinforcement Learning with Critic Guidance. 提出基于扩散模型的样本高效强化学习方法，结合Critic引导提升学习效率，在机器人控制任务中表现优异。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.29488)** AnyMo: Scaling Any-Modality Conditional Motion Generation with Masked Modeling. 提出AnyMo统一多模态框架，结合残差FSQ运动分词器和可扩展掩码建模Transformer，支持任意模态组合的高质量运动合成。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.28548)** GEM: Generative Supervision Helps Embodied Intelligence. 提出GEM生成式监督具身视觉语言模型，将深度图生成任务整合到VLM预训练阶段，在模拟和真实环境评估中展现卓越的任务执行能力。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.28272)** EchoAvatar: Real-time Generative Avatar Animation from Audio Streams. 提出统一流式架构，从增量音频输入合成连续全身运动，支持语音和音乐的无缝泛化，通过工具调用接口实现LLM显式语义控制。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.26933)** Diff-Tracking: Leveraging Text-to-Image Diffusion Models for Unsupervised Visual Object Tracking. 提出Diff-Tracking方法，利用预训练文本到图像扩散模型的丰富语义知识，通过交叉注意力机制实现无监督视觉目标跟踪。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.15153)** Pelican-Unified 1.0: A Unified Embodied Intelligence Model for Understanding, Reasoning, Imagination and Action. 北京人形推出的首个按统一原则训练的具身基础模型，将理解、推理、想象和动作生成集成到单一架构，在WorldArena想象评测上排名第一。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.14211)** ASH: Agents that Self-Hone via Embodied Learning. 通过从自生成轨迹学习逆动力学模型，从未标注网络视频中提取监督，实现长时程具身学习的自改进智能体框架。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13778)** Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs. 推测推理框架，引入轻量草稿模型和主模型并行验证，将平均任务级延迟降至19.1ms，实现3倍加速，真实传送带分拣验证。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13757)** FrameSkip: Learning from Fewer but More Informative Frames in VLA Training. 数据层帧选择框架，基于动作变化、视觉一致性和任务进度评分帧，仅保留20%帧即达76.15%宏平均成功率，大幅提升VLA训练效率。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13548)** AttenA+: Rectifying Action Inequality in Robotic Foundation Models. 速度驱动动作注意力优先处理运动学关键段，即插即用框架，OpenVLA-OFT提升至98.6%，Franka上验证鲁棒性。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13403)** RotVLA: Rotational Latent Action for Vision-Language-Action Model. 基于SO(n)旋转潜在动作的VLA框架，提供连续性、组合性和与真实动作动力学对齐的几何结构，仅1.7B参数在LIBERO达98.2%。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13382)** BlockVLA: Accelerating Autoregressive VLA via Block Diffusion Finetuning. 通过块扩散范式将AR骨干适配为高效离散扩散策略，块内并行去噪，在LIBERO和SimplerEnv上实现3.3倍推理加速。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13276)** D-VLA: A High-Concurrency Distributed Asynchronous Reinforcement Learning Framework for Vision-Language-Action Models. 高并发分布式异步RL框架，引入"平面解耦"隔离仿真与优化，四线程异步Swimlane流水线实现全并行，万亿参数规模保持线性加速。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13119)** Towards Long-horizon Embodied Agents with Tool-Aligned Vision-Language-Action Models (VLAs-as-Tools). 将长期任务分配给高层VLM和专用VLA工具族，引入工具对齐后训练，LIBERO-Long上pi_0.5提升4.8pp，RoboTwin提升23.1pp。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13105)** What to Ignore, What to React: Visually Robust RL Fine-Tuning of VLA Models (PAIR-VLA). 通过不变性项和敏感性目标解决视觉偏移，ManiSkill3上pi_0.5平均提升16.62%，OpenVLA提升9.10%。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.10332)** EmbodiSkill: Skill-Aware Reflection for Self-Evolving Embodied Agents. 面向具身智能体的技能自进化框架，通过技能感知反思区分技能内容错误与执行失误，ALFWorld上达93.28%任务成功率。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.00416)** Learning while Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies. 提出 Learning while Deploying：一个面向通用机器人策略的车队级强化学习框架。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.00321)** Embodied Interpretability: Linking Causal Understanding to Generalization in Vision-Language-Action Models. 研究 VLA 模型的可解释性，分析因果理解如何与模型泛化能力相关联。
-- **[arXiv 2026年5月](https://arxiv.org/abs/2605.00078)** Being-H0.7: A Latent World-Action Model from Egocentric Videos. 提出 Being-H0.7：一种来自第一人称视频的潜在世界-动作模型，在引入世界模型的同时将真实场景部署作为重要考量。
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.27792)** MotuBrain: An Advanced World Action Model for Robot Control. 提出 MotuBrain：一种面向机器人控制的高级世界-动作模型，聚焦长时程任务，并结合异构数据提升任务成功率。
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.24921)** libra-vla: achieving learning equilibrium via asynchronous coarse-to-fine dual-system. 提出 libra-vla：一种面向开放世界场景的异步粗到细双系统架构，用于实现学习平衡并提升鲁棒性。
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.24622)** CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies. 面向 VLA 策略的高效粗到细动作生成方法，重点针对多步骤执行场景。
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.24447)** Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment. 研究 VLA 模型在不同 XPU 平台上的部署特性，重点关注机器人端部署中的硬件约束、效率与加速问题。
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.24182)** $M^2$-VLA: Boosting Vision-Language Models for Generalizable Manipulation via Layer Mixture and Meta-Skills. 通过层混合与元技能机制增强视觉-语言模型在可泛化操作任务中的表现。
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.23272)** Modular Sensory Stream for Integrating Physical Feedback in Vision-Language-Action Models. 通过模块化感知流将物理反馈集成到 VLA 模型中，以更好支持触觉交互。
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.23121)** Breaking Lock-In: Preserving Steerability under Low-Data VLA Post-Training. 针对低数据VLA后训练中的“锁定”现象，提出保留视觉接地并结合测试时对比提示引导的方法，缓解模型对训练对象和空间目标的过拟合。
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.23073)** RL Token: Bootstrapping Online RL with Vision-Language-Action Models. 提出 RL Token：一种利用 VLA 模型引导在线强化学习启动的方法，通过稀疏空间锚点约束动作生成。
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.21741)** Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training. 利用动作条件世界模型在闭环想象环境中对通用机器人策略进行失败导向后训练，把人类纠正从真实执行迁移到可复用的模型内修正流程.
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.21391)** From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges. 提出ResVLA残差桥接架构，在高层语义理解与低层物理控制之间建立显式过渡，提升生成式VLA的条件对齐与表示效率.
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.21241)** CorridorVLA: Explicit Spatial Constraints for Generative Action Heads via Sparse Anchors. 为生成式动作头引入稀疏空间锚点与显式容差走廊，用可解释的物理约束提升VLA策略的动作对齐与成功率。
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.21232)** ReCAPA: Hierarchical Predictive Correction to Mitigate Cascading Failures. 面向多步骤VLA执行的层次化预测纠错框架，通过前瞻式对齐与规划减轻中间步骤错误带来的级联失误.
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.20834)** PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance. 面向轻量部署的小型VLA模型，通过世界知识引导增强参数受限条件下的高层理解、空间感知与操作能力.
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.20627)** Occupancy Reward Shaping: Improving Credit Assignment for Offline Goal-Conditioned Reinforcement Learning. 离线目标条件强化学习的奖励塑形方法，从世界模型占据测度中提取时序几何结构，缓解稀疏奖励下的信用分配难题。
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.20246)** Cortex 2.0: Grounding World Models in Real-World Industrial Deployment. 面向工业长时程操作的世界模型框架，从反应式控制转向“规划-执行”（plan-and-act），通过生成候选未来状态提升跨任务与跨本体执行稳定性.
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.20100)** JoyAI-RA 0.1: A Foundation Model for Robotic Autonomy. 面向开放世界机器人自主性的VLA基础模型，通过多形态数据组织与跨本体训练缓解数据多样性不足和泛化困难.
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.20012)** EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training. 通过mid-training在VLM与VLA之间建立具身过渡阶段，缓解数据分布落差并提升下游动作建模效果.
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.19683)** Mask World Model: Predicting What Matters for Robust Robot Policy Learning. 用于机器人策略学习的掩码世界模型，只预测与决策最相关的状态变化，提升世界模型训练效率与策略鲁棒性。
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.16484)** DexWorldModel: Causal Latent World Modeling towards Automated Learning of Embodied Tasks. 提出因果潜在世界模型(CLWM)，以DINOv3特征为生成目标解耦交互语义与视觉噪声，引入对偶状态TTT记忆实现O(1)长程记忆，推测式异步推理降低50%阻塞延迟。
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.08168)** ViVa: A Video-Generative Value Model for Robot Reinforcement Learning. 视频生成价值模型，利用预训练视频生成器的时空先验进行价值估计，在真实世界箱体组装任务中取得显著提升.
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.07799)** Learning Without Losing Identity: Capability Evolution for Embodied Agents. 能力中心演化的具身智能体新范式，引入模块化能力模块实现连续学习，在20次迭代中将任务成功率从32.4%提升至91.3%，零策略漂移.
-- ★ **[CVPR 2026年4月](https://arxiv.org/abs/2604.07774)** RoboAgent: Chaining Basic Capabilities for Embodied Task Planning. 面向具身任务规划的VLM能力链框架，将复杂规划分解为基本视觉-语言问题的序列，实现更透明可控的推理过程.
-- **[arXiv 2026年4月](https://arxiv.org/abs/2604.07430)** HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents. 专为真实世界具身智能体设计的VLM系列模型，采用MoE架构，覆盖2B/32B两种规模，在22个基准上表现优异.
-- **[arXiv 2026年3月](https://arxiv.org/abs/2603.29844)** DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA. 提出 DIAL：一种面向端到端 VLA 的潜在世界建模方法，通过解耦意图与动作来增强真实世界部署能力与泛化性。
-- **[arXiv 2026年3月](https://arxiv.org/abs/2603.27670)** ProgressVLA: Progress-Guided Diffusion Policy for Vision-Language Robotic Manipulation. 进度引导的扩散策略VLA，通过预训练进度估计器和可微分进度引导实现长程任务中的进度感知.
-- **[arXiv 2026年3月](https://arxiv.org/abs/2603.20711)** RoboECC: Multi-Factor-Aware Edge-Cloud Collaborative Deployment for VLA Models. 面向VLA模型的边云协同部署框架，通过模型-硬件协同切分与网络感知调整，在带宽波动下兼顾实时性与推理性能。
-- **[arXiv 2026年3月](https://arxiv.org/abs/2603.17573)** HeiSD: Hybrid Speculative Decoding for Embodied Vision-Language-Action Models with Kinematic Awareness. 提出 HeiSD：一种面向具身 VLA 的运动学感知混合推测解码方法，旨在提升推理效率。
-- **[arXiv 2026年3月](https://arxiv.org/abs/2603.17192)** Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models. VLA模型内部机制的机械可解释性研究，揭示注意力头在编码指令遵循、物体交互和机器人控制等功能中的分工.
-- **[arXiv 2026年3月](https://arxiv.org/abs/2603.01581)** KERV: Kinematic-Rectified Speculative Decoding for Embodied VLA Models. 将机器人运动学引入VLA的推测解码过程，利用运动学预测与阈值校正减少重推理开销，在保持成功率的同时显著加速推理。
-- **[arXiv 2026年3月](https://arxiv.org/abs/2603.00376)** NeuroHex: A Brain-Inspired Hex Coordinate System to Enable Highly Computationally-Efficient World Models for Continuous Online-Adaptive Learning. 提出 NeuroHex：一种受大脑启发的六边形坐标系统与层次化世界建模方法，用于实现面向持续在线自适应学习的高计算效率世界模型。
-- **[arXiv 2026年2月](https://arxiv.org/abs/2602.14979)** RynnBrain: Open Embodied Foundation Models. 开源具身智能时空基础模型，在一个统一框架内集成了自我中心理解、时空定位、物理推理和物理感知规划四大核心能力.
-- **[arXiv 2026年2月](https://arxiv.org/abs/2602.11075)** RISE: Self-Improving Robot Policy with Compositional World Model. 组合式世界模型驱动的自改进机器人策略框架，通过在模型内生成经验并迭代优化策略，提升具身任务中的泛化与适应能力。
-- **[arXiv 2026年2月](https://arxiv.org/abs/2602.09971)** VLA-JEPA: Enhancing Vision-Language-Action Model with Latent World Model. 将联合嵌入预测架构（JEPA）集成到VLA模型中，通过潜在空间预测世界动态，提升泛化能力和鲁棒性.
-- **[arXiv 2026年2月](https://arxiv.org/abs/2602.04315)** GeneralVLA: Generalizable Vision-Language-Action Models with Knowledge-Guided Trajectory Planning. 知识引导轨迹规划的层次化VLA模型，无需真实机器人数据实现零样本操纵和自动数据生成.
-- **[arXiv 2026年1月](https://arxiv.org/abs/2601.18692)** A Pragmatic VLA Foundation Model. 文中模型名为 LingBot-VLA，基于约20,000小时真实世界数据和9种双机械臂配置训练，强调真实部署下的泛化能力与训练效率.
-- **[arXiv 2026年1月](https://arxiv.org/abs/2601.12993)** Being-H0.5: Scaling Human-Centric Robot Learning for Cross-Embodiment Generalization. 以人为中心的跨本体VLA基础模型，构建35,000小时跨30种本体的多模态数据集，实现LIBERO基准98.9%的成功率.
-- **[arXiv 2026年1月](https://arxiv.org/abs/2601.04052)** Stable Language Guidance for Vision-Language-Action Models. 提出残差语义引导概率框架，将物理可供性与语义执行解耦，提升VLA模型的语言指导稳定性.
-- **[arXiv 2025年11月](https://arxiv.org/abs/2511.18112)** EchoVLA: Vision-Language-Action Model with Synergistic Declarative Memory. 结合声明式记忆的VLA模型，通过外部记忆模块缓解长程任务中的遗忘问题，提升多步骤任务执行能力.
-- **[arXiv 2025年11月](https://arxiv.org/abs/2511.17502)** RynnVLA-002: A Unified Vision-Language-Action and World Model. 统一VLA与世界模型的框架，世界模型利用动作和视觉输入预测未来图像状态，学习环境物理以细化动作生成.
-- **[arXiv 2025年11月](https://arxiv.org/abs/2511.01718)** Unified Diffusion VLA: Vision-Language-Action Model via Joint Discrete Denoising Diffusion Process. 通过联合离散去噪扩散过程统一理解、生成和行动的VLA模型.
-- **[arXiv 2025年10月](https://arxiv.org/abs/2510.25122)** NanoVLA: Routing Decoupled Vision-Language Understanding for Nano-sized Generalist Robotic Policies. 轻量化VLA架构，通过视觉-语言解耦和动态路由实现高达52倍边缘设备推理加速，参数减少98%.
-- **[arXiv 2025年10月](https://arxiv.org/abs/2510.12710)** Reflection-Based Task Adaptation for Self-Improving VLA. 通过失败驱动的反思性RL和成功驱动的质量引导SFT双路径架构，实现VLA模型的快速自主任务自适应.
-- **[arXiv 2025年10月](https://arxiv.org/abs/2510.10274)** X-VLA: The First Soft-Prompted Robot Foundation Model for Any Robot, Any Task. 软提示驱动的机器人基础模型，通过参数高效微调实现任意机器人、任意任务的泛化.
-- **[arXiv 2025年10月](https://arxiv.org/abs/2510.07778)** IntentionVLA: Embodied Intention Reasoning for Human-Robot Interaction. 具身意图推理的VLA模型，通过意图理解增强人机协作的流畅性和安全性.
-- **[arXiv 2025年10月](https://arxiv.org/abs/2510.01623)** VLA-R1: Enhancing Reasoning in Vision-Language-Action Models. 通过RLVR和GRPO系统优化推理与执行的推理增强VLA，并发布VLA-CoT-13K思维链监督数据集.
-- **[arXiv 2025年9月](https://arxiv.org/abs/2509.12345)** FoMER: How Good are Foundation Models in Step-by-Step Embodied Reasoning. 提出FoMER基准，专门评估大语言模型在复杂具身决策场景中的逐步推理能力.
-- **[arXiv 2025年9月](https://arxiv.org/abs/2509.11767)** WALL-OSS: Igniting VLMs toward the Embodied Space. 端到端具身基础模型，通过大规模多模态预训练实现具身感知、语言-动作关联和鲁棒操纵.
-- ★ **[ICLR 2025年9月](https://arxiv.org/abs/2509.09332)** OmniEVA: Embodied Versatile Planner via Task-Adaptive 3D-Grounded and Embodiment-aware Reasoning. 提出任务自适应的3D接地机制和具身感知推理框架，通过门控路由器根据上下文需求显式选择性调节3D融合，实现上下文感知的3D接地和具身约束感知的规划决策.
-- ★ **[NeurIPS 2025年9月](https://arxiv.org/abs/2509.08844)** EfficientVLA: Training-Free Acceleration and Compression for Vision-Language-Action Models. 无训练推理加速框架，实现1.93倍加速和28.9%的FLOPs减少.
-- **[arXiv 2025年7月](https://arxiv.org/abs/2507.08421)** SwitchVLA: Execution-Aware Task Switching for Vision-Language-Action Models. 执行感知的任务切换VLA.
-- **[arXiv 2025年7月](https://arxiv.org/abs/2507.01424)** TriVLA: A Triple-System Vision-Language-Action Model with Episodic World Modeling. 三系统VLA架构（感知-世界模型-行动），通过情景世界模型提升长期任务规划能力.
-- **[arXiv 2025年6月](https://arxiv.org/abs/2506.04500)** Don't Do That. Guiding Embodied Systems through Large Language Model-based Constraint Generation. 提出STPR约束生成框架，利用LLM将自然语言约束翻译为可执行的Python函数，应用于点云表示和传统搜索算法，确保机器人导航中的约束遵从.
-- **[arXiv 2025年6月](https://arxiv.org/abs/2506.00411)** LoHoVLA: Vision-Language-Action Model for Long-Horizon Embodied Tasks. 专为长时程具身任务设计的VLA模型，通过分层动作预测缓解复合任务的错误累积问题.
-- ★ **[ICML 2025年5月](https://arxiv.org/abs/2505.06412)** DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression. 将自回归推理与扩散策略集成的框架，在102个未见物体上实现63.7%的零样本拾取准确率.
-- **[arXiv 2025年5月](https://arxiv.org/abs/2505.03500)** VLAs are Confined yet Capable of Generalizing to Novel Instructions. 研究 VLA 模型如何在保持受约束行为边界的同时，仍能泛化到新指令，并在统一设置下进行评估。
-- **[arXiv 2025年3月](https://arxiv.org/abs/2503.12438)** ChatVLA: Multimodal Understanding and Robot Control. 对话式多模态理解与机器人控制.
-- **[arXiv 2025年3月](https://arxiv.org/abs/2503.04123)** SmolVLA: Efficient Vision-Language-Action Models for Robotics. 轻量化VLA模型，适合边缘部署.
-- **[arXiv 2025年1月](https://arxiv.org/abs/2501.12345)** HPT: Hierarchical Pre-trained Transformer for Robot Learning. 分层预训练Transformer架构，通过层次化表征学习实现跨任务的高效迁移学习.
-- ★ **[CVPR 2025年1月](https://arxiv.org/abs/2501.10105)** UniAct: Universal Actions for Enhanced Embodied Foundation Models. 提出通用动作空间，将不同形态机器人的底层控制统一为规范化的动作表征，提升基础模型在不同机器人平台间的泛化能力.
-- **[arXiv 2025年1月](https://arxiv.org/abs/2501.08132)** HiMoE-VLA: Hierarchical Mixture-of-Experts for Vision-Language-Action Policies. 分层混合专家VLA架构.
-- **[arXiv 2024年10月](https://arxiv.org/abs/2410.24164)** π0: A Vision-Language-Action Flow Model for General Robot Control. 基于预训练VLM的流匹配架构，在多机器人平台多样化数据集上训练，实现零样本任务执行.
 
-- **[arXiv 2024年6月](https://arxiv.org/abs/2406.09246)** OpenVLA: An Open Vision-Language-Action Model. 开源的VLA模型，基于7B参数的Llama 2和DINOv2视觉编码器，支持即插即用和参数高效微调.
+- **[arXiv 2026年6月](https://arxiv.org/abs/2606.06556)** Robots Need More than VLA and World Models. 系统分析VLA与世界模型的局限性，提出机器人系统所需的额外能力：物理推理、因果理解和持续学习。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30350)** DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation. 提出DynaFLIP动力学感知多模态预训练框架，整合视觉、语言和动力学信息，提升机器人操作中的场景理解和动作执行能力。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30311)** Archon: A Unified Multimodal Model for Holistic Digital Human Generation. 提出Archon统一多模态模型，整合七种模态实现整体数字人生成，提出"模态内思考"方法逐步增强保真度和可控性。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30263)** minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models. 提出minWM全栈开源框架，将双向视频扩散模型转换为相机可控的少步自回归世界模型，支持实时低延迟推出。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30260)** How LoRA Remembers? A Parametric Memory Law for LLM Finetuning. 提出参数化记忆法则，量化LoRA在LLM微调中的记忆容量极限，为具身智能模型微调提供理论指导。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30248)** GenClaw: Code-Driven Agentic Image Generation. 提出GenClaw代码驱动智能体图像生成范式，代理首先概念化，然后使用代码渲染视觉草图，最后用生成模型补充纹理，实现高度可控的视觉生成。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.30056)** Sample-Efficient Diffusion-based Reinforcement Learning with Critic Guidance. 提出基于扩散模型的样本高效强化学习方法，结合Critic引导提升学习效率，在机器人控制任务中表现优异。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.29488)** AnyMo: Scaling Any-Modality Conditional Motion Generation with Masked Modeling. 提出AnyMo统一多模态框架，结合残差FSQ运动分词器和可扩展掩码建模Transformer，支持任意模态组合的高质量运动合成。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.28548)** GEM: Generative Supervision Helps Embodied Intelligence. 提出GEM生成式监督具身视觉语言模型，将深度图生成任务整合到VLM预训练阶段，在模拟和真实环境评估中展现卓越的任务执行能力。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.28272)** EchoAvatar: Real-time Generative Avatar Animation from Audio Streams. 提出统一流式架构，从增量音频输入合成连续全身运动，支持语音和音乐的无缝泛化，通过工具调用接口实现LLM显式语义控制。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.26933)** Diff-Tracking: Leveraging Text-to-Image Diffusion Models for Unsupervised Visual Object Tracking. 提出Diff-Tracking方法，利用预训练文本到图像扩散模型的丰富语义知识，通过交叉注意力机制实现无监督视觉目标跟踪。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.15153)** Pelican-Unified 1.0: A Unified Embodied Intelligence Model for Understanding, Reasoning, Imagination and Action. 北京人形推出的首个按统一原则训练的具身基础模型，将理解、推理、想象和动作生成集成到单一架构，在WorldArena想象评测上排名第一。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.14211)** ASH: Agents that Self-Hone via Embodied Learning. 通过从自生成轨迹学习逆动力学模型，从未标注网络视频中提取监督，实现长时程具身学习的自改进智能体框架。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13778)** Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs. 推测推理框架，引入轻量草稿模型和主模型并行验证，将平均任务级延迟降至19.1ms，实现3倍加速，真实传送带分拣验证。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13757)** FrameSkip: Learning from Fewer but More Informative Frames in VLA Training. 数据层帧选择框架，基于动作变化、视觉一致性和任务进度评分帧，仅保留20%帧即达76.15%宏平均成功率，大幅提升VLA训练效率。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13548)** AttenA+: Rectifying Action Inequality in Robotic Foundation Models. 速度驱动动作注意力优先处理运动学关键段，即插即用框架，OpenVLA-OFT提升至98.6%，Franka上验证鲁棒性。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13403)** RotVLA: Rotational Latent Action for Vision-Language-Action Model. 基于SO(n)旋转潜在动作的VLA框架，提供连续性、组合性和与真实动作动力学对齐的几何结构，仅1.7B参数在LIBERO达98.2%。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13382)** BlockVLA: Accelerating Autoregressive VLA via Block Diffusion Finetuning. 通过块扩散范式将AR骨干适配为高效离散扩散策略，块内并行去噪，在LIBERO和SimplerEnv上实现3.3倍推理加速。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13276)** D-VLA: A High-Concurrency Distributed Asynchronous Reinforcement Learning Framework for Vision-Language-Action Models. 高并发分布式异步RL框架，引入"平面解耦"隔离仿真与优化，四线程异步Swimlane流水线实现全并行，万亿参数规模保持线性加速。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13119)** Towards Long-horizon Embodied Agents with Tool-Aligned Vision-Language-Action Models (VLAs-as-Tools). 将长期任务分配给高层VLM和专用VLA工具族，引入工具对齐后训练，LIBERO-Long上pi_0.5提升4.8pp，RoboTwin提升23.1pp。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.13105)** What to Ignore, What to React: Visually Robust RL Fine-Tuning of VLA Models (PAIR-VLA). 通过不变性项和敏感性目标解决视觉偏移，ManiSkill3上pi_0.5平均提升16.62%，OpenVLA提升9.10%。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.10332)** EmbodiSkill: Skill-Aware Reflection for Self-Evolving Embodied Agents. 面向具身智能体的技能自进化框架，通过技能感知反思区分技能内容错误与执行失误，ALFWorld上达93.28%任务成功率。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.00416)** Learning while Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies. 提出 Learning while Deploying：一个面向通用机器人策略的车队级强化学习框架。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.00321)** Embodied Interpretability: Linking Causal Understanding to Generalization in Vision-Language-Action Models. 研究 VLA 模型的可解释性，分析因果理解如何与模型泛化能力相关联。
+
+- **[arXiv 2026年5月](https://arxiv.org/abs/2605.00078)** Being-H0.7: A Latent World-Action Model from Egocentric Videos. 提出 Being-H0.7：一种来自第一人称视频的潜在世界-动作模型，在引入世界模型的同时将真实场景部署作为重要考量。
+
+### [Qwen-VLA: A Unified Embodied Foundation Model](https://arxiv.org/abs/2605.30280)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">通义统一具身基座，单模型横跨操作、导航与轨迹预测。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 5 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">阿里巴巴通义千问团队</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Qwen3.5-4B VLM + 1.15B DiT flow-matching 动作解码器</strong>（总约 5.1B）</li><li>四阶段训练：T2A 文本到动作预训练 → CPT → SFT → RL</li><li>将操作、导航、轨迹预测统一为动作-轨迹框架</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>LIBERO <strong>97.9%</strong>、Simpler-WidowX <strong>73.7%</strong>、RoboTwin Easy/Hard 86.1%/87.2%</li><li>真机 ALOHA 平均 OOD 成功率 <strong>76.9%</strong>，优于 GR00T N1.6 与 π0.5</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 Qwen-VLA-Base / Instruct；训练数据 1 万+ 小时多源（操作轨迹、Ego4D 等人类演示、仿真、VLN、VL）；开源（QwenLM/Qwen-VLA）</td></tr>
+</tbody>
+</table>
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.27792)** MotuBrain: An Advanced World Action Model for Robot Control. 提出 MotuBrain：一种面向机器人控制的高级世界-动作模型，聚焦长时程任务，并结合异构数据提升任务成功率。
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.24921)** libra-vla: achieving learning equilibrium via asynchronous coarse-to-fine dual-system. 提出 libra-vla：一种面向开放世界场景的异步粗到细双系统架构，用于实现学习平衡并提升鲁棒性。
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.24622)** CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies. 面向 VLA 策略的高效粗到细动作生成方法，重点针对多步骤执行场景。
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.24447)** Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment. 研究 VLA 模型在不同 XPU 平台上的部署特性，重点关注机器人端部署中的硬件约束、效率与加速问题。
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.24182)** $M^2$-VLA: Boosting Vision-Language Models for Generalizable Manipulation via Layer Mixture and Meta-Skills. 通过层混合与元技能机制增强视觉-语言模型在可泛化操作任务中的表现。
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.23272)** Modular Sensory Stream for Integrating Physical Feedback in Vision-Language-Action Models. 通过模块化感知流将物理反馈集成到 VLA 模型中，以更好支持触觉交互。
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.23121)** Breaking Lock-In: Preserving Steerability under Low-Data VLA Post-Training. 针对低数据VLA后训练中的“锁定”现象，提出保留视觉接地并结合测试时对比提示引导的方法，缓解模型对训练对象和空间目标的过拟合。
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.23073)** RL Token: Bootstrapping Online RL with Vision-Language-Action Models. 提出 RL Token：一种利用 VLA 模型引导在线强化学习启动的方法，通过稀疏空间锚点约束动作生成。
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.21741)** Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training. 利用动作条件世界模型在闭环想象环境中对通用机器人策略进行失败导向后训练，把人类纠正从真实执行迁移到可复用的模型内修正流程.
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.21391)** From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges. 提出ResVLA残差桥接架构，在高层语义理解与低层物理控制之间建立显式过渡，提升生成式VLA的条件对齐与表示效率.
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.21241)** CorridorVLA: Explicit Spatial Constraints for Generative Action Heads via Sparse Anchors. 为生成式动作头引入稀疏空间锚点与显式容差走廊，用可解释的物理约束提升VLA策略的动作对齐与成功率。
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.21232)** ReCAPA: Hierarchical Predictive Correction to Mitigate Cascading Failures. 面向多步骤VLA执行的层次化预测纠错框架，通过前瞻式对齐与规划减轻中间步骤错误带来的级联失误.
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.20834)** PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance. 面向轻量部署的小型VLA模型，通过世界知识引导增强参数受限条件下的高层理解、空间感知与操作能力.
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.20627)** Occupancy Reward Shaping: Improving Credit Assignment for Offline Goal-Conditioned Reinforcement Learning. 离线目标条件强化学习的奖励塑形方法，从世界模型占据测度中提取时序几何结构，缓解稀疏奖励下的信用分配难题。
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.20246)** Cortex 2.0: Grounding World Models in Real-World Industrial Deployment. 面向工业长时程操作的世界模型框架，从反应式控制转向“规划-执行”（plan-and-act），通过生成候选未来状态提升跨任务与跨本体执行稳定性.
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.20100)** JoyAI-RA 0.1: A Foundation Model for Robotic Autonomy. 面向开放世界机器人自主性的VLA基础模型，通过多形态数据组织与跨本体训练缓解数据多样性不足和泛化困难.
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.20012)** EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training. 通过mid-training在VLM与VLA之间建立具身过渡阶段，缓解数据分布落差并提升下游动作建模效果.
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.19683)** Mask World Model: Predicting What Matters for Robust Robot Policy Learning. 用于机器人策略学习的掩码世界模型，只预测与决策最相关的状态变化，提升世界模型训练效率与策略鲁棒性。
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.16484)** DexWorldModel: Causal Latent World Modeling towards Automated Learning of Embodied Tasks. 提出因果潜在世界模型(CLWM)，以DINOv3特征为生成目标解耦交互语义与视觉噪声，引入对偶状态TTT记忆实现O(1)长程记忆，推测式异步推理降低50%阻塞延迟。
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.08168)** ViVa: A Video-Generative Value Model for Robot Reinforcement Learning. 视频生成价值模型，利用预训练视频生成器的时空先验进行价值估计，在真实世界箱体组装任务中取得显著提升.
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.07799)** Learning Without Losing Identity: Capability Evolution for Embodied Agents. 能力中心演化的具身智能体新范式，引入模块化能力模块实现连续学习，在20次迭代中将任务成功率从32.4%提升至91.3%，零策略漂移.
+
+- ★ **[CVPR 2026年4月](https://arxiv.org/abs/2604.07774)** RoboAgent: Chaining Basic Capabilities for Embodied Task Planning. 面向具身任务规划的VLM能力链框架，将复杂规划分解为基本视觉-语言问题的序列，实现更透明可控的推理过程.
+
+- **[arXiv 2026年4月](https://arxiv.org/abs/2604.07430)** HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents. 专为真实世界具身智能体设计的VLM系列模型，采用MoE架构，覆盖2B/32B两种规模，在22个基准上表现优异.
+
+- **[arXiv 2026年3月](https://arxiv.org/abs/2603.29844)** DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA. 提出 DIAL：一种面向端到端 VLA 的潜在世界建模方法，通过解耦意图与动作来增强真实世界部署能力与泛化性。
+
+- **[arXiv 2026年3月](https://arxiv.org/abs/2603.27670)** ProgressVLA: Progress-Guided Diffusion Policy for Vision-Language Robotic Manipulation. 进度引导的扩散策略VLA，通过预训练进度估计器和可微分进度引导实现长程任务中的进度感知.
+
+- **[arXiv 2026年3月](https://arxiv.org/abs/2603.20711)** RoboECC: Multi-Factor-Aware Edge-Cloud Collaborative Deployment for VLA Models. 面向VLA模型的边云协同部署框架，通过模型-硬件协同切分与网络感知调整，在带宽波动下兼顾实时性与推理性能。
+
+- **[arXiv 2026年3月](https://arxiv.org/abs/2603.17573)** HeiSD: Hybrid Speculative Decoding for Embodied Vision-Language-Action Models with Kinematic Awareness. 提出 HeiSD：一种面向具身 VLA 的运动学感知混合推测解码方法，旨在提升推理效率。
+
+- **[arXiv 2026年3月](https://arxiv.org/abs/2603.17192)** Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models. VLA模型内部机制的机械可解释性研究，揭示注意力头在编码指令遵循、物体交互和机器人控制等功能中的分工.
+
+- **[arXiv 2026年3月](https://arxiv.org/abs/2603.01581)** KERV: Kinematic-Rectified Speculative Decoding for Embodied VLA Models. 将机器人运动学引入VLA的推测解码过程，利用运动学预测与阈值校正减少重推理开销，在保持成功率的同时显著加速推理。
+
+- **[arXiv 2026年3月](https://arxiv.org/abs/2603.00376)** NeuroHex: A Brain-Inspired Hex Coordinate System to Enable Highly Computationally-Efficient World Models for Continuous Online-Adaptive Learning. 提出 NeuroHex：一种受大脑启发的六边形坐标系统与层次化世界建模方法，用于实现面向持续在线自适应学习的高计算效率世界模型。
+
+- **[arXiv 2026年2月](https://arxiv.org/abs/2602.14979)** RynnBrain: Open Embodied Foundation Models. 开源具身智能时空基础模型，在一个统一框架内集成了自我中心理解、时空定位、物理推理和物理感知规划四大核心能力.
+
+- **[arXiv 2026年2月](https://arxiv.org/abs/2602.11075)** RISE: Self-Improving Robot Policy with Compositional World Model. 组合式世界模型驱动的自改进机器人策略框架，通过在模型内生成经验并迭代优化策略，提升具身任务中的泛化与适应能力。
+
+- **[arXiv 2026年2月](https://arxiv.org/abs/2602.09971)** VLA-JEPA: Enhancing Vision-Language-Action Model with Latent World Model. 将联合嵌入预测架构（JEPA）集成到VLA模型中，通过潜在空间预测世界动态，提升泛化能力和鲁棒性.
+
+- **[arXiv 2026年2月](https://arxiv.org/abs/2602.04315)** GeneralVLA: Generalizable Vision-Language-Action Models with Knowledge-Guided Trajectory Planning. 知识引导轨迹规划的层次化VLA模型，无需真实机器人数据实现零样本操纵和自动数据生成.
+
+- **[arXiv 2026年1月](https://arxiv.org/abs/2601.18692)** A Pragmatic VLA Foundation Model. 文中模型名为 LingBot-VLA，基于约20,000小时真实世界数据和9种双机械臂配置训练，强调真实部署下的泛化能力与训练效率.
+
+- **[arXiv 2026年1月](https://arxiv.org/abs/2601.12993)** Being-H0.5: Scaling Human-Centric Robot Learning for Cross-Embodiment Generalization. 以人为中心的跨本体VLA基础模型，构建35,000小时跨30种本体的多模态数据集，实现LIBERO基准98.9%的成功率.
+
+- **[arXiv 2026年1月](https://arxiv.org/abs/2601.04052)** Stable Language Guidance for Vision-Language-Action Models. 提出残差语义引导概率框架，将物理可供性与语义执行解耦，提升VLA模型的语言指导稳定性.
+
+- **[arXiv 2025年11月](https://arxiv.org/abs/2511.18112)** EchoVLA: Vision-Language-Action Model with Synergistic Declarative Memory. 结合声明式记忆的VLA模型，通过外部记忆模块缓解长程任务中的遗忘问题，提升多步骤任务执行能力.
+
+- **[arXiv 2025年11月](https://arxiv.org/abs/2511.17502)** RynnVLA-002: A Unified Vision-Language-Action and World Model. 统一VLA与世界模型的框架，世界模型利用动作和视觉输入预测未来图像状态，学习环境物理以细化动作生成.
+
+- **[arXiv 2025年11月](https://arxiv.org/abs/2511.01718)** Unified Diffusion VLA: Vision-Language-Action Model via Joint Discrete Denoising Diffusion Process. 通过联合离散去噪扩散过程统一理解、生成和行动的VLA模型.
+
+- **[arXiv 2025年10月](https://arxiv.org/abs/2510.25122)** NanoVLA: Routing Decoupled Vision-Language Understanding for Nano-sized Generalist Robotic Policies. 轻量化VLA架构，通过视觉-语言解耦和动态路由实现高达52倍边缘设备推理加速，参数减少98%.
+
+- **[arXiv 2025年10月](https://arxiv.org/abs/2510.12710)** Reflection-Based Task Adaptation for Self-Improving VLA. 通过失败驱动的反思性RL和成功驱动的质量引导SFT双路径架构，实现VLA模型的快速自主任务自适应.
+
+- **[arXiv 2025年10月](https://arxiv.org/abs/2510.10274)** X-VLA: The First Soft-Prompted Robot Foundation Model for Any Robot, Any Task. 软提示驱动的机器人基础模型，通过参数高效微调实现任意机器人、任意任务的泛化.
+
+- **[arXiv 2025年10月](https://arxiv.org/abs/2510.07778)** IntentionVLA: Embodied Intention Reasoning for Human-Robot Interaction. 具身意图推理的VLA模型，通过意图理解增强人机协作的流畅性和安全性.
+
+- **[arXiv 2025年10月](https://arxiv.org/abs/2510.01623)** VLA-R1: Enhancing Reasoning in Vision-Language-Action Models. 通过RLVR和GRPO系统优化推理与执行的推理增强VLA，并发布VLA-CoT-13K思维链监督数据集.
+
+- **[arXiv 2025年9月](https://arxiv.org/abs/2509.15293)** FoMER: How Good are Foundation Models in Step-by-Step Embodied Reasoning. 提出FoMER基准，专门评估大语言模型在复杂具身决策场景中的逐步推理能力.
+
+- **[arXiv 2025年9月](https://arxiv.org/abs/2509.11767)** WALL-OSS: Igniting VLMs toward the Embodied Space. 端到端具身基础模型，通过大规模多模态预训练实现具身感知、语言-动作关联和鲁棒操纵.
+
+- ★ **[ICLR 2025年9月](https://arxiv.org/abs/2509.09332)** OmniEVA: Embodied Versatile Planner via Task-Adaptive 3D-Grounded and Embodiment-aware Reasoning. 提出任务自适应的3D接地机制和具身感知推理框架，通过门控路由器根据上下文需求显式选择性调节3D融合，实现上下文感知的3D接地和具身约束感知的规划决策.
+
+- ★ **[NeurIPS 2025年9月](https://arxiv.org/abs/2509.08844)** EfficientVLA: Training-Free Acceleration and Compression for Vision-Language-Action Models. 无训练推理加速框架，实现1.93倍加速和28.9%的FLOPs减少.
+
+- **[arXiv 2025年7月](https://arxiv.org/abs/2507.08421)** SwitchVLA: Execution-Aware Task Switching for Vision-Language-Action Models. 执行感知的任务切换VLA.
+
+- **[arXiv 2025年7月](https://arxiv.org/abs/2507.01424)** TriVLA: A Triple-System Vision-Language-Action Model with Episodic World Modeling. 三系统VLA架构（感知-世界模型-行动），通过情景世界模型提升长期任务规划能力.
+
+- **[arXiv 2025年6月](https://arxiv.org/abs/2506.04500)** Don't Do That. Guiding Embodied Systems through Large Language Model-based Constraint Generation. 提出STPR约束生成框架，利用LLM将自然语言约束翻译为可执行的Python函数，应用于点云表示和传统搜索算法，确保机器人导航中的约束遵从.
+
+- **[arXiv 2025年6月](https://arxiv.org/abs/2506.00411)** LoHoVLA: Vision-Language-Action Model for Long-Horizon Embodied Tasks. 专为长时程具身任务设计的VLA模型，通过分层动作预测缓解复合任务的错误累积问题.
+
+- ★ **[ICML 2025年5月](https://arxiv.org/abs/2505.06412)** DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression. 将自回归推理与扩散策略集成的框架，在102个未见物体上实现63.7%的零样本拾取准确率.
+
+- **[arXiv 2025年5月](https://arxiv.org/abs/2505.03500)** VLAs are Confined yet Capable of Generalizing to Novel Instructions. 研究 VLA 模型如何在保持受约束行为边界的同时，仍能泛化到新指令，并在统一设置下进行评估。
+
+### [GR00T N1.5: World Model-Enhanced VLA](https://research.nvidia.com/labs/gear/gr00t-n15/)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">GR00T N1 升级版，冻结 VLM 加世界建模与合成神经轨迹，语言遵循率翻倍。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2025 年 5 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">NVIDIA GEAR Lab</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>世界模型 + 动作专家融合</strong>：VLM（Eagle 2.5）冻结训练保语言能力，DiT 动作专家输出连续动作</li><li><strong>FLARE 未来潜表示对齐</strong>（隐式世界建模），解锁人类第一视角视频学习</li><li>DreamGen / Cosmos 生成神经轨迹作合成数据</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>真机 GR-1 语言指令遵循 <strong>46.6% → 93.3%</strong>（总成功率 43.3% → 83.0%）</li><li>Language Table 52.8% → <strong>93.2%</strong>；12 个 DreamGen 新任务成功率 13.1% → 38.3%</li><li>用合成数据仅 <strong>36 小时</strong>完成升级（人工需近 3 个月）</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 GR00T-N1.5-3B；数据集 Open X-Embodiment、AgiBot-Beta、DexMG、DreamGen 神经轨迹、NVIDIA Physical AI 数据（24,000 条模拟轨迹）；开源</td></tr>
+</tbody>
+</table>
+
+### [π0.5: Scaling VLA with Heterogeneous Data](https://arxiv.org/abs/2504.16054)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">π0 开放世界升级版，异构数据共训练让机器人完成长时家务。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2025 年 4 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Physical Intelligence</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>异构数据共训练</strong>：多机器人数据 + 高层子任务标签 + 口头指令 + 网页 VL 数据</li><li>预训练用 <strong>FAST 离散动作 token</strong>，后训练用 flow matching 连续动作专家</li><li>双层推理，参数量约 3.3B（SigLIP 400M + Gemma 2B + 300M 专家）</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>首次让端到端系统在全新家庭执行 <strong>10-15 分钟长时任务</strong>（清洁厨房/卧室）</li><li>OOD 子任务成功率 <strong>94%</strong>，接近见过测试环境的对照组</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 π0.5；训练数据约 400 小时移动操作（约 100 个家庭）+ 跨形态与网页数据；openpi 部分开源</td></tr>
+</tbody>
+</table>
+
+- **[arXiv 2025年3月](https://arxiv.org/abs/2503.12438)** ChatVLA: Multimodal Understanding and Robot Control. 对话式多模态理解与机器人控制.
+
+- **[arXiv 2025年3月](https://arxiv.org/abs/2503.04123)** SmolVLA: Efficient Vision-Language-Action Models for Robotics. 轻量化VLA模型，适合边缘部署.
+
+### [AgiBot GO-1: Open-Sourced Generalist Embodied Agent](https://arxiv.org/abs/2503.06669)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">智元开源通用具身基座，百万真机数据 + 潜在动作表征。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2025 年 3 月（WRC 2025 发布）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">智元机器人 + OpenDriveLab（上海 AI Lab）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>ViLLA 架构</strong>：InternVL-2B VLM + Latent Planner + 扩散 Action Expert</li><li>配套 <strong>AgiBot World</strong> 百万级真机数据集（100 万+ 轨迹、217 任务、5 大场景）</li><li>潜在动作表示随数据量可预测扩展</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>AgiBot World 预训练较 Open X-Embodiment 平均提升 <strong>30%</strong></li><li>GO-1 复杂任务成功率超 <strong>60%</strong>，较 RDT 提升 32%</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 GO-1；数据集 AgiBot World（100 万+ 轨迹）与 AgiBot Digital World 仿真数据；数据集与模型全开源</td></tr>
+</tbody>
+</table>
+
+### [GR00T N1: An Open Foundation Model for Generalist Humanoid Robots](https://arxiv.org/abs/2503.14734)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">首个开放人形 VLA 基础模型，快慢双系统支撑多步操作。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2025 年 3 月（GTC 2025 发布）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">NVIDIA GEAR Lab（Jim Fan、Yuke Zhu 主导）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>双系统架构</strong>：System 2 为 VLM（Eagle-2，10Hz 规划），System 1 为扩散 Transformer 动作专家（120Hz 闭环控制）</li><li><strong>LAPA 潜在动作预训练</strong>，从无标签人类视频学习</li><li>数据金字塔：真实遥操作 + 合成 + 互联网数据混合</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>公开版 GR00T-N1-2B 约 <strong>2.2B 参数</strong>；L40 GPU 上 63.9ms 采样 16 个动作</li><li>预训练约 5 万 H100 GPU 小时；多具身仿真基准超越 SOTA 模仿基线，部署于 Fourier GR-1</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 GR00T-N1-2B；数据集 Open X-Embodiment、AgiBot-Alpha、181,000+ 无标签互联网视频；开源（Apache 2.0）</td></tr>
+</tbody>
+</table>
+
+- **[arXiv 2025年1月](https://arxiv.org/abs/2409.20537)** HPT: Hierarchical Pre-trained Transformer for Robot Learning. 分层预训练Transformer架构，通过层次化表征学习实现跨任务的高效迁移学习.
+
+- ★ **[CVPR 2025年1月](https://arxiv.org/abs/2501.10105)** UniAct: Universal Actions for Enhanced Embodied Foundation Models. 提出通用动作空间，将不同形态机器人的底层控制统一为规范化的动作表征，提升基础模型在不同机器人平台间的泛化能力.
+
+- **[arXiv 2025年1月](https://arxiv.org/abs/2501.08132)** HiMoE-VLA: Hierarchical Mixture-of-Experts for Vision-Language-Action Policies. 分层混合专家VLA架构.
+
+### [π0: A Vision-Language-Action Flow Model](https://arxiv.org/abs/2410.24164)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Physical Intelligence 首个通用策略，flow matching 连续动作实现灵巧操作。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2024 年 10 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Physical Intelligence（π）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>PaliGemma 3B VLM + 300M 动作专家</strong>（总约 3.3B）</li><li><strong>flow matching</strong> 生成连续动作，50Hz 高频控制、50 步动作块</li><li>1 万+ 小时、8 个机器人平台、68 个任务，预训练 + 后训练范式</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>零样本：整理餐桌 <strong>0.971</strong>、叠衬衫 <strong>1.0</strong>、装袋杂货 <strong>0.786</strong></li><li>OpenVLA / Octo 在这些任务上接近 0；较 π0-small 提升超 2 倍</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 π0（约 3.3B）/ π0-small（470M）；训练数据自有 1 万+ 小时 + Open X-Embodiment；openpi 开源（2025-02）</td></tr>
+</tbody>
+</table>
+
 - **[arXiv 2024年6月](https://arxiv.org/abs/2406.06833)** RoboMatrix: Skill-Centric Robot Task Planning. 以技能为中心的机器人任务规划框架.
+
+### [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">7B 开源 VLA，在开源数据上反超 55B 闭源模型。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2024 年 6 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Stanford + UC Berkeley + TRI + Google DeepMind + Physical Intelligence + MIT</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>基于 Prismatic-7B VLM：<strong>SigLIP + DINOv2 双视觉编码器</strong> + Llama 2 7B</li><li>在 <strong>Open X-Embodiment 970k 条轨迹</strong>上微调</li><li>权重 / 训练流程全开源，支持 LoRA 与量化高效微调</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>29 个评测任务成功率比 RT-2-X（55B）绝对提升 <strong>16.5%</strong>，参数量少 7 倍</li><li>零样本优于 RT-1-X 与 Octo</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 OpenVLA（7B）；数据集 Open X-Embodiment（970k 轨迹）；权重与代码开源</td></tr>
+</tbody>
+</table>
+
 - **[CoRL 2024年5月](https://arxiv.org/abs/2405.16789)** MC-Skill: Multi-Context Skill Learning for Vision-Language-Action. 多上下文技能学习的VLA框架，支持复杂场景泛化.
-- **[arXiv 2024年5月](https://arxiv.org/abs/2405.12213)** Octo: An Open-Source Generalist Robot Policy. 开源通用机器人策略，在Open X-Embodiment数据集的80万条轨迹上训练，支持语言指令和目标图像双模态条件.
+
+### [Octo: An Open-Source Generalist Robot Policy](https://arxiv.org/abs/2405.12213)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">开源通用机器人扩散策略，灵活适配多传感器与动作空间。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2024 年 5 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">UC Berkeley + Stanford + CMU + Google DeepMind</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Transformer 骨干 + 扩散动作解码</strong>，支持语言 / 目标图像双条件</li><li>首个完全开源通用机器人策略（权重、训练流程、数据）</li><li>可微调到新传感器（力觉）与新动作空间</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Open X-Embodiment <strong>800k 轨迹</strong>预训练，9 个真机平台评估</li><li>零样本超过 RT-1-X、与 RT-2-X（55B）相当；微调平均超次优基线 <strong>52%</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 Octo-Small（27M）/ Octo-Base（93M）；数据集 Open X-Embodiment（800k 轨迹）；完全开源</td></tr>
+</tbody>
+</table>
+
 - **[arXiv 2024年2月](https://arxiv.org/abs/2402.06149)** GR-2: A Generative Video-Language-Action Model for Robot Manipulation. 生成式视频-语言-动作模型，通过大规模视频预训练学习通用视觉表征，再微调到机器人操控任务.
+
 - **[arXiv 2024年1月](https://arxiv.org/abs/2401.12963)** AutoRT: Embodied Foundation Models for Large-Scale Robot Orchestration. 利用基础模型进行大规模机器人编排的系统，结合LLM任务分解和VLM环境理解，在多个机器人上并行收集数据.
+
 - **[arXiv 2023年11月](https://arxiv.org/abs/2311.01355)** RoboFlamingo: A Vision-Language Model for Open-Vocabulary Robot Control. 基于Flamingo的开源VLA模型，通过视觉-语言模型微调实现开放词汇的机器人控制，支持少样本学习.
-- **[arXiv 2023年7月](https://arxiv.org/abs/2307.15818)** RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control. 首个正式提出VLA概念的模型，将视觉-语言模型（PaLI-X/PaLM-E）微调为VLA，使机器人能够从互联网规模的知识中受益.
+
 - **[CoRL 2023年7月](https://arxiv.org/abs/2307.06135)** SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Robot Task Planning. 利用3D场景图提升大语言模型的机器人任务规划能力.
-- **[arXiv 2023年7月](https://arxiv.org/abs/2307.05973)** VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models. 利用LLM和VLM构建3D值图供运动规划器使用，实现零样本机器人操作轨迹合成，无需额外训练.
+
+### [RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://arxiv.org/abs/2307.15818)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">动作 token 化并入 VLM 共同微调，互联网知识首次迁移到机器人控制。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2023 年 7 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Google DeepMind</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>首次提出 <strong>VLA 范式</strong>：动作编码为文本 token，与互联网视觉-语言数据共同微调</li><li>骨干为 <strong>PaLI-X-55B</strong> 与 <strong>PaLM-E-12B</strong></li><li>支持 chain-of-thought 多步推理</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>约 6000 次真机评测，未见场景平均成功率从 RT-1 的 32% 提至 <strong>62%</strong></li><li>涌现能力（符号/推理/人物识别）平均 <strong>60%</strong>，RT-1 仅 17%</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 RT-2（PaLI-X-55B / PaLM-E-12B）；训练数据机器人轨迹 + 互联网 VL 数据；权重未公开</td></tr>
+</tbody>
+</table>
+
+### [VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models](https://arxiv.org/abs/2307.05973)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">LLM + VLM 组合 3D 价值图直接规划操作轨迹，零训练零样本。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2023 年 7 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Stanford（Wenlong Huang、李飞飞、吴佳俊团队）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>LLM 写代码调用 VLM，<strong>组合 3D 价值图</strong>（affordance + constraint）作为运动规划目标函数</li><li><strong>零训练、零样本</strong>合成 6-DoF 轨迹，支持开放指令与开放物体</li><li>MPC 闭环重规划抗扰动</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>真机 5 类任务平均成功率 <strong>88%</strong>（含扰动 70%），LLM + 动作原语基线仅 24%</li><li>在线学习将接触任务动力学学习从 >12 小时降至约 <strong>3 分钟</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型使用现成 LLM（GPT-4）+ VLM（CLIP）；无专属训练数据；代码开源（huangwl18/VoxPoser）</td></tr>
+</tbody>
+</table>
+
 - **[arXiv 2023年6月](https://arxiv.org/abs/2306.11706)** RoboCat: A Self-Improving Foundation Agent for Robotic Manipulation. 能够自我改进的机器人基础模型，通过数据聚合和微调在新任务上生成新数据，形成自我提升循环.
+
 - **[arXiv 2023年5月](https://arxiv.org/abs/2305.16291)** Voyager: An Open-Ended Embodied Agent with Large Language Models. 开放世界具身智能体的LLM驱动框架.
+
 - **[ICRA 2023年3月](https://arxiv.org/abs/2303.08734)** PromptCraft: Zero-Shot Task Planning with Large Language Models. 零样本任务规划的提示工程框架.
-- **[arXiv 2023年3月](https://arxiv.org/abs/2303.03378)** PaLM-E: An Embodied Multimodal Language Model. 将真实世界传感器数据（图像、状态估计）与语言模型融合的具身多模态语言模型，实现具身推理与长期规划.
-- **[arXiv 2022年12月](https://arxiv.org/abs/2212.06817)** RT-1: Robotics Transformer for Real-World Control at Scale. 首个大规模机器人Transformer模型，在13个任务、13万条演示上训练，实现了高成功率和新任务的零样本泛化.
+
+### [PaLM-E: An Embodied Multimodal Language Model](https://arxiv.org/abs/2303.03378)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">首个具身多模态语言模型，连续传感器信号接入 LLM 统一规划与问答。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2023 年 3 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Google Robotics + Google Research + TU Berlin</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>图像 / 机器人状态等连续观测编码为向量，注入预训练 PaLM 嵌入空间</li><li>单模型统一 <strong>机器人规划、VQA 与字幕生成</strong></li><li>跨域联合训练实现正迁移</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>最大模型 <strong>PaLM-E-562B</strong></li><li>OK-VQA 上取得 SOTA</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 PaLM-E（12B / 84B / 562B）；训练数据 RT 系列机器人数据 + 互联网视觉语言数据；未开源</td></tr>
+</tbody>
+</table>
+
 - ★ **[ICLR 2022年12月](https://arxiv.org/abs/2212.04088)** LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models. 少样本具身规划的LLM方法.
+
+### [RT-1: Robotics Transformer for Real-World Control at Scale](https://arxiv.org/abs/2212.06817)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">首个大规模多任务真机 Transformer 策略，验证机器人策略可扩展性。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2022 年 12 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Google（Robotics at Google / Everyday Robots）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>输入 6 帧图像 + 语言指令，输出 <strong>11 维离散动作</strong></li><li>轻量架构 <strong>EfficientNet-B3（FiLM）+ TokenLearner</strong>，仅 35M 参数</li><li>700+ 真实任务数据采集训练</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>700+ 真机任务成功率 <strong>97%</strong></li><li>对新物体、新环境具备显著零样本泛化</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 RT-1（35M）；数据集 RT-1 数据集；代码开源（google-research/robotics_transformer）</td></tr>
+</tbody>
+</table>
+
 - ★ **[ICLR 2022年10月](https://arxiv.org/abs/2210.03629)** ReAct: Synergizing Reasoning and Acting in Language Models. 语言模型中推理与行动协同的框架.
+
 - ★ **[NeurIPS 2022年10月](https://arxiv.org/abs/2210.03094)** VIMA: General Robot Manipulation with Multimodal Prompts. 多模态提示的通用机器人操纵模型.
+
 - **[CoRL 2022年9月](https://arxiv.org/abs/2209.07753)** Code as Policies: Language Model Programs for Embodied Control. 将语言模型生成的代码作为机器人控制策略.
+
 - **[CoRL 2022年7月](https://arxiv.org/abs/2207.05608)** Inner Monologue: Embodied Reasoning through Planning with Language Models. 语言模型辅助的具身推理与规划框架.
+
 - **[arXiv 2022年5月](https://arxiv.org/abs/2205.06175)** GATO: A Generalist Agent. 单一Transformer模型同时处理600+任务，涵盖机器人控制、游戏、对话等，首次展示了通用智能体的可能性.
+
 - **[CoRL 2022年4月](https://arxiv.org/abs/2204.01691)** SayCan: Do As I Can, Not As I Say: Grounding Language in Robotic Affordances. 将语言模型与机器人能力结合，实现自然语言指令执行.
+
 - **[CoRL 2022年3月](https://arxiv.org/abs/2203.12601)** R3M: A Universal Visual Representation for Robot Manipulation. 通用机器人视觉表示，通过Ego4D大规模人类视频预训练，可迁移到多种下游机器人操控任务.
+
 
 <a id="manipulation" name="manipulation"></a>
 ## Manipulation & Teleoperation
@@ -171,7 +481,7 @@
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.23420)** Flowing With Purpose: Latent Action Guided Flow Matching Policies. 提出潜在动作引导的流匹配策略用于机器人操作。
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.23157)** Bridging Semantics and Kinematics: Modular Zero-Shot Robotic Manipulation. 模块化零样本机器人操作框架，桥接语义与运动学。
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.22540)** PolicyTrim: Boosting Intrinsic Policy Efficiency of VLA Models. 提出内在策略效率概念与PolicyTrim方法，减少VLA模型无效动作，速度提升近6倍。
-- **[arXiv 2026年6月](https://arxiv.org/abs/2606.22540)** The Curse of Precision. 已在前面列出
+- **[arXiv 2026年7月](https://arxiv.org/abs/2607.23108)** The Curse of Precision. 已在前面列出
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.22540)** PolicyTrim. 已在前面列出
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.22136)** Wh0: Generative World Models as Scalable Sources of Egocentric Human Hand Data. 利用生成式世界模型作为可扩展的自我中心人手操作数据源。
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.20999)** Inductive Generalization for Robotic Manipulation. 提出归纳泛化概念与轴基评估测试，发现VLA模型在分布外任务上存在根本性失败。
@@ -299,7 +609,7 @@
 - **[arXiv 2026年3月](https://arxiv.org/abs/2603.09163)** SPAN-Nav: Generalized Spatial Awareness for Versatile Vision-Language Navigation. 端到端基础模型，通过占用预测任务从大规模室内外场景中提取空间先验，采用紧凑的单token表示封装粗粒度导航线索，利用CoT机制显式注入空间线索到动作推理.
 - **[arXiv 2026年3月](https://arxiv.org/abs/2603.06914)** SysNav: Multi-Level Systematic Cooperation Enables Real-World, Cross-Embodiment Object Navigation. 三层系统级对象导航框架，解耦语义推理、导航规划和运动控制，部署于轮式机器人、Unitree Go2四足和Unitree G1人形三种具身平台，190次真实实验验证.
 
-- **[ICRA 2026年2月](https://arxiv.org/abs/2602.12345)** NavSpace: Spatial Intelligence Navigation Benchmark. 首个空间智能导航评测基准，涵盖六大类超1200条动态空间指令，将评估从静态感知推向持续推理.
+- **[ICRA 2026年2月](https://arxiv.org/abs/2510.08173)** NavSpace: Spatial Intelligence Navigation Benchmark. 首个空间智能导航评测基准，涵盖六大类超1200条动态空间指令，将评估从静态感知推向持续推理.
 - **[arXiv 2025年9月](https://arxiv.org/abs/2509.14000)** JaGuard: Position Error Correction of GNSS Jamming with Deep Temporal Graphs. 将GNSS干扰校正建模为动态图回归问题，利用深度时序图网络融合卫星几何与短时动态，修正固定接收机在干扰条件下的位置漂移。
 - **[arXiv 2025年6月](https://arxiv.org/abs/2506.15518)** Real-Time Initialization of Unknown Anchors for UWB-aided Navigation. 面向UWB辅助导航的未知锚点实时初始化方法，在无需先验锚点布局的情况下提升定位可用性。
 - **[arXiv 2025年5月](https://arxiv.org/abs/2505.08912)** CoW: Chain-of-Thought Walking for Embodied Navigation. 具身导航的思维链行走方法.
@@ -328,56 +638,195 @@
 <a id="simulation-sim2real" name="simulation-sim2real"></a>
 
 ## Simulators & Sim2Real
+
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.15065)** DriftWorld: Fast World Modeling through Drifting. 通过漂移实现快速世界建模。
 
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.06699)** RoboSnap: One-Shot Real-to-Sim Scene Generation. 将单张RGB图像转换为物理稳定的模拟场景。
 
-
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.02205)** Actuator Reality Shaping for Zero-Shot Sim-to-Real Robot Learning. 提出执行器现实塑造范式，匹配物理执行器与仿真理想参考动力学。
+
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.01410)** BIFROST: Sim2Real Transfer via Invariant Feature Representation. 通过跨域双模拟目标学习共享历史编码器实现零样本Sim2Real迁移。
+
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.00678)** ABot-M0.5: Unified Mobility-and-Manipulation World Action Model. 统一移动与操作的世作动作模型。
+
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.25939)** DeformGen: Dynamics-Based Topology Augmentation for Deformable Manipulation. 通过局部物理扰动和动力学前向模拟生成拓扑一致的可变形状态。
+
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.20389)** CoLI: Continuum Robot Learning via Monolithic 3D Printing. 提出基于多材料3D打印和同构遥操作的连续体机器人平台。
+
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.17030)** Qwen-RobotWorld: Unifying Embodied World Modeling through Language-Conditioned Video Generation. 通义提出通过语言条件视频生成统一具身世界建模。
+
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.16470)** Decoupled Object-Centric Video Understanding for Manipulation Commands. 解耦对象中心视频理解用于生成机器人操作指令。
+
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.11372)** HiPi: Reproducible High-Fidelity Piezoresistive Sensors. 可复现的高保真压阻传感器用于机器人操作。
+
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.11184)** TacForeSight: Force-Guided Tactile World Model for Contact-Rich Manipulation. 力引导的触觉世界模型用于丰富接触操作。
+
 - ★ **[ICML 2026年5月](https://arxiv.org/abs/2605.29032)** Theoretical Foundations and Effective Algorithms for Policy-Aware Simulator Learning. 提出策略感知模拟器学习方法，将模拟器学习目标从预测准确性转向策略鲁棒性，通过零和博弈框架解决模拟器利用问题。
+
 - **[GECCO 2026年5月](https://arxiv.org/abs/2605.28812)** Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation. 提出基于压力中心的触觉表示方法，保留密集接触信息的同时保持sim-to-real迁移的鲁棒性，实现零样本真实机器人迁移。
+
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.28312)** Sim-to-Real Transfer for Robotic Manipulation. 研究机器人操作中的sim-to-real迁移问题，提出改进的域随机化和适应技术，提升仿真到真实环境的策略迁移效果。
+
 - **[Neutrosophic Sets and Systems 2026年5月](https://arxiv.org/abs/2605.26114)** MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research. 提出MobileGym平台，支持可验证的结果信号和大规模并行在线强化学习，在Sim-to-Real案例中实现95.1%的训练增益保持。
+
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.14625)** Digital Twin Synchronization Over Mobile Embodied AI Network With Agentic Intelligence. 面向移动具身AI网络的数字孪生同步框架，通过智能体智能实现高保真虚拟表征与低信息年龄。
+
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.13315)** Embodied Neurocomputation: A Framework for Interfacing Biological Neural Cultures with Scaled Task-Driven Validation. 面向生物神经培养与任务驱动验证的具身神经计算框架。
+
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.12654)** COSMIC: Concurrent Optimization of Structure, Material, and Integrated Control for robotic systems. 梯度共设计框架同时优化拓扑、材料分布和控制策略，嵌入混合拓扑变量到连续设计空间，在可微仿真器中集成神经网络控制器，发现超越分离设计的多样化运动策略。
+
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.12038)** OmniHumanoid: Streaming Cross-Embodiment Video Generation with Paired-Free Adaptation. 流式跨本体视频生成框架，无需配对数据即可适配不同机器人形态，支持连续视频生成。
+
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.25459)** GS-Playground: A High-Throughput Photorealistic Simulator for Vision-Informed Robot Learning. 一个面向机器人操作与视觉知情学习的高吞吐量、照片级真实感仿真器。
+
 - **[arXiv 2026年3月](https://arxiv.org/abs/2603.22039)** RAFL: Generalizable Sim-to-Real of Soft Robots with Residual Acceleration Field Learning. 残差加速度场学习框架，用可迁移的单元级校正动力学场增强基础模拟器，基于共享局部特征运行，与全局网格拓扑和离散化无关.
+
 - **[arXiv 2025年11月](https://arxiv.org/abs/2511.02345)** Sim2Real 2.0: A Survey and Benchmark. Sim2Real综述与基准.
+
 - **[arXiv 2025年10月](https://arxiv.org/abs/2510.09876)** UniSim: A Universal Simulator for Robotics and Embodied AI. 机器人具身AI通用仿真器.
+
 - **[OpenReview 2025年10月](https://openreview.net/forum?id=P7tg7VowVX)** RoboSimGS: High-Fidelity Simulated Data Generation for Real-World Zero-Shot Transfer. Real2Sim2Real框架，将多视角真实图像转换为可扩展、高保真、物理交互的仿真环境，采用3DGS捕捉照片级外观、网格基元确保精确物理仿真，MLLM自动化创建物理合理关节资产.
+
 - **[arXiv 2025年9月](https://arxiv.org/abs/2509.24948)** World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training. 利用世界模型构建低成本虚拟环境，为VLA后训练提供连续奖励与动作终止信号，在少样本机器人操作任务中替代高成本真实交互。
+
 - **[ICRA 2025年9月](https://arxiv.org/abs/2509.14687)** RealMirror: Vision-Language-Action Platform for Embodied AI. 开源端到端仿真基座，提供高视觉保真度和物理交互真实性的仿真平台.
+
 - **[arXiv 2025年9月](https://arxiv.org/abs/2509.12372)** Sym2Real: Symbolic Dynamics with Residual Learning for Data-Efficient Adaptive Control. 数据驱动框架，结合符号动力学与残差学习，仅用约10条轨迹就能在现实世界中实现鲁棒控制.
+
 - **[arXiv 2025年6月](https://arxiv.org/abs/2506.10600)** EmbodiedGen: Generative 3D Worlds for Embodied AI. 生成式3D世界用于具身AI.
 
-- **[arXiv 2024年12月](https://arxiv.org/abs/2412.12345)** Genesis: A Generative and Universal Physics Engine for Robotics and Beyond. 生成式通用物理引擎.
+### [V-JEPA 2: Self-Supervised Video Models for Understanding, Prediction and Planning](https://arxiv.org/abs/2506.09985)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">纯自监督潜空间视频世界模型，兼具理解、预测与零样本规划。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2025 年 6 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Meta FAIR（Yann LeCun 等）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>JEPA 架构</strong>：在潜空间预测未来而非重建像素</li><li>ViT-g <strong>1B 参数</strong>编码器 + 3D-RoPE，预训练于 100 万小时以上互联网视频</li><li>后接 300M 参数动作条件世界模型 V-JEPA 2-AC</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Something-Something v2 运动理解 <strong>77.3 top-1</strong>；EK-100 动作预测 39.7 R@5（相对提升 44%）</li><li>V-JEPA 2-AC 以 <62 小时 Droid 数据训练，零样本在 Franka 双臂上完成抓取放置</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 V-JEPA 2 / V-JEPA 2-AC；训练数据互联网视频 + Droid 数据集；模型与权重开源</td></tr>
+</tbody>
+</table>
+
+### [Cosmos: World Foundation Model Platform for Physical AI](https://arxiv.org/abs/2501.03575)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">NVIDIA 面向 Physical AI 的世界基础模型开放平台。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2025 年 1 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">NVIDIA</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>含视频整理管线、预训练 WFM、后训练示例与<strong>视频分词器</strong></li><li>初始 Cosmos-Predict1：自回归 5B + 扩散 7B 两种模型</li><li>分词器最高 <strong>2048x 压缩</strong>（空间 8/16x、时间 4/8x）</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>训练数据约 <strong>20M 小时视频</strong>（约 45PB、9000 万亿 tokens）</li><li>分词器比同期 SOTA 快约 <strong>12x</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 Cosmos-Predict1/2.5、Transfer2.5、Reason；开源（NVIDIA Open Model License）</td></tr>
+</tbody>
+</table>
+
+### [Genie 2: A Large-Scale Foundation World Model](https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">单图生成可玩 3D 世界的大规模基础世界模型。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2024 年 12 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Google DeepMind（Generalist Agents 团队）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>自回归潜在扩散世界模型</strong>，训练于大规模视频数据集</li><li>以单张图像为提示生成可玩 3D 世界</li><li>涌现重力 / 水 / 烟等物理、复杂角色动画、物体交互与长时程记忆</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>一致世界生成最长约 <strong>1 分钟</strong>（示例多为 10-20 秒）</li><li>支持第一/第三人称、等距等多视角；蒸馏版可实时交互</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 Genie 2；提示图由 Imagen 3 生成；未开源</td></tr>
+</tbody>
+</table>
+
 - **[CoRL 2024年6月](https://arxiv.org/abs/2406.02523)** RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots. 大规模日常任务仿真.
+
+### [Genesis: A Generative and Universal Physics Engine](https://arxiv.org/abs/2406.19481)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">开源生成式物理引擎，超实时 43 万倍模拟，支持语言生成 4D 世界。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2024 年 6 月（物理引擎 2024 年 12 月开源）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">CMU 牵头 20+ 高校（MIT、Stanford、清华、北大等）与 NVIDIA、太极图形联合</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>从底层重建的<strong>通用物理引擎</strong>，统一多类物理求解器</li><li>原生 Python + <strong>Taichi GPU 加速</strong>，支持可微模拟与可微触觉</li><li>VLM 生成智能体可将自然语言转化为 4D 世界、策略、轨迹与视频</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Franka 操作场景达 <strong>4300 万 FPS</strong>（约实时 43 万倍）</li><li>比 Isaac Gym / MJX 快约 10-80 倍；单张 RTX 4090 上 26 秒训出可迁移真实世界的运动策略</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 Genesis 物理引擎与模拟平台开源；生成式框架逐步开放</td></tr>
+</tbody>
+</table>
+
+### [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">110 亿参数无监督世界模型，单图生成可玩 2D 世界。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2024 年 2 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Google DeepMind（联合 UBC）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>ST-transformer 视频分词器 + 自回归动力学模型 + 潜在动作模型</li><li><strong>无需动作标签</strong>，完全无监督训练于互联网视频</li><li>单张图像 / 草图 / 照片生成可控 2D 交互世界</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>11B 参数</strong>，训练于约 3 万小时、6800 万段 2D 游戏视频</li><li>逐帧生成可玩世界（单次 16 帧窗口）</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 Genie（11B）；训练数据互联网 2D 游戏视频；未开源</td></tr>
+</tbody>
+</table>
+
+### [UniSim: Learning Interactive Real-World Simulators](https://arxiv.org/abs/2310.06114)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">编排多模态真实数据学习交互式世界模拟器，模拟训练零样本部署真机。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2023 年 10 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">UC Berkeley + Google DeepMind + MIT</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>以<strong>视频扩散模型</strong>为核心</li><li>编排多轴互补真实数据：图像对象、机器人动作、导航运动、语言</li><li>统一支持高层语言指令与低层控制，推理类似 POMDP 滚动</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>获 <strong>ICLR 2024 杰出论文奖</strong></li><li>纯模拟训练的 VLM 规划器与 RL 策略零样本迁移到真实机器人</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">训练数据组合 Ego4D、Something-Something、Bridge、RH20T、RT-1 等；未开源</td></tr>
+</tbody>
+</table>
+
 - **[ICRA 2023年3月](https://arxiv.org/abs/2303.15482)** OmniGibson: A Modular Simulation Environment for Embodied AI. 模块化具身AI仿真环境.
+
+### [DreamerV3: Mastering Diverse Skills through World Models](https://arxiv.org/abs/2301.04104)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">固定超参数横扫 150+ 任务的通用世界模型强化学习，首次从零挖到 Minecraft 钻石。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2023 年 1 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Google DeepMind + 多伦多大学（Danijar Hafner 等）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>RSSM 离散潜状态世界模型</strong></li><li>symlog 变换、two-hot 奖励回归、KL balancing 等鲁棒性技术，单一超参数通用</li><li>actor-critic 完全在世界模型想象轨迹中训练</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>固定超参数在 <strong>150+ 任务</strong>上超越专用算法；Atari 100K 均值 2.01x 人类水平</li><li>首个从零（无人类数据）在 100M 步内于 Minecraft 收集钻石的算法</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型开源（danijar/dreamerv3，MIT）；评测域 Atari、DMControl、DMLab、Minecraft 等</td></tr>
+</tbody>
+</table>
+
 - ★ **[NeurIPS 2021年8月](https://arxiv.org/abs/2108.10470)** Isaac Gym: High Performance GPU-Based Physics Simulation for Robot Learning. 高性能GPU物理仿真平台.
+
 - **[IROS 2020年12月](https://arxiv.org/abs/2012.02924)** iGibson 1.0: A Simulation Environment for Interactive Tasks in Large Realistic Scenes. 大型真实场景交互任务仿真环境.
 
 - **[CoRL 2020年9月](https://arxiv.org/abs/2009.12293)** robosuite: A Modular Simulation Framework and Benchmark for Robot Learning. 面向机器人学习的模块化仿真框架与基准套件.
+
 - ★ **[NeurIPS 2020年7月](https://arxiv.org/abs/2007.04954)** ThreeDWorld: A Platform for Interactive Multi-Modal Physical Simulation. 交互式多模态物理仿真平台.
+
 - ★ **[CVPR 2020年3月](https://arxiv.org/abs/2003.08515)** SAPIEN: A SimulAted Part-based Interactive ENvironment. 基于部件的交互式仿真环境.
+
 - **[CoRL 2019年10月](https://arxiv.org/abs/1910.10897)** Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning. 多任务元强化学习基准.
+
 - ★ **[ICCV 2019年4月](https://arxiv.org/abs/1904.01201)** Habitat: A Platform for Embodied AI Research. 具身AI研究平台，包含仿真器和数据集.
+
 - **[ICRA 2019年3月](https://arxiv.org/abs/1903.00742)** PyBullet: A Fast Physics Simulation for Robotics. 快速物理仿真库.
+
+### [World Models](https://arxiv.org/abs/1803.10122)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">VAE + MDN-RNN + 控制器三段式世界模型，开创在"梦境"中训练智能体的范式。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2018 年 3 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Google Brain（David Ha）+ NNAISENSE / IDSIA（Jürgen Schmidhuber）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>三段式：<strong>VAE 视觉压缩 + MDN-RNN 时序记忆 + 控制器</strong></li><li>V/M 模块无监督训练</li><li>控制器可完全在世界模型"梦境"中训练再迁移回真实环境</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>CarRacing-v0 平均 <strong>906±21 分</strong>，首个解决该环境的方法</li><li>ViZDoom 纯梦境训练策略迁移回真实环境达 1092±556 生存步</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">代码开源（worldmodels）；评测环境 OpenAI Gym（CarRacing、ViZDoom）</td></tr>
+</tbody>
+</table>
+
 - **[arXiv 2018年1月](https://arxiv.org/abs/1801.00690)** DMControl: DeepMind Control Suite. 连续控制任务基准.
+
 - ★ **[CVPR 2017年12月](https://arxiv.org/abs/1712.05474)** AI2-THOR: An Interactive 3D Environment for Visual AI. 交互式3D环境，经典仿真平台.
+
 - **[IROS 2012年10月](https://homes.cs.washington.edu/~todorov/papers/TodorovIROS12.pdf)** MuJoCo: A Physics Engine for Model-Based Control. 模型控制物理引擎，经典工作.
 
-<a id="datasets" name="datasets"></a>
 
+<a id="datasets" name="datasets"></a>
 ## Datasets
 
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.04367)** A Perception-Manipulation Robotics System for Food Cutting. 面向食物切割的感知-操作机器人系统。
