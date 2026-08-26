@@ -524,8 +524,6 @@
 - **ROSboard** — [`github.com/dheera/rosboard`](https://github.com/dheera/rosboard)
  📄 A lightweight tool that turns ROS / ROS 2 topics into web dashboards for remote monitoring and mobile viewing.
 
-- **RQT Frame Editor** — [`github.com/ipa320/rqt_frame_editor_plugin`](https://github.com/ipa320/rqt_frame_editor_plugin)
- 📄 An rqt plugin for creating and adjusting TF frames, useful for managing multi-sensor and multi-robot coordinate relationships.
 
 - **rqt_plot** — [`docs.ros.org/en/rolling/p/rqt_plot`](https://docs.ros.org/en/rolling/p/rqt_plot/)
  📄 A common ROS / ROS 2 plotting plugin for viewing topic values in real time during tuning and debugging.
@@ -539,8 +537,6 @@
 - **Arduino IDE** — [`www.arduino.cc`](https://www.arduino.cc)
  📄 An open-source electronics prototyping environment suited for quick sensor, actuator, and control-board integration, with support for C / C++ programming.
 
-- **BEHAVIOR** — [`behavior.stanford.edu`](https://behavior.stanford.edu/)
- 📄 A large-scale interactive simulation benchmark built on the SAPIEN engine, with 100 household objects and 30 complex tasks such as hang up a wet towel, providing a full testbed for physical interaction capabilities.
 
 - **Clearpath·Husky** — [`clearpathrobotics.com`](https://clearpathrobotics.com)
  📄 A common ROS research mobile robot platform with standardized interfaces, well suited to outdoor navigation and algorithm validation.
@@ -548,11 +544,7 @@
 - **Clearpath·TurtleBot 4** — [`www.turtlebot.com`](https://www.turtlebot.com/)
  📄 A plug-and-play ROS 2 starter platform for teaching and research, ideal for navigation and multi-sensor experiments.
 
-- **Genesis** — [`genesis-embodied-ai.github.io`](https://genesis-embodied-ai.github.io/)
- 📄 A general-purpose simulation engine for robot learning, designed for generative physical intelligence and integrating rigid-body, fluid, and soft-body solvers for complex scenarios.
 
-- **ManiSkill3** — [`github.com/haosulab/ManiSkill`](https://github.com/haosulab/ManiSkill)
- 📄 The next-generation manipulation simulation framework from the Shanghai AI Lab, designed for training general manipulation policies with more complex articulated objects and more efficient parallel simulation.
 
 - **MoveIt** — [`moveit.ai`](https://moveit.ai)
  📄 A motion planning, manipulation, and kinematics framework for ROS, widely used for arm planning, grasping, and task orchestration.
@@ -560,8 +552,6 @@
 - **OMPL** — [`ompl.kavrakilab.org`](https://ompl.kavrakilab.org)
  📄 An open-source motion planning library that includes many classic sampling-based planners for path planning and arm planning.
 
-- **Webots** — [`cyberbotics.com`](https://cyberbotics.com)
- 📄 An open-source cross-platform desktop robot simulation application with a complete environment for modeling, programming, and simulation.
 
 [↑ Back to TOC](#toc)
 
