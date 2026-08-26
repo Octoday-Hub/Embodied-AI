@@ -92,6 +92,9 @@
 - **OmniGibson** — [`behavior.stanford.edu/omnigibson/overview.html`](https://behavior.stanford.edu/omnigibson/overview.html)
   📄 基于 Isaac Sim 的具身智能仿真框架，支持交互场景、任务定义、数据采集与并行环境训练。
 
+- **OmniSim** — [`omnilink-tech/omnisim`](https://github.com/omnilink-tech/omnisim)
+  📄 Apache-2.0 机器人仿真器，基于 Webots 派生，提供 URDF 导入、HTTP/MCP Agent 控制、Newton CPU/GPU 物理、合成数据与 ROS 2 sidecar；Windows 提供 beta 安装包，Linux 为源码构建，macOS 物理尚未验证。
+
 - **PyBullet** — [`github.com/bulletphysics/bullet3`](https://github.com/bulletphysics/bullet3)
   📄 基于 Bullet 物理引擎的 Python 接口，轻量易用，适合快速原型开发和强化学习实验。
 
