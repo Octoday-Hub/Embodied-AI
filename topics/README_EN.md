@@ -18,20 +18,20 @@
   <img alt="Update Frequency" src="https://img.shields.io/badge/Update%20Frequency-Weekly-22C55E?style=flat-square&labelColor=14532D" />
   <img alt="Awesome" src="https://img.shields.io/badge/Awesome-Curated-2563EB?style=flat-square&labelColor=1E3A8A" />
   <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-Welcome-64748B?style=flat-square&labelColor=334155" />
-  <img alt="Last Commit: 8.20" src="https://img.shields.io/badge/Last%20Commit-8.20-3B82F6?style=flat-square&labelColor=374151" />
+  <img alt="Last Commit: 8.26" src="https://img.shields.io/badge/Last%20Commit-8.26-3B82F6?style=flat-square&labelColor=374151" />
 </p>
 
 <p align="center">
-  <img alt="Papers Updated" src="https://img.shields.io/badge/Papers%20Updated-%2B13-8B5CF6?style=flat-square&labelColor=5B21B6" />
-  <img alt="Datasets Updated" src="https://img.shields.io/badge/Datasets%20Updated-%2B20-F59E0B?style=flat-square&labelColor=92400E" />
+  <img alt="Papers Updated" src="https://img.shields.io/badge/Papers%20Updated-%2B10-8B5CF6?style=flat-square&labelColor=5B21B6" />
+  <img alt="Datasets Updated" src="https://img.shields.io/badge/Datasets%20Updated-%2B5-F59E0B?style=flat-square&labelColor=92400E" />
 </p>
 
 <p align="center">
-  <strong>This Week (20260820):</strong> Structured paper entries + dataset expansion
+  <strong>This Week (20260826):</strong> Papers & datasets expansion
 </p>
 
 <p align="center">
-  The papers page adds 13 structured entries for classic works (VLA foundation models, world models, and WRC-related highlights), sorted by release date with the English version synced; the datasets page expands to 26 representative datasets across real-world collection, cross-embodiment aggregation, contact-rich multimodality, tabletop manipulation, simulation benchmarks, and automated data generation, with official access points, scale and modality details, and sample images.
+  The papers page adds 10 structured entries for classic works (Helix, RDT-1B, RoboMamba, SpatialVLA, Hi Robot, TD-MPC2, MuZero, and other VLA / world-model highlights), sorted by release date with the English version synced; the datasets page adds 5 datasets (RT-1 Robotic Dataset, FurnitureBench, RoboAgent, TriFinger, Ravens), reaching 31 in total, spanning real-world collection, simulation benchmarks, and dexterous manipulation.
 </p>
 
 
@@ -90,7 +90,7 @@ A hand-picked selection of books and courses covering the fundamentals of roboti
 
 ### 🔭 (2) Watchtower: Track Frontier Technologies
 
-> Currently featuring `21` competitions, `10` conferences, and `413` selected papers.
+> Currently featuring `21` competitions, `10` conferences, and `377` selected papers.
 
 Check out the [Research & Competition Hub](05-research-hub_EN.md):
 
@@ -131,7 +131,7 @@ A curated map of the global embodied AI enterprise landscape to help you discove
 
 Check the [Embodied AI Dataset Catalog](06-datasets_EN.md):
 
-A focused guide to 26 representative datasets — DROID, Open X-Embodiment / RT-X, RH20T, BridgeData V2, LIBERO, MimicGen, AgiBot World, RoboMIND, and more — documenting official sources, scale, collection or generation methods, key modalities, access paths, and sample images.
+A focused guide to 31 representative datasets — DROID, Open X-Embodiment / RT-X, RH20T, BridgeData V2, LIBERO, MimicGen, AgiBot World, RoboMIND, and more — documenting official sources, scale, collection or generation methods, key modalities, access paths, and sample images.
 
 ### 🎒 (5) Evolution: Talent Compass
 

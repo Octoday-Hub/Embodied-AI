@@ -1,6 +1,6 @@
 # Embodied AI Datasets
 
-> Six representative datasets covering real-world collection, cross-embodiment aggregation, RGB-D / force / tactile sensing, tabletop manipulation, simulation benchmarks, and automated data generation. Statistics follow official pages, repositories, and papers.
+> 31 representative datasets covering real-world collection, cross-embodiment aggregation, RGB-D / force / tactile sensing, tabletop manipulation, simulation benchmarks, and automated data generation. Statistics follow official pages, repositories, and papers.
 
 ---
 
@@ -34,6 +34,11 @@
 | [Physion](#ds-physion) | Physical-intuition prediction benchmark | Simulation | ~25K videos | RGB-D + optical flow + seg | [Homepage](https://physion-benchmark.github.io/) |
 | [RoboGen](#ds-robogen) | Foundation-model task generation | Generated | 100+ tasks | Sim-generated | [Homepage](https://generativesimulation.github.io/) |
 | [Isaac GR00T](#ds-isaac-gr00t) | Humanoid data generation pipeline | Generated + sim | 780K synthetic trajs / 11h | Multimodal | [Homepage](https://developer.nvidia.com/isaac/gr00t) |
+| [RT-1 Robotic Dataset](#ds-rt-1-robotic-dataset) | Large-scale real teleop dataset, 700+ tasks | Real-world | 130K+ trajectories / 700+ tasks | RGB + language | [Homepage](https://robotics-transformer1.github.io/) |
+| [FurnitureBench](#ds-furniturebench) | Real-world furniture assembly benchmark | Real-world + sim | 5,100 trajs / 219.6 h / 8 tasks | RGB + joint states | [Homepage](https://clvrai.github.io/furniture-bench/) |
+| [RoboAgent (RoboSet)](#ds-roboagent) | Sample-efficient multi-skill dataset | Real-world | 100K+ trajs / 12 skills / 38 tasks | RGB + language | [Homepage](https://robopen.github.io/) |
+| [TriFinger](#ds-trifinger) | Remote real-robot dexterous benchmark | Real-world + sim | 9-DoF platform / 10K+ episodes | RGB + fingertip force | [Homepage](https://is.mpg.de/ei/projects/robot-benchmark) |
+| [Ravens](#ds-ravens) | Tabletop manipulation simulation benchmark | Simulation | 10 tasks + 5 variants | RGB-D | [Homepage](https://transporternets.github.io/) |
 
 ---
 
@@ -715,5 +720,135 @@
 <tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Teleoperation (Apple Vision Pro and others for human motion capture) + Omniverse simulation + Cosmos world-model domain randomization.</td></tr>
 <tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale distribution</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Generates ~780K synthetic motion trajectories (~6,500 hours of equivalent human demos) in about 11 hours from a few human demos.</td></tr>
 <tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: images / videos</li><li><strong>Proprioception</strong>: state information</li><li><strong>Actions and control</strong>: action trajectories / states</li><li><strong>Force</strong>: None</li><li><strong>Tactile</strong>: None</li><li><strong>Other</strong>: language instructions, synthetic data generation</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### RT-1 Robotic Dataset
+
+<a id="ds-rt-1-robotic-dataset"></a>
+
+[Homepage](https://robotics-transformer1.github.io/) · [Paper](https://arxiv.org/abs/2212.06817)
+
+<a id="rt-1-robotic-dataset-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/rt-1-robotic-dataset-sample-01.jpg" alt="RT-1 Robotic Dataset" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Project page](https://robotics-transformer1.github.io/) — Showcases the dataset overview, robot platforms, and task examples.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Google Robotics (Google Research / Everyday Robots)</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Recommendations</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">The multi-robot real-world dataset with 700+ tasks accompanying the RT-1 paper; a classic real-world corpus for validating the scalability of VLA models.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Use</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Download</strong>: Code is open source (Apache 2.0); the raw dataset is not directly available for public download.</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Collected by human teleoperation with 13 robots over 17 months; each episode is annotated with natural language instructions.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale distribution</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">130k+ episodes / 700+ task instructions.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: RGB images</li><li><strong>Proprioception</strong>: Robot state</li><li><strong>Actions and control</strong>: 11-dimensional discrete actions</li><li><strong>Force</strong>: None</li><li><strong>Tactile</strong>: None</li><li><strong>Other</strong>: Natural language task instructions</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### FurnitureBench
+
+<a id="ds-furniturebench"></a>
+
+[Homepage](https://clvrai.github.io/furniture-bench/) · [Paper](https://arxiv.org/abs/2305.12821)
+
+<a id="furniturebench-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/furniturebench-sample-01.jpg" alt="FurnitureBench" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Project page](https://clvrai.github.io/furniture-bench/) — Provides the dataset, simulator, and baseline code.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">KAIST CLVR Lab + UC Berkeley</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Recommendations</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">A real-world long-horizon furniture assembly benchmark, accompanied by the FurnitureSim simulator; an important platform for evaluating long-horizon manipulation and sim-to-real transfer.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Use</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Download</strong>: Code and dataset are fully open source.</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Human teleoperation (Oculus Quest 2 controller + keyboard); paired with the IsaacGym-based simulator FurnitureSim.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale distribution</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">5,100 teleoperation trajectories / 219.6 hours / 8 assembly tasks (9 configurations) / three levels of initial randomness (low, medium, high).</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: Front + wrist RGB cameras</li><li><strong>Proprioception</strong>: Joint states</li><li><strong>Actions and control</strong>: Joint position / torque</li><li><strong>Force</strong>: Joint torques</li><li><strong>Tactile</strong>: None</li><li><strong>Other</strong>: Furniture part assembly structure information</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### RoboAgent (RoboSet)
+
+<a id="ds-roboagent"></a>
+
+[Homepage](https://robopen.github.io/) · [Paper](https://arxiv.org/abs/2309.01918)
+
+<a id="roboagent-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/roboagent-sample-01.png" alt="RoboAgent (RoboSet)" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Project page](https://robopen.github.io/) — Showcases the RoboSet dataset and the cross-task meta-learning framework.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Carnegie Mellon University + Meta AI (FAIR)</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Recommendations</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">A sample-efficient multi-skill manipulation learning framework with an open dataset, 12 skills / 38 tasks; a representative work on manipulation generalization from limited data.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Use</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Download</strong>: Dataset and code are open source (MIT License).</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Teleoperation + kinesthetic teaching (Franka Panda + Robotiq gripper), augmented with semantic offline data expansion such as SAM.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale distribution</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">RoboSet contains 100,050 trajectories in total (full set); the training subset RoboSet (MT-ACT) has 7,500 trajectories / 12 skills / 38 tasks.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: 4-view RGB</li><li><strong>Proprioception</strong>: Joint states</li><li><strong>Actions and control</strong>: Joint position actions</li><li><strong>Force</strong>: None</li><li><strong>Tactile</strong>: None</li><li><strong>Other</strong>: Natural language task descriptions</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### TriFinger
+
+<a id="ds-trifinger"></a>
+
+[Homepage](https://is.mpg.de/ei/projects/robot-benchmark) · [Paper](https://arxiv.org/abs/2105.02087)
+
+<a id="trifinger-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/trifinger-sample-01.png" alt="TriFinger" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Project page](https://is.mpg.de/ei/projects/robot-benchmark) — A shared remote real-robot benchmark platform, with PyBullet simulation.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Max Planck Institute for Intelligent Systems (MPI-IS)</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Recommendations</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">A remote shared real-robot benchmark for three-finger dexterous manipulation; teams worldwide can remotely submit policies for automated evaluation on real platforms; a classic platform for dexterous hand research.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Use</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Download</strong>: Platform and simulation are open source; the dataset is CC BY 4.0, and the loading tools are BSD-3-Clause.</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Policies submitted remotely by teams worldwide are automatically executed on real TriFinger platforms to collect data (RRC competition); PyBullet simulation and offline RL datasets are also provided.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale distribution</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">8 TriFinger platforms (3 fingers × 3 joints = 9 DoF); RRC 2020 dataset: 2,856 + 7,422 episodes.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: Three-camera RGB</li><li><strong>Proprioception</strong>: Joint pose / velocity / torque</li><li><strong>Actions and control</strong>: Joint torques</li><li><strong>Force</strong>: Fingertip force sensors</li><li><strong>Tactile</strong>: None</li><li><strong>Other</strong>: Object pose estimation</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### Ravens
+
+<a id="ds-ravens"></a>
+
+[Homepage](https://transporternets.github.io/) · [Paper](https://arxiv.org/abs/2010.14406)
+
+<a id="ravens-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/ravens-sample-01.jpg" alt="Ravens" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Project page](https://transporternets.github.io/) — Provides task visualizations, code, and dataset.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Google (Robotics at Google / Google Research)</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Recommendations</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">A PyBullet-based visual tabletop manipulation simulation benchmark with 10 base tasks + 5 difficulty variants; the evaluation platform for TransporterNets.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Use</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Download</strong>: Code and data are open source (Apache 2.0).</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Generated in simulation (scripted oracle demos / some tasks include RL rewards), with real-hardware validation.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale distribution</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">10 base tasks + 5 difficulty variants; each task includes expert demos auto-generated by scripted oracles.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: RGB-D (depth as the core)</li><li><strong>Proprioception</strong>: Object poses</li><li><strong>Actions and control</strong>: 6-DoF pick and place</li><li><strong>Force</strong>: None</li><li><strong>Tactile</strong>: None</li><li><strong>Other</strong>: State and reward signals</li></ul></td></tr>
 </tbody>
 </table>

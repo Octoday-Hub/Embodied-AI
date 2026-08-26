@@ -1,6 +1,6 @@
 # 具身智能数据集
 
-> 6 个有代表性的具身智能数据集，覆盖真实采集、跨机器人汇总、RGB-D / 力 / 触觉、桌面操作、仿真基准与数据生成。统计以官方主页、仓库与论文为准。
+> 31 个有代表性的具身智能数据集，覆盖真实采集、跨机器人汇总、RGB-D / 力 / 触觉、桌面操作、仿真基准与数据生成。统计以官方主页、仓库与论文为准。
 
 ---
 
@@ -34,6 +34,11 @@
 | [Physion](#ds-physion) | 物理直觉预测基准 | 仿真 | 约 2.5 万段视频 | RGB-D + 光流 + 分割 | [官方主页](https://physion-benchmark.github.io/) |
 | [RoboGen](#ds-robogen) | 基础模型自动生成仿真任务 | 生成 | 100+ 任务 | 仿真生成 | [官方主页](https://generativesimulation.github.io/) |
 | [Isaac GR00T](#ds-isaac-gr00t) | 人形数据生成与仿真训练管线 | 生成 + 仿真 | 78万 合成轨迹 / 11h | 多模态 | [官方主页](https://developer.nvidia.com/isaac/gr00t) |
+| [RT-1 Robotic Dataset](#ds-rt-1-robotic-dataset) | 700+ 任务大规模真实遥操作数据集 | 真实采集 | 130k+ 轨迹 / 700+ 任务 | RGB + 语言 | [官方主页](https://robotics-transformer1.github.io/) |
+| [FurnitureBench](#ds-furniturebench) | 真实家具组装长时程操作基准 | 真实采集 + 仿真 | 5100 轨迹 / 219.6 小时 / 8 任务 | RGB + 关节状态 | [官方主页](https://clvrai.github.io/furniture-bench/) |
+| [RoboAgent (RoboSet)](#ds-roboagent) | 低数据量多技能操作数据集 | 真实采集 | 100k+ 轨迹 / 12 技能 / 38 任务 | RGB + 语言 | [官方主页](https://robopen.github.io/) |
+| [TriFinger](#ds-trifinger) | 三指灵巧操作远程真实基准 | 真实采集 + 仿真 | 9 DoF 平台 / 10k+ episodes | RGB + 指尖力 | [官方主页](https://is.mpg.de/ei/projects/robot-benchmark) |
+| [Ravens](#ds-ravens) | 桌面操作仿真基准 | 仿真 | 10 任务 + 5 变体 | RGB-D | [官方主页](https://transporternets.github.io/) |
 
 ---
 
@@ -715,5 +720,135 @@
 <tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">遥操作（Apple Vision Pro 等捕捉人体动作）+ Omniverse 仿真 + Cosmos 世界模型域随机化扩增。</td></tr>
 <tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">可从少量人类示范在约 11 小时内生成约 78 万条合成运动轨迹（约 6500 小时等效人类演示）。</td></tr>
 <tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：图像/视频</li><li><strong>本体感觉</strong>：状态信息</li><li><strong>动作与控制</strong>：动作轨迹/状态</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：语言指令、合成数据生成</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### RT-1 Robotic Dataset
+
+<a id="ds-rt-1-robotic-dataset"></a>
+
+[官方主页](https://robotics-transformer1.github.io/) · [论文](https://arxiv.org/abs/2212.06817)
+
+<a id="rt-1-robotic-dataset-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/rt-1-robotic-dataset-sample-01.jpg" alt="RT-1 Robotic Dataset" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[项目页](https://robotics-transformer1.github.io/) — 展示数据集概览、机器人平台与任务示例。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Google Robotics（Google Research / Everyday Robots）</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">RT-1 论文配套的 700+ 真实任务多机器人数据集，是验证 VLA 可扩展性的经典真实世界语料。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：代码开源（Apache 2.0）；原始数据集未直接公开下载。</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">13 台机器人历时 17 个月人类远程遥操作采集，逐集标注自然语言指令。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">130k+ 条 episode / 700+ 任务指令。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：RGB 图像</li><li><strong>本体感觉</strong>：机器人状态</li><li><strong>动作与控制</strong>：11 维离散动作</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：自然语言任务指令</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### FurnitureBench
+
+<a id="ds-furniturebench"></a>
+
+[官方主页](https://clvrai.github.io/furniture-bench/) · [论文](https://arxiv.org/abs/2305.12821)
+
+<a id="furniturebench-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/furniturebench-sample-01.jpg" alt="FurnitureBench" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[项目页](https://clvrai.github.io/furniture-bench/) — 提供数据集、仿真器与基线代码。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">KAIST CLVR Lab + UC Berkeley</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">真实世界家具组装长时程操作基准，配套 FurnitureSim 仿真器，是评估长时程操作与 sim-to-real 的重要平台。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：代码与数据集完全开源。</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">人类遥操作（Oculus Quest 2 控制器 + 键盘）；配套 IsaacGym 仿真器 FurnitureSim。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">5,100 条遥操作轨迹 / 219.6 小时 / 8 个组装任务（9 种配置）/ 低中高三级初始随机性。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：前视 + 腕部 RGB 相机</li><li><strong>本体感觉</strong>：关节状态</li><li><strong>动作与控制</strong>：关节位置 / 力矩</li><li><strong>力觉</strong>：关节力矩</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：家具部件装配结构信息</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### RoboAgent (RoboSet)
+
+<a id="ds-roboagent"></a>
+
+[官方主页](https://robopen.github.io/) · [论文](https://arxiv.org/abs/2309.01918)
+
+<a id="roboagent-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/roboagent-sample-01.png" alt="RoboAgent (RoboSet)" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[项目页](https://robopen.github.io/) — 展示 RoboSet 数据集与跨任务元学习框架。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Carnegie Mellon University + Meta AI (FAIR)</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">样本高效的多技能操作学习框架与开放数据集，12 种技能 / 38 个任务，是低数据量操作泛化的代表工作。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：数据集与代码开源（MIT License）。</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">遥操作 + 动觉示教（Franka Panda + Robotiq 夹具），配合 SAM 等语义增强离线扩增。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">RoboSet 共 100,050 条轨迹（全量）；训练子集 RoboSet(MT-ACT) 7,500 条 / 12 种技能 / 38 个任务。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：4 视角 RGB</li><li><strong>本体感觉</strong>：关节状态</li><li><strong>动作与控制</strong>：关节位置动作</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：自然语言任务描述</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### TriFinger
+
+<a id="ds-trifinger"></a>
+
+[官方主页](https://is.mpg.de/ei/projects/robot-benchmark) · [论文](https://arxiv.org/abs/2105.02087)
+
+<a id="trifinger-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/trifinger-sample-01.png" alt="TriFinger" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[项目页](https://is.mpg.de/ei/projects/robot-benchmark) — 远程真实机器人共享基准平台，配套 PyBullet 仿真。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Max Planck Institute for Intelligent Systems（MPI-IS）</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">三指灵巧操作的远程真实机器人共享基准，支持全球团队远程提交策略在真实平台自动评测，灵巧手研究的经典平台。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：平台与仿真开源；数据集 CC BY 4.0，加载工具 BSD-3-Clause。</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">全球团队远程提交策略在真实 TriFinger 平台自动执行采集（RRC 竞赛）；另提供 PyBullet 仿真与离线 RL 数据集。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">8 台 TriFinger 平台（3 指 × 3 关节 = 9 DoF）；RRC 2020 数据集 2,856 + 7,422 条 episode。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：三相机 RGB</li><li><strong>本体感觉</strong>：关节位姿 / 速度 / 力矩</li><li><strong>动作与控制</strong>：关节力矩</li><li><strong>力觉</strong>：指尖力传感器</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：物体位姿估计</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### Ravens
+
+<a id="ds-ravens"></a>
+
+[官方主页](https://transporternets.github.io/) · [论文](https://arxiv.org/abs/2010.14406)
+
+<a id="ravens-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/ravens-sample-01.jpg" alt="Ravens" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[项目页](https://transporternets.github.io/) — 提供任务可视化、代码与数据集。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Google（Robotics at Google / Google Research）</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">基于 PyBullet 的视觉桌面操作仿真基准，10 个基础任务 + 5 个难度变体，传输网络（TransporterNets）的评测平台。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：代码与数据开源（Apache 2.0）。</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">仿真生成（脚本化 oracle 演示 / 部分任务含 RL 奖励），真实硬件验证。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">10 个基础任务 + 5 个难度变体；每任务含 scripted oracle 自动生成专家演示。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：RGB-D（深度为核心）</li><li><strong>本体感觉</strong>：物体位姿</li><li><strong>动作与控制</strong>：6-DoF 抓取 + 放置</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：状态与奖励信号</li></ul></td></tr>
 </tbody>
 </table>
