@@ -18,7 +18,7 @@
   <img alt="更新频率" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E9%A2%91%E7%8E%87-%E6%AF%8F%E5%91%A8-22C55E?style=flat-square&labelColor=14532D" />
   <img alt="Awesome" src="https://img.shields.io/badge/Awesome-Curated-2563EB?style=flat-square&labelColor=1E3A8A" />
   <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-Welcome-64748B?style=flat-square&labelColor=334155" />
-  <img alt="Last Commit: 8.26" src="https://img.shields.io/badge/Last%20Commit-8.26-3B82F6?style=flat-square&labelColor=374151" />
+  <img alt="Last Commit: 8.28" src="https://img.shields.io/badge/Last%20Commit-8.28-3B82F6?style=flat-square&labelColor=374151" />
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-  <strong>本周更新（20260826）：</strong>论文与数据集扩充
+  <strong>本周更新（20260828）：</strong>论文与数据集扩充
 </p>
 
 <p align="center">

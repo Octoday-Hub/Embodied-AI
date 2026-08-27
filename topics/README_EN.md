@@ -18,7 +18,7 @@
   <img alt="Update Frequency" src="https://img.shields.io/badge/Update%20Frequency-Weekly-22C55E?style=flat-square&labelColor=14532D" />
   <img alt="Awesome" src="https://img.shields.io/badge/Awesome-Curated-2563EB?style=flat-square&labelColor=1E3A8A" />
   <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-Welcome-64748B?style=flat-square&labelColor=334155" />
-  <img alt="Last Commit: 8.26" src="https://img.shields.io/badge/Last%20Commit-8.26-3B82F6?style=flat-square&labelColor=374151" />
+  <img alt="Last Commit: 8.28" src="https://img.shields.io/badge/Last%20Commit-8.28-3B82F6?style=flat-square&labelColor=374151" />
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-  <strong>This Week (20260826):</strong> Papers & datasets expansion
+  <strong>This Week (20260828):</strong> Papers & datasets expansion
 </p>
 
 <p align="center">
