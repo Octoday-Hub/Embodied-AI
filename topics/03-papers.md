@@ -13,6 +13,18 @@
 ## Embodied Foundation Models
 
 
+### [Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agent](https://arxiv.org/abs/2607.08448)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">在冻结 VLA 之外加一层系统级 Harness，组织复用基础模型为可靠操作原语。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 7 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">清华大学（于超教授团队）联合正行创新、无问芯穹</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>首次将 <strong>Harness Layer</strong>（执行组织系统层）引入具身智能，让冻结的底层 VLA 专注接触密集操作</li><li>Harness 学习如何<strong>组织、调用、复用</strong>基础模型，全程不更新 VLA 权重</li><li>通用系统层框架，可与 <strong>WAM</strong> 等其它具身基础模型组合</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>LIBERO-Pro 扰动评估成功率 <strong>82.4%</strong>（Pi_RLinf 50%、NVIDIA Cap-X 18.2%、Berkeley RATS 43.8%）</li><li>显著提升复杂扰动环境下的任务成功率</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Harness VLA 框架（项目页 harnessvla.github.io）</td></tr>
+</tbody>
+</table>
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.10655)** Artificial Foveated Perception for Mitigating Shortcut Learning in Robotic Foundation Models. 提出人工中央凹感知机制，缓解机器人基础模型中的捷径学习问题。
 
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.09818)** TS-Mask VLA: 2D Temporal-Spatial Masking for VLA with Effective Bridging. 提出2D时空间掩码VLA框架及Bridge Attention条件桥梁，0.5B参数在LIBERO上达95.7%成功率。
@@ -270,6 +282,18 @@
 
 - **[arXiv 2025年11月](https://arxiv.org/abs/2511.01718)** Unified Diffusion VLA: Vision-Language-Action Model via Joint Discrete Denoising Diffusion Process. 通过联合离散去噪扩散过程统一理解、生成和行动的VLA模型.
 
+### [π_RL: Online RL Fine-tuning for Flow-based Vision-Language-Action Models](https://arxiv.org/abs/2510.25889)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">面向流匹配 VLA（π0 / π0.5）的在线强化学习微调框架。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2025 年 10 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">清华大学、北京大学等</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Flow-Noise</strong>：将去噪过程建模为离散时间 MDP，用可学习噪声网络实现精确对数似然计算</li><li><strong>Flow-SDE</strong>：把去噪与智能体-环境交互结合为双层 MDP，通过 ODE-to-SDE 转换实现高效 RL 探索</li><li>解决流匹配动作对数似然难解问题，支持大规模流式 VLA 在线 RL</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>多个基准上 RL 微调在<strong>分布内与分布外</strong>场景均带来显著性能提升</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">πRL 微调框架（基于 π0 / π0.5 等开源模型）</td></tr>
+</tbody>
+</table>
 - **[arXiv 2025年10月](https://arxiv.org/abs/2510.25122)** NanoVLA: Routing Decoupled Vision-Language Understanding for Nano-sized Generalist Robotic Policies. 轻量化VLA架构，通过视觉-语言解耦和动态路由实现高达52倍边缘设备推理加速，参数减少98%.
 
 - **[arXiv 2025年10月](https://arxiv.org/abs/2510.12710)** Reflection-Based Task Adaptation for Self-Improving VLA. 通过失败驱动的反思性RL和成功驱动的质量引导SFT双路径架构，实现VLA模型的快速自主任务自适应.
@@ -655,6 +679,18 @@
 
 - ★ **[AAAI 2026年1月](https://arxiv.org/abs/2601.01948)** SDP: Learning Diffusion Policy from Primitive Skills for Robot Manipulation. 技能条件扩散策略SDP，将可解释的技能学习与条件行动规划相结合，抽象出跨任务的八个可复用原始技能，采用VLM提取离散表示，轻量路由网络为每个状态分配期望的原始技能.
 
+### [H-RDT: Human Manipulation Enhanced Bimanual Robotic Manipulation](https://arxiv.org/abs/2507.23523)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">用大规模自我中心人类操作数据增强双臂机器人操作的扩散基础模型。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2025 年 7 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">清华大学（朱军团队）等</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>2B 参数扩散 Transformer</strong> + flow matching 建模复杂动作分布</li><li>两阶段训练：自我中心人类操作数据预训练 → 跨本体机器人数据微调</li><li><strong>模块化动作编解码器</strong>（Modular Action Encoder/Decoder）支持高效跨本体知识迁移</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>对比从零训练：仿真提升 <strong>13.9%</strong>、真实世界提升 <strong>40.5%</strong></li><li>超越 π0 与 RDT，少样本与鲁棒性评测全面占优</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">H-RDT（代码与预训练模型开源）</td></tr>
+</tbody>
+</table>
 - **[ICRA 2025年6月](https://arxiv.org/abs/2506.20668)** DemoDiffusion: One-Shot Human Imitation using pre-trained Diffusion Policy. 利用预训练的通用扩散策略对通过运动学重定向获得的轨迹进行修正，确保其既遵循人体运动又保持在合理机器人动作分布内，实现单次人类演示的机器人操作模仿.
 
 - **[arXiv 2025年5月](https://arxiv.org/abs/2505.16413)** DexVLA: Plug-in Diffusion Experts for Vision-Language-Action Models. 扩散专家即插即用的VLA增强框架.
@@ -676,6 +712,18 @@
 </tbody>
 </table>
 
+### [HIL-SERL: Precise and Dexterous Robotic Manipulation via Human-in-the-Loop Reinforcement Learning](https://arxiv.org/abs/2410.21845)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">人类在环视觉 RL，1-2.5 小时训练出近完美的精密灵巧操作策略。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2024 年 10 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">UC Berkeley BAIR（Jianlan Luo、Sergey Levine 等）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>整合<strong>人类演示 + 在线纠错</strong>与高效 off-policy RL（RLPD 50/50 混合采样）</li><li>预训练视觉骨干 + <strong>二值奖励分类器</strong> + 底层阻抗控制器保证物理安全</li><li>系统级设计让真实世界 RL 训练仅需 <strong>1-2.5 小时</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>动态操作、精密装配、双臂协调等任务<strong>近完美成功率</strong></li><li>对比模仿学习基线平均成功率提升约 <strong>2 倍</strong>、执行速度快 <strong>1.8 倍</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">HIL-SERL（代码开源，项目页 hil-serl.github.io）</td></tr>
+</tbody>
+</table>
 - **[CoRL 2024年6月](https://arxiv.org/abs/2406.09288)** ManiWAV: Learning Robot Manipulation from In-the-Wild Audio-Visual Data. 从真实世界视听数据学习机器人操纵.
 
 - **[RSS 2024年3月](https://arxiv.org/abs/2403.07788)** DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation. 可扩展、便携的灵巧操作动作捕捉系统.
@@ -713,9 +761,45 @@
 
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.19734)** UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling. 统一人类到人形机器人的物理语言框架，通过视觉锚定的潜在动作分词器连接跨本体策略学习与世界建模.
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.08509)** Visually-grounded Humanoid Agents. 一种面向人形智能体的视觉接地方法，关注具身智能能力。
+### [MIRROR: Visual Motion Imitation via Real-time Retargeting and Teleoperation with Parallel Differential Inverse Kinematics](https://arxiv.org/abs/2603.23995)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">GPU 并行差分逆运动学实现实时、安全的人形视觉运动模仿遥操作。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 3 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">California Institute of Technology（Caltech）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>GPU 并行 continuation-based 差分 IK</strong>：并行求解多个约束 QP，逃离关节极限/奇异点/碰撞边界的局部极小</li><li>自碰撞避免<strong>控制屏障函数（CBF）</strong> + Lyapunov 进展准则选择全局最优更新</li><li>视觉骨骼姿态估计流水线实现 <strong>单目相机实时上半身遥操作</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>在 THEMIS 人形机器人硬件上完成真实世界任务，保持实时性与安全性</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">MIRROR（代码开源，junhengl/mirror）</td></tr>
+</tbody>
+</table>
 - **[arXiv 2026年3月](https://arxiv.org/abs/2603.17927)** RoboForge: Physically Optimized Text-guided Whole-Body Locomotion for Humanoids. 物理优化的人形机器人全身运动生成框架，通过PP-Opt模块双向联合优化运动生成和物理执行，实现文本到物理可行运动的端到端转换.
 - **[arXiv 2025年4月](https://arxiv.org/abs/2504.09532)** Humanoid-COA: Humanoid Agent via Embodied Chain-of-Action Reasoning with Multimodal Foundation Models for Zero-Shot Loco-Manipulation. 首个将基础模型推理与具身动作链机制相结合的人形智能体框架，用于零样本移动操纵.
 - **[arXiv 2025年2月](https://arxiv.org/abs/2502.09247)** Humanoid-VLA: Vision-Language-Action Models for Humanoid Control. 专为人形机器人设计的VLA模型.
+### [HumanPlus: Humanoid Shadowing and Imitation from Humans](https://arxiv.org/abs/2406.10454)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">人形"影子跟随"遥操作 + 自我中心视觉模仿学习的全栈系统。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2024 年 6 月（CoRL 2024 Best Paper Finalist）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Stanford University（Chelsea Finn 团队）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Shadowing</strong>：用 40 小时人类运动数据（AMASS）RL 训练低级策略，仅凭 RGB 相机实时跟踪人体与手部</li><li>通过影子遥操作采集全身数据，再用<strong>自我中心视觉行为克隆</strong>训练技能策略</li><li>33-DoF 180cm 定制人形平台</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>穿鞋站立行走、仓库卸货、叠衣服、打字、打招呼等任务 <strong>60-100% 成功率</strong>（最多 40 个演示）</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">HumanPlus（代码、数据集、硬件材料清单全开源，humanoid-ai.github.io）</td></tr>
+</tbody>
+</table>
+### [OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning](https://arxiv.org/abs/2406.08858)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">以运动学位姿为通用接口的全身人形遥操作与自主学习系统。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2024 年 6 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">CMU（Kris Kitani 团队）等</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>以<strong>运动学位姿为通用控制接口</strong>，支持 VR 头显、语音指令、RGB 相机多种人机交互方式</li><li><strong>RL sim-to-real</strong> 流水线：大规模人形运动数据重定向扩增 + 特权教师策略蒸馏</li><li>可接 GPT-4 等前沿模型实现完全自主</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>真实全身任务：运动、物体搬运与操作、人机交互等</li><li>发布首个<strong>人形全身控制数据集 OmniH2O-6</strong>（6 个日常任务）</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">OmniH2O-6 数据集（omni.human2humanoid.com）</td></tr>
+</tbody>
+</table>
 <a id="navigation-spatial-intelligence" name="navigation-spatial-intelligence"></a>
 <a id="navigation-spatial-intelligence" name="navigation-spatial-intelligence"></a>
 <a id="navigation-spatial-intelligence" name="navigation-spatial-intelligence"></a>
@@ -841,6 +925,18 @@
 
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.25459)** GS-Playground: A High-Throughput Photorealistic Simulator for Vision-Informed Robot Learning. 一个面向机器人操作与视觉知情学习的高吞吐量、照片级真实感仿真器。
 
+### [RoboCasa365: A Large-Scale Simulation Framework for Training and Benchmarking Generalist Robots](https://arxiv.org/abs/2603.04356)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">365 任务、2500 场景的厨房移动操作大规模仿真基准。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 3 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">University of Texas at Austin、NVIDIA Research</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>基于 RoboCasa 平台扩展至 <strong>365 个日常任务 × 2500 厨房场景</strong></li><li>含 <strong>600 小时人类演示 + 1600 小时合成演示</strong>（共 2200+ 小时交互数据）</li><li>系统支持多任务学习、机器人基础模型训练与终身学习评测</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>系统分析任务多样性、数据规模、环境变化对泛化的影响</li><li>用 SOTA 方法在多任务/基础模型/终身学习设定下评测并给出新洞察</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">RoboCasa365 仿真平台与数据</td></tr>
+</tbody>
+</table>
 - **[arXiv 2026年3月](https://arxiv.org/abs/2603.22039)** RAFL: Generalizable Sim-to-Real of Soft Robots with Residual Acceleration Field Learning. 残差加速度场学习框架，用可迁移的单元级校正动力学场增强基础模拟器，基于共享局部特征运行，与全局网格拓扑和离散化无关.
 
 - **[arXiv 2025年11月](https://arxiv.org/abs/2511.02345)** Sim2Real 2.0: A Survey and Benchmark. Sim2Real综述与基准.
@@ -1016,6 +1112,18 @@
 <a id="datasets" name="datasets"></a>
 ## Datasets
 
+### [RynnWorld-Teleop: An Action-Conditioned World Model for Digital Teleoperation](https://arxiv.org/abs/2607.06558)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">用生成式世界模型替代真实机器人，实现"数字遥操作"数据引擎。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 7 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Rynn（睿恩新）团队</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>数字遥操作</strong>：操作者手部姿态流驱动世界模型，从单张参考图合成高保真自我中心视频，解耦数据采集与物理硬件</li><li>深度感知骨骼条件 + 视频扩散 Transformer 渐进式人机训练 + <strong>流式自回归蒸馏</strong></li><li>单张 H100 上 <strong>40+ FPS</strong> 实时交互生成</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>仅用生成数据训练的策略实现<strong>零样本 Sim2Real</strong> 迁移</li><li>用数字遥操作数据增强真实数据集可稳定提升成功率</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">RynnWorld-Teleop 数据引擎</td></tr>
+</tbody>
+</table>
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.04367)** A Perception-Manipulation Robotics System for Food Cutting. 面向食物切割的感知-操作机器人系统。
 
 
@@ -1031,6 +1139,18 @@
 - **[arXiv 2025年10月](https://arxiv.org/abs/2510.11027)** Vlaser-6M: Vlaser: Vision-Language-Action Model with Synergistic Embodied Reasoning. 高质量具身推理数据集，支持空间推理、具身接地、具身QA和任务规划四个维度的评测.
 - **[arXiv 2025年8月](https://arxiv.org/abs/2508.12378)** Embodied-Points-200K: Embodied-R1: Reinforced Embodied Reasoning for General Robotic Manipulation. 通过结合具身和通用视觉推理数据集构建的大规模数据集，支持关键的具身指向能力.
 
+### [DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning](https://arxiv.org/abs/2410.24185)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">从少量人类演示自动生成大规模双臂灵巧操作仿真数据。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2024 年 10 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">NVIDIA、Stanford University</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>从 <strong>60 个源人类演示</strong>自动合成 <strong>21K 条演示</strong>，覆盖双臂灵巧操作多种协调模式</li><li>提供真实到仿真再到真实（real-to-sim-to-real）流水线</li><li>针对灵巧手人形机器人的双臂数据生成</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>在真实世界人形机器人罐子分拣任务上验证可行性</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">DexMimicGen（项目页 dexmimicgen.github.io）</td></tr>
+</tbody>
+</table>
 - **[RSS 2024年3月](https://arxiv.org/abs/2403.12945)** DROID: A Large-Scale In-the-Wild Robot Manipulation Dataset. 真实世界大规模机器人操纵数据集.
 - **[ICRA 2023年11月](https://arxiv.org/abs/2311.12032)** RH20T: A Comprehensive Robotic Dataset for Learning Diverse Skills in Real-World. 真实世界多样化技能学习数据集.
 - **[arXiv 2023年10月](https://arxiv.org/abs/2310.08864)** Open X-Embodiment Dataset: Robotic Learning Datasets and RT-X Models. 最大规模多机器人数据集，22种机器人、100万+轨迹.

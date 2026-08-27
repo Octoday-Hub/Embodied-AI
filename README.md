@@ -31,7 +31,7 @@
 </p>
 
 <p align="center">
-  论文页新增 10 篇经典论文的结构化条目（含 Helix、RDT-1B、RoboMamba、SpatialVLA、Hi Robot、TD-MPC2、MuZero 等 VLA 与世界模型代表作），按发布时间排序、同步英文版；数据集页新增 5 个数据集（RT-1 Robotic Dataset、FurnitureBench、RoboAgent、TriFinger、Ravens），累计 31 个，覆盖真实采集、仿真基准与灵巧操作。
+  论文页新增 10 篇论文的结构化条目（含 HIL-SERL、Harness VLA、HumanPlus、OmniH2O、RoboCasa365 等人形/灵巧/仿真方向代表作），按发布时间排序、同步英文版；数据集页新增 5 个数据集（SoftVTBench、Open-AoE、QuadFM、ManiGuard、EmbodimentSemantic），累计 36 个，覆盖视触觉、自我中心采集、四足运动、操作安全与空间场景图。
 </p>
 
 
@@ -90,7 +90,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🔭（2）瞭望台：追踪前沿技术
 
-> 当前收录 `21` 项竞赛、`10` 场会议、`377` 篇精选论文。
+> 当前收录 `21` 项竞赛、`10` 场会议、`387` 篇精选论文。
 
 查看[学术与竞赛](topics/05-research-hub.md)：
 
@@ -131,7 +131,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 查看[具身智能数据集目录](topics/06-datasets.md)：
 
-聚焦 DROID、Open X-Embodiment / RT-X、RH20T、BridgeData V2、LIBERO、MimicGen、AgiBot World、RoboMIND 等 31 个代表性数据集；按官方来源整理其规模、采集或生成方式、关键模态、数据使用入口与样例图。
+聚焦 DROID、Open X-Embodiment / RT-X、RH20T、BridgeData V2、LIBERO、MimicGen、AgiBot World、RoboMIND 等 36 个代表性数据集；按官方来源整理其规模、采集或生成方式、关键模态、数据使用入口与样例图。
 
 ### 🎒（5）进化：人才风向标
 

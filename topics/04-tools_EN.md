@@ -2,23 +2,37 @@
 
 > 💡 This list is continuously updated. If you find a good tool that is not included, or if existing information needs updating, please submit a [PR](https://github.com/Octoday-Hub/Embodied-AI/pulls) or provide feedback in [Issues](https://github.com/Octoday-Hub/Embodied-AI/issues).
 
-
 <a name=toc></a>
 
 ## Table of Contents
 
 **Categories:** [🎮 Simulation Platforms](#simulation-platforms) · [🤖 Models](#models) · [🧰 General Tools & Libraries](#general-tools) · [🏗️ Learning Frameworks](#learning-frameworks) · [🤖 Robot Projects](#robot-projects) · [🧠 Reasoning / RL](#reasoning-rl) · [🗺️ SLAM & Perception](#slam-perception) · [🔧 Middleware & ROS Tools](#middleware-ros) · [🛒 Other](#other)
 
-
 <a name=simulation-platforms></a>
 
 ## 🎮 Simulation Platforms
 
+### XTDrone
+
+<div align="center">
+  <img src="tools-img/xtdrone.jpg" alt="XTDrone" style="width:100%">
+</div>
+
+<table style="width:100%;display:table;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:1200px" width="1200">An open-source UAV simulation platform built on ROS / PX4 / Gazebo, supporting multiple vehicle types and swarm simulation — a go-to environment for UAV algorithm development and education.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release & maintenance</td><td style="word-wrap:break-word;width:1200px" width="1200">Open-source project, actively maintained (GitHub ⭐ 6.5k).</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:1200px" width="1200">Maintained by robin-shaun and open-source contributors (National University of Defense Technology background).</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li><strong>Multiple vehicle types</strong>: multirotor, fixed-wing, compound-wing UAVs, plus UGVs, USVs, and robotic arms</li><li><strong>Full-stack simulation</strong>: dynamics, sensors (camera / LiDAR / IMU), control, state estimation, and 3D scenes</li><li><strong>Deep integration with PX4 and ROS</strong>, supporting Offboard control, SLAM, and path planning</li><li>Comprehensive tutorials and an active community for teaching and research</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Use cases</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>Developing and validating UAV control, obstacle avoidance, and path planning algorithms</li><li>Visual SLAM, target tracking, formation and swarm simulation</li><li>PX4 firmware development and SITL / HITL validation</li><li>University UAV courses, graduation projects, and competitions</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Case studies</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>Many developers validate algorithms in simulation before deploying to real aircraft</li><li>Used as an entry-level PX4 simulation environment in courses and workshops</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data & models</td><td style="word-wrap:break-word;width:1200px" width="1200">Fully open source; built on the PX4 / Gazebo / ROS ecosystem with built-in example scenes and sensor models.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Official link</td><td style="word-wrap:break-word;width:1200px" width="1200"><a href="https://github.com/robin-shaun/XTDrone">github.com/robin-shaun/XTDrone</a></td></tr>
+</tbody>
+</table>
+
 - **BEHAVIOR-1K** — [`StanfordVL/BEHAVIOR-1K`](https://github.com/StanfordVL/BEHAVIOR-1K) ⭐ 1.5k
   📄 Stanford benchmark for embodied AI agents on 1,000 everyday household activities.
-
-- **XTDrone** — [`robin-shaun/XTDrone`](https://github.com/robin-shaun/XTDrone) ⭐ 6.5k
-  📄 A UAV simulation platform based on PX4, ROS, and Gazebo, supporting swarm simulation.
 
 - **Prometheus** — [`amov-lab/Prometheus`](https://github.com/amov-lab/Prometheus) ⭐ 4.5k
   📄 An open-source system for autonomous UAVs, supporting detection, SLAM, and formation control.
@@ -122,7 +136,6 @@
 - **Webots** — [`cyberbotics.com`](https://cyberbotics.com)
   📄 An open-source cross-platform desktop robot simulation application with a complete environment for modeling, programming, and simulation.
 
-
 - **KWAISEM DexVerse** — [`dexforce.com`](https://www.dexforce.com/)
   📄 A generative simulation engine (released at WAIC 2026) for large-scale embodied AI training, supporting real-time multi-physics simulation and generative simulation for rapid conversion of real scenes into trainable virtual environments.
 [↑ Back to TOC](#toc)
@@ -173,7 +186,6 @@
 - **VIMA** — [`vimalabs.github.io`](https://vimalabs.github.io/)
   📄 A multimodal embodied task benchmark from UIUC, providing complex "block-building" style tasks for evaluating VLAs on visual, linguistic, and spatial reasoning.
 
-
 - **MiniCPM-RobotManip** — [`github.com/OpenBMB/MiniCPM-Robot`](https://github.com/OpenBMB/MiniCPM-Robot)
   📄 A 1.5B general-purpose VLA model (released at WAIC 2026) with 1-minute context memory, 120ms per decision step, top-tier comprehensive VLA benchmark performance.
 
@@ -181,18 +193,33 @@
   📄 A 0.9B end-to-end visual instruction tracking model (released at WAIC 2026) supporting single-target, dynamic multi-target, and ambiguous target tracking at 5+ Hz with offline local deployment.
 [↑ Back to TOC](#toc)
 
-
 <a name=general-tools></a>
 
 ## 🧰 General Tools & Libraries
+
+### Diffusion Policy
+
+<div align="center">
+  <img src="tools-img/diffusion-policy.jpg" alt="Diffusion Policy" style="width:100%">
+</div>
+
+<table style="width:100%;display:table;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:1200px" width="1200">A visuomotor policy that generates action sequences directly with diffusion models — a representative imitation-learning method for robot manipulation.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release & maintenance</td><td style="word-wrap:break-word;width:1200px" width="1200">Released 2023 (RSS 2023, Best Paper Award); actively maintained (GitHub ⭐ 4.1k).</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:1200px" width="1200">Stanford (Cheng Chi, Chelsea Finn, et al.).</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>End-to-end <strong>conditional diffusion (DDPM)</strong> action generation, non-autoregressive</li><li>Naturally represents <strong>multimodal action distributions</strong>, stable training, scales to high-DOF action spaces</li><li>Flexible vision encoders (ResNet / spatial-temporal transformers), multi-camera support</li><li>Official open-source implementation with data and training code</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Use cases</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>Single-arm / bimanual manipulation policy training (imitation learning)</li><li>Dexterous manipulation, tabletop tasks, and long-horizon manipulation</li><li>As the action expert of VLA stacks (e.g., π0, Hi Robot)</li><li>Common baseline for visuomotor and VLA research</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Case studies</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>Complex dexterous tasks on the ALOHA bimanual platform (hanging clothes, tying shoelaces)</li><li>Widely referenced and compared by flow-matching VLA methods such as π0</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data & models</td><td style="word-wrap:break-word;width:1200px" width="1200">Open source (MIT); includes self-collected and simulated demonstration data, supports custom task training.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Official link</td><td style="word-wrap:break-word;width:1200px" width="1200"><a href="https://github.com/real-stanford/diffusion_policy">github.com/real-stanford/diffusion_policy</a></td></tr>
+</tbody>
+</table>
 
 > Covering simulation tools, development frameworks, middleware, benchmarks, and general-purpose libraries
 
 - **AI2-THOR** — [`ai2thor.allenai.org`](https://ai2thor.allenai.org/)
  📄 Semantic interactive simulator from the Allen Institute, with 200+ rooms and 2600+ interactive objects.
-
-- **Diffusion Policy** — [`github.com/real-stanford/diffusion_policy`](https://github.com/real-stanford/diffusion_policy)
- 📄 Diffusion-model-based robot policy learning framework for imitation learning and manipulation.
 
 - **DORA** — [`github.com/dora-rs/dora`](https://github.com/dora-rs/dora)
  📄 Dataflow middleware for AI robotics with low-latency, composable, distributed pipelines.
@@ -254,7 +281,6 @@
 - **RoboTwin 2.0** — [`github.com/RoboTwin-Platform/RoboTwin`](https://github.com/RoboTwin-Platform/RoboTwin)
   📄 A data generation and benchmark platform for bimanual manipulation, emphasizing strong domain randomization, scalable generation, and standardized evaluation.
 
-
 - **TairosAgent** — [`tairos.tencent.com`](https://tairos.tencent.com/)
   📄 An embodied-native agent framework (released at WAIC 2026) with three-layer architecture (perception-reaction, cognitive-decision, exploration-sedimentation) natively designed for embodied tasks.
 
@@ -264,7 +290,6 @@
 - **PhyAI** — [`github.com/OpenBMB/MiniCPM-Robot`](https://github.com/OpenBMB/MiniCPM-Robot)
   📄 An open-source inference framework for Physical AI (released at WAIC 2026), designed for on-device inference and cloud RL rollout, delivering 1.8-2.8x acceleration for π0/π0.5/GR00T models.
 [↑ Back to TOC](#toc)
-
 
 <a name=learning-frameworks></a>
 
@@ -293,7 +318,6 @@
   📄 Build VLA/OpenVLA/SmolVLA/Pi0 from scratch with only Python basics.
 
 [↑ Back to TOC](#toc)
-
 
 <a name=robot-projects></a>
 
@@ -355,7 +379,6 @@
 - **ONE-Robot Unicycle Robot** — [`peng-zhihui/ONE-Robot`](https://github.com/peng-zhihui/ONE-Robot)
  📄 IMU and STM32-based one-wheel self-balancing robot (ZhiHuijun).
 
-
 - **Visual SLAM 14 Lectures** — [`gaoxiang12/slambook2`](https://github.com/gaoxiang12/slambook2) ⭐ 12k
  📄 Classic SLAM Chinese tutorial with companion code (Gao Xiang).
 
@@ -389,7 +412,6 @@
  📄 MYNT EYE stereo camera series with complete SLAM and vision solutions.
 
 ### Others
-
 
 - **ALOHA 2** — [`aloha-2.github.io`](https://aloha-2.github.io/)
  📄 Low-cost open-source hardware platform, with tutorials and MuJoCo simulation models.
@@ -489,7 +511,6 @@
 
 [↑ Back to TOC](#toc)
 
-
 <a name=middleware-ros></a>
 
 ## 🔧 Middleware & ROS Tools
@@ -524,7 +545,6 @@
 - **ROSboard** — [`github.com/dheera/rosboard`](https://github.com/dheera/rosboard)
  📄 A lightweight tool that turns ROS / ROS 2 topics into web dashboards for remote monitoring and mobile viewing.
 
-
 - **rqt_plot** — [`docs.ros.org/en/rolling/p/rqt_plot`](https://docs.ros.org/en/rolling/p/rqt_plot/)
  📄 A common ROS / ROS 2 plotting plugin for viewing topic values in real time during tuning and debugging.
 
@@ -537,14 +557,11 @@
 - **Arduino IDE** — [`www.arduino.cc`](https://www.arduino.cc)
  📄 An open-source electronics prototyping environment suited for quick sensor, actuator, and control-board integration, with support for C / C++ programming.
 
-
 - **Clearpath·Husky** — [`clearpathrobotics.com`](https://clearpathrobotics.com)
  📄 A common ROS research mobile robot platform with standardized interfaces, well suited to outdoor navigation and algorithm validation.
 
 - **Clearpath·TurtleBot 4** — [`www.turtlebot.com`](https://www.turtlebot.com/)
  📄 A plug-and-play ROS 2 starter platform for teaching and research, ideal for navigation and multi-sensor experiments.
-
-
 
 - **MoveIt** — [`moveit.ai`](https://moveit.ai)
  📄 A motion planning, manipulation, and kinematics framework for ROS, widely used for arm planning, grasping, and task orchestration.
@@ -552,9 +569,7 @@
 - **OMPL** — [`ompl.kavrakilab.org`](https://ompl.kavrakilab.org)
  📄 An open-source motion planning library that includes many classic sampling-based planners for path planning and arm planning.
 
-
 [↑ Back to TOC](#toc)
-
 
 <a name=other></a>
 
@@ -563,6 +578,5 @@
 > Tools, platforms, and projects not covered by the above categories
 
 [↑ Back to TOC](#toc)
-
 
 *Data updated: June 22, 2026*

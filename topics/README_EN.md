@@ -31,7 +31,7 @@
 </p>
 
 <p align="center">
-  The papers page adds 10 structured entries for classic works (Helix, RDT-1B, RoboMamba, SpatialVLA, Hi Robot, TD-MPC2, MuZero, and other VLA / world-model highlights), sorted by release date with the English version synced; the datasets page adds 5 datasets (RT-1 Robotic Dataset, FurnitureBench, RoboAgent, TriFinger, Ravens), reaching 31 in total, spanning real-world collection, simulation benchmarks, and dexterous manipulation.
+  The papers page adds 10 structured entries (HIL-SERL, Harness VLA, HumanPlus, OmniH2O, RoboCasa365, and other humanoid / dexterous / simulation highlights), sorted by release date with the English version synced; the datasets page adds 5 datasets (SoftVTBench, Open-AoE, QuadFM, ManiGuard, EmbodimentSemantic), reaching 36 in total, spanning visuo-tactile, egocentric capture, quadruped motion, manipulation safety, and spatial scene graphs.
 </p>
 
 
@@ -90,7 +90,7 @@ A hand-picked selection of books and courses covering the fundamentals of roboti
 
 ### 🔭 (2) Watchtower: Track Frontier Technologies
 
-> Currently featuring `21` competitions, `10` conferences, and `377` selected papers.
+> Currently featuring `21` competitions, `10` conferences, and `387` selected papers.
 
 Check out the [Research & Competition Hub](05-research-hub_EN.md):
 
@@ -131,7 +131,7 @@ A curated map of the global embodied AI enterprise landscape to help you discove
 
 Check the [Embodied AI Dataset Catalog](06-datasets_EN.md):
 
-A focused guide to 31 representative datasets — DROID, Open X-Embodiment / RT-X, RH20T, BridgeData V2, LIBERO, MimicGen, AgiBot World, RoboMIND, and more — documenting official sources, scale, collection or generation methods, key modalities, access paths, and sample images.
+A focused guide to 36 representative datasets — DROID, Open X-Embodiment / RT-X, RH20T, BridgeData V2, LIBERO, MimicGen, AgiBot World, RoboMIND, and more — documenting official sources, scale, collection or generation methods, key modalities, access paths, and sample images.
 
 ### 🎒 (5) Evolution: Talent Compass
 
