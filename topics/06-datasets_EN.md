@@ -1,6 +1,6 @@
 # Embodied AI Datasets
 
-> 31 representative datasets covering real-world collection, cross-embodiment aggregation, RGB-D / force / tactile sensing, tabletop manipulation, simulation benchmarks, and automated data generation. Statistics follow official pages, repositories, and papers.
+> 36 representative datasets covering real-world collection, cross-embodiment aggregation, RGB-D / force / tactile sensing, tabletop manipulation, simulation benchmarks, and automated data generation. Statistics follow official pages, repositories, and papers.
 
 ---
 
@@ -39,6 +39,11 @@
 | [RoboAgent (RoboSet)](#ds-roboagent) | Sample-efficient multi-skill dataset | Real-world | 100K+ trajs / 12 skills / 38 tasks | RGB + language | [Homepage](https://robopen.github.io/) |
 | [TriFinger](#ds-trifinger) | Remote real-robot dexterous benchmark | Real-world + sim | 9-DoF platform / 10K+ episodes | RGB + fingertip force | [Homepage](https://is.mpg.de/ei/projects/robot-benchmark) |
 | [Ravens](#ds-ravens) | Tabletop manipulation simulation benchmark | Simulation | 10 tasks + 5 variants | RGB-D | [Homepage](https://transporternets.github.io/) |
+| [SoftVTBench](#ds-softvtbench) | Visuo-tactile dataset and benchmark for deformable-object manipulation | Real + simulation | 4,000 demos / 50+ assets / 20Hz multimodal | RGB + tactile + FEM states | [Homepage](https://arxiv.org/abs/2608.18701) |
+| [Open-AoE](#ds-open-aoe) | Open egocentric manipulation dataset and toolchain | Real-world | ~2,000 hours / 500+ contributors | Egocentric RGB + MANO hand pose | [Homepage](https://arxiv.org/abs/2607.14183) |
+| [QuadFM](#ds-quadfm) | Text-driven quadruped motion dataset | Motion capture | 11,784 clips / 35,352 descriptions | Motion + language | [Homepage](https://github.com/GaoLii/QuadFM) |
+| [ManiGuard](#ds-maniguard) | Safety benchmark and data suite for manipulation | Real + simulation | 200 tasks / 1,000 scenarios / 8,000 safety-labeled demos | RGB + spec constraints | [Homepage](https://arxiv.org/abs/2608.17386) |
+| [EmbodimentSemantic](#ds-embodimentsemantic) | Spatial scene-graph dataset for embodied manipulation | Real + simulation | 60K+ frames / 120K+ scene graphs | RGB-D + scene graph | [Homepage](https://arxiv.org/abs/2607.00020) |
 
 ---
 
@@ -852,3 +857,132 @@
 <tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: RGB-D (depth as the core)</li><li><strong>Proprioception</strong>: Object poses</li><li><strong>Actions and control</strong>: 6-DoF pick and place</li><li><strong>Force</strong>: None</li><li><strong>Tactile</strong>: None</li><li><strong>Other</strong>: State and reward signals</li></ul></td></tr>
 </tbody>
 </table>
+
+### SoftVTBench
+
+<a id="ds-softvtbench"></a>
+
+[Homepage](https://arxiv.org/abs/2608.18701) · [Paper](https://arxiv.org/abs/2608.18701)
+
+<a id="softvtbench-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/softvtbench-sample-01.png" alt="SoftVTBench" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Paper](https://arxiv.org/abs/2608.18701) - Visuo-tactile dataset and closed-loop benchmark for deformable-object manipulation.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Tsinghua University, Peking University, University of Hong Kong, et al.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Why it matters</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">The first visuo-tactile dataset targeting physical interaction quality for deformable objects: it pairs policy-visible contact observations with independent physical ground truth (FEM finite-element states), exposing hidden failures where the task succeeds but physical interaction is poor.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Usage</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Access</strong>: dataset and code open-sourced.</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Expert teleoperation; synchronized multi-view RGB, dual-finger tactile RGB and marker motion, with evaluator-only FEM states.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">4,000 expert demos / 50+ assets (volumetric deformable objects + visually matched rigid twins) / 20Hz multimodal sync.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: multi-view RGB</li><li><strong>Proprioception</strong>: robot state</li><li><strong>Action</strong>: two-finger gripper actions</li><li><strong>Force</strong>: none</li><li><strong>Tactile</strong>: dual-finger tactile RGB + marker motion</li><li><strong>Other</strong>: language instructions, FEM states (evaluator-only)</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### Open-AoE
+
+<a id="ds-open-aoe"></a>
+
+[Homepage](https://arxiv.org/abs/2607.14183) · [Paper](https://arxiv.org/abs/2607.14183)
+
+<a id="open-aoe-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/open-aoe-sample-01.png" alt="Open-AoE" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Paper](https://arxiv.org/abs/2607.14183) - An open egocentric manipulation dataset with a full toolchain.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Open community collaboration (500+ contributors)</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Why it matters</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">A large-scale community-driven egocentric manipulation dataset covering the full pipeline from smartphone capture to model training, supporting VLA, WAM, and world-model training as well as human-to-robot transfer.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Usage</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Access</strong>: dataset open-sourced with processing and training toolchains.</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Continuous capture in natural environments by 500+ contributors with 400+ smartphones; processed via temporal action segmentation, semantic annotation, hand reconstruction, and camera-trajectory reconstruction.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">~2,000 hours of manipulation video in the first release / 500+ contributors / 400+ smartphones; MANO hand poses, camera trajectories, and temporally localized atomic actions.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: egocentric RGB</li><li><strong>Proprioception</strong>: none (human data)</li><li><strong>Action</strong>: none (generated via cross-embodiment retargeting)</li><li><strong>Force</strong>: none</li><li><strong>Tactile</strong>: none</li><li><strong>Other</strong>: MANO hand pose, camera trajectory, atomic action labels</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### QuadFM
+
+<a id="ds-quadfm"></a>
+
+[Homepage](https://github.com/GaoLii/QuadFM) · [Paper](https://arxiv.org/abs/2603.24021)
+
+<a id="quadfm-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/quadfm-sample-01.png" alt="QuadFM" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[GitHub](https://github.com/GaoLii/QuadFM) - The first foundational text-driven quadruped motion dataset.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Shanghai AI Laboratory, et al. (Li Gao's team)</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Why it matters</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">The first large-scale, ultra-high-fidelity quadruped motion dataset integrating locomotion, interactive, and emotion-expressive behaviors with three-layer language annotations, built for text-to-motion generation and general motion control.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Usage</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Access</strong>: dataset open-sourced on GitHub.</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Motion capture (mocap) of quadruped locomotion with three-layer annotation (fine-grained action labels / interaction scenarios / natural language commands).</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">11,784 curated motion clips (locomotion, interaction, emotion-expressive behaviors such as dancing/stretching) / 35,352 language descriptions.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: none</li><li><strong>Proprioception</strong>: kinematic states</li><li><strong>Action</strong>: motion trajectories/states</li><li><strong>Force</strong>: none</li><li><strong>Tactile</strong>: none</li><li><strong>Other</strong>: fine-grained action labels, interaction scenarios, natural language commands</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### ManiGuard
+
+<a id="ds-maniguard"></a>
+
+[Homepage](https://arxiv.org/abs/2608.17386) · [Paper](https://arxiv.org/abs/2608.17386)
+
+<a id="maniguard-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/maniguard-sample-01.png" alt="ManiGuard" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Paper](https://arxiv.org/abs/2608.17386) - A specification-grounded benchmark and data suite for safety evaluation of foundation-model manipulation.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Northwestern University, et al. (Qi Zhu's team)</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Why it matters</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">The first framework that evaluates "whether manipulation is safe" independently of task success: LTLf-grounded automaton monitors over physics-grounded predicates, covering 200 locked base tasks with 5 perturbation axes.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Usage</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Access</strong>: benchmark and safety-annotated data open-sourced.</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Automated motion-planning generator paired with human teleoperation, annotated by per-step monitors; in simulation and on a physical Franka platform.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">6 task families / 200 locked base tasks / 1,000 locked scenarios / 8,000 safety-annotated demonstrations (40 per task).</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: RGB</li><li><strong>Proprioception</strong>: robot state</li><li><strong>Action</strong>: action trajectories</li><li><strong>Force</strong>: none</li><li><strong>Tactile</strong>: none</li><li><strong>Other</strong>: LTLf specifications, per-step safety monitor annotations</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### EmbodimentSemantic
+
+<a id="ds-embodimentsemantic"></a>
+
+[Homepage](https://arxiv.org/abs/2607.00020) · [Paper](https://arxiv.org/abs/2607.00020)
+
+<a id="embodimentsemantic-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/embodimentsemantic-sample-01.png" alt="EmbodimentSemantic" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Paper](https://arxiv.org/abs/2607.00020) - A spatial scene-graph dataset and benchmark for embodied manipulation.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">KAUST (King Abdullah University of Science and Technology), et al.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Why it matters</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Explicitly models spatial relations as directed object-relation-object triplets (support, containment, ordering, occlusion, depth-sensitive relations) to diagnose the spatial grounding of VLAs and evaluate the benefit of scene graphs for downstream policies.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Usage</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Access</strong>: dataset and benchmark open-sourced.</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Real-world observations collected with the low-cost SO101 arm plus generated scene graphs; LIBERO simulation benchmark with 60K+ manipulation frames where ground-truth relations are derived from MuJoCo geometry, camera projections, and visibility constraints.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">LIBERO benchmark: 60K+ manipulation frames / 120K+ camera-specific scene graphs (third-person + wrist views).</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: RGB-D</li><li><strong>Proprioception</strong>: object poses</li><li><strong>Action</strong>: manipulation trajectories</li><li><strong>Force</strong>: none</li><li><strong>Tactile</strong>: none</li><li><strong>Other</strong>: directed spatial scene graphs (object-relation-object triplets)</li></ul></td></tr>
+</tbody>
+</table>
+

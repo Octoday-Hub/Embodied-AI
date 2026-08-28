@@ -2,23 +2,37 @@
 
 > 💡 本列表持续更新，如果你发现好工具未被收录，或现有信息需要更新，请直接提交 [PR](https://github.com/Octoday-Hub/Embodied-AI/pulls) 或在 [Issues](https://github.com/Octoday-Hub/Embodied-AI/issues) 中反馈。
 
-
 <a name="toc"></a>
 
 ## 目录
 
 **工具与项目分类：** [🎮 仿真平台](#simulation-platforms) · [🤖 模型](#models) · [🧰 通用工具与库](#general-tools) · [🏗️ 学习框架](#learning-frameworks) · [🤖 机器人项目](#robot-projects) · [🧠 推理/强化学习](#reasoning-rl) · [🗺️ SLAM 与感知](#slam-perception) · [🔧 中间件与 ROS 工具](#middleware-ros) · [🛒 其他](#other)
 
-
 <a name="simulation-platforms"></a>
 
 ## 🎮 仿真平台
 
+### XTDrone
+
+<div align="center">
+  <img src="tools-img/xtdrone.jpg" alt="XTDrone" style="width:100%">
+</div>
+
+<table style="width:100%;display:table;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:1200px" width="1200">基于 ROS / PX4 / Gazebo 的开源无人机仿真平台，支持多机型与集群仿真，是无人机算法开发与教学的首选仿真环境。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布与维护</td><td style="word-wrap:break-word;width:1200px" width="1200">开源项目，持续维护更新（GitHub ⭐ 6.5k）。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:1200px" width="1200">robin-shaun 等开源贡献者（国防科技大学背景）。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li><strong>多机型支持</strong>：多旋翼、固定翼、复合翼无人机，以及无人车、无人船、机械臂</li><li><strong>全栈仿真</strong>：动力学、传感器（相机 / 激光 / IMU）、控制、状态估计与 3D 场景</li><li><strong>深度集成 PX4 与 ROS</strong>，支持 Offboard 控制、SLAM、路径规划等算法验证</li><li>配套教程完善、社区活跃，教学与科研广泛使用</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">使用场景</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>无人机控制、避障、路径规划算法的开发与仿真验证</li><li>视觉 SLAM、目标跟踪、编队与集群仿真</li><li>PX4 固件开发与软硬件在环验证（SITL / HITL）</li><li>高校无人机课程、毕业设计与竞赛备赛</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">案例</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>大量无人机开发者先在此仿真验证算法、再部署真机</li><li>被高校课程与工作坊用作 PX4 入门仿真环境</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据与模型</td><td style="word-wrap:break-word;width:1200px" width="1200">完全开源；基于 PX4、Gazebo 与 ROS 生态，自带示例场景与传感器模型。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">官方链接</td><td style="word-wrap:break-word;width:1200px" width="1200"><a href="https://github.com/robin-shaun/XTDrone">github.com/robin-shaun/XTDrone</a></td></tr>
+</tbody>
+</table>
+
 - **BEHAVIOR-1K** — [`StanfordVL/BEHAVIOR-1K`](https://github.com/StanfordVL/BEHAVIOR-1K) ⭐ 1.5k
   📄 斯坦福大学出品，1,000 种日常生活活动的具身 AI 基准测试与仿真平台
-
-- **XTDrone** — [`robin-shaun/XTDrone`](https://github.com/robin-shaun/XTDrone) ⭐ 6.5k
-  📄 基于 PX4、ROS 和 Gazebo 的无人机仿真平台，支持集群仿真
 
 - **Prometheus** — [`amov-lab/Prometheus`](https://github.com/amov-lab/Prometheus) ⭐ 4.5k
   📄 面向自主无人机的开源软件系统，支持目标检测、SLAM 导航、编队控制等
@@ -122,7 +136,6 @@
 - **Webots** — [`cyberbotics.com`](https://cyberbotics.com)
   📄 开源跨平台机器人仿真桌面应用，提供完整的建模、编程与仿真环境。
 
-
 - **跨维智能 DexVerse** — [`dexforce.com`](https://www.dexforce.com/)
   📄 生成式仿真引擎（WAIC 2026 发布），面向具身智能大规模训练的国产自主基础设施，支持实时多物理场仿真与生成式仿真，可将真实场景快速转化为可训练虚拟环境。
 [↑ 回目录](#toc)
@@ -167,7 +180,6 @@
 - **Dexterity-BEV** — 详见 [Dexterity-BEV](https://arxiv.org/abs/2606.02274)
   📄 对齐 3D 世界与动作实现可泛化机器人策略学习
 
-
 - **面壁智能 MiniCPM-RobotManip** — [`github.com/OpenBMB/MiniCPM-Robot`](https://github.com/OpenBMB/MiniCPM-Robot)
   📄 1.5B 通用 VLA 模型（WAIC 2026 发布），保留 1 分钟上下文记忆，单决策步推理 120ms，综合性能位列 VLA 第一梯队。
 
@@ -175,10 +187,28 @@
   📄 0.9B 端到端视觉指令跟踪模型（WAIC 2026 发布），支持单目标/动态多目标/模糊目标跟踪，断网本地部署 5+ Hz。
 [↑ 回目录](#toc)
 
-
 <a name="general-tools"></a>
 
 ## 🧰 通用工具与库
+
+### Diffusion Policy
+
+<div align="center">
+  <img src="tools-img/diffusion-policy.jpg" alt="Diffusion Policy" style="width:100%">
+</div>
+
+<table style="width:100%;display:table;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:1200px" width="1200">用扩散模型直接生成动作序列的视觉运动策略，机器人操作模仿学习的代表性方法。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布与维护</td><td style="word-wrap:break-word;width:1200px" width="1200">2023 年发布（RSS 2023，获最佳论文奖）；开源持续维护（GitHub ⭐ 4.1k）。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:1200px" width="1200">Stanford（Cheng Chi、Chelsea Finn 等）。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>基于<strong>条件扩散模型（DDPM）</strong>端到端生成动作块，非自回归</li><li>天然表达<strong>多模态动作分布</strong>，训练稳定，可扩展至高维动作空间</li><li>视觉编码灵活（ResNet / 时空 Transformer），支持多相机输入</li><li>官方实现开源，附多任务数据与训练代码，易于复现</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">使用场景</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>单臂 / 双臂操作策略训练（模仿学习）</li><li>灵巧操作、桌面任务与复杂长时程操作</li><li>作为 VLA 底层的动作专家（π0、Hi Robot 等采用）</li><li>视觉-语言-动作研究的常用基线</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">案例</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>ALOHA 双臂平台上的挂衣服、系鞋带等复杂灵巧任务</li><li>被 π0 等流匹配 VLA 方法的前身思路广泛参考与对比</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据与模型</td><td style="word-wrap:break-word;width:1200px" width="1200">开源（MIT）；配套自采演示数据与仿真数据，支持自定义任务训练。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">官方链接</td><td style="word-wrap:break-word;width:1200px" width="1200"><a href="https://github.com/real-stanford/diffusion_policy">github.com/real-stanford/diffusion_policy</a></td></tr>
+</tbody>
+</table>
 
 > 涵盖仿真工具、开发框架、中间件、基准和其他通用库
 
@@ -187,9 +217,6 @@
 
 - **cuRobo** — [`github.com/NVlabs/curobo`](https://github.com/NVlabs/curobo)
   📄 NVIDIA 开源的 CUDA 加速机器人运动生成库，支持逆运动学、碰撞检测、轨迹优化与高自由度规划。
-
-- **Diffusion Policy** — [`github.com/real-stanford/diffusion_policy`](https://github.com/real-stanford/diffusion_policy)
-  📄 基于扩散模型的机器人策略学习框架，常用于模仿学习与操作控制研究。
 
 - **DORA** — [`github.com/dora-rs/dora`](https://github.com/dora-rs/dora)
   📄 面向 AI 机器人应用的数据流中间件，支持低时延、可组合、分布式的数据处理管线。
@@ -254,7 +281,6 @@
 - **穹彻智能 RoboPocket** — [`noematrix.ai`](https://www.noematrix.ai/)
   📄 无本体数据采集系统（WAIC 2026 发布），大幅降低真实世界数据采集门槛，单日可管理近万条数据，完全摆脱对遥操作数据的依赖。
 
-
 - **腾讯 TairosAgent 具身智能体框架** — [`tairos.tencent.com`](https://tairos.tencent.com/)
   📄 具身原生智能体框架（WAIC 2026 发布），三层系统（感知反应/认知决策/探索沉淀）全部围绕具身任务原生设计，维护环境/本体/任务三类记忆。
 
@@ -264,7 +290,6 @@
 - **面壁智能 PhyAI 推理框架** — [`github.com/OpenBMB/MiniCPM-Robot`](https://github.com/OpenBMB/MiniCPM-Robot)
   📄 面向 Physical AI 的开源推理框架（WAIC 2026 发布），专为端侧极速推理与云端 RL 大规模 Rollout 设计，支持 π0/π0.5/GR00T 等模型 1.8-2.8 倍加速。
 [↑ 回目录](#toc)
-
 
 <a name="learning-frameworks"></a>
 
@@ -289,7 +314,6 @@
   📄 仅需 Python 基础，从 0 构建 VLA/OpenVLA/SmolVLA/Pi0 的具身智能学习路径
 
 [↑ 回目录](#toc)
-
 
 <a name="robot-projects"></a>
 
@@ -387,7 +411,6 @@
 
 ### 其他
 
-
 - **ALOHA 2** — [`aloha-2.github.io`](https://aloha-2.github.io/)
   📄 面向双臂遥操作与具身数据采集的低成本开源硬件平台，附带教程与 MuJoCo 仿真模型。
 
@@ -431,7 +454,6 @@
   📄 宇树科技四足机器人控制的开源教程项目，适合入门学习与参考
 
 [↑ 回目录](#toc)
-
 
 <a name="reasoning-rl"></a>
 
@@ -483,7 +505,6 @@
   📄 基于图优化与外观闭环检测的视觉 / RGB-D / 激光 SLAM 框架，适合大规模场景建图与定位。
 
 [↑ 回目录](#toc)
-
 
 <a name="middleware-ros"></a>
 
@@ -548,7 +569,6 @@
 
 [↑ 回目录](#toc)
 
-
 <a name="other"></a>
 
 ## 🛒 其他
@@ -556,6 +576,5 @@
 > 未被以上分类覆盖的工具、平台与项目
 
 [↑ 回目录](#toc)
-
 
 *数据更新日期：2026年6月22日*

@@ -1,6 +1,6 @@
 # 具身智能数据集
 
-> 31 个有代表性的具身智能数据集，覆盖真实采集、跨机器人汇总、RGB-D / 力 / 触觉、桌面操作、仿真基准与数据生成。统计以官方主页、仓库与论文为准。
+> 36 个有代表性的具身智能数据集，覆盖真实采集、跨机器人汇总、RGB-D / 力 / 触觉、桌面操作、仿真基准与数据生成。统计以官方主页、仓库与论文为准。
 
 ---
 
@@ -39,6 +39,11 @@
 | [RoboAgent (RoboSet)](#ds-roboagent) | 低数据量多技能操作数据集 | 真实采集 | 100k+ 轨迹 / 12 技能 / 38 任务 | RGB + 语言 | [官方主页](https://robopen.github.io/) |
 | [TriFinger](#ds-trifinger) | 三指灵巧操作远程真实基准 | 真实采集 + 仿真 | 9 DoF 平台 / 10k+ episodes | RGB + 指尖力 | [官方主页](https://is.mpg.de/ei/projects/robot-benchmark) |
 | [Ravens](#ds-ravens) | 桌面操作仿真基准 | 仿真 | 10 任务 + 5 变体 | RGB-D | [官方主页](https://transporternets.github.io/) |
+| [SoftVTBench](#ds-softvtbench) | 视触觉可变形物体操作数据集与基准 | 真实采集 + 仿真 | 4000 演示 / 50+ 资产 / 20Hz 多模态 | RGB + 触觉 + FEM 状态 | [官方主页](https://arxiv.org/abs/2608.18701) |
+| [Open-AoE](#ds-open-aoe) | 开放自我中心操作数据集与工具链 | 真实采集 | 约 2000 小时 / 500+ 贡献者 | 第一人称 RGB + MANO 手部姿态 | [官方主页](https://arxiv.org/abs/2607.14183) |
+| [QuadFM](#ds-quadfm) | 文本驱动四足运动生成数据集 | 动作捕捉 | 11784 条运动片段 / 35352 条描述 | 运动 + 语言 | [官方主页](https://github.com/GaoLii/QuadFM) |
+| [ManiGuard](#ds-maniguard) | 操作安全评估基准与数据套件 | 真实 + 仿真 | 200 任务 / 1000 场景 / 8000 安全标注演示 | RGB + 规范约束 | [官方主页](https://arxiv.org/abs/2608.17386) |
+| [EmbodimentSemantic](#ds-embodimentsemantic) | 具身操作空间场景图数据集与基准 | 真实 + 仿真 | 60K+ 操作帧 / 120K+ 场景图 | RGB-D + 场景图 | [官方主页](https://arxiv.org/abs/2607.00020) |
 
 ---
 
@@ -852,3 +857,132 @@
 <tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：RGB-D（深度为核心）</li><li><strong>本体感觉</strong>：物体位姿</li><li><strong>动作与控制</strong>：6-DoF 抓取 + 放置</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：状态与奖励信号</li></ul></td></tr>
 </tbody>
 </table>
+
+### SoftVTBench
+
+<a id="ds-softvtbench"></a>
+
+[官方主页](https://arxiv.org/abs/2608.18701) · [论文](https://arxiv.org/abs/2608.18701)
+
+<a id="softvtbench-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/softvtbench-sample-01.png" alt="SoftVTBench" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[论文页](https://arxiv.org/abs/2608.18701) — 视触觉可变形物体数据集与闭环基准。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">清华大学、北京大学、香港大学等（多机构合作）</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">首个面向可变形物体物理交互质量的视触觉数据集：同时提供策略可见接触观测与独立物理真值（FEM 有限元状态），支持评估"任务成功但物理交互差"的隐蔽失败。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：数据集与代码开源。</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">专家遥操作演示；多视角 RGB + 双指触觉 RGB + 标记点运动同步采集，含评估者专用 FEM 状态。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">4,000 条专家演示 / 50+ 资产（体积可变形物体 + 视觉匹配刚性孪生）/ 20Hz 多模态同步。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：多视角 RGB</li><li><strong>本体感觉</strong>：本体状态</li><li><strong>动作与控制</strong>：二指夹爪动作</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：双指触觉 RGB + 标记点运动</li><li><strong>其他</strong>：语言指令、FEM 有限元状态（评估专用）</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### Open-AoE
+
+<a id="ds-open-aoe"></a>
+
+[官方主页](https://arxiv.org/abs/2607.14183) · [论文](https://arxiv.org/abs/2607.14183)
+
+<a id="open-aoe-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/open-aoe-sample-01.png" alt="Open-AoE" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[论文页](https://arxiv.org/abs/2607.14183) — 开放自我中心操作数据集与完整工具链。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">开放社区协作（500+ 贡献者）</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">大规模社区驱动自我中心操作数据集，从手机采集到模型训练全覆盖，支持 VLA、WAM 与世界模型训练及人-机器人迁移。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：数据集开源，配套处理与训练工具链。</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">500+ 贡献者用 400+ 智能手机在自然环境中连续采集；时间动作分割、语义标注、手部重建、相机轨迹重建流水线处理。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">首批约 2,000 小时操作视频 / 500+ 贡献者 / 400+ 手机；MANO 手部姿态 + 相机轨迹 + 时间定位原子动作标注。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：第一人称 RGB</li><li><strong>本体感觉</strong>：无（人类数据）</li><li><strong>动作与控制</strong>：无（跨本体重定向生成）</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：MANO 手部姿态、相机轨迹、原子动作标注</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### QuadFM
+
+<a id="ds-quadfm"></a>
+
+[官方主页](https://github.com/GaoLii/QuadFM) · [论文](https://arxiv.org/abs/2603.24021)
+
+<a id="quadfm-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/quadfm-sample-01.png" alt="QuadFM" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[GitHub](https://github.com/GaoLii/QuadFM) — 首个文本驱动的四足基础运动数据集。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">上海人工智能实验室等（Gao Li 团队）</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">首个大规模超高保真四足运动数据集：整合运动、交互与情感表达行为，三层语言标注，面向文本到运动生成与运动控制。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：数据集在 GitHub 开源。</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">动作捕捉（mocap）采集四足运动，三层标注（细粒度动作标签 / 交互场景 / 自然语言指令）。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">11,784 条精选运动片段（走跑、交互、情感表达如跳舞/拉伸）/ 35,352 条语言描述。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：无</li><li><strong>本体感觉</strong>：运动学状态</li><li><strong>动作与控制</strong>：运动轨迹/状态</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：细粒度动作标签、交互场景、自然语言指令</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### ManiGuard
+
+<a id="ds-maniguard"></a>
+
+[官方主页](https://arxiv.org/abs/2608.17386) · [论文](https://arxiv.org/abs/2608.17386)
+
+<a id="maniguard-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/maniguard-sample-01.png" alt="ManiGuard" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[论文页](https://arxiv.org/abs/2608.17386) — 操作基础模型安全的规范驱动评估基准与数据套件。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Northwestern University 等（Qi Zhu 团队）</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">首个把"操作是否安全"与"任务是否成功"独立评估的框架：LTLf 形式化规范监控 + 物理接地谓词，覆盖 200 个锁定基础任务 × 5 类扰动。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：基准与安全标注数据开源。</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">自动运动规划生成器 + 人类遥操作，按逐步监控器标注；仿真 + 物理 Franka 平台。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">6 个任务族 / 200 个锁定基础任务 / 1,000 个锁定场景 / 8,000 条安全标注演示（每任务 40 条）。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：RGB</li><li><strong>本体感觉</strong>：本体状态</li><li><strong>动作与控制</strong>：动作轨迹</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：LTLf 规范、逐步安全监控标注</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### EmbodimentSemantic
+
+<a id="ds-embodimentsemantic"></a>
+
+[官方主页](https://arxiv.org/abs/2607.00020) · [论文](https://arxiv.org/abs/2607.00020)
+
+<a id="embodimentsemantic-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/embodimentsemantic-sample-01.png" alt="EmbodimentSemantic" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[论文页](https://arxiv.org/abs/2607.00020) — 具身操作空间场景图数据集与基准。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">KAUST（King Abdullah University of Science and Technology）等</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">以有向对象-关系-对象三元组显式建模空间关系（支撑/包含/排序/遮挡/深度敏感关系），诊断 VLA 的空间接地能力并评测场景图对下游策略的增益。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：数据集与基准开源。</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">低成本 SO101 机械臂真实操作观测 + 生成场景图；LIBERO 仿真基准 60K+ 操作帧，场景图由 MuJoCo 几何/相机投影/可见性约束自动推导。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">LIBERO 基准 60K+ 操作帧 / 120K+ 相机特定场景图（第三视角 + 腕部视角）。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：RGB-D</li><li><strong>本体感觉</strong>：物体位姿</li><li><strong>动作与控制</strong>：操作轨迹</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：有向空间场景图（对象-关系-对象三元组）</li></ul></td></tr>
+</tbody>
+</table>
+

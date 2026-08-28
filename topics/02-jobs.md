@@ -3629,35 +3629,41 @@
 <td colspan="5" style="padding: 0; border: 0; height: 0; line-height: 0;"><a id="jobs-special-25" name="jobs-special-25"></a></td>
 </tr>
 <tr style="background: #ffffff;">
-<td rowspan="5" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>字节跳动</strong></td>
-<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">具身智能算法研究员-Seed</td>
+<td rowspan="6" style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7; background: #ffffff;"><strong>字节跳动</strong></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">具身智能大模型负责人-Seed</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">社招</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;">北京市</td>
-<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://job.toutiao.com/s/7ETv1459N6U"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec; border-top: 3px solid #d7d7d7;"><div align="center"><a href="https://jobs.bytedance.com/society/position/detail/7512294803342838034"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
 </tr>
 <tr style="background: #ffffff;">
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能3D仿真专家-Seed</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
-<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://job.toutiao.com/s/_mW2UTYD9kA"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://jobs.bytedance.com/society/position/detail/7512294778282035464"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
 </tr>
 <tr style="background: #f6f8fa;">
-<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">多模态世界模型算法工程师/专家-豆包大模型</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人多模态交互算法研究员-Seed</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
-<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://job.toutiao.com/s/NaeT0DuPwNE"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://jobs.bytedance.com/society/position/detail/7470365891252029704"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
 </tr>
 <tr style="background: #ffffff;">
-<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">大语言模型可解释性研究员-Seed</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人运动控制算法工程师-Seed</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">社招</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
-<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://job.toutiao.com/s/OZqN_gW0dqM"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://jobs.bytedance.com/society/position/detail/6740240488294516996"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
 </tr>
 <tr style="background: #f6f8fa;">
-<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">具身智能算法实习生-Seed大模型人才实习</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">角色化模型强化学习算法工程师-Seed</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">校招</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://jobs.bytedance.com/campus/position/7538400864399575303/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+</tr>
+<tr style="background: #ffffff;">
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">机器人多模态大模型算法实习生-Seed</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">实习</td>
 <td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;">北京市</td>
-<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://job.toutiao.com/s/edLWnrv69uY"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
+<td style="padding: 12px; vertical-align: middle; border-bottom: 1px solid #ececec;"><div align="center"><a href="https://jobs.bytedance.com/campus/position/7472653650961615122/detail"><img src="../files/deliver-button.svg" alt="投递" width="92" height="38" /></a></div></td>
 </tr>
 </tbody>
 </table>
