@@ -18,20 +18,21 @@
   <img alt="更新频率" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E9%A2%91%E7%8E%87-%E6%AF%8F%E5%91%A8-22C55E?style=flat-square&labelColor=14532D" />
   <img alt="Awesome" src="https://img.shields.io/badge/Awesome-Curated-2563EB?style=flat-square&labelColor=1E3A8A" />
   <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-Welcome-64748B?style=flat-square&labelColor=334155" />
-  <img alt="Last Commit: 8.28" src="https://img.shields.io/badge/Last%20Commit-8.28-3B82F6?style=flat-square&labelColor=374151" />
+  <img alt="Last Commit: 9.1" src="https://img.shields.io/badge/Last%20Commit-9.1-3B82F6?style=flat-square&labelColor=374151" />
 </p>
 
 <p align="center">
   <img alt="更新论文" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E8%AE%BA%E6%96%87-%2B10-8B5CF6?style=flat-square&labelColor=5B21B6" />
   <img alt="更新数据集" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%95%B0%E6%8D%AE%E9%9B%86-%2B5-F59E0B?style=flat-square&labelColor=92400E" />
+  <img alt="更新工具" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E5%B7%A5%E5%85%B7-%2B1-14B8A6?style=flat-square&labelColor=0F766E" />
 </p>
 
 <p align="center">
-  <strong>本周更新（20260828）：</strong>论文与数据集扩充
+  <strong>本周更新（20260901）：</strong>论文、数据集扩充与工具详解试点
 </p>
 
 <p align="center">
-  论文页新增 10 篇论文的结构化条目（含 HIL-SERL、Harness VLA、HumanPlus、OmniH2O、RoboCasa365 等人形/灵巧/仿真方向代表作），按发布时间排序、同步英文版；数据集页新增 5 个数据集（SoftVTBench、Open-AoE、QuadFM、ManiGuard、EmbodimentSemantic），累计 36 个，覆盖视触觉、自我中心采集、四足运动、操作安全与空间场景图。
+  论文页新增 10 篇论文的结构化条目（Gemini Robotics、CogACT、DexVLA、UP-VLA、WorldVLA、3D-VLA、RoboDual、ForceVLA、Moto、DayDreamer），按发布时间排序、同步英文版；数据集页新增 5 个数据集（DexYCB、OakInk、GraspNet-1Billion、HOI4D、ARCTIC），累计 41 个，覆盖手物捕捉、操作意图、密集抓取、类级 4D 交互与铰接物体；工具页 Genesis 升级为论文式详解条目（含使用场景与案例）。
 </p>
 
 
@@ -90,7 +91,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🔭（2）瞭望台：追踪前沿技术
 
-> 当前收录 `21` 项竞赛、`10` 场会议、`387` 篇精选论文。
+> 当前收录 `21` 项竞赛、`10` 场会议、`397` 篇精选论文。
 
 查看[学术与竞赛](topics/05-research-hub.md)：
 
@@ -113,7 +114,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🔧（3）锤炼：整合工程实践
 
-> 当前收录 `156` 个工具与开源项目。
+> 当前收录 `157` 个工具与开源项目。
 
 查看[工具与开源项目](topics/04-tools.md)：
 

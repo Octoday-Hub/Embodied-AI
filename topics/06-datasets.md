@@ -1,6 +1,6 @@
 # 具身智能数据集
 
-> 36 个有代表性的具身智能数据集，覆盖真实采集、跨机器人汇总、RGB-D / 力 / 触觉、桌面操作、仿真基准与数据生成。统计以官方主页、仓库与论文为准。
+> 41 个有代表性的具身智能数据集，覆盖真实采集、跨机器人汇总、RGB-D / 力 / 触觉、桌面操作、仿真基准与数据生成。统计以官方主页、仓库与论文为准。
 
 ---
 
@@ -44,6 +44,11 @@
 | [QuadFM](#ds-quadfm) | 文本驱动四足运动生成数据集 | 动作捕捉 | 11784 条运动片段 / 35352 条描述 | 运动 + 语言 | [官方主页](https://github.com/GaoLii/QuadFM) |
 | [ManiGuard](#ds-maniguard) | 操作安全评估基准与数据套件 | 真实 + 仿真 | 200 任务 / 1000 场景 / 8000 安全标注演示 | RGB + 规范约束 | [官方主页](https://arxiv.org/abs/2608.17386) |
 | [EmbodimentSemantic](#ds-embodimentsemantic) | 具身操作空间场景图数据集与基准 | 真实 + 仿真 | 60K+ 操作帧 / 120K+ 场景图 | RGB-D + 场景图 | [官方主页](https://arxiv.org/abs/2607.00020) |
+| [DexYCB](#ds-dexycb) | NVIDIA 手物捕捉基准数据集 | 真实采集 | 58.2 万帧 / 1,000 序列 / 20 物体 | RGB-D + 6D 位姿 + 3D 手部 | [官方主页](https://dex-ycb.github.io/) |
+| [OakInk](#ds-oakink) | 手部操作意图与可供性数据集 | 真实采集 + 虚拟迁移 | 5 万次交互 / 1,800 物体 affordance 库 | RGB-D + 手部姿态 + 意图标注 | [官方主页](https://oakink.net/) |
+| [GraspNet-1Billion](#ds-graspnet) | 大规模密集抓取位姿数据集 | 真实采集 | 97,280 张 RGB-D / 190 场景 / 超 11 亿抓取位姿 | RGB-D + 6D 位姿 + 抓取标注 | [官方主页](https://graspnet.net/) |
+| [HOI4D](#ds-hoi4d) | 类别级动态手物交互 4D 数据集 | 真实采集 | 240 万帧 / 4,000+ 序列 / 800 物体实例 | RGB-D 4D 点云 + 3D 手姿态 | [官方主页](https://hoi4d.github.io/) |
+| [ARCTIC](#ds-arctic) | 铰接物体手物交互数据集 | 真实采集 | 210 万帧 / 339 序列 / 11 个铰接物体 | RGB 双视角 + 3D 手/物网格 + 接触标注 | [官方主页](https://arctic.is.tue.mpg.de/) |
 
 ---
 
@@ -858,6 +863,8 @@
 </tbody>
 </table>
 
+---
+
 ### SoftVTBench
 
 <a id="ds-softvtbench"></a>
@@ -983,6 +990,135 @@
 <tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">低成本 SO101 机械臂真实操作观测 + 生成场景图；LIBERO 仿真基准 60K+ 操作帧，场景图由 MuJoCo 几何/相机投影/可见性约束自动推导。</td></tr>
 <tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">LIBERO 基准 60K+ 操作帧 / 120K+ 相机特定场景图（第三视角 + 腕部视角）。</td></tr>
 <tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：RGB-D</li><li><strong>本体感觉</strong>：物体位姿</li><li><strong>动作与控制</strong>：操作轨迹</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：有向空间场景图（对象-关系-对象三元组）</li></ul></td></tr>
+</tbody>
+</table>
+---
+
+### DexYCB
+
+<a id="ds-dexycb"></a>
+
+[官方主页](https://dex-ycb.github.io/) · [论文](https://arxiv.org/abs/2104.04631)
+
+<a id="dexycb-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/dexycb-sample-01.png" alt="DexYCB" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[论文页](https://arxiv.org/abs/2104.04631) — NVIDIA 出品的手物捕捉基准数据集。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">NVIDIA、华盛顿大学等</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">全标定多视角工业级手物捕捉基准：8 台同步相机 + 精确物体 6D 位姿与 3D 手部关节真值，是手物姿态估计与灵巧抓取研究的标准评测集。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：数据集开源（官方 GitHub 提供下载脚本）。</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">8 台同步 RGB-D 相机围拍；Vicon 外参标定；物体为 YCB 集合中的 20 个已知物体，6D 位姿由人工标注 + 模型对齐获得。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><strong>58.2 万帧</strong> / 1,000 段序列 / 20 个物体 / 10 名受试者 / 8 相机视角。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：多视角 RGB-D</li><li><strong>本体感觉</strong>：物体 6D 位姿</li><li><strong>动作与控制</strong>：无（感知数据集）</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：3D 手部关节（MANO 模型参数）、物体语义掩码</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### OakInk
+
+<a id="ds-oakink"></a>
+
+[官方主页](https://oakink.net/) · [论文](https://arxiv.org/abs/2203.15709)
+
+<a id="oakink-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/oakink-sample-01.png" alt="OakInk" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[论文页](https://arxiv.org/abs/2203.15709) — 手部操作意图与可供性理解数据集。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">南京大学、香港中文大学（CUHK）等</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"> unique 之处在于<strong>操作意图（intent）标注</strong>与物体可供性（affordance）建模：从 Oak 墨镜库构建 1,800 个物体 affordance，并用虚拟迁移（Tink）合成跨物体交互，是意图驱动手物交互研究的核心数据集。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：数据集开源（官方 GitHub 提供下载脚本）。</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">实拍（4 视角 RGB-D）+ 虚拟迁移：实拍手物交互标注 MANO 姿态与意图短语，虚拟迁移把抓取姿态重定向到同 affordance 的 1,800 个 Oak 物体。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><strong>5 万次</strong>手物交互 / 1,800 个物体 affordance 库 / 100 个实拍物体。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：4 视角 RGB-D</li><li><strong>本体感觉</strong>：物体 6D 位姿</li><li><strong>动作与控制</strong>：无（感知数据集）</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：MANO 手部姿态、操作意图文本、affordance 标注、虚拟迁移交互（Tink）</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### GraspNet-1Billion
+
+<a id="ds-graspnet"></a>
+
+[官方主页](https://graspnet.net/) · [论文](https://arxiv.org/abs/1912.13470)
+
+<a id="graspnet-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/graspnet-sample-01.png" alt="GraspNet-1Billion" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[论文页](https://arxiv.org/abs/1912.13470) — 大规模密集抓取位姿基准数据集。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">上海交通大学 MVIG 等</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">抓取检测领域的标准基准：190 个杂乱场景、<strong>超 11 亿</strong>个标注抓取位姿（正/负样本分级标注），配套统一评测脚本与排名榜。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：数据集与评测工具开源（graspnetAPI）。</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">双相机（Kinect Azure + RealSense D435）采集 190 个杂乱场景；抓取位姿由力仿真（FleX）穷举生成并按力闭合评估分级标注。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><strong>97,280 张</strong> RGB-D 图像 / 190 个场景 / 88 个物体 / <strong>超 11 亿</strong>抓取位姿标注。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：双相机 RGB-D</li><li><strong>本体感觉</strong>：物体 6D 位姿</li><li><strong>动作与控制</strong>：抓取位姿（6-DoF 平移+旋转+宽度）</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：正/负抓取分级标签、场景分割掩码</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### HOI4D
+
+<a id="ds-hoi4d"></a>
+
+[官方主页](https://hoi4d.github.io/) · [论文](https://arxiv.org/abs/2203.01577)
+
+<a id="hoi4d-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/hoi4d-sample-01.png" alt="HOI4D" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[论文页](https://arxiv.org/abs/2203.01577) — 类别级动态手物交互 4D 数据集。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">清华大学、北京航空航天大学等</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">类别级（category-level）动态手物 4D 交互的标杆：4D 全景点云 + 运动分割 + 类别级物体位姿 + 动作分割多任务标注，支撑动态场景下的手物联合感知研究。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：数据集开源（官方 GitHub 提供下载脚本）。</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">单目 RGB-D 相机自由移动采集室内真实场景；逐帧 4D 全景分割与类别级物体位姿人工标注。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><strong>240 万帧</strong> RGB-D / 4,000+ 序列 / 800 个物体实例 / 16 个类别 / 610 个房间 / 9 名参与者。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：RGB-D 4D 点云</li><li><strong>本体感觉</strong>：类别级物体 6D 位姿</li><li><strong>动作与控制</strong>：无（感知数据集）</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：3D 手部姿态、全景/运动分割、动作分割标注</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### ARCTIC
+
+<a id="ds-arctic"></a>
+
+[官方主页](https://arctic.is.tue.mpg.de/) · [论文](https://arxiv.org/abs/2204.13662)
+
+<a id="arctic-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/arctic-sample-01.png" alt="ARCTIC" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[论文页](https://arxiv.org/abs/2204.13662) — 铰接物体手物交互数据集。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">ETH Zürich、Max Planck 智能系统研究所、阿姆斯特丹大学</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">聚焦<strong>铰接物体</strong>（剪刀、刀、笔、笔记本电脑等 11 类）的手物交互：同时提供第三人称与第一人称（头戴）双视角 RGB 与 3D 手/物网格，含动态接触标注。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：数据集开源（官方提供下载脚本）。</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">10 名受试者操作 11 个日常铰接物体（开/关/使用/手递手等交互）；磁追+多目重建 3D 手部与物体网格。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><strong>210 万帧</strong> / 339 段序列 / 10 名受试者 / 11 个铰接物体。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：第三人称 + 第一人称双视角 RGB</li><li><strong>本体感觉</strong>：物体铰接状态</li><li><strong>动作与控制</strong>：无（感知数据集）</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：MANO 手部 / SMPL-X 身体网格、物体网格、动态接触标注</li></ul></td></tr>
 </tbody>
 </table>
 

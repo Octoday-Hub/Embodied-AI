@@ -18,20 +18,21 @@
   <img alt="Update Frequency" src="https://img.shields.io/badge/Update%20Frequency-Weekly-22C55E?style=flat-square&labelColor=14532D" />
   <img alt="Awesome" src="https://img.shields.io/badge/Awesome-Curated-2563EB?style=flat-square&labelColor=1E3A8A" />
   <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-Welcome-64748B?style=flat-square&labelColor=334155" />
-  <img alt="Last Commit: 8.28" src="https://img.shields.io/badge/Last%20Commit-8.28-3B82F6?style=flat-square&labelColor=374151" />
+  <img alt="Last Commit: 9.1" src="https://img.shields.io/badge/Last%20Commit-9.1-3B82F6?style=flat-square&labelColor=374151" />
 </p>
 
 <p align="center">
   <img alt="Papers Updated" src="https://img.shields.io/badge/Papers%20Updated-%2B10-8B5CF6?style=flat-square&labelColor=5B21B6" />
   <img alt="Datasets Updated" src="https://img.shields.io/badge/Datasets%20Updated-%2B5-F59E0B?style=flat-square&labelColor=92400E" />
+  <img alt="Tools Updated" src="https://img.shields.io/badge/Tools%20Updated-%2B1-14B8A6?style=flat-square&labelColor=0F766E" />
 </p>
 
 <p align="center">
-  <strong>This Week (20260828):</strong> Papers & datasets expansion
+  <strong>This Week (20260901):</strong> Papers, datasets expansion & tool deep-dive pilot
 </p>
 
 <p align="center">
-  The papers page adds 10 structured entries (HIL-SERL, Harness VLA, HumanPlus, OmniH2O, RoboCasa365, and other humanoid / dexterous / simulation highlights), sorted by release date with the English version synced; the datasets page adds 5 datasets (SoftVTBench, Open-AoE, QuadFM, ManiGuard, EmbodimentSemantic), reaching 36 in total, spanning visuo-tactile, egocentric capture, quadruped motion, manipulation safety, and spatial scene graphs.
+  The papers page adds 10 structured entries (Gemini Robotics, CogACT, DexVLA, UP-VLA, WorldVLA, 3D-VLA, RoboDual, ForceVLA, Moto, DayDreamer), sorted by release date with the English version synced; the datasets page adds 5 datasets (DexYCB, OakInk, GraspNet-1Billion, HOI4D, ARCTIC), reaching 41 in total, covering hand-object capture, manipulation intent, dense grasping, category-level 4D interaction, and articulated objects; the tools page upgrades Genesis into a paper-style deep-dive entry (with use cases and case studies).
 </p>
 
 
@@ -90,7 +91,7 @@ A hand-picked selection of books and courses covering the fundamentals of roboti
 
 ### 🔭 (2) Watchtower: Track Frontier Technologies
 
-> Currently featuring `21` competitions, `10` conferences, and `387` selected papers.
+> Currently featuring `21` competitions, `10` conferences, and `397` selected papers.
 
 Check out the [Research & Competition Hub](05-research-hub_EN.md):
 
@@ -113,7 +114,7 @@ Browse curated papers on embodied intelligence, deepen your understanding with o
 
 ### 🔧 (3) Forge: Integrate Engineering Practice
 
-> Currently featuring `156` tools, open-source projects, and development frameworks.
+> Currently featuring `157` tools, open-source projects, and development frameworks.
 
 Check out [Tools & Open-Source Projects](04-tools_EN.md):
 

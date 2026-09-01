@@ -319,6 +319,18 @@
 
 - **[arXiv July 2025](https://arxiv.org/abs/2507.01424)** TriVLA: A Triple-System Vision-Language-Action Model with Episodic World Modeling. A triple-system VLA architecture spanning perception, world modeling, and action, where episodic world models strengthen long-horizon task planning.
 
+### [WorldVLA: Towards Autoregressive Action World Model](https://arxiv.org/abs/2506.21539)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Unifies VLA and world models in a single autoregressive framework for bidirectional image-action understanding and generation.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Jun 2025</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Alibaba DAMO Academy, Hupan Lab, Zhejiang University</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Three tokenizers (image/text/action) sharing one vocabulary</strong></li><li>An <strong>action attention masking</strong> strategy suppresses error accumulation in action-chunk generation</li><li>Outperforms OpenVLA without large-scale pretraining</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>LIBERO grasp success rate <strong>+4%</strong> over an action-only model with the same backbone</li><li>Video generation FVD reduced by <strong>10%</strong></li><li>Masking strategy lifts action-chunk success by <strong>4%~23%</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">WorldVLA (code open-sourced, alibaba-damo-academy)</td></tr>
+</tbody>
+</table>
 - **[arXiv June 2025](https://arxiv.org/abs/2506.04500)** Don't Do That. Guiding Embodied Systems through Large Language Model-based Constraint Generation. Introduces the STPR constraint-generation framework, using LLMs to translate natural-language constraints into executable Python functions for point-cloud representations and classical search-based navigation.
 
 - **[arXiv June 2025](https://arxiv.org/abs/2506.00411)** LoHoVLA: Vision-Language-Action Model for Long-Horizon Embodied Tasks. A VLA model tailored for long-horizon embodied tasks, using hierarchical action prediction to mitigate error accumulation in compound tasks.
@@ -351,6 +363,18 @@
 </tbody>
 </table>
 
+### [Gemini Robotics: Bringing AI into the Physical World](https://arxiv.org/abs/2503.20020)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A VLA generalist family built on Gemini 2.0, bringing multimodal reasoning to real-robot control.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Mar 2025</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Google DeepMind (Gemini Robotics Team)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Two models: the VLA main model and the <strong>Gemini Robotics-ER</strong> embodied reasoning variant</li><li><strong>3D understanding</strong>: multi-view correspondence, 3D bounding boxes, grasp detection</li><li>New short-horizon tasks learned from only <strong>100 demonstrations</strong></li><li>Adaptable to new embodiments (dual-arm platforms, high-DoF humanoids)</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Solves long-horizon dexterous tasks (origami fox, card games)</li><li>ER model enables zero-shot robot code generation and few-shot in-context adaptation</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Gemini Robotics (closed-source, API access)</td></tr>
+</tbody>
+</table>
 - **[arXiv March 2025](https://arxiv.org/abs/2503.12438)** ChatVLA: Multimodal Understanding and Robot Control. Conversational multimodal understanding and robot control.
 
 - **[arXiv March 2025](https://arxiv.org/abs/2503.04123)** SmolVLA: Efficient Vision-Language-Action Models for Robotics. A lightweight VLA model for robotics that is suitable for edge deployment.
@@ -381,6 +405,18 @@
 </tbody>
 </table>
 
+### [DexVLA: Vision-Language Model with Plug-In Diffusion Expert for General Robot Control](https://arxiv.org/abs/2502.05855)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A billion-parameter diffusion action expert with embodied curriculum learning for cross-embodiment VLA.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Feb 2025 (CoRL 2025)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Midea Group, East China Normal University</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>1B-parameter</strong> multi-head diffusion expert, one head per embodiment</li><li>Three-stage curriculum: cross-embodiment pretraining → embodiment alignment → task post-training</li><li>Sub-step reasoning autonomously decomposes long-horizon tasks</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Outperforms OpenVLA, Octo, Diffusion Policy across single-arm / bimanual / dexterous embodiments</li><li>New embodiments learn complex skills from only <strong>100 demos</strong></li><li>Pretrained on just <strong>100 hours</strong> of demonstrations; completes 2-minute+ laundry-folding long-horizon tasks</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">DexVLA (code open-sourced, dex-vla.github.io)</td></tr>
+</tbody>
+</table>
 ### [Helix: A Vision-Language-Action Model for Generalist Humanoid Control](https://www.figure.ai/news/helix)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -407,6 +443,18 @@
 </tbody>
 </table>
 
+### [UP-VLA: A Unified Understanding and Prediction Model for Embodied Agent](https://arxiv.org/abs/2501.18867)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A VLA pretraining paradigm unifying multimodal understanding and future prediction objectives.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Jan 2025 (ICML 2025)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Tsinghua University, Shanghai Qi Zhi Institute</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Dual visual pathways: <strong>CLIP-ViT continuous + VQ-GAN discrete</strong> encodings (Phi-1.5 backbone)</li><li>Understanding-enhanced prompting mechanism</li><li>Mixed pretraining on Bridge data + LLaVA-665k</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>CALVIN ABC→D <strong>+33%</strong> over prior SOTA</li><li>Marked gains on real-world tasks requiring precise spatial information</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">UP-VLA (code open-sourced)</td></tr>
+</tbody>
+</table>
 - **[arXiv January 2025](https://arxiv.org/abs/2409.20537)** HPT: Hierarchical Pre-trained Transformer for Robot Learning. A hierarchical pretraining transformer architecture that uses layered representations to support efficient transfer across robot tasks.
 
 - ★ **[CVPR January 2025](https://arxiv.org/abs/2501.10105)** UniAct: Universal Actions for Enhanced Embodied Foundation Models. Introduces a universal action space that maps low-level controls from different robots into normalized action representations, improving cross-platform generalization.
@@ -426,6 +474,42 @@
 </tbody>
 </table>
 
+### [Moto: Latent Motion Token as the Bridging Language for Learning Robot Manipulation from Videos](https://arxiv.org/abs/2412.04445)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Unsupervised "latent motion tokens" bridge video pretraining to real robot control.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Dec 2024 (ICCV 2025)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">University of Hong Kong, Tencent AI Lab</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>A VQ-VAE-style <strong>Latent Motion Tokenizer</strong> compresses inter-frame motion into discrete tokens</li><li>Moto-GPT autoregressively predicts the next motion token</li><li>Co-fine-tuning connects motion priors to real control</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Only <strong>98M parameters</strong>, matches <strong>55B</strong> models (RT-2-X) on SIMPLER and CALVIN</li><li>Human-video pretraining further boosts manipulation performance</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Moto (code open-sourced)</td></tr>
+</tbody>
+</table>
+### [CogACT: A Foundational VLA Model for Synergizing Cognition and Action in Robotic Manipulation](https://arxiv.org/abs/2411.19650)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A componentized VLA: the VLM handles cognition while a DiT diffusion module specializes in action generation.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Nov 2024</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Tsinghua University, Microsoft Research Asia, et al.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>DINOv2+SigLIP vision, LLaMA-2 language, DiT action module (up to <strong>300M parameters</strong>, 7B total)</li><li>Adaptive Action Ensemble (AAE) strategy</li><li>Pretrained on <strong>0.4M trajectories</strong> (OXE subset)</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Beats OpenVLA by <strong>35%</strong> in simulation and <strong>55%</strong> on real robots</li><li>Surpasses RT-2-X (55B) by <strong>18%</strong> absolute success in simulation</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">CogACT (code and models open-sourced, cogact.github.io)</td></tr>
+</tbody>
+</table>
+### [RoboDual: Towards Synergistic, Generalized, and Efficient Dual-System for Robotic Manipulation](https://arxiv.org/abs/2410.08001)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A synergistic dual system pairing a VLA generalist (slow) with a diffusion-transformer specialist (fast).</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Oct 2024</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Shanghai AI Laboratory, Shanghai Jiao Tong University, HKU, AgiBot</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>The generalist provides high-level understanding and discrete actions; the specialist unrolls multi-step actions</li><li>The specialist has only <strong>20M trainable parameters</strong></li><li>~4Hz generalist inference, <strong>20Hz</strong> specialist execution</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Real-world success rate <strong>+26.7%</strong> over OpenVLA, <strong>+12%</strong> on CALVIN</li><li>Strong performance with only <strong>5% of demonstration data</strong></li><li><strong>3.8×</strong> control frequency</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">RoboDual (code open-sourced)</td></tr>
+</tbody>
+</table>
 ### [π0: A Vision-Language-Action Flow Model](https://arxiv.org/abs/2410.24164)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -495,6 +579,18 @@
 </tbody>
 </table>
 
+### [3D-VLA: A 3D Vision-Language-Action Generative World Model](https://arxiv.org/abs/2403.09631)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A generative world model connecting 3D perception, reasoning, and action for embodied AI.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Mar 2024 (ICML 2024)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">UMass Amherst, Shanghai Jiao Tong University, MIT-IBM Watson AI Lab, et al.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Built on <strong>3D-LLM</strong> with interaction tokens</li><li>An embodied diffusion model generates target images and point clouds</li><li>Curates a <strong>2M-pair</strong> 3D-language-action instruction dataset</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Substantially outperforms baselines on held-in sets in reasoning, multimodal generation, and planning</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">3D-VLA (code and diffusion weights open-sourced on Hugging Face)</td></tr>
+</tbody>
+</table>
 - **[arXiv February 2024](https://arxiv.org/abs/2402.06149)** GR-2: A Generative Video-Language-Action Model for Robot Manipulation. A generative video-language-action model that learns general visual representations through large-scale video pretraining before fine-tuning on robot manipulation tasks.
 
 - **[arXiv January 2024](https://arxiv.org/abs/2401.12963)** AutoRT: Embodied Foundation Models for Large-Scale Robot Orchestration. A system for large-scale robot orchestration with foundation models, combining LLM-based task decomposition with VLM-based environment understanding to collect data across multiple robots in parallel.
@@ -694,6 +790,18 @@
 
 - **[ICRA June 2025](https://arxiv.org/abs/2506.20668)** DemoDiffusion: One-Shot Human Imitation using pre-trained Diffusion Policy. Uses a pretrained general diffusion policy to correct trajectories produced by kinematic retargeting, keeping them consistent with human motion while staying inside a valid robot action distribution.
 
+### [ForceVLA: Enhancing VLA Models with a Force-aware MoE for Contact-rich Manipulation](https://arxiv.org/abs/2505.22159)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Introduces 6-axis force sensing as a first-class modality via a force-aware MoE framework for VLAs.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">May 2025 (NeurIPS 2025)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Shanghai Jiao Tong University, Fudan University, NUS, et al.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>FVLMoE</strong> force-aware mixture-of-experts fuses real-time force feedback during action decoding</li><li>Force-aware routing splits experts by modality and stage</li><li>Synchronized capture of vision + proprioception + force-torque signals</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Average task success rate <strong>+23.2%</strong> over the π0 baseline</li><li>Up to <strong>80%</strong> success on plug-insertion tasks</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">ForceVLA-Data (code and data open-sourced)</td></tr>
+</tbody>
+</table>
 - **[arXiv May 2025](https://arxiv.org/abs/2505.16413)** DexVLA: Plug-in Diffusion Experts for Vision-Language-Action Models. A plug-in diffusion expert framework for strengthening VLA manipulation performance.
 
 - **[arXiv April 2025](https://arxiv.org/abs/2504.05291)** ObjectVLA: Open-World Object Manipulation without Demonstrations. A VLA system for open-world object manipulation that does not rely on demonstrations.
@@ -1072,6 +1180,18 @@
 </tbody>
 </table>
 
+### [DayDreamer: World Models for Physical Robot Learning](https://arxiv.org/abs/2206.14176)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Brings the Dreamer world model directly to real-robot online RL, ditching the simulator.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Jun 2022 (CoRL 2022)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">UC Berkeley (Danijar Hafner, Sergey Levine, Pieter Abbeel, et al.)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>RSSM world model</strong> + actor-critic training in imagination</li><li>Unified hyperparameters across <strong>4 robots</strong> (quadruped, bimanual arm, wheeled)</li><li>Full infrastructure open-sourced</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>A quadruped learns roll-over, stand, and walk from scratch in <strong>1 hour</strong></li><li>Adapts to perturbations within <strong>10 minutes</strong></li><li>Vision-based pick-and-place approaches human-level performance</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">DayDreamer (code open-sourced, danijar.com/daydreamer)</td></tr>
+</tbody>
+</table>
 - **[IROS December 2020](https://arxiv.org/abs/2012.02924)** iGibson 1.0: A Simulation Environment for Interactive Tasks in Large Realistic Scenes. A simulation environment for interactive tasks in large realistic scenes.
 
 - **[CoRL September 2020](https://arxiv.org/abs/2009.12293)** robosuite: A Modular Simulation Framework and Benchmark for Robot Learning. A modular simulation framework and benchmark for robot learning.
