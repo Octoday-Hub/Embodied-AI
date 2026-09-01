@@ -12,6 +12,26 @@
 
 ## 🎮 仿真平台
 
+### Genesis
+
+<div align="center">
+  <img src="tools-img/genesis.jpg" alt="Genesis" style="width:100%">
+</div>
+
+<table style="width:100%;display:table;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:1200px" width="1200">面向物理 AI 的生成式仿真平台，统一多物理引擎与照片级渲染，号称比实时快数十万倍的仿真速度。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布与维护</td><td style="word-wrap:break-word;width:1200px" width="1200">2024 年 12 月发布学术版，持续活跃维护（GitHub ⭐ 29.8k）；Apache 2.0 开源。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:1200px" width="1200">斯坦福、CMU、MIT、清华、港大等 20 余所高校联合项目（Genesis-Embodied-AI）。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li><strong>统一多物理引擎</strong>：刚体、FEM、MPM、SPH、PBD、IPC 等求解器共享同一场景状态</li><li>自研 <strong>Nyx 照片级渲染器</strong> + Luisa 光线追踪 + Pyrender 三条渲染路径</li><li><strong>Quadrants 跨平台编译器</strong>：Python kernel 编译至 CUDA/ROCm/Metal/Vulkan</li><li>内置深度相机、IMU、LiDAR、触觉、接触力等传感器仿真</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">使用场景</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>机器人操作/运动的强化学习与模仿学习大规模并行训练</li><li>可变形物体、流体、布料等多物理耦合的具身任务仿真</li><li>传感器级仿真数据生成（Sim2Real 训练数据管线）</li><li>从笔记本 GPU 到数据中心集群的可扩展训练</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">案例</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>RoboGen 等生成式仿真框架以其作为底层引擎</li><li>社区广泛用于四足/机械臂 RL 训练与多物理耦合演示</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据与模型</td><td style="word-wrap:break-word;width:1200px" width="1200">完全开源（Apache 2.0）；支持 URDF/MJCF/USD 等资产格式，内置示例场景库。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">官方链接</td><td style="word-wrap:break-word;width:1200px" width="1200"><a href="https://github.com/Genesis-Embodied-AI/Genesis">github.com/Genesis-Embodied-AI/Genesis</a></td></tr>
+</tbody>
+</table>
+
+
 ### XTDrone
 
 <div align="center">

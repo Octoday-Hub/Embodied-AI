@@ -1,6 +1,6 @@
 # Embodied AI Datasets
 
-> 36 representative datasets covering real-world collection, cross-embodiment aggregation, RGB-D / force / tactile sensing, tabletop manipulation, simulation benchmarks, and automated data generation. Statistics follow official pages, repositories, and papers.
+> 41 representative datasets covering real-world collection, cross-embodiment aggregation, RGB-D / force / tactile sensing, tabletop manipulation, simulation benchmarks, and automated data generation. Statistics follow official pages, repositories, and papers.
 
 ---
 
@@ -44,6 +44,11 @@
 | [QuadFM](#ds-quadfm) | Text-driven quadruped motion dataset | Motion capture | 11,784 clips / 35,352 descriptions | Motion + language | [Homepage](https://github.com/GaoLii/QuadFM) |
 | [ManiGuard](#ds-maniguard) | Safety benchmark and data suite for manipulation | Real + simulation | 200 tasks / 1,000 scenarios / 8,000 safety-labeled demos | RGB + spec constraints | [Homepage](https://arxiv.org/abs/2608.17386) |
 | [EmbodimentSemantic](#ds-embodimentsemantic) | Spatial scene-graph dataset for embodied manipulation | Real + simulation | 60K+ frames / 120K+ scene graphs | RGB-D + scene graph | [Homepage](https://arxiv.org/abs/2607.00020) |
+| [DexYCB](#ds-dexycb) | NVIDIA hand-object capture benchmark | Real-world | 582K frames / 1,000 sequences / 20 objects | RGB-D + 6D pose + 3D hands | [Homepage](https://dex-ycb.github.io/) |
+| [OakInk](#ds-oakink) | Hand manipulation intent and affordance dataset | Real-world + virtual transfer | 50K interactions / 1,800-object affordance library | RGB-D + hand pose + intent labels | [Homepage](https://oakink.net/) |
+| [GraspNet-1Billion](#ds-graspnet) | Large-scale dense grasp pose dataset | Real-world | 97,280 RGB-D images / 190 scenes / 1.1B+ grasp poses | RGB-D + 6D pose + grasp labels | [Homepage](https://graspnet.net/) |
+| [HOI4D](#ds-hoi4d) | Category-level dynamic hand-object 4D interaction | Real-world | 2.4M frames / 4,000+ sequences / 800 object instances | RGB-D 4D point clouds + 3D hands | [Homepage](https://hoi4d.github.io/) |
+| [ARCTIC](#ds-arctic) | Articulated hand-object interaction dataset | Real-world | 2.1M frames / 339 sequences / 11 articulated objects | Dual-view RGB + 3D hand/object meshes + contact | [Homepage](https://arctic.is.tue.mpg.de/) |
 
 ---
 
@@ -858,6 +863,8 @@
 </tbody>
 </table>
 
+---
+
 ### SoftVTBench
 
 <a id="ds-softvtbench"></a>
@@ -983,6 +990,135 @@
 <tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Real-world observations collected with the low-cost SO101 arm plus generated scene graphs; LIBERO simulation benchmark with 60K+ manipulation frames where ground-truth relations are derived from MuJoCo geometry, camera projections, and visibility constraints.</td></tr>
 <tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">LIBERO benchmark: 60K+ manipulation frames / 120K+ camera-specific scene graphs (third-person + wrist views).</td></tr>
 <tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: RGB-D</li><li><strong>Proprioception</strong>: object poses</li><li><strong>Action</strong>: manipulation trajectories</li><li><strong>Force</strong>: none</li><li><strong>Tactile</strong>: none</li><li><strong>Other</strong>: directed spatial scene graphs (object-relation-object triplets)</li></ul></td></tr>
+</tbody>
+</table>
+---
+
+### DexYCB
+
+<a id="ds-dexycb"></a>
+
+[Homepage](https://dex-ycb.github.io/) · [Paper](https://arxiv.org/abs/2104.04631)
+
+<a id="dexycb-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/dexycb-sample-01.png" alt="DexYCB" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Paper](https://arxiv.org/abs/2104.04631) - NVIDIA's hand-object capture benchmark dataset.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">NVIDIA, University of Washington, et al.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Why it matters</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">A fully-calibrated multi-view industrial-grade hand-object capture benchmark: 8 synchronized cameras with accurate 6D object poses and 3D hand joint ground truth — the standard evaluation set for hand-object pose estimation and dexterous grasping research.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Usage</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Access</strong>: dataset open-sourced (official GitHub download scripts).</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">8 synchronized RGB-D cameras with Vicon extrinsic calibration; objects are 20 known items from the YCB set, with 6D poses from manual annotation + model alignment.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><strong>582K frames</strong> / 1,000 sequences / 20 objects / 10 subjects / 8 camera views.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: multi-view RGB-D</li><li><strong>Proprioception</strong>: 6D object pose</li><li><strong>Action</strong>: none (perception dataset)</li><li><strong>Force</strong>: none</li><li><strong>Tactile</strong>: none</li><li><strong>Other</strong>: 3D hand joints (MANO parameters), object semantic masks</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### OakInk
+
+<a id="ds-oakink"></a>
+
+[Homepage](https://oakink.net/) · [Paper](https://arxiv.org/abs/2203.15709)
+
+<a id="oakink-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/oakink-sample-01.png" alt="OakInk" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Paper](https://arxiv.org/abs/2203.15709) - Hand manipulation intent and affordance understanding dataset.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Nanjing University, Chinese University of Hong Kong, et al.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Why it matters</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Unique in its <strong>manipulation intent labels</strong> and object affordance modeling: an 1,800-object affordance library built from Oak eyewear, plus virtual transfer (Tink) synthesizing cross-object interactions — the core dataset for intent-driven hand-object interaction research.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Usage</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Access</strong>: dataset open-sourced (official GitHub download scripts).</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Real capture (4-view RGB-D) + virtual transfer: real interactions annotated with MANO poses and intent phrases; grasp poses retargeted to the 1,800 Oak objects sharing the same affordance.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><strong>50K</strong> hand-object interactions / 1,800-object affordance library / 100 real objects.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: 4-view RGB-D</li><li><strong>Proprioception</strong>: 6D object pose</li><li><strong>Action</strong>: none (perception dataset)</li><li><strong>Force</strong>: none</li><li><strong>Tactile</strong>: none</li><li><strong>Other</strong>: MANO hand pose, intent text, affordance labels, virtual transfer interactions (Tink)</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### GraspNet-1Billion
+
+<a id="ds-graspnet"></a>
+
+[Homepage](https://graspnet.net/) · [Paper](https://arxiv.org/abs/1912.13470)
+
+<a id="graspnet-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/graspnet-sample-01.png" alt="GraspNet-1Billion" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Paper](https://arxiv.org/abs/1912.13470) - Large-scale dense grasp pose benchmark dataset.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Shanghai Jiao Tong University MVIG, et al.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Why it matters</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">The standard benchmark for grasp detection: 190 cluttered scenes with <strong>1.1 billion+</strong> labeled grasp poses (graded positive/negative), plus unified evaluation scripts and a leaderboard.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Usage</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Access</strong>: dataset and evaluation tools open-sourced (graspnetAPI).</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">190 cluttered scenes captured by dual cameras (Kinect Azure + RealSense D435); grasp poses enumerated via force simulation (FleX) with graded force-closure labels.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><strong>97,280</strong> RGB-D images / 190 scenes / 88 objects / <strong>1.1 billion+</strong> grasp pose annotations.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: dual-camera RGB-D</li><li><strong>Proprioception</strong>: 6D object pose</li><li><strong>Action</strong>: grasp poses (6-DoF translation + rotation + width)</li><li><strong>Force</strong>: none</li><li><strong>Tactile</strong>: none</li><li><strong>Other</strong>: graded positive/negative grasp labels, scene segmentation masks</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### HOI4D
+
+<a id="ds-hoi4d"></a>
+
+[Homepage](https://hoi4d.github.io/) · [Paper](https://arxiv.org/abs/2203.01577)
+
+<a id="hoi4d-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/hoi4d-sample-01.png" alt="HOI4D" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Paper](https://arxiv.org/abs/2203.01577) - Category-level dynamic hand-object 4D interaction dataset.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Tsinghua University, Beihang University, et al.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Why it matters</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">The benchmark for category-level dynamic hand-object 4D interaction: 4D panoramic point clouds + motion segmentation + category-level object poses + action segmentation, supporting joint hand-object perception in dynamic scenes.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Usage</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Access</strong>: dataset open-sourced (official GitHub download scripts).</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Indoor real scenes captured with a freely-moving monocular RGB-D camera; per-frame 4D panoramic segmentation and category-level object pose annotation.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><strong>2.4M frames</strong> RGB-D / 4,000+ sequences / 800 object instances / 16 categories / 610 rooms / 9 participants.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: RGB-D 4D point clouds</li><li><strong>Proprioception</strong>: category-level object 6D pose</li><li><strong>Action</strong>: none (perception dataset)</li><li><strong>Force</strong>: none</li><li><strong>Tactile</strong>: none</li><li><strong>Other</strong>: 3D hand pose, panoramic/motion segmentation, action segmentation labels</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### ARCTIC
+
+<a id="ds-arctic"></a>
+
+[Homepage](https://arctic.is.tue.mpg.de/) · [Paper](https://arxiv.org/abs/2204.13662)
+
+<a id="arctic-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/arctic-sample-01.png" alt="ARCTIC" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Paper](https://arxiv.org/abs/2204.13662) - Articulated hand-object interaction dataset.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">ETH Zürich, Max Planck Institute for Intelligent Systems, University of Amsterdam</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Why it matters</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Focused on <strong>articulated objects</strong> (scissors, knives, pens, laptops — 11 classes): simultaneous third-person and first-person (head-mounted) RGB views with 3D hand/object meshes and dynamic contact labels.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Usage</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Access</strong>: dataset open-sourced (official download scripts).</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">10 subjects manipulating 11 everyday articulated objects (open/close/use/hand-over); magnetic tracking + multi-view reconstruction of 3D hands and objects.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><strong>2.1M frames</strong> / 339 sequences / 10 subjects / 11 articulated objects.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: third-person + first-person dual-view RGB</li><li><strong>Proprioception</strong>: object articulation state</li><li><strong>Action</strong>: none (perception dataset)</li><li><strong>Force</strong>: none</li><li><strong>Tactile</strong>: none</li><li><strong>Other</strong>: MANO hand / SMPL-X body meshes, object meshes, dynamic contact labels</li></ul></td></tr>
 </tbody>
 </table>
 

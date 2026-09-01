@@ -12,7 +12,6 @@
 
 ## Embodied Foundation Models
 
-
 ### [Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agent](https://arxiv.org/abs/2607.08448)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -316,6 +315,18 @@
 
 - **[arXiv 2025年7月](https://arxiv.org/abs/2507.01424)** TriVLA: A Triple-System Vision-Language-Action Model with Episodic World Modeling. 三系统VLA架构（感知-世界模型-行动），通过情景世界模型提升长期任务规划能力.
 
+### [WorldVLA: Towards Autoregressive Action World Model](https://arxiv.org/abs/2506.21539)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">将 VLA 与世界模型统一进单一自回归框架，实现图像与动作双向理解生成。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2025 年 6 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">阿里巴巴达摩院、湖畔实验室、浙江大学</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>图像/文本/动作 <strong>三 tokenizer 共享词表</strong></li><li>提出<strong>动作注意力掩码</strong>策略抑制动作块生成时的误差累积</li><li>无需大规模预训练即可超越 OpenVLA</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>LIBERO 抓取成功率较同等骨干动作模型 <strong>+4%</strong></li><li>视频生成 FVD 降低 <strong>10%</strong></li><li>掩码策略使动作块生成成功率提升 <strong>4%~23%</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">WorldVLA（代码开源，alibaba-damo-academy）</td></tr>
+</tbody>
+</table>
 - **[arXiv 2025年6月](https://arxiv.org/abs/2506.04500)** Don't Do That. Guiding Embodied Systems through Large Language Model-based Constraint Generation. 提出STPR约束生成框架，利用LLM将自然语言约束翻译为可执行的Python函数，应用于点云表示和传统搜索算法，确保机器人导航中的约束遵从.
 
 - **[arXiv 2025年6月](https://arxiv.org/abs/2506.00411)** LoHoVLA: Vision-Language-Action Model for Long-Horizon Embodied Tasks. 专为长时程具身任务设计的VLA模型，通过分层动作预测缓解复合任务的错误累积问题.
@@ -349,7 +360,18 @@
 <tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型 π0.5；训练数据约 400 小时移动操作（约 100 个家庭）+ 跨形态与网页数据；openpi 部分开源</td></tr>
 </tbody>
 </table>
+### [Gemini Robotics: Bringing AI into the Physical World](https://arxiv.org/abs/2503.20020)
 
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">基于 Gemini 2.0 的 VLA 通用模型家族，把多模态推理落地到真实机器人控制。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2025 年 3 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Google DeepMind（Gemini Robotics Team）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>含 VLA 主模型与 <strong>Gemini Robotics-ER</strong> 具身推理模型两个模型</li><li>支持 <strong>3D 理解</strong>（多视角对应、3D 边框、抓取预测）</li><li>新短程任务仅需 <strong>100 次演示</strong>即可学会</li><li>可适配新形态（双臂平台、高自由度人形）</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>可解长程灵巧任务（折纸狐狸、纸牌游戏）</li><li>ER 模型支持零样本机器人代码生成与少样本上下文学习</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Gemini Robotics（闭源，API 形式提供）</td></tr>
+</tbody>
+</table>
 - **[arXiv 2025年3月](https://arxiv.org/abs/2503.12438)** ChatVLA: Multimodal Understanding and Robot Control. 对话式多模态理解与机器人控制.
 
 - **[arXiv 2025年3月](https://arxiv.org/abs/2503.04123)** SmolVLA: Efficient Vision-Language-Action Models for Robotics. 轻量化VLA模型，适合边缘部署.
@@ -380,6 +402,18 @@
 </tbody>
 </table>
 
+### [DexVLA: Vision-Language Model with Plug-In Diffusion Expert for General Robot Control](https://arxiv.org/abs/2502.05855)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">十亿参数扩散动作专家 + 具身课程学习的跨本体 VLA 框架。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2025 年 2 月（CoRL 2025）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">美的集团、华东师范大学</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>1B 参数</strong>多头扩散专家，每头对应一种本体</li><li>三阶段课程学习：跨本体预训练 → 本体对齐 → 任务后训练</li><li>子步骤推理自主分解长程任务</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>单臂/双臂/灵巧手等多本体上超 OpenVLA、Octo、Diffusion Policy</li><li>新本体仅需 <strong>100 次演示</strong>掌握复杂技能</li><li>仅 <strong>100 小时</strong>演示完成预训练，可完成 2 分钟以上叠衣长程任务</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">DexVLA（代码开源，dex-vla.github.io）</td></tr>
+</tbody>
+</table>
 ### [Helix: A Vision-Language-Action Model for Generalist Humanoid Control](https://www.figure.ai/news/helix)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -406,6 +440,18 @@
 </tbody>
 </table>
 
+### [UP-VLA: A Unified Understanding and Prediction Model for Embodied Agent](https://arxiv.org/abs/2501.18867)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">统一多模态理解与未来预测双目标的 VLA 预训练范式。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2025 年 1 月（ICML 2025）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">清华大学、上海期智研究院</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>CLIP-ViT 连续编码 + VQ-GAN 离散编码</strong>双视觉通路（Phi-1.5 骨干）</li><li>理解增强提示机制</li><li>Bridge 数据 + LLaVA-665k 混合预训练</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>CALVIN ABC→D 相比此前 SOTA <strong>+33%</strong></li><li>真实世界中需精确空间信息的任务成功率显著提升</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">UP-VLA（代码开源）</td></tr>
+</tbody>
+</table>
 - **[arXiv 2025年1月](https://arxiv.org/abs/2409.20537)** HPT: Hierarchical Pre-trained Transformer for Robot Learning. 分层预训练Transformer架构，通过层次化表征学习实现跨任务的高效迁移学习.
 
 - ★ **[CVPR 2025年1月](https://arxiv.org/abs/2501.10105)** UniAct: Universal Actions for Enhanced Embodied Foundation Models. 提出通用动作空间，将不同形态机器人的底层控制统一为规范化的动作表征，提升基础模型在不同机器人平台间的泛化能力.
@@ -425,6 +471,42 @@
 </tbody>
 </table>
 
+### [Moto: Latent Motion Token as the Bridging Language for Learning Robot Manipulation from Videos](https://arxiv.org/abs/2412.04445)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">以无监督"潜在运动 token"作为视频预训练的桥接语言迁移到机器人控制。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2024 年 12 月（ICCV 2025）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">香港大学、腾讯 AI Lab</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>VQ-VAE 式 <strong>Latent Motion Tokenizer</strong> 将帧间运动压缩为离散 token</li><li>Moto-GPT 自回归预测下一运动 token</li><li>co-fine-tuning 打通运动先验与真实控制</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>仅 <strong>98M 参数</strong>在 SIMPLER 与 CALVIN 上媲美 <strong>55B</strong> 模型（RT-2-X）</li><li>人类视频预训练进一步提升操作性能</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Moto（代码开源）</td></tr>
+</tbody>
+</table>
+### [CogACT: A Foundational VLA Model for Synergizing Cognition and Action in Robotic Manipulation](https://arxiv.org/abs/2411.19650)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">组件化 VLA：VLM 负责认知理解、DiT 扩散模块专司动作生成。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2024 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">清华大学、微软亚洲研究院等</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>DINOv2+SigLIP 视觉、LLaMA-2 语言、DiT 动作模块（最大 <strong>300M 参数</strong>，总规模 7B）</li><li>自适应动作集成（AAE）策略</li><li><strong>0.4M 轨迹</strong>（OXE 子集）预训练</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>模拟评测超 OpenVLA <strong>35%</strong>、真实机器人超 <strong>55%</strong></li><li>模拟中超 RT-2-X（55B）<strong>18%</strong> 绝对成功率</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">CogACT（代码与模型开源，cogact.github.io）</td></tr>
+</tbody>
+</table>
+### [RoboDual: Towards Synergistic, Generalized, and Efficient Dual-System for Robotic Manipulation](https://arxiv.org/abs/2410.08001)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">VLA 通才模型（慢系统）与扩散 Transformer 专才模型（快系统）的协同双系统。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2024 年 10 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">上海人工智能实验室、上海交通大学、HKU、AgiBot</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>通才输出高层理解与离散动作，专才做多步动作展开</li><li>专才仅 <strong>20M 可训练参数</strong></li><li>通才推理频率约 4Hz、专才 <strong>20Hz</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>真实环境成功率较 OpenVLA <strong>+26.7%</strong>、CALVIN <strong>+12%</strong></li><li>仅 <strong>5% 演示数据</strong>保持强性能</li><li>控制频率 <strong>3.8×</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">RoboDual（代码开源）</td></tr>
+</tbody>
+</table>
 ### [π0: A Vision-Language-Action Flow Model](https://arxiv.org/abs/2410.24164)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -494,6 +576,18 @@
 </tbody>
 </table>
 
+### [3D-VLA: A 3D Vision-Language-Action Generative World Model](https://arxiv.org/abs/2403.09631)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">以生成式世界模型连接 3D 感知、推理与动作的具身基础模型。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2024 年 3 月（ICML 2024）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">UMass Amherst、上海交通大学、MIT-IBM Watson AI Lab 等</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>基于 <strong>3D-LLM</strong>，引入交互 token（interaction tokens）</li><li>具身扩散模型生成目标图像与点云</li><li>构建 <strong>2M 对</strong> 3D-语言-动作指令数据集</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>held-in 数据集上推理、多模态生成与规划能力大幅超基线</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">3D-VLA（代码与扩散模型权重开源，Hugging Face）</td></tr>
+</tbody>
+</table>
 - **[arXiv 2024年2月](https://arxiv.org/abs/2402.06149)** GR-2: A Generative Video-Language-Action Model for Robot Manipulation. 生成式视频-语言-动作模型，通过大规模视频预训练学习通用视觉表征，再微调到机器人操控任务.
 
 - **[arXiv 2024年1月](https://arxiv.org/abs/2401.12963)** AutoRT: Embodied Foundation Models for Large-Scale Robot Orchestration. 利用基础模型进行大规模机器人编排的系统，结合LLM任务分解和VLM环境理解，在多个机器人上并行收集数据.
@@ -576,10 +670,8 @@
 
 - **[CoRL 2022年3月](https://arxiv.org/abs/2203.12601)** R3M: A Universal Visual Representation for Robot Manipulation. 通用机器人视觉表示，通过Ego4D大规模人类视频预训练，可迁移到多种下游机器人操控任务.
 
-
 <a id="manipulation" name="manipulation"></a>
 ## Manipulation & Teleoperation
-
 
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.23108)** The Curse of Precision: Data Scaling Law for High-Precision Robotic Manipulation. 研究机器人装配等封闭世界任务中数据与精度的关系，提出新缩放定律log(N) ∝ 1/(P - c)。
 
@@ -693,6 +785,18 @@
 </table>
 - **[ICRA 2025年6月](https://arxiv.org/abs/2506.20668)** DemoDiffusion: One-Shot Human Imitation using pre-trained Diffusion Policy. 利用预训练的通用扩散策略对通过运动学重定向获得的轨迹进行修正，确保其既遵循人体运动又保持在合理机器人动作分布内，实现单次人类演示的机器人操作模仿.
 
+### [ForceVLA: Enhancing VLA Models with a Force-aware MoE for Contact-rich Manipulation](https://arxiv.org/abs/2505.22159)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">将 6 轴力觉作为一等模态引入 VLA 的力感知 MoE 框架。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2025 年 5 月（NeurIPS 2025）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">上海交通大学、复旦大学、新加坡国立大学等</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>FVLMoE</strong> 力感知专家混合模块，动作解码时融合实时力反馈</li><li>力感知路由按模态/阶段分流</li><li>同步采集视觉+本体感知+力矩信号</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>较 π0 基线平均任务成功率 <strong>+23.2%</strong></li><li>插插头任务最高 <strong>80%</strong> 成功率</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">ForceVLA-Data（代码与数据开源）</td></tr>
+</tbody>
+</table>
 - **[arXiv 2025年5月](https://arxiv.org/abs/2505.16413)** DexVLA: Plug-in Diffusion Experts for Vision-Language-Action Models. 扩散专家即插即用的VLA增强框架.
 
 - **[arXiv 2025年4月](https://arxiv.org/abs/2504.05291)** ObjectVLA: Open-World Object Manipulation without Demonstrations. 无需演示的开放世界物体操纵VLA.
@@ -757,7 +861,6 @@
 ## Locomotion
 
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.14417)** Before the Body Moves: Learning Anticipatory Joint Intent for Language-Conditioned Humanoid Control (DAJI). 面向语言条件人形机器人控制的层次化框架，学习预期性联合意图表征，显式编码 upcoming 接触变化与平衡准备，实现稳定的全身动作生成。
-
 
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.19734)** UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling. 统一人类到人形机器人的物理语言框架，通过视觉锚定的潜在动作分词器连接跨本体策略学习与世界建模.
 - **[arXiv 2026年4月](https://arxiv.org/abs/2604.08509)** Visually-grounded Humanoid Agents. 一种面向人形智能体的视觉接地方法，关注具身智能能力。
@@ -883,7 +986,6 @@
 <a id="simulation-sim2real" name="simulation-sim2real"></a>
 
 ## Simulators & Sim2Real
-
 
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.15065)** DriftWorld: Fast World Modeling through Drifting. 通过漂移实现快速世界建模。
 
@@ -1063,6 +1165,18 @@
 
 - ★ **[NeurIPS 2021年8月](https://arxiv.org/abs/2108.10470)** Isaac Gym: High Performance GPU-Based Physics Simulation for Robot Learning. 高性能GPU物理仿真平台.
 
+### [DayDreamer: World Models for Physical Robot Learning](https://arxiv.org/abs/2206.14176)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">将 Dreamer 世界模型直接用于真实机器人在线强化学习，摆脱模拟器。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2022 年 6 月（CoRL 2022）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">UC Berkeley（Danijar Hafner、Sergey Levine、Pieter Abbeel 等）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>RSSM 世界模型</strong> + 想象空间中 actor-critic 训练</li><li><strong>4 种机器人</strong>（四足/双臂/轮式）统一超参</li><li>开源全部基础设施</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>四足从零学会翻滚-站立-行走仅 <strong>1 小时</strong></li><li>被推后 <strong>10 分钟</strong>内适应扰动</li><li>机械臂视觉抓放接近人类水平</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">DayDreamer（代码开源，danijar.com/daydreamer）</td></tr>
+</tbody>
+</table>
 - **[IROS 2020年12月](https://arxiv.org/abs/2012.02924)** iGibson 1.0: A Simulation Environment for Interactive Tasks in Large Realistic Scenes. 大型真实场景交互任务仿真环境.
 
 - **[CoRL 2020年9月](https://arxiv.org/abs/2009.12293)** robosuite: A Modular Simulation Framework and Benchmark for Robot Learning. 面向机器人学习的模块化仿真框架与基准套件.
@@ -1126,7 +1240,6 @@
 </table>
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.04367)** A Perception-Manipulation Robotics System for Food Cutting. 面向食物切割的感知-操作机器人系统。
 
-
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.22142)** RoboLineage: Agent-Native Data Lifecycle Governance Across Robot Policy Iterations. 将数据收集训练等步骤表示为类型化谱系工件实现生命周期管理。
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.20990)** Duet: Dual-Robot Understanding via Efficient Teaching. 利用VR遥操作和人类协作先验实现双机器人高效学习。
 - **[arXiv 2026年6月](https://arxiv.org/abs/2606.17385)** EgoInfinity: Web-Scale 4D Hand-Object Interaction Data Engine. 从互联网视频自动生成4D手物交互数据，实现跨形态动作重定向。
@@ -1168,7 +1281,6 @@
 ## Benchmarks & Evaluation
 
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.26789)** CheckVLA: Execution-Time Verification for Long-Horizon Mobile Manipulation. 基于动作条件世界模型的长时程移动操作执行时验证。
-
 
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.23108)** The Curse of Precision: A Data Scaling Law for High-Precision Manipulation. 已在前面列出
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.14609)** Representation-Aligned Tactile Grounding for Contact-Rich Manipulation. 表示对齐的触觉接地用于丰富接触操作。
@@ -1225,7 +1337,6 @@
 ## Survey
 
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.21655)** Progress Reward Modeling for Robotic Learning: A Comprehensive Survey. 从接口、构建方法、数据基准三方面统一进度奖励建模研究。
-
 
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.06706)** VLA Models for Unmanned Aerial Robotics and Bimanual Manipulation: A Review. 全面综述VLA模型在无人机与双臂操作中的应用与挑战。
 - **[arXiv 2026年5月](https://arxiv.org/abs/2605.27817)** Deep Learning for Robot Vision. 综述深度学习在机器人视觉中的应用，涵盖目标检测、语义分割、深度估计等关键任务，为具身智能感知提供系统参考。

@@ -2,15 +2,35 @@
 
 > 💡 This list is continuously updated. If you find a good tool that is not included, or if existing information needs updating, please submit a [PR](https://github.com/Octoday-Hub/Embodied-AI/pulls) or provide feedback in [Issues](https://github.com/Octoday-Hub/Embodied-AI/issues).
 
-<a name=toc></a>
+<a name="toc"></a>
 
 ## Table of Contents
 
 **Categories:** [🎮 Simulation Platforms](#simulation-platforms) · [🤖 Models](#models) · [🧰 General Tools & Libraries](#general-tools) · [🏗️ Learning Frameworks](#learning-frameworks) · [🤖 Robot Projects](#robot-projects) · [🧠 Reasoning / RL](#reasoning-rl) · [🗺️ SLAM & Perception](#slam-perception) · [🔧 Middleware & ROS Tools](#middleware-ros) · [🛒 Other](#other)
 
-<a name=simulation-platforms></a>
+<a name="simulation-platforms"></a>
 
 ## 🎮 Simulation Platforms
+
+### Genesis
+
+<div align="center">
+  <img src="tools-img/genesis.jpg" alt="Genesis" style="width:100%">
+</div>
+
+<table style="width:100%;display:table;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:1200px" width="1200">A generative simulation platform for physical AI, unifying multiple physics solvers with photorealistic rendering.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release & maintenance</td><td style="word-wrap:break-word;width:1200px" width="1200">Academic release Dec 2024, actively maintained (GitHub ⭐ 29.8k); Apache 2.0.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:1200px" width="1200">Joint project of 20+ universities (Stanford, CMU, MIT, Tsinghua, HKU, et al. — Genesis-Embodied-AI).</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li><strong>Unified multi-physics solvers</strong>: rigid, FEM, MPM, SPH, PBD, IPC sharing one scene state</li><li>In-house <strong>Nyx photorealistic renderer</strong> + Luisa ray tracing + Pyrender rasterization</li><li><strong>Quadrants cross-platform compiler</strong>: Python kernels compiled to CUDA/ROCm/Metal/Vulkan</li><li>Built-in sensor simulation: depth, IMU, LiDAR, tactile, contact forces</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Use cases</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>Large-scale parallel RL/IL training for manipulation and locomotion</li><li>Embodied tasks with deformables, fluids, and cloth under multi-physics coupling</li><li>Sensor-level synthetic data generation for Sim2Real pipelines</li><li>Scalable training from laptop GPU to data-center clusters</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Case studies</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>RoboGen and other generative-simulation frameworks build on it as the underlying engine</li><li>Widely used for quadruped/arm RL training and multi-physics coupling demos</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data & models</td><td style="word-wrap:break-word;width:1200px" width="1200">Fully open source (Apache 2.0); supports URDF/MJCF/USD assets with a built-in example scene library.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Official link</td><td style="word-wrap:break-word;width:1200px" width="1200"><a href="https://github.com/Genesis-Embodied-AI/Genesis">github.com/Genesis-Embodied-AI/Genesis</a></td></tr>
+</tbody>
+</table>
+
 
 ### XTDrone
 
@@ -140,7 +160,7 @@
   📄 A generative simulation engine (released at WAIC 2026) for large-scale embodied AI training, supporting real-time multi-physics simulation and generative simulation for rapid conversion of real scenes into trainable virtual environments.
 [↑ Back to TOC](#toc)
 
-<a name=models></a>
+<a name="models"></a>
 
 ## 🤖 Models
 
@@ -193,7 +213,7 @@
   📄 A 0.9B end-to-end visual instruction tracking model (released at WAIC 2026) supporting single-target, dynamic multi-target, and ambiguous target tracking at 5+ Hz with offline local deployment.
 [↑ Back to TOC](#toc)
 
-<a name=general-tools></a>
+<a name="general-tools"></a>
 
 ## 🧰 General Tools & Libraries
 
@@ -291,7 +311,7 @@
   📄 An open-source inference framework for Physical AI (released at WAIC 2026), designed for on-device inference and cloud RL rollout, delivering 1.8-2.8x acceleration for π0/π0.5/GR00T models.
 [↑ Back to TOC](#toc)
 
-<a name=learning-frameworks></a>
+<a name="learning-frameworks"></a>
 
 ## 🏗️ Learning Frameworks
 
@@ -319,7 +339,7 @@
 
 [↑ Back to TOC](#toc)
 
-<a name=robot-projects></a>
+<a name="robot-projects"></a>
 
 ## 🤖 Robot Projects
 
@@ -378,6 +398,8 @@
 
 - **ONE-Robot Unicycle Robot** — [`peng-zhihui/ONE-Robot`](https://github.com/peng-zhihui/ONE-Robot)
  📄 IMU and STM32-based one-wheel self-balancing robot (ZhiHuijun).
+
+### SLAM & Perception
 
 - **Visual SLAM 14 Lectures** — [`gaoxiang12/slambook2`](https://github.com/gaoxiang12/slambook2) ⭐ 12k
  📄 Classic SLAM Chinese tutorial with companion code (Gao Xiang).
@@ -457,7 +479,7 @@
 
 [↑ Back to TOC](#toc)
 
-<a name=reasoning-rl></a>
+<a name="reasoning-rl"></a>
 
 ## 🧠 Reasoning / Reinforcement Learning
 
@@ -475,7 +497,7 @@
 
 [↑ Back to TOC](#toc)
 
-<a name=slam-perception></a>
+<a name="slam-perception"></a>
 
 ## 🗺️ SLAM & Perception
 
@@ -511,7 +533,7 @@
 
 [↑ Back to TOC](#toc)
 
-<a name=middleware-ros></a>
+<a name="middleware-ros"></a>
 
 ## 🔧 Middleware & ROS Tools
 
@@ -571,7 +593,7 @@
 
 [↑ Back to TOC](#toc)
 
-<a name=other></a>
+<a name="other"></a>
 
 ## 🛒 Other
 
