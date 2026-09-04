@@ -1,6 +1,6 @@
 # 具身智能数据集
 
-> 41 个有代表性的具身智能数据集，覆盖真实采集、跨机器人汇总、RGB-D / 力 / 触觉、桌面操作、仿真基准与数据生成。统计以官方主页、仓库与论文为准。
+> 46 个有代表性的具身智能数据集，覆盖真实采集、跨机器人汇总、RGB-D / 力 / 触觉、桌面操作、仿真基准与数据生成。统计以官方主页、仓库与论文为准。
 
 ---
 
@@ -49,6 +49,11 @@
 | [GraspNet-1Billion](#ds-graspnet) | 大规模密集抓取位姿数据集 | 真实采集 | 97,280 张 RGB-D / 190 场景 / 超 11 亿抓取位姿 | RGB-D + 6D 位姿 + 抓取标注 | [官方主页](https://graspnet.net/) |
 | [HOI4D](#ds-hoi4d) | 类别级动态手物交互 4D 数据集 | 真实采集 | 240 万帧 / 4,000+ 序列 / 800 物体实例 | RGB-D 4D 点云 + 3D 手姿态 | [官方主页](https://hoi4d.github.io/) |
 | [ARCTIC](#ds-arctic) | 铰接物体手物交互数据集 | 真实采集 | 210 万帧 / 339 序列 / 11 个铰接物体 | RGB 双视角 + 3D 手/物网格 + 接触标注 | [官方主页](https://arctic.is.tue.mpg.de/) |
+| [GigaHands](#ds-gigahands) | 大规模多视角手部操作数据集 | 真实采集 | 34 小时 / 14k 片段 / 183M 帧 | 多视角 RGB + 3D 手/物姿态 + 文本 | [官方主页](https://ivl.cs.brown.edu/research/gigahands.html) |
+| [EgoDex](#ds-egodex) | Apple 自我中心桌面操作数据集 | 真实采集 | 829 小时 / 338k 演示 / 194 类任务 | 1080p RGB + 3D 手部骨骼 + 语言 | [官方主页](https://github.com/apple/ml-egodex) |
+| [DexCap 数据集](#ds-dexcap) | 便携手部捕捉灵巧操作数据 | 真实采集 | 6 个灵巧操作任务评测 | 3D 点云 + 手部 mocap | [官方主页](https://dex-cap.github.io/) |
+| [HumanPlus 数据集](#ds-humanplus-data) | 人形影子跟随全身数据 | 真实采集 | 40 小时人体运动 / 每任务最多 40 演示 | RGB 自我中心 + 全身关节 | [官方主页](https://humanoid-ai.github.io/) |
+| [LeRobot Community Datasets](#ds-lerobot-data) | Hugging Face 社区机器人数据集合 | 真实采集 | 约 189 个数据集（持续增长） | 多相机 RGB + 状态/动作 + 语言 | [官方主页](https://huggingface.co/lerobot) |
 
 ---
 
@@ -1119,6 +1124,135 @@
 <tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">10 名受试者操作 11 个日常铰接物体（开/关/使用/手递手等交互）；磁追+多目重建 3D 手部与物体网格。</td></tr>
 <tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><strong>210 万帧</strong> / 339 段序列 / 10 名受试者 / 11 个铰接物体。</td></tr>
 <tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：第三人称 + 第一人称双视角 RGB</li><li><strong>本体感觉</strong>：物体铰接状态</li><li><strong>动作与控制</strong>：无（感知数据集）</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：MANO 手部 / SMPL-X 身体网格、物体网格、动态接触标注</li></ul></td></tr>
+</tbody>
+</table>
+---
+
+### GigaHands
+
+<a id="ds-gigahands"></a>
+
+[官方主页](https://ivl.cs.brown.edu/research/gigahands.html) · [论文](https://arxiv.org/abs/2412.04244)
+
+<a id="gigahands-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/gigahands-sample-01.png" alt="GigaHands" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[论文页](https://arxiv.org/abs/2412.04244) — 大规模多视角手部操作数据集。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Brown University、ETH Zürich（CVPR 2025 Highlight）</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">迄今规模领先的手部操作数据集之一：51 个机位、183M 帧的多视角记录 + 3.7M 双手 3D 姿态 + 84k 文本标注，支撑大规模手部操作理解与生成研究。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：数据集开源（官方项目页提供入口）。</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">51 个相机机位同步采集日常手部操作；自动 3D 手部/物体姿态重建与文本标注流水线。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><strong>34 小时</strong> / 56 名受试者 / 417 个物体 / 14k 动作片段 / <strong>183M 帧</strong> / <strong>3.7M</strong> 双手 3D 姿态 / 84k 文本标注。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：51 机位多视角 RGB</li><li><strong>本体感觉</strong>：3D 物体姿态</li><li><strong>动作与控制</strong>：无（感知数据集）</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：MANO 双手 3D 姿态、文本标注、分割掩码</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### EgoDex
+
+<a id="ds-egodex"></a>
+
+[官方主页](https://github.com/apple/ml-egodex) · [论文](https://arxiv.org/abs/2505.11709)
+
+<a id="egodex-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/egodex-sample-01.png" alt="EgoDex" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[论文页](https://arxiv.org/abs/2505.11709) — Apple 出品的大规模自我中心桌面操作数据集。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Apple（ICLR 2026）</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">迄今最大的自我中心桌面操作数据集：<strong>829 小时 / 338k 演示 / 194 类任务</strong>，配 72 关节全身-手部骨骼真值，是自我中心操作策略学习的理想训练场。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：数据集开源（Apple ML 官方 GitHub）。</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Vision Pro 自我中心 1080p RGB 采集桌面操作；Apple 真实感知管线输出 3D 手部/手指/上半身 72 关节骨骼。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><strong>829 小时</strong>自我中心视频 / <strong>90M 帧</strong> / <strong>338k 条</strong>演示 / 194 类桌面任务 / 约 500 个物体。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：30FPS 1080p 自我中心 RGB</li><li><strong>本体感觉</strong>：相机位姿</li><li><strong>动作与控制</strong>：手部/手指轨迹（操作动作）</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：72 关节 3D 骨骼、语言标注</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### DexCap 数据集
+
+<a id="ds-dexcap"></a>
+
+[官方主页](https://dex-cap.github.io/) · [论文](https://arxiv.org/abs/2403.07788)
+
+<a id="dexcap-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/dexcap-sample-01.png" alt="DexCap 数据集" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[论文页](https://arxiv.org/abs/2403.07788) — 便携手部捕捉生成的灵巧操作数据集。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Stanford University（Chen Wang、李飞飞、C. Karen Liu）</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">便携手部捕捉（SLAM + 电磁场手腕/手指追踪）直出灵巧手操作数据：免大型动捕设备，人手数据可直接重定向到机器灵巧手，是灵巧手模仿学习的轻量数据管线代表。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：数据集开源（官方项目页）。</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">背包式 SLAM 相机 + 电磁场手腕/手指追踪；前向运动学计算 3D 点云观测；人手 mocap 重定向。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">6 个灵巧操作任务评测（整理物品、抓取放置等）。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：3D 点云观测</li><li><strong>本体感觉</strong>：物体位姿</li><li><strong>动作与控制</strong>：灵巧手关节轨迹</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：人手 mocap、SLAM 轨迹</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### HumanPlus 数据集
+
+<a id="ds-humanplus-data"></a>
+
+[官方主页](https://humanoid-ai.github.io/) · [论文](https://arxiv.org/abs/2406.10454)
+
+<a id="humanplus-data-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/humanplus-data-sample-01.png" alt="HumanPlus 数据集" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[论文页](https://arxiv.org/abs/2406.10454) — 人形影子跟随全身操作数据集。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Stanford University（Zipeng Fu、Chelsea Finn 等）</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">通过影子跟随（shadowing）用纯 RGB 相机采集的人形全身数据：穿鞋、仓储卸货、叠衣、打字等真实任务，配合 60-100% 成功率的策略结果。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：数据集、代码与硬件 BOM 全开源（humanoid-ai.github.io）。</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">低层策略先以 40 小时人体运动数据（AMASS）RL 训练，再影子跟随采集全身数据；自我中心视觉行为克隆训练技能策略。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><strong>40 小时</strong>人体运动数据（AMASS）+ 各任务最多 <strong>40 条</strong>全身演示。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：自我中心 RGB</li><li><strong>本体感觉</strong>：全身关节（33-DoF）</li><li><strong>动作与控制</strong>：全身关节动作</li><li><strong>力觉</strong>：无</li><li><strong>触觉</strong>：无</li><li><strong>其他</strong>：180cm 定制人形平台</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### LeRobot Community Datasets
+
+<a id="ds-lerobot-data"></a>
+
+[官方主页](https://huggingface.co/lerobot) · [论文](https://arxiv.org/abs/2602.22818)
+
+<a id="lerobot-data-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/lerobot-data-sample-01.png" alt="LeRobot Community Datasets" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[HF Hub](https://huggingface.co/lerobot) — Hugging Face 社区机器人数据集集合（LeRobot ICLR 2026 论文）。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Hugging Face 社区（全球开发者众包）</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">依托 LeRobotDataset 标准格式（Parquet + MP4）在 HF Hub 上组织的社区数据集生态（约 189 个、持续增长）：从低成本 SO-100 机械臂到 Unitree G1 人形，覆盖广泛本体与任务，是众包具身数据的事实标准。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：HF Hub 直接流式加载（LeRobotDataset API）。</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">社区用 LeRobot 标准采集工具（lerobot-record）遥操作录制；统一格式与可视化工具链。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">组织下约 <strong>189 个</strong>数据集（随社区持续增长），覆盖 SO-100/SO-101、LeKiwi、Koch、Unitree G1 等多本体。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：多相机 RGB（MP4/图像）</li><li><strong>本体感觉</strong>：机器人状态（Parquet）</li><li><strong>动作与控制</strong>：动作序列（Parquet）</li><li><strong>力觉</strong>：部分提供</li><li><strong>触觉</strong>：部分提供</li><li><strong>其他</strong>：语言指令、深度（部分）</li></ul></td></tr>
 </tbody>
 </table>
 
