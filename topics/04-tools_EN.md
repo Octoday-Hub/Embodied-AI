@@ -315,6 +315,26 @@
 
 ## 🏗️ Learning Frameworks
 
+### LeRobot
+
+<div align="center">
+  <img src="tools-img/lerobot.jpg" alt="LeRobot" style="width:100%">
+</div>
+
+<table style="width:100%;display:table;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:1200px" width="1200">Hugging Face's PyTorch real-world robotics suite: models, datasets, and tools in one place.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release & maintenance</td><td style="word-wrap:break-word;width:1200px" width="1200">Released 2024, actively maintained; ICLR 2026 paper; Apache 2.0.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:1200px" width="1200">Hugging Face (Remi Cadene, Thomas Wolf team).</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li><strong>Hardware-agnostic Python interface</strong>: unified control from low-cost SO-100 arms to Unitree G1 humanoids</li><li><strong>LeRobotDataset</strong> standard format (Parquet + MP4), hosting thousands of datasets on the HF Hub</li><li><strong>SOTA policy suite</strong>: ACT, Diffusion, VQ-BeT, HIL-SERL, π0/π0.5, GR00T, SmolVLA in pure PyTorch</li><li>LIBERO / MetaWorld evaluation support and a third-party hardware plugin ecosystem</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Use cases</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>End-to-end pipeline from data capture (lerobot-record) to training (lerobot-train) and deployment/eval</li><li>Low-cost arm (SO-ARM101) embodied-AI education and hackathons</li><li>Standard infrastructure for VLA training and real-robot deployment</li><li>Hosting, visualization, and sharing of community datasets</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Case studies</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>Widely used in global hackathons and university courses (Tongji SO-ARM101 Chinese tutorial, et al.)</li><li>T-shirt folding end-to-end experiment (HF Spaces demo)</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data & models</td><td style="word-wrap:break-word;width:1200px" width="1200">Fully open source (Apache 2.0); installs directly from PyPI (pip install lerobot).</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Official link</td><td style="word-wrap:break-word;width:1200px" width="1200"><a href="https://github.com/huggingface/lerobot">github.com/huggingface/lerobot</a></td></tr>
+</tbody>
+</table>
+
+
 (Items merged from repos and tools)
 
 - **RLinf** — [`RLinf/RLinf`](https://github.com/RLinf/RLinf) ⭐ 3.7k

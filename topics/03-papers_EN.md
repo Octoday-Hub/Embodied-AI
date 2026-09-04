@@ -319,6 +319,18 @@
 
 - **[arXiv July 2025](https://arxiv.org/abs/2507.01424)** TriVLA: A Triple-System Vision-Language-Action Model with Episodic World Modeling. A triple-system VLA architecture spanning perception, world modeling, and action, where episodic world models strengthen long-horizon task planning.
 
+### [SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics](https://arxiv.org/abs/2506.01844)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A community-driven, low-cost compact VLA trainable on a single GPU and deployable on consumer hardware.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Jun 2025</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Hugging Face, Sorbonne University</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Trainable on a single GPU</strong>, deployable on consumer GPUs/CPUs</li><li>An asynchronous inference stack decouples perception from action execution</li><li>Trained with community-crowdsourced data (LeRobot ecosystem)</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Matches VLAs <strong>10×</strong> its size across simulation and real-robot benchmarks</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">SmolVLA (integrated into LeRobot, open-sourced)</td></tr>
+</tbody>
+</table>
 ### [WorldVLA: Towards Autoregressive Action World Model](https://arxiv.org/abs/2506.21539)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -335,6 +347,18 @@
 
 - **[arXiv June 2025](https://arxiv.org/abs/2506.00411)** LoHoVLA: Vision-Language-Action Model for Long-Horizon Embodied Tasks. A VLA model tailored for long-horizon embodied tasks, using hierarchical action prediction to mitigate error accumulation in compound tasks.
 
+### [Knowledge Insulating Vision-Language-Action Models: Train Fast, Run Fast, Generalize Better](https://arxiv.org/abs/2505.23705)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Fixes action experts destroying VLM pretrained knowledge — the π0.5 + KI training recipe.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">May 2025</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Physical Intelligence (π0 team)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>3B</strong> VLM backbone + <strong>300M</strong> flow-matching action expert</li><li>Action-expert gradients <strong>do not flow back</strong> to the backbone (stop-gradient insulation)</li><li>Backbone quickly acquires motion representations via FAST discrete action tokens, co-trained with web-scale VLM data</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>7.5×</strong> fewer training steps than π0</li><li>Retains flow-matching inference speed; best language following and OOD generalization (shirt folding, bussing real-robot tasks)</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">π0.5 + KI (weights released via PI)</td></tr>
+</tbody>
+</table>
 - **[arXiv May 2025](https://arxiv.org/abs/2505.03500)** VLAs are Confined yet Capable of Generalizing to Novel Instructions. A study of VLA models that evaluates how they remain constrained while still generalizing to novel instructions under a unified setup.
 
 ### [GR00T N1.5: World Model-Enhanced VLA](https://research.nvidia.com/labs/gear/gr00t-n15/)
@@ -498,6 +522,18 @@
 <tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">CogACT (code and models open-sourced, cogact.github.io)</td></tr>
 </tbody>
 </table>
+### [GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robot Manipulation](https://arxiv.org/abs/2410.06158)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">VLA generatively pretrained on 38M web videos, averaging 97.7% success on 100+ real manipulation tasks.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Oct 2024</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">ByteDance Seed</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Pretrained on <strong>38M video clips / 50B+ tokens</strong> of web video (47× GR-1's 0.8M)</li><li>Joint fine-tuning for video generation and action prediction</li><li>Strong model-size scaling behavior</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>97.7%</strong> average success across <strong>100+ real tabletop tasks</strong></li><li>End-to-end bin picking: 33.3% → <strong>79.0%</strong> (vs GR-1)</li><li>CALVIN 5-task success 73.1% → <strong>85.9%</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">GR-2 (tech report, gr2-manipulation.github.io)</td></tr>
+</tbody>
+</table>
 ### [RoboDual: Towards Synergistic, Generalized, and Efficient Dual-System for Robotic Manipulation](https://arxiv.org/abs/2410.08001)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -536,6 +572,30 @@
 </tbody>
 </table>
 
+### [TinyVLA: Towards Fast, Data-Efficient Vision-Language-Action Models for Robotic Manipulation](https://arxiv.org/abs/2409.12514)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A compact VLA family with no pretraining stage — fast and data-efficient.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Sep 2024 (RA-L 2025)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Midea Group, East China Normal University, Beijing Humanoid Robot Innovation Center, et al.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Policy backbone <strong>initialized from fast multimodal models</strong> (no robot-data pretraining)</li><li>A <strong>diffusion-policy decoder</strong> attached during fine-tuning</li><li>Compact family; notably faster and more data-efficient than OpenVLA</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Comparable or better performance with strong generalization across language, novel objects, and positions</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">TinyVLA (code open-sourced, tiny-vla.github.io)</td></tr>
+</tbody>
+</table>
+### [RoboPoint: A Vision-Language Model for Spatial Affordance Prediction for Robotics](https://arxiv.org/abs/2406.10721)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A VLM predicting spatial-affordance key points, with a fully automated data pipeline requiring no real-robot collection.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Jun 2024</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">University of Washington, NVIDIA, Allen Institute for AI (AI2)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Fully automated synthetic data pipeline</strong> — no real-robot collection needed</li><li>Point-level action space with depth-based 3D lifting</li><li>Supports navigation, manipulation, and AR downstream tasks</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Spatial affordance accuracy beats GPT-4o/PIVOT by <strong>21.8%</strong></li><li>Downstream task success rate improved by <strong>30.5%</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">RoboPoint, Where2Place benchmark (open-sourced)</td></tr>
+</tbody>
+</table>
 - **[arXiv June 2024](https://arxiv.org/abs/2406.06833)** RoboMatrix: Skill-Centric Robot Task Planning. A skill-centric framework for robot task planning.
 
 ### [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246)
@@ -595,6 +655,18 @@
 
 - **[arXiv January 2024](https://arxiv.org/abs/2401.12963)** AutoRT: Embodied Foundation Models for Large-Scale Robot Orchestration. A system for large-scale robot orchestration with foundation models, combining LLM-based task decomposition with VLM-based environment understanding to collect data across multiple robots in parallel.
 
+### [GR-1: Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation](https://arxiv.org/abs/2312.13139)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">The pioneering GPT-style video generative pretraining transferred to robot manipulation (GR-2's predecessor).</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Dec 2023</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">ByteDance Seed</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>GPT-style unified Transformer: language + image sequences + robot state as input</li><li>End-to-end prediction of actions and future frames</li><li>Video pretraining on <strong>~8M Ego4D frames</strong> before fine-tuning</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>CALVIN success rate <strong>88.9% → 94.9%</strong></li><li>Zero-shot unseen scenes <strong>53.3% → 85.4%</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">GR-1 (code open-sourced, GR1-Manipulation.github.io)</td></tr>
+</tbody>
+</table>
 - **[arXiv November 2023](https://arxiv.org/abs/2311.01355)** RoboFlamingo: A Vision-Language Model for Open-Vocabulary Robot Control. An open-source VLA model based on Flamingo that achieves open-vocabulary robot control through vision-language model fine-tuning and few-shot learning.
 
 - **[CoRL July 2023](https://arxiv.org/abs/2307.06135)** SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Robot Task Planning. Improves robot task planning by grounding large language models in 3D scene graphs.
@@ -808,6 +880,30 @@
 
 - **[arXiv January 2025](https://arxiv.org/abs/2501.05233)** VideoVLA: Video Generators as Generalizable Robot Manipulators. Uses video generation models as the basis for generalizable robot manipulation.
 
+### [Video Prediction Policy: A Generalist Robot Policy with Predictive Visual Representations](https://arxiv.org/abs/2412.14803)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A generalist manipulation policy guided by predictive representations from a video diffusion model.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Dec 2024 (ICML 2025 Spotlight)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Tsinghua University, UC Berkeley, Shanghai AI Laboratory, et al.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>An <strong>implicit inverse dynamics model learned inside the VDM</strong></li><li>Fine-tunes video foundation models on robot data + internet-scale human manipulation videos</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>CALVIN ABC-D <strong>+18.6%</strong> over SOTA</li><li>Real-robot dexterous manipulation success rate <strong>+31.6%</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">VPP (code open-sourced, video-prediction-policy.github.io)</td></tr>
+</tbody>
+</table>
+### [EgoMimic: Scaling Imitation Learning via Egocentric Video](https://arxiv.org/abs/2410.24221)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Unified co-training of Aria-glasses egocentric human data and robot data for imitation learning.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Oct 2024</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Georgia Tech</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Project Aria</strong> glasses capture human embodied data with 3D hand tracking</li><li>A low-cost bimanual platform narrows the human-robot kinematics gap</li><li>Cross-domain alignment + human-robot co-training for a unified policy</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Substantially outperforms SOTA on long-horizon, single/dual-arm tasks</li><li><strong>1 hour</strong> of human data is far more valuable than 1 hour of robot data</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">EgoMimic (code open-sourced, egomimic.github.io)</td></tr>
+</tbody>
+</table>
 ### [ALOHA Unleashed: A Simple Recipe for Visuomotor Policies](https://arxiv.org/abs/2410.13126)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -848,6 +944,18 @@
 
 - ★ **[ICLR February 2023](https://arxiv.org/abs/2302.12422)** MimicPlay: Long-Horizon Imitation Learning by Watching Human Play. Long-horizon imitation learning from observing humans at play.
 
+### [MimicPlay: Long-Horizon Imitation Learning by Watching Human Play](https://arxiv.org/abs/2302.12422)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Hierarchical long-horizon imitation from human play videos: the high level watches hands, the low level learns manipulation.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Feb 2023 (CoRL 2023 Oral)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Stanford, NVIDIA, Georgia Tech, UT Austin, Caltech</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>A high-level latent planner predicts future <strong>3D human-hand trajectories</strong></li><li>Low-level visuomotor control uses only a small amount of teleoperation data</li><li>Hierarchical decoupling of human and robot data sources</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>14</strong> real long-horizon tasks with success rates beating SOTA by <strong>50%+</strong></li><li>Generalization to unseen tasks improved by <strong>40%+</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">MimicPlay (code open-sourced, mimic-play.github.io)</td></tr>
+</tbody>
+</table>
 - **[CoRL November 2022](https://arxiv.org/abs/2211.07636)** RVT: Robotic View Transformer for 3D Object Manipulation. A robotic view transformer for 3D object manipulation.
 
 - **[CoRL September 2022](https://arxiv.org/abs/2209.05451)** Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation. A language-conditioned multitask transformer for robotic manipulation, also widely referred to as PerAct.
@@ -1137,6 +1245,18 @@
 </tbody>
 </table>
 
+### [RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation](https://arxiv.org/abs/2311.01455)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Generative simulation automatically produces skill-training data via a propose-generate-learn loop.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Nov 2023 (ICML 2024)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">CMU, Tsinghua IIIS, MIT, UMass</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Propose-generate-learn</strong> loop: LLM proposes tasks → auto-generates scene assets → auto-generates rewards/supervision → learns</li><li>Built on the Genesis engine</li><li>Covers rigid, articulated, deformable objects, and legged locomotion</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Can infinitely produce diverse skill demonstrations and training data</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">RoboGen (code open-sourced, robogen-ai.github.io)</td></tr>
+</tbody>
+</table>
 ### [UniSim: Learning Interactive Real-World Simulators](https://arxiv.org/abs/2310.06114)
 
 <table style="width:100%;table-layout:fixed" width="100%">

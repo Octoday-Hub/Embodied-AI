@@ -315,6 +315,26 @@
 
 ## 🏗️ 学习框架
 
+### LeRobot
+
+<div align="center">
+  <img src="tools-img/lerobot.jpg" alt="LeRobot" style="width:100%">
+</div>
+
+<table style="width:100%;display:table;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:1200px" width="1200">Hugging Face 出品的 PyTorch 真实世界机器人学习全家桶：模型、数据集、工具一站式。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布与维护</td><td style="word-wrap:break-word;width:1200px" width="1200">2024 年发布，活跃维护；ICLR 2026 论文；Apache 2.0 开源。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:1200px" width="1200">Hugging Face（Remi Cadene、Thomas Wolf 团队）。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li><strong>硬件无关 Python 接口</strong>：从低成本 SO-100 机械臂到 Unitree G1 人形统一控制</li><li><strong>LeRobotDataset</strong> 标准格式（Parquet + MP4），HF Hub 托管数千数据集</li><li><strong>SOTA 策略全家桶</strong>：ACT、Diffusion、VQ-BeT、HIL-SERL、π0/π0.5、GR00T、SmolVLA 等纯 PyTorch 实现</li><li>支持 LIBERO、MetaWorld 标准评测与第三方硬件插件生态</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">使用场景</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>从数据采集（lerobot-record）、训练（lerobot-train）到部署评测的端到端流程</li><li>低成本机械臂（SO-ARM101）入门具身智能教学与 hackathon</li><li>VLA 模型训练与真机部署的标准基础设施</li><li>社区数据集的托管、可视化与共享</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">案例</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>全球 hackathon 与高校课程（同济 SO-ARM101 中文教程等）广泛使用</li><li>T 恤折叠端到端实验（HF Spaces 演示）</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据与模型</td><td style="word-wrap:break-word;width:1200px" width="1200">完全开源（Apache 2.0）；PyPI 直接安装（pip install lerobot）。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">官方链接</td><td style="word-wrap:break-word;width:1200px" width="1200"><a href="https://github.com/huggingface/lerobot">github.com/huggingface/lerobot</a></td></tr>
+</tbody>
+</table>
+
+
 - **RLinf** — [`RLinf/RLinf`](https://github.com/RLinf/RLinf) ⭐ 3.7k
   📄 面向具身和智能体 AI 的强化学习基础设施
 

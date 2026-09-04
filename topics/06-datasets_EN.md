@@ -1,6 +1,6 @@
 # Embodied AI Datasets
 
-> 41 representative datasets covering real-world collection, cross-embodiment aggregation, RGB-D / force / tactile sensing, tabletop manipulation, simulation benchmarks, and automated data generation. Statistics follow official pages, repositories, and papers.
+> 46 representative datasets covering real-world collection, cross-embodiment aggregation, RGB-D / force / tactile sensing, tabletop manipulation, simulation benchmarks, and automated data generation. Statistics follow official pages, repositories, and papers.
 
 ---
 
@@ -49,6 +49,11 @@
 | [GraspNet-1Billion](#ds-graspnet) | Large-scale dense grasp pose dataset | Real-world | 97,280 RGB-D images / 190 scenes / 1.1B+ grasp poses | RGB-D + 6D pose + grasp labels | [Homepage](https://graspnet.net/) |
 | [HOI4D](#ds-hoi4d) | Category-level dynamic hand-object 4D interaction | Real-world | 2.4M frames / 4,000+ sequences / 800 object instances | RGB-D 4D point clouds + 3D hands | [Homepage](https://hoi4d.github.io/) |
 | [ARCTIC](#ds-arctic) | Articulated hand-object interaction dataset | Real-world | 2.1M frames / 339 sequences / 11 articulated objects | Dual-view RGB + 3D hand/object meshes + contact | [Homepage](https://arctic.is.tue.mpg.de/) |
+| [GigaHands](#ds-gigahands) | Large-scale multi-view hand manipulation dataset | Real-world | 34 hours / 14k clips / 183M frames | Multi-view RGB + 3D hand/object poses + text | [Homepage](https://ivl.cs.brown.edu/research/gigahands.html) |
+| [EgoDex](#ds-egodex) | Apple egocentric tabletop manipulation dataset | Real-world | 829 hours / 338k demos / 194 task types | 1080p RGB + 3D hand skeleton + language | [Homepage](https://github.com/apple/ml-egodex) |
+| [DexCap Dataset](#ds-dexcap) | Portable hand-capture dexterous manipulation data | Real-world | 6 dexterous task evaluations | 3D point clouds + hand mocap | [Homepage](https://dex-cap.github.io/) |
+| [HumanPlus Dataset](#ds-humanplus-data) | Humanoid shadowing full-body data | Real-world | 40 hours human motion / up to 40 demos per task | Egocentric RGB + full-body joints | [Homepage](https://humanoid-ai.github.io/) |
+| [LeRobot Community Datasets](#ds-lerobot-data) | Hugging Face community robot dataset collection | Real-world | ~189 datasets (growing) | Multi-camera RGB + state/action + language | [Homepage](https://huggingface.co/lerobot) |
 
 ---
 
@@ -1119,6 +1124,135 @@
 <tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">10 subjects manipulating 11 everyday articulated objects (open/close/use/hand-over); magnetic tracking + multi-view reconstruction of 3D hands and objects.</td></tr>
 <tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><strong>2.1M frames</strong> / 339 sequences / 10 subjects / 11 articulated objects.</td></tr>
 <tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: third-person + first-person dual-view RGB</li><li><strong>Proprioception</strong>: object articulation state</li><li><strong>Action</strong>: none (perception dataset)</li><li><strong>Force</strong>: none</li><li><strong>Tactile</strong>: none</li><li><strong>Other</strong>: MANO hand / SMPL-X body meshes, object meshes, dynamic contact labels</li></ul></td></tr>
+</tbody>
+</table>
+---
+
+### GigaHands
+
+<a id="ds-gigahands"></a>
+
+[Homepage](https://ivl.cs.brown.edu/research/gigahands.html) · [Paper](https://arxiv.org/abs/2412.04244)
+
+<a id="gigahands-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/gigahands-sample-01.png" alt="GigaHands" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Link](https://ivl.cs.brown.edu/research/gigahands.html) — A large-scale multi-view hand manipulation dataset.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Brown University, ETH Zürich (CVPR 2025 Highlight)</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Why it matters</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">One of the largest hand manipulation datasets to date: 51 camera rigs, 183M frames of multi-view recordings + 3.7M bimanual 3D poses + 84k text annotations, supporting large-scale hand manipulation understanding and generation research.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Usage</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Access</strong>: dataset open-sourced (entry on the official project page).</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">51 synchronized camera rigs capture everyday hand manipulation; automated 3D hand/object pose reconstruction and text annotation pipeline.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><strong>34 hours</strong> / 56 subjects / 417 objects / 14k action clips / <strong>183M frames</strong> / <strong>3.7M</strong> bimanual 3D poses / 84k text annotations.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: 51-rig multi-view RGB</li><li><strong>Proprioception</strong>: 3D object pose</li><li><strong>Action</strong>: none (perception dataset)</li><li><strong>Force</strong>: none</li><li><strong>Tactile</strong>: none</li><li><strong>Other</strong>: MANO bimanual 3D poses, text annotations, segmentation masks</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### EgoDex
+
+<a id="ds-egodex"></a>
+
+[Homepage](https://github.com/apple/ml-egodex) · [Paper](https://arxiv.org/abs/2505.11709)
+
+<a id="egodex-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/egodex-sample-01.png" alt="EgoDex" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Link](https://github.com/apple/ml-egodex) — Apple's large-scale egocentric tabletop manipulation dataset.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Apple (ICLR 2026)</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Why it matters</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">The largest egocentric tabletop manipulation dataset to date: <strong>829 hours / 338k demos / 194 task types</strong> with 72-joint whole-body-hand skeleton ground truth — an ideal training ground for egocentric manipulation policy learning.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Usage</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Access</strong>: dataset open-sourced (official Apple ML GitHub).</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Vision Pro egocentric 1080p RGB capture of tabletop manipulation; Apple's perception pipeline outputs 3D hand/finger/upper-body 72-joint skeletons.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><strong>829 hours</strong> of egocentric video / <strong>90M frames</strong> / <strong>338k demos</strong> / 194 task types / ~500 objects.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: 30FPS 1080p egocentric RGB</li><li><strong>Proprioception</strong>: camera pose</li><li><strong>Action</strong>: hand/finger trajectories (manipulation actions)</li><li><strong>Force</strong>: none</li><li><strong>Tactile</strong>: none</li><li><strong>Other</strong>: 72-joint 3D skeletons, language annotations</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### DexCap Dataset
+
+<a id="ds-dexcap"></a>
+
+[Homepage](https://dex-cap.github.io/) · [Paper](https://arxiv.org/abs/2403.07788)
+
+<a id="dexcap-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/dexcap-sample-01.png" alt="DexCap Dataset" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Link](https://dex-cap.github.io/) — Dexterous manipulation data generated by portable hand capture.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Stanford University (Chen Wang, Fei-Fei Li, C. Karen Liu)</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Why it matters</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Portable hand capture (SLAM + electromagnetic wrist/finger tracking) directly yields dexterous-hand manipulation data: no large mocap rigs needed, and human-hand data can be retargeted directly to robot dexterous hands — a lightweight data pipeline representative for dexterous imitation learning.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Usage</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Access</strong>: dataset open-sourced (official project page).</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Backpack-style SLAM camera + electromagnetic wrist/finger tracking; forward kinematics computes 3D point-cloud observations; human-hand mocap retargeting.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">6 dexterous manipulation task evaluations (tidying, pick-and-place, etc.).</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: 3D point-cloud observations</li><li><strong>Proprioception</strong>: object poses</li><li><strong>Action</strong>: dexterous-hand joint trajectories</li><li><strong>Force</strong>: none</li><li><strong>Tactile</strong>: none</li><li><strong>Other</strong>: human-hand mocap, SLAM trajectories</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### HumanPlus Dataset
+
+<a id="ds-humanplus-data"></a>
+
+[Homepage](https://humanoid-ai.github.io/) · [Paper](https://arxiv.org/abs/2406.10454)
+
+<a id="humanplus-data-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/humanplus-data-sample-01.png" alt="HumanPlus Dataset" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Link](https://humanoid-ai.github.io/) — A humanoid shadowing full-body manipulation dataset.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Stanford University (Zipeng Fu, Chelsea Finn, et al.)</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Why it matters</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Full-body humanoid data collected via pure-RGB-camera shadowing: real tasks like shoe-wearing, warehouse unloading, clothes folding, and typing, with policy success rates of 60-100%.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Usage</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Access</strong>: dataset, code, and hardware BOM all open-sourced (humanoid-ai.github.io).</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">A low-level policy is first RL-trained on 40 hours of human motion data (AMASS), then shadowing collects full-body data; egocentric behavior cloning trains skill policies.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><strong>40 hours</strong> of human motion data (AMASS) + up to <strong>40</strong> full-body demos per task.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: egocentric RGB</li><li><strong>Proprioception</strong>: full-body joints (33-DoF)</li><li><strong>Action</strong>: full-body joint actions</li><li><strong>Force</strong>: none</li><li><strong>Tactile</strong>: none</li><li><strong>Other</strong>: 180cm custom humanoid platform</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### LeRobot Community Datasets
+
+<a id="ds-lerobot-data"></a>
+
+[Homepage](https://huggingface.co/lerobot) · [Paper](https://arxiv.org/abs/2602.22818)
+
+<a id="lerobot-data-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/lerobot-data-sample-01.png" alt="LeRobot Community Datasets" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Link](https://huggingface.co/lerobot) — The Hugging Face community robot dataset collection (LeRobot ICLR 2026 paper).</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Hugging Face community (crowdsourced by developers worldwide)</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Why it matters</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">A community dataset ecosystem organized around the LeRobotDataset standard format (Parquet + MP4) on the HF Hub (~189 datasets and growing): from low-cost SO-100 arms to Unitree G1 humanoids, covering a wide range of embodiments and tasks — the de facto standard for crowdsourced embodied data.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Usage</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Access</strong>: streamed directly from the HF Hub (LeRobotDataset API).</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">The community records via LeRobot's standard capture tool (lerobot-record); unified format and visualization toolchain.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">~<strong>189</strong> datasets in the organization (growing), covering SO-100/SO-101, LeKiwi, Koch, Unitree G1, and more embodiments.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: multi-camera RGB (MP4/images)</li><li><strong>Proprioception</strong>: robot state (Parquet)</li><li><strong>Action</strong>: action sequences (Parquet)</li><li><strong>Force</strong>: partially provided</li><li><strong>Tactile</strong>: partially provided</li><li><strong>Other</strong>: language instructions, depth (partial)</li></ul></td></tr>
 </tbody>
 </table>
 
