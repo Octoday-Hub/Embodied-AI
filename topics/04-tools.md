@@ -31,6 +31,25 @@
 </tbody>
 </table>
 
+### GR00T-Dreams
+
+<div align="center">
+  <img src="tools-img/gr00t-dreams.jpg" alt="GR00T-Dreams" style="width:100%">
+</div>
+
+<table style="width:100%;display:table;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:1200px" width="1200">用视频世界模型把少量遥操作演示扩成大规模"神经轨迹"的具身数据生成蓝图。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布与维护</td><td style="word-wrap:break-word;width:1200px" width="1200">2025 年发布（DreamGen），开源 Apache-2.0，持续维护</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:1200px" width="1200">NVIDIA（GEAR / GR00T 团队）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li><strong>世界模型生成未来视频</strong>：先用视频世界模型（Cosmos 系列）按语言指令"想象"机器人执行新任务的视频</li><li><strong>视频转可执行轨迹</strong>：通过逆动力学模型（IDM）或潜在动作模型（LAPA）把生成视频中的运动提取成动作序列，得到 neural trajectories</li><li><strong>跨本体与跨环境扩增</strong>：可从人类第一视角视频与少量遥操作数据出发，覆盖新物体、新环境与新任务，显著降低真实采集成本</li><li><strong>与 GR00T 系列配套</strong>：产出的合成轨迹可直接用于 VLA / 策略训练，作为数据飞轮的一环</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">使用场景</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>用少量遥操作演示扩增大规模训练数据</li><li>新环境 / 新物体 / 新任务的零样本数据合成</li><li>跨本体策略训练与数据飞轮构建</li><li>世界模型驱动的策略预演与评估</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">案例</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>DreamGen 流程在 GR-1 等人形平台上验证：用合成 neural trajectories 训练后，可在未见环境与任务上完成新行为</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据与模型</td><td style="word-wrap:break-word;width:1200px" width="1200">GR00T-Dreams blueprint（基于 Cosmos 世界模型权重）；产出 neural trajectories 数据集</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">官方链接</td><td style="word-wrap:break-word;width:1200px" width="1200"><a href="https://github.com/NVIDIA/GR00T-Dreams">GitHub NVIDIA/GR00T-Dreams</a> · <a href="https://arxiv.org/abs/2505.12705">论文 arXiv 2505.12705</a></td></tr>
+</tbody>
+</table>
+
 ### Genesis
 
 <div align="center">
@@ -473,7 +492,7 @@
 - **ALOHA 2** — [`aloha-2.github.io`](https://aloha-2.github.io/)
   📄 面向双臂遥操作与具身数据采集的低成本开源硬件平台，附带教程与 MuJoCo 仿真模型。
 
-- **北京人形机器人创新中心·慧思开物** — [`login.x-humanoid-cloud.com/?responseType=code&clientId=fd6c22fb&redirectUri=https%3A%2F%2Fopen.x-humanoid-cloud.com%2Fhome&stamp=1778429122172&env=cloud`](https://login.x-humanoid-cloud.com/?responseType=code&clientId=fd6c22fb&redirectUri=https%3A%2F%2Fopen.x-humanoid-cloud.com%2Fhome&stamp=1778429122172&env=cloud)
+- **北京人形机器人创新中心·慧思开物** — [`open.x-humanoid-cloud.com`](https://open.x-humanoid-cloud.com/)
   📄 面向通用具身智能场景的工具链平台，覆盖技能调用、智能体配置到场景部署。
 
 - **DexCap** — [`dex-cap.github.io`](https://dex-cap.github.io/)

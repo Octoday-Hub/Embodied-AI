@@ -31,6 +31,25 @@
 </tbody>
 </table>
 
+### GR00T-Dreams
+
+<div align="center">
+  <img src="tools-img/gr00t-dreams.jpg" alt="GR00T-Dreams" style="width:100%">
+</div>
+
+<table style="width:100%;display:table;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:1200px" width="1200">A blueprint that scales a small set of teleoperation demos into large-scale "neural trajectories" using video world models.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release & maintenance</td><td style="word-wrap:break-word;width:1200px" width="1200">Released 2025 (DreamGen); Apache-2.0, actively maintained</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:1200px" width="1200">NVIDIA (GEAR / GR00T team)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li><strong>World models imagine future video</strong>: a video world model (Cosmos family) generates robot execution videos for new tasks from language instructions</li><li><strong>Video to executable traces</strong>: inverse dynamics (IDM) or latent-action (LAPA) models convert generated motion into action sequences, i.e., neural trajectories</li><li><strong>Cross-embodiment and cross-environment scaling</strong>: starts from egocentric human video and a handful of teleop demos to cover new objects, environments, and tasks, cutting real collection cost</li><li><strong>Pairs with the GR00T stack</strong>: synthetic traces feed VLA / policy training directly as part of a data flywheel</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Use cases</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>Amplifying a few teleop demos into large-scale training data</li><li>Zero-shot data synthesis for new environments, objects, and tasks</li><li>Cross-embodiment policy training and data-flywheel construction</li><li>World-model-driven policy rollout and evaluation</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Case studies</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>The DreamGen pipeline was validated on humanoid platforms such as GR-1: policies trained on synthetic neural trajectories perform new behaviors in unseen environments and tasks</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data & models</td><td style="word-wrap:break-word;width:1200px" width="1200">GR00T-Dreams blueprint (built on Cosmos world-model weights); outputs neural-trajectory datasets</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Official link</td><td style="word-wrap:break-word;width:1200px" width="1200"><a href="https://github.com/NVIDIA/GR00T-Dreams">GitHub NVIDIA/GR00T-Dreams</a> · <a href="https://arxiv.org/abs/2505.12705">arXiv 2505.12705</a></td></tr>
+</tbody>
+</table>
+
 ### Genesis
 
 <div align="center">
@@ -477,7 +496,7 @@
 - **ALOHA 2** — [`aloha-2.github.io`](https://aloha-2.github.io/)
  📄 Low-cost open-source hardware platform, with tutorials and MuJoCo simulation models.
 
-- **Beijing Humanoid Innovation Center·Huisi Kaiwu** — [`login.x-humanoid-cloud.com/?responseType=code&clientId=fd6c22fb&redirectUri=https%3A%2F%2Fopen.x-humanoid-cloud.com%2Fhome&stamp=1778429122172&env=cloud`](https://login.x-humanoid-cloud.com/?responseType=code&clientId=fd6c22fb&redirectUri=https%3A%2F%2Fopen.x-humanoid-cloud.com%2Fhome&stamp=1778429122172&env=cloud)
+- **Beijing Humanoid Innovation Center·Huisi Kaiwu** — [`open.x-humanoid-cloud.com`](https://open.x-humanoid-cloud.com/)
  📄 toolchain platform covering skill invocation, agent configuration, and deployment.
 
 - **DexCap** — [`dex-cap.github.io`](https://dex-cap.github.io/)

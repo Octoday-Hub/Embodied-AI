@@ -1,6 +1,6 @@
 # Embodied AI Datasets
 
-> 51 representative datasets covering real-world collection, cross-embodiment aggregation, RGB-D / force / tactile sensing, tabletop manipulation, simulation benchmarks, and automated data generation. Statistics follow official pages, repositories, and papers.
+> 56 representative datasets covering real-world collection, cross-embodiment aggregation, RGB-D / force / tactile sensing, tabletop manipulation, simulation benchmarks, and automated data generation. Statistics follow official pages, repositories, and papers.
 
 ---
 
@@ -59,6 +59,11 @@
 | [DexCanvas](#ds-dexcanvas) | Human dexterous hands + per-frame contact force | Real + sim expansion | 70h seed / 7,000h planned | Multi-view RGB-D + MANO + force | [Homepage](https://dexcanvas.github.io/) |
 | [Humanoid Everyday](#ds-humanoideveryday) | Open-world humanoid whole-body operation | Real-world | 10.3K trajectories / 260 tasks | RGB + depth + LiDAR + tactile | [Homepage](https://humanoideveryday.github.io/) |
 | [VTDexManip](#ds-vtdexmanip) | Human tactile data + dexterous benchmark | Real + simulation | 565k frames / 2,032 sequences | RGB + fingertip tactile | [Homepage](https://lqts.github.io/VTDexManip/) |
+| [ACE-Data-0](#ds-ace-data-0) | Ambient capture engine turning real homes into synchronized studios | Real-world | 150 hours / 75,000 episodes | Egocentric + exocentric video, body/hand motion, tactile | [Homepage](https://ace-data-engine.github.io/ACE-Data-0/) |
+| [XR-2 Dataset](#ds-xr2-dataset) | Scaling corpus of 1,500 hours of bimanual household manipulation | Real-world + UMI | 1,500 hours / 32,518 trajectories | Multi-camera RGB-D + IMU + subtask language | [Homepage](https://huggingface.co/datasets/challenge-2026/challenge_data) |
+| [OpenNeoData](#ds-openneodata) | Open subset of a tactile embodied data foundation | Real-world + UMI | 5,000 hours (full 30,000+) | RGB + synchronized visuo-tactile frames | [Homepage](https://arxiv.org/abs/2608.29601) |
+| [HRDexDB](#ds-hrdexdb) | Paired human-robot data for cross-embodiment dexterous grasping | Real-world | 2.1K grasp trials / 100 objects | Multi-view video + 3D motion GT + contact force | [Homepage](https://arxiv.org/abs/2604.14944) |
+| [ManuFacet-1K](#ds-manufacet-1k) | Force-synchronized corpus for sub-millimeter precision assembly | Real-world | 1,000 hours | RGB + wrist wrench + joint state | [Homepage](https://pine-lab-ntu.github.io/facet-0/) |
 
 ---
 
@@ -1388,5 +1393,135 @@
 <tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Human demos with a piezoresistive tactile glove + Shadow Hand benchmark in Isaac Gym</td></tr>
 <tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">565k frames / 2,032 sequences / 5 subjects / 10 daily tasks / 182 objects</td></tr>
 <tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: RGB</li><li><strong>Tactile</strong>: fingertip piezoresistive (robust to sim noise after binarization)</li><li><strong>Pose</strong>: grasp pose</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### ACE-Data-0
+
+<a id="ds-ace-data-0"></a>
+
+[Homepage](https://ace-data-engine.github.io/ACE-Data-0/) · [Paper](https://arxiv.org/abs/2607.28625)
+
+<a id="ace-data-0-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/ace-data-0-sample-01.jpg" alt="ACE-Data-0" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Project page](https://ace-data-engine.github.io/ACE-Data-0/) - data overview, annotation visualizations, and hierarchical benchmark samples.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Nanyang Technological University (Ziwei Liu, Dacheng Tao, Liang Pan groups)</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Why it matters</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Turns real homes into spatially calibrated, time-synchronized studios: a table-scale rig resolves hand-object manipulation while a room-scale rig captures whole-body motion and locomotion, with audio and touch included, suiting unified perception-action modeling for imitation learning, world models, and VLAs.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Usage</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Download</strong>: dataset and benchmark entry on the project page</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Ambient Capture Engine (ACE): dual-scale capture in real homes, table-scale hand manipulation plus room-scale whole-body activity, recorded as one synchronized multisensory stream</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">150 hours / 17M video frames / 200 task categories / 50 participants / 2 environments / 75,000 interaction episodes</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: egocentric + multi-view exocentric video</li><li><strong>Proprioception</strong>: full-body and articulated hand motion</li><li><strong>Objects</strong>: geometry and 6-DoF trajectories</li><li><strong>Other</strong>: audio and tactile signals</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### XR-2 Dataset
+
+<a id="ds-xr2-dataset"></a>
+
+[Homepage](https://huggingface.co/datasets/challenge-2026/challenge_data) · [Paper](https://arxiv.org/abs/2609.03591)
+
+<a id="xr2-dataset-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/xr2-dataset-sample-01.png" alt="XR-2 Dataset" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Dataset page](https://huggingface.co/datasets/challenge-2026/challenge_data) - open corpus and documentation on HuggingFace.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">PrimeBot Research Institute (Swancor Advanced Materials) + Peking University + Crobotia</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Why it matters</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">One of the largest open bimanual household corpora, pairing expert demonstrations with DAgger on-policy corrections and publishing two scaling curves (expert volume, correction volume), making it well suited for studying embodied data scaling laws.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Usage</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Download</strong>: HuggingFace challenge-2026/challenge_data (open)</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Teleoperation of the X2W mobile bimanual platform (25 DoF) plus UMI handheld-gripper demos, augmented with DAgger real-time human-intervention corrections</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">1,500 hours total; real-robot subset 32,518 trajectories / 57.4M frames / 531.7 hours; 11 atomic skills</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: multi-camera RGB-D (RealSense D435i, ZED X Mini)</li><li><strong>Proprioception</strong>: joint state + IMU</li><li><strong>Annotation</strong>: subtask-level language</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### OpenNeoData
+
+<a id="ds-openneodata"></a>
+
+[Homepage](https://arxiv.org/abs/2608.29601) · [Paper](https://arxiv.org/abs/2608.29601)
+
+<a id="openneodata-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/openneodata-sample-01.png" alt="OpenNeoData" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[N0-Foundation paper page](https://arxiv.org/abs/2608.29601) - collection infrastructure, data statistics, model and benchmark details.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Fudan University TEAI + NeoteAI</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Why it matters</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">A tactile embodied data foundation: the full NeoData exceeds 30,000 hours of synchronized visuo-tactile demos with a 5,000-hour open subset, filling gaps in deformable-object manipulation, precise assembly, and delicate force control.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Usage</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Download</strong>: OpenNeoData open subset (5,000 hours)</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Dual-route capture with a vision-based tactile sensor and a tactile UMI, supporting both robot-embodiment teleoperation and UMI demos</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">30,000+ hours (5,000-hour open subset); 6 embodiments, 450 tasks, billions of paired RGB/tactile frames</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: RGB</li><li><strong>Tactile</strong>: visuo-tactile sensor frames (transferable across sensor designs)</li><li><strong>Pairing</strong>: synchronized RGB-tactile alignment</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### HRDexDB
+
+<a id="ds-hrdexdb"></a>
+
+[Homepage](https://arxiv.org/abs/2604.14944) · [Paper](https://arxiv.org/abs/2604.14944)
+
+<a id="hrdexdb-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/hrdexdb-sample-01.png" alt="HRDexDB" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Paper page](https://arxiv.org/abs/2604.14944) - cross-embodiment grasp examples and ground-truth visualizations.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Seoul National University (Hanbyul Joo group)</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Why it matters</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Paired human- and robotic-hand grasps on the same target objects with high-precision spatiotemporal 3D ground truth, a base benchmark for cross-embodiment dexterous manipulation and human-demo-to-robot-hand transfer.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Usage</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Download</strong>: dataset released publicly (HuggingFace)</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Dedicated multi-camera system with state-of-the-art vision methods reconstructing high-fidelity human and robot grasping trajectories</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">2.1K grasping trials over 100 diverse objects and multiple robot hand embodiments</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: synchronized multi-view video</li><li><strong>Pose</strong>: high-precision spatiotemporal 3D motion GT for agent and object</li><li><strong>Force</strong>: contact-force signals for tactile-enabled hands</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### ManuFacet-1K
+
+<a id="ds-manufacet-1k"></a>
+
+[Homepage](https://pine-lab-ntu.github.io/facet-0/) · [Paper](https://arxiv.org/abs/2609.01596)
+
+<a id="manufacet-1k-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/manufacet-1k-sample-01.png" alt="ManuFacet-1K" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">Overview</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Facet-0 project page](https://pine-lab-ntu.github.io/facet-0/) - corpus and force-synchronized capture examples.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Source</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Nanyang Technological University PINE Lab</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Why it matters</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">A force-synchronized corpus for sub-millimeter precision assembly that aligns wrist wrench with action sequences, supporting joint action-force modeling and contact-intensive assembly policy research.</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Usage</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Download</strong>: released with the Facet-0 project (see project page)</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">Data design</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Collection</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Real assembly tasks across 3 embodiments and multiple manufacturing cells, recording wrist force/torque in sync with vision and joint state</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Scale</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">1,000 hours of force-synchronized corpus</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">Modalities</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>Vision</strong>: RGB</li><li><strong>Force</strong>: wrist force / torque time series</li><li><strong>Proprioception</strong>: joint state and actions</li></ul></td></tr>
 </tbody>
 </table>
