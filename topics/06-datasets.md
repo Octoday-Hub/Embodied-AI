@@ -1,6 +1,6 @@
 # 具身智能数据集
 
-> 51 个有代表性的具身智能数据集，覆盖真实采集、跨机器人汇总、RGB-D / 力 / 触觉、桌面操作、仿真基准与数据生成。统计以官方主页、仓库与论文为准。
+> 56 个有代表性的具身智能数据集，覆盖真实采集、跨机器人汇总、RGB-D / 力 / 触觉、桌面操作、仿真基准与数据生成。统计以官方主页、仓库与论文为准。
 
 ---
 
@@ -59,6 +59,11 @@
 | [DexCanvas](#ds-dexcanvas) | 人手灵巧操作 + 逐帧接触力 | 真实采集 + 仿真扩增 | 70 小时种子 / 计划 7,000 小时 | 多视角 RGB-D + MANO + 力觉 | [官方主页](https://dexcanvas.github.io/) |
 | [Humanoid Everyday](#ds-humanoideveryday) | 开放世界人形整机操作 | 真实采集 | 10.3k 轨迹 / 260 任务 | RGB + 深度 + 触觉 + 语言 | [官方主页](https://humanoideveryday.github.io/) |
 | [VTDexManip](#ds-vtdexmanip) | 人类触觉数据 + 灵巧操作基准 | 真实采集 + 仿真 | 565k 帧 / 2,032 序列 | RGB + 指尖压阻触觉 | [官方主页](https://lqts.github.io/VTDexManip/) |
+| [ACE-Data-0](#ds-ace-data-0) | 把真实家居改造成同步录制棚的环境级数据引擎 | 真实采集 | 150 小时 / 75,000 episodes | 自我中心+外中心视频 + 全身/手部运动 + 触觉 | [官方主页](https://ace-data-engine.github.io/ACE-Data-0/) |
+| [XR-2 Dataset](#ds-xr2-dataset) | 1,500 小时双臂家务操作数据的规模化语料 | 真实采集 + UMI | 1,500 小时 / 32,518 轨迹 | 多相机 RGB-D + IMU + 子任务语言 | [官方主页](https://huggingface.co/datasets/challenge-2026/challenge_data) |
+| [OpenNeoData](#ds-openneodata) | 触觉具身数据底座的开放子集 | 真实采集 + UMI | 5,000 小时（全量 30,000+） | RGB + 视触觉同步帧 | [官方主页](https://arxiv.org/abs/2608.29601) |
+| [HRDexDB](#ds-hrdexdb) | 人手与多种机器人手配对的跨本体抓取数据 | 真实采集 | 2.1K 抓取试验 / 100 物体 | 多视角视频 + 3D 运动真值 + 接触力 | [官方主页](https://arxiv.org/abs/2604.14944) |
+| [ManuFacet-1K](#ds-manufacet-1k) | 面向亚毫米精密装配的力觉同步语料 | 真实采集 | 1,000 小时 | RGB + 腕部力/力矩 + 关节状态 | [官方主页](https://pine-lab-ntu.github.io/facet-0/) |
 
 ---
 
@@ -1388,5 +1393,135 @@
 <tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">人手演示（压阻触觉手套）+ Isaac Gym 中 Shadow Hand 仿真基准</td></tr>
 <tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">565k 帧 / 2,032 条序列 / 5 名受试 / 10 个日常任务 / 182 个物体</td></tr>
 <tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：RGB</li><li><strong>触觉</strong>：指尖压阻（二值化后对仿真噪声鲁棒）</li><li><strong>姿态</strong>：抓取姿态</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### ACE-Data-0
+
+<a id="ds-ace-data-0"></a>
+
+[官方主页](https://ace-data-engine.github.io/ACE-Data-0/) · [论文](https://arxiv.org/abs/2607.28625)
+
+<a id="ace-data-0-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/ace-data-0-sample-01.jpg" alt="ACE-Data-0" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[项目主页](https://ace-data-engine.github.io/ACE-Data-0/) — 提供数据总览、标注可视化与分层基准示例。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">南洋理工大学（Ziwei Liu、Dacheng Tao、Liang Pan 团队）</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">把真实家居环境改造成空间标定、时间同步的录制棚：桌面级尺度解析手部操作，房间级尺度捕捉全身运动与移动交互，同时给出音频与触觉，适合模仿学习、世界模型与 VLA 的统一感知-动作建模。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：数据集与基准入口见项目页</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">Ambient Capture Engine（ACE）双尺度真实家居捕捉：桌面级手部操作 + 房间级全身活动，统一多感官流同步录制</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">150 小时 / 1,700 万视频帧 / 200 个任务类别 / 50 名参与者 / 2 个环境 / 75,000 个交互 episode</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：自我中心 + 多视角外中心视频</li><li><strong>本体感觉</strong>：全身与手部关节运动</li><li><strong>物体</strong>：几何与 6-DoF 轨迹</li><li><strong>其他</strong>：音频与触觉信号</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### XR-2 Dataset
+
+<a id="ds-xr2-dataset"></a>
+
+[官方主页](https://huggingface.co/datasets/challenge-2026/challenge_data) · [论文](https://arxiv.org/abs/2609.03591)
+
+<a id="xr2-dataset-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/xr2-dataset-sample-01.png" alt="XR-2 Dataset" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[数据集主页](https://huggingface.co/datasets/challenge-2026/challenge_data) — HuggingFace 上的开源语料与说明。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">PrimeBot 研究院（上纬新材）+ 北京大学计算机学院 + Crobotia</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">规模领先的开源双臂家务操作语料，同时提供专家演示与 DAgger 在策略修正数据，并给出两条缩放曲线（专家数据量、修正数据量），适合研究具身数据规模律。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：HuggingFace challenge-2026/challenge_data（开源）</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">X2W 移动双臂平台（25 DoF）真机遥操作 + UMI 手持夹爪演示，并追加 DAgger 实时人工干预的在策略修正数据</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">合计 1,500 小时；真机子集 32,518 条轨迹 / 5,740 万帧 / 531.7 小时；覆盖 11 项原子技能</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：RealSense D435i、ZED X Mini 等多相机 RGB-D</li><li><strong>本体感觉</strong>：关节状态 + IMU</li><li><strong>标注</strong>：子任务级语言指令</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### OpenNeoData
+
+<a id="ds-openneodata"></a>
+
+[官方主页](https://arxiv.org/abs/2608.29601) · [论文](https://arxiv.org/abs/2608.29601)
+
+<a id="openneodata-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/openneodata-sample-01.png" alt="OpenNeoData" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[N0-Foundation 论文页](https://arxiv.org/abs/2608.29601) — 含采集设施、数据统计与模型/基准说明。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">复旦大学 TEAI 团队 + NeoteAI</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">触觉具身数据底座：全量 NeoData 超过 30,000 小时同步视触觉演示，开源子集 5,000 小时，填补可变形物体操作、精密装配与力控等接触密集场景的数据缺口。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：OpenNeoData 开源子集（5,000 小时）</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">视觉式触觉传感器 + 触觉 UMI 双路采集，支持机器人本体遥操作与 UMI 演示两种来源</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">30,000+ 小时（开源子集 5,000 小时）；覆盖 6 种本体、450 个任务，数十亿配对 RGB/触觉帧</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：RGB</li><li><strong>触觉</strong>：视触觉传感器帧（跨传感器设计可迁移）</li><li><strong>配对</strong>：RGB-触觉同步对齐</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### HRDexDB
+
+<a id="ds-hrdexdb"></a>
+
+[官方主页](https://arxiv.org/abs/2604.14944) · [论文](https://arxiv.org/abs/2604.14944)
+
+<a id="hrdexdb-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/hrdexdb-sample-01.png" alt="HRDexDB" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[论文页](https://arxiv.org/abs/2604.14944) — 提供跨本体抓取示例与真值可视化。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">首尔大学（Hanbyul Joo 团队）</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">人手与多种机器人手在同一目标物体上的配对抓取数据，提供高精度时空 3D 运动真值，是跨本体灵巧操作与"人手示范→机器人手执行"迁移研究的基础基准。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：数据集已公开（HuggingFace）</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">专用多相机系统采集，结合前沿视觉方法重建人手与机器人手的高保真抓取轨迹</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">2.1K 条抓取试验，覆盖 100 个多样物体与多种机器人手本体</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：多视角同步视频</li><li><strong>姿态</strong>：操作体与物体的高精度时空 3D 运动真值</li><li><strong>力觉</strong>：接触力信号（触觉-enabled 机器人手）</li></ul></td></tr>
+</tbody>
+</table>
+
+---
+
+### ManuFacet-1K
+
+<a id="ds-manufacet-1k"></a>
+
+[官方主页](https://pine-lab-ntu.github.io/facet-0/) · [论文](https://arxiv.org/abs/2609.01596)
+
+<a id="manufacet-1k-sample"></a>
+
+<div align="center">
+  <img src="datasets-img/manufacet-1k-sample-01.png" alt="ManuFacet-1K" height="520">
+</div>
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td rowspan="4" style="width:130px;min-width:130px;max-width:130px" width="130">基本介绍</td><td style="width:130px;min-width:130px;max-width:130px" width="130">Dataset Visualizer</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">[Facet-0 项目页](https://pine-lab-ntu.github.io/facet-0/) — 展示语料与力觉同步采集示例。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">来源机构</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">新加坡南洋理工大学 PINE Lab</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">关注建议</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">面向亚毫米级精密装配的力觉同步语料，把腕部力/力矩与动作序列对齐记录，支撑"动作-力觉"联合建模与接触密集型装配策略研究。</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据使用</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>下载</strong>：随 Facet-0 项目发布（见项目页）</li></ul></td></tr>
+<tr><td rowspan="3" style="width:130px;min-width:130px;max-width:130px" width="130">数据设计</td><td style="width:130px;min-width:130px;max-width:130px" width="130">收集方式</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">3 种本体、多个制造单元的真实装配任务采集，腕部力/力矩与视觉、关节状态同步记录</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">体量分布</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620">1,000 小时力觉同步语料</td></tr>
+<tr><td style="width:130px;min-width:130px;max-width:130px" width="130">数据维度</td><td style="word-wrap:break-word;width:620px;min-width:620px;max-width:620px" width="620"><ul><li><strong>视觉</strong>：RGB</li><li><strong>力觉</strong>：腕部力 / 力矩时序</li><li><strong>本体感觉</strong>：关节状态与动作</li></ul></td></tr>
 </tbody>
 </table>

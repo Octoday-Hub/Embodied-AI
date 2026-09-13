@@ -12,6 +12,45 @@
 
 ## Embodied Foundation Models
 
+### [DriftingVLA: Native One-Step Vision-Language-Action Generation via Per-Dimension Temporal Drifting](https://arxiv.org/abs/2608.29749)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">用分布漂移目标把流式多步 VLA 动作生成压成单步，并逐动作维度塑形时序。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 8 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">中国科学技术大学（合作灵犀科技 LYNSENSE）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>原生一步式 VLA</strong>：以分布漂移目标学习"噪声→动作块"直接映射，一次前向出整块动作，无需迭代积分流场</li><li><strong>逐维度时序漂移（PDTD）</strong>：把每个动作维度的完整时序当作独立漂移单元建模，推理时仍整块联合生成以保留跨维度依赖</li><li>针对平移/旋转/夹爪等维度控制语义与分布特性不同的实际问题</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>LIBERO <strong>98.32%</strong>、RoboTwin 2.0 <strong>81.09%</strong>、6 项真机单/双臂任务平均 <strong>77.67%</strong></li><li>动作块生成<strong>提速 3.36×</strong>且不牺牲控制性能</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">DriftingVLA（PDTD 训练目标）</td></tr>
+</tbody>
+</table>
+
+### [DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation](https://arxiv.org/abs/2608.20114)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">解耦相机自运动与底盘/手臂动作，面向移动基座做全身世界-动作模型与数据集。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 8 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">清华大学 + 上海人工智能实验室 + 哈尔滨工业大学 + 云深处科技</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>专用条件接口显式分离相机 ego-motion 与 base/arm 动作</strong>，解决移动视角下画面运动混合的建模难题</li><li>冻结 FastWAM 骨干，只训<strong>残差适配器 + 特权观测蒸馏的动作等价未来瓶颈 + base/arm 潜变量对抗分离</strong></li><li>应对<strong>多速率动作耦合</strong>（手臂 15–30 Hz、底盘 3–5 Hz）；同步发布 ARMDOG 真机数据集</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>动作 MSE 相对 FastWAM <strong>下降 21.7%</strong>，可训练参数仅 25.95M</li><li>全身协调性与基座位移鲁棒性最优，任务完成率与最强基线持平</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">ARMDOG 真机数据集（视频+全身状态+动作+语言）；DECOWAM（FastWAM 骨干）</td></tr>
+</tbody>
+</table>
+
+### [Flex-π: A Multi-Stream World-Action Model with Compute Flexibility](https://arxiv.org/abs/2608.10860)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">单权重联合预测动作、RGB、3D 点图与语义，部署时按需在动作极速与全量想象间切换。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 8 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">华盛顿大学 + 艾伦人工智能研究所（AI2）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>发现<strong>冻结的视频生成 VAE 也能近乎无损编码 3D pointmaps</strong>，几何监督无需新预训练或传感器</li><li>RGB、pointmap、DINO 语义投影进共享隐空间，与动作在<strong>Mixture-of-Transformers（6B）</strong>骨干联合去噪</li><li><strong>逐流 dropout + 跨模态强制</strong>：单一 checkpoint 推理期可跑任意视觉子集（56 种部署配置）</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>真机灵巧/高精度双臂任务相对最强基线最高 <strong>2–7×</strong> 提升（含分布外）</li><li>RoboTwin-50 纯动作模式 <strong>94.6%</strong>，推理快于 π0.5</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Flex-π（6B，Wan-2.2 初始化视觉主干）</td></tr>
+</tbody>
+</table>
+
 ### [AnyWorld: Factorized Egocentric World Models for Cross-Embodiment Generalization](https://arxiv.org/abs/2608.29242)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -823,6 +862,45 @@
 <a id="manipulation" name="manipulation"></a>
 ## Manipulation & Teleoperation
 
+### [Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation](https://arxiv.org/abs/2609.01596)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">动作-力觉联合建模加 RL 后训练，实现亚毫米级精密装配。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 9 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">新加坡南洋理工大学 PINE Lab</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>动作-力觉联合生成</strong>：把腕部力/力矩历史与视觉语言语义、运动学状态对齐，流匹配同时生成动作块与其诱导的腕力曲线</li><li>部署期用分布式 <strong>Action-Wrench Critic</strong> 区分"任务进展相似但接触结果不同"的轨迹，配相位感知奖励</li><li>大模型冻结，仅加<strong>轻量有界 actor</strong> 做真机适配，保留动作-接触耦合预测</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>五个亚毫米计算机装配任务平均成功率 <strong>82%</strong>（最强基线 15%）</li><li>放置精度 <strong>0.5 mm</strong>、指令延迟约 50 ms</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">ManuFacet-1K（1,000 小时力觉同步语料，3 种本体）；Facet-0</td></tr>
+</tbody>
+</table>
+
+### [Pre-training Visual Dexterity in Simulation](https://arxiv.org/abs/2608.15917)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">仿真内 VR 遥操作采灵巧数据预训练，少量真机演示微调即可部署。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 8 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">斯坦福大学（Chelsea Finn、C. Karen Liu 团队等）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>SPD 全程仿真内采集</strong>：人类戴 VR 头显操作虚拟物体得到同本体轨迹，无需真实机器人与姿态重定向</li><li>5 名操作员一周采得 <strong>75 小时</strong>多任务灵巧数据，用于因果 Transformer 序列预训练</li><li>目标真机为 <strong>56-DoF 双臂灵巧平台</strong>，仅需 1–2 小时物理演示微调</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>全面优于从零训练的 BC 策略</li><li><strong>1–2 小时</strong>真机微调即实现有效跨任务迁移</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">SPD（VR 仿真灵巧预训练；75h 多任务数据）</td></tr>
+</tbody>
+</table>
+
+### [HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL](https://arxiv.org/abs/2608.16837)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">把通用 VLA 改造成分层动作流并在紧致潜空间做 RL，驱动人形全身移动操作。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 8 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">西安交通大学 + 北京大学 + 南开大学等</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>HAF-VLA 分层动作流</strong>：全身动作去噪拆成步态/腰姿/双臂三阶段，用阶段嵌入与跨阶段 KV 缓存保留运动学依赖</li><li><strong>HAF-Steer 潜空间 RL</strong>：借流匹配可逆性与 DCT 降维，把 RL 限制在紧凑噪声子空间，大 VLA 主干全程冻结</li><li>直击人形"高维 + 关节强耦合"使单阶段 VLA 失效的痛点</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>7 项真实世界人形全身移动操作任务超越 vanilla 单阶段 VLA 基线，全身协调性与任务表现提升</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">HAF-VLA + HAF-Steer（基于预训练 flow-matching VLA）</td></tr>
+</tbody>
+</table>
+
 ### [Gripper-aware Vision Language Action Models](https://arxiv.org/abs/2608.24603)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -1059,6 +1137,19 @@
 <a id="locomotion" name="locomotion"></a>
 ## Locomotion
 
+### [Learning Agile Perceptive Traversal of Sparse 3D Structures for Humanoids](https://arxiv.org/abs/2608.29769)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">人形仅凭头戴激光雷达，RL 学会跳上单杠、摆荡穿越并安全落地。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 8 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">苏黎世联邦理工学院 RSL（Marco Hutter 团队）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>以<strong>猴架穿越</strong>为任务：起跳抓杠 → 稀疏横杆间摆荡 → 安全跳落</li><li>策略直接消费<strong>头戴固态激光雷达原始点云</strong>，用注意力编码器 + 循环记忆提取薄/悬空几何</li><li><strong>分相 teacher-student 流水线</strong>：起跳/摆荡/下落各训特权专家后蒸馏为单感知策略</li><li>真机迁移建模激光噪声、电压跌落与热限位，加被动钩状末端增强抓杠鲁棒性</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>真机 3 种杠位配置下 <strong>14/15</strong> 次完整走通，摆荡速度最高 0.5 m/s</li><li>同一感知骨干支持下蹲钻越 2 cm 截面细杆</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">分相 teacher-student RL 感知策略（头戴固态激光雷达输入）</td></tr>
+</tbody>
+</table>
+
 ### [SleepWalking: Privileged Representation Shaping for End-to-End Blind Locomotion in Legged Robots](https://arxiv.org/abs/2608.30883)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -1121,6 +1212,19 @@
 <a id="navigation-spatial-intelligence" name="navigation-spatial-intelligence"></a>
 
 ## Navigation & Spatial Intelligence
+
+### [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">三阶段全身规划加残差 RL，让 Unitree G1 安全穿行高度受限空间。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 8 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">德州大学奥斯汀分校（Luis Sentis 团队）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>直接在<strong>运动学可达刚体体积</strong>上做路径规划，绕开 spline/质点抽象在稠密障碍+自碰撞下的局部极小</li><li>把<strong>可微碰撞避免</strong>融入可达性约束，生成体积引导参考驱动全阶轨迹优化</li><li>优化轨迹作参考训练<strong>残差 RL 策略</strong>，领域随机化下鲁棒在线执行</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>3 个基准测试台达受限通道比 <strong>Cr<1.5</strong>（超出 NIST 应急响应标准），标准基线全部失败</li><li>生成 12–18 秒含复杂手脚接触的可行轨迹</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">三阶段全身规划 + 残差 RL 策略（Unitree G1）</td></tr>
+</tbody>
+</table>
 
 ### [CrossTracer: Cross-Embodiment Navigation via VLA Model Reasoning and Trace Residuals Adapting](https://arxiv.org/abs/2608.06688)
 
@@ -1211,6 +1315,19 @@
 <a id="simulation-sim2real" name="simulation-sim2real"></a>
 
 ## Simulators & Sim2Real
+
+### [SoRoMoX: Fast, Differentiable, and Parallelizable Soft Robot Models](https://arxiv.org/abs/2608.06650)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">首个 GPU 并行、端到端可微的 JAX 软体机器人仿真框架。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 8 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">MIT（Daniela Rus）与 TU Delft（Cosimo Della Santina）领衔等</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>基于 <strong>JAX</strong> 的全数值 JIT 可编译框架，统一实现 articulated / PCS / VS 三类杆模型及导数</li><li><strong>首个原生 GPU、对状态/输入/参数端到端可微</strong>的杆/应变类软体建模工具</li><li>控制导向接口面向 MPC、RL、参数辨识等主流工作流</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>CPU rollout 最高 <strong>18.1×</strong> 快于 SOTA，GPU 并行吞吐最高 <strong>234.6×</strong></li><li>静平衡系统辨识 marker RMSE 降 66%；计算力矩跟踪误差较 model-free PD 降约 500×</li><li>RL 策略训练较 CPU PyElastica 快 7×</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">SoRoMoX（JAX 软体机器人建模框架）</td></tr>
+</tbody>
+</table>
 
 - **[arXiv 2026年7月](https://arxiv.org/abs/2607.15065)** DriftWorld: Fast World Modeling through Drifting. 通过漂移实现快速世界建模。
 
@@ -1462,6 +1579,19 @@
 
 <a id="datasets" name="datasets"></a>
 ## Datasets
+
+### [N0-Foundation: Towards the Age of Tactile Intelligence](https://arxiv.org/abs/2608.29601)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">触觉具身全栈：自研传感器加 3 万小时触觉数据、表征模型与虚实基准。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 8 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">复旦大学 TEAI 团队 + NeoteAI</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>工程化<strong>规模化触觉采集设施</strong>：视觉式触觉传感器、触觉 UMI、双路视触觉同步采集</li><li>构建 <strong>NeoData</strong>：30,000+ 小时同步视触觉演示，覆盖 6 种本体、450 个任务</li><li>开源 <strong>OpenNeoData（5,000 小时子集）</strong>；提出 NeoForce 视触觉表征模型</li><li>标准评测含真机 NeoReal 与仿真 NeoSim 双套件</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>两套件实验表明策略增益来自<strong>物理接触状态</strong>而非传感器外观差异</li><li>面向接触密集型具身操作提供从数据到评测的开放底座</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">NeoData / OpenNeoData 数据集；NeoForce 表征；NeoReal+NeoSim 基准</td></tr>
+</tbody>
+</table>
 
 ### [RynnWorld-Teleop: An Action-Conditioned World Model for Digital Teleoperation](https://arxiv.org/abs/2607.06558)
 

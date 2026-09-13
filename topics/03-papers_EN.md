@@ -12,6 +12,45 @@
 
 ## Embodied Foundation Models
 
+### [DriftingVLA: Native One-Step Vision-Language-Action Generation via Per-Dimension Temporal Drifting](https://arxiv.org/abs/2608.29749)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Compresses streaming multi-step VLA action generation into a single step via distribution-drifting targets, shaping timing per action dimension.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">August 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">University of Science and Technology of China (with LYNSENSE)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Native one-step VLA</strong>: learns a direct noise-to-action-chunk mapping with distribution-drifting targets, no iterative flow integration</li><li><strong>Per-dimension temporal drifting (PDTD)</strong>: models each action dimension's full timeline as an independent drifting unit while keeping joint chunk generation at inference</li><li>Targets real differences in control semantics/distributions across translation, rotation, and gripper dims</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>LIBERO <strong>98.32%</strong>, RoboTwin 2.0 <strong>81.09%</strong>, avg <strong>77.67%</strong> over 6 real-robot single/bimanual tasks</li><li>Action-chunk generation <strong>3.36x faster</strong> with no control-performance loss</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">DriftingVLA (PDTD training objective)</td></tr>
+</tbody>
+</table>
+
+### [DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation](https://arxiv.org/abs/2608.20114)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Decouples camera ego-motion from base/arm actions for a whole-body world-action model and dataset on mobile bases.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">August 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Tsinghua University + Shanghai AI Laboratory + HIT + DEEP Robotics</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Dedicated conditioning interface separating camera ego-motion from base/arm actions</strong>, solving motion mixing under moving viewpoints</li><li>Freezes FastWAM backbone, training only <strong>residual adapters + action-equivalent future bottleneck distilled from privileged observations + adversarial base/arm latent separation</strong></li><li>Handles <strong>multi-rate action coupling</strong> (arm 15-30 Hz, base 3-5 Hz); releases the ARMDOG real-robot dataset</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Action MSE <strong>down 21.7%</strong> vs FastWAM with only 25.95M trainable params</li><li>Best whole-body coordination and base-displacement robustness; completion on par with strongest baseline</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">ARMDOG real-robot dataset; DECOWAM (FastWAM backbone)</td></tr>
+</tbody>
+</table>
+
+### [Flex-π: A Multi-Stream World-Action Model with Compute Flexibility](https://arxiv.org/abs/2608.10860)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">One weight set jointly predicts actions, RGB, 3D pointmaps, and semantics; deployment switches on demand between action-fast and full-imagination.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">August 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">University of Washington + AI2</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Finds a "free lunch": <strong>frozen video-generation VAEs encode 3D pointmaps near-losslessly</strong>, no extra pretraining or sensors</li><li>RGB, pointmap, and DINO semantics project into a shared latent space, jointly denoised with actions in a <strong>Mixture-of-Transformers (6B)</strong> backbone</li><li><strong>Per-stream dropout + cross-modal forcing</strong>: one checkpoint can run any vision subset at inference (56 deployment configs)</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Up to <strong>2-7x</strong> gains on real-robot dexterous/high-precision bimanual tasks (incl. OOD) vs strongest baselines</li><li>RoboTwin-50 action-only mode <strong>94.6%</strong>, inference faster than pi-0.5</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Flex-π (6B, Wan-2.2-initialized vision backbone)</td></tr>
+</tbody>
+</table>
+
 ### [AnyWorld: Factorized Egocentric World Models for Cross-Embodiment Generalization](https://arxiv.org/abs/2608.29242)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -827,6 +866,45 @@
 
 ## Manipulation & Teleoperation
 
+### [Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation](https://arxiv.org/abs/2609.01596)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Joint action-force modeling plus RL post-training for sub-millimeter precision assembly.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">September 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">NTU Singapore PINE Lab</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Joint action-wrench generation</strong>: aligns causal wrist force/torque history with visio-linguistic semantics and kinematic state; flow matching emits action chunks with their induced wrench curves</li><li>Deployment uses a distributed <strong>Action-Wrench Critic</strong> to separate trajectories with similar progress but different contact outcomes, with phase-aware rewards</li><li>Frozen base model plus a <strong>lightweight bounded actor</strong> for real-robot adaptation</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Avg success <strong>82%</strong> on five sub-mm computer-assembly tasks (strongest baseline 15%)</li><li>Placement precision <strong>0.5 mm</strong>, ~50 ms inference latency</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">ManuFacet-1K (1,000 h force-synced corpus, 3 embodiments); Facet-0</td></tr>
+</tbody>
+</table>
+
+### [Pre-training Visual Dexterity in Simulation](https://arxiv.org/abs/2608.15917)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Pretrains dexterity in simulation with VR teleoperation; a few hours of real demos finetune it for deployment.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">August 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Stanford (Chelsea Finn, C. Karen Liu groups, with MIT collaborators)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>SPD collects everything in sim</strong>: humans in VR headsets manipulate virtual objects, yielding on-embodiment trajectories without a real robot or retargeting</li><li>5 operators collected <strong>75 hours</strong> of multi-task dexterity data in a week for causal-transformer pretraining</li><li>Target: a <strong>56-DoF bimanual dexterous platform</strong> requiring only 1-2 h of physical demos</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Consistently outperforms behavior-cloning policies trained from scratch</li><li><strong>1-2 h</strong> real finetuning enables effective cross-task transfer</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">SPD (VR-sim dexterity pretraining; 75 h multi-task data)</td></tr>
+</tbody>
+</table>
+
+### [HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL](https://arxiv.org/abs/2608.16837)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Adapts generalist VLAs into a hierarchical action flow and runs RL in a compact latent space for humanoid whole-body mobile manipulation.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">August 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Xi'an Jiaotong University + Peking University + Nankai University et al.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>HAF-VLA hierarchical action flow</strong>: whole-body denoising split into gait/trunk/dual-arm stages with stage embeddings and cross-stage KV caches</li><li><strong>HAF-Steer latent-space RL</strong>: via flow-matching invertibility and DCT reduction, RL lives in a compact noise subspace with the large VLA backbone frozen</li><li>Targets the high-DoF + strongly coupled joints that break single-stage VLAs on humanoids</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Beats vanilla single-stage VLA baselines across 7 real-world humanoid whole-body mobile-manipulation tasks with better coordination</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">HAF-VLA + HAF-Steer (pretrained flow-matching VLA base)</td></tr>
+</tbody>
+</table>
+
 ### [Gripper-aware Vision Language Action Models](https://arxiv.org/abs/2608.24603)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -1066,6 +1144,19 @@
 
 ## Locomotion
 
+### [Learning Agile Perceptive Traversal of Sparse 3D Structures for Humanoids](https://arxiv.org/abs/2608.29769)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A humanoid learns, from head-mounted LiDAR alone, to jump onto, swing across, and land from a monkey-bar-like sparse structure.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">August 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">ETH Zurich RSL (Marco Hutter group)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Monkey-bar traversal</strong>: jump-grab, swing between sparse bars, safe landing</li><li>Policy consumes <strong>raw head-mounted solid-state LiDAR point clouds</strong> with attention encoder + recurrent memory for thin/floating geometry</li><li><strong>Phase-wise teacher-student pipeline</strong>: privileged experts for takeoff/swing/land distilled into one perception policy</li><li>Models lidar noise, voltage sag, and joint thermal limits; passive hook end-effector for robust bar grasping</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>14/15</strong> full jump-swing-land runs across 3 bar configurations, up to 0.5 m/s swing</li><li>Same perception backbone supports ducking under a 2 cm-profile bar</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Phase-wise teacher-student RL perception policy (head-mounted solid-state LiDAR)</td></tr>
+</tbody>
+</table>
+
 ### [SleepWalking: Privileged Representation Shaping for End-to-End Blind Locomotion in Legged Robots](https://arxiv.org/abs/2608.30883)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -1135,6 +1226,19 @@
 </table>
 
 ## Navigation & Spatial Intelligence
+
+### [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Three-stage whole-body planning plus residual RL lets a Unitree G1 traverse height-constrained spaces safely.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">August 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">University of Texas at Austin (Luis Sentis group)</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Plans directly on <strong>kinematically reachable rigid-body volumes</strong>, avoiding spline/point-mass local minima in dense-obstacle + self-collision scenes</li><li>Merges <strong>differentiable collision avoidance</strong> into reachability constraints to produce volume-informed guides for a full-order optimizer</li><li>Optimized traces train a <strong>residual RL policy</strong> for robust online execution under domain randomization</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Reaches confined-channel ratio <strong>Cr < 1.5</strong> on 3 testbeds beyond NIST emergency-response standards, where baselines all fail</li><li>Generates 12-18 s feasible trajectories with complex hand-foot contacts</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Three-stage whole-body planning + residual RL (Unitree G1)</td></tr>
+</tbody>
+</table>
 
 ### [CrossTracer: Cross-Embodiment Navigation via VLA Model Reasoning and Trace Residuals Adapting](https://arxiv.org/abs/2608.06688)
 
@@ -1225,6 +1329,19 @@
 <a id="simulation-sim2real" name="simulation-sim2real"></a>
 
 ## Simulators & Sim2Real
+
+### [SoRoMoX: Fast, Differentiable, and Parallelizable Soft Robot Models](https://arxiv.org/abs/2608.06650)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">The first GPU-parallel, end-to-end differentiable JAX simulation framework for soft robots.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">August 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">MIT (Daniela Rus) with TU Delft (Cosimo Della Santina), Duke et al.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Fully numerical, <strong>JAX JIT-compilable</strong> framework unifying articulated / PCS / variable-strain rod models with inertias, elastic forces, Jacobians and their derivatives</li><li><strong>First natively GPU, end-to-end differentiable</strong> rod/strain-class soft-body modeling tool</li><li>Control-oriented interface for MPC, RL, and parameter identification workflows</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Sequential CPU rollout up to <strong>18.1x</strong> faster than SOTA; GPU parallel throughput up to <strong>234.6x</strong></li><li>Static-equilibrium identification marker RMSE down 66%; computed-torque tracking error ~500x lower than model-free PD</li><li>RL training <strong>7x faster</strong> than CPU PyElastica</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">SoRoMoX (JAX soft-robot modeling framework)</td></tr>
+</tbody>
+</table>
 
 - **[arXiv Jul 2026](https://arxiv.org/abs/2607.15065)** DriftWorld: Fast World Modeling. Fast world modeling through drifting.
 
@@ -1478,6 +1595,19 @@
 <a id="datasets" name="datasets"></a>
 
 ## Datasets
+
+### [N0-Foundation: Towards the Age of Tactile Intelligence](https://arxiv.org/abs/2608.29601)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Full-stack tactile embodied AI: self-designed sensors, 30K hours of tactile data, representation model, and virtual+real benchmarks.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">August 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Fudan University TEAI + NeoteAI</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Engineers <strong>scalable tactile collection infrastructure</strong>: vision-based tactile sensors, tactile UMI, dual-route visuo-tactile capture</li><li>Builds <strong>NeoData</strong>: 30,000+ hours of synchronized visuo-tactile demos across 6 embodiments and 450 tasks</li><li>Releases <strong>OpenNeoData (5,000-hour subset)</strong>; proposes the NeoForce visuo-tactile representation</li><li>Standardized real-world NeoReal and simulated NeoSim suites</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Both suites show gains come from <strong>physical contact state</strong>, not sensor appearance</li><li>Provides an open data-to-evaluation foundation for contact-intensive manipulation</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">NeoData / OpenNeoData; NeoForce representation; NeoReal + NeoSim benchmarks</td></tr>
+</tbody>
+</table>
 
 ### [RynnWorld-Teleop: An Action-Conditioned World Model for Digital Teleoperation](https://arxiv.org/abs/2607.06558)
 

@@ -15,19 +15,22 @@
 
 
 <p align="center">
-  <img alt="Last Commit: 9.8" src="https://img.shields.io/badge/Last%20Commit-9.8-3B82F6?style=flat-square&labelColor=374151" />
+  <img alt="Last Commit: 9.12" src="https://img.shields.io/badge/Last%20Commit-9.12-3B82F6?style=flat-square&labelColor=374151" />
 </p>
 
 <p align="center">
-  <img alt="Papers Updated" src="https://img.shields.io/badge/Papers%20Updated-%2B10-8B5CF6?style=flat-square&labelColor=5B21B6" />
-  <img alt="Datasets Updated" src="https://img.shields.io/badge/Datasets%20Updated-%2B5-F59E0B?style=flat-square&labelColor=92400E" />
-  <img alt="Tools Updated" src="https://img.shields.io/badge/Tools%20Updated-%2B1-14B8A6?style=flat-square&labelColor=0F766E" />
+  <img alt="Papers Updated" src="https://img.shields.io/badge/Papers%20Updated-%2B20-8B5CF6?style=flat-square&labelColor=5B21B6" />
+  <img alt="Datasets Updated" src="https://img.shields.io/badge/Datasets%20Updated-%2B10-F59E0B?style=flat-square&labelColor=92400E" />
+  <img alt="Tools Updated" src="https://img.shields.io/badge/Tools%20Updated-%2B2-14B8A6?style=flat-square&labelColor=0F766E" />
 </p>
 
 <p align="center">
-  <strong>This Week (20260908):</strong> Papers & datasets expansion with a ManiSkill3 deep-dive
+  <strong>This Week (20260912):</strong> Two rounds of papers, datasets expansion & tool deep-dives
 </p>
 
+<p align="center">
+  Updated in two rounds this week: the papers page adds 20 structured entries in total (Tue 10: &tau;0-VLA, Riemann-1.0, AnyWorld, VLAct, UCAG-P, Gripper-aware VLA, SleepWalking, CrossTracer, GAUGE, StellaVLA; Fri 10: Facet-0, Flex-&pi;, DECOWAM, DriftingVLA, HAF, SPD, monkey-bar traversal, confined-space whole-body planning, SoRoMoX, N0-Foundation), sorted by release date with the English version synced, reaching 427 papers; the datasets page adds 10 datasets (ABC-130K, TableVerse-100K, DexCanvas, Humanoid Everyday, VTDexManip, ACE-Data-0, XR-2 Dataset, OpenNeoData, HRDexDB, ManuFacet-1K), reaching 56 in total, covering bimanual teleoperation, Real2Sim generation, tactile sensing, and humanoid whole-body operation; the tools page adds two paper-style deep-dives, ManiSkill3 and GR00T-Dreams (with use cases and case studies).
+</p>
 <p align="center">
   The papers page adds 10 structured entries from August 2026 (&tau;0-VLA, Riemann-1.0, AnyWorld, VLAct, UCAG-P, Gripper-aware VLA, SleepWalking, CrossTracer, GAUGE, StellaVLA), covering world action models, test-time computation for VLAs, cross-embodiment navigation, and physical-fidelity benchmarking, reaching 417 papers; the datasets page adds 5 datasets (ABC-130K, TableVerse-100K, DexCanvas, Humanoid Everyday, VTDexManip), reaching 51 in total, spanning bimanual teleoperation, Real2Sim tabletop generation, human-hand contact force, and humanoid whole-body operation; the tools page adds a paper-style deep-dive for ManiSkill3 (GPU-parallel simulation and evaluation platform).
 </p>
@@ -91,7 +94,7 @@ A hand-picked selection of books and courses covering the fundamentals of roboti
 
 ### 🔭 (2) Watchtower: Track Frontier Technologies
 
-> Currently featuring `21` competitions, `10` conferences, and `417` selected papers.
+> Currently featuring `21` competitions, `10` conferences, and `427` selected papers.
 
 Check out the [Research & Competition Hub](05-research-hub_EN.md):
 
@@ -114,7 +117,7 @@ Browse curated papers on embodied intelligence, deepen your understanding with o
 
 ### 🔧 (3) Forge: Integrate Engineering Practice
 
-> Currently featuring `159` tools, open-source projects, and development frameworks.
+> Currently featuring `160` tools, open-source projects, and development frameworks.
 
 Check out [Tools & Open-Source Projects](04-tools_EN.md):
 
