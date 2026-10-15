@@ -8,38 +8,31 @@
   <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Sans&weight=600&size=28&duration=3200&pause=900&color=FF9F1C&center=true&vCenter=true&width=760&height=44&lines=Welcome%20to%20Octoday%20Hub&v=20260601-2" alt="Welcome to Octoday Hub" />
 </div>
 
-
 <div align="center">
-  <p>我们致力于链接学术研究与产业落地，整合高质量知识内容、工具资源与职业机会，<br />帮助开发者与研究者高效获取信息。</p>
+  <p>我们致力于链接学术研究与产业落地，持续整理优质开源代码、开发工具、机器人项目、数据集与前沿论文，<br />帮助开发者与研究者高效发现技术资源，从前沿研究走向工程实践。</p>
 </div>
 
-
 <p align="center">
-  <img alt="Last Commit: 9.12" src="https://img.shields.io/badge/Last%20Commit-9.12-3B82F6?style=flat-square&labelColor=374151" />
+  <img alt="Updates: Twice Weekly" src="https://img.shields.io/badge/Updates-Twice%20Weekly-3B82F6?style=flat-square&labelColor=374151" />
+  <img alt="Open Source Resources" src="https://img.shields.io/badge/Resources-Code%20%7C%20Tools%20%7C%20Projects-14B8A6?style=flat-square&labelColor=0F766E" />
+  <img alt="Community Contributions" src="https://img.shields.io/badge/Contributions-Welcome-8B5CF6?style=flat-square&labelColor=5B21B6" />
 </p>
 
-<p align="center">
-  <img alt="更新论文" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E8%AE%BA%E6%96%87-%2B20-8B5CF6?style=flat-square&labelColor=5B21B6" />
-  <img alt="更新数据集" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%95%B0%E6%8D%AE%E9%9B%86-%2B10-F59E0B?style=flat-square&labelColor=92400E" />
-  <img alt="更新工具" src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E5%B7%A5%E5%85%B7-%2B2-14B8A6?style=flat-square&labelColor=0F766E" />
-</p>
+<p align="center">📅 计划每周二、周五维护更新（北京时间） · 🌐 <a href="topics/README_EN.md">English Version</a></p>
 
-<p align="center">
-  <strong>本周更新（20260912）：</strong>两轮论文、数据集扩充与工具详解上线
-</p>
+## 🚀 开发者资源直达
 
-<p align="center">
-  本周分两轮更新：论文页累计新增 20 篇结构化条目（周二 10 篇：τ0-VLA、Riemann-1.0、AnyWorld、VLAct、UCAG-P、Gripper-aware VLA、SleepWalking、CrossTracer、GAUGE、StellaVLA；周五 10 篇：Facet-0、Flex-π、DECOWAM、DriftingVLA、HAF、SPD、猴架穿越、受限空间全身规划、SoRoMoX、N0-Foundation），按发布时间排序、同步英文版，当前收录 427 篇；数据集页累计新增 10 个（ABC-130K、TableVerse-100K、DexCanvas、Humanoid Everyday、VTDexManip、ACE-Data-0、XR-2 Dataset、OpenNeoData、HRDexDB、ManuFacet-1K），累计 56 个，覆盖双臂遥操作、Real2Sim 生成、触觉与人形整机；工具页新增 ManiSkill3 与 GR00T-Dreams 两个论文式详解条目（含使用场景与案例）。
-</p>
-<p align="center">
-  论文页新增 10 篇 2026 年 8 月发布论文的结构化条目（τ0-VLA、Riemann-1.0、AnyWorld、VLAct、UCAG-P、Gripper-aware VLA、SleepWalking、CrossTracer、GAUGE、StellaVLA），覆盖世界动作模型、VLA 测试时计算、跨本体导航与物理保真评测等方向，当前收录 417 篇；数据集页新增 5 个数据集（ABC-130K、TableVerse-100K、DexCanvas、Humanoid Everyday、VTDexManip），累计 51 个，覆盖双臂遥操作、Real2Sim 桌面生成、人手接触力与人形整机操作；工具页新增 ManiSkill3 论文式详解条目（GPU 并行仿真与评测平台）。
-</p>
-<p align="center">
-  本周分两轮更新：论文页累计新增 20 篇结构化条目（Gemini Robotics、CogACT、DexVLA、UP-VLA、WorldVLA、3D-VLA、RoboDual、ForceVLA、Moto、DayDreamer、SmolVLA、MimicPlay、RoboPoint、Knowledge Insulating、TinyVLA、VPP、GR-1、GR-2、EgoMimic、RoboGen），当前收录 407 篇；数据集页累计新增 10 个（DexYCB、OakInk、GraspNet-1Billion、HOI4D、ARCTIC、GigaHands、EgoDex、DexCap、HumanPlus、LeRobot Community），当前 46 个；工具页 Genesis 与 LeRobot 升级为论文式详解条目（含使用场景与案例）。
-</p>
+已经有明确的开发目标？从这里直接查找代码、工具、开源项目与下载资源；初次接触具身智能，也可以继续阅读下方的「📍 新手启程」。
 
+| 资源入口 | 主要内容 | 直达链接 |
+| :--- | :--- | :--- |
+| 💻 **代码与开源实现** | VLA、Robot Learning、控制与机器人研究实现 | [查看开源资源](topics/04-tools.md) |
+| 🛠️ **工具与开发框架** | Simulator、ROS、SDK、训练框架与工具链 | [进入工具矩阵](topics/04-tools.md) |
+| 🤖 **机器人项目与 Demo** | 机器人项目、开源硬件、配套示例与演示资源 | [探索机器人项目](topics/04-tools.md#-机器人项目) |
+| 📦 **数据集与训练资源** | 真机数据、遥操作数据、训练数据与下载入口 | [浏览数据集](topics/06-datasets.md) |
+| 📄 **前沿论文合集** | 具身基础模型、Manipulation、Navigation、Sim2Real 等方向 | [进入论文合集](topics/03-papers.md) |
 
-🌐 [English Version](topics/README_EN.md)
+> 💡 本仓库主要整理与链接第三方公开技术资源；代码、数据、模型权重与 Demo 是否可获取，以及使用许可，请以对应项目的官方页面为准。
 
 ## 🎯 我们的愿景
 
@@ -59,23 +52,14 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ## 🗺️ 领域地图
 
-未来会逐步覆盖以下方向：
+从研究、工程到产业，快速找到适合自己的探索方向；具体学习路径见下方「新手启程」。
 
-`🧭 认知基座`：帮助初学者从零建立对具身智能的认知框架。
+- **💻 研究前沿：** [论文合集](topics/03-papers.md) · [学术与竞赛](topics/05-research-hub.md)
+- **🛠️ 工程实践：** [工具与开源项目](topics/04-tools.md) · [数据地图](topics/06-datasets.md)
+- **🧭 学习成长：** [认知基座、书籍与课程](topics/00-basics.md)
+- **🌐 产业与职业：** [企业地图](topics/01-companies.md) · [职业机会](topics/02-jobs.md)
 
-`💻 前沿信号`：持续追踪最新论文，形成可复用的研究地图。
-
-`🛠️ 工具矩阵`：开发框架与工具链，支撑从实验到落地实践。
-
-`📖 课程资源`：整合课程与学习资源，搭建系统化知识路径。
-
-`🧩 职业通道`：梳理技能图谱与面试指南，赋能成长发展。
-
-`🌐 资本动态`：追踪投融资动态，洞察产业结构与资源趋势。
-
-`📡 行业观察`：关注政策、风向、事件与阶段性行业拐点。
-
-`📦 数据地图`：汇聚全球具身智能数据集，打通训练数据资源。
+行业观察、资本动态及更系统的文字内容，将在后续知识库建设中逐步形成专门入口；当前已收录的资源仍可通过现有页面查看。
 
 ## 📍 新手启程：
 
@@ -83,7 +67,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🪜（1）筑基：构建知识框架
 
-> 当前收录`14` 本推荐书籍、`16` 门在线课程。
+> 当前收录 `14` 本推荐书籍、`16` 门在线课程。
 
 从[认知基座](topics/00-basics.md)开始：
 
@@ -94,7 +78,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🔭（2）瞭望台：追踪前沿技术
 
-> 当前收录 `21` 项竞赛、`10` 场会议、`427` 篇精选论文。
+> 当前收录 `21` 项竞赛、`10` 场会议、`427` 篇精选论文（统计以最近一次更新为准）。
 
 查看[学术与竞赛](topics/05-research-hub.md)：
 
@@ -117,7 +101,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ### 🔧（3）锤炼：整合工程实践
 
-> 当前收录 `160` 个工具与开源项目。
+> 当前收录 `160` 个工具与开源项目（统计以最近一次更新为准）。
 
 查看[工具与开源项目](topics/04-tools.md)：
 
@@ -135,17 +119,20 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 查看[具身智能数据集目录](topics/06-datasets.md)：
 
-聚焦 DROID、Open X-Embodiment / RT-X、RH20T、BridgeData V2、LIBERO、MimicGen、AgiBot World、RoboMIND 等 36 个代表性数据集；按官方来源整理其规模、采集或生成方式、关键模态、数据使用入口与样例图。
+聚焦 DROID、Open X-Embodiment / RT-X、RH20T、BridgeData V2、LIBERO、MimicGen、AgiBot World、RoboMIND 等代表性数据集；按官方来源整理规模、采集或生成方式、关键模态、数据使用入口与样例图。具体收录数量以数据集目录为准。
 
 ### 🎒（5）进化：人才风向标
 
-> 当前共收录 `538` 个岗位机会：国内 `354` 个、海外 `85` 个、专项 `99` 个。
+> 当前共收录 `538` 个岗位机会：国内 `354` 个、海外 `85` 个、专项 `99` 个（统计以最近一次更新为准）。
 
 查看[招聘信息](topics/02-jobs.md)：
 
 不定期更新全职、实习、校招岗位。通过招聘需求反推工业界技能栈，实现精准的自我能力提升。
 
-如果你想从首页直接跳到具体公司的岗位信息，可以用下面这张速查表：
+如需从首页直达具体公司的岗位信息，可展开以下速查表：
+
+<details>
+<summary>📋 展开国内 / 海外岗位速查表</summary>
 
 | 国内机会 | 链接 | 国外机会 | 链接 |
 | :----------------- | ------------------------------------------------------------ | :---------------------------- | ------------------------------------------------------------ |
@@ -168,13 +155,32 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 | 逐际动力 | [投递](topics/02-jobs.md#jump-jobs-domestic-05) | Waymo | [投递](topics/02-jobs.md#jump-jobs-overseas-28) |
 | 字节跳动 | [投递](topics/02-jobs.md#jobs-special-25) | Wayve | [投递](topics/02-jobs.md#jump-jobs-overseas-01) |
 
+</details>
+
+## 🔄 更新记录
+
+本仓库计划每周二、周五进行资源整理与更新，重点关注开源代码、工具、项目、数据集与前沿论文。以下为历史更新归档，最新改动请以 [Commits](https://github.com/Octoday-Hub/Embodied-AI/commits/main/) 为准。
+
+<details>
+<summary>📚 查看历史更新记录（最近归档：2026.09.12）</summary>
+
+**本周更新（20260912）：** 两轮论文、数据集扩充与工具详解上线。
+
+本周分两轮更新：论文页累计新增 20 篇结构化条目（周二 10 篇：τ0-VLA、Riemann-1.0、AnyWorld、VLAct、UCAG-P、Gripper-aware VLA、SleepWalking、CrossTracer、GAUGE、StellaVLA；周五 10 篇：Facet-0、Flex-π、DECOWAM、DriftingVLA、HAF、SPD、猴架穿越、受限空间全身规划、SoRoMoX、N0-Foundation），按发布时间排序、同步英文版，当前收录 427 篇；数据集页累计新增 10 个（ABC-130K、TableVerse-100K、DexCanvas、Humanoid Everyday、VTDexManip、ACE-Data-0、XR-2 Dataset、OpenNeoData、HRDexDB、ManuFacet-1K），累计 56 个，覆盖双臂遥操作、Real2Sim 生成、触觉与人形整机；工具页新增 ManiSkill3 与 GR00T-Dreams 两个论文式详解条目（含使用场景与案例）。
+
+论文页新增 10 篇 2026 年 8 月发布论文的结构化条目（τ0-VLA、Riemann-1.0、AnyWorld、VLAct、UCAG-P、Gripper-aware VLA、SleepWalking、CrossTracer、GAUGE、StellaVLA），覆盖世界动作模型、VLA 测试时计算、跨本体导航与物理保真评测等方向，当前收录 417 篇；数据集页新增 5 个数据集（ABC-130K、TableVerse-100K、DexCanvas、Humanoid Everyday、VTDexManip），累计 51 个，覆盖双臂遥操作、Real2Sim 桌面生成、人手接触力与人形整机操作；工具页新增 ManiSkill3 论文式详解条目（GPU 并行仿真与评测平台）。
+
+本周分两轮更新：论文页累计新增 20 篇结构化条目（Gemini Robotics、CogACT、DexVLA、UP-VLA、WorldVLA、3D-VLA、RoboDual、ForceVLA、Moto、DayDreamer、SmolVLA、MimicPlay、RoboPoint、Knowledge Insulating、TinyVLA、VPP、GR-1、GR-2、EgoMimic、RoboGen），当前收录 407 篇；数据集页累计新增 10 个（DexYCB、OakInk、GraspNet-1Billion、HOI4D、ARCTIC、GigaHands、EgoDex、DexCap、HumanPlus、LeRobot Community），当前 46 个；工具页 Genesis 与 LeRobot 升级为论文式详解条目（含使用场景与案例）。
+
+</details>
+
 ## 🌱 社区共建
 
-我们欢迎任何形式的贡献！无论是提交新的公司信息、论文、还是修正错误。
+我们欢迎任何形式的贡献！无论是推荐新的开源项目、补充论文与数据资源、提交公司信息，还是修正已有内容中的错误。
 
-- 📖  [贡献指南](topics/CONTRIBUTING.md) 了解如何参与社区共建。
-- ✨  [Pull Request](https://github.com/Octoday-Hub/Embodied-AI/pulls) 直接提交内容更新。
-- 🐛  [Issue](https://github.com/Octoday-Hub/Embodied-AI/issues) 反馈错误或提出建议。
+- 📖 [贡献指南](topics/CONTRIBUTING.md) 了解如何参与社区共建。
+- ✨ [Pull Request](https://github.com/Octoday-Hub/Embodied-AI/pulls) 直接提交内容更新。
+- 🐛 [Issue](https://github.com/Octoday-Hub/Embodied-AI/issues) 反馈错误或提出建议。
 
 感谢每一位贡献者，也期待与更多伙伴共建。
 
@@ -184,11 +190,11 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 如果您有任何想法、资源推荐或商务合作意向，欢迎通过以下方式联系我们：
 
-📧  邮箱：[octoday@yeah.net](mailto:octoday@yeah.net)
+📧 邮箱：[octoday@yeah.net](mailto:octoday@yeah.net)
 
-💬  微信：Midsummer_Jin
+💬 微信：Midsummer_Jin
 
-📱  公众号：星期八Robotics
+📱 公众号：星期八Robotics
 
 *扫描下方二维码，获取最新动态与资源更新*
 
@@ -211,4 +217,4 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 
 ## 📄 许可证
 
-本项目内容采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可。
+本项目内容采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可。链接至本仓库的第三方项目、代码、数据集等，仍遵循其各自的许可证与使用条款。
