@@ -22,13 +22,17 @@
   Connecting research, open-source engineering, and industry practice through an open resource hub for embodied AI developers and learners.
 </p>
 
-## **Contact Us**
+---
+
+### **Contact Us**
 
 📧 [octoday@yeah.net](mailto:octoday@yeah.net) · 💬 WeChat: `Midsummer_Jin` · 📱 WeChat Official Account: **星期八Robotics**
 
 **Our vision: Organize embodied AI research, open-source resources, and industry information so developers and researchers can find what they need more quickly.**
 
-## **🧭 Start Here**
+---
+
+### **🧭 Start Here**
 
 **Find code and open-source resources on GitHub; read technical explanations and industry content in the Octoday Knowledge Base.**
 
@@ -40,13 +44,15 @@ GitHub focuses on code, tools, and datasets. The Feishu knowledge base covers te
 | **Content** | Open-source projects, implementations, development tools, datasets, models, and demos | Paper explanations, tutorials, industry news, company information, and career resources |
 | **Access** | **[🚀 Browse Open-Source Resources](#open-source-resources)** | **[📖 Open the Octoday Knowledge Base](https://icn3nzefme8n.feishu.cn/wiki/HNtGwSt9bi0LXWkuV1vcGmbynRb)** |
 
+---
+
 <a id="open-source-resources"></a>
 
-## **🚀 Open-Source Resource Navigation**
+### **🚀 Open-Source Resource Navigation**
 
 Browse projects, tools, and datasets, with links to official repositories, documentation, weights, data, and demos where available. Check each project's documentation for what has been released.
 
-### **🤖 01 | Open-Source Projects**
+#### **🤖 01 | Open-Source Projects**
 
 Find robot systems, embodied AI models, and robot learning frameworks.
 
@@ -58,7 +64,7 @@ Find robot systems, embodied AI models, and robot learning frameworks.
 
 **[View the Complete Tools & Projects Index](04-tools_EN.md)**
 
-### **🛠️ 02 | Open-Source Tools**
+#### **🛠️ 02 | Open-Source Tools**
 
 Find tools for simulation, data processing, perception, and system integration.
 
@@ -71,7 +77,7 @@ Find tools for simulation, data processing, perception, and system integration.
 
 **[View the Complete Tools & Projects Index](04-tools_EN.md)**
 
-### **📦 03 | Datasets**
+#### **📦 03 | Datasets**
 
 The examples below are grouped by their main use. A resource may support more than one use case.
 
@@ -86,9 +92,11 @@ The examples below are grouped by their main use. A resource may support more th
 
 > 💡 **Selection criteria:** Prefer official repositories, documentation, weights, datasets, and demos. Availability and usage restrictions are determined by each project's own documentation.
 
+---
+
 <a id="more-resources"></a>
 
-## **📚 Additional Resources**
+### **📚 Additional Resources**
 
 We also maintain resources on papers, learning, academic events, industry, and careers.
 
@@ -108,7 +116,9 @@ GitHub retains a searchable paper index with original paper links and related co
 
 > 📌 Some linked pages contain historical information and may no longer receive regular updates. As the knowledge base develops, educational and news content will gradually move to Feishu. Check publication dates and original sources, especially for jobs and events.
 
-## **🌱 Contributing**
+---
+
+### **🌱 Contributing**
 
 Recommend projects, add tools and datasets, fix broken links, or improve resource categories.
 
@@ -120,7 +130,9 @@ Recommend projects, add tools and datasets, fix broken links, or improve resourc
 
 Thank you to everyone who contributes.
 
-## **👥 About Octoday Hub**
+---
+
+### **👥 About Octoday Hub**
 
 Octoday Hub is an open community of embodied AI enthusiasts, developers, and industry observers. We organize research, open-source resources, and industry information.
 
@@ -130,11 +142,15 @@ For resource recommendations and corrections, submit an [Issue](https://github.c
 
 ![Octoday Hub Community](../files/tail-banner2.png)
 
-## **🌟 Support This Repository**
+---
+
+### **🌟 Support This Repository**
 
 If this repository is useful to you, consider starring, forking, or sharing it with others. You are also welcome to cite this list.
 
-## **📄 License**
+---
+
+### **📄 License**
 
 The content of this repository is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
