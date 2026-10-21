@@ -1,4 +1,3 @@
-
 ![Head Banner](../files/head-banner2.png)
 
 <div align="center">
@@ -14,192 +13,129 @@
 </p>
 
 <p align="center">
-  <img alt="Updates: Twice Weekly" src="https://img.shields.io/static/v1?label=Updates&message=Twice%20Weekly&color=3B82F6&labelColor=374151&style=flat-square" />
-  <img alt="Open Source Resources: Projects, Tools, Datasets" src="https://img.shields.io/static/v1?label=Open%20Source&message=Projects%20%C2%B7%20Tools%20%C2%B7%20Datasets&color=14B8A6&labelColor=0F766E&style=flat-square" />
-  <img alt="Community Contributions: Welcome" src="https://img.shields.io/static/v1?label=Community&message=Contributions%20Welcome&color=8B5CF6&labelColor=5B21B6&style=flat-square" />
+  <img alt="Updates: Twice a week" src="https://img.shields.io/static/v1?label=Updates&message=Twice%20a%20week&color=3B82F6&labelColor=374151&style=flat-square" />
+  <img alt="Open-source resources: Projects, tools and datasets" src="https://img.shields.io/static/v1?label=Open%20source&message=Projects%20%C2%B7%20Tools%20%C2%B7%20Datasets&color=14B8A6&labelColor=0F766E&style=flat-square" />
+  <img alt="Community: Contributions welcome" src="https://img.shields.io/static/v1?label=Community&message=Contributions%20welcome&color=8B5CF6&labelColor=5B21B6&style=flat-square" />
 </p>
 
 <p align="center">
-  Connecting frontier research, open-source engineering, and industrial applications to build an accessible resource hub for embodied AI developers and explorers.
+  Connecting research, open-source engineering, and industry practice through an open resource hub for embodied AI developers and learners.
 </p>
 
----
+## **Contact Us**
 
-## 🧭 Where to Start
+📧 [octoday@yeah.net](mailto:octoday@yeah.net) · 💬 WeChat: `Midsummer_Jin` · 📱 WeChat Official Account: **星期八Robotics**
 
-**Looking for code and open-source resources? Explore GitHub. Looking for technical insights and industry knowledge? Visit the Octoday Hub Knowledge Base.**
+**Our vision: Organize embodied AI research, open-source resources, and industry information so developers and researchers can find what they need more quickly.**
 
-We organize open-source technical resources and knowledge content separately, helping developers quickly find tools they can use while enabling learners to explore embodied AI more systematically.
+## **🧭 Start Here**
 
-| 💻 GitHub · Open-Source Resource Hub | 📚 Feishu · Octoday Hub Knowledge Base |
-| :---: | :---: |
-| **For developers and researchers** | **For learners and industry explorers** |
-| Open-source projects, code implementations, development tools, datasets, models, and demos | Research insights, technical tutorials, industry news, company profiles, and career resources |
-| **[🚀 Explore Open-Source Resources ↓](#open-source-resources)** | **[📖 Visit the Octoday Hub Knowledge Base ↗](https://icn3nzefme8n.feishu.cn/wiki/HNtGwSt9bi0LXWkuV1vcGmbynRb)** |
+**Find code and open-source resources on GitHub; read technical explanations and industry content in the Octoday Knowledge Base.**
 
----
+GitHub focuses on code, tools, and datasets. The Feishu knowledge base covers technical explanations, learning materials, and industry information.
+
+| **Resource Platform** | **💻 GitHub · Open-Source Resources** | **📚 Feishu · Octoday Knowledge Base** |
+| :--- | :--- | :--- |
+| **Audience** | Developers and researchers | Learners and readers exploring the industry |
+| **Content** | Open-source projects, implementations, development tools, datasets, models, and demos | Paper explanations, tutorials, industry news, company information, and career resources |
+| **Access** | **[🚀 Browse Open-Source Resources](#open-source-resources)** | **[📖 Open the Octoday Knowledge Base](https://icn3nzefme8n.feishu.cn/wiki/HNtGwSt9bi0LXWkuV1vcGmbynRb)** |
 
 <a id="open-source-resources"></a>
 
-## 🚀 Explore Open-Source Resources
+## **🚀 Open-Source Resource Navigation**
 
-**From frontier models to real-world robotics, and from development tools to training datasets.**
+Browse projects, tools, and datasets, with links to official repositories, documentation, weights, data, and demos where available. Check each project's documentation for what has been released.
 
-We continuously curate open-source resources from the global embodied AI community, prioritizing official code repositories, project documentation, dataset downloads, model weights, and demo links.
+### **🤖 01 | Open-Source Projects**
 
-### 🤖 01 | Open-Source Projects
+Find robot systems, embodied AI models, and robot learning frameworks.
 
-**Discover embodied AI projects worth reproducing, deploying, and building upon.**
-
-| Category | What You'll Find | Explore |
+| **Category** | **Content** | **Resource Index** |
 | :--- | :--- | :--- |
-| **Robot Systems & Open Hardware** | Humanoid robots, quadrupeds, robotic arms, open-source control systems, and hardware designs | [Robot Projects ↗](04-tools_EN.md#-robot-projects) |
-| **Embodied Models & Code** | Vision-Language-Action (VLA) models, robotics foundation models, manipulation policies, and open model weights | [Open-Source Models ↗](04-tools_EN.md#-models) |
-| **Robot Learning & Training** | Imitation learning, reinforcement learning, policy training, and deployment frameworks | [Learning Frameworks ↗](04-tools_EN.md#-learning-frameworks) |
+| **Robot Systems & Open Hardware** | Humanoids, quadrupeds, robot arms, control systems, and hardware designs | [Robot Projects](04-tools_EN.md#robot-projects) |
+| **Embodied Models & Implementations** | VLA models, robot foundation models, manipulation policies, and available weights | [Models](04-tools_EN.md#models) |
+| **Robot Learning & Training** | Imitation learning, reinforcement learning, policy training, and deployment frameworks | [Learning Frameworks](04-tools_EN.md#learning-frameworks) |
 
-**[Explore All Open-Source Projects & Models →](04-tools_EN.md)**
+**[View the Complete Tools & Projects Index](04-tools_EN.md)**
 
-### 🛠️ 02 | Open-Source Tools
+### **🛠️ 02 | Open-Source Tools**
 
-**Find the right tools for robotics development, training, simulation, and deployment.**
+Find tools for simulation, data processing, perception, and system integration.
 
-| Category | What You'll Find | Explore |
+| **Category** | **Content** | **Resource Index** |
 | :--- | :--- | :--- |
-| **Simulation Platforms** | Physics engines, robotic simulators, virtual environments, and Sim2Real tools | [Simulation Platforms ↗](04-tools_EN.md#-simulation-platforms) |
-| **General Tools & Libraries** | Robotics utilities, data processing tools, development libraries, and policy implementations | [General Tools ↗](04-tools_EN.md#-general-tools--libraries) |
-| **SLAM & Perception** | Localization, mapping, 3D perception, and spatial understanding tools | [SLAM & Perception ↗](04-tools_EN.md#-slam--perception) |
-| **ROS & Middleware** | ROS ecosystem tools, communication frameworks, and robotics system integration | [ROS Toolchains ↗](04-tools_EN.md#-middleware--ros-tools) |
+| **Simulation Platforms** | Physics engines, robot simulation, virtual environments, and Sim2Real tools | [Simulation Platforms](04-tools_EN.md#simulation-platforms) |
+| **General Tools & Libraries** | Robot manipulation, data processing, development libraries, and policy implementations | [General Tools](04-tools_EN.md#general-tools) |
+| **SLAM & Perception** | Localization, mapping, 3D perception, and spatial understanding | [SLAM & Perception](04-tools_EN.md#slam-perception) |
+| **ROS & Middleware** | ROS tools, communication frameworks, and robot system integration | [Middleware & ROS Tools](04-tools_EN.md#middleware-ros) |
 
-**[Explore All Open-Source Tools & Frameworks →](04-tools_EN.md)**
+**[View the Complete Tools & Projects Index](04-tools_EN.md)**
 
-### 📦 03 | Datasets
+### **📦 03 | Datasets**
 
-**Discover essential resources for robot training, data generation, and benchmark evaluation.**
+The examples below are grouped by their main use. A resource may support more than one use case.
 
-| Data Category | Representative Resources | Typical Applications |
+| **Category** | **Examples** | **Use Cases** |
 | :--- | :--- | :--- |
-| **Real-World Robot Manipulation** | DROID, Open X-Embodiment, AgiBot World | Robot manipulation, VLA training, cross-embodiment generalization |
-| **Teleoperation & Demonstration Data** | RH20T, ALOHA, UMI | Imitation learning, teleoperation, dexterous manipulation |
-| **Simulation & Synthetic Data** | MimicGen, RoboCasa, RoboTwin | Data generation, policy training, Sim2Real |
-| **Benchmarks & Evaluation** | LIBERO, RLBench, BEHAVIOR-1K | Multi-task learning, policy evaluation, algorithm comparison |
+| **Real-World Robot Manipulation** | DROID, Open X-Embodiment, AgiBot World | Manipulation, VLA training, and cross-embodiment generalization |
+| **Teleoperation & Demonstrations** | RH20T, ALOHA, UMI | Imitation learning, teleoperation, and dexterous manipulation |
+| **Simulation & Synthetic Data** | MimicGen, RoboCasa, RoboTwin | Data generation, policy training, and Sim2Real |
+| **Evaluation & Benchmarks** | LIBERO, RLBench, BEHAVIOR-1K | Multitask learning, policy evaluation, and algorithm comparison |
 
-**[Explore the Full Dataset Index & Official Access Links →](06-datasets_EN.md#index)**
+**[View the Complete Dataset Index & Official Access Links](06-datasets_EN.md)**
 
-> 💡 **Resource Curation Principles:** We prioritize accessible official repositories, documentation, model weights, datasets, and demo links. Availability, licensing, and usage restrictions are subject to the original resource providers.
-
----
-
-## 🎯 Our Vision
-
-We hope to build an open knowledge gateway for embodied AI. Whether you work in a research laboratory or on the factory floor, we believe every spark of curiosity and every hands-on effort deserves a place in this shared landscape.
-
-### 🌌 Why "Octoday"?
-
-Beyond the conventional seven-day cycle, **"Octoday" represents an additional space for exploration — one that challenges established boundaries and embraces new possibilities.**
-
-- **An Extra Perspective:** Beyond the rigor of academic research, we offer pragmatic insights into real-world industrial applications.
-- **A Deeper Understanding:** Beyond algorithmic reasoning, we cultivate a deeper respect for the laws of the physical world.
-- **An Alternative Path:** Beyond the pressures of competition, we hope to open a focused and accessible path for learning and growth.
-
-We hope this community can become the clearest and most reliable point of reference as you explore the world of embodied AI.
-
-Beyond the 7th Day, explore the Infinite Embodiment.
-
----
-
-## 📍 Getting Started | From Understanding to Practice
-
-Embodied AI refers to intelligent systems that perceive, understand, make decisions, and act through physical interaction with their environments. It brings together computer vision, reinforcement learning, and multimodal foundation models.
-
-**If you are new to embodied AI, follow this learning journey to explore the field step by step.**
-
-### 🪜 Stage One: Build Your Foundations
-
-**Foundation Building → Frontier Watchtower**
-
-Start with robotics, reinforcement learning, and computer vision. Then gradually explore frontier research in embodied foundation models, robot manipulation, and spatial intelligence.
-
-### 🔧 Stage Two: Learn by Building
-
-**Engineering Practice → Datasets**
-
-Move from research to implementation. Choose suitable simulation platforms, open-source frameworks, robotics projects, and training datasets to reproduce algorithms, run demos, and develop your own technical projects.
-
-### 🔗 Stage Three: Connect with Industry
-
-**Industry Landscape → Career Development**
-
-Explore the global embodied AI ecosystem, understand how technologies are applied in real-world scenarios, and identify opportunities for personal growth through industry needs and career pathways.
-
-> 📌 **Learning & Development Resources**
->
-> - **Open-source code, development tools, and datasets:** Explore the [Open-Source Resource Directory](#open-source-resources) above.
-> - **Research papers, courses, companies, and career resources:** Browse the [Additional Resources](#more-resources) below or visit the [Octoday Hub Knowledge Base](https://icn3nzefme8n.feishu.cn/wiki/HNtGwSt9bi0LXWkuV1vcGmbynRb).
-
----
+> 💡 **Selection criteria:** Prefer official repositories, documentation, weights, datasets, and demos. Availability and usage restrictions are determined by each project's own documentation.
 
 <a id="more-resources"></a>
 
-## 📚 Additional Resources
+## **📚 Additional Resources**
 
-Beyond open-source technical resources, we have also curated research papers, learning materials, academic events, industry information, and career resources for further exploration.
+We also maintain resources on papers, learning, academic events, industry, and careers.
 
-Existing collections remain accessible on GitHub. For more research insights, technical tutorials, and industry news, visit the **[📖 Octoday Hub Knowledge Base ↗](https://icn3nzefme8n.feishu.cn/wiki/HNtGwSt9bi0LXWkuV1vcGmbynRb)**.
+These are grouped below to keep the homepage concise. We plan to connect them with the Feishu knowledge base and reduce duplicate maintenance across the two platforms.
 
-| Resource | Overview | Explore |
+| **Category** | **Content** | **Existing Resource Page** |
 | :--- | :--- | :--- |
-| **📄 Research Papers** | Embodied foundation models, manipulation, navigation, Sim2Real, and related research | [Paper Collection →](03-papers_EN.md) |
-| **📖 Books & Courses** | Recommended books, online courses, and foundational embodied AI knowledge | [Learning Resources →](00-basics_EN.md) |
-| **🎓 Conferences & Competitions** | International academic conferences, robotics competitions, and research events | [Research & Competition Hub →](05-research-hub_EN.md) |
-| **🏭 Companies & Industry** | Embodied AI companies, robotics businesses, and the global industry ecosystem | [Company Directory →](01-companies_EN.md) |
-| **🎒 Jobs & Careers** | Full-time positions, internships, graduate recruitment, and career opportunities | [Job Opportunities →](02-jobs_EN.md) |
+| **📄 Research Papers** | Embodied foundation models, manipulation, navigation, Sim2Real, and related research | [Paper Collection](03-papers_EN.md) |
+| **📖 Courses & Books** | Books, online courses, and embodied AI fundamentals | [Learning Materials](00-basics_EN.md) |
+| **🎓 Conferences & Competitions** | Academic conferences, embodied AI competitions, and research events | [Research & Competitions](05-research-hub_EN.md) |
+| **🏭 Companies & Industry** | Embodied AI companies, robotics businesses, and industry information | [Company Directory](01-companies_EN.md) |
+| **🎒 Jobs & Careers** | Full-time jobs, internships, and graduate recruitment | [Job Listings](02-jobs_EN.md) |
 
-> 📌 **Update Note:** Some of these resources will gradually be maintained primarily in the Feishu Knowledge Base. Existing GitHub pages and links will remain accessible for reference. Please check the original publication dates when consulting historical content.
+**About the Paper Collection**
 
----
+GitHub retains a searchable paper index with original paper links and related code and data resources. We plan to explore synchronizing structured paper records from the Feishu knowledge base to reduce duplicate manual work.
 
-## 🌱 Community Contributions
+> 📌 Some linked pages contain historical information and may no longer receive regular updates. As the knowledge base develops, educational and news content will gradually move to Feishu. Check publication dates and original sources, especially for jobs and events.
 
-We welcome every developer, researcher, and embodied AI enthusiast to contribute.
+## **🌱 Contributing**
 
-Whether you are recommending new open-source projects, adding development tools and datasets, fixing broken links, or improving resource categories, your contributions help make this resource map more useful and accessible.
+Recommend projects, add tools and datasets, fix broken links, or improve resource categories.
 
-- 📖 [Contribution Guidelines](CONTRIBUTING_EN.md): Learn how to participate and submit resources.
-- ✨ [Pull Requests](https://github.com/Octoday-Hub/Embodied-AI/pulls): Submit open-source resources and content updates.
-- 🐛 [Issues](https://github.com/Octoday-Hub/Embodied-AI/issues): Recommend resources, report issues, or share suggestions.
+- 📖 [Contribution Guide](CONTRIBUTING_EN.md): Submission requirements and ways to contribute.
+- ✨ [Pull Requests](https://github.com/Octoday-Hub/Embodied-AI/pulls): Submit resource additions and content updates.
+- 🐛 [Issues](https://github.com/Octoday-Hub/Embodied-AI/issues): Recommend resources, report errors, or suggest improvements.
 
-**Update Schedule:** We plan to curate resources, verify links, and submit updates every Tuesday and Friday, focusing on open-source projects, development tools, and datasets. Please refer to the GitHub commit history for actual changes.
+**Update schedule:** Resource reviews, link checks, and updates are planned for Tuesdays and Fridays, focusing on open-source projects, tools, and datasets. The repository's commit history records actual updates.
 
-We appreciate every contribution and look forward to growing this community together.
+Thank you to everyone who contributes.
 
----
+## **👥 About Octoday Hub**
 
-## 👥 About Octoday Hub
+Octoday Hub is an open community of embodied AI enthusiasts, developers, and industry observers. We organize research, open-source resources, and industry information.
 
-Octoday Hub is an open community of embodied AI enthusiasts, developers, and industry observers. Through systematic resource curation, we aim to lower the barriers to entering embodied AI, accelerate knowledge sharing, and bridge research with industrial applications.
+For resource recommendations and corrections, submit an [Issue](https://github.com/Octoday-Hub/Embodied-AI/issues). For other inquiries, use the contact details at the top of this page.
 
-If you have ideas, resource recommendations, or collaboration inquiries, feel free to contact us:
+*Scan the QR code below for community news and resource updates.*
 
-📧 Email: [octoday@yeah.net](mailto:octoday@yeah.net)
+![Octoday Hub Community](../files/tail-banner2.png)
 
-💬 WeChat: Midsummer_Jin
+## **🌟 Support This Repository**
 
-📱 WeChat Official Account: 星期八Robotics (Octoday Robotics)
+If this repository is useful to you, consider starring, forking, or sharing it with others. You are also welcome to cite this list.
 
-*Scan the QR code below for community updates and resources.*
+## **📄 License**
 
-![Tail Banner](../files/tail-banner2.png)
+The content of this repository is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
----
-
-## 🌟 Star This Repository
-
-If you find this repository helpful, feel free to Star ⭐️ or Fork it, and share it with fellow developers and researchers.
-
-Your support motivates us to keep improving the resource collection.
-
-## 📄 License
-
-The content of this project is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-Third-party code, models, datasets, and other open-source projects are subject to their respective licenses and terms of use.
+Third-party code, models, datasets, and other projects are subject to their respective licenses and terms of use.
