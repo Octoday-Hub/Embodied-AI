@@ -81,7 +81,7 @@ Beyond the 7th Day, explore the Infinite Embodiment.
 | :--- | :--- | :--- |
 | **仿真平台** | 物理引擎、机器人仿真、虚拟环境及 Sim2Real 工具 | [仿真平台 ↗](topics/04-tools.md#仿真平台) |
 | **通用工具与库** | 机器人操作、数据处理、开发工具库及策略实现 | [通用工具 ↗](topics/04-tools.md#general-tools) |
-| **SLAM 与感知** | 定位、建图、三维感知及空间理解相关工具 | [SLAM 与感知 ↗](topics/04-tools.md#perception.md) |
+| **SLAM 与感知** | 定位、建图、三维感知及空间理解相关工具 | [SLAM 与感知 ↗](topics/04-tools.md#slam-perception) |
 | **ROS 与中间件** | ROS 生态、通信框架、机器人系统集成工具 | [ROS 工具链 ↗](topics/04-tools.md#middleware-ros) |
 
 
