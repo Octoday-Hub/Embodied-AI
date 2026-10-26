@@ -1,5 +1,4 @@
-
-![Head Banner](files/head-banner2.png)
+![Head Banner](../files/head-banner2.png)
 
 <div align="center">
   <h1>Embodied AI Knowledge Index & Industry Map</h1>
@@ -16,11 +15,11 @@
 </p>
 
 <p align="center">
-  <kbd><a href="updates/2026-10-23.md">🆕 Weekly Update | Oct 26, 2026 — Robot Systems & Open-Source Hardware:</a> Five new robot projects, featuring key capabilities, hardware requirements, and official code links.</kbd>
+  <kbd><a href="07-open-source-projects_EN.md">🆕Update | Oct 26, 2026 — Robot Systems & Open-Source Hardware:</a> Five new robot projects</kbd>
 </p>
 
 <p align="center">
-  Connecting frontier research, open-source engineering, and industry practice to create an open resource hub for embodied AI developers and explorers.
+  Connecting frontier research, open-source engineering, and industry practice to create a hub for embodied AI developers and explorers.
 </p>
 
 <p align="center">
@@ -66,12 +65,12 @@ Explore robot systems, embodied models, and robot learning frameworks.
 
 | **Category** | **What's Included** | **Resource Link** |
 | :--- | :--- | :--- |
-| **Robot Systems & Hardware** | Humanoid, quadruped, robotic arm, and mobile robot projects, plus related hardware resources | [Robot Systems ↗](topics/07-open-source-projects_EN.md#humanoid) |
-| **Perception & Manipulation** | SLAM, sensor fusion, grasping algorithms, and related sensors | [Perception & Manipulation ↗](topics/07-open-source-projects_EN.md#slam) |
-| **Embodied Models & Platforms** | VLA manipulation models, conversational agents, embodied AI toolchains, and no-code platforms | [Models & Platforms ↗](topics/07-open-source-projects_EN.md#models) |
-| **Data, Training & Tools** | Reinforcement learning, imitation learning, data collection, teleoperation, and introductory tutorials | [Data & Tutorials ↗](topics/07-open-source-projects_EN.md#data) |
+| **Robot Systems & Hardware** | Humanoid, quadruped, robotic arm, and mobile robot projects, plus related hardware resources | [Robot Systems ↗](07-open-source-projects_EN.md#humanoid) |
+| **Perception & Manipulation** | SLAM, sensor fusion, grasping algorithms, and related sensors | [Perception & Manipulation ↗](07-open-source-projects_EN.md#slam) |
+| **Embodied Models & Platforms** | VLA manipulation models, conversational agents, embodied AI toolchains, and no-code platforms | [Models & Platforms ↗](07-open-source-projects_EN.md#models) |
+| **Data, Training & Tools** | Reinforcement learning, imitation learning, data collection, teleoperation, and introductory tutorials | [Data & Tutorials ↗](07-open-source-projects_EN.md#data) |
 
-**[Browse the Complete Open-Source Project Index →](topics/07-open-source-projects_En.md)**
+**[Browse the Complete Open-Source Project Index →](07-open-source-projects_En.md)**
 
 
 ### 🛠️ 02 | Open-Source Tools
@@ -80,12 +79,12 @@ Find tools for simulation, data processing, perception, and system integration.
 
 | **Category** | **What's Included** | **Resource Link** |
 | :--- | :--- | :--- |
-| **Simulation Platforms** | Physics engines, robot simulation, virtual environments, and sim-to-real tools | [Simulation Platforms ↗](topics/04-tools_EN.md#simulation-platforms) |
-| **General Tools & Libraries** | Robotics, data processing, development libraries, and policy implementations | [General Tools ↗](topics/04-tools_EN.md#general-tools) |
-| **SLAM & Perception** | Localization, mapping, 3D perception, and spatial understanding tools | [SLAM & Perception ↗](topics/04-perception_EN.md#slam-perception) |
-| **ROS & Middleware** | ROS ecosystem, communication frameworks, and robot system integration tools | [ROS Toolchain ↗](topics/04-tools_EN.md#middleware-ros) |
+| **Simulation Platforms** | Physics engines, robot simulation, virtual environments, and sim-to-real tools | [Simulation Platforms ↗](04-tools_EN.md#simulation-platforms) |
+| **General Tools & Libraries** | Robotics, data processing, development libraries, and policy implementations | [General Tools ↗](04-tools_EN.md#general-tools) |
+| **SLAM & Perception** | Localization, mapping, 3D perception, and spatial understanding tools | [SLAM & Perception ↗](04-perception_EN.md#slam-perception) |
+| **ROS & Middleware** | ROS ecosystem, communication frameworks, and robot system integration tools | [ROS Toolchain ↗](04-tools_EN.md#middleware-ros) |
 
-**[Browse the Complete Tools Index →](topics/04-tools_EN.md)**
+**[Browse the Complete Tools Index →](04-tools_EN.md)**
 
 ### 📦 03 | Datasets
 
@@ -112,11 +111,11 @@ These resources are indexed here rather than expanded into long descriptions on 
 
 | **Category** | **Description** | **Resource Link** |
 | :--- | :--- | :--- |
-| **📄 Research Papers** | Research on embodied foundation models, manipulation, navigation, sim-to-real, and related topics | [Paper Collection →](03-papers.md) |
-| **📖 Courses & Books** | Recommended books, online courses, and foundational embodied AI materials | [Learning Resources →](00-basics.md) |
-| **🎓 Academia & Competitions** | International conferences, embodied AI competitions, and research events | [Academic Events & Competitions →](05-research-hub.md) |
-| **🏭 Companies & Industry** | Embodied AI companies, robotics companies, and the broader industry ecosystem | [Company Directory →](01-companies.md) |
-| **🎒 Jobs & Career Development** | Full-time roles, internships, campus recruitment, and career resources | [Job Listings →](02-jobs.md) |
+| **📄 Research Papers** | Research on embodied foundation models, manipulation, navigation, sim-to-real, and related topics | [Paper Collection →](03-papers_EN.md) |
+| **📖 Courses & Books** | Recommended books, online courses, and foundational embodied AI materials | [Learning Resources →](00-basics_EN.md) |
+| **🎓 Academia & Competitions** | International conferences, embodied AI competitions, and research events | [Academic Events & Competitions →](05-research-hub_EN.md) |
+| **🏭 Companies & Industry** | Embodied AI companies, robotics companies, and the broader industry ecosystem | [Company Directory →](01-companies_EN.md) |
+| **🎒 Jobs & Career Development** | Full-time roles, internships, campus recruitment, and career resources | [Job Listings →](02-jobs_EN.md) |
 
 ### About the Paper Collection
 
