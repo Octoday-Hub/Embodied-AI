@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <kbd><a href="07-open-source-projects_EN.md">🆕Update | Oct 26, 2026 — Robot Systems & Open-Source Hardware:</a> Five new robot projects</kbd>
+  <kbd><a href="07-open-source-projects_EN.md">🆕 Update | Nov 4, 2026 — Robot Systems & Open-Source Hardware:</a> Seven new robot projects
 </p>
 
 <p align="center">
