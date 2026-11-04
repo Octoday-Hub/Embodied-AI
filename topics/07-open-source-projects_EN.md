@@ -10,11 +10,18 @@ projects suited to their needs.
 ## Contents
 
 - [🆕 Latest Highlights](#new-projects)
-  - [01. RIG-Hover](#project-rig-hover)
-  - [02. OpenCat / Bittle X](#project-opencat)
-  - [03. Open Duck Mini v2](#project-open-duck-mini)
-  - [04. ToddlerBot 2.0](#project-toddlerbot)
-  - [05. Berkeley Humanoid Lite V1](#project-berkeley-humanoid-lite)
+  - [01. Xiaochujun Dexterous Hand](#project-xiaochujun-dexterous-hand)
+  - [02. XGO-Duck](#project-xgoduck)
+  - [03. RIG-Arm](#project-rig-arm)
+  - [04. RIG-Puppy](#project-rig-puppy)
+  - [05. PhoneBot](#project-phonebot)
+  - [06. Learn Arduino](#project-learn-arduino)
+  - [07. Dummy-Robot](#project-dummy-robot)
+  - [08. RIG-Hover](#project-rig-hover)
+  - [09. OpenCat / Bittle X](#project-opencat)
+  - [10. Open Duck Mini v2](#project-open-duck-mini)
+  - [11. ToddlerBot 2.0](#project-toddlerbot)
+  - [12. Berkeley Humanoid Lite V1](#project-berkeley-humanoid-lite)
 - [🤖 More Robot Projects](#open-source-projects)
   - [🦾 1. Robot Systems & Open-Source Hardware](#hardware)
     - [Humanoid Robots](#hardware-humanoid)
@@ -37,17 +44,247 @@ projects suited to their needs.
 
 ## 🆕 Latest Highlights
 
+<a id="project-xiaochujun-dexterous-hand"></a>
+
 <p align="center">
-  <img src="datasets-img/rig-hover-01.gif"
-       alt="RIG-Hover 双轮自平衡机器人动态演示"
+  <img src="datasets-img/xiaochujun-dexterous-hand.jpg"
+       alt="Xiaochujun Dexterous Hand"
        height="300">
 </p>
 
+<h3 align="center"><strong>01. Xiaochujun Dexterous Hand</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>Summary</strong></td>
+      <td>A 3D-printed hand driven by hobby servos and cable tendons that pull the fingers closed, performing open, fist and grasp motions, with a companion phone app.</td>
+    </tr>
+    <tr>
+      <td><strong>Features</strong></td>
+      <td>Commodity servos supply the force while tensioned cables bend 3D-printed fingers, so not every joint needs its own motor. A hands-on example of underactuation in which one servo drives several joints through a tendon. The author publishes video tutorials as 「小楚君CC」 and distributes the files and app through cloud-drive links.</td>
+    </tr>
+    <tr>
+      <td><strong>Hardware <br> plan</strong></td>
+      <td>3D-printed palm and finger parts, drive servos, tendons with tubing, a controller board, battery and switch, fasteners and bearings. No complete bill of materials has been published; counts and models follow the author's materials.</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub <br> link</strong></td>
+      <td>No official GitHub repository could be verified. Files are distributed by the author: <a href="https://pan.baidu.com/s/1QT5dh-R3a37De9sv_LerFw?pwd=xesd">Baidu Pan (xesd)</a> · <a href="https://pan.baidu.com/s/1nbod7cnuJ4-DOrkbAUGfgA?pwd=12as">App (12as)</a></td>
+    </tr>
+  </tbody>
+</table>
+
+Related resources: search 「小楚君CC」 on major video platforms.
+
+<a id="project-xgoduck"></a>
+
+<p align="center">
+  <img src="datasets-img/luwudynamics-xgoduck_hardware.jpg"
+       alt="XGO-Duck"
+       height="300">
+</p>
+
+<h3 align="center"><strong>02. XGO-Duck</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>Summary</strong></td>
+      <td>A 3D-printable biped robot duck from Luwu Dynamics, adapted from Pollen Robotics' Microduck, built on an Arduino UNO Q and 15 serial servos with full structure files, expansion board, assembly guide and an RL training pipeline.</td>
+    </tr>
+    <tr>
+      <td><strong>Features</strong></td>
+      <td>Fifteen Feetech 1910 serial servos drive 10 leg joints, 4 neck/head joints and 1 mouth joint. The Arduino UNO Q splits the load: the Linux side runs ONNX policy inference and the web UI while the STM32 side handles 100 Hz servo and IMU loops. A custom expansion board integrates the IMU and servo bus, with PCBA, Gerber and BOM released. Policies are trained with reinforcement learning in simulation and deployed to the real robot.</td>
+    </tr>
+    <tr>
+      <td><strong>Hardware <br> plan</strong></td>
+      <td>Arduino UNO Q (2 GB or 4 GB), Luwu UNO Q expansion board (power distribution, servo interfaces, IMU), 15 × Feetech 1910 servos with AMP 3-pin cables, 8.4 V (2S 18650) battery pack with charger, bearings and fasteners, 3D-printed structure. Full BOM per the official repository.</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub <br> link</strong></td>
+      <td><a href="https://github.com/LuwuDynamics/xgoduck_hardware">LuwuDynamics/xgoduck_hardware</a> · <a href="https://github.com/LuwuDynamics/xgoduck_runtime_arduino">runtime</a> · <a href="https://github.com/LuwuDynamics/xgoduck_rl">training</a></td>
+    </tr>
+  </tbody>
+</table>
+
+Related resources: <a href="https://www.arduino.cc/en/software/">Arduino IDE</a>
+
+<a id="project-rig-arm"></a>
+
+<p align="center">
+  <img src="datasets-img/luwudynamics-rig_omni.jpg"
+       alt="RIG-Arm"
+       height="300">
+</p>
+
+<h3 align="center"><strong>03. RIG-Arm</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>Summary</strong></td>
+      <td>The ARM board type of the open-source RIG-Omni ESP32-S3 firmware: a robotic-arm desktop robot combining arm motion, round-screen expressions, voice dialogue and gesture interaction in one body.</td>
+    </tr>
+    <tr>
+      <td><strong>Features</strong></td>
+      <td>One codebase covers the Puppy, Hover, ARM and TARS forms; boards share voice, networking and sensor drivers while implementing their own motion control. The ARM board provides arm calibration and a teach mode, callable by voice or remote. A round display plays expression animations and wake-word detection runs locally. BluFi provisioning, OTA updates and MCP tools are supported.</td>
+    </tr>
+    <tr>
+      <td><strong>Hardware <br> plan</strong></td>
+      <td>ESP32-S3, SCS009 serial bus servos, QMI8658C six-axis IMU, GC9A01 240×240 round LCD, I2S microphone plus amplifier and speaker, touch module and buttons, Li-ion battery and power management, 3D-printed structure. Exact configuration per the official BOM.</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub <br> link</strong></td>
+      <td><a href="https://github.com/LuwuDynamics/rig_omni">LuwuDynamics/rig_omni</a></td>
+    </tr>
+  </tbody>
+</table>
+
+Related resources: [Official wiki](https://wiki.xgorobot.com/kb/pet-arm) · [MakerWorld models](https://makerworld.com.cn/zh/@LuwuDynamics)
+
+<a id="project-rig-puppy"></a>
+
+<p align="center">
+  <img src="datasets-img/luwudynamics-rig-puppy.jpg"
+       alt="RIG-Puppy"
+       height="300">
+</p>
+
+<h3 align="center"><strong>04. RIG-Puppy</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>Summary</strong></td>
+      <td>A puppy-shaped desktop robot from Luwu Dynamics driven by five bus servos, an ESP32-S3 and a round LCD, with voice dialogue backed by cloud LLM agents.</td>
+    </tr>
+    <tr>
+      <td><strong>Features</strong></td>
+      <td>Five-servo robot-dog form with preset sit, stand-up and tail-wag actions, plus head motion that follows device tilt via the IMU. The round LCD plays 20+ expression animations. Voice uses offline wake words with cloud ASR/TTS, wired into the Xiaozhi AI ecosystem with agent personality configuration. BluFi provisioning, OTA updates and MCP tools are supported, with an optional camera.</td>
+    </tr>
+    <tr>
+      <td><strong>Hardware <br> plan</strong></td>
+      <td>ESP32-S3 (N16R8), GC9A01 240×240 round LCD, five serial bus servos, QMI8658C six-axis IMU, I2S microphone plus amplifier and speaker, touch module, optional OV2640 camera, Li-ion battery and power management, 3D-printed shell and legs.</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub <br> link</strong></td>
+      <td><a href="https://github.com/LuwuDynamics/rig_omni">LuwuDynamics/rig_omni</a></td>
+    </tr>
+  </tbody>
+</table>
+
+Related resources: [Official wiki](https://wiki.xgorobot.com/kb/pet-puppy)
+
+<a id="project-phonebot"></a>
+
+<p align="center">
+  <img src="datasets-img/phonebot.jpg"
+       alt="PhoneBot"
+       height="300">
+</p>
+
+<h3 align="center"><strong>05. PhoneBot</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>Summary</strong></td>
+      <td>A low-cost open humanoid platform from the RoMeLa lab at UCLA that treats an ordinary Android smartphone as the torso-mounted hub for perception, computation and interaction, with a 13-servo lower body for walking and visual following.</td>
+    </tr>
+    <tr>
+      <td><strong>Features</strong></td>
+      <td>Paper-reported: 48.3 cm tall, about 1.8 kg including the phone, 13 actuated joints, roughly 400 USD in hardware cost excluding the phone. The phone supplies the camera, IMU, wireless connectivity and on-board processing, so no separate sensors or computer are needed. Commands travel over Wi-Fi to a small on-board single-board computer that drives the servos. Locomotion policies are trained with reinforcement learning with explicit handling of the servo torque limit.</td>
+    </tr>
+    <tr>
+      <td><strong>Hardware <br> plan</strong></td>
+      <td>13 × DYNAMIXEL XL430-W250-T servos, one commodity Android smartphone, a small on-board single-board computer, a USB-to-TTL U2D2 interface, a 3S battery with a DC converter, modular linkage and torso structure. The current version has no arms.</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub <br> link</strong></td>
+      <td>No publicly accessible official GitHub repository could be verified. Official project page: <a href="https://phonebot.dev/">phonebot.dev</a></td>
+    </tr>
+  </tbody>
+</table>
+
+Related resources: [Paper arXiv:2610.08737](https://arxiv.org/abs/2610.08737)
+
+<a id="project-learn-arduino"></a>
+
+<p align="center">
+  <img src="datasets-img/learn-arduino.jpg"
+       alt="Learn Arduino"
+       height="300">
+</p>
+
+<h3 align="center"><strong>06. Learn Arduino</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>Summary</strong></td>
+      <td>An interactive 3D Arduino course in the browser: drag wires, place components and edit code on a virtual board, then watch simulated LED, servo and sensor feedback.</td>
+    </tr>
+    <tr>
+      <td><strong>Features</strong></td>
+      <td>Rotatable 3D board views with pins and wires laid out by circuit connection so miswiring is visible immediately. Code can be edited and run in place, with a serial monitor. 16 progressive lessons run from blinking an LED, buttons and potentiometers through ultrasonic sensing, servos and stepper motors, ending in an obstacle-avoiding traffic light project. Simulation cannot reproduce loose contacts or under-voltage.</td>
+    </tr>
+    <tr>
+      <td><strong>Hardware <br> plan</strong></td>
+      <td>No hardware required — a purely browser-based 3D circuit simulation and course. No download or installation needed.</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub <br> link</strong></td>
+      <td>No official GitHub source repository could be verified. Use online: <a href="https://learn-arduino-red.vercel.app/">learn-arduino-red.vercel.app</a></td>
+    </tr>
+  </tbody>
+</table>
+
+Related resources: designed by <a href="https://x.com/DilumSanjaya">Dilum Sanjaya</a> (independent project, not an official Arduino product).
+
+<a id="project-dummy-robot"></a>
+
+<p align="center">
+  <img src="datasets-img/peng-zhihui-dummy-robot.jpg"
+       alt="Dummy-Robot mini robotic arm"
+       height="300">
+</p>
+
+<h3 align="center"><strong>07. Dummy-Robot</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>Summary</strong></td>
+      <td>A super-compact desktop robotic arm open-sourced by Zhihui Jun (peng-zhihui), driven by stepper motors and reducers, with forward and inverse kinematics, CAN bus control and a wireless teach pendant — industrial-grade arm kinematics squeezed into desktop size.</td>
+    </tr>
+    <tr>
+      <td><strong>Features</strong></td>
+      <td>Computes forward kinematics from joint angles to end-effector pose and inverse kinematics, picking the solution with the smallest joint change from the previous pose out of up to 8 candidates. Trapezoidal acceleration with CAN broadcast sync starts and stops all six joints together. Three command modes: SEQ for low-frequency sequential moves, INT for interruptible real-time control, and TRJ for fixed-period trajectory interpolation. The core firmware moved from LiteOS to FreeRTOS and the kinematics are open source, so swapping DH parameters ports it to a custom arm. Ships with the Peak wireless teach pendant and the DummyStudio host app.</td>
+    </tr>
+    <tr>
+      <td><strong>Hardware <br> plan</strong></td>
+      <td>The original uses aluminium CNC structure with 20/42 stepper motors and harmonic reducer modules, built from four core boards: REF core board, REF base board, stepper driver board and the Peak teach pendant. Drivers use integrated closed-loop control over CAN, so each axis needs only two power wires and two CAN wires. The author recommends the upcoming budget version for cost-sensitive builders: 3D-printed structure with self-made cycloidal reducers replacing the harmonic ones, targeting under 2000 CNY for the whole unit.</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub <br> link</strong></td>
+      <td><a href="https://github.com/peng-zhihui/Dummy-Robot">peng-zhihui/Dummy-Robot</a></td>
+    </tr>
+  </tbody>
+</table>
+
+Related resources: introduction videos on Bilibili and YouTube (search "稚晖君 robotic arm").
+
+
 <a id="project-rig-hover"></a>
 
-<h3 align="center">
-<strong>01. RIG-Hover</strong>
-</h3>
+<p align="center">
+  <img src="datasets-img/rig-hover-01.gif"
+       alt="RIG-Hover self-balancing robot demo"
+       height="300">
+</p>
+
+<h3 align="center"><strong>08. RIG-Hover</strong></h3>
 <table width="100%">
 <tbody>
 <tr>
@@ -94,7 +331,6 @@ Documentation](https://wiki.xgorobot.com/kb/pet-hover) · [3D-Printable
 Model](https://makerworld.com/en/models/2909205) · [Flashing
 Tool](https://tools.luwudynamics.ai)
 
-
 <a id="project-opencat"></a>
 
 
@@ -104,7 +340,7 @@ Tool](https://tools.luwudynamics.ai)
        height="300">
 </p>
 
-<h3 align="center"><strong>02. OpenCat / Bittle X</strong></h3>
+<h3 align="center"><strong>09. OpenCat / Bittle X</strong></h3>
 
 </h3>
 <table width="100%">
@@ -151,7 +387,6 @@ The exact configuration depends on the kit version.
 </tbody>
 </table>
 
-
 <a id="project-open-duck-mini"></a>
 
 <table width="100%">
@@ -168,7 +403,7 @@ The exact configuration depends on the kit version.
 </tr>
 </table>
 <h3 align="center">
-<strong>03. Open Duck Mini v2</strong>
+<strong>10. Open Duck Mini v2</strong>
 </h3>
 <table width="100%">
 <tbody>
@@ -216,7 +451,6 @@ Mini v2</a>
 </tbody>
 </table>
 
-
 <a id="project-toddlerbot"></a>
 
 <p align="center">
@@ -225,7 +459,7 @@ Mini v2</a>
        height="300">
 </p>
 <h3 align="center">
-<strong>04. ToddlerBot 2.0</strong>
+<strong>11. ToddlerBot 2.0</strong>
 </h3>
 <table width="100%">
 <tbody>
@@ -273,7 +507,6 @@ Documentation</a>
 </tbody>
 </table>
 
-
 <a id="project-berkeley-humanoid-lite"></a>
 
 <p align="center">
@@ -282,7 +515,7 @@ Documentation</a>
        height="300">
 </p>
 <h3 align="center">
-<strong>05. Berkeley Humanoid Lite V1</strong>
+<strong>12. Berkeley Humanoid Lite V1</strong>
 </h3>
 <table width="100%">
 <tbody>
@@ -327,7 +560,6 @@ Humanoid Lite</a>
 </tr>
 </tbody>
 </table>
-
 
 <a id="existing-projects"></a> <a id="open-source-projects"></a>
 
