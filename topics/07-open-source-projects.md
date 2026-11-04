@@ -7,11 +7,18 @@
 ## 目录
 
 - [🆕 最新亮点](#new-projects)
-  - [01. RIG-Hover](#project-rig-hover)
-  - [02. OpenCat / Bittle X](#project-opencat)
-  - [03. Open Duck Mini v2](#project-open-duck-mini)
-  - [04. ToddlerBot 2.0](#project-toddlerbot)
-  - [05. Berkeley Humanoid Lite V1](#project-berkeley-humanoid-lite)
+  - [01. 小楚君灵巧手](#project-xiaochujun-dexterous-hand)
+  - [02. XGO-Duck](#project-xgoduck)
+  - [03. RIG-Arm](#project-rig-arm)
+  - [04. RIG-Puppy](#project-rig-puppy)
+  - [05. PhoneBot](#project-phonebot)
+  - [06. Learn Arduino](#project-learn-arduino)
+  - [07. Dummy-Robot](#project-dummy-robot)
+  - [08. RIG-Hover](#project-rig-hover)
+  - [09. OpenCat / Bittle X](#project-opencat)
+  - [10. Open Duck Mini v2](#project-open-duck-mini)
+  - [11. ToddlerBot 2.0](#project-toddlerbot)
+  - [12. Berkeley Humanoid Lite V1](#project-berkeley-humanoid-lite)
 
 
 - [🤖 更多机器人项目](#open-source-projects)
@@ -37,6 +44,244 @@
 
 <a id="new-projects"></a>
 
+<a id="project-xiaochujun-dexterous-hand"></a>
+
+<p align="center">
+  <img src="datasets-img/xiaochujun-dexterous-hand.jpg"
+       alt="小楚君灵巧手"
+       height="300">
+</p>
+
+<h3 align="center"><strong>01. 小楚君灵巧手</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>摘要</strong></td>
+      <td>以舵机为动力、用线绳模拟肌腱拉动手指的 3D 打印机械手，可完成张开、握拳与抓握动作，并配套手机控制 App，是低成本观察线控结构的入门项目。</td>
+    </tr>
+    <tr>
+      <td><strong>特点</strong></td>
+      <td>用普通舵机提供动力，再通过拉线带动 3D 打印手指弯曲，不必每个关节都配独立电机；可完成张开、握拳、抓握等基本动作，适合观察「一个舵机通过绳索驱动多个关节」的欠驱动思路；配套手机 App 用于手动控制与动作演示；作者在视频平台以「小楚君CC」发布教程，资料与 App 通过网盘分发。</td>
+    </tr>
+    <tr>
+      <td><strong>硬件 <br> 方案</strong></td>
+      <td>3D 打印手掌与手指结构件、驱动舵机若干、线绳与线管、主控板、供电电池与开关、紧固件与轴承。官方未公布完整物料清单，具体型号与数量以作者资料为准。</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub <br> 链接</strong></td>
+      <td>暂未核实到官方 GitHub 仓库，资料以作者网盘发布：<a href="https://pan.baidu.com/s/1QT5dh-R3a37De9sv_LerFw?pwd=xesd">开源资料（提取码 xesd）</a> · <a href="https://pan.baidu.com/s/1nbod7cnuJ4-DOrkbAUGfgA?pwd=12as">手机 App（提取码 12as）</a></td>
+    </tr>
+  </tbody>
+</table>
+
+配套资料：视频教程在各大平台搜索「小楚君CC」
+
+
+<a id="project-xgoduck"></a>
+
+<p align="center">
+  <img src="datasets-img/luwudynamics-xgoduck_hardware.jpg"
+       alt="XGO-Duck 双足机器鸭"
+       height="300">
+</p>
+
+<h3 align="center"><strong>02. XGO-Duck</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>摘要</strong></td>
+      <td>陆吾智能基于 Pollen Robotics Microduck 改编的可 3D 打印双足机器鸭，以 Arduino UNO Q 加 15 个串行舵机搭建，配齐结构件、扩展板、装配指南与强化学习训练流程。</td>
+    </tr>
+    <tr>
+      <td><strong>特点</strong></td>
+      <td>15 个 Feetech 1910 串行舵机驱动双足，含 4 个颈部/头部关节与一个独立嘴部舵机；Arduino UNO Q 双芯架构，Linux 侧跑策略推理与网页 UI，STM32 侧做舵机与传感器实时通信；自研扩展板集成 IMU 与舵机接口，提供 PCBA 设计文件、Gerber 与 BOM；配套运行时与训练仓库，可在仿真中用强化学习训练行走策略再部署到真机。</td>
+    </tr>
+    <tr>
+      <td><strong>硬件 <br> 方案</strong></td>
+      <td>Arduino UNO Q（2GB 或 4GB 内存版）、陆吾机器人扩展板（含 IMU 与舵机总线）、Feetech 1910 舵机 15 个、AMP 3 芯舵机线 15 根、8.4V（2S 18650）电池组、8.4V 充电器、轴承与紧固件、3D 打印结构件。完整 BOM 以官方仓库为准。</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub <br> 链接</strong></td>
+      <td><a href="https://github.com/LuwuDynamics/xgoduck_hardware">LuwuDynamics/xgoduck_hardware</a> · <a href="https://github.com/LuwuDynamics/xgoduck_runtime_arduino">运行时</a> · <a href="https://github.com/LuwuDynamics/xgoduck_rl">训练</a></td>
+    </tr>
+  </tbody>
+</table>
+
+配套资料：参考 <a href="https://www.arduino.cc/en/software/">Arduino IDE</a>
+
+
+<a id="project-rig-arm"></a>
+
+<p align="center">
+  <img src="datasets-img/luwudynamics-rig_omni.jpg"
+       alt="RIG-Arm 机械臂桌面机器人"
+       height="300">
+</p>
+
+<h3 align="center"><strong>03. RIG-Arm</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>摘要</strong></td>
+      <td>陆吾智能的机械臂形态桌面机器人，基于开源 ESP32-S3 固件 RIG-Omni 的 ARM 板型，把机械臂运动、圆屏表情、语音对话与动作交互做进同一个桌面本体。</td>
+    </tr>
+    <tr>
+      <td><strong>特点</strong></td>
+      <td>RIG-Omni 同一代码库覆盖 Puppy、Hover、ARM、TARS 四种形态，各板型共享语音、联网与传感器驱动并各自实现运动控制；ARM 板型提供机械臂标定与示教模式，可通过语音或遥控调用动作；圆屏播放表情动画，离线唤醒词本地检测，对话走云端 ASR/TTS；支持蓝牙配网、OTA 升级与 MCP 工具扩展。</td>
+    </tr>
+    <tr>
+      <td><strong>硬件 <br> 方案</strong></td>
+      <td>ESP32-S3、SCS009 串行总线舵机、QMI8658C 六轴 IMU、GC9A01 240×240 圆形 LCD、I2S 数字麦克风与功放喇叭、触摸模块与按键、锂电池与电源管理、3D 打印结构件。具体配置以官方 BOM 为准。</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub <br> 链接</strong></td>
+      <td><a href="https://github.com/LuwuDynamics/rig_omni">LuwuDynamics/rig_omni</a></td>
+    </tr>
+  </tbody>
+</table>
+
+配套资料：[官方 Wiki](https://wiki.xgorobot.com/kb/pet-arm) · [MakerWorld 模型](https://makerworld.com.cn/zh/@LuwuDynamics)
+
+
+<a id="project-rig-puppy"></a>
+
+<p align="center">
+  <img src="datasets-img/luwudynamics-rig-puppy.jpg"
+       alt="RIG-Puppy 小狗形态桌面机器人"
+       height="300">
+</p>
+
+<h3 align="center"><strong>04. RIG-Puppy</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>摘要</strong></td>
+      <td>陆吾智能的小狗形态桌面机器人，五个总线舵机配合 ESP32-S3 与圆形屏幕完成摇尾、坐下、起身等动作与表情，支持语音对话与云端大模型智能体。</td>
+    </tr>
+    <tr>
+      <td><strong>特点</strong></td>
+      <td>五舵机机器狗形态，内置坐下、起身、摇尾巴等预设动作，头部可随设备倾斜做 IMU 姿态联动；圆形 LCD 播放 20 余种表情动画；语音链路为离线唤醒词加云端 ASR/TTS，接入小智 AI 相关能力并支持智能体个性配置；支持蓝牙配网、OTA 升级与 MCP 工具扩展，可选摄像头；电商有电子配件包与组装整机两种选择。</td>
+    </tr>
+    <tr>
+      <td><strong>硬件 <br> 方案</strong></td>
+      <td>ESP32-S3（N16R8）、GC9A01 240×240 圆形 LCD、串行总线舵机 ×5、QMI8658C 六轴 IMU、I2S 数字麦克风与功放喇叭、触摸模块、可选 OV2640 摄像头、锂电池与电源管理、3D 打印外壳与腿部结构件。</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub <br> 链接</strong></td>
+      <td><a href="https://github.com/LuwuDynamics/rig_omni">LuwuDynamics/rig_omni</a></td>
+    </tr>
+  </tbody>
+</table>
+
+配套资料：[官方 Wiki](https://wiki.xgorobot.com/kb/pet-puppy)
+
+
+<a id="project-phonebot"></a>
+
+<p align="center">
+  <img src="datasets-img/phonebot.jpg"
+       alt="PhoneBot 复用手机的人形机器人"
+       height="300">
+</p>
+
+<h3 align="center"><strong>05. PhoneBot</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>摘要</strong></td>
+      <td>加州大学洛杉矶分校 RoMeLa 实验室的低成本开源人形机器人，把一部普通 Android 手机当作躯干上的感知、计算与交互中枢，配合 13 个舵机驱动的下半身完成行走与视觉跟随。</td>
+    </tr>
+    <tr>
+      <td><strong>特点</strong></td>
+      <td>整机高 48.3 cm、含手机重约 1.8 kg、13 个主动自由度，硬件成本约 400 美元（不含手机）；手机提供相机、IMU、无线连接与板载算力，无需另购感知设备；手机与腿机构之间没有电源线硬连，指令经 Wi-Fi 下发给机载单板机再驱动舵机；行走策略在仿真中用强化学习训练并专门处理舵机力矩上限；展示了双足行走、视觉跟人与从趴地起身。</td>
+    </tr>
+    <tr>
+      <td><strong>硬件 <br> 方案</strong></td>
+      <td>13 个 DYNAMIXEL XL430-W250-T 舵机、一部普通 Android 手机、机载小型单板机、USB 转 TTL 的 U2D2 接口、3S 锂电池与 DC 转换器、模块化连杆与躯干结构件。当前版本没有手臂。</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub <br> 链接</strong></td>
+      <td>暂未核实到可公开访问的官方 GitHub 仓库，官方项目页：<a href="https://phonebot.dev/">phonebot.dev</a></td>
+    </tr>
+  </tbody>
+</table>
+
+配套资料：[论文 arXiv:2610.08737](https://arxiv.org/abs/2610.08737)
+
+
+<a id="project-learn-arduino"></a>
+
+<p align="center">
+  <img src="datasets-img/learn-arduino.jpg"
+       alt="Learn Arduino 浏览器三维互动课程"
+       height="300">
+</p>
+
+<h3 align="center"><strong>06. Learn Arduino</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>摘要</strong></td>
+      <td>浏览器里的 Arduino 三维互动课程，在虚拟开发板上拖线、接元件、改代码，观察 LED、舵机与传感器的模拟反馈，适合动手买板之前先建立硬件直觉。</td>
+    </tr>
+    <tr>
+      <td><strong>特点</strong></td>
+      <td>三维板级视图，可旋转缩放开发板，引脚与导线按电路连接摆放，接错线当场可见；课程内可直接改代码运行，并带串口监视器；16 节递进课程，从点亮 LED、按钮、电位器到超声波、舵机与步进电机，最后做成避障红绿灯项目；零硬件门槛，但不呈现接触不良、供电不足等真实问题。</td>
+    </tr>
+    <tr>
+      <td><strong>硬件 <br> 方案</strong></td>
+      <td>无硬件依赖，纯浏览器内运行的三维电路仿真与课程，无需下载安装。</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub <br> 链接</strong></td>
+      <td>暂未核实到官方 GitHub 源码仓库，在线使用：<a href="https://learn-arduino-red.vercel.app/">learn-arduino-red.vercel.app</a></td>
+    </tr>
+  </tbody>
+</table>
+
+配套资料：站点由 <a href="https://x.com/DilumSanjaya">Dilum Sanjaya</a> 设计（独立开发者作品，非 Arduino 官方产品）
+
+
+<a id="project-dummy-robot"></a>
+
+<p align="center">
+  <img src="datasets-img/peng-zhihui-dummy-robot.jpg"
+       alt="Dummy-Robot 超迷你机械臂机器人"
+       height="300">
+</p>
+
+<h3 align="center"><strong>07. Dummy-Robot</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>摘要</strong></td>
+      <td>稚晖君（peng-zhihui）开源的超迷你桌面机械臂，用步进电机加减速器驱动，支持正逆解、CAN 总线控制与无线示教器，把工业机械臂那套运动学能力压缩到桌面尺寸。</td>
+    </tr>
+    <tr>
+      <td><strong>特点</strong></td>
+      <td>支持关节角到末端位姿的正解与逆解，逆解在 8 组解中取相对上一姿态转角最小的一组；梯形加减速配合 CAN 同步广播，让六个关节同时启动与停止；提供 SEQ 顺序、INT 实时、TRJ 轨迹三种指令模式，分别适配视觉抓取、实时操控与 3D 打印类轨迹任务；核心固件已从 LiteOS 迁到 FreeRTOS，运动学开源，换 DH 参数即可移植到自研机械臂；配套无线示教器 Peak 与上位机 DummyStudio。</td>
+    </tr>
+    <tr>
+      <td><strong>硬件 <br> 方案</strong></td>
+      <td>原版为铝 CNC 结构加 20/42 步进电机与谐波减速模组，共四块核心电路：REF 核心板、REF 底板、步进电机驱动板与 Peak 示教器；驱动器采用一体闭环加 CAN，每轴只要电源两根与 CAN 两根。官方建议成本敏感者等待「青春版」：结构改 3D 打印、用自制摆线针轮减速器替代谐波减速器，目标整机 2000 元以内。</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub <br> 链接</strong></td>
+      <td><a href="https://github.com/peng-zhihui/Dummy-Robot">peng-zhihui/Dummy-Robot</a></td>
+    </tr>
+  </tbody>
+</table>
+
+配套资料：介绍视频在 B 站与 YouTube 搜索「稚晖君 机械臂」
+
+
 <a id="project-rig-hover"></a>
 
 <p align="center">
@@ -45,7 +290,7 @@
        height="300">
 </p>
 
-<h3 align="center"><strong>01. RIG-Hover</strong></h3>
+<h3 align="center"><strong>08. RIG-Hover</strong></h3>
 
 <table width="100%">
   <tbody>
@@ -80,7 +325,7 @@
        height="300">
 </p>
 
-<h3 align="center"><strong>02. OpenCat / Bittle X</strong></h3>
+<h3 align="center"><strong>09. OpenCat / Bittle X</strong></h3>
 
 <table width="100%">
   <tbody>
@@ -122,7 +367,7 @@
   </tr>
 </table>
 
-<h3 align="center"><strong>03. Open Duck Mini v2</strong></h3>
+<h3 align="center"><strong>10. Open Duck Mini v2</strong></h3>
 
 <table width="100%">
   <tbody>
@@ -156,7 +401,7 @@
        height="300">
 </p>
 
-<h3 align="center"><strong>04. ToddlerBot 2.0</strong></h3>
+<h3 align="center"><strong>11. ToddlerBot 2.0</strong></h3>
 
 <table width="100%">
   <tbody>
@@ -190,10 +435,11 @@
        height="300">
 </p>
 
-<h3 align="center"><strong>05. Berkeley Humanoid Lite V1</strong></h3>
+<h3 align="center"><strong>12. Berkeley Humanoid Lite V1</strong></h3>
 
 <table width="100%">
   <tbody>
+    <tr>
       <td><strong>摘要</strong></td>
       <td>面向人形机器人研究的开源平台，开放机械结构、执行器设计、底层控制及强化学习工具链，适合学习人形机器人系统集成。</td>
     </tr>
@@ -222,6 +468,7 @@
 <a id="open-source-projects"></a>
 
 <a id="hardware"></a>
+<a id="硬件整机"></a>
 
 <a id="humanoid"></a>
 
@@ -289,12 +536,15 @@
 ---
 
 <a id="perception"></a>
+<a id="感知操作"></a>
+<a id="algo-slam"></a>
 
 ### 👁️ 2. 感知与操作算法
 
 涵盖 SLAM、多传感器融合、视觉感知、抓取算法及相关传感器资源。
 
 <a id="slam"></a>
+<a id="algo-grasping"></a>
 #### SLAM 与感知
 
 - **[视觉 SLAM 十四讲](https://github.com/gaoxiang12/slambook2)** ⭐ 12k  
@@ -333,6 +583,7 @@
 ---
 
 <a id="models"></a>
+<a id="模型平台"></a>
 
 ### 🧠 3. 具身模型与平台工具链
 
@@ -368,6 +619,7 @@
 ---
 
 <a id="data"></a>
+<a id="数据训练"></a>
 
 ### 🛠️ 4. 数据、训练与遥操作
 
@@ -420,4 +672,3 @@
 
 
 <a id="reasoning-rl"></a>
-

@@ -16,7 +16,7 @@
 
 
 <p align="center">
-  <kbd> <a href="topics/07-open-source-projects.md"> 🆕 本周更新｜2026-10-26 机器人系统与开源硬件：</a> 新增五个机器人项目，涵盖核心功能、硬件方案与官方代码入口
+  <kbd> <a href="topics/07-open-source-projects.md"> 🆕 本周更新｜2026-11-04 机器人系统与开源硬件：</a> 新增七个机器人项目，涵盖核心功能、硬件方案与官方代码入口
 </p>
 
 
