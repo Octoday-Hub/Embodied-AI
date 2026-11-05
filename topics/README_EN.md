@@ -15,18 +15,18 @@
 </p>
 
 <p align="center">
-  ──────────　🆕 <b>2026-11-04 Update</b>　──────────<br>
-  <a href="07-open-source-projects_EN.md"><b>Robot Systems &amp; Open-Source Hardware</b></a>　7 new projects<br>
-  🦾 Arms &amp; Desktop: <a href="07-open-source-projects_EN.md#project-xiaochujun-dexterous-hand">Xiaochujun Dexterous Hand</a>, <a href="07-open-source-projects_EN.md#project-rig-arm">RIG-Arm</a>, <a href="07-open-source-projects_EN.md#project-dummy-robot">Dummy-Robot</a><br>
-  🐕 Quadrupeds: <a href="07-open-source-projects_EN.md#project-xgoduck">XGO-Duck</a>, <a href="07-open-source-projects_EN.md#project-rig-puppy">RIG-Puppy</a>　🧍 Humanoids: <a href="07-open-source-projects_EN.md#project-phonebot">PhoneBot</a>　📚 Tutorials: <a href="07-open-source-projects_EN.md#project-learn-arduino">Learn Arduino</a>
-</p>
-
-<p align="center">
   Connecting frontier research, open-source engineering, and industry practice to create a hub for embodied AI developers and explorers.
 </p>
 
 <p align="center">
   🌐 <a href="../README.md">中文版本</a>
+</p>
+
+<p align="center">
+  ──────────　🆕 <b>2026-11-04 Update</b>　──────────<br>
+  <a href="07-open-source-projects_EN.md"><b>Robot Systems &amp; Open-Source Hardware</b></a>　7 new projects<br>
+  🦾 Arms &amp; Desktop: <a href="07-open-source-projects_EN.md#project-xiaochujun-dexterous-hand">Xiaochujun Dexterous Hand</a>, <a href="07-open-source-projects_EN.md#project-rig-arm">RIG-Arm</a>, <a href="07-open-source-projects_EN.md#project-dummy-robot">Dummy-Robot</a><br>
+  🐕 Quadrupeds: <a href="07-open-source-projects_EN.md#project-xgoduck">XGO-Duck</a>, <a href="07-open-source-projects_EN.md#project-rig-puppy">RIG-Puppy</a>　🧍 Humanoids: <a href="07-open-source-projects_EN.md#project-phonebot">PhoneBot</a>　📚 Tutorials: <a href="07-open-source-projects_EN.md#project-learn-arduino">Learn Arduino</a>
 </p>
 
 

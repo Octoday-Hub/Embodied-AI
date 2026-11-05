@@ -16,19 +16,18 @@
 
 
 <p align="center">
-  ──────────　🆕 <b>2026-11-04 更新</b>　──────────<br>
-  <a href="topics/07-open-source-projects.md"><b>机器人系统与开源硬件</b></a>　新增 7 个项目<br>
-  🦾 机械臂与桌面：<a href="topics/07-open-source-projects.md#project-xiaochujun-dexterous-hand">小楚君灵巧手</a>、<a href="topics/07-open-source-projects.md#project-rig-arm">RIG-Arm</a>、<a href="topics/07-open-source-projects.md#project-dummy-robot">Dummy-Robot</a><br>
-  🐕 四足：<a href="topics/07-open-source-projects.md#project-xgoduck">XGO-Duck</a>、<a href="topics/07-open-source-projects.md#project-rig-puppy">RIG-Puppy</a>　🧍 人形：<a href="topics/07-open-source-projects.md#project-phonebot">PhoneBot</a>　📚 教程：<a href="topics/07-open-source-projects.md#project-learn-arduino">Learn Arduino</a>
-</p>
-
-
-<p align="center">
   连接前沿研究、开源工程与产业实践，打造面向具身智能开发者与探索者的开放资源入口
 </p>
 
 <p align="center">
   🌐 <a href="topics/README_EN.md">English Version</a>
+</p>
+
+<p align="center">
+  ──────────　🆕 <b>2026-11-04 更新</b>　──────────<br>
+  <a href="topics/07-open-source-projects.md"><b>机器人系统与开源硬件</b></a>　新增 7 个项目<br>
+  🦾 机械臂与桌面：<a href="topics/07-open-source-projects.md#project-xiaochujun-dexterous-hand">小楚君灵巧手</a>、<a href="topics/07-open-source-projects.md#project-rig-arm">RIG-Arm</a>、<a href="topics/07-open-source-projects.md#project-dummy-robot">Dummy-Robot</a><br>
+  🐕 四足：<a href="topics/07-open-source-projects.md#project-xgoduck">XGO-Duck</a>、<a href="topics/07-open-source-projects.md#project-rig-puppy">RIG-Puppy</a>　🧍 人形：<a href="topics/07-open-source-projects.md#project-phonebot">PhoneBot</a>　📚 教程：<a href="topics/07-open-source-projects.md#project-learn-arduino">Learn Arduino</a>
 </p>
 
 
