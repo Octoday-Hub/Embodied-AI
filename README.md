@@ -16,11 +16,6 @@
 
 
 <p align="center">
-  <kbd> <a href="topics/07-open-source-projects.md"> 🆕 本周更新｜2026-11-04 机器人系统与开源硬件：</a> 新增七个机器人项目，涵盖核心功能、硬件方案与官方代码入口
-</p>
-
-
-<p align="center">
   连接前沿研究、开源工程与产业实践，打造面向具身智能开发者与探索者的开放资源入口
 </p>
 
@@ -28,10 +23,17 @@
   🌐 <a href="topics/README_EN.md">English Version</a>
 </p>
 
+<p align="center">
+  ──────────　🆕 <b>2026-11-04 更新</b>　──────────<br>
+  <a href="topics/07-open-source-projects.md"><b>机器人系统与开源硬件</b></a>　新增 7 个项目<br>
+  🦾 机械臂与桌面：<a href="topics/07-open-source-projects.md#project-xiaochujun-dexterous-hand">小楚君灵巧手</a>、<a href="topics/07-open-source-projects.md#project-rig-arm">RIG-Arm</a>、<a href="topics/07-open-source-projects.md#project-dummy-robot">Dummy-Robot</a><br>
+  🐕 四足：<a href="topics/07-open-source-projects.md#project-xgoduck">XGO-Duck</a>、<a href="topics/07-open-source-projects.md#project-rig-puppy">RIG-Puppy</a>　🧍 人形：<a href="topics/07-open-source-projects.md#project-phonebot">PhoneBot</a>　📚 教程：<a href="topics/07-open-source-projects.md#project-learn-arduino">Learn Arduino</a>
+</p>
+
 
 ## 📡 联系我们
 
-📧 [octoday@yeah.net](mailto:octoday@yeah.net) · 💬 微信：`Midsummer_Jin` · 📱 公众号：**星期八Robotics**
+📧 [octoday@yeah.net](mailto:octoday@yeah.net)　💬 微信：`Midsummer_Jin`　📱 公众号：**星期八Robotics**
 
 ## 🎯 我们的愿景
 
