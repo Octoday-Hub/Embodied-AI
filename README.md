@@ -16,7 +16,7 @@
 
 
 <p align="center">
-  <kbd> <a href="topics/07-open-source-projects.md"> 🆕 本周更新｜2026-11-04 机器人系统与开源硬件：</a> 新增七个机器人项目，涵盖核心功能、硬件方案与官方代码入口
+  <kbd> <a href="topics/07-open-source-projects.md"> 🆕 本周更新｜2026-11-04 机器人系统与开源硬件</a>：新增 7 个项目，机械臂方向补入 <a href="topics/07-open-source-projects.md#hardware-arms">小楚君灵巧手（舵机拉线机械手）、RIG-Arm（带示教模式）、Dummy-Robot（稚晖君超迷你机械臂）</a>；四足方向补入 <a href="topics/07-open-source-projects.md#hardware-quadruped">XGO-Duck（Arduino UNO Q 双足鸭）、RIG-Puppy（五舵机桌面狗）</a>；人形方向补入 <a href="topics/07-open-source-projects.md#hardware-humanoid">PhoneBot（UCLA 把手机当躯干）</a>；教程方向补入 <a href="topics/07-open-source-projects.md#data-tutorial">Learn Arduino（浏览器三维电路仿真）</a>
 </p>
 
 
@@ -31,7 +31,7 @@
 
 ## 📡 联系我们
 
-📧 [octoday@yeah.net](mailto:octoday@yeah.net) · 💬 微信：`Midsummer_Jin` · 📱 公众号：**星期八Robotics**
+📧 [octoday@yeah.net](mailto:octoday@yeah.net)　💬 微信：`Midsummer_Jin`　📱 公众号：**星期八Robotics**
 
 ## 🎯 我们的愿景
 

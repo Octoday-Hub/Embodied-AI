@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <kbd><a href="07-open-source-projects_EN.md">🆕 Update | Nov 4, 2026 — Robot Systems & Open-Source Hardware:</a> Seven new robot projects
+  <kbd> <a href="07-open-source-projects_EN.md"> 🆕 Weekly Update | Nov 4, 2026 — Robot Systems & Open-Source Hardware</a>: 7 new projects. Arms: <a href="07-open-source-projects_EN.md#hardware-arms">Xiaochujun Dexterous Hand (cable-tendon gripper), RIG-Arm (with teach mode), Dummy-Robot (Peng Zhihui's mini arm)</a>; Quadrupeds: <a href="07-open-source-projects_EN.md#hardware-quadruped">XGO-Duck (Arduino UNO Q biped duck), RIG-Puppy (five-servo desktop dog)</a>; Humanoids: <a href="07-open-source-projects_EN.md#hardware-humanoid">PhoneBot (UCLA, phone as torso)</a>; Tutorials: <a href="07-open-source-projects_EN.md#data-tutorial">Learn Arduino (browser 3D circuit simulation)</a>
 </p>
 
 <p align="center">
@@ -29,7 +29,7 @@
 
 ## 📡 Contact Us
 
-📧 [octoday@yeah.net](mailto:octoday@yeah.net) · 💬 WeChat: `Midsummer_Jin` · 📱 Official Account: **星期八Robotics**
+📧 [octoday@yeah.net](mailto:octoday@yeah.net)　💬 WeChat: `Midsummer_Jin`　📱 Official Account: **星期八Robotics**
 
 ## 🎯 Our Vision
 
