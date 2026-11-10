@@ -12,6 +12,58 @@
 
 ## Embodied Foundation Models
 
+### [DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies](https://arxiv.org/abs/2611.10872)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Uses generated human motion trajectories to guide simulated RL, then distills a humanoid VLA policy with reference-conditioned DAgger, removing per-task teleoperation.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">November 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Princeton University + UC Berkeley</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Generated-motion → RL → VLA data loop</strong>: generated human motion trajectories serve as RL references, turning simulation successes into VLA training data without new task teleoperation</li><li><strong>Reference-conditioned DAgger</strong>: after a failed rollout, restarts the RL expert from the learner state with the same reference suffix to collect corrective trajectories, addressing offline imitation's distribution shift</li><li>Validated on four Unitree G1 whole-body tasks, with ablations on DAgger rounds, residual RL, and generated data scale</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>After 3 DAgger rounds: Pick <strong>54%</strong>, Drawer <strong>60%</strong>, Button <strong>69%</strong>, Walk-and-Pick <strong>18%</strong></li><li>Matched 800 offline trajectories reach only <strong>0% / 51% / 59% / 0%</strong>, showing corrective data is key</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">4 Unitree G1 simulation tasks, 800 DAgger trajectories; DreamVLA (GR00T-initialized)</td></tr>
+</tbody>
+</table>
+
+### [Spatial Representation Distillation and Knowledge Routing for Vision-Language-Action Models](https://arxiv.org/abs/2611.10443)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Distills a frozen 3D expert into a LoRA visual branch and routes only action-relevant visual tokens with action-loss-gradient supervision, adding spatial awareness without 3D inputs at inference.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">November 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">DGIST + Yonsei University + Queen Mary University of London</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Preserve-specialize-route</strong>: keeps the pretrained VLM's original visual pathway, adding a LoRA spatial branch so 3D supervision does not overwrite 2D visual-semantic knowledge</li><li><strong>Spatial representation distillation</strong>: aligns the spatial branch with a frozen 3D expert's attention responses, transferring 3D understanding without depth, point clouds, or a 3D expert at inference</li><li><strong>Action-gradient knowledge routing</strong>: uses action-loss gradients as routing supervision, forwarding only action-relevant visual tokens to the language model</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>LIBERO average success <strong>98.5%</strong> with only a <strong>0.5B</strong> language backbone and about <strong>53M</strong> trainable parameters</li><li>Remains competitive on LIBERO-Plus, CALVIN, and real-world manipulation; code is released</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">LIBERO / LIBERO-Plus / CALVIN + real-world manipulation; SPARK-VLA (0.5B language backbone, about 53M trainable parameters)</td></tr>
+</tbody>
+</table>
+
+### [Zero-Shot VLA Adaptation with Retrieved Guidance](https://arxiv.org/abs/2611.10894)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Warps out-of-domain demonstrations into the target setup, retrieves the most compatible trajectory coarse-to-fine, and steers flow-matching inference for zero-shot VLA domain/embodiment adaptation.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">November 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">University of Pennsylvania</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Bringing RAG to robotics</strong>: retrieves trajectories from domain-mismatched, in-the-wild demonstrations such as DROID to guide a target-domain VLA instead of collecting more target data</li><li><strong>Geometric calibration + coarse-to-fine retrieval</strong>: warps source demonstrations into the target camera/robot setup, then selects the trajectory most compatible with the base VLA</li><li><strong>Inference-time flow-matching guidance</strong>: acts on the denoising/sampling process without retraining the base model or expanding its context window</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Real-world VLA success rises from <strong>20%</strong> to <strong>80%</strong></li><li>Outperforms the closest baselines in simulation, sim-to-real transfer, and cross-embodiment humanoid manipulation</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Real / simulation / sim-to-real / cross-embodiment humanoid evaluation; DROID and other out-of-domain demonstrations; RAGu (pi-0.5 flow-matching VLA + retrieval guidance)</td></tr>
+</tbody>
+</table>
+
+### [UniLatent: Cross-Embodiment Transfer via Latent Observation Alignment](https://arxiv.org/abs/2611.10061)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Renders paired source/target robot observations in simulation and aligns a source encoder to a frozen target encoder, so a source-domain policy runs on the target robot without pixel translation.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">November 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">University of Southern California + UC Berkeley + Stanford University</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Latent-space alignment</strong>: aligns source observations to a frozen target encoder instead of generating target-domain pixels, removing appearance and geometry gaps</li><li><strong>Paired-render self-supervision</strong>: renders the same scene with source and target robots in simulation to construct alignment supervision</li><li><strong>Few-shot real transfer</strong>: only 10 target demonstrations per task transfer an xArm policy to a Franka</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Up to <strong>93%</strong> zero-shot success in simulation, over <strong>30</strong> points above the strongest pixel-translation baseline on average</li><li>Real xArm-to-Franka: <strong>10</strong> demonstrations per task, <strong>27/30</strong> successful rollouts</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">3 simulation tasks + 2 target arms; real xArm-to-Franka transfer; UniLatent (latent-aligned policy)</td></tr>
+</tbody>
+</table>
+
 ### [DriftingVLA: Native One-Step Vision-Language-Action Generation via Per-Dimension Temporal Drifting](https://arxiv.org/abs/2608.29749)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -866,6 +918,58 @@
 
 ## Manipulation & Teleoperation
 
+### [SimDuoReal: Object-Centric Bimanual Policy for Emergent Dexterity](https://arxiv.org/abs/2611.10410)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Trains bimanual RL experts under one object-centric reward so pre-grasp, regrasping, and handover emerge, then distills them into a single deployable policy with DAgger and RL.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">November 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Amazon FAR + UC San Diego + University of Chicago + CMU + Stanford University</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>One object-centric reward</strong>: instead of hand-designing rewards per behavior, only the object's target pose is specified; pre-grasp manipulation, grasping, regrasping, and handover emerge</li><li><strong>Experts → single-policy distillation</strong>: refines experts on transition states, then distills multiple behaviors into one deployable policy with DAgger and RL</li><li><strong>Real-robot, no task-specific fine-tuning</strong>: the same policy runs four tasks with unseen objects</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Real hardware: <strong>61/80 = 76.3%</strong> across four tasks with unseen objects and no task-specific fine-tuning</li><li>Simulated barcode scanning: <strong>85.0%</strong> vs <strong>60.4%</strong> for two single-arm policies without handover</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Multi-environment simulated RL + 80 real-robot trials; SimDuoReal (object-centric representation + distilled policy)</td></tr>
+</tbody>
+</table>
+
+### [GUARD: Anomaly-Informed Q-Steering for Generative Robot Policies in Dexterous Manipulation](https://arxiv.org/abs/2611.10343)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Learns dense anomaly scores from the policy's training distribution and propagates them with sparse task rewards through a Q-function, steering denoising away from low-support regions without changing policy weights.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">November 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Honda Research Institute USA + Stanford University</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Anomaly scores as dense supervision</strong>: learns a dense, failure-anticipatory anomaly score from the policy's training distribution and combines it with sparse task rewards in a learned Q-function</li><li><strong>Test-time Q-steering</strong>: gradients steer denoising only; the pretrained policy is untouched, with no extra demonstrations, fine-tuning, or human intervention</li><li><strong>Nominal and perturbed robustness</strong>: evaluates all four Adroit tasks under both nominal and perturbed dynamics, plus real-robot sim-to-real</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Adroit average success <strong>96.0%</strong> nominal / <strong>80.0%</strong> perturbed, beating the strongest baseline by <strong>21.0 / 20.0</strong> points</li><li>Real-robot in-hand screwdriver rotation and reorientation gain <strong>40 / 25</strong> points</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">4 Adroit tasks + real-robot in-hand manipulation; GUARD (anomaly scores + Q-steering)</td></tr>
+</tbody>
+</table>
+
+### [BATCH: Behavior Alignment for Cross-Embodiment Learning from Humans](https://arxiv.org/abs/2611.10148)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Learns self-supervised temporal correspondences between human and robot behaviors with cycle consistency, then uses the aligned pairs for video-action diffusion co-training and human-to-robot style transfer.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">November 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Stanford University</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Behavior alignment, not pixel alignment</strong>: cycle-consistency learns cross-embodiment temporal correspondences without manual annotation</li><li><strong>Two training objectives</strong>: behavior-aligned co-training plus human-to-robot style transfer explicitly exploit the learned correspondences</li><li><strong>OOD generalization</strong>: evaluated on unseen backgrounds, objects, distractors, and environments</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Out-of-domain policy performance improves by <strong>45%</strong> on average over co-training alone and <strong>138%</strong> over the robot-only pretrained model</li><li>Removing behavior alignment substantially degrades performance; style transfer adds further gains</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Human ego demonstrations + robot teleoperation; BATCH (GTCC + video-action diffusion)</td></tr>
+</tbody>
+</table>
+
+### [MDF++: Visuo-Tactile World Action Model with End-to-end Representation Learning](https://arxiv.org/abs/2611.09293)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Learns visuo-tactile world-action representations end-to-end with a diffusion backbone, using multi-task queries to avoid feature collapse in contact-rich manipulation.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">November 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">University of Michigan, Ann Arbor</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>End-to-end visuo-tactile representations</strong>: no frozen reconstruction-pretrained encoders; encoders are learned for control</li><li><strong>Multi-task queries prevent collapse</strong>: policy, world-action, forward-dynamics, and inverse-dynamics queries exploit cross-modal correlations</li><li><strong>Real contact-rich tasks</strong>: bolt screwing and nut mating on a real car engine</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Five simulated tasks average <strong>86.9%</strong>, <strong>+18.5</strong> points over adapted MDF and up to <strong>+50%</strong> over frozen-representation WAMs</li><li>Real-robot bolt screwing and nut mating completed</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">5 simulated visuo-tactile tasks + real robot; MDF++ (end-to-end visuo-tactile WAM)</td></tr>
+</tbody>
+</table>
+
 ### [Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation](https://arxiv.org/abs/2609.01596)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -1143,6 +1247,19 @@
 <a id="locomotion" name="locomotion"></a>
 
 ## Locomotion
+
+### [STRIDE: Learning Humanoid Locomotion in Minutes with Acceleration-Based Rewards](https://arxiv.org/abs/2611.08857)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Replaces base-velocity tracking with an acceleration reward computable from the onboard IMU, combining XQC off-policy RL, high-gain joint control, and left-right symmetry augmentation to learn humanoid walking in minutes.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">November 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Technical University of Darmstadt + Robotics Institute Germany (RIG) + DFKI + hessian.AI</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Acceleration-based reward</strong>: no base-velocity tracking; the reward only needs the onboard IMU, avoiding mocap or a well-calibrated state estimator</li><li><strong>Walking in 14 minutes</strong>: XQC plus high-gain joint control and left-right symmetry augmentation learns on Unitree G1 and Booster T1</li><li><strong>81% fewer falls</strong>: compared with removing the two key components, which also needs over an hour</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Learns walking on Unitree G1 and Booster T1 within <strong>14 minutes</strong> of samples</li><li>Training falls reduced by <strong>81%</strong> vs the ablation; without these components learning takes over an hour</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Unitree G1 / Booster T1 simulation; STRIDE (XQC + acceleration reward)</td></tr>
+</tbody>
+</table>
 
 ### [Learning Agile Perceptive Traversal of Sparse 3D Structures for Humanoids](https://arxiv.org/abs/2608.29769)
 
@@ -1595,6 +1712,19 @@
 <a id="datasets" name="datasets"></a>
 
 ## Datasets
+
+### [ToolDex: An Ego-Exo Human Demonstration Dataset for Creative Physical Tool Use](https://arxiv.org/abs/2611.09036)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">An ego-exo human demonstration dataset for repurposing everyday objects as tools, with multi-view observations, hand/tool/target annotations, and three benchmark suites.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">November 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Stanford University + Carnegie Mellon University</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>Creative tool use</strong>: explicitly separates tool and target object roles, covering selection, adaptation, and repurposing behaviors</li><li><strong>High-fidelity ego-exo capture</strong>: one ego camera plus eight synchronized exocentric RGB-D cameras with hand, object, and deformation annotations</li><li><strong>Three benchmark suites</strong>: physical tool-use reasoning, sparse-view 3D/4D reconstruction, and robot policy learning</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>60 hours</strong>, <strong>10,853</strong> trials, and <strong>6,158,809</strong> annotated frames at about <strong>60</strong> trials per hour</li><li>Establishes benchmarks for tool-use reasoning, 3D/4D reconstruction, and policy learning</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">ToolDex (ego-exo dataset + benchmarks)</td></tr>
+</tbody>
+</table>
 
 ### [N0-Foundation: Towards the Age of Tactile Intelligence](https://arxiv.org/abs/2608.29601)
 
