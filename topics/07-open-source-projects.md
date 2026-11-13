@@ -10,18 +10,11 @@
 
 **🆕 本期新增（点项目名直达项目详情）**
 
-  - 🦾 [小楚君灵巧手](#project-xiaochujun-dexterous-hand) — 舵机加拉线模拟肌腱，3D 打印就能做出能抓握的灵巧手
-  - 🦾 [RIG-Arm](#project-rig-arm) — 带示教模式的开源机械臂，手动带一遍就能复现动作
-  - 🦾 [Dummy-Robot](#project-dummy-robot) — 稚晖君作品，工业机械臂构型压到桌面尺寸，无刷电机直驱
-  - 🦾 [RIG-Hover](#project-rig-hover) — 双轮自平衡加机械臂，桌面级的平衡控制演示
-  - 🐕 [XGO-Duck](#project-xgoduck) — Arduino UNO Q 驱动的双足机器鸭，四足之外的新形态
-  - 🐕 [RIG-Puppy](#project-rig-puppy) — 五个舵机做出一只在桌上跑的小机器狗
-  - 🐕 [Open Duck Mini v2](#project-open-duck-mini) — 完整复现的开源双足机器鸭，强化学习步态
-  - 🐕 [OpenCat / Bittle X](#project-opencat) — 出货三万多台的机器狗框架，教学与研究都在用
-  - 🧍 [PhoneBot](#project-phonebot) — UCLA 把手机变成人形机器人的躯干，算力和感知全交给手机
-  - 🧍 [ToddlerBot 2.0](#project-toddlerbot) — 斯坦福的低成本人形，整机可 3D 打印
-  - 🧍 [Berkeley Humanoid Lite V1](#project-berkeley-humanoid-lite) — 伯克利的开源人形，执行器设计全部公开
-  - 📚 [Learn Arduino](#project-learn-arduino) — 浏览器里就能跑的三维电路仿真，学 Arduino 不用买板子
+  - 🤖 [XLeRobot](#project-xlerobot) — LeRobot 生态的双臂移动家用机，基础版约 660 美元，4 小时装完
+  - 🔌 [Reachy Mini](#project-reachy-mini) — Pollen 与 Hugging Face 的桌面机器人，应用商店直接接大模型
+  - 🧍 [Bambot](#project-bambot) — SO-100 加 LeKiwi 拼出来的人形，硬件约 300 美元
+  - 🧍 [Microban](#project-microban) — 波尔多大学的 30 厘米人形，19 个 Dynamixel 全 3D 打印
+  - 🧍 [Otto DIY](#project-otto-diy) — 四个舵机就能入门的人形，几十美元从零做一台
 
 
 **🤖 机器人项目（按首字母排序）**
@@ -352,6 +345,105 @@
 </table>
 
 配套资料：<a href="https://github.com/unitreerobotics/Qmini/blob/main/Qmini_DIY.pdf">DIY 说明 PDF</a>
+<a id="project-bambot"></a>
+
+<p align="center">
+  <img src="datasets-img/bambot.jpg"
+       alt="Bambot"
+       height="300">
+</p>
+
+<h3 align="center"><strong>10. Bambot</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>摘要</strong></td>
+      <td>用一条 SO-100 机械臂加一套 LeKiwi 底盘拼出来的低成本人形机器人，15 个舵机配三个全向轮，硬件成本约 300 美元，3D 打印件与采购清单全部公开。</td>
+    </tr>
+    <tr>
+      <td><strong>特点</strong></td>
+      <td>成本约 300 美元（中国大陆约 2000 元），核心件只有 15 个 STS3215 舵机、一块舵机控制板和三个 4 英寸全向轮；思路是复用现有生态，一条 SO-100 臂加一套 LeKiwi 底盘、再补几根线就成型，几乎不用自造零件；打印件在 Tinkercad 上有可交互三维模型，STL 与 3MF 走 GitHub Releases 分发；想做遥操作只需再加 12 个舵机、一块控制板和两根 1000mm 排线；自带浏览器端控制界面，Apache-2.0 许可，商用也放得开。</td>
+    </tr>
+    <tr>
+      <td><strong>硬件<br>方案</strong></td>
+      <td>15 × Feetech STS3215 舵机（12V 版）、1 × 舵机控制板、3 × 4 英寸全向轮、M2/M3/M4 螺丝套装、5264 排线与 Type-C 转 DC 供电线，结构件为 3D 打印；主控由电脑或树莓派承担。遥操作版本另加 12 个舵机与 1 块控制板。</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub<br>链接</strong></td>
+      <td><a href="https://github.com/timqian/bambot">Bambot</a></td>
+    </tr>
+  </tbody>
+</table>
+
+配套资料：官网 <a href="https://bambot.org">bambot.org</a> · 三维模型在 <a href="https://www.tinkercad.com/things/ibgLfMl1NYQ-bambot-v0">Tinkercad</a>
+
+<a id="project-microban"></a>
+
+<p align="center">
+  <img src="datasets-img/microban.jpg"
+       alt="Microban"
+       height="300">
+</p>
+
+<h3 align="center"><strong>11. Microban</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>摘要</strong></td>
+      <td>波尔多大学 LaBRI 的 Rhoban 团队开源的小型人形，身高约 30 厘米，19 个 Dynamixel XL330 舵机驱动，除螺丝与轴承外全部件可 3D 打印，整机成本约 550 到 600 美元。</td>
+    </tr>
+    <tr>
+      <td><strong>特点</strong></td>
+      <td>19 个自由度全部由 XL330-M288-T 驱动，结构件约 30 个、推荐 PLA 打印；设计时就把自碰撞限位做进结构里，也规划了舵机走线，装好不会互相打架；供电用两节 18650 加 BMS，USB-C 充电，适合当桌面常驻平台；物料清单带购买链接与价格，CAD 同时给 STL 和 STEP，另有 Onshape 在线装配体可以逐件看；软件 GPLv3、硬件 CC BY-NC-SA 4.0，带 Zenodo DOI 可直接引用；面向学生与创客，装配有分步指引，一台普通桌面 3D 打印机就能开工。</td>
+    </tr>
+    <tr>
+      <td><strong>硬件<br>方案</strong></td>
+      <td>19 × Dynamixel XL330-M288-T 舵机、1 × 树莓派 Zero 2W、1 × Pollen RPI Robot Hat 扩展板、2 × 18650 锂电池与电池座、1 × BMS、约 200 颗塑料螺丝、12 片钢与 POM 垫片、约 30 个 PLA 打印件。</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub<br>链接</strong></td>
+      <td><a href="https://github.com/Rhoban/microban">Microban</a></td>
+    </tr>
+  </tbody>
+</table>
+
+配套资料：<a href="https://github.com/Rhoban/microban/blob/main/docs/bom.md">完整物料清单</a> · <a href="https://youtu.be/1pnFrT_jfXQ">行走演示视频</a>
+
+<a id="project-otto-diy"></a>
+
+<p align="center">
+  <img src="datasets-img/otto-diy.jpg"
+       alt="Otto DIY"
+       height="300">
+</p>
+
+<h3 align="center"><strong>12. Otto DIY</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>摘要</strong></td>
+      <td>门槛最低的开源人形入门项目，Arduino Nano 加四个 SG90 舵机、结构件全 3D 打印，几十美元就能做出会走路会跳舞的小机器人，官方 Arduino 库覆盖多种主控。</td>
+    </tr>
+    <tr>
+      <td><strong>特点</strong></td>
+      <td>起步成本约 50 美元，四个 SG90 舵机加一块 Arduino Nano 就是全部执行与计算；官方库 OttoDIYLib 已迭代到 13.0，一套 API 同时支持 Arduino Nano、Uno、Micro、Mega、Mini、Leonardo 与 ESP8266，ESP32 在开发中；行为覆盖行走、跳舞、避障、声音互动，改几个参数就能调步态；社区衍生版本极多，ESP32 升级版、加机械臂版、换舵机云台版都有现成方案；从打印、接线到烧录全程有教程，适合课堂与亲子场景。</td>
+    </tr>
+    <tr>
+      <td><strong>硬件<br>方案</strong></td>
+      <td>4 × SG90 微型舵机、1 × Arduino Nano（或 Uno、Micro、Mega、ESP8266、ESP32）、3D 打印结构件、超声波传感器（避障可选）、蜂鸣器（声音互动可选）、电池盒与杜邦线。</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub<br>链接</strong></td>
+      <td><a href="https://github.com/OttoDIY/OttoDIYLib">OttoDIYLib</a></td>
+    </tr>
+  </tbody>
+</table>
+
+配套资料：官网 <a href="https://www.ottodiy.com/">ottodiy.com</a>
+
 
 
 <a id="hardware-quadruped"></a>
@@ -765,6 +857,39 @@
 </table>
 
 配套资料：视频教程在各大平台搜索「小楚君CC」
+<a id="project-reachy-mini"></a>
+
+<p align="center">
+  <img src="datasets-img/reachy-mini.jpg"
+       alt="Reachy Mini"
+       height="300">
+</p>
+
+<h3 align="center"><strong>07. Reachy Mini</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>摘要</strong></td>
+      <td>Pollen Robotics 与 Hugging Face 合作推出的开源桌面机器人，四个运动轴做出头部与身体动作，配 Python 与 JavaScript 双 SDK，应用通过 Hugging Face Spaces 分发，面向想快速接上大模型的开发者。</td>
+    </tr>
+    <tr>
+      <td><strong>特点</strong></td>
+      <td>分 Wireless 与 Lite 两个版本，前者内置树莓派 CM4、电池与 WiFi，可脱离电脑独立运行，后者走 USB 连电脑、价格更低；运动范围写得很明确，头部俯仰与横滚各 ±40°、头部偏航 ±180°、身体偏航 ±160°，官方还限制头身偏航差最大 65°，避免线缆被拧断；Python SDK 用来写控制循环，JavaScript SDK 走 WebRTC，网页应用可以直接分享给别人用；应用商店建在 Hugging Face Spaces 上，已有 LLM 对话、电台、手势跟随等现成应用可以直接装；没有硬件也能开发，官方提供完整的 MuJoCo 仿真平台；仓库里带 AGENTS.md，可以让 Claude Code、Codex 这类编码助手照着直接写应用。</td>
+    </tr>
+    <tr>
+      <td><strong>硬件<br>方案</strong></td>
+      <td>头部与身体共四个运动轴，配相机与麦克风、扬声器；Wireless 版主控为树莓派 CM4，带 IMU、电池与 WiFi，Lite 版通过 USB 由外部电脑供电与计算，两版机械结构一致。</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub<br>链接</strong></td>
+      <td><a href="https://github.com/pollen-robotics/reachy_mini">Reachy Mini</a> · <a href="https://huggingface.co/docs/reachy_mini/">SDK 文档</a></td>
+    </tr>
+  </tbody>
+</table>
+
+配套资料：应用市场在 <a href="https://hf.co/reachy-mini/">Hugging Face</a> · 官网 <a href="https://www.pollen-robotics.com/reachy-mini/">pollen-robotics.com</a>
+
 
 <a id="hardware-mobile"></a>
 #### 移动机器人
@@ -835,6 +960,39 @@
 </table>
 
 配套资料：<a href="https://www.bilibili.com/video/av89252261/">B 站演示视频</a>
+<a id="project-xlerobot"></a>
+
+<p align="center">
+  <img src="datasets-img/xlerobot.jpg"
+       alt="XLeRobot"
+       height="300">
+</p>
+
+<h3 align="center"><strong>03. XLeRobot</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>摘要</strong></td>
+      <td>基于 LeRobot 生态的双臂移动家用机器人，把两条 SO-101 机械臂、一套移动底盘和一辆宜家小推车拼成整机，官方给出的基础版硬件成本约 660 美元，装配时间在 4 小时以内。</td>
+    </tr>
+    <tr>
+      <td><strong>特点</strong></td>
+      <td>成本压得极低，基础版约 660 美元（中国大陆约 3999 元），官方原话是比一台 iPhone 便宜；不重复造轮子，直接站在 LeRobot、SO-100/SO-101、LeKiwi、Bambot 四个成熟项目上，件都是社区验证过的；控制方式覆盖面广，键盘、Xbox 手柄、Switch Joy-Con、Quest 3 VR 都能控，全部走蓝牙、不依赖 WiFi，延迟低；提供 MuJoCo 仿真与 URDF，还能在浏览器里用 3DGS 先看效果再动硬件；2025 年 12 月补了两轮差速底盘版本，比全向轮更稳更准且更便宜；文档独立成站，从装配到 VLA 训练都有教程。</td>
+    </tr>
+    <tr>
+      <td><strong>硬件<br>方案</strong></td>
+      <td>两条 SO-101 六自由度机械臂、Feetech STS3215 系列总线舵机与配套控制板、全向轮或两轮差速移动底盘、头部 RGB 相机（可选双目或 RealSense RGBD）、12V 电池与 Type-C 供电；主控可用自带笔记本，也可加装树莓派，整机搭载在宜家小推车上。具体舵机数量与物料清单以官方文档为准。</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub<br>链接</strong></td>
+      <td><a href="https://github.com/Vector-Wangel/XLeRobot">XLeRobot</a> · <a href="https://xlerobot.readthedocs.io/en/latest/index.html">文档站</a></td>
+    </tr>
+  </tbody>
+</table>
+
+配套资料：装配视频见 <a href="https://www.bilibili.com/video/BV1AGWFzUEJf/">B 站</a> 与 <a href="https://www.youtube.com/watch?v=upB1CEFeOlk">YouTube</a>
+
 
 
 ---
