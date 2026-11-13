@@ -173,6 +173,9 @@
 - **RoboCasa** — [`robocasa.ai`](https://robocasa.ai/)
   📄 面向日常家居操作任务的大规模仿真框架，支持多场景、多对象、示教数据和 benchmark。
 
+- **RoboSimStudio** — [`github.com/robosimstudio/robosimstudio`](https://github.com/robosimstudio/robosimstudio) ⭐ 524
+  📄 Apache-2.0 开源的交互式 Real2Sim 工具包，基于 Newton 引擎，人和 Coding Agent 可对照真实视频搭建并修正操作仿真，求解器与物理参数可编辑，内置 15 类可形变材质，纯 CPU 可跑。
+
 - **robosuite** — [`github.com/ARISE-Initiative/robosuite`](https://github.com/ARISE-Initiative/robosuite)
   📄 基于 MuJoCo 的模块化机器人学习仿真框架与基准套件，适合操作任务研究与复现实验。
 
