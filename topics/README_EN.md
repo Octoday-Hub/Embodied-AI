@@ -23,10 +23,10 @@
 </p>
 
 <p align="center">
-  ──────────　🆕 <b>2026-11-04 Update</b>　──────────<br>
-  <a href="07-open-source-projects_EN.md"><b>Robot Systems &amp; Open-Source Hardware</b></a>　7 new projects<br>
-  🦾 Arms &amp; Desktop: <a href="07-open-source-projects_EN.md#project-xiaochujun-dexterous-hand">Xiaochujun Dexterous Hand</a>, <a href="07-open-source-projects_EN.md#project-rig-arm">RIG-Arm</a>, <a href="07-open-source-projects_EN.md#project-dummy-robot">Dummy-Robot</a><br>
-  🐕 Quadrupeds: <a href="07-open-source-projects_EN.md#project-xgoduck">XGO-Duck</a>, <a href="07-open-source-projects_EN.md#project-rig-puppy">RIG-Puppy</a>　🧍 Humanoids: <a href="07-open-source-projects_EN.md#project-phonebot">PhoneBot</a>　📚 Tutorials: <a href="07-open-source-projects_EN.md#project-learn-arduino">Learn Arduino</a>
+  ──────────　🆕 <b>2026-11-13 Update</b>　──────────<br>
+  <a href="07-open-source-projects_EN.md"><b>Robot Systems &amp; Open-Source Hardware</b></a>　5 new projects<br>
+  🧍 Humanoids: <a href="07-open-source-projects_EN.md#project-bambot">Bambot</a> (an SO-100 arm plus a LeKiwi base, about $300), <a href="07-open-source-projects_EN.md#project-microban">Microban</a> (a 30 cm fully printable humanoid with 19 Dynamixels), <a href="07-open-source-projects_EN.md#project-otto-diy">Otto DIY</a> (four servos to start)<br>
+  🤖 Mobile dual-arm: <a href="07-open-source-projects_EN.md#project-xlerobot">XLeRobot</a> (about $660, under four hours)　🔌 Desktop: <a href="07-open-source-projects_EN.md#project-reachy-mini">Reachy Mini</a> (an app store wired to LLMs)
 </p>
 
 

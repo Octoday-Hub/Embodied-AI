@@ -173,6 +173,9 @@
 - **RoboCasa** — [`robocasa.ai`](https://robocasa.ai/)
   📄 A large-scale simulation framework for everyday household manipulation, supporting diverse scenes, objects, demonstration data, and benchmarks.
 
+- **RoboSimStudio** — [`github.com/robosimstudio/robosimstudio`](https://github.com/robosimstudio/robosimstudio) ⭐ 524
+  📄 An Apache-2.0 interactive Real2Sim toolkit on the Newton engine, where a human or coding agent rebuilds and corrects manipulation tasks from real video, solvers and physics parameters stay editable, and fifteen deformable-material examples ship with it.
+
 - **robosuite** — [`github.com/ARISE-Initiative/robosuite`](https://github.com/ARISE-Initiative/robosuite)
   📄 A modular robot learning simulation framework based on MuJoCo with benchmark suites for manipulation research.
 
