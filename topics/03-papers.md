@@ -12,6 +12,58 @@
 
 ## Embodied Foundation Models
 
+### [DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies](https://arxiv.org/abs/2611.10872)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">用生成的人体动作轨迹引导仿真强化学习，再以参考条件 DAgger 蒸馏出人形 VLA 策略，无需为新任务采集遥操作数据。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">普林斯顿大学、加州大学伯克利分校</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>生成动作 → RL → VLA 的数据闭环</strong>：用生成的人体动作轨迹作为 RL 参考，把仿真成功轨迹转成 VLA 训练数据，免去新任务遥操作</li><li><strong>参考条件 DAgger</strong>：失败后从学习者状态重启 RL 专家并保留同一参考后缀，专门收集纠正轨迹，缓解离线模仿的分布偏移</li><li>在 Unitree G1 的 4 个全身任务上验证，并做了 DAgger 轮数、残差 RL 与数据规模消融</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>3 轮 DAgger 后成功率：Pick <strong>54%</strong>、Drawer <strong>60%</strong>、Button <strong>69%</strong>、Walk-and-Pick <strong>18%</strong></li><li>同等 800 条普通离线轨迹仅 <strong>0% / 51% / 59% / 0%</strong>，说明纠正轨迹是关键</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">4 个 Unitree G1 仿真任务、800 条 DAgger 轨迹；DreamVLA（GR00T 初始化）</td></tr>
+</tbody>
+</table>
+
+### [Spatial Representation Distillation and Knowledge Routing for Vision-Language-Action Models](https://arxiv.org/abs/2611.10443)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">把冻结 3D 专家的空间理解蒸馏进 LoRA 视觉分支，并用动作损失梯度监督的知识路由筛选视觉 token，无需推理时 3D 输入即可增强 VLA 空间感知。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">DGIST、延世大学、伦敦玛丽女王大学</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>preserve-specialize-route</strong>：保留预训练 VLM 的原始视觉通路，另开 LoRA 空间分支，避免 3D 监督破坏原有 2D 语义</li><li><strong>空间表示蒸馏</strong>：用冻结 3D 专家的注意力响应监督空间分支，把 3D 理解迁移进 VLA，推理时不需要深度/点云/3D 专家</li><li><strong>动作梯度知识路由</strong>：用动作损失梯度生成路由监督，只把与动作相关的视觉 token 送进语言模型，参数效率高</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>LIBERO 平均成功率 <strong>98.5%</strong>，仅 <strong>0.5B</strong> 语言骨干、约 <strong>53M</strong> 可训练参数</li><li>在 LIBERO-Plus、CALVIN 与真机操作上保持竞争力，代码已开源</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">LIBERO / LIBERO-Plus / CALVIN + 真机；SPARK-VLA（0.5B 语言骨干，约 53M 可训练参数）</td></tr>
+</tbody>
+</table>
+
+### [Zero-Shot VLA Adaptation with Retrieved Guidance](https://arxiv.org/abs/2611.10894)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">用几何标定把域外演示变换到目标域，粗到细检索最兼容轨迹，并在流匹配推理中注入引导，实现无需重训的零样本 VLA 域/本体适配。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">宾夕法尼亚大学</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>把 RAG 搬进机器人</strong>：从域外、in-the-wild 演示（如 DROID）检索轨迹来引导目标域 VLA，而不是继续堆目标域数据</li><li><strong>几何标定 + 粗到细检索</strong>：先把源演示变换到目标相机/机器人配置，再从大量候选里选与基座 VLA 最兼容的轨迹</li><li><strong>推理期流匹配引导</strong>：直接作用于去噪/流匹配采样过程，不改基座权重、不扩上下文窗口</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>真实世界 VLA 成功率 <strong>20% → 80%</strong></li><li>在仿真、sim-to-real 与跨本体人形操作上优于最接近的基线</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">真实/仿真/sim-to-real/跨本体人形评测，DROID 等域外演示；RAGu（π0.5 流匹配 VLA + 检索引导）</td></tr>
+</tbody>
+</table>
+
+### [UniLatent: Cross-Embodiment Transfer via Latent Observation Alignment](https://arxiv.org/abs/2611.10061)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">在仿真中渲染成对的源/目标机器人观测，把源视觉编码器对齐到冻结的目标编码器，使源域策略无需像素翻译即可直接在目标机器人上运行。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">南加州大学、加州大学伯克利分校、斯坦福大学</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>潜空间对齐</strong>：不生成目标域像素图，直接把源观测编码对齐到目标编码器，消除外观/几何差异</li><li><strong>配对渲染自监督</strong>：在仿真里渲染同一场景的源/目标机器人观测，构造对齐监督</li><li><strong>少样本真机迁移</strong>：每任务仅 10 条目标演示即可把 xArm 策略迁到 Franka</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>仿真零样本成功率最高 <strong>93%</strong>，平均超最强像素翻译基线 <strong>30+</strong> 个百分点</li><li>真机 xArm→Franka：每任务 <strong>10</strong> 条演示，<strong>27/30</strong> 成功</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">3 仿真任务 + 2 目标臂；真机 xArm→Franka；UniLatent（潜空间对齐策略）</td></tr>
+</tbody>
+</table>
+
 ### [DriftingVLA: Native One-Step Vision-Language-Action Generation via Per-Dimension Temporal Drifting](https://arxiv.org/abs/2608.29749)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -862,6 +914,58 @@
 <a id="manipulation" name="manipulation"></a>
 ## Manipulation & Teleoperation
 
+### [SimDuoReal: Object-Centric Bimanual Policy for Emergent Dexterity](https://arxiv.org/abs/2611.10410)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">用单一物体中心奖励训练双臂 RL 专家，让预抓取、换手与手内调整等行为自发涌现，再经 DAgger/RL 蒸馏成可部署的单一双臂策略。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Amazon FAR、加州大学圣地亚哥分校、芝加哥大学、卡内基梅隆大学、斯坦福大学</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>单一物体中心奖励</strong>：不为每种行为手工设计奖励，只指定物体应达到的位姿，预抓取/抓取/换手/手内调整自发出现</li><li><strong>专家 → 单一策略蒸馏</strong>：先在过渡状态精修专家，再用 DAgger + RL 把多种行为蒸馏进一个可部署策略</li><li><strong>真机零任务微调</strong>：同一策略在 4 个任务、未见物体上直接执行</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>真机 <strong>61/80 = 76.3%</strong>，4 个任务、未见物体、无任务微调</li><li>仿真条码扫描 <strong>85.0%</strong>，对比两个无换手单臂策略 <strong>60.4%</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">多环境仿真 RL + 真机 80 次试验；SimDuoReal（物体中心表示 + 蒸馏策略）</td></tr>
+</tbody>
+</table>
+
+### [GUARD: Anomaly-Informed Q-Steering for Generative Robot Policies in Dexterous Manipulation](https://arxiv.org/abs/2611.10343)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">把策略训练分布上的异常分数与稀疏任务奖励一起学进 Q 函数，用梯度在去噪过程中引导生成式策略避开低支持区域，无需改策略权重。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">本田美国研究院（Honda Research Institute USA）、斯坦福大学</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>异常分数当稠密监督</strong>：从策略训练分布学习稠密异常分数，和稀疏任务奖励一起传播进 Q 函数，提前预判失败</li><li><strong>测试时 Q 引导</strong>：梯度只作用于去噪采样，不修改预训练策略，也不需要额外演示/微调/人工干预</li><li><strong>标称与扰动都稳</strong>：在 Adroit 4 任务上同时评估标称和扰动动力学，并做真机 sim-to-real</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Adroit 平均成功率 <strong>96.0%</strong>（标称）/ <strong>80.0%</strong>（扰动），比最强基线高 <strong>21.0 / 20.0</strong> 个百分点</li><li>真机手内螺丝刀旋转/重定向分别提升 <strong>40 / 25</strong> 个百分点</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Adroit 4 任务 + 真机手内操作；GUARD（异常分数 + Q 引导）</td></tr>
+</tbody>
+</table>
+
+### [BATCH: Behavior Alignment for Cross-Embodiment Learning from Humans](https://arxiv.org/abs/2611.10148)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">用循环一致性自监督学习人类与机器人的时序对应，再把对齐后的行为用于视频-动作扩散模型的联合训练与人→机器人风格迁移。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">斯坦福大学</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>行为对齐而非像素对齐</strong>：用循环一致性学习跨本体时序对应，不需要人工标注配对</li><li><strong>两个训练目标</strong>：对齐后的行为联合训练 + 人→机器人风格迁移，显式利用对应关系</li><li><strong>OOD 泛化</strong>：在未见背景、物体、干扰物与环境中评测</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>OOD 策略性能平均比仅联合训练高 <strong>45%</strong>，比机器人单域预训练高 <strong>138%</strong></li><li>去掉行为对齐后性能显著下降，风格迁移带来额外增益</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">人类 ego 演示 + 机器人遥操作；BATCH（GTCC + 视频-动作扩散）</td></tr>
+</tbody>
+</table>
+
+### [MDF++: Visuo-Tactile World Action Model with End-to-end Representation Learning](https://arxiv.org/abs/2611.09293)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">用扩散骨干端到端学习视觉-触觉世界动作模型的表征，并通过多任务查询避免联合训练的表征坍缩，提升接触丰富操作。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">密歇根大学安娜堡分校</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>端到端视触觉表征</strong>：不再冻结重建预训练编码器，让编码器直接为控制服务</li><li><strong>多任务查询防坍缩</strong>：用策略、世界动作、前向/逆向动力学等结构化查询，利用跨模态相关性学习任务相关表征</li><li><strong>真机接触任务</strong>：螺栓拧紧与螺母对位验证</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>5 个仿真任务平均 <strong>86.9%</strong>，比适配 MDF 高 <strong>18.5</strong> 个百分点，比冻结表征 WAM 最高高 <strong>50%</strong></li><li>真机完成螺栓拧紧与螺母对位</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">5 仿真任务 + 真机；MDF++（端到端视触觉 WAM）</td></tr>
+</tbody>
+</table>
+
 ### [Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation](https://arxiv.org/abs/2609.01596)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -1136,6 +1240,19 @@
 - ★ **[CVPR 2018年12月](https://arxiv.org/abs/1812.02713)** PartNet: A Large-Scale Benchmark for Fine-Grained and Hierarchical Part-Level 3D Object Understanding. 细粒度部件级3D物体理解基准.
 <a id="locomotion" name="locomotion"></a>
 ## Locomotion
+
+### [STRIDE: Learning Humanoid Locomotion in Minutes with Acceleration-Based Rewards](https://arxiv.org/abs/2611.08857)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">用仅依赖机载 IMU 的加速度奖励替代基座速度跟踪，结合 XQC 离策略 RL、高增益关节控制与左右对称增强，让人形机器人几分钟内学会行走。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">达姆施塔特工业大学、德国机器人研究所（RIG）、德国人工智能研究中心（DFKI）、hessian.AI</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>加速度奖励</strong>：不跟踪基座速度，只要求跟随指令加速度，奖励可由机载 IMU 直接计算</li><li><strong>14 分钟学会行走</strong>：XQC + 高增益关节控制 + 左右对称增强，在 G1/T1 上快速收敛</li><li><strong>摔倒减少 81%</strong>：与去掉两个关键组件的版本相比</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Unitree G1 / Booster T1 仅 <strong>14 分钟</strong>样本学会行走</li><li>训练期摔倒比消融设置减少 <strong>81%</strong>；无这两项组件需 <strong>1 小时以上</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">G1/T1 仿真；STRIDE（XQC + 加速度奖励）</td></tr>
+</tbody>
+</table>
 
 ### [Learning Agile Perceptive Traversal of Sparse 3D Structures for Humanoids](https://arxiv.org/abs/2608.29769)
 
@@ -1579,6 +1696,19 @@
 
 <a id="datasets" name="datasets"></a>
 ## Datasets
+
+### [ToolDex: An Ego-Exo Human Demonstration Dataset for Creative Physical Tool Use](https://arxiv.org/abs/2611.09036)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">面向“把日常物体当工具”的自我-外部视角人类演示数据集，提供多视角、手/工具/目标物体与形变交互标注，并配套三类基准。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">斯坦福大学、卡内基梅隆大学</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>创意工具使用</strong>：明确区分工具与目标物体，覆盖选择、改造、替代使用等行为</li><li><strong>高质量 ego-exo 采集</strong>：1 个 ego + 8 个 exo 同步相机，含手/物体/形变标注</li><li><strong>三类基准</strong>：物理工具使用推理、稀疏视角 3D/4D 重建、机器人策略学习</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>60 小时</strong>、<strong>10,853</strong> 次试验、<strong>6,158,809</strong> 帧标注，约 <strong>60</strong> 次/小时</li><li>建立工具使用推理、3D/4D 重建与策略学习三类基准</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">ToolDex（ego-exo 数据集 + 基准）</td></tr>
+</tbody>
+</table>
 
 ### [N0-Foundation: Towards the Age of Tactile Intelligence](https://arxiv.org/abs/2608.29601)
 
