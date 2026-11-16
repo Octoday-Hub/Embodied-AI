@@ -13,18 +13,11 @@ projects suited to their needs.
 
 **🆕 New This Round (jump straight to the project)**
 
-  - 🦾 [Xiaochujun Dexterous Hand](#project-xiaochujun-dexterous-hand) — servo-and-tendon drive that mimics muscle, a gripping hand you can 3D print
-  - 🦾 [RIG-Arm](#project-rig-arm) — open-source arm with teach mode; guide it once by hand and it replays the motion
-  - 🦾 [Dummy-Robot](#project-dummy-robot) — Peng Zhihui's build: an industrial arm topology shrunk to desktop scale with direct-drive brushless motors
-  - 🦾 [RIG-Hover](#project-rig-hover) — two-wheel self-balancing plus an arm, a desktop demo of balance control
-  - 🐕 [XGO-Duck](#project-xgoduck) — a bipedal robot duck on Arduino UNO Q, a new form beyond quadrupeds
-  - 🐕 [RIG-Puppy](#project-rig-puppy) — a desk-sized robot dog that runs on just five servos
-  - 🐕 [Open Duck Mini v2](#project-open-duck-mini) — a fully reproduced open-source bipedal duck with RL gaits
-  - 🐕 [OpenCat / Bittle X](#project-opencat) — the robot dog framework with 30k+ units shipped, used in teaching and research alike
-  - 🧍 [PhoneBot](#project-phonebot) — UCLA turns a phone into a humanoid torso, offloading compute and perception to it
-  - 🧍 [ToddlerBot 2.0](#project-toddlerbot) — Stanford's low-cost humanoid, fully 3D-printable
-  - 🧍 [Berkeley Humanoid Lite V1](#project-berkeley-humanoid-lite) — Berkeley's open humanoid with actuator designs fully published
-  - 📚 [Learn Arduino](#project-learn-arduino) — 3D circuit simulation in the browser, learn Arduino without buying a board
+  - 🤖 [XLeRobot](#project-xlerobot) — a dual-arm mobile home robot on the LeRobot stack, about $660 for the base build and under four hours to assemble
+  - 🔌 [Reachy Mini](#project-reachy-mini) — Pollen and Hugging Face's desktop robot, with an app store that plugs straight into LLMs
+  - 🧍 [Bambot](#project-bambot) — a humanoid assembled from an SO-100 arm and a LeKiwi base for about $300
+  - 🧍 [Microban](#project-microban) — a 30 cm humanoid from the University of Bordeaux, 19 Dynamixels and fully 3D-printable
+  - 🧍 [Otto DIY](#project-otto-diy) — the lowest-barrier humanoid entry, four servos and a few dozen dollars to build one
 
 
 **🤖 Robot Projects (sorted alphabetically)**
@@ -43,9 +36,6 @@ projects suited to their needs.
     - [Learning & Training Frameworks](#data-rl)
     - [Data Collection & Teleoperation](#data-teleop)
     - [Tutorials & Knowledge Bases](#data-tutorial)
-
-
-<a id="new-projects"></a>
 
 
 <a id="existing-projects"></a> <a id="open-source-projects"></a>
@@ -395,6 +385,105 @@ Documentation</a>
 </table>
 
 Related resources: <a href="https://github.com/unitreerobotics/Qmini/blob/main/Qmini_DIY.pdf">DIY 说明 PDF</a>
+<a id="project-bambot"></a>
+
+<p align="center">
+  <img src="datasets-img/bambot.jpg"
+       alt="Bambot"
+       height="300">
+</p>
+
+<h3 align="center"><strong>10. Bambot</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>Summary</strong></td>
+      <td>A low-cost humanoid assembled from one SO-100 arm and one LeKiwi base. Fifteen servos and three omni wheels bring the hardware cost to about 300 USD, with 3D-printable parts and a full shopping list published.</td>
+    </tr>
+    <tr>
+      <td><strong>Features</strong></td>
+      <td>About 300 USD in parts (roughly 2000 RMB in mainland China), with a core bill of just 15 STS3215 servos, one servo control board and three 4-inch omni wheels. The design reuses existing ecosystems: an SO-100 arm plus a LeKiwi base and a few extra cables, with almost no bespoke parts. Printable parts can be explored as an interactive 3D model on Tinkercad, while STL and 3MF files ship through GitHub Releases. Adding teleoperation takes only 12 more servos, one more control board and two 1000 mm cables. A browser-based control interface is included, and the Apache-2.0 license keeps commercial use open.</td>
+    </tr>
+    <tr>
+      <td><strong>Hardware <br> plan</strong></td>
+      <td>15 × Feetech STS3215 servos (12V version), 1 × servo control board, 3 × 4-inch omni wheels, an M2/M3/M4 screw assortment, 5264 cables and a Type-C to DC power cable, with 3D-printed structural parts. The host is a laptop or a Raspberry Pi. The teleoperation build adds 12 servos and one control board.</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub <br> link</strong></td>
+      <td><a href="https://github.com/timqian/bambot">Bambot</a></td>
+    </tr>
+  </tbody>
+</table>
+
+Related resources: official site <a href="https://bambot.org">bambot.org</a> · 3D model on <a href="https://www.tinkercad.com/things/ibgLfMl1NYQ-bambot-v0">Tinkercad</a>
+
+<a id="project-microban"></a>
+
+<p align="center">
+  <img src="datasets-img/microban.jpg"
+       alt="Microban"
+       height="300">
+</p>
+
+<h3 align="center"><strong>11. Microban</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>Summary</strong></td>
+      <td>A compact open-source humanoid from the Rhoban team at LaBRI, University of Bordeaux. About 30 cm tall, driven by 19 Dynamixel XL330 servos, fully 3D-printable apart from screws and bearings, at roughly 550 to 600 USD in total.</td>
+    </tr>
+    <tr>
+      <td><strong>Features</strong></td>
+      <td>All 19 degrees of freedom run on XL330-M288-T servos, with about 30 printed parts in recommended PLA. Self-collision stops are built into the structure and servo cable routing is planned in the design, so the finished robot does not fight itself. Power comes from two 18650 cells plus a BMS, charged over USB-C, which suits a robot that lives on a desk. The bill of materials includes purchase links and prices, CAD ships in both STL and STEP, and an Onshape assembly lets you inspect every part. Software is GPLv3 and hardware CC BY-NC-SA 4.0, with a Zenodo DOI for citation. It targets students and makers, with step-by-step assembly guidance and a build that a standard desktop 3D printer can handle.</td>
+    </tr>
+    <tr>
+      <td><strong>Hardware <br> plan</strong></td>
+      <td>19 × Dynamixel XL330-M288-T servos, 1 × Raspberry Pi Zero 2W, 1 × Pollen RPI Robot Hat, 2 × 18650 lithium cells with holder, 1 × BMS, about 200 plastic screws, 12 steel and POM shims, and about 30 PLA printed parts.</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub <br> link</strong></td>
+      <td><a href="https://github.com/Rhoban/microban">Microban</a></td>
+    </tr>
+  </tbody>
+</table>
+
+Related resources: <a href="https://github.com/Rhoban/microban/blob/main/docs/bom.md">full bill of materials</a> · <a href="https://youtu.be/1pnFrT_jfXQ">walking demo video</a>
+
+<a id="project-otto-diy"></a>
+
+<p align="center">
+  <img src="datasets-img/otto-diy.jpg"
+       alt="Otto DIY"
+       height="300">
+</p>
+
+<h3 align="center"><strong>12. Otto DIY</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>Summary</strong></td>
+      <td>The lowest-barrier open-source humanoid entry point: an Arduino Nano and four SG90 servos with fully 3D-printed structure. A few dozen dollars gets you a small robot that walks and dances, and the official Arduino library supports a range of boards.</td>
+    </tr>
+    <tr>
+      <td><strong>Features</strong></td>
+      <td>Starting cost is about 50 USD, with four SG90 servos and one Arduino Nano covering all actuation and compute. The official OttoDIYLib library is at version 13.0 and supports Arduino Nano, Uno, Micro, Mega, Mini, Leonardo and ESP8266 from one API, with ESP32 in development. Behaviors cover walking, dancing, obstacle avoidance and sound interaction, and gait tuning is a matter of changing a few parameters. The community has produced many derivatives: ESP32 upgrades, arm-equipped versions and servo-gimbal variants all exist. Tutorials cover printing, wiring and flashing end to end, which makes it well suited to classrooms and parent-child builds.</td>
+    </tr>
+    <tr>
+      <td><strong>Hardware <br> plan</strong></td>
+      <td>4 × SG90 micro servos, 1 × Arduino Nano (or Uno, Micro, Mega, ESP8266, ESP32), 3D-printed structural parts, an ultrasonic sensor (optional, for obstacle avoidance), a buzzer (optional, for sound interaction), a battery holder and jumper wires.</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub <br> link</strong></td>
+      <td><a href="https://github.com/OttoDIY/OttoDIYLib">OttoDIYLib</a></td>
+    </tr>
+  </tbody>
+</table>
+
+Related resources: official site <a href="https://www.ottodiy.com/">ottodiy.com</a>
+
 
 
 <a id="hardware-quadruped"></a>
@@ -853,6 +942,39 @@ Related resources: <a href="https://www.bilibili.com/video/BV1Cn4y1R7V2">Concept
 </table>
 
 Related resources: search 「小楚君CC」 on major video platforms
+<a id="project-reachy-mini"></a>
+
+<p align="center">
+  <img src="datasets-img/reachy-mini.jpg"
+       alt="Reachy Mini"
+       height="300">
+</p>
+
+<h3 align="center"><strong>07. Reachy Mini</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>Summary</strong></td>
+      <td>An open-source desktop robot from Pollen Robotics and Hugging Face. Four motion axes drive head and body gestures, and dual Python and JavaScript SDKs ship with an app store on Hugging Face Spaces, aimed at developers who want to connect large models quickly.</td>
+    </tr>
+    <tr>
+      <td><strong>Features</strong></td>
+      <td>Two versions: Wireless runs standalone on a Raspberry Pi CM4 with battery and WiFi, while Lite connects over USB to your computer at a lower price. Motion limits are documented precisely: head pitch and roll ±40°, head yaw ±180°, body yaw ±160°, with the head-to-body yaw difference capped at 65° so cables are not twisted off. The Python SDK covers control loops, the JavaScript SDK runs over WebRTC so browser apps can be shared directly. The app store lives on Hugging Face Spaces and already offers an LLM conversation app, a radio app and a hand tracker. No hardware is required to start: a full MuJoCo simulation platform is provided. The repository also ships an AGENTS.md so coding agents such as Claude Code or Codex can write apps immediately.</td>
+    </tr>
+    <tr>
+      <td><strong>Hardware <br> plan</strong></td>
+      <td>Four motion axes across head and body, plus camera, microphone and speaker. The Wireless version uses a Raspberry Pi CM4 with IMU, battery and WiFi; the Lite version gets power and compute over USB from an external computer. Both share the same mechanical design.</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub <br> link</strong></td>
+      <td><a href="https://github.com/pollen-robotics/reachy_mini">Reachy Mini</a> · <a href="https://huggingface.co/docs/reachy_mini/">SDK docs</a></td>
+    </tr>
+  </tbody>
+</table>
+
+Related resources: app marketplace on <a href="https://hf.co/reachy-mini/">Hugging Face</a> · official site <a href="https://www.pollen-robotics.com/reachy-mini/">pollen-robotics.com</a>
+
 
 <a id="hardware-mobile"></a>
 #### Mobile Robots
@@ -923,6 +1045,39 @@ Related resources: <a href="https://www.bilibili.com/video/BV1ZA411e7Ff">Bilibil
 </table>
 
 Related resources: <a href="https://www.bilibili.com/video/av89252261/">Bilibili demo video</a>
+<a id="project-xlerobot"></a>
+
+<p align="center">
+  <img src="datasets-img/xlerobot.jpg"
+       alt="XLeRobot"
+       height="300">
+</p>
+
+<h3 align="center"><strong>03. XLeRobot</strong></h3>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><strong>Summary</strong></td>
+      <td>A dual-arm mobile home robot built on the LeRobot stack that combines two SO-101 arms, a mobile base and an IKEA cart into one build. The official base configuration costs about 660 USD in parts and assembles in under four hours.</td>
+    </tr>
+    <tr>
+      <td><strong>Features</strong></td>
+      <td>Cost is the headline: about 660 USD for the base build (roughly 3999 RMB in mainland China), which the author describes as cheaper than an iPhone. Nothing is reinvented: it stands on LeRobot, SO-100/SO-101, LeKiwi and Bambot, so every part is already community-validated. Control is broad: keyboard, Xbox controller, Switch Joy-Con and Quest 3 VR all work, over Bluetooth only with no WiFi dependency and therefore low latency. A MuJoCo simulation with URDFs is provided, and you can preview the robot in the browser via 3DGS before touching hardware. A two-wheel differential base arrived in December 2025, more stable and accurate than omni wheels and cheaper. Documentation lives on its own site, covering everything from assembly through VLA training.</td>
+    </tr>
+    <tr>
+      <td><strong>Hardware <br> plan</strong></td>
+      <td>Two SO-101 six-DOF arms, Feetech STS3215 series bus servos with matching control board, an omni-wheel or two-wheel differential base, a head-mounted RGB camera (optionally stereo or a RealSense RGBD), a 12V battery and Type-C power. The host can be your own laptop or an added Raspberry Pi, and the whole robot rides on an IKEA cart. Exact servo counts and BOM follow the official documentation.</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub <br> link</strong></td>
+      <td><a href="https://github.com/Vector-Wangel/XLeRobot">XLeRobot</a> · <a href="https://xlerobot.readthedocs.io/en/latest/index.html">Documentation</a></td>
+    </tr>
+  </tbody>
+</table>
+
+Related resources: assembly videos on <a href="https://www.bilibili.com/video/BV1AGWFzUEJf/">Bilibili</a> and <a href="https://www.youtube.com/watch?v=upB1CEFeOlk">YouTube</a>
+
 
 
 ------------------------------------------------------------------------

@@ -24,10 +24,10 @@
 </p>
 
 <p align="center">
-  ──────────　🆕 <b>2026-11-04 更新</b>　──────────<br>
-  <a href="topics/07-open-source-projects.md"><b>机器人系统与开源硬件</b></a>　新增 7 个项目<br>
-  🦾 机械臂与桌面：<a href="topics/07-open-source-projects.md#project-xiaochujun-dexterous-hand">小楚君灵巧手</a>、<a href="topics/07-open-source-projects.md#project-rig-arm">RIG-Arm</a>、<a href="topics/07-open-source-projects.md#project-dummy-robot">Dummy-Robot</a><br>
-  🐕 四足：<a href="topics/07-open-source-projects.md#project-xgoduck">XGO-Duck</a>、<a href="topics/07-open-source-projects.md#project-rig-puppy">RIG-Puppy</a>　🧍 人形：<a href="topics/07-open-source-projects.md#project-phonebot">PhoneBot</a>　📚 教程：<a href="topics/07-open-source-projects.md#project-learn-arduino">Learn Arduino</a>
+  ──────────　🆕 <b>2026-11-13 更新</b>　──────────<br>
+  <a href="topics/07-open-source-projects.md"><b>机器人系统与开源硬件</b></a>　新增 5 个项目<br>
+  🧍 人形：<a href="topics/07-open-source-projects.md#project-bambot">Bambot</a>（SO-100 加 LeKiwi 拼装，约 300 美元）、<a href="topics/07-open-source-projects.md#project-microban">Microban</a>（30 厘米全 3D 打印，19 个 Dynamixel）、<a href="topics/07-open-source-projects.md#project-otto-diy">Otto DIY</a>（四个舵机入门）<br>
+  🤖 移动双臂：<a href="topics/07-open-source-projects.md#project-xlerobot">XLeRobot</a>（约 660 美元，4 小时装完）　🔌 桌面：<a href="topics/07-open-source-projects.md#project-reachy-mini">Reachy Mini</a>（应用商店直接接大模型）
 </p>
 
 
