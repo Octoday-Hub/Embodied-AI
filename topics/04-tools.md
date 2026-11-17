@@ -89,6 +89,20 @@
 </tbody>
 </table>
 
+### Alloy
+
+<table style="width:100%;display:table;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:1200px" width="1200">面向机器人学习的开源 Python 物理引擎，可在同一场景中仿真刚体机器人、布料、软体、沙土与液体。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布与维护</td><td style="word-wrap:break-word;width:1200px" width="1200">2026 年 11 月发布论文《Alloy: A Multi-Material Physics Engine for Robot Learning》；Apache-2.0；PyPI 包名 alloy-engine。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:1200px" width="1200">argonrobotics-ai。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li><strong>多材料同场景</strong>：刚体机器人、布料、软体、沙土与液体共存于一个场景</li><li><strong>大规模并行</strong>：单 GPU 或 CPU 上运行大量并行世界，基于 MuJoCo Warp 与 Newton</li><li>支持加载 MJCF 机器人</li><li>提供 Gymnasium 向量化环境与现成任务（含 Unitree Go2 速度任务，使用 PPO 训练）</li><li>内置 MCP 服务器（<code>alloy mcp</code>），AI 编程智能体可自行搭建并运行仿真</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">使用场景</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li>机器人强化学习训练，如四足速度控制</li><li>涉及布料、软体、沙土、液体的多材料任务</li><li>通过 AI 编程智能体自动构建与运行仿真</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据与模型</td><td style="word-wrap:break-word;width:1200px" width="1200">完全开源（Apache-2.0），Python 实现；支持 MJCF 机器人。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">官方链接</td><td style="word-wrap:break-word;width:1200px" width="1200"><a href="https://github.com/argonrobotics-ai/alloy">github.com/argonrobotics-ai/alloy</a> · <a href="https://arxiv.org/abs/2611.16312">论文 arXiv 2611.16312</a> · <a href="https://alloy.argonrobotics.ai">官网 alloy.argonrobotics.ai</a></td></tr>
+</tbody>
+</table>
+
 - **BEHAVIOR-1K** — [`StanfordVL/BEHAVIOR-1K`](https://github.com/StanfordVL/BEHAVIOR-1K) ⭐ 1.5k
   📄 斯坦福大学出品，1,000 种日常生活活动的具身 AI 基准测试与仿真平台
 
