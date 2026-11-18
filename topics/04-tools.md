@@ -93,7 +93,7 @@
 
 <table style="width:100%;display:table;table-layout:fixed" width="100%">
 <tbody>
-<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:1200px" width="1200">面向机器人学习的开源 Python 物理引擎，可在同一场景中仿真刚体机器人、布料、软体、沙土与液体。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:1200px" width="1200">面向机器人学习的开源 Python 物理引擎，可仿真刚体机器人、布料、软体、沙土与液体。</td></tr>
 <tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布与维护</td><td style="word-wrap:break-word;width:1200px" width="1200">2026 年 11 月发布论文《Alloy: A Multi-Material Physics Engine for Robot Learning》；Apache-2.0；PyPI 包名 alloy-engine。</td></tr>
 <tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:1200px" width="1200">argonrobotics-ai。</td></tr>
 <tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:1200px" width="1200"><ul><li><strong>多材料同场景</strong>：刚体机器人、布料、软体、沙土与液体共存于一个场景</li><li><strong>大规模并行</strong>：单 GPU 或 CPU 上运行大量并行世界，基于 MuJoCo Warp 与 Newton</li><li>支持加载 MJCF 机器人</li><li>提供 Gymnasium 向量化环境与现成任务（含 Unitree Go2 速度任务，使用 PPO 训练）</li><li>内置 MCP 服务器（<code>alloy mcp</code>），AI 编程智能体可自行搭建并运行仿真</li></ul></td></tr>
