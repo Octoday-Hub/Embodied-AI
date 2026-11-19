@@ -12,6 +12,58 @@
 
 ## Embodied Foundation Models
 
+### [Z-sight: Unifying Vision-Language-Action and Latent World Modeling](https://arxiv.org/abs/2611.24940)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Z-sight unifies VLA and latent world modeling by jointly denoising future visual tokens and continuous actions in the VLM's native token space, reaching 81.9% success on SIMPLE and 73.3% on a real Unitree G1.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">November 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Maven Robotics + University of Southern California</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Predicts the future in the VLM's own visual token space, without a video generator or external encoder.</li><li>A foresight expert and an action expert jointly denoise future tokens and actions in a mixture-of-transformers.</li><li>Three-stage training on ~2,000 hours of human video and ~2,750 hours of cross-embodiment robot data.</li><li>3.18B parameters in total, with about 110 ms per action chunk on a single GPU.</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>81.9% success on SIMPLE, 9.6 points above the strongest baseline (GR00T N1.7) and 73.1% even at the hardest L2 level.</li><li>73.3% average success on six real Unitree G1 tasks (44/60 trials), 20.0 points above Fast-WAM, with an 81.7% progress score.</li><li>97.7% average on LIBERO and 96.6% on its long-horizon suite; 82.44% and 39.00% on RoboTwin 2.0 clean-to-clean and clean-to-randomized.</li><li>109.5 ms median latency per action chunk on one RTX 4090 (110 ms in the abstract), faster than π0.5 (120.5 ms) and Fast-WAM (155.9 ms).</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Built on a Qwen3.5-2B VLM with 0.48B foresight and action experts (3.18B total), Z-sight is trained in three stages on ~2,000 hours of human video and ~2,750 hours of robot data using 32 H200 GPUs, and deploys on a single RTX 4090.</td></tr>
+</tbody>
+</table>
+
+### [RoboMorpher: Scaling Robot Morphology Representations for Cross-Embodiment Action Prediction](https://arxiv.org/abs/2611.24816)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">RoboMorpher pretrains a morphology-conditioned action tokenizer on 40M FK-supervised morphology–state pairs and freezes it in a VLA policy, reaching 56.40% success on RoboTwin 2.0 and 23.27% on EmbodiBench.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">November 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">The University of Hong Kong + HKUST (Guangzhou) + Sun Yat-sen University + Shanghai Jiao Tong University + Peking University + National University of Singapore</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>A morphology-conditioned action tokenizer jointly reconstructs joint angles and link poses, tying control coordinates to their kinematic effects.</li><li>MorphGen turns 33 surveyed URDF/MJCF descriptions into link-length priors and generates 40M morphology–state pairs for kinematic pretraining.</li><li>Introduces EmbodiBench, a 10-task benchmark with 30 generated URDFs per task, 15,000 demonstrations and 55 distinct morphologies.</li><li>Removing link-pose supervision lowers EmbodiBench success by 17.94 pp, supporting geometry-aware supervision for joint-action codes.</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Mean success 56.40% on RoboTwin 2.0 (15 tasks, 5 embodiments), 9.73 pp above continuous joint-space control.</li><li>Mean success 23.27% on EmbodiBench (10 tasks, 30 generated URDFs each), 15.34 pp above continuous joint-space control.</li><li>Removing link-pose reconstruction supervision lowers EmbodiBench success by 17.94 pp (to 5.33%).</li><li>The three lifting tasks average 55.11% success versus 14.00% for StarVLA joint control.</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">MorphGen's 40M morphology–state pairs pretrain a morphology-conditioned tokenizer that is frozen and paired with Qwen3-VL-4B-Instruct plus a two-branch DiT VLA policy, trained and evaluated on RoboTwin 2.0 (15 tasks, 5 embodiments) and EmbodiBench (10 tasks, 30 generated URDFs each).</td></tr>
+</tbody>
+</table>
+
+### [SHAPE: Discrete Supervision and Parallel Continuous Streams for Learning Dexterous Manipulation from Egocentric Human Data](https://arxiv.org/abs/2611.24585)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">SHAPE supervises a VLA backbone with discrete FAST action tokens and adds a shared flow-matching expert with parallel executable EEF and joint streams to learn dexterous bimanual manipulation from egocentric human data.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">November 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Sharpa Robotics + The Chinese University of Hong Kong + SJTU-Sharpa Joint Lab for Embodied AI + SJTU</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Discrete FAST action tokens supervise the VLA backbone directly; a matched 2x2 study confirms the gain.</li><li>A shared flow-matching expert outputs parallel executable EEF and joint streams, selectable at deployment.</li><li>Scores 0.80 across six real-robot tasks, above 0.63 for π0.5 and 0.51 for GR00T N1.7.</li><li>Learns new tasks from human demos alone with zero task-specific robot data, reaching 35.0% (21/60).</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>On the six real-robot tasks with robot demonstrations, SHAPE's joint readout scores 0.80 on average, above 0.63 for π0.5 (GR00T N1.7: 0.51).</li><li>With zero task-specific robot demonstrations and fine-tuning on human demos only, human-to-robot transfer reaches 35.0% (21/60).</li><li>On the simulated GR-1 RoboCasa 24-tabletop-task benchmark it reaches 72.2%, above 64.8% for π0.5.</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Pretrained on 2,811 hours of egocentric human recordings (320 tasks, 73,077 episodes) plus 228 hours of robot teleoperation (105 tasks, 10,505 episodes) on a dual-arm 7-DoF + 22-DoF dexterous-hand platform, SHAPE uses a Qwen3-VL-4B backbone with a 0.60B flow-matching dual-stream action expert and a Wan2.1-T2V-1.3B video head, trained for 40k steps with a 1:1 human-to-robot ratio.</td></tr>
+</tbody>
+</table>
+
+### [ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters](https://arxiv.org/abs/2611.21607)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">ScaleVLA couples a frozen 552B DeepSeek-V4.1-Flash VLM backbone with a trainable flow-matching action DiT and shows that frontier-scale representations improve sample efficiency, generalization, and contact-sensitive manipulation for robot policies.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">November 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Tsinghua University + Peking University + Shanghai Jiao Tong University + Galbot</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Couples a frozen 552B DeepSeek-V4.1-Flash sparse MoE backbone to a trainable action DiT and compares 2B–552B backbones under one setup.</li><li>Reaches 87.8% success on LIBERO-Goal with only 10 demonstrations, beating a 2B backbone trained on 50 (85.6%).</li><li>Attains 45.1% mean success under LIBERO-PRO perturbations, about 14 points above the best smaller backbone.</li><li>Keeps 216 ms median latency per action chunk on four H200 GPUs and inserts a charger in 9 of 10 real-robot trials.</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Best average success on every simulation benchmark: LIBERO four-suite average 96.1%, with Goal 96.8% and Long 90.2%.</li><li>LIBERO-PRO mean success is 45.1% versus at most 31.3% for smaller backbones; LIBERO-Goal reaches 87.8% with 10 demonstrations versus 85.6% for a 2B backbone with 50.</li><li>RoboCasa Gen-30/Gen-100 success is 30.7%/54.9%, and DexJoCo averages 42.1% under object randomization and 24.4% under full randomization.</li><li>Real-robot charger insertion succeeds 9/10 in-domain (2B: 4/10) and 8/15 OOD, with 216 ms median latency per action chunk on RoboCasa.</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Data cover LIBERO/LIBERO-PRO, RoboCasa and DexJoCo in simulation plus RoboDojo charger-insertion teleoperation on a real bimanual robot (303 episodes, 0.52M frames); the model pairs a frozen 552B DeepSeek-V4.1-Flash-1017 backbone with a 32-layer flow-matching action DiT trained on 64 NVIDIA H200 GPUs.</td></tr>
+</tbody>
+</table>
+
 ### [DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies](https://arxiv.org/abs/2611.10872)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -918,6 +970,45 @@
 
 ## Manipulation & Teleoperation
 
+### [LuxTac: A Flexible, Scalable, and Open-Source Optical Taxel Array with Distributed Three-Axis Force Sensing for Tactile Robot Learning](https://arxiv.org/abs/2611.23575)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">LuxTac is a flexible, scalable, open-source optical taxel array that resolves three-axis force at each taxel via interchangeable gel cartridges and raises ACT peg-in-hole success from 40% to 87%.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">November 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Purdue University + Stony Brook University + Stevens Institute of Technology + University of Wisconsin-Madison</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>About 3.5 mm thick, built from off-the-shelf digital RGBC taxels that tile to any array size by adding multiplexers and buses</li><li>Interchangeable gel cartridges color-encode shear, giving 16 taxels three-axis force estimates with a 4.8-degree median direction error</li><li>The normal cartridge is linear (R²=0.999) from 104 mN to 5.8 N with 2.0% repeatability and 5.9% hysteresis</li><li>Adding LuxTac pressure to ACT raises peg-in-hole success from 40% to 87%, while cube sorting stays non-significant</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Peg-in-hole success improved from 40% (6/15) to 87% (13/15) with LuxTac touch (Fisher's exact test, p=0.021).</li><li>Cube sorting changed only from 33% (5/15) to 40% (6/15), which is not significant (p=1.0).</li><li>The normal cartridge is linear (R²=0.999) from 104 mN to at least 5.8 N, with 2.0% repeatability and 5.9% hysteresis.</li><li>The shear cartridge reaches summed force R²=0.96/0.96/0.92 in x/y/z on held-out sessions with a 4.8-degree median shear-direction error; real-versus-simulated contact patterns reach 0.942 cosine similarity.</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">On a reBot Arm B601 with a 16-taxel flexible optical array, per-taxel two-layer 64-unit MLPs estimate three-axis force from 240 CNC presses and nine shear-calibration sessions, while LeRobot's default ACT imitation policy is trained from 50 human demonstrations per task.</td></tr>
+</tbody>
+</table>
+
+### [ALOHA Lightning: Learning Fast and Precise Manipulation](https://arxiv.org/abs/2611.21919)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A kinesthetic-teaching bimanual system plus an ACT-based learning pipeline that learns fast, precise manipulation from 50 demonstrations per task, achieving over 80% success at near-human speed.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">November 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Stanford University</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Kinesthetic teaching on a backdrivable bimanual platform with real-time gravity compensation collects near-human-speed demonstrations without leader arms.</li><li>Learns dynamic bimanual skills from only 50 demonstrations per task.</li><li>Test-time action-chunk smoothing plus analytic real-time hand masking addresses high-speed jerkiness and the collection-to-deployment visual domain shift.</li><li>Over 80% success on four bimanual tasks and 50%+ faster than teleoperation; toss-and-catch completes in 1.85 s.</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>With 50 demonstrations per task, success rates reach 90% (Unstack Cups), 85% (Battery Insertion), 100% (Bus Table) and 100% (Fold Shorts), all above 80%.</li><li>Toss & Catch achieves 50% success in just 1.85 s.</li><li>Execution is over 50% faster than puppeteering teleoperation, e.g. battery insertion drops from 17.87 s to 5.70 s.</li><li>Test-time action smoothing raises Unstack Cups success from 35% (temporal ensembling) to 90% and cuts time from 7.75 s to 3.97 s.</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Five real-world bimanual tasks with 50 kinesthetic demonstrations each (three 50 Hz RGB views plus joint positions/velocities) used to train an ACT action-chunking policy.</td></tr>
+</tbody>
+</table>
+
+### [DexFormer 2.0: Towards a Cross-Embodiment Foundation Policy for Dexterous Grasping](https://arxiv.org/abs/2611.20273)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A single cross-embodiment RL grasping policy reaching 89.01% stable success on seen arm–hand pairs, 51.18% on six held-out pairs, and zero-shot transfer to new hands and a real Flexiv robot.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">November 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">HKUST(GZ) + BrainCo + Chongqing University + Wuhan University</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>One PPO-trained policy commands all 24 arm–hand pairings (4 arms × 6 hands) instead of one policy per embodiment.</li><li>Canonical joint slots with validity masks unify observations and actions across heterogeneous robots.</li><li>MorphNode's kinematic-tree-biased attention and a 16-step Transformer-XL memory capture morphology and dynamics.</li><li>Zero-shot transfer to four unseen hand types and, via virtual-hand retargeting, to four parallel grippers.</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Stable success reaches 89.01% on the 18 seen arm–hand combinations and 51.18% on the six held-out pairs, above GRU (31.28%) and DexFormer 1.0 (14.15%).</li><li>With ten unseen YCB objects, held-out pairs still reach 48.85%, 15.67 points above the strongest baseline, GRU (33.18%).</li><li>Increasing training combinations from 12 to 18 raises the fixed held-out set from 5.65% to 51.18%, while removing memory or the kinematic-tree bias drops it to 24.45% and 24.15%.</li><li>On a real Flexiv arm, zero-shot deployed students succeed in 17/25 (68%) trials with Revo3 and 23/25 (92%) with LEAP.</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Data: 24 arm–hand combinations from 4 arms × 6 hands (18 training / 6 held-out), 10 training primitives and 10 unseen YCB objects in Isaac Lab plus a real Flexiv arm; Model: DexFormer 2.0, one shared actor–critic (MorphNode encoder + 3-layer 8-head Transformer-XL with 16-step memory + 29-action masked-Gaussian head) trained with PPO over mixed embodiments.</td></tr>
+</tbody>
+</table>
+
 ### [SimDuoReal: Object-Centric Bimanual Policy for Emergent Dexterity](https://arxiv.org/abs/2611.10410)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -1247,6 +1338,19 @@
 <a id="locomotion" name="locomotion"></a>
 
 ## Locomotion
+
+### [MoViC: Real-Time Humanoid Whole-Body Control from Monocular Video Streams](https://arxiv.org/abs/2611.19998)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">MoViC drives a full-size humanoid's whole-body control from a single live RGB camera in real time by combining SAM 3D Body reconstruction, GMR retargeting, latent-dynamics extrapolation to 50 Hz, and a frequency-domain-conditioned transformer behavior foundation model.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">November 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">The University of Hong Kong + National University of Singapore + Beijing Institute of Technology + EngineAI</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Drives full-size humanoid whole-body control from a single live RGB camera, with no mocap suit or VR headset.</li><li>A 320-dim frequency-domain θ code replaces stacked future frames, shrinking policy input to 1182 dims.</li><li>Latent-dynamics extrapolation bridges 10-Hz visual estimation to 50-Hz control, enabling asynchronous vision and control.</li><li>One transformer policy both tracks highly dynamic dance and performs device-free bimanual/single-arm object teleoperation without task-specific training.</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>Ablation: the θ + single-frame configuration reaches 99% success in MuJoCo versus 95% for ten explicit future frames and 90% for the single-frame baseline, with the lowest MPJPE/MPJVE (0.25 rad / 4.30 rad/s) at a 1182-dim input.</li><li>Real-time reconstruction: SEG attains 117.54 mm MPJPE, 60.14% 3D PCK and 45.49% AUC on EMDB, outperforming GVHMR+GMR on all five metrics.</li><li>Extrapolation: FLD achieves 0.0655 rad position RMSE and 1.2372 rad/s velocity RMSE, well below linear extrapolation's 0.7561 rad / 8.6816 rad/s.</li><li>Hardware: the EngineAI PM01 tracks the highly dynamic Bencaogangmu dance and completes a 139-s continuous bimanual/single-arm pick-carry-place teleoperation session without task-specific training.</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">A reference library retargeted from AMASS, LAFAN1, Motion-X++, OMOMO and self-captured motions to a 24-DoF EngineAI PM01, with a single 4-layer Transformer actor (D=768, 1182-dim input) conditioned on 320-dim frequency-domain codes and trained from scratch with PPO.</td></tr>
+</tbody>
+</table>
 
 ### [STRIDE: Learning Humanoid Locomotion in Minutes with Acceleration-Based Rewards](https://arxiv.org/abs/2611.08857)
 
@@ -1713,6 +1817,19 @@
 
 ## Datasets
 
+### [HubEgo-100K: In-the-Wild Egocentric Video of Skilled Work for Robot Learning](https://arxiv.org/abs/2611.21938)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">HubEgo-100K is a 10,124-hour in-the-wild egocentric video dataset of skilled work recorded by 12,227 contributors in 15,548 environments, released with machine-generated action/language annotations and 100 Hz IMU for robot learning.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">November 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Hub Labs (Hub Data + Inc.) + San Francisco</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>First egocentric dataset focused on real workplace skilled work, spanning 30 work categories and 56 task types</li><li>Contains 10,124 hours of 1080p video with 100 Hz IMU, recorded with head-mounted phones in real workplaces</li><li>Diversity-first: 12,227 contributors across 15,548 environments, with no contributor above 0.22% of hours</li><li>Released in LeRobot v3 and MCAP formats with action and language annotations for all 72,754 episodes under CC BY 4.0</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>v1.0 contains 10,124 hours of 1080p video and 72,754 episodes, recorded by 12,227 contributors in 15,548 environments, with 83% of hours from workplace settings</li><li>Model estimates find at least one hand in 94.7% of sampled frames and both hands in 76.3%, with a 96.9% hours-weighted on-task share</li><li>The native accelerometer/gyroscope rate has a median of 99.98 Hz, 95.6% of episodes fall in 95–105 Hz, and every episode includes IMU</li><li>The effective numbers are 18.9 of 30 work categories, 31.0 of 56 task types and 20.8 of 35 action families, with evenness around 0.85</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">The data comprises 10,124 hours of egocentric video with frame-aligned IMU, covering 12,227 contributors, 15,548 environments and 72,754 episodes with machine-generated action and language annotations; on the model side only a VLM-based annotation pipeline is used, with no policy model trained or released in this version.</td></tr>
+</tbody>
+</table>
+
 ### [ToolDex: An Ego-Exo Human Demonstration Dataset for Creative Physical Tool Use](https://arxiv.org/abs/2611.09036)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -1806,6 +1923,19 @@
 <a id="benchmarks-evaluation" name="benchmarks-evaluation"></a>
 
 ## Benchmarks & Evaluation
+
+### [RoboTeam: Benchmarking Vision-Based Multi-Agent Control of Many Robot Arms in Real Time](https://arxiv.org/abs/2611.22138)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">One-line summary</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">RoboTeam is a real-time MuJoCo benchmark in which multimodal coding agents control 4–16 robot arms from camera images alone to complete 36 long multi-arm tasks.</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Release date</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">November 2026</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Organization</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">The Hong Kong University of Science and Technology + Microsoft</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Highlights</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>36 long multi-arm tasks over four collaboration types, with 4–16 Franka arms in a MuJoCo world stepping every 2 ms.</li><li>The world never pauses for thinking, and agents receive only RGB camera images plus arm state.</li><li>Compares adaptive, single-agent, hierarchical, and decentralized agent systems on time and token cost.</li><li>The ground-truth Oracle completes all 36 tasks with only 0.3% grasp failures.</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Results</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>With the adaptive system gpt-6.1-sol completes 28 of 36 tasks and opus-5.5 completes 27, while the other four models complete at most 3 and no Level 3 task.</li><li>A median task takes gpt-6.1-sol 3.5 hours and 218 million input tokens, and about a third of its steps fail at least once (Relay's median atomic failure rate is 100%).</li><li>Multi-agent systems are 2.3–2.6x faster than the single agent, but hierarchical and decentralized systems use 1.9x and 1.7x its tokens while the single agent takes 1.6x as long.</li><li>Removing code tools or sharp images drops completion from 28 to 13 and 14 tasks; with ground-truth object positions all 36 tasks are completed with only 0.3% grasp failures.</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">Data / Models</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Evaluation runs on 36 MuJoCo multi-arm tasks with 4–16 Franka Panda arms and 14–69 RGB cameras per task, driven by six off-the-shelf multimodal models (gpt-6.1-sol, opus-5.5, and others) through the Codex and Claude Code agent harnesses, with no model training and no disclosed parameter counts.</td></tr>
+</tbody>
+</table>
 
 ### [GAUGE: A Measurement-Grounded Benchmark for Physical Fidelity in Simulation Engines and Video World Models](https://arxiv.org/abs/2608.05948)
 

@@ -12,6 +12,58 @@
 
 ## Embodied Foundation Models
 
+### [Z-sight: Unifying Vision-Language-Action and Latent World Modeling](https://arxiv.org/abs/2611.24940)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Z-sight 将视觉-语言-动作模型与潜空间世界模型统一，在 VLM 原生视觉 token 空间预测未来并与连续动作联合去噪，在 SIMPLE 仿真与真实 Unitree G1 上分别达到 81.9% 和 73.3% 的成功率。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Maven Robotics、南加州大学</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>在 VLM 自身视觉 token 空间预测未来，省去视频生成器与外部编码器</li><li>前视专家与动作专家在混合 Transformer 中联合去噪未来视觉 token</li><li>三阶段训练：<strong>2,000</strong> 小时人类视频预训练 + <strong>2,750</strong> 小时机器人数据中训</li><li>单个动作块推理约 <strong>110</strong> ms，可在单张显卡上实时闭环控制</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>SIMPLE 整体成功率 <strong>81.9%</strong>，比最强基线 GR00T N1.7 高 <strong>9.6</strong> 个百分点，L2 难度仍有 <strong>73.1%</strong>。</li><li>真实 Unitree G1 六项任务平均成功率 <strong>73.3%</strong>（44/60 次），比 Fast-WAM 高 <strong>20.0</strong> 个百分点，进度分 <strong>81.7%</strong>。</li><li>LIBERO 平均 <strong>97.7%</strong>，长程 Long 套件 <strong>96.6%</strong>；RoboTwin 2.0 干净与随机条件为 <strong>82.44%</strong> 与 <strong>39.00%</strong>。</li><li>单张 RTX 4090 上动作块中位延迟 <strong>109.5</strong> ms（摘要记为 <strong>110</strong> ms），快于 π0.5 的 <strong>120.5</strong> ms 与 Fast-WAM 的 <strong>155.9</strong> ms。</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">模型以 Qwen3.5-2B 为骨干、合计 3.18B 参数，在约 2,000 小时人类视频与约 2,750 小时机器人数据上三阶段训练，训练用 32 张 H200、部署于单张 RTX 4090。</td></tr>
+</tbody>
+</table>
+
+### [RoboMorpher: Scaling Robot Morphology Representations for Cross-Embodiment Action Prediction](https://arxiv.org/abs/2611.24816)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">提出形态条件动作分词器，联合重建关节角与连杆位姿，把控制坐标与其运动学效果绑定；基于 4000 万形态–状态对预训练并冻结接入 VLA 策略，实现跨本体动作预测。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">香港大学、香港科技大学（广州）、中山大学、上海交通大学、北京大学、新加坡国立大学</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>提出形态条件动作 tokenizer，联合重建关节角与连杆位姿，把控制坐标与运动学效果绑定</li><li>MorphGen 基于 <strong>33</strong> 个 URDF/MJCF 描述生成 <strong>4000 万</strong> 形态–状态对做运动学预训练</li><li>发布 EmbodiBench：<strong>10</strong> 个桌面任务、每任务 <strong>30</strong> 个生成 URDF，共 <strong>15000</strong> 条示范</li><li>去掉连杆位姿监督后 EmbodiBench 成功率下降 <strong>17.94</strong> 个百分点，验证几何监督价值</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>RoboTwin 2.0（15 任务、5 本体）平均成功率 <strong>56.40%</strong>，比连续关节空间控制高 <strong>9.73</strong> 个百分点</li><li>EmbodiBench（10 任务、每任务 30 个生成 URDF）平均成功率 <strong>23.27%</strong>，比连续关节空间控制高 <strong>15.34</strong> 个百分点</li><li>去掉连杆位姿重建监督，EmbodiBench 成功率下降 <strong>17.94</strong> 个百分点（降至 <strong>5.33%</strong>）</li><li>三个 lifting 任务平均成功率 <strong>55.11%</strong>，而 StarVLA 关节控制仅 <strong>14.00%</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">用 MorphGen 生成的 4000 万形态–状态对预训练形态条件分词器，冻结后与 Qwen3-VL-4B-Instruct、双分支 DiT 组成 VLA 策略，在 RoboTwin 2.0（15 任务、5 本体）与 EmbodiBench（10 任务、每任务 30 个生成 URDF）上训练和评测。</td></tr>
+</tbody>
+</table>
+
+### [SHAPE: Discrete Supervision and Parallel Continuous Streams for Learning Dexterous Manipulation from Egocentric Human Data](https://arxiv.org/abs/2611.24585)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">提出 SHAPE：以末端执行器动作块的离散 FAST token 辅助监督 VLA 骨干，由共享流匹配专家并行输出 EEF 与关节两路可执行动作流，从第一视角人类数据学习双臂灵巧操作。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Sharpa Robotics、香港中文大学、上海交通大学（SJTU-Sharpa 具身智能联合实验室）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>离散 FAST 监督直驱 VLA 骨干，2×2 匹配消融证实其增益</li><li>共享流匹配专家并行输出 EEF 与关节双流，部署可任选</li><li>真机六任务得分 <strong>0.80</strong>，超 π0.5 的 <strong>0.63</strong></li><li>无机器人示范的人到机迁移成功率 <strong>35.0%</strong>（21/60）</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>真机六个带机器人示范的任务上，SHAPE 关节流读出平均得分 <strong>0.80</strong>，高于 π0.5 的 <strong>0.63</strong>（GR00T N1.7 为 0.51）。</li><li>零任务专属机器人示范、仅用人类演示微调的人到机迁移成功率达 <strong>35.0%</strong>（21/60）。</li><li>仿真 GR-1 RoboCasa 24 桌面任务上达到 <strong>72.2%</strong>，高于 π0.5 的 64.8%。</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">数据上预训练混合 2,811 小时第一视角人类录制（320 任务、73,077 片段）与 228 小时机器人遥操作（105 任务、10,505 片段），真机为双臂 7-DoF + 22-DoF 灵巧手平台；模型以 Qwen3-VL-4B 为骨干，接 0.60B 流匹配双流动作专家与 Wan2.1-T2V-1.3B 视频头，训练 40k 步、人机 1:1。</td></tr>
+</tbody>
+</table>
+
+### [ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters](https://arxiv.org/abs/2611.21607)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">提出 ScaleVLA，把冻结的 552B DeepSeek-V4.1-Flash 视觉语言主干与从零训练的动作 DiT 结合，在统一设置下系统比较 2B 至 552B 主干，验证前沿 VLM 表示对机器人策略的价值。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">清华大学、北京大学、上海交通大学、银河通用</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>把冻结的 <strong>552B</strong> DeepSeek-V4.1-Flash 稀疏 MoE 主干接到可训练动作 DiT，统一比较 2B 到 552B 主干</li><li>LIBERO-Goal 仅用 <strong>10</strong> 条示范便达到 <strong>87.8%</strong> 成功率，超过 2B 主干 50 条示范的 <strong>85.6%</strong></li><li>LIBERO-PRO 扰动下平均成功率 <strong>45.1%</strong>，比最强的较小主干高出约 <strong>14</strong> 个百分点</li><li>四块 H200 上每动作块中位延迟仅 <strong>216 ms</strong>，真机插充电器 10 次成功 <strong>9</strong> 次</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>LIBERO 四套件平均成功率 <strong>96.1%</strong>，其中 Goal <strong>96.8%</strong>、Long <strong>90.2%</strong>，为所有对比主干中最高。</li><li>LIBERO-PRO 平均成功率 <strong>45.1%</strong>，高于较小主干最高的 <strong>31.3%</strong>；LIBERO-Goal 用 <strong>10</strong> 条示范即达 <strong>87.8%</strong>（2B 主干 50 条示范为 <strong>85.6%</strong>）。</li><li>RoboCasa Gen-30/Gen-100 成功率分别为 <strong>30.7%</strong> 与 <strong>54.9%</strong>，DexJoCo 物体随机化下平均 <strong>42.1%</strong>、完全随机化 <strong>24.4%</strong>。</li><li>真机插充电器 in-domain 成功 <strong>9/10</strong>（2B 为 <strong>4/10</strong>）、OOD <strong>8/15</strong>，RoboCasa 上每动作块中位延迟 <strong>216 ms</strong>。</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">数据为 LIBERO、LIBERO-PRO、RoboCasa、DexJoCo 仿真与 RoboDojo 真机插充电器示教（303 条、约 52 万帧），模型为冻结的 552B DeepSeek-V4.1-Flash-1017 主干加 32 层流匹配动作 DiT，训练用 64 块 NVIDIA H200。</td></tr>
+</tbody>
+</table>
+
 ### [DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies](https://arxiv.org/abs/2611.10872)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -914,6 +966,45 @@
 <a id="manipulation" name="manipulation"></a>
 ## Manipulation & Teleoperation
 
+### [LuxTac: A Flexible, Scalable, and Open-Source Optical Taxel Array with Distributed Three-Axis Force Sensing for Tactile Robot Learning](https://arxiv.org/abs/2611.23575)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">提出约3.5毫米厚、可扩展的开源柔性光学触觉阵列LuxTac，用16个独立数字RGBC传感器与可更换凝胶卡盒，在单个taxel上实现法向与剪切三轴力感知，并验证其对ACT插孔策略的增益。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">普渡大学、石溪大学、斯蒂文斯理工学院、威斯康星大学麦迪逊分校</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>约<strong>3.5</strong>毫米厚的柔性光学阵列，用现成数字RGBC taxel加多路复用即可任意扩展</li><li>可更换凝胶卡盒把剪切编码为颜色，<strong>16</strong>个taxel各自输出三轴力，中位方向误差<strong>4.8°</strong></li><li>法向卡盒在<strong>104</strong> mN至<strong>5.8</strong> N内线性度<strong>R²=0.999</strong>，重复性<strong>2.0%</strong>、迟滞<strong>5.9%</strong>，归一后taxel间差异6–10%</li><li>把LuxTac压力加入ACT策略，插孔成功率从<strong>40%</strong>升到<strong>87%</strong>，方块分拣仅33%到40%</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>插孔成功率从<strong>40%</strong>（<strong>6/15</strong>）提升至<strong>87%</strong>（<strong>13/15</strong>），Fisher精确检验p=<strong>0.021</strong></li><li>方块分拣仅从<strong>33%</strong>（<strong>5/15</strong>）升至<strong>40%</strong>（<strong>6/15</strong>），p=<strong>1.0</strong>，差异不显著</li><li>法向卡盒在<strong>104 mN</strong>至<strong>5.8 N</strong>内线性度<strong>R²=0.999</strong>，重复性<strong>2.0%</strong>、迟滞<strong>5.9%</strong></li><li>剪切卡盒留出会话三轴力汇总<strong>R²=0.96</strong>/<strong>0.96</strong>/<strong>0.92</strong>，方向中位误差<strong>4.8°</strong>；真机-仿真接触图余弦<strong>0.942</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">在reBot Arm B601加16 taxel柔性光学阵列上，用240次CNC按压与九场次剪切标定训练每taxel两层64单元MLP三轴力模型，并用每任务50条人类演示训练LeRobot默认ACT模仿学习策略。</td></tr>
+</tbody>
+</table>
+
+### [ALOHA Lightning: Learning Fast and Precise Manipulation](https://arxiv.org/abs/2611.21919)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">提出 ALOHA Lightning：以可反驱双臂平台的动觉示教采集接近人类速度的示范，再用测试时动作平滑与手部掩码对齐，让机器人少样本学会快速精确的双臂操作。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">斯坦福大学</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>可反驱双臂平台配实时重力补偿，动觉示教直接采集接近人类速度的示范，无需遥操作主臂</li><li>每任务仅需 <strong>50</strong> 条示范，即可学会抛接球、折短裤、插电池、收桌等高速双臂技能</li><li>测试时动作分块平滑 + 基于正运动学的实时手部掩码，解决高速抖动与示教/部署视觉域偏移</li><li>四个任务成功率超 <strong>80%</strong>（<strong>85%</strong>–<strong>100%</strong>），速度比遥操作快 <strong>50%</strong> 以上，抛接球仅 <strong>1.85</strong> 秒</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>每任务 <strong>50</strong> 条示范下，Unstack Cups / Battery Insertion / Bus Table / Fold Shorts 成功率分别为 <strong>90%</strong>、<strong>85%</strong>、<strong>100%</strong>、<strong>100%</strong>，均超 80%</li><li>Toss & Catch 成功率 <strong>50%</strong>，完成时间仅 <strong>1.85</strong> 秒</li><li>相较遥操作（Puppeteering），执行时间缩短 <strong>50%</strong> 以上，电池插入由 <strong>17.87</strong> 秒降至 <strong>5.70</strong> 秒</li><li>测试时平滑相比 Temporal Ensembling 将 Unstack Cups 成功率从 <strong>35%</strong> 提升到 <strong>90%</strong>，耗时由 <strong>7.75</strong> 秒降至 <strong>3.97</strong> 秒</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">5 个真实双臂任务、每任务 50 条动觉示教示范（3 路 50Hz RGB 图像与关节位置/速度），用于训练 ACT 动作分块策略。</td></tr>
+</tbody>
+</table>
+
+### [DexFormer 2.0: Towards a Cross-Embodiment Foundation Policy for Dexterous Grasping](https://arxiv.org/abs/2611.20273)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">提出 DexFormer 2.0，用单一强化学习策略统一控制 4 种机械臂与 6 种灵巧手组成的 24 种臂–手组合，并零样本迁移到未见组合、新手型与平行夹爪。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">香港科技大学（广州）、BrainCo、重庆大学、武汉大学</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>单一 PPO 策略控制 <strong>4</strong> 臂 × <strong>6</strong> 手共 <strong>24</strong> 种臂–手组合，无需为每种组合单独训练。</li><li>规范关节槽位配合有效性掩码，统一异构机器人的观测与动作接口。</li><li>MorphNode 拓扑偏置注意力加 <strong>16</strong> 步 Transformer-XL 记忆，显式编码本体形态与动力学。</li><li>零样本迁移到 <strong>4</strong> 种未见机械手，并可经虚拟手重定向驱动平行夹爪。</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>已见臂–手组合稳定成功率 <strong>89.01%</strong>，6 个留出组合 <strong>51.18%</strong>，高于 GRU 的 31.28% 与 DexFormer 1.0 的 14.15%。</li><li>对象换成 10 个未见 YCB 物体时，留出组合仍达 <strong>48.85%</strong>，比最强基线 GRU（33.18%）高 15.67 个百分点。</li><li>训练组合数由 12 增至 18，固定留出集成功率从 5.65% 升到 <strong>51.18%</strong>；去掉记忆或运动树偏置则降至 <strong>24.45%</strong> 与 24.15%。</li><li>真机 Flexiv 臂零样本部署：Revo3 手 <strong>17/25（68%）</strong>、LEAP 手 <strong>23/25（92%）</strong> 试验成功。</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">数据为 4 臂 × 6 手共 24 种臂–手组合（18 训练 / 6 留出）、10 个基础几何训练物体与 10 个未见 YCB 测试物体，在 Isaac Lab 仿真并在 Flexiv 真机验证；模型 DexFormer 2.0 是单一共享 actor–critic（MorphNode 编码 + 3 层 8 头 Transformer-XL + 29 维掩码高斯动作头），用 PPO 在多本体混合数据上训练。</td></tr>
+</tbody>
+</table>
+
 ### [SimDuoReal: Object-Centric Bimanual Policy for Emergent Dexterity](https://arxiv.org/abs/2611.10410)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -1240,6 +1331,19 @@
 - ★ **[CVPR 2018年12月](https://arxiv.org/abs/1812.02713)** PartNet: A Large-Scale Benchmark for Fine-Grained and Hierarchical Part-Level 3D Object Understanding. 细粒度部件级3D物体理解基准.
 <a id="locomotion" name="locomotion"></a>
 ## Locomotion
+
+### [MoViC: Real-Time Humanoid Whole-Body Control from Monocular Video Streams](https://arxiv.org/abs/2611.19998)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">提出 MoViC，仅凭单目 RGB 视频实时驱动人形机器人全身运动：在线重建并重定向人体动作，用频域运动编码与 Transformer 行为基础模型跟踪参考，无需穿戴设备。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">香港大学、新加坡国立大学、北京理工大学、众擎机器人（EngineAI）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>仅用单目 RGB 视频即可驱动人形全身控制，无需动捕服或 VR 头显等穿戴设备。</li><li>以 <strong>320</strong> 维频域 θ 编码替代堆叠未来帧，策略输入降到 <strong>1182</strong> 维。</li><li>潜动力学外推把 <strong>10</strong> Hz 视觉估计补到 <strong>50</strong> Hz，视觉与控制异步运行。</li><li>同一 Transformer 策略兼做高动态舞蹈跟踪与免任务训练的双臂/单臂物体遥操作。</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>消融：θ 单帧参考在 MuJoCo 中成功率达 <strong>99%</strong>，高于 10 帧显式前瞻的 <strong>95%</strong> 与单帧基线的 90%，MPJPE/MPJVE 最低（0.25 rad / 4.30 rad/s），输入维度降至 1182。</li><li>实时重建：SEG 在 EMDB 上 MPJPE <strong>117.54</strong> mm、3D PCK <strong>60.14%</strong>、AUC 45.49%，五项指标均优于 GVHMR+GMR。</li><li>外推：频率潜动力学（FLD）位置 RMSE <strong>0.0655</strong> rad、速度 RMSE 1.2372 rad/s，明显优于线性外推的 0.7561 rad / 8.6816 rad/s。</li><li>真机：EngineAI PM01 完成 Bencaogangmu 高动态舞蹈跟踪与 <strong>139</strong> s 连续双臂/单臂物体取放遥操作，无需任务级训练。</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">以 AMASS、LAFAN1、Motion-X++、OMOMO 及自采动作重定向到 24 自由度 EngineAI PM01 作参考库，用 320 维频域编码器加 4 层 Transformer（D=768、1182 维输入）的单一策略经 PPO 从零训练。</td></tr>
+</tbody>
+</table>
 
 ### [STRIDE: Learning Humanoid Locomotion in Minutes with Acceleration-Based Rewards](https://arxiv.org/abs/2611.08857)
 
@@ -1697,6 +1801,19 @@
 <a id="datasets" name="datasets"></a>
 ## Datasets
 
+### [HubEgo-100K: In-the-Wild Egocentric Video of Skilled Work for Robot Learning](https://arxiv.org/abs/2611.21938)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">论文发布 HubEgo-100K 第一视角视频数据集 v1.0，收录 10,124 小时真实职场技能工作视频与同步 100 Hz IMU，来自 12,227 名采集者的 15,548 个环境，含机器生成动作与语言标注，面向机器人模仿学习预训练。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">Hub Labs（旧金山）</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>面向真实职场技能工作的第一视角数据集，覆盖 <strong>30</strong> 个工作类别与 <strong>56</strong> 种任务类型</li><li>含 <strong>10,124</strong> 小时 1080p 视频与 <strong>100 Hz</strong> IMU，由采集者头戴手机在真实工作场所录制</li><li>多样性优先：<strong>12,227</strong> 名采集者、<strong>15,548</strong> 个环境，无单一采集者超过 <strong>0.22%</strong> 的小时</li><li>以 LeRobot v3 与 MCAP 格式发布，<strong>72,754</strong> 个 episode 均带动作与语言标注，许可为 CC BY 4.0</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>v1.0 含 <strong>10,124</strong> 小时 1080p 第一视角视频与 <strong>72,754</strong> 个 episode，由 <strong>12,227</strong> 名采集者在 <strong>15,548</strong> 个环境录制，<strong>83%</strong> 的小时在职场场景</li><li>模型估计至少一只手出现在 <strong>94.7%</strong> 的采样帧、双手出现在 <strong>76.3%</strong>，按小时加权的在任务占比为 <strong>96.9%</strong></li><li>原生加速度计与陀螺仪采样率中位数为 <strong>99.98 Hz</strong>，<strong>95.6%</strong> 的 episode 落在 95–105 Hz，全部 episode 均含 IMU</li><li>30 个工作类别、56 种任务类型、35 个动作族的有效数量分别为 <strong>18.9</strong>、<strong>31.0</strong>、<strong>20.8</strong>，小时分布均匀度约 <strong>0.85</strong></li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">数据为 10,124 小时第一视角视频加每帧对齐 IMU，覆盖 12,227 名采集者、15,548 个环境与 72,754 个带机器生成动作/语言标注的 episode；模型侧仅用视觉语言模型管线自动标注，本版未训练或发布策略模型。</td></tr>
+</tbody>
+</table>
+
 ### [ToolDex: An Ego-Exo Human Demonstration Dataset for Creative Physical Tool Use](https://arxiv.org/abs/2611.09036)
 
 <table style="width:100%;table-layout:fixed" width="100%">
@@ -1776,6 +1893,19 @@
 <a id="benchmarks-evaluation" name="benchmarks-evaluation"></a>
 
 ## Benchmarks & Evaluation
+
+### [RoboTeam: Benchmarking Vision-Based Multi-Agent Control of Many Robot Arms in Real Time](https://arxiv.org/abs/2611.22138)
+
+<table style="width:100%;table-layout:fixed" width="100%">
+<tbody>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">一句话摘要</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">提出 RoboTeam 仿真基准，让多模态智能体仅凭相机图像、在实时不暂停的 MuJoCo 世界中协同控制 4 至 16 台机械臂完成 36 项长时程任务。</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">发布时间</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">2026 年 11 月</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">机构</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">香港科技大学、微软</td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">特点</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li><strong>36</strong> 个长时程多臂任务，覆盖转运、拼图、接力、转阀四类真实多机协作。</li><li>世界实时推进不暂停，智能体只能拿到 RGB 相机图像与机械臂状态。</li><li>对比自适应、单智能体、层级式、去中心式四种智能体系统的时间与 token 代价。</li><li>真值位姿 Oracle 完成全部 <strong>36</strong> 个任务，抓取失败率仅 <strong>0.3%</strong>。</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">实验结论</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640"><ul><li>gpt-6.1-sol 在自适应系统下完成 <strong>28</strong>/36 个任务，opus-5.5 完成 <strong>27</strong> 个，其余四个模型最多完成 <strong>3</strong> 个且无 Level 3 任务。</li><li>最优模型典型任务耗时 <strong>3.5</strong> 小时、消耗 <strong>2.18</strong> 亿输入 token，约三分之一步骤至少失败一次（Relay 中位原子失败率 100%）。</li><li>多智能体系统比单智能体快 2.3–2.6 倍，但层级式/去中心式 token 用量为自适应的 <strong>1.9</strong>/1.7 倍，单智能体总耗时为其 <strong>1.6</strong> 倍。</li><li>移除代码工具或降低图像分辨率，完成任务数从 28 降至 <strong>13</strong> 和 <strong>14</strong>；真值位姿下 36 个任务全完成、抓取失败率仅 <strong>0.3%</strong>。</li></ul></td></tr>
+<tr><td style="width:110px;min-width:110px;max-width:110px" width="110">数据 / 模型</td><td style="word-wrap:break-word;width:640px;min-width:640px;max-width:640px" width="640">在 MuJoCo 中以 36 个任务、4–16 台 Franka Panda 机械臂和每任务 14–69 路相机作评测环境，agent 侧为 gpt-6.1-sol、opus-5.5 等 6 个现成多模态模型，经 Codex/Claude Code 框架驱动，未训练也未披露参数规模。</td></tr>
+</tbody>
+</table>
 
 ### [GAUGE: A Measurement-Grounded Benchmark for Physical Fidelity in Simulation Engines and Video World Models](https://arxiv.org/abs/2608.05948)
 
