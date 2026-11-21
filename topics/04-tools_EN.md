@@ -133,6 +133,9 @@
 - **EmbodiedCity** — [`github.com/tsinghua-fib-lab/EmbodiedCity`](https://github.com/tsinghua-fib-lab/EmbodiedCity)
   📄 An embodied intelligence platform for real-world open environments. Built by Tsinghua University on Unreal Engine 5, supporting online/offline deployment for navigation and task planning in urban settings.
 
+- **Elastra** — [`github.com/WhymustIhaveaname/elastra`](https://github.com/WhymustIhaveaname/elastra)
+  📄 MuJoCo simulation of elastic surfaces such as mattresses and trampolines, for training robot policies.
+
 - **Gazebo Sim** — [`gazebosim.org`](https://gazebosim.org)
   📄 A high-fidelity open-source robot simulator supporting multiple physics engines (ODE, Bullet, DART) with realistic rendering and sensor models, widely used in the ROS ecosystem.
 

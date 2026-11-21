@@ -133,6 +133,9 @@
 - **EmbodiedCity** — [`github.com/tsinghua-fib-lab/EmbodiedCity`](https://github.com/tsinghua-fib-lab/EmbodiedCity)
   📄 真实开放环境具身智能平台。清华大学发布，基于虚幻引擎5打造真实城市环境，提供在线和离线两种部署方式，支持智能体在开放城市中进行导航与任务规划。
 
+- **Elastra** — [`github.com/WhymustIhaveaname/elastra`](https://github.com/WhymustIhaveaname/elastra)
+  📄 在 MuJoCo 中模拟床垫、蹦床等弹性表面，用于训练机器人策略。
+
 - **Gazebo Sim** — [`gazebosim.org`](https://gazebosim.org)
   📄 高保真度开源机器人仿真器，支持多种物理引擎（ODE、Bullet、DART），提供逼真渲染和传感器模型，是 ROS 生态中的主流仿真平台之一。
 
